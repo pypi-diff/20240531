@@ -511,3 +511,54 @@
 [2024-05-31 00:16:33] INFO root fetch - processPackages [hierarchical-state-machine]: Remove: archive file [/home/abi/fetcher/tmp/hierarchical_state_machine-1.0.3.tar.gz]
 [2024-05-31 00:16:33] INFO root fetch - main [MainThread]: End processing [hierarchical-state-machine]: success
 [2024-05-31 00:16:33] INFO root fetch - main [MainThread]: Store serial: [23457463]
+[2024-05-31 00:18:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457463]
+[2024-05-31 00:18:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 00:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-31 00:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linpgtoolbox
+[2024-05-31 00:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyluba
+[2024-05-31 00:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muttfuzz
+[2024-05-31 00:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ralium
+[2024-05-31 00:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snippets2changelog
+[2024-05-31 00:18:42] WARNING root fetch - processPackages [snippets2changelog]: Skipping, unable to determine old version
+[2024-05-31 00:18:42] INFO root fetch - main [MainThread]: End processing [snippets2changelog] error
+[2024-05-31 00:18:42] INFO root fetch - processPackages [muttfuzz]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-31 00:18:42] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 00:18:42] INFO root fetch - processPackages [flatpack]: New version: [3.5.9] Old Version: [3.5.8]
+[2024-05-31 00:18:42] INFO root fetch - processPackages [linpgtoolbox]: New version: [24.6] Old Version: [24.2]
+[2024-05-31 00:18:42] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/cf/19/c4da27dc3ef2b5287de6891e587b1ae4696f2214592c8d4abe897dfd0f6a/muttfuzz-0.8.8-py3-none-any.whl
+[2024-05-31 00:18:42] INFO root fetch - processPackages [ralium]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-31 00:18:42] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-31 00:18:42] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/0d/a9/8502480e2c2eb0cf1d5c96124b696b315ecaac8fbeabcea4683232791237/flatpack-3.5.8.tar.gz
+[2024-05-31 00:18:42] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-31 00:18:42] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/d8/91/c9da419dc0b7492b44a9d95f36b27829ce600621fa73894b210c81dadbcd/flatpack-3.5.9.tar.gz
+[2024-05-31 00:18:42] INFO root fetch - processPackages [muttfuzz]: Downloading https://files.pythonhosted.org/packages/3e/70/3ecf10505ff6c2c47a2888ce989a7fcc775103a834ed7d4ad590af752259/muttfuzz-0.8.9-py3-none-any.whl
+[2024-05-31 00:18:42] INFO root fetch - processPackages [linpgtoolbox]: Downloading https://files.pythonhosted.org/packages/0a/88/3a2dfd754ebbe5d87cae33996297d2ba04bafecd2b3fc626acf679526f61/linpgtoolbox-24.2-cp312-cp312-win_amd64.whl
+[2024-05-31 00:18:42] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/ed/ed/594c603b03c67835dd0d3d319d3d371678157f871d10ed7324c25021744a/ralium-2.1.4.tar.gz
+[2024-05-31 00:18:42] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-31 00:18:42] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240531/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 00:18:42] INFO root fetch - processPackages [muttfuzz]: executing diffoscope
+[2024-05-31 00:18:42] INFO root fetch - processPackages [muttfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muttfuzz-0.8.8-py3-none-any.whl.zip tmp/muttfuzz-0.8.9-py3-none-any.whl.zip --markdown 20240531/m/muttfuzz/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-31 00:18:42] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-31 00:18:42] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.5.8.tar.gz tmp/flatpack-3.5.9.tar.gz --markdown 20240531/f/flatpack/3.5.8-3.5.9/README.md --exclude *.pyd
+[2024-05-31 00:18:42] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/a0/39/c1d93670f81190010089d40b6101b46e1561315e5620bfc79854ec45a5fa/ralium-2.1.5.tar.gz
+[2024-05-31 00:18:42] INFO root fetch - processPackages [linpgtoolbox]: Downloading https://files.pythonhosted.org/packages/bb/5c/360fb5f4544ce899d9eaa01620f67e07cfa74c98158ce5abe3e2f4598149/linpgtoolbox-24.6-cp312-cp312-win_amd64.whl
+[2024-05-31 00:18:42] INFO root fetch - processPackages [ralium]: executing diffoscope
+[2024-05-31 00:18:42] INFO root fetch - processPackages [ralium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralium-2.1.4.tar.gz tmp/ralium-2.1.5.tar.gz --markdown 20240531/r/ralium/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-31 00:18:42] INFO root fetch - processPackages [linpgtoolbox]: executing diffoscope
+[2024-05-31 00:18:42] INFO root fetch - processPackages [linpgtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linpgtoolbox-24.2-cp312-cp312-win_amd64.whl.zip tmp/linpgtoolbox-24.6-cp312-cp312-win_amd64.whl.zip --markdown 20240531/l/linpgtoolbox/24.2-24.6/README.md --exclude *.pyd
+[2024-05-31 00:18:43] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.8.tar.gz]
+[2024-05-31 00:18:43] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.9.tar.gz]
+[2024-05-31 00:18:43] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-31 00:18:43] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-31 00:18:43] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-31 00:18:43] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-31 00:18:43] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.8-py3-none-any.whl.zip]
+[2024-05-31 00:18:43] INFO root fetch - processPackages [muttfuzz]: Remove: archive file [/home/abi/fetcher/tmp/muttfuzz-0.8.9-py3-none-any.whl.zip]
+[2024-05-31 00:18:43] INFO root fetch - main [MainThread]: End processing [muttfuzz]: success
+[2024-05-31 00:18:43] INFO root fetch - processPackages [linpgtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/linpgtoolbox-24.2-cp312-cp312-win_amd64.whl.zip]
+[2024-05-31 00:18:43] INFO root fetch - processPackages [linpgtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/linpgtoolbox-24.6-cp312-cp312-win_amd64.whl.zip]
+[2024-05-31 00:18:43] INFO root fetch - main [MainThread]: End processing [linpgtoolbox]: success
+[2024-05-31 00:18:43] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-2.1.4.tar.gz]
+[2024-05-31 00:18:43] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-2.1.5.tar.gz]
+[2024-05-31 00:18:43] INFO root fetch - main [MainThread]: End processing [ralium]: success
+[2024-05-31 00:18:43] INFO root fetch - main [MainThread]: Store serial: [23457488]
