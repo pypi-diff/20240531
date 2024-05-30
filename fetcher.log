@@ -28,3 +28,53 @@
 [2024-05-31 00:01:21] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.0.tar.gz]
 [2024-05-31 00:01:21] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
 [2024-05-31 00:01:21] INFO root fetch - main [MainThread]: Store serial: [23457289]
+[2024-05-31 00:03:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457289]
+[2024-05-31 00:03:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 00:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ski-lint
+[2024-05-31 00:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indic-num2words
+[2024-05-31 00:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gradio
+[2024-05-31 00:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mayafbx
+[2024-05-31 00:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-db
+[2024-05-31 00:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Simple-Space
+[2024-05-31 00:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skeletonkey
+[2024-05-31 00:03:30] INFO root fetch - processPackages [Simple-Space]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-31 00:03:30] INFO root fetch - processPackages [gradio]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-05-31 00:03:30] WARNING root fetch - processPackages [mayafbx]: Skipping, unable to determine old version
+[2024-05-31 00:03:30] INFO root fetch - main [MainThread]: End processing [mayafbx] error
+[2024-05-31 00:03:30] INFO root fetch - processPackages [Simple-Space]: Downloading https://files.pythonhosted.org/packages/16/f8/42bd46afec2ad41ecba2070730fcebc725fd43e3b30cfa6d8fdb24111319/simple_space-0.5.0.tar.gz
+[2024-05-31 00:03:30] WARNING root fetch - processPackages [ski-lint]: Skipping, unable to determine old version
+[2024-05-31 00:03:30] INFO root fetch - main [MainThread]: End processing [ski-lint] error
+[2024-05-31 00:03:30] INFO root fetch - processPackages [pypomes-db]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 00:03:30] INFO root fetch - processPackages [indic-num2words]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-31 00:03:30] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/eb/a2/56c39c590c6c0e5d2583115b6e478de4bf1c9aa42b45cc47d81d88f93665/gradio-4.9.0.tar.gz
+[2024-05-31 00:03:30] INFO root fetch - processPackages [skeletonkey]: New version: [0.3.0.0] Old Version: [0.2.13]
+[2024-05-31 00:03:30] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 26124496>=10485760
+[2024-05-31 00:03:30] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2024-05-31 00:03:30] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/5c/63/3bb301fdbb9386071fcf91aa8406ea18102d41aa3f235ceb3133c1a846dc/pypomes_db-0.9.0.tar.gz
+[2024-05-31 00:03:30] INFO root fetch - processPackages [skeletonkey]: Downloading https://files.pythonhosted.org/packages/1c/a6/a017954c79d6233cfb0b0f9cf58c0cb3eccdf52b2a7e7155e737540cae33/skeletonkey-0.2.13.tar.gz
+[2024-05-31 00:03:30] INFO root fetch - processPackages [indic-num2words]: Downloading https://files.pythonhosted.org/packages/1c/85/2cee418a428198ec247d32f8b36431d005011089efdbd331d0f82a3aaadb/indic_num2words-1.2.1.tar.gz
+[2024-05-31 00:03:30] INFO root fetch - processPackages [Simple-Space]: Downloading https://files.pythonhosted.org/packages/e3/0e/45c3b0f373b88101ceeeb09e82ed408d97bb7bc13807484190401e571634/simple_space-0.6.0.tar.gz
+[2024-05-31 00:03:30] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/57/a2/f4a90b8756fe1625401eed7f0006d1736808025081a6f0ec4b4297230fdd/pypomes_db-0.9.1.tar.gz
+[2024-05-31 00:03:30] INFO root fetch - processPackages [Simple-Space]: executing diffoscope
+[2024-05-31 00:03:30] INFO root fetch - processPackages [Simple-Space]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_space-0.5.0.tar.gz tmp/simple_space-0.6.0.tar.gz --markdown 20240531/S/Simple-Space/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-31 00:03:30] INFO root fetch - processPackages [indic-num2words]: Downloading https://files.pythonhosted.org/packages/42/a0/d6c3cac5cce0d74a3249a84e16fc81280e0aac715fad839647ac6788890b/indic_num2words-1.2.2.tar.gz
+[2024-05-31 00:03:30] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-31 00:03:30] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.9.0.tar.gz tmp/pypomes_db-0.9.1.tar.gz --markdown 20240531/p/pypomes-db/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 00:03:30] INFO root fetch - processPackages [skeletonkey]: Downloading https://files.pythonhosted.org/packages/95/fe/8e565a29bce51936350a2acba47e5bef97340dc2ebc05eefe2212632f6e4/skeletonkey-0.3.0.0.tar.gz
+[2024-05-31 00:03:30] INFO root fetch - processPackages [indic-num2words]: executing diffoscope
+[2024-05-31 00:03:30] INFO root fetch - processPackages [indic-num2words]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indic_num2words-1.2.1.tar.gz tmp/indic_num2words-1.2.2.tar.gz --markdown 20240531/i/indic-num2words/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-31 00:03:31] INFO root fetch - processPackages [skeletonkey]: executing diffoscope
+[2024-05-31 00:03:31] INFO root fetch - processPackages [skeletonkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skeletonkey-0.2.13.tar.gz tmp/skeletonkey-0.3.0.0.tar.gz --markdown 20240531/s/skeletonkey/0.2.13-0.3.0.0/README.md --exclude *.pyd
+[2024-05-31 00:03:31] INFO root fetch - processPackages [Simple-Space]: Remove: archive file [/home/abi/fetcher/tmp/simple_space-0.5.0.tar.gz]
+[2024-05-31 00:03:31] INFO root fetch - processPackages [Simple-Space]: Remove: archive file [/home/abi/fetcher/tmp/simple_space-0.6.0.tar.gz]
+[2024-05-31 00:03:31] INFO root fetch - main [MainThread]: End processing [Simple-Space]: success
+[2024-05-31 00:03:31] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.0.tar.gz]
+[2024-05-31 00:03:31] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.1.tar.gz]
+[2024-05-31 00:03:31] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-31 00:03:31] INFO root fetch - processPackages [indic-num2words]: Remove: archive file [/home/abi/fetcher/tmp/indic_num2words-1.2.1.tar.gz]
+[2024-05-31 00:03:31] INFO root fetch - processPackages [indic-num2words]: Remove: archive file [/home/abi/fetcher/tmp/indic_num2words-1.2.2.tar.gz]
+[2024-05-31 00:03:31] INFO root fetch - main [MainThread]: End processing [indic-num2words]: success
+[2024-05-31 00:03:31] INFO root fetch - processPackages [skeletonkey]: Remove: archive file [/home/abi/fetcher/tmp/skeletonkey-0.2.13.tar.gz]
+[2024-05-31 00:03:31] INFO root fetch - processPackages [skeletonkey]: Remove: archive file [/home/abi/fetcher/tmp/skeletonkey-0.3.0.0.tar.gz]
+[2024-05-31 00:03:31] INFO root fetch - main [MainThread]: End processing [skeletonkey]: success
+[2024-05-31 00:03:31] INFO root fetch - main [MainThread]: Store serial: [23457314]
