@@ -1033,3 +1033,57 @@
 [2024-05-31 00:40:39] INFO root fetch - processPackages [cherche]: Remove: archive file [/home/abi/fetcher/tmp/cherche-2.1.0.tar.gz]
 [2024-05-31 00:40:39] INFO root fetch - main [MainThread]: End processing [cherche]: success
 [2024-05-31 00:40:39] INFO root fetch - main [MainThread]: Store serial: [23457695]
+[2024-05-31 00:42:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457695]
+[2024-05-31 00:42:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 00:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kayalab
+[2024-05-31 00:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opengamedata-core
+[2024-05-31 00:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: perun.proxy.utils
+[2024-05-31 00:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: replete
+[2024-05-31 00:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OdfEdit
+[2024-05-31 00:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MultiCalib
+[2024-05-31 00:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rstms-mailgun
+[2024-05-31 00:42:48] INFO root fetch - processPackages [kayalab]: New version: [0.7.9] Old Version: [0.7.7]
+[2024-05-31 00:42:48] INFO root fetch - processPackages [opengamedata-core]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 00:42:48] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/68/63/0a29e7525b1f3462acb2531260d984867651bdccb876b75329d58bfa520d/kayalab-0.7.7.tar.gz
+[2024-05-31 00:42:48] INFO root fetch - processPackages [opengamedata-core]: Downloading https://files.pythonhosted.org/packages/83/84/92586f7d72c31d3e529dd2f9c8bd32d29f3cf2838e91f4cd60f1efcd5b03/opengamedata_core-0.0.5.tar.gz
+[2024-05-31 00:42:48] INFO root fetch - processPackages [perun.proxy.utils]: New version: [2.7.4] Old Version: [2.7.3]
+[2024-05-31 00:42:48] INFO root fetch - processPackages [replete]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-31 00:42:48] INFO root fetch - processPackages [rstms-mailgun]: New version: [1.1.1] Old Version: [1.0.2]
+[2024-05-31 00:42:48] WARNING root fetch - processPackages [MultiCalib]: Skipping, unable to determine old version
+[2024-05-31 00:42:48] INFO root fetch - main [MainThread]: End processing [MultiCalib] error
+[2024-05-31 00:42:48] WARNING root fetch - processPackages [OdfEdit]: Skipping, unable to determine old version
+[2024-05-31 00:42:48] INFO root fetch - main [MainThread]: End processing [OdfEdit] error
+[2024-05-31 00:42:48] INFO root fetch - processPackages [rstms-mailgun]: Downloading https://files.pythonhosted.org/packages/54/41/d26bf873eae3e9956a66195ee1e056c3b01dadf3ff2548c379506555fd52/rstms_mailgun-1.0.2.tar.gz
+[2024-05-31 00:42:48] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/07/fc/9148dda25b5ce5ccd29d14b584ea9eb6f95c51ee34626effa22233e830ce/perun.proxy.utils-2.7.3.tar.gz
+[2024-05-31 00:42:48] INFO root fetch - processPackages [replete]: Downloading https://files.pythonhosted.org/packages/b7/3e/3d5309200acb46e5686dd10fd89b53c800b2bd911ea01b70939deff70852/replete-2.2.0.tar.gz
+[2024-05-31 00:42:49] INFO root fetch - processPackages [opengamedata-core]: Downloading https://files.pythonhosted.org/packages/c1/e1/758fb19c40e67022a84815c89ff690dd634e90f540488c9c81275380fb11/opengamedata_core-0.0.6.tar.gz
+[2024-05-31 00:42:49] INFO root fetch - processPackages [opengamedata-core]: executing diffoscope
+[2024-05-31 00:42:49] INFO root fetch - processPackages [opengamedata-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengamedata_core-0.0.5.tar.gz tmp/opengamedata_core-0.0.6.tar.gz --markdown 20240531/o/opengamedata-core/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 00:42:49] INFO root fetch - processPackages [kayalab]: Downloading https://files.pythonhosted.org/packages/48/39/39e758163c554700194cf72c42f0290287f1336d791be5766d519f7b266c/kayalab-0.7.9.tar.gz
+[2024-05-31 00:42:49] INFO root fetch - processPackages [rstms-mailgun]: Downloading https://files.pythonhosted.org/packages/ac/f2/7905f5210a755741235597ef708f3078440144e90c82c3696920b3b89807/rstms_mailgun-1.1.1.tar.gz
+[2024-05-31 00:42:49] INFO root fetch - processPackages [perun.proxy.utils]: Downloading https://files.pythonhosted.org/packages/c2/00/ee683e559f5b12fa7bd9638326b4839e79acb148571fb15b85ad639a9f4c/perun.proxy.utils-2.7.4.tar.gz
+[2024-05-31 00:42:49] INFO root fetch - processPackages [perun.proxy.utils]: executing diffoscope
+[2024-05-31 00:42:49] INFO root fetch - processPackages [perun.proxy.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxy.utils-2.7.3.tar.gz tmp/perun.proxy.utils-2.7.4.tar.gz --markdown 20240531/p/perun.proxy.utils/2.7.3-2.7.4/README.md --exclude *.pyd
+[2024-05-31 00:42:49] INFO root fetch - processPackages [replete]: Downloading https://files.pythonhosted.org/packages/50/7a/f3d9953a0fcbcb91386ca84967cf7f0d688ac53cf3c7ea15ffb902aff9ee/replete-2.3.0.tar.gz
+[2024-05-31 00:42:49] INFO root fetch - processPackages [rstms-mailgun]: executing diffoscope
+[2024-05-31 00:42:49] INFO root fetch - processPackages [rstms-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstms_mailgun-1.0.2.tar.gz tmp/rstms_mailgun-1.1.1.tar.gz --markdown 20240531/r/rstms-mailgun/1.0.2-1.1.1/README.md --exclude *.pyd
+[2024-05-31 00:42:49] INFO root fetch - processPackages [kayalab]: executing diffoscope
+[2024-05-31 00:42:49] INFO root fetch - processPackages [kayalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kayalab-0.7.7.tar.gz tmp/kayalab-0.7.9.tar.gz --markdown 20240531/k/kayalab/0.7.7-0.7.9/README.md --exclude *.pyd
+[2024-05-31 00:42:49] INFO root fetch - processPackages [replete]: executing diffoscope
+[2024-05-31 00:42:49] INFO root fetch - processPackages [replete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replete-2.2.0.tar.gz tmp/replete-2.3.0.tar.gz --markdown 20240531/r/replete/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-05-31 00:42:50] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-2.7.3.tar.gz]
+[2024-05-31 00:42:50] INFO root fetch - processPackages [perun.proxy.utils]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxy.utils-2.7.4.tar.gz]
+[2024-05-31 00:42:50] INFO root fetch - main [MainThread]: End processing [perun.proxy.utils]: success
+[2024-05-31 00:42:50] INFO root fetch - processPackages [rstms-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/rstms_mailgun-1.0.2.tar.gz]
+[2024-05-31 00:42:50] INFO root fetch - processPackages [rstms-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/rstms_mailgun-1.1.1.tar.gz]
+[2024-05-31 00:42:50] INFO root fetch - main [MainThread]: End processing [rstms-mailgun]: success
+[2024-05-31 00:42:50] INFO root fetch - processPackages [replete]: Remove: archive file [/home/abi/fetcher/tmp/replete-2.2.0.tar.gz]
+[2024-05-31 00:42:50] INFO root fetch - processPackages [replete]: Remove: archive file [/home/abi/fetcher/tmp/replete-2.3.0.tar.gz]
+[2024-05-31 00:42:50] INFO root fetch - main [MainThread]: End processing [replete]: success
+[2024-05-31 00:42:51] INFO root fetch - processPackages [opengamedata-core]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_core-0.0.5.tar.gz]
+[2024-05-31 00:42:51] INFO root fetch - processPackages [opengamedata-core]: Remove: archive file [/home/abi/fetcher/tmp/opengamedata_core-0.0.6.tar.gz]
+[2024-05-31 00:42:51] INFO root fetch - main [MainThread]: End processing [opengamedata-core]: success
+[2024-05-31 00:42:52] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.7.tar.gz]
+[2024-05-31 00:42:52] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
+[2024-05-31 00:42:52] INFO root fetch - main [MainThread]: End processing [kayalab]: success
+[2024-05-31 00:42:52] INFO root fetch - main [MainThread]: Store serial: [23457721]
