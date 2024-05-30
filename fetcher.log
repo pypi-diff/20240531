@@ -1087,3 +1087,33 @@
 [2024-05-31 00:42:52] INFO root fetch - processPackages [kayalab]: Remove: archive file [/home/abi/fetcher/tmp/kayalab-0.7.9.tar.gz]
 [2024-05-31 00:42:52] INFO root fetch - main [MainThread]: End processing [kayalab]: success
 [2024-05-31 00:42:52] INFO root fetch - main [MainThread]: Store serial: [23457721]
+[2024-05-31 00:44:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457721]
+[2024-05-31 00:45:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 00:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unibox
+[2024-05-31 00:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-custom-outputs
+[2024-05-31 00:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beforerr
+[2024-05-31 00:45:01] INFO root fetch - processPackages [beforerr]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-31 00:45:01] INFO root fetch - processPackages [pytest-custom-outputs]: New version: [0.2.1] Old Version: [0.1.2]
+[2024-05-31 00:45:01] INFO root fetch - processPackages [pytest-custom-outputs]: Downloading https://files.pythonhosted.org/packages/96/00/2a964b9f51a505dd11b2ff93a5fd1ceb5ecabd164cb912d9abf87c544dea/pytest_custom_outputs-0.1.2.tar.gz
+[2024-05-31 00:45:01] INFO root fetch - processPackages [unibox]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-31 00:45:01] INFO root fetch - processPackages [beforerr]: Downloading https://files.pythonhosted.org/packages/ac/a0/ab365073daaf908790b170ee0c651c8d677783ea57b300701d5f3ec9f2b4/beforerr-0.0.0.tar.gz
+[2024-05-31 00:45:01] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/fa/c6/df7375033f51ecabb608fccaae7e97acaa48ba281e5ff6c223e3cb6be382/unibox-0.4.1.tar.gz
+[2024-05-31 00:45:01] INFO root fetch - processPackages [pytest-custom-outputs]: Downloading https://files.pythonhosted.org/packages/01/06/8894da224dc5c7eea8ec3c4d22ecc2b3ffe3a1d50c0a8a05ddfa02e4c42a/pytest_custom_outputs-0.2.1.tar.gz
+[2024-05-31 00:45:01] INFO root fetch - processPackages [pytest-custom-outputs]: executing diffoscope
+[2024-05-31 00:45:01] INFO root fetch - processPackages [pytest-custom-outputs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_custom_outputs-0.1.2.tar.gz tmp/pytest_custom_outputs-0.2.1.tar.gz --markdown 20240531/p/pytest-custom-outputs/0.1.2-0.2.1/README.md --exclude *.pyd
+[2024-05-31 00:45:01] INFO root fetch - processPackages [beforerr]: Downloading https://files.pythonhosted.org/packages/ac/bd/58b5215576df743c3cce0dc8090f586b3b59b4908952dc3705628ae1911d/beforerr-0.1.0.tar.gz
+[2024-05-31 00:45:01] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/60/1b/85343e38ca7f72563d2a8838d4781252adc22b8bc84b32c8bfeaf474e9fd/unibox-0.4.2.tar.gz
+[2024-05-31 00:45:01] INFO root fetch - processPackages [beforerr]: executing diffoscope
+[2024-05-31 00:45:01] INFO root fetch - processPackages [beforerr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beforerr-0.0.0.tar.gz tmp/beforerr-0.1.0.tar.gz --markdown 20240531/b/beforerr/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-05-31 00:45:02] INFO root fetch - processPackages [unibox]: executing diffoscope
+[2024-05-31 00:45:02] INFO root fetch - processPackages [unibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibox-0.4.1.tar.gz tmp/unibox-0.4.2.tar.gz --markdown 20240531/u/unibox/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-31 00:45:02] INFO root fetch - processPackages [pytest-custom-outputs]: Remove: archive file [/home/abi/fetcher/tmp/pytest_custom_outputs-0.1.2.tar.gz]
+[2024-05-31 00:45:02] INFO root fetch - processPackages [pytest-custom-outputs]: Remove: archive file [/home/abi/fetcher/tmp/pytest_custom_outputs-0.2.1.tar.gz]
+[2024-05-31 00:45:02] INFO root fetch - main [MainThread]: End processing [pytest-custom-outputs]: success
+[2024-05-31 00:45:02] INFO root fetch - processPackages [beforerr]: Remove: archive file [/home/abi/fetcher/tmp/beforerr-0.0.0.tar.gz]
+[2024-05-31 00:45:02] INFO root fetch - processPackages [beforerr]: Remove: archive file [/home/abi/fetcher/tmp/beforerr-0.1.0.tar.gz]
+[2024-05-31 00:45:02] INFO root fetch - main [MainThread]: End processing [beforerr]: success
+[2024-05-31 00:45:02] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.4.1.tar.gz]
+[2024-05-31 00:45:02] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.4.2.tar.gz]
+[2024-05-31 00:45:02] INFO root fetch - main [MainThread]: End processing [unibox]: success
+[2024-05-31 00:45:02] INFO root fetch - main [MainThread]: Store serial: [23457730]
