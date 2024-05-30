@@ -1,0 +1,30 @@
+[2024-05-31 00:01:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457279]
+[2024-05-31 00:01:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 00:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-31 00:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypomes-core
+[2024-05-31 00:01:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-db
+[2024-05-31 00:01:20] INFO root fetch - processPackages [flatpack]: New version: [3.5.9] Old Version: [3.5.8]
+[2024-05-31 00:01:20] INFO root fetch - processPackages [pypomes-db]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-31 00:01:20] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/0d/a9/8502480e2c2eb0cf1d5c96124b696b315ecaac8fbeabcea4683232791237/flatpack-3.5.8.tar.gz
+[2024-05-31 00:01:20] INFO root fetch - processPackages [pypomes-core]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-31 00:01:20] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/d8/91/c9da419dc0b7492b44a9d95f36b27829ce600621fa73894b210c81dadbcd/flatpack-3.5.9.tar.gz
+[2024-05-31 00:01:20] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/f4/28/2910cd2366f4d4004108e4708d3f327030ebf28caa0a71ba984f7a340ffe/pypomes_db-0.8.9.tar.gz
+[2024-05-31 00:01:20] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/e7/28/3f4a8242f364b84ce863b69dc0ac95c5fd7be59a048fcb4af34cdd5fb29a/pypomes_core-1.1.2.tar.gz
+[2024-05-31 00:01:20] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-31 00:01:20] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.5.8.tar.gz tmp/flatpack-3.5.9.tar.gz --markdown 20240531/f/flatpack/3.5.8-3.5.9/README.md --exclude *.pyd
+[2024-05-31 00:01:20] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/a8/c9/1edefd2726d849a65061dcb2530eeb36e8de2fc57aaa32338bf71b3bc75c/pypomes_core-1.1.3.tar.gz
+[2024-05-31 00:01:20] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/5c/63/3bb301fdbb9386071fcf91aa8406ea18102d41aa3f235ceb3133c1a846dc/pypomes_db-0.9.0.tar.gz
+[2024-05-31 00:01:21] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-05-31 00:01:21] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-1.1.2.tar.gz tmp/pypomes_core-1.1.3.tar.gz --markdown 20240531/p/pypomes-core/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-31 00:01:21] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-31 00:01:21] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.8.9.tar.gz tmp/pypomes_db-0.9.0.tar.gz --markdown 20240531/p/pypomes-db/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-31 00:01:21] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.8.tar.gz]
+[2024-05-31 00:01:21] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.9.tar.gz]
+[2024-05-31 00:01:21] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-31 00:01:21] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.1.2.tar.gz]
+[2024-05-31 00:01:21] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.1.3.tar.gz]
+[2024-05-31 00:01:21] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-05-31 00:01:21] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.8.9.tar.gz]
+[2024-05-31 00:01:21] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.0.tar.gz]
+[2024-05-31 00:01:21] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-31 00:01:21] INFO root fetch - main [MainThread]: Store serial: [23457289]
