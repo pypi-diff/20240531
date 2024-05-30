@@ -1432,3 +1432,66 @@
 [2024-05-31 00:58:23] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
 [2024-05-31 00:58:23] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
 [2024-05-31 00:58:23] INFO root fetch - main [MainThread]: Store serial: [23457883]
+[2024-05-31 01:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457883]
+[2024-05-31 01:00:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yipao
+[2024-05-31 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paraview-trame-components
+[2024-05-31 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: draftdiff
+[2024-05-31 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandasai
+[2024-05-31 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aind-data-schema-models
+[2024-05-31 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: protoc-polyglot
+[2024-05-31 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: decipher-sdk
+[2024-05-31 01:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prompt-learner
+[2024-05-31 01:00:32] INFO root fetch - processPackages [protoc-polyglot]: New version: [0.0.1.post9] Old Version: [0.0.1.post8]
+[2024-05-31 01:00:32] INFO root fetch - processPackages [prompt-learner]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-31 01:00:32] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/e9/7b/373a68a962cdfb85f4bd76f6f4ea13ad3f2cfaca73bf0a9f70d0e7d34380/protoc_polyglot-0.0.1.post8.tar.gz
+[2024-05-31 01:00:32] WARNING root fetch - processPackages [yipao]: Skipping, unable to determine old version
+[2024-05-31 01:00:32] WARNING root fetch - processPackages [draftdiff]: Skipping, unable to determine old version
+[2024-05-31 01:00:32] INFO root fetch - processPackages [paraview-trame-components]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-31 01:00:32] INFO root fetch - processPackages [aind-data-schema-models]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-31 01:00:32] INFO root fetch - main [MainThread]: End processing [yipao] error
+[2024-05-31 01:00:32] INFO root fetch - main [MainThread]: End processing [draftdiff] error
+[2024-05-31 01:00:32] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/bd/f4/ad0aa5f85def984b9268f2ae9fb8fc50ad5b88c6c8101a51b808c5500eca/prompt_learner-0.3.0.tar.gz
+[2024-05-31 01:00:32] INFO root fetch - processPackages [decipher-sdk]: New version: [0.0.2] Old Version: [0.0.18]
+[2024-05-31 01:00:32] INFO root fetch - processPackages [pandasai]: New version: [2.1a1] Old Version: [2.1]
+[2024-05-31 01:00:32] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/53/aa/b90efd217104249a55b215c1e24ae249a2b90df3c061772505caa62c8ff2/decipher-sdk-0.0.18.tar.gz
+[2024-05-31 01:00:32] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/ba/3e/80ec44b9fb9b78215f7e663ebbfd10c99cb0490d7a563641a060dab4a069/pandasai-2.1.tar.gz
+[2024-05-31 01:00:32] INFO root fetch - processPackages [aind-data-schema-models]: Downloading https://files.pythonhosted.org/packages/10/11/0ccf08fd1a5a68898f7a47bc57c80d078c8e0c98091b8f369a999cf13338/aind_data_schema_models-0.1.5.tar.gz
+[2024-05-31 01:00:32] INFO root fetch - processPackages [paraview-trame-components]: Downloading https://files.pythonhosted.org/packages/32/5a/c4284f42d8b470076af8dfaed9f8c8cb9ebb2339e33daad8b7a39782bdcd/paraview_trame_components-0.7.0.tar.gz
+[2024-05-31 01:00:32] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/01/80/bdadb218d1c3271c3a258316c3d5991f2676b54e6f358ac689f9495990f5/protoc_polyglot-0.0.1.post9.tar.gz
+[2024-05-31 01:00:32] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/63/c2/8ef57cc274fbb48a8f62385eae280fd9dfcd7153ed5208e12e6cd94f16bc/prompt_learner-0.3.1.tar.gz
+[2024-05-31 01:00:32] INFO root fetch - processPackages [protoc-polyglot]: executing diffoscope
+[2024-05-31 01:00:32] INFO root fetch - processPackages [protoc-polyglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_polyglot-0.0.1.post8.tar.gz tmp/protoc_polyglot-0.0.1.post9.tar.gz --markdown 20240531/p/protoc-polyglot/0.0.1.post8-0.0.1.post9/README.md --exclude *.pyd
+[2024-05-31 01:00:32] INFO root fetch - processPackages [prompt-learner]: executing diffoscope
+[2024-05-31 01:00:32] INFO root fetch - processPackages [prompt-learner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_learner-0.3.0.tar.gz tmp/prompt_learner-0.3.1.tar.gz --markdown 20240531/p/prompt-learner/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-31 01:00:32] INFO root fetch - processPackages [aind-data-schema-models]: Downloading https://files.pythonhosted.org/packages/e8/ca/0bdd60de9846fa221fdb40c4aec186e04fcad3e12b8b70e514c09f608386/aind_data_schema_models-0.1.6.tar.gz
+[2024-05-31 01:00:32] INFO root fetch - processPackages [paraview-trame-components]: Downloading https://files.pythonhosted.org/packages/9d/e8/6e0df99110391758769906e16cf7c6cc8ba004bfc3e6aa9bd489ca9a0daa/paraview_trame_components-0.8.0.tar.gz
+[2024-05-31 01:00:33] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/cd/50/e9dbdfb7342d8b51769d676787741e466d6b38672a9c8f62f0956e706402/pandasai-2.1a1.tar.gz
+[2024-05-31 01:00:33] INFO root fetch - processPackages [decipher-sdk]: Downloading https://files.pythonhosted.org/packages/b6/76/488a3b60f46131f5344a85aded6198e0d9501cfc6e60fe54c0bc0387468b/decipher-sdk-0.0.2.tar.gz
+[2024-05-31 01:00:33] INFO root fetch - processPackages [paraview-trame-components]: executing diffoscope
+[2024-05-31 01:00:33] INFO root fetch - processPackages [paraview-trame-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paraview_trame_components-0.7.0.tar.gz tmp/paraview_trame_components-0.8.0.tar.gz --markdown 20240531/p/paraview-trame-components/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-31 01:00:33] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2024-05-31 01:00:33] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-2.1.tar.gz tmp/pandasai-2.1a1.tar.gz --markdown 20240531/p/pandasai/2.1-2.1a1/README.md --exclude *.pyd
+[2024-05-31 01:00:33] INFO root fetch - processPackages [decipher-sdk]: executing diffoscope
+[2024-05-31 01:00:33] INFO root fetch - processPackages [decipher-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decipher-sdk-0.0.18.tar.gz tmp/decipher-sdk-0.0.2.tar.gz --markdown 20240531/d/decipher-sdk/0.0.18-0.0.2/README.md --exclude *.pyd
+[2024-05-31 01:00:33] INFO root fetch - processPackages [aind-data-schema-models]: executing diffoscope
+[2024-05-31 01:00:33] INFO root fetch - processPackages [aind-data-schema-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_data_schema_models-0.1.5.tar.gz tmp/aind_data_schema_models-0.1.6.tar.gz --markdown 20240531/a/aind-data-schema-models/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-31 01:00:33] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post8.tar.gz]
+[2024-05-31 01:00:33] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post9.tar.gz]
+[2024-05-31 01:00:33] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
+[2024-05-31 01:00:33] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.3.0.tar.gz]
+[2024-05-31 01:00:33] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.3.1.tar.gz]
+[2024-05-31 01:00:33] INFO root fetch - main [MainThread]: End processing [prompt-learner]: success
+[2024-05-31 01:00:33] INFO root fetch - processPackages [decipher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decipher-sdk-0.0.18.tar.gz]
+[2024-05-31 01:00:33] INFO root fetch - processPackages [decipher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/decipher-sdk-0.0.2.tar.gz]
+[2024-05-31 01:00:33] INFO root fetch - main [MainThread]: End processing [decipher-sdk]: success
+[2024-05-31 01:00:33] INFO root fetch - processPackages [paraview-trame-components]: Remove: archive file [/home/abi/fetcher/tmp/paraview_trame_components-0.7.0.tar.gz]
+[2024-05-31 01:00:33] INFO root fetch - processPackages [paraview-trame-components]: Remove: archive file [/home/abi/fetcher/tmp/paraview_trame_components-0.8.0.tar.gz]
+[2024-05-31 01:00:33] INFO root fetch - main [MainThread]: End processing [paraview-trame-components]: success
+[2024-05-31 01:00:33] INFO root fetch - processPackages [aind-data-schema-models]: Remove: archive file [/home/abi/fetcher/tmp/aind_data_schema_models-0.1.5.tar.gz]
+[2024-05-31 01:00:33] INFO root fetch - processPackages [aind-data-schema-models]: Remove: archive file [/home/abi/fetcher/tmp/aind_data_schema_models-0.1.6.tar.gz]
+[2024-05-31 01:00:33] INFO root fetch - main [MainThread]: End processing [aind-data-schema-models]: success
+[2024-05-31 01:00:34] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.1.tar.gz]
+[2024-05-31 01:00:34] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.1a1.tar.gz]
+[2024-05-31 01:00:34] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2024-05-31 01:00:34] INFO root fetch - main [MainThread]: Store serial: [23457909]
