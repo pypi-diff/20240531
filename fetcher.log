@@ -1564,3 +1564,55 @@
 [2024-05-31 01:04:54] INFO root fetch - processPackages [pyutmodelv2]: Remove: archive file [/home/abi/fetcher/tmp/pyutmodelv2-2.1.6.tar.gz]
 [2024-05-31 01:04:54] INFO root fetch - main [MainThread]: End processing [pyutmodelv2]: success
 [2024-05-31 01:04:54] INFO root fetch - main [MainThread]: Store serial: [23457942]
+[2024-05-31 01:06:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457942]
+[2024-05-31 01:07:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 01:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-data-schema
+[2024-05-31 01:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hashtag-utils
+[2024-05-31 01:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MultiCalib
+[2024-05-31 01:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2024-05-31 01:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: social-auth-gsis
+[2024-05-31 01:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aind-data-schema
+[2024-05-31 01:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-hr-employee-group-overview-readonly
+[2024-05-31 01:07:02] INFO root fetch - processPackages [social-auth-gsis]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-31 01:07:02] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-31 01:07:02] INFO root fetch - processPackages [hashtag-utils]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-31 01:07:02] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-31 01:07:02] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240529] Old Version: [0.7.52b20240528]
+[2024-05-31 01:07:02] WARNING root fetch - processPackages [odoo-addon-hr-employee-group-overview-readonly]: Skipping, unable to determine old version
+[2024-05-31 01:07:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-group-overview-readonly] error
+[2024-05-31 01:07:02] WARNING root fetch - processPackages [MultiCalib]: Skipping, unable to determine old version
+[2024-05-31 01:07:02] INFO root fetch - main [MainThread]: End processing [MultiCalib] error
+[2024-05-31 01:07:02] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/e7/b6/bca8fa525fd68b6bc134c132923291c455be352fca2053676575e9272d61/social_auth_gsis-0.4.0.tar.gz
+[2024-05-31 01:07:02] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2024-05-31 01:07:02] INFO root fetch - processPackages [hashtag-utils]: Downloading https://files.pythonhosted.org/packages/55/34/a22159a6287239a91f257355a0c6603026d5b4b20d3d788e3cd1b0e825c3/hashtag_utils-0.5.2.tar.gz
+[2024-05-31 01:07:02] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2024-05-31 01:07:02] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/a2/e1/7e3fd3c1cd6625e89286b7c2eb2fea7d5e6548ed00f39a417d6eeb2d148f/tmnt-0.7.52b20240528.tar.gz
+[2024-05-31 01:07:03] INFO root fetch - processPackages [hashtag-utils]: Downloading https://files.pythonhosted.org/packages/08/f7/c6dd4ec16be9cbd72e3512ddf2bedbda00e8c9e5ecf8602680680f2688fb/hashtag_utils-0.5.3.tar.gz
+[2024-05-31 01:07:03] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/52/b6/d266babff79176a581b53a0e8f852aa83c6142da99d8afaca615c4ba8139/social_auth_gsis-0.5.0.tar.gz
+[2024-05-31 01:07:03] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2024-05-31 01:07:03] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2024-05-31 01:07:03] INFO root fetch - processPackages [hashtag-utils]: executing diffoscope
+[2024-05-31 01:07:03] INFO root fetch - processPackages [hashtag-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hashtag_utils-0.5.2.tar.gz tmp/hashtag_utils-0.5.3.tar.gz --markdown 20240531/h/hashtag-utils/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-31 01:07:03] INFO root fetch - processPackages [social-auth-gsis]: executing diffoscope
+[2024-05-31 01:07:03] INFO root fetch - processPackages [social-auth-gsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_auth_gsis-0.4.0.tar.gz tmp/social_auth_gsis-0.5.0.tar.gz --markdown 20240531/s/social-auth-gsis/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-31 01:07:03] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2024-05-31 01:07:03] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20240531/a/aind-data-schema/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-31 01:07:03] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2024-05-31 01:07:03] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20240531/a/aind-data-schema/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-31 01:07:03] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/28/b2/b12186d133b1322ad93ec92b28f1a7e840473080bcca9dd55b446ddbbadc/tmnt-0.7.52b20240529.tar.gz
+[2024-05-31 01:07:03] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-31 01:07:03] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240528.tar.gz tmp/tmnt-0.7.52b20240529.tar.gz --markdown 20240531/t/tmnt/0.7.52b20240528-0.7.52b20240529/README.md --exclude *.pyd
+[2024-05-31 01:07:03] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.4.0.tar.gz]
+[2024-05-31 01:07:03] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.0.tar.gz]
+[2024-05-31 01:07:03] INFO root fetch - main [MainThread]: End processing [social-auth-gsis]: success
+[2024-05-31 01:07:04] INFO root fetch - processPackages [hashtag-utils]: Remove: archive file [/home/abi/fetcher/tmp/hashtag_utils-0.5.2.tar.gz]
+[2024-05-31 01:07:04] INFO root fetch - processPackages [hashtag-utils]: Remove: archive file [/home/abi/fetcher/tmp/hashtag_utils-0.5.3.tar.gz]
+[2024-05-31 01:07:04] INFO root fetch - main [MainThread]: End processing [hashtag-utils]: success
+[2024-05-31 01:07:04] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2024-05-31 01:07:04] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2024-05-31 01:07:04] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2024-05-31 01:07:04] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2024-05-31 01:07:04] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240528.tar.gz]
+[2024-05-31 01:07:04] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240529.tar.gz]
+[2024-05-31 01:07:04] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-31 01:07:04] INFO root fetch - main [MainThread]: Store serial: [23457969]
