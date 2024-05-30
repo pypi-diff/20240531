@@ -2018,3 +2018,59 @@
 [2024-05-31 01:22:18] INFO root fetch - processPackages [dagster-datahub]: Remove: archive file [/home/abi/fetcher/tmp/dagster-datahub-0.23.8.tar.gz]
 [2024-05-31 01:22:18] INFO root fetch - main [MainThread]: End processing [dagster-datahub]: success
 [2024-05-31 01:22:18] INFO root fetch - main [MainThread]: Store serial: [23458127]
+[2024-05-31 01:24:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458127]
+[2024-05-31 01:24:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagster-cloud
+[2024-05-31 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagster-cloud-cli
+[2024-05-31 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dagster-cloud-examples
+[2024-05-31 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conditionial-model-reliance
+[2024-05-31 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cuenca
+[2024-05-31 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nodetool
+[2024-05-31 01:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: databricks-vectorsearch
+[2024-05-31 01:24:26] INFO root fetch - processPackages [dagster-cloud]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-05-31 01:24:26] WARNING root fetch - processPackages [conditionial-model-reliance]: Skipping, unable to determine old version
+[2024-05-31 01:24:26] INFO root fetch - main [MainThread]: End processing [conditionial-model-reliance] error
+[2024-05-31 01:24:26] INFO root fetch - processPackages [nodetool]: New version: [0.1.33] Old Version: [0.1.32]
+[2024-05-31 01:24:26] INFO root fetch - processPackages [databricks-vectorsearch]: New version: [0.9] Old Version: [0.8]
+[2024-05-31 01:24:26] INFO root fetch - processPackages [dagster-cloud-examples]: New version: [1.7.8] Old Version: [1.7.7]
+[2024-05-31 01:24:26] INFO root fetch - processPackages [dagster-cloud-cli]: New version: [1.7.8] Old Version: [1.7.7]
+[2024-05-31 01:24:26] INFO root fetch - processPackages [cuenca]: New version: [1.0.1.dev1] Old Version: [1.0.0]
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud]: Downloading https://files.pythonhosted.org/packages/c1/a1/594a6af3163cc7946adc82be55406d1815f802d22017c4b68adc7c7c7a15/dagster-cloud-1.7.6.tar.gz
+[2024-05-31 01:24:27] INFO root fetch - processPackages [nodetool]: Downloading https://files.pythonhosted.org/packages/60/b6/64ca5eca0735155aa45ff2b163a0e98bce2d2ca8758116ac3b45bef131a9/nodetool-0.1.32.tar.gz
+[2024-05-31 01:24:27] INFO root fetch - processPackages [databricks-vectorsearch]: Downloading https://files.pythonhosted.org/packages/56/57/3e47c2c37bcf4f0217be4314b1617dfe88ca797da7198c9e39388a739884/databricks_vectorsearch-0.8-py3-none-any.whl
+[2024-05-31 01:24:27] INFO root fetch - processPackages [cuenca]: Downloading https://files.pythonhosted.org/packages/b9/74/bce170948ae005e95a50db3ace46b73da7ce9ce2f6e72df1aa5e5d29ecba/cuenca-1.0.0.tar.gz
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud-cli]: Downloading https://files.pythonhosted.org/packages/6c/d1/7442ba2fea3393da3b73084bd9ebe0239a19e78bf9c61e31bf2b365d5759/dagster-cloud-cli-1.7.7.tar.gz
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud-examples]: Downloading https://files.pythonhosted.org/packages/15/3b/927b7c811bf08bc7d5ad83add8b35d0ae5e8b0a6e921d30ce494d417187a/dagster-cloud-examples-1.7.7.tar.gz
+[2024-05-31 01:24:27] WARNING root fetch - processPackages [nodetool]: Skipping package: exceeds size limit 10853286>=10485760
+[2024-05-31 01:24:27] INFO root fetch - main [MainThread]: End processing [nodetool] error
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud]: Downloading https://files.pythonhosted.org/packages/e8/0c/f0dd6c2e5956d48020dd0b06025a93cef58f65fa69e983cd62ba6c1b570f/dagster-cloud-1.7.7.tar.gz
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud-examples]: Downloading https://files.pythonhosted.org/packages/57/5c/361707fac1a9924ba739b3e97b0efd57c7cf934b441921cb1d446bf23ccd/dagster-cloud-examples-1.7.8.tar.gz
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud-cli]: Downloading https://files.pythonhosted.org/packages/ac/a8/da994badac939f43a053cb0e6209482b89ad03f85cf1e9d32481d1f6adf2/dagster-cloud-cli-1.7.8.tar.gz
+[2024-05-31 01:24:27] INFO root fetch - processPackages [cuenca]: Downloading https://files.pythonhosted.org/packages/c8/78/0b565f2f96bc123cc681b22230c572be4738b9a10fb006204336507cc14a/cuenca-1.0.1.dev1.tar.gz
+[2024-05-31 01:24:27] INFO root fetch - processPackages [databricks-vectorsearch]: Downloading https://files.pythonhosted.org/packages/ff/15/c8aeb1ca09590bc3630502043bdae13fd2ff0568659d0eceb028ed3cc828/databricks_vectorsearch-0.9-py3-none-any.whl
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud-examples]: executing diffoscope
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-cloud-examples-1.7.7.tar.gz tmp/dagster-cloud-examples-1.7.8.tar.gz --markdown 20240531/d/dagster-cloud-examples/1.7.7-1.7.8/README.md --exclude *.pyd
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud]: executing diffoscope
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-cloud-1.7.6.tar.gz tmp/dagster-cloud-1.7.7.tar.gz --markdown 20240531/d/dagster-cloud/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud-cli]: executing diffoscope
+[2024-05-31 01:24:27] INFO root fetch - processPackages [dagster-cloud-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-cloud-cli-1.7.7.tar.gz tmp/dagster-cloud-cli-1.7.8.tar.gz --markdown 20240531/d/dagster-cloud-cli/1.7.7-1.7.8/README.md --exclude *.pyd
+[2024-05-31 01:24:27] INFO root fetch - processPackages [databricks-vectorsearch]: executing diffoscope
+[2024-05-31 01:24:27] INFO root fetch - processPackages [databricks-vectorsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_vectorsearch-0.8-py3-none-any.whl.zip tmp/databricks_vectorsearch-0.9-py3-none-any.whl.zip --markdown 20240531/d/databricks-vectorsearch/0.8-0.9/README.md --exclude *.pyd
+[2024-05-31 01:24:27] INFO root fetch - processPackages [cuenca]: executing diffoscope
+[2024-05-31 01:24:27] INFO root fetch - processPackages [cuenca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuenca-1.0.0.tar.gz tmp/cuenca-1.0.1.dev1.tar.gz --markdown 20240531/c/cuenca/1.0.0-1.0.1.dev1/README.md --exclude *.pyd
+[2024-05-31 01:24:28] INFO root fetch - processPackages [databricks-vectorsearch]: Remove: archive file [/home/abi/fetcher/tmp/databricks_vectorsearch-0.8-py3-none-any.whl.zip]
+[2024-05-31 01:24:28] INFO root fetch - processPackages [databricks-vectorsearch]: Remove: archive file [/home/abi/fetcher/tmp/databricks_vectorsearch-0.9-py3-none-any.whl.zip]
+[2024-05-31 01:24:28] INFO root fetch - main [MainThread]: End processing [databricks-vectorsearch]: success
+[2024-05-31 01:24:28] INFO root fetch - processPackages [dagster-cloud-examples]: Remove: archive file [/home/abi/fetcher/tmp/dagster-cloud-examples-1.7.7.tar.gz]
+[2024-05-31 01:24:28] INFO root fetch - processPackages [dagster-cloud-examples]: Remove: archive file [/home/abi/fetcher/tmp/dagster-cloud-examples-1.7.8.tar.gz]
+[2024-05-31 01:24:28] INFO root fetch - main [MainThread]: End processing [dagster-cloud-examples]: success
+[2024-05-31 01:24:28] INFO root fetch - processPackages [dagster-cloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/dagster-cloud-cli-1.7.7.tar.gz]
+[2024-05-31 01:24:28] INFO root fetch - processPackages [dagster-cloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/dagster-cloud-cli-1.7.8.tar.gz]
+[2024-05-31 01:24:28] INFO root fetch - main [MainThread]: End processing [dagster-cloud-cli]: success
+[2024-05-31 01:24:28] INFO root fetch - processPackages [dagster-cloud]: Remove: archive file [/home/abi/fetcher/tmp/dagster-cloud-1.7.6.tar.gz]
+[2024-05-31 01:24:28] INFO root fetch - processPackages [dagster-cloud]: Remove: archive file [/home/abi/fetcher/tmp/dagster-cloud-1.7.7.tar.gz]
+[2024-05-31 01:24:28] INFO root fetch - main [MainThread]: End processing [dagster-cloud]: success
+[2024-05-31 01:24:28] INFO root fetch - processPackages [cuenca]: Remove: archive file [/home/abi/fetcher/tmp/cuenca-1.0.0.tar.gz]
+[2024-05-31 01:24:28] INFO root fetch - processPackages [cuenca]: Remove: archive file [/home/abi/fetcher/tmp/cuenca-1.0.1.dev1.tar.gz]
+[2024-05-31 01:24:28] INFO root fetch - main [MainThread]: End processing [cuenca]: success
+[2024-05-31 01:24:28] INFO root fetch - main [MainThread]: Store serial: [23458153]
