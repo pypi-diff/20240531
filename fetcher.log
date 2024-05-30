@@ -796,3 +796,54 @@
 [2024-05-31 00:29:37] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-8.0.0a1.tar.gz]
 [2024-05-31 00:29:37] INFO root fetch - main [MainThread]: End processing [dipdup]: success
 [2024-05-31 00:29:37] INFO root fetch - main [MainThread]: Store serial: [23457613]
+[2024-05-31 00:31:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457613]
+[2024-05-31 00:31:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 00:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-google-cloud-sql-pg
+[2024-05-31 00:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schemafunc
+[2024-05-31 00:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: expkit-core
+[2024-05-31 00:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-google-alloydb-pg
+[2024-05-31 00:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-cloud-pubsub
+[2024-05-31 00:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ziptimezone
+[2024-05-31 00:31:46] INFO root fetch - processPackages [schemafunc]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-31 00:31:46] INFO root fetch - processPackages [schemafunc]: Downloading https://files.pythonhosted.org/packages/f7/1a/63050961267f07587c8b72fc8b779f37842e44203870d634c2d184489183/schemafunc-0.3.4.tar.gz
+[2024-05-31 00:31:46] INFO root fetch - processPackages [langchain-google-cloud-sql-pg]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-31 00:31:46] WARNING root fetch - processPackages [expkit-core]: Skipping, unable to determine old version
+[2024-05-31 00:31:46] INFO root fetch - main [MainThread]: End processing [expkit-core] error
+[2024-05-31 00:31:46] INFO root fetch - processPackages [langchain-google-alloydb-pg]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-31 00:31:46] INFO root fetch - processPackages [ziptimezone]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-31 00:31:46] INFO root fetch - processPackages [google-cloud-pubsub]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-31 00:31:46] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/c9/80/2f73f4257b3197db34f6a5ef1ffcea29051a3b12c275f023247ad84646e5/ziptimezone-1.1.6.tar.gz
+[2024-05-31 00:31:46] INFO root fetch - processPackages [schemafunc]: Downloading https://files.pythonhosted.org/packages/7c/d2/53de537fcba46ee732cfa5ecb032eb0d34d28cf23ebc7d1d9befc5986cd5/schemafunc-0.3.5.tar.gz
+[2024-05-31 00:31:46] INFO root fetch - processPackages [langchain-google-cloud-sql-pg]: Downloading https://files.pythonhosted.org/packages/75/b9/69ae5f2d03930a244eee04b35b46021ca89480f37b35afcdedec21ead78e/langchain_google_cloud_sql_pg-0.4.1-py3-none-any.whl
+[2024-05-31 00:31:46] INFO root fetch - processPackages [langchain-google-alloydb-pg]: Downloading https://files.pythonhosted.org/packages/b7/b7/fd11f5ba67abfda9d909111ea51ef1096e0ffae76c8c68f7a1d0a9e539d9/langchain_google_alloydb_pg-0.2.2-py3-none-any.whl
+[2024-05-31 00:31:46] INFO root fetch - processPackages [google-cloud-pubsub]: Downloading https://files.pythonhosted.org/packages/70/b1/a3fb0ff5d57b25d93370c74b193665f7d02725f39458479b6baa077fb387/google-cloud-pubsub-2.8.0.tar.gz
+[2024-05-31 00:31:46] INFO root fetch - processPackages [schemafunc]: executing diffoscope
+[2024-05-31 00:31:46] INFO root fetch - processPackages [schemafunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemafunc-0.3.4.tar.gz tmp/schemafunc-0.3.5.tar.gz --markdown 20240531/s/schemafunc/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-31 00:31:47] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/4d/59/864a0dac7139bdfaa7fc5e7111d1bc2d296e1a8e143eef443516154144fa/ziptimezone-1.1.7.tar.gz
+[2024-05-31 00:31:47] INFO root fetch - processPackages [langchain-google-alloydb-pg]: Downloading https://files.pythonhosted.org/packages/21/e2/d00bec76dea4f250e41f51a4ad197e96721edf4529e324637c974a3f911f/langchain_google_alloydb_pg-0.3.0-py3-none-any.whl
+[2024-05-31 00:31:47] INFO root fetch - processPackages [langchain-google-cloud-sql-pg]: Downloading https://files.pythonhosted.org/packages/1f/c1/8e9d9776dc72e8286206a7a907d9157e387cbf9cf634751df9893b6bf258/langchain_google_cloud_sql_pg-0.5.0-py3-none-any.whl
+[2024-05-31 00:31:47] INFO root fetch - processPackages [ziptimezone]: executing diffoscope
+[2024-05-31 00:31:47] INFO root fetch - processPackages [ziptimezone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ziptimezone-1.1.6.tar.gz tmp/ziptimezone-1.1.7.tar.gz --markdown 20240531/z/ziptimezone/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-31 00:31:47] INFO root fetch - processPackages [langchain-google-alloydb-pg]: executing diffoscope
+[2024-05-31 00:31:47] INFO root fetch - processPackages [langchain-google-alloydb-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_google_alloydb_pg-0.2.2-py3-none-any.whl.zip tmp/langchain_google_alloydb_pg-0.3.0-py3-none-any.whl.zip --markdown 20240531/l/langchain-google-alloydb-pg/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-31 00:31:47] INFO root fetch - processPackages [langchain-google-cloud-sql-pg]: executing diffoscope
+[2024-05-31 00:31:47] INFO root fetch - processPackages [langchain-google-cloud-sql-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_google_cloud_sql_pg-0.4.1-py3-none-any.whl.zip tmp/langchain_google_cloud_sql_pg-0.5.0-py3-none-any.whl.zip --markdown 20240531/l/langchain-google-cloud-sql-pg/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-31 00:31:47] INFO root fetch - processPackages [google-cloud-pubsub]: Downloading https://files.pythonhosted.org/packages/e3/d6/8cde40432cac31c8f811cee72044adf491e66a2af9ded4d1774ca1ee4825/google-cloud-pubsub-2.9.0.tar.gz
+[2024-05-31 00:31:47] INFO root fetch - processPackages [schemafunc]: Remove: archive file [/home/abi/fetcher/tmp/schemafunc-0.3.4.tar.gz]
+[2024-05-31 00:31:47] INFO root fetch - processPackages [schemafunc]: Remove: archive file [/home/abi/fetcher/tmp/schemafunc-0.3.5.tar.gz]
+[2024-05-31 00:31:47] INFO root fetch - main [MainThread]: End processing [schemafunc]: success
+[2024-05-31 00:31:47] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.1.6.tar.gz]
+[2024-05-31 00:31:47] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.1.7.tar.gz]
+[2024-05-31 00:31:47] INFO root fetch - main [MainThread]: End processing [ziptimezone]: success
+[2024-05-31 00:31:47] INFO root fetch - processPackages [google-cloud-pubsub]: executing diffoscope
+[2024-05-31 00:31:47] INFO root fetch - processPackages [google-cloud-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-pubsub-2.8.0.tar.gz tmp/google-cloud-pubsub-2.9.0.tar.gz --markdown 20240531/g/google-cloud-pubsub/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-31 00:31:47] INFO root fetch - processPackages [langchain-google-cloud-sql-pg]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_cloud_sql_pg-0.4.1-py3-none-any.whl.zip]
+[2024-05-31 00:31:47] INFO root fetch - processPackages [langchain-google-cloud-sql-pg]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_cloud_sql_pg-0.5.0-py3-none-any.whl.zip]
+[2024-05-31 00:31:47] INFO root fetch - main [MainThread]: End processing [langchain-google-cloud-sql-pg]: success
+[2024-05-31 00:31:48] INFO root fetch - processPackages [langchain-google-alloydb-pg]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_alloydb_pg-0.2.2-py3-none-any.whl.zip]
+[2024-05-31 00:31:48] INFO root fetch - processPackages [langchain-google-alloydb-pg]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_alloydb_pg-0.3.0-py3-none-any.whl.zip]
+[2024-05-31 00:31:48] INFO root fetch - main [MainThread]: End processing [langchain-google-alloydb-pg]: success
+[2024-05-31 00:31:49] INFO root fetch - processPackages [google-cloud-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-pubsub-2.8.0.tar.gz]
+[2024-05-31 00:31:49] INFO root fetch - processPackages [google-cloud-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-pubsub-2.9.0.tar.gz]
+[2024-05-31 00:31:49] INFO root fetch - main [MainThread]: End processing [google-cloud-pubsub]: success
+[2024-05-31 00:31:49] INFO root fetch - main [MainThread]: Store serial: [23457630]
