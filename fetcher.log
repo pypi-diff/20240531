@@ -1174,3 +1174,63 @@
 [2024-05-31 00:47:13] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.7a6.tar.gz]
 [2024-05-31 00:47:13] INFO root fetch - main [MainThread]: End processing [pyontoenv]: success
 [2024-05-31 00:47:13] INFO root fetch - main [MainThread]: Store serial: [23457752]
+[2024-05-31 00:49:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457752]
+[2024-05-31 00:49:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchnirs
+[2024-05-31 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yipao
+[2024-05-31 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contact-person-profile-csv-imp-local
+[2024-05-31 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rstms-mailgun
+[2024-05-31 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-alpaca-api
+[2024-05-31 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: suiutils-py
+[2024-05-31 00:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: textualheatmap
+[2024-05-31 00:49:21] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 00:49:21] INFO root fetch - processPackages [rstms-mailgun]: New version: [1.1.1] Old Version: [1.0.2]
+[2024-05-31 00:49:21] INFO root fetch - processPackages [suiutils-py]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-31 00:49:21] INFO root fetch - processPackages [rstms-mailgun]: Downloading https://files.pythonhosted.org/packages/54/41/d26bf873eae3e9956a66195ee1e056c3b01dadf3ff2548c379506555fd52/rstms_mailgun-1.0.2.tar.gz
+[2024-05-31 00:49:21] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Downloading https://files.pythonhosted.org/packages/38/8e/697a7a19f7efccb43ada97483628a3b05cd2c0ecf731e43238d4c94beb46/contact_person_profile_csv_imp_local-0.0.8.tar.gz
+[2024-05-31 00:49:21] WARNING root fetch - processPackages [yipao]: Skipping, unable to determine old version
+[2024-05-31 00:49:21] INFO root fetch - main [MainThread]: End processing [yipao] error
+[2024-05-31 00:49:21] INFO root fetch - processPackages [benchnirs]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-31 00:49:21] INFO root fetch - processPackages [textualheatmap]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-31 00:49:21] INFO root fetch - processPackages [py-alpaca-api]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-31 00:49:21] INFO root fetch - processPackages [suiutils-py]: Downloading https://files.pythonhosted.org/packages/fc/2c/4473115da96019065ae1a72a47b73fc80783a7e99c93a4d8caf2922db280/suiutils-py-1.0.7.tar.gz
+[2024-05-31 00:49:21] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Downloading https://files.pythonhosted.org/packages/2c/27/f654a86e934199e979e23917591a3a16a0877f5bfff9aa07956945918b8b/contact_person_profile_csv_imp_local-0.0.9.tar.gz
+[2024-05-31 00:49:21] INFO root fetch - processPackages [rstms-mailgun]: Downloading https://files.pythonhosted.org/packages/ac/f2/7905f5210a755741235597ef708f3078440144e90c82c3696920b3b89807/rstms_mailgun-1.1.1.tar.gz
+[2024-05-31 00:49:21] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/b9/7f/fb3afd0dd9de798a067cb2f1498092d6bcda8398d9f4c06640a0e2aa0339/py_alpaca_api-0.6.2.tar.gz
+[2024-05-31 00:49:21] INFO root fetch - processPackages [suiutils-py]: Downloading https://files.pythonhosted.org/packages/bd/45/9999b67c426b01482bcbb2c2723820243274fd8084c151f6370d6a9c4808/suiutils_py-1.0.9.tar.gz
+[2024-05-31 00:49:21] INFO root fetch - processPackages [benchnirs]: Downloading https://files.pythonhosted.org/packages/39/ea/20cdf83cf220ea59438bebabc18eeaeaf6f1d7e2bad7f7f55bea21f0652c/benchnirs-1.2.4.tar.gz
+[2024-05-31 00:49:21] INFO root fetch - processPackages [textualheatmap]: Downloading https://files.pythonhosted.org/packages/12/7a/3fb750bd4790e7dcc0f1c87f9e53c7ee33bc2d08154f01f4e1e13123cded/textualheatmap-1.1.1.tar.gz
+[2024-05-31 00:49:21] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: executing diffoscope
+[2024-05-31 00:49:21] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_person_profile_csv_imp_local-0.0.8.tar.gz tmp/contact_person_profile_csv_imp_local-0.0.9.tar.gz --markdown 20240531/c/contact-person-profile-csv-imp-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 00:49:21] INFO root fetch - processPackages [rstms-mailgun]: executing diffoscope
+[2024-05-31 00:49:21] INFO root fetch - processPackages [rstms-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstms_mailgun-1.0.2.tar.gz tmp/rstms_mailgun-1.1.1.tar.gz --markdown 20240531/r/rstms-mailgun/1.0.2-1.1.1/README.md --exclude *.pyd
+[2024-05-31 00:49:21] INFO root fetch - processPackages [suiutils-py]: executing diffoscope
+[2024-05-31 00:49:21] INFO root fetch - processPackages [suiutils-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suiutils-py-1.0.7.tar.gz tmp/suiutils_py-1.0.9.tar.gz --markdown 20240531/s/suiutils-py/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-31 00:49:21] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/87/ba/6fa4439cef5fcb24c4cf30f5a4cdf57bdb6613d1c4ea6d828a0902337200/py_alpaca_api-0.6.3.tar.gz
+[2024-05-31 00:49:22] INFO root fetch - processPackages [benchnirs]: Downloading https://files.pythonhosted.org/packages/3b/8f/e4246c020deac7d1bcb7c2a6675e40cb1dade60b3d006bbefddb5fa1aa57/benchnirs-1.2.5.tar.gz
+[2024-05-31 00:49:22] INFO root fetch - processPackages [textualheatmap]: Downloading https://files.pythonhosted.org/packages/24/0a/a2e90d14891f84c1e6e8e70e0b0ba5866523e9ae3350accfc89d53ff9171/textualheatmap-1.2.0.tar.gz
+[2024-05-31 00:49:22] INFO root fetch - processPackages [py-alpaca-api]: executing diffoscope
+[2024-05-31 00:49:22] INFO root fetch - processPackages [py-alpaca-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_api-0.6.2.tar.gz tmp/py_alpaca_api-0.6.3.tar.gz --markdown 20240531/p/py-alpaca-api/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-31 00:49:22] INFO root fetch - processPackages [benchnirs]: executing diffoscope
+[2024-05-31 00:49:22] INFO root fetch - processPackages [benchnirs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchnirs-1.2.4.tar.gz tmp/benchnirs-1.2.5.tar.gz --markdown 20240531/b/benchnirs/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-31 00:49:22] INFO root fetch - processPackages [textualheatmap]: executing diffoscope
+[2024-05-31 00:49:22] INFO root fetch - processPackages [textualheatmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textualheatmap-1.1.1.tar.gz tmp/textualheatmap-1.2.0.tar.gz --markdown 20240531/t/textualheatmap/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-31 00:49:22] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_person_profile_csv_imp_local-0.0.8.tar.gz]
+[2024-05-31 00:49:22] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_person_profile_csv_imp_local-0.0.9.tar.gz]
+[2024-05-31 00:49:22] INFO root fetch - main [MainThread]: End processing [contact-person-profile-csv-imp-local]: success
+[2024-05-31 00:49:22] INFO root fetch - processPackages [rstms-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/rstms_mailgun-1.0.2.tar.gz]
+[2024-05-31 00:49:22] INFO root fetch - processPackages [rstms-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/rstms_mailgun-1.1.1.tar.gz]
+[2024-05-31 00:49:22] INFO root fetch - main [MainThread]: End processing [rstms-mailgun]: success
+[2024-05-31 00:49:22] INFO root fetch - processPackages [suiutils-py]: Remove: archive file [/home/abi/fetcher/tmp/suiutils-py-1.0.7.tar.gz]
+[2024-05-31 00:49:22] INFO root fetch - processPackages [suiutils-py]: Remove: archive file [/home/abi/fetcher/tmp/suiutils_py-1.0.9.tar.gz]
+[2024-05-31 00:49:22] INFO root fetch - main [MainThread]: End processing [suiutils-py]: success
+[2024-05-31 00:49:22] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.6.2.tar.gz]
+[2024-05-31 00:49:22] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.6.3.tar.gz]
+[2024-05-31 00:49:22] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
+[2024-05-31 00:49:22] INFO root fetch - processPackages [benchnirs]: Remove: archive file [/home/abi/fetcher/tmp/benchnirs-1.2.4.tar.gz]
+[2024-05-31 00:49:22] INFO root fetch - processPackages [benchnirs]: Remove: archive file [/home/abi/fetcher/tmp/benchnirs-1.2.5.tar.gz]
+[2024-05-31 00:49:22] INFO root fetch - main [MainThread]: End processing [benchnirs]: success
+[2024-05-31 00:49:23] INFO root fetch - processPackages [textualheatmap]: Remove: archive file [/home/abi/fetcher/tmp/textualheatmap-1.1.1.tar.gz]
+[2024-05-31 00:49:23] INFO root fetch - processPackages [textualheatmap]: Remove: archive file [/home/abi/fetcher/tmp/textualheatmap-1.2.0.tar.gz]
+[2024-05-31 00:49:23] INFO root fetch - main [MainThread]: End processing [textualheatmap]: success
+[2024-05-31 00:49:23] INFO root fetch - main [MainThread]: Store serial: [23457782]
