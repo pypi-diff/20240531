@@ -1381,3 +1381,54 @@
 [2024-05-31 00:56:04] INFO root fetch - processPackages [pymsalruntime]: Remove: archive file [/home/abi/fetcher/tmp/pymsalruntime-0.9.0.tar.gz]
 [2024-05-31 00:56:04] INFO root fetch - main [MainThread]: End processing [pymsalruntime]: success
 [2024-05-31 00:56:04] INFO root fetch - main [MainThread]: Store serial: [23457852]
+[2024-05-31 00:58:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457852]
+[2024-05-31 00:58:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 00:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: currencies-integrations
+[2024-05-31 00:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: salt-infisical
+[2024-05-31 00:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynumaflow
+[2024-05-31 00:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protoc-polyglot
+[2024-05-31 00:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nomad-media-pip
+[2024-05-31 00:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yipao
+[2024-05-31 00:58:19] INFO root fetch - processPackages [protoc-polyglot]: New version: [0.0.1.post8] Old Version: [0.0.1.post7]
+[2024-05-31 00:58:19] INFO root fetch - processPackages [salt-infisical]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-31 00:58:19] INFO root fetch - processPackages [nomad-media-pip]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 00:58:19] INFO root fetch - processPackages [currencies-integrations]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 00:58:19] ERROR root fetch - processPackages [yipao]: Unable to get metadata: No such project 'yipao'
+[2024-05-31 00:58:19] INFO root fetch - main [MainThread]: End processing [yipao] error
+[2024-05-31 00:58:19] INFO root fetch - processPackages [pynumaflow]: New version: [0.7.1] Old Version: [0.7.0a1]
+[2024-05-31 00:58:19] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/b4/76/d3c9d71a9b39a8ecea9e7497deeac7e74e7bf7d88fa58f0710c3c0a87004/protoc_polyglot-0.0.1.post7.tar.gz
+[2024-05-31 00:58:19] INFO root fetch - processPackages [salt-infisical]: Downloading https://files.pythonhosted.org/packages/2c/49/56b3cb6bd3067423af46cca38d49474f7f4694a94dba0a8f69c7c5fbc98f/salt_infisical-2.1.1.tar.gz
+[2024-05-31 00:58:19] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/89/17/9542f18838ecc3189b9eaaec4a7ccfe38f999660bb42c8092050b37835fd/nomad_media_pip-0.0.98.tar.gz
+[2024-05-31 00:58:20] INFO root fetch - processPackages [currencies-integrations]: Downloading https://files.pythonhosted.org/packages/f5/50/a3ee8d50da7563fdfa4bd5421872f2dfc9468bbe9af967d1bb9b4f11f067/currencies_integrations-0.1.0.tar.gz
+[2024-05-31 00:58:20] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/e9/7b/373a68a962cdfb85f4bd76f6f4ea13ad3f2cfaca73bf0a9f70d0e7d34380/protoc_polyglot-0.0.1.post8.tar.gz
+[2024-05-31 00:58:20] INFO root fetch - processPackages [pynumaflow]: Downloading https://files.pythonhosted.org/packages/01/f5/ed0b5fb0099e3af0f30467a95ed3c8bc9078295dac12e6cec614ac0f7c1d/pynumaflow-0.7.0a1.tar.gz
+[2024-05-31 00:58:20] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/2b/93/9572cd6061f7b751abb490b170eb8add5795cf245ede93c0b7d20b885a13/nomad_media_pip-0.0.99.tar.gz
+[2024-05-31 00:58:20] INFO root fetch - processPackages [salt-infisical]: Downloading https://files.pythonhosted.org/packages/8a/df/61e3f8220e68497a6f4725c81e6d15e1ba8fdf656406257c0a004acbd423/salt_infisical-2.1.2.tar.gz
+[2024-05-31 00:58:20] INFO root fetch - processPackages [protoc-polyglot]: executing diffoscope
+[2024-05-31 00:58:20] INFO root fetch - processPackages [protoc-polyglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_polyglot-0.0.1.post7.tar.gz tmp/protoc_polyglot-0.0.1.post8.tar.gz --markdown 20240531/p/protoc-polyglot/0.0.1.post7-0.0.1.post8/README.md --exclude *.pyd
+[2024-05-31 00:58:20] INFO root fetch - processPackages [salt-infisical]: executing diffoscope
+[2024-05-31 00:58:20] INFO root fetch - processPackages [salt-infisical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salt_infisical-2.1.1.tar.gz tmp/salt_infisical-2.1.2.tar.gz --markdown 20240531/s/salt-infisical/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-31 00:58:20] INFO root fetch - processPackages [nomad-media-pip]: executing diffoscope
+[2024-05-31 00:58:20] INFO root fetch - processPackages [nomad-media-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_media_pip-0.0.98.tar.gz tmp/nomad_media_pip-0.0.99.tar.gz --markdown 20240531/n/nomad-media-pip/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 00:58:20] INFO root fetch - processPackages [currencies-integrations]: Downloading https://files.pythonhosted.org/packages/2b/da/8500e8324a41ba43804ad011d6325a8226050fcf684cb6324064a90b9b8c/currencies_integrations-0.1.1.tar.gz
+[2024-05-31 00:58:20] INFO root fetch - processPackages [currencies-integrations]: executing diffoscope
+[2024-05-31 00:58:20] INFO root fetch - processPackages [currencies-integrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currencies_integrations-0.1.0.tar.gz tmp/currencies_integrations-0.1.1.tar.gz --markdown 20240531/c/currencies-integrations/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 00:58:20] INFO root fetch - processPackages [pynumaflow]: Downloading https://files.pythonhosted.org/packages/83/4d/1cb00c3004b6ea115a4a8e2048e0667f7f83f724adf6bbcebd2daf4e136a/pynumaflow-0.7.1.tar.gz
+[2024-05-31 00:58:20] INFO root fetch - processPackages [pynumaflow]: executing diffoscope
+[2024-05-31 00:58:20] INFO root fetch - processPackages [pynumaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumaflow-0.7.0a1.tar.gz tmp/pynumaflow-0.7.1.tar.gz --markdown 20240531/p/pynumaflow/0.7.0a1-0.7.1/README.md --exclude *.pyd
+[2024-05-31 00:58:20] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post7.tar.gz]
+[2024-05-31 00:58:20] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post8.tar.gz]
+[2024-05-31 00:58:20] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
+[2024-05-31 00:58:21] INFO root fetch - processPackages [salt-infisical]: Remove: archive file [/home/abi/fetcher/tmp/salt_infisical-2.1.1.tar.gz]
+[2024-05-31 00:58:21] INFO root fetch - processPackages [salt-infisical]: Remove: archive file [/home/abi/fetcher/tmp/salt_infisical-2.1.2.tar.gz]
+[2024-05-31 00:58:21] INFO root fetch - main [MainThread]: End processing [salt-infisical]: success
+[2024-05-31 00:58:21] INFO root fetch - processPackages [currencies-integrations]: Remove: archive file [/home/abi/fetcher/tmp/currencies_integrations-0.1.0.tar.gz]
+[2024-05-31 00:58:21] INFO root fetch - processPackages [currencies-integrations]: Remove: archive file [/home/abi/fetcher/tmp/currencies_integrations-0.1.1.tar.gz]
+[2024-05-31 00:58:21] INFO root fetch - main [MainThread]: End processing [currencies-integrations]: success
+[2024-05-31 00:58:21] INFO root fetch - processPackages [pynumaflow]: Remove: archive file [/home/abi/fetcher/tmp/pynumaflow-0.7.0a1.tar.gz]
+[2024-05-31 00:58:21] INFO root fetch - processPackages [pynumaflow]: Remove: archive file [/home/abi/fetcher/tmp/pynumaflow-0.7.1.tar.gz]
+[2024-05-31 00:58:21] INFO root fetch - main [MainThread]: End processing [pynumaflow]: success
+[2024-05-31 00:58:23] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.98.tar.gz]
+[2024-05-31 00:58:23] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
+[2024-05-31 00:58:23] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
+[2024-05-31 00:58:23] INFO root fetch - main [MainThread]: Store serial: [23457883]
