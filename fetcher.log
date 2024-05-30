@@ -1778,3 +1778,42 @@
 [2024-05-31 01:15:45] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.9.0.tar.gz]
 [2024-05-31 01:15:45] INFO root fetch - main [MainThread]: End processing [aind-exaspim-pipeline-utils]: success
 [2024-05-31 01:15:45] INFO root fetch - main [MainThread]: Store serial: [23458031]
+[2024-05-31 01:17:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458031]
+[2024-05-31 01:17:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 01:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensesame-plugin-audio-low-latency
+[2024-05-31 01:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: salt-infisical
+[2024-05-31 01:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcqa
+[2024-05-31 01:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkgconf
+[2024-05-31 01:17:53] INFO root fetch - processPackages [salt-infisical]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-05-31 01:17:53] INFO root fetch - processPackages [pkgconf]: New version: [2.1.1.post7] Old Version: [2.1.1.post6]
+[2024-05-31 01:17:53] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: New version: [9.3.0] Old Version: [9.2.0]
+[2024-05-31 01:17:53] INFO root fetch - processPackages [bcqa]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-31 01:17:53] INFO root fetch - processPackages [pkgconf]: Downloading https://files.pythonhosted.org/packages/fa/90/81159cbfa3930d5cb739436d2b6f952b5e7702ad95d23a83a5d95dcd92b7/pkgconf-2.1.1.post6.tar.gz
+[2024-05-31 01:17:53] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: Downloading https://files.pythonhosted.org/packages/89/65/30528d7e94cd3c53202333f7bcd61c93f722b66f0e969a23d86790cdef58/opensesame-plugin-audio_low_latency-9.2.0.tar.gz
+[2024-05-31 01:17:53] INFO root fetch - processPackages [salt-infisical]: Downloading https://files.pythonhosted.org/packages/8a/df/61e3f8220e68497a6f4725c81e6d15e1ba8fdf656406257c0a004acbd423/salt_infisical-2.1.2.tar.gz
+[2024-05-31 01:17:53] INFO root fetch - processPackages [bcqa]: Downloading https://files.pythonhosted.org/packages/65/a1/da4d045a5fcc2f22305866cb9e8dcabedf0b5329100016b39c663d6bbcf7/bcqa-1.1.2.tar.gz
+[2024-05-31 01:17:54] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: Downloading https://files.pythonhosted.org/packages/db/51/a0cb912827da0844dd8436ef0499fc72cbc018f4b50b78f57829e7ccb75f/opensesame-plugin-audio_low_latency-9.3.0.tar.gz
+[2024-05-31 01:17:54] INFO root fetch - processPackages [pkgconf]: Downloading https://files.pythonhosted.org/packages/9b/8c/d619d671c225621bb4865a639b9e315e4a757ffb86c6c2a2dc109eb147b3/pkgconf-2.1.1.post7.tar.gz
+[2024-05-31 01:17:54] INFO root fetch - processPackages [bcqa]: Downloading https://files.pythonhosted.org/packages/27/e7/a07975c03edb1c83c059259306337ca6b351bf67617e1134b5747c1ace00/bcqa-1.1.3.tar.gz
+[2024-05-31 01:17:54] INFO root fetch - processPackages [salt-infisical]: Downloading https://files.pythonhosted.org/packages/e3/1d/3201dbd137f156c8edbea2e0cb2d14eb433523fe5bdc76bb305daa7d0bd0/salt_infisical-2.1.3.tar.gz
+[2024-05-31 01:17:54] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: executing diffoscope
+[2024-05-31 01:17:54] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame-plugin-audio_low_latency-9.2.0.tar.gz tmp/opensesame-plugin-audio_low_latency-9.3.0.tar.gz --markdown 20240531/o/opensesame-plugin-audio-low-latency/9.2.0-9.3.0/README.md --exclude *.pyd
+[2024-05-31 01:17:54] INFO root fetch - processPackages [salt-infisical]: executing diffoscope
+[2024-05-31 01:17:54] INFO root fetch - processPackages [salt-infisical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salt_infisical-2.1.2.tar.gz tmp/salt_infisical-2.1.3.tar.gz --markdown 20240531/s/salt-infisical/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-05-31 01:17:54] INFO root fetch - processPackages [pkgconf]: executing diffoscope
+[2024-05-31 01:17:54] INFO root fetch - processPackages [pkgconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgconf-2.1.1.post6.tar.gz tmp/pkgconf-2.1.1.post7.tar.gz --markdown 20240531/p/pkgconf/2.1.1.post6-2.1.1.post7/README.md --exclude *.pyd
+[2024-05-31 01:17:54] INFO root fetch - processPackages [bcqa]: executing diffoscope
+[2024-05-31 01:17:54] INFO root fetch - processPackages [bcqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcqa-1.1.2.tar.gz tmp/bcqa-1.1.3.tar.gz --markdown 20240531/b/bcqa/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-31 01:17:54] INFO root fetch - processPackages [salt-infisical]: Remove: archive file [/home/abi/fetcher/tmp/salt_infisical-2.1.2.tar.gz]
+[2024-05-31 01:17:54] INFO root fetch - processPackages [salt-infisical]: Remove: archive file [/home/abi/fetcher/tmp/salt_infisical-2.1.3.tar.gz]
+[2024-05-31 01:17:54] INFO root fetch - main [MainThread]: End processing [salt-infisical]: success
+[2024-05-31 01:17:55] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: Remove: archive file [/home/abi/fetcher/tmp/opensesame-plugin-audio_low_latency-9.2.0.tar.gz]
+[2024-05-31 01:17:55] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: Remove: archive file [/home/abi/fetcher/tmp/opensesame-plugin-audio_low_latency-9.3.0.tar.gz]
+[2024-05-31 01:17:55] INFO root fetch - main [MainThread]: End processing [opensesame-plugin-audio-low-latency]: success
+[2024-05-31 01:17:55] INFO root fetch - processPackages [bcqa]: Remove: archive file [/home/abi/fetcher/tmp/bcqa-1.1.2.tar.gz]
+[2024-05-31 01:17:55] INFO root fetch - processPackages [bcqa]: Remove: archive file [/home/abi/fetcher/tmp/bcqa-1.1.3.tar.gz]
+[2024-05-31 01:17:55] INFO root fetch - main [MainThread]: End processing [bcqa]: success
+[2024-05-31 01:17:55] INFO root fetch - processPackages [pkgconf]: Remove: archive file [/home/abi/fetcher/tmp/pkgconf-2.1.1.post6.tar.gz]
+[2024-05-31 01:17:55] INFO root fetch - processPackages [pkgconf]: Remove: archive file [/home/abi/fetcher/tmp/pkgconf-2.1.1.post7.tar.gz]
+[2024-05-31 01:17:55] INFO root fetch - main [MainThread]: End processing [pkgconf]: success
+[2024-05-31 01:17:55] INFO root fetch - main [MainThread]: Store serial: [23458056]
