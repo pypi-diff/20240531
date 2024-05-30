@@ -847,3 +847,45 @@
 [2024-05-31 00:31:49] INFO root fetch - processPackages [google-cloud-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-pubsub-2.9.0.tar.gz]
 [2024-05-31 00:31:49] INFO root fetch - main [MainThread]: End processing [google-cloud-pubsub]: success
 [2024-05-31 00:31:49] INFO root fetch - main [MainThread]: Store serial: [23457630]
+[2024-05-31 00:33:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457630]
+[2024-05-31 00:33:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 00:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyLogger3
+[2024-05-31 00:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: armasec
+[2024-05-31 00:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mbirjax
+[2024-05-31 00:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adi-notebook
+[2024-05-31 00:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heaserver-organizations
+[2024-05-31 00:33:57] INFO root fetch - processPackages [heaserver-organizations]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-31 00:33:57] INFO root fetch - processPackages [heaserver-organizations]: Downloading https://files.pythonhosted.org/packages/9f/c1/e533c8fd792bdeac718addc5ae67878a3f45e53bedcb0338cb49562f1030/heaserver_organizations-1.4.3.tar.gz
+[2024-05-31 00:33:57] INFO root fetch - processPackages [mbirjax]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-31 00:33:57] INFO root fetch - processPackages [armasec]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-31 00:33:58] WARNING root fetch - processPackages [PyLogger3]: Skipping, unable to determine old version
+[2024-05-31 00:33:58] INFO root fetch - main [MainThread]: End processing [PyLogger3] error
+[2024-05-31 00:33:58] INFO root fetch - processPackages [adi-notebook]: New version: [1.0.0a1] Old Version: [0.3.3]
+[2024-05-31 00:33:58] INFO root fetch - processPackages [adi-notebook]: Downloading https://files.pythonhosted.org/packages/79/f2/d2cc30c970bb512b6949d925c89b52c82fd6700df22648427021afad5869/adi_notebook-0.3.3-py3-none-manylinux1_x86_64.whl
+[2024-05-31 00:33:58] INFO root fetch - processPackages [mbirjax]: Downloading https://files.pythonhosted.org/packages/df/8b/97500987c11cd9208fdeda53b857a03fc45f22270993e604a0c35d6825cb/mbirjax-0.1.0.tar.gz
+[2024-05-31 00:33:58] INFO root fetch - processPackages [armasec]: Downloading https://files.pythonhosted.org/packages/75/3e/9a2e2fecdef2a8e6fdca3c1f3c0b6181fb6f3964cde3ad895c0dd5df9997/armasec-2.0.0.tar.gz
+[2024-05-31 00:33:58] INFO root fetch - processPackages [heaserver-organizations]: Downloading https://files.pythonhosted.org/packages/6e/17/ae1a125e0586c95b1faca3dbe8d91a6d9c7420985bed6a02a6f7cd0fa79b/heaserver_organizations-1.4.4.tar.gz
+[2024-05-31 00:33:58] INFO root fetch - processPackages [heaserver-organizations]: executing diffoscope
+[2024-05-31 00:33:58] INFO root fetch - processPackages [heaserver-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver_organizations-1.4.3.tar.gz tmp/heaserver_organizations-1.4.4.tar.gz --markdown 20240531/h/heaserver-organizations/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-31 00:33:58] INFO root fetch - processPackages [armasec]: Downloading https://files.pythonhosted.org/packages/90/d0/ccd1f2f4d1bce8cd1a141e7bf9131ffed3231b1174c776492b7153663c63/armasec-2.0.1.tar.gz
+[2024-05-31 00:33:58] INFO root fetch - processPackages [adi-notebook]: Downloading https://files.pythonhosted.org/packages/d3/4e/c2c00e6a8c656b9a8cd3a5164c276502812a8a2d8a93c466cc68bc632611/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl
+[2024-05-31 00:33:58] INFO root fetch - processPackages [armasec]: executing diffoscope
+[2024-05-31 00:33:58] INFO root fetch - processPackages [armasec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armasec-2.0.0.tar.gz tmp/armasec-2.0.1.tar.gz --markdown 20240531/a/armasec/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-31 00:33:58] INFO root fetch - processPackages [mbirjax]: Downloading https://files.pythonhosted.org/packages/95/9f/e71e51c00aa326c2c6aae2c45bcfe7ba810944d45ea0ef417c76a5941b37/mbirjax-0.2.0.tar.gz
+[2024-05-31 00:33:58] INFO root fetch - processPackages [adi-notebook]: executing diffoscope
+[2024-05-31 00:33:58] INFO root fetch - processPackages [adi-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adi_notebook-0.3.3-py3-none-manylinux1_x86_64.whl.zip tmp/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl.zip --markdown 20240531/a/adi-notebook/0.3.3-1.0.0a1/README.md --exclude *.pyd
+[2024-05-31 00:33:58] INFO root fetch - processPackages [mbirjax]: executing diffoscope
+[2024-05-31 00:33:58] INFO root fetch - processPackages [mbirjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbirjax-0.1.0.tar.gz tmp/mbirjax-0.2.0.tar.gz --markdown 20240531/m/mbirjax/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-31 00:33:59] INFO root fetch - processPackages [adi-notebook]: Remove: archive file [/home/abi/fetcher/tmp/adi_notebook-0.3.3-py3-none-manylinux1_x86_64.whl.zip]
+[2024-05-31 00:33:59] INFO root fetch - processPackages [adi-notebook]: Remove: archive file [/home/abi/fetcher/tmp/adi_notebook-1.0.0a1-py3-none-manylinux1_x86_64.whl.zip]
+[2024-05-31 00:33:59] INFO root fetch - main [MainThread]: End processing [adi-notebook]: success
+[2024-05-31 00:33:59] INFO root fetch - processPackages [heaserver-organizations]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_organizations-1.4.3.tar.gz]
+[2024-05-31 00:33:59] INFO root fetch - processPackages [heaserver-organizations]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_organizations-1.4.4.tar.gz]
+[2024-05-31 00:33:59] INFO root fetch - main [MainThread]: End processing [heaserver-organizations]: success
+[2024-05-31 00:33:59] INFO root fetch - processPackages [armasec]: Remove: archive file [/home/abi/fetcher/tmp/armasec-2.0.0.tar.gz]
+[2024-05-31 00:33:59] INFO root fetch - processPackages [armasec]: Remove: archive file [/home/abi/fetcher/tmp/armasec-2.0.1.tar.gz]
+[2024-05-31 00:33:59] INFO root fetch - main [MainThread]: End processing [armasec]: success
+[2024-05-31 00:33:59] INFO root fetch - processPackages [mbirjax]: Remove: archive file [/home/abi/fetcher/tmp/mbirjax-0.1.0.tar.gz]
+[2024-05-31 00:33:59] INFO root fetch - processPackages [mbirjax]: Remove: archive file [/home/abi/fetcher/tmp/mbirjax-0.2.0.tar.gz]
+[2024-05-31 00:33:59] INFO root fetch - main [MainThread]: End processing [mbirjax]: success
+[2024-05-31 00:33:59] INFO root fetch - main [MainThread]: Store serial: [23457643]
