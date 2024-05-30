@@ -2516,3 +2516,24 @@
 [2024-05-31 01:51:31] INFO root fetch - processPackages [pypop-genomics]: Remove: archive file [/home/abi/fetcher/tmp/pypop_genomics-1.1.0rc2.tar.gz]
 [2024-05-31 01:51:31] INFO root fetch - main [MainThread]: End processing [pypop-genomics]: success
 [2024-05-31 01:51:31] INFO root fetch - main [MainThread]: Store serial: [23458436]
+[2024-05-31 01:53:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458436]
+[2024-05-31 01:53:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 01:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fancy-dataclass
+[2024-05-31 01:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: social-auth-gsis
+[2024-05-31 01:53:51] INFO root fetch - processPackages [social-auth-gsis]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-31 01:53:52] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/5f/bb/22c82c3d0a1ea26cea7fc058277a1ecaaa0d5f55813445056652d054da11/social_auth_gsis-0.5.4.tar.gz
+[2024-05-31 01:53:52] INFO root fetch - processPackages [fancy-dataclass]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-31 01:53:52] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/dc/b4/a40639466790da8b237ef360b2430f52bc1a98f88331542724314a68ff66/fancy_dataclass-0.4.4.tar.gz
+[2024-05-31 01:53:52] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/52/aa/184ed7029dd25769a55a12c10b0d6be85868511551e1953b2148b70858fc/social_auth_gsis-0.5.5.tar.gz
+[2024-05-31 01:53:52] INFO root fetch - processPackages [social-auth-gsis]: executing diffoscope
+[2024-05-31 01:53:52] INFO root fetch - processPackages [social-auth-gsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_auth_gsis-0.5.4.tar.gz tmp/social_auth_gsis-0.5.5.tar.gz --markdown 20240531/s/social-auth-gsis/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-31 01:53:52] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/ae/c1/9e7048825c9692e20d8d27ae2cdc562385187da2c723a0a89623dc1ea23d/fancy_dataclass-0.4.5.tar.gz
+[2024-05-31 01:53:52] INFO root fetch - processPackages [fancy-dataclass]: executing diffoscope
+[2024-05-31 01:53:52] INFO root fetch - processPackages [fancy-dataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancy_dataclass-0.4.4.tar.gz tmp/fancy_dataclass-0.4.5.tar.gz --markdown 20240531/f/fancy-dataclass/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-31 01:53:52] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.4.tar.gz]
+[2024-05-31 01:53:52] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.5.tar.gz]
+[2024-05-31 01:53:52] INFO root fetch - main [MainThread]: End processing [social-auth-gsis]: success
+[2024-05-31 01:53:53] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.4.4.tar.gz]
+[2024-05-31 01:53:53] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.4.5.tar.gz]
+[2024-05-31 01:53:53] INFO root fetch - main [MainThread]: End processing [fancy-dataclass]: success
+[2024-05-31 01:53:53] INFO root fetch - main [MainThread]: Store serial: [23458480]
