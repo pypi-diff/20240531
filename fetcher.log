@@ -1817,3 +1817,63 @@
 [2024-05-31 01:17:55] INFO root fetch - processPackages [pkgconf]: Remove: archive file [/home/abi/fetcher/tmp/pkgconf-2.1.1.post7.tar.gz]
 [2024-05-31 01:17:55] INFO root fetch - main [MainThread]: End processing [pkgconf]: success
 [2024-05-31 01:17:55] INFO root fetch - main [MainThread]: Store serial: [23458056]
+[2024-05-31 01:19:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458056]
+[2024-05-31 01:20:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sneat
+[2024-05-31 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagster-prometheus
+[2024-05-31 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-vector-stores-upstash
+[2024-05-31 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dagster-snowflake-pandas
+[2024-05-31 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagster-dask
+[2024-05-31 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagster-dbt
+[2024-05-31 01:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dagster-celery-docker
+[2024-05-31 01:20:03] WARNING root fetch - processPackages [sneat]: Skipping, unable to determine old version
+[2024-05-31 01:20:03] INFO root fetch - main [MainThread]: End processing [sneat] error
+[2024-05-31 01:20:03] INFO root fetch - processPackages [dagster-prometheus]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2024-05-31 01:20:03] INFO root fetch - processPackages [llama-index-vector-stores-upstash]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-05-31 01:20:03] INFO root fetch - processPackages [dagster-dbt]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2024-05-31 01:20:03] INFO root fetch - processPackages [dagster-snowflake-pandas]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-dask]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-prometheus]: Downloading https://files.pythonhosted.org/packages/b3/e1/15a72325400c37eed6afaac7a2d40ef881710c2f602eb3a49382435a20fb/dagster-prometheus-0.9.9.tar.gz
+[2024-05-31 01:20:04] INFO root fetch - processPackages [llama-index-vector-stores-upstash]: Downloading https://files.pythonhosted.org/packages/8f/dc/f2cb14295fe21b8a2cea81f54d61d10896a2831ed42d38fc75d5a519e21d/llama_index_vector_stores_upstash-0.1.3.tar.gz
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-dbt]: Downloading https://files.pythonhosted.org/packages/cc/9c/386562d1a064f715501e0e3788db3e71a77760d176315bc05e96021a26ad/dagster-dbt-0.9.9.tar.gz
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-snowflake-pandas]: Downloading https://files.pythonhosted.org/packages/3d/df/f55ec3901f07fea950a3c4a98e3513403d4b3d72e9f6ea87ee807f926a15/dagster-snowflake-pandas-0.23.7.tar.gz
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-dask]: Downloading https://files.pythonhosted.org/packages/72/ca/0e06a70bab0d7db6c13009ba1f06d77018be6c4b622e62bc14c11cd16fa7/dagster-dask-0.9.9.tar.gz
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-celery-docker]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-snowflake-pandas]: Downloading https://files.pythonhosted.org/packages/64/4c/f0d481ea3a4d70b85020550868f6774b8f1f70094ab5ea8a0a0305fabb22/dagster-snowflake-pandas-0.23.8.tar.gz
+[2024-05-31 01:20:04] INFO root fetch - processPackages [llama-index-vector-stores-upstash]: Downloading https://files.pythonhosted.org/packages/d2/f6/7d81dcf4648d74674873159bf15a78ce36790c44337b811b97565f4c56b1/llama_index_vector_stores_upstash-0.1.5-py3-none-any.whl
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-prometheus]: Downloading https://files.pythonhosted.org/packages/68/cf/49544cccc9de0e8ca5a67045d093e3b3968272d04475fac6eba3e4d510d0/dagster-prometheus-0.9.9rc1.tar.gz
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-celery-docker]: Downloading https://files.pythonhosted.org/packages/24/5d/68b8bdb9cf37c6327e1b7b124a28fd35b7ecac0dea84662017d29cec74ab/dagster-celery-docker-0.9.9.tar.gz
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-dask]: Downloading https://files.pythonhosted.org/packages/8f/c4/2eb506a63b10c1c115a81c334f14f6244999aeeb16af02ba04baf6cb3f2c/dagster-dask-0.9.9rc1.tar.gz
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-dbt]: Downloading https://files.pythonhosted.org/packages/58/14/f93191ec64a4f86b18d883da7912744c130f34af0fe31c9b2824e7582984/dagster-dbt-0.9.9rc1.tar.gz
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-prometheus]: executing diffoscope
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-prometheus-0.9.9.tar.gz tmp/dagster-prometheus-0.9.9rc1.tar.gz --markdown 20240531/d/dagster-prometheus/0.9.9-0.9.9rc1/README.md --exclude *.pyd
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-snowflake-pandas]: executing diffoscope
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-snowflake-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-snowflake-pandas-0.23.7.tar.gz tmp/dagster-snowflake-pandas-0.23.8.tar.gz --markdown 20240531/d/dagster-snowflake-pandas/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 01:20:04] INFO root fetch - processPackages [llama-index-vector-stores-upstash]: executing diffoscope
+[2024-05-31 01:20:04] INFO root fetch - processPackages [llama-index-vector-stores-upstash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_upstash-0.1.3.tar.gz tmp/llama_index_vector_stores_upstash-0.1.5-py3-none-any.whl.zip --markdown 20240531/l/llama-index-vector-stores-upstash/0.1.3-0.1.5/README.md --exclude *.pyd
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-dbt]: executing diffoscope
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-dbt-0.9.9.tar.gz tmp/dagster-dbt-0.9.9rc1.tar.gz --markdown 20240531/d/dagster-dbt/0.9.9-0.9.9rc1/README.md --exclude *.pyd
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-dask]: executing diffoscope
+[2024-05-31 01:20:04] INFO root fetch - processPackages [dagster-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-dask-0.9.9.tar.gz tmp/dagster-dask-0.9.9rc1.tar.gz --markdown 20240531/d/dagster-dask/0.9.9-0.9.9rc1/README.md --exclude *.pyd
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-celery-docker]: Downloading https://files.pythonhosted.org/packages/b6/f1/217f008ce62d57396e2fda40eca516e257abdc1090ef68fb3a1a3b9ab0a2/dagster-celery-docker-0.9.9rc1.tar.gz
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/dagster-prometheus-0.9.9.tar.gz]
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/dagster-prometheus-0.9.9rc1.tar.gz]
+[2024-05-31 01:20:05] INFO root fetch - main [MainThread]: End processing [dagster-prometheus]: success
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-celery-docker]: executing diffoscope
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-celery-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-celery-docker-0.9.9.tar.gz tmp/dagster-celery-docker-0.9.9rc1.tar.gz --markdown 20240531/d/dagster-celery-docker/0.9.9-0.9.9rc1/README.md --exclude *.pyd
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-dbt]: Remove: archive file [/home/abi/fetcher/tmp/dagster-dbt-0.9.9.tar.gz]
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-dbt]: Remove: archive file [/home/abi/fetcher/tmp/dagster-dbt-0.9.9rc1.tar.gz]
+[2024-05-31 01:20:05] INFO root fetch - main [MainThread]: End processing [dagster-dbt]: success
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-snowflake-pandas]: Remove: archive file [/home/abi/fetcher/tmp/dagster-snowflake-pandas-0.23.7.tar.gz]
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-snowflake-pandas]: Remove: archive file [/home/abi/fetcher/tmp/dagster-snowflake-pandas-0.23.8.tar.gz]
+[2024-05-31 01:20:05] INFO root fetch - main [MainThread]: End processing [dagster-snowflake-pandas]: success
+[2024-05-31 01:20:05] INFO root fetch - processPackages [llama-index-vector-stores-upstash]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_upstash-0.1.3.tar.gz]
+[2024-05-31 01:20:05] INFO root fetch - processPackages [llama-index-vector-stores-upstash]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_upstash-0.1.5-py3-none-any.whl.zip]
+[2024-05-31 01:20:05] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-upstash]: success
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-dask]: Remove: archive file [/home/abi/fetcher/tmp/dagster-dask-0.9.9.tar.gz]
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-dask]: Remove: archive file [/home/abi/fetcher/tmp/dagster-dask-0.9.9rc1.tar.gz]
+[2024-05-31 01:20:05] INFO root fetch - main [MainThread]: End processing [dagster-dask]: success
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-celery-docker]: Remove: archive file [/home/abi/fetcher/tmp/dagster-celery-docker-0.9.9.tar.gz]
+[2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-celery-docker]: Remove: archive file [/home/abi/fetcher/tmp/dagster-celery-docker-0.9.9rc1.tar.gz]
+[2024-05-31 01:20:05] INFO root fetch - main [MainThread]: End processing [dagster-celery-docker]: success
+[2024-05-31 01:20:05] INFO root fetch - main [MainThread]: Store serial: [23458073]
