@@ -144,3 +144,45 @@
 [2024-05-31 00:05:44] INFO root fetch - processPackages [dagster]: Remove: archive file [/home/abi/fetcher/tmp/dagster-1.7.8.tar.gz]
 [2024-05-31 00:05:44] INFO root fetch - main [MainThread]: End processing [dagster]: success
 [2024-05-31 00:05:44] INFO root fetch - main [MainThread]: Store serial: [23457334]
+[2024-05-31 00:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457334]
+[2024-05-31 00:07:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 00:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcicutils
+[2024-05-31 00:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptic
+[2024-05-31 00:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: patho-pix
+[2024-05-31 00:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: querier
+[2024-05-31 00:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elasticstore
+[2024-05-31 00:07:52] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.1b5] Old Version: [8.9.0.1b2]
+[2024-05-31 00:07:52] INFO root fetch - processPackages [promptic]: New version: [0.7.0a1] Old Version: [0.6.1]
+[2024-05-31 00:07:52] INFO root fetch - processPackages [elasticstore]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-05-31 00:07:52] INFO root fetch - processPackages [querier]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-31 00:07:52] WARNING root fetch - processPackages [patho-pix]: Skipping, unable to determine old version
+[2024-05-31 00:07:52] INFO root fetch - main [MainThread]: End processing [patho-pix] error
+[2024-05-31 00:07:52] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/69/d1/c31ff18c5c68b5e0d05473ba2ae0f24ecfecf7160bdbaff14ae00688e85a/dcicutils-8.9.0.1b2.tar.gz
+[2024-05-31 00:07:53] INFO root fetch - processPackages [elasticstore]: Downloading https://files.pythonhosted.org/packages/8a/81/0dddc04889f5d03d403da7f717d8e7f26fdd1ab9d2237427490da38493f7/elasticstore-2.1.1-py3-none-any.whl
+[2024-05-31 00:07:53] INFO root fetch - processPackages [querier]: Downloading https://files.pythonhosted.org/packages/32/54/56eb5412b887ded4c3bdf42701c993e1cba0e071fca7c6f0652cc85650b6/querier-0.4.1.tar.gz
+[2024-05-31 00:07:53] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/d1/73/c668b322ef1ea2e2774ed123c9cf1dea81a7dc7241e71636abb312643ea5/promptic-0.6.1.tar.gz
+[2024-05-31 00:07:53] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/d9/14/ef6bb6982ca08b3c631598b2a36e96a392449aad0af9e6dd231ac71db167/dcicutils-8.9.0.1b5.tar.gz
+[2024-05-31 00:07:53] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-31 00:07:53] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.9.0.1b2.tar.gz tmp/dcicutils-8.9.0.1b5.tar.gz --markdown 20240531/d/dcicutils/8.9.0.1b2-8.9.0.1b5/README.md --exclude *.pyd
+[2024-05-31 00:07:53] INFO root fetch - processPackages [elasticstore]: Downloading https://files.pythonhosted.org/packages/5f/d3/824a1251513a8de373e0256eb77690ae1cf8ac3eeec9d4f0c090cef14b49/elasticstore-2.2.0-py3-none-any.whl
+[2024-05-31 00:07:53] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/43/db/728304ee5aac494a195b0f6b54f24a7e16d5e15907cc669b94af10de4791/promptic-0.7.0a1.tar.gz
+[2024-05-31 00:07:53] INFO root fetch - processPackages [querier]: Downloading https://files.pythonhosted.org/packages/f1/be/df813ec6af9b211f1a42993b05e139556ef3c0b5ca7719e7ec25ff039471/querier-0.5.0.tar.gz
+[2024-05-31 00:07:53] INFO root fetch - processPackages [elasticstore]: executing diffoscope
+[2024-05-31 00:07:53] INFO root fetch - processPackages [elasticstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticstore-2.1.1-py3-none-any.whl.zip tmp/elasticstore-2.2.0-py3-none-any.whl.zip --markdown 20240531/e/elasticstore/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-05-31 00:07:53] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-31 00:07:53] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.6.1.tar.gz tmp/promptic-0.7.0a1.tar.gz --markdown 20240531/p/promptic/0.6.1-0.7.0a1/README.md --exclude *.pyd
+[2024-05-31 00:07:53] INFO root fetch - processPackages [querier]: executing diffoscope
+[2024-05-31 00:07:53] INFO root fetch - processPackages [querier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querier-0.4.1.tar.gz tmp/querier-0.5.0.tar.gz --markdown 20240531/q/querier/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-31 00:07:54] INFO root fetch - processPackages [elasticstore]: Remove: archive file [/home/abi/fetcher/tmp/elasticstore-2.1.1-py3-none-any.whl.zip]
+[2024-05-31 00:07:54] INFO root fetch - processPackages [elasticstore]: Remove: archive file [/home/abi/fetcher/tmp/elasticstore-2.2.0-py3-none-any.whl.zip]
+[2024-05-31 00:07:54] INFO root fetch - main [MainThread]: End processing [elasticstore]: success
+[2024-05-31 00:07:54] INFO root fetch - processPackages [querier]: Remove: archive file [/home/abi/fetcher/tmp/querier-0.4.1.tar.gz]
+[2024-05-31 00:07:54] INFO root fetch - processPackages [querier]: Remove: archive file [/home/abi/fetcher/tmp/querier-0.5.0.tar.gz]
+[2024-05-31 00:07:54] INFO root fetch - main [MainThread]: End processing [querier]: success
+[2024-05-31 00:07:54] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.6.1.tar.gz]
+[2024-05-31 00:07:54] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.7.0a1.tar.gz]
+[2024-05-31 00:07:54] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-31 00:07:54] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.1b2.tar.gz]
+[2024-05-31 00:07:54] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.1b5.tar.gz]
+[2024-05-31 00:07:54] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-31 00:07:54] INFO root fetch - main [MainThread]: Store serial: [23457352]
