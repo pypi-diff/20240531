@@ -1495,3 +1495,51 @@
 [2024-05-31 01:00:34] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.1a1.tar.gz]
 [2024-05-31 01:00:34] INFO root fetch - main [MainThread]: End processing [pandasai]: success
 [2024-05-31 01:00:34] INFO root fetch - main [MainThread]: Store serial: [23457909]
+[2024-05-31 01:02:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457909]
+[2024-05-31 01:02:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 01:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hashtag-utils
+[2024-05-31 01:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protoc-polyglot
+[2024-05-31 01:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typedload
+[2024-05-31 01:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xingyun
+[2024-05-31 01:02:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: social-auth-gsis
+[2024-05-31 01:02:42] INFO root fetch - processPackages [protoc-polyglot]: New version: [0.0.1.post9] Old Version: [0.0.1.post8]
+[2024-05-31 01:02:42] INFO root fetch - processPackages [hashtag-utils]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-31 01:02:42] INFO root fetch - processPackages [xingyun]: New version: [0.0.8.post7] Old Version: [0.0.8.post6]
+[2024-05-31 01:02:42] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/e9/7b/373a68a962cdfb85f4bd76f6f4ea13ad3f2cfaca73bf0a9f70d0e7d34380/protoc_polyglot-0.0.1.post8.tar.gz
+[2024-05-31 01:02:42] INFO root fetch - processPackages [typedload]: New version: [2.9] Old Version: [2.8]
+[2024-05-31 01:02:42] INFO root fetch - processPackages [social-auth-gsis]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-31 01:02:42] INFO root fetch - processPackages [hashtag-utils]: Downloading https://files.pythonhosted.org/packages/55/34/a22159a6287239a91f257355a0c6603026d5b4b20d3d788e3cd1b0e825c3/hashtag_utils-0.5.2.tar.gz
+[2024-05-31 01:02:43] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/01/80/bdadb218d1c3271c3a258316c3d5991f2676b54e6f358ac689f9495990f5/protoc_polyglot-0.0.1.post9.tar.gz
+[2024-05-31 01:02:43] INFO root fetch - processPackages [typedload]: Downloading https://files.pythonhosted.org/packages/1a/9c/b3e79bbe539b796edf6f784dfe2cd45ba8c239e727d1a2bd66bae1ce323b/typedload-2.8.tar.gz
+[2024-05-31 01:02:43] INFO root fetch - processPackages [xingyun]: Downloading https://files.pythonhosted.org/packages/ec/4d/00348f4987130049980624c986c2ce055dcc29af60ab0d20c624a08f4178/xingyun-0.0.8.post6.tar.gz
+[2024-05-31 01:02:43] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/e7/b6/bca8fa525fd68b6bc134c132923291c455be352fca2053676575e9272d61/social_auth_gsis-0.4.0.tar.gz
+[2024-05-31 01:02:43] INFO root fetch - processPackages [protoc-polyglot]: executing diffoscope
+[2024-05-31 01:02:43] INFO root fetch - processPackages [protoc-polyglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_polyglot-0.0.1.post8.tar.gz tmp/protoc_polyglot-0.0.1.post9.tar.gz --markdown 20240531/p/protoc-polyglot/0.0.1.post8-0.0.1.post9/README.md --exclude *.pyd
+[2024-05-31 01:02:43] INFO root fetch - processPackages [hashtag-utils]: Downloading https://files.pythonhosted.org/packages/08/f7/c6dd4ec16be9cbd72e3512ddf2bedbda00e8c9e5ecf8602680680f2688fb/hashtag_utils-0.5.3.tar.gz
+[2024-05-31 01:02:43] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/52/b6/d266babff79176a581b53a0e8f852aa83c6142da99d8afaca615c4ba8139/social_auth_gsis-0.5.0.tar.gz
+[2024-05-31 01:02:43] INFO root fetch - processPackages [hashtag-utils]: executing diffoscope
+[2024-05-31 01:02:43] INFO root fetch - processPackages [hashtag-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hashtag_utils-0.5.2.tar.gz tmp/hashtag_utils-0.5.3.tar.gz --markdown 20240531/h/hashtag-utils/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-31 01:02:43] INFO root fetch - processPackages [xingyun]: Downloading https://files.pythonhosted.org/packages/f9/3b/79833fbe449eeb8bd8849f2350d573ab0664211e1db9eed48ab69598b0a3/xingyun-0.0.8.post7.tar.gz
+[2024-05-31 01:02:43] INFO root fetch - processPackages [typedload]: Downloading https://files.pythonhosted.org/packages/16/9e/9a2ddfc41dadcfa54a39c136817e339764a9005b8ba3fad58d75a9592040/typedload-2.9.tar.gz
+[2024-05-31 01:02:43] INFO root fetch - processPackages [social-auth-gsis]: executing diffoscope
+[2024-05-31 01:02:43] INFO root fetch - processPackages [social-auth-gsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_auth_gsis-0.4.0.tar.gz tmp/social_auth_gsis-0.5.0.tar.gz --markdown 20240531/s/social-auth-gsis/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-31 01:02:43] INFO root fetch - processPackages [xingyun]: executing diffoscope
+[2024-05-31 01:02:43] INFO root fetch - processPackages [xingyun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xingyun-0.0.8.post6.tar.gz tmp/xingyun-0.0.8.post7.tar.gz --markdown 20240531/x/xingyun/0.0.8.post6-0.0.8.post7/README.md --exclude *.pyd
+[2024-05-31 01:02:43] INFO root fetch - processPackages [typedload]: executing diffoscope
+[2024-05-31 01:02:43] INFO root fetch - processPackages [typedload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedload-2.8.tar.gz tmp/typedload-2.9.tar.gz --markdown 20240531/t/typedload/2.8-2.9/README.md --exclude *.pyd
+[2024-05-31 01:02:43] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post8.tar.gz]
+[2024-05-31 01:02:43] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post9.tar.gz]
+[2024-05-31 01:02:43] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
+[2024-05-31 01:02:43] INFO root fetch - processPackages [hashtag-utils]: Remove: archive file [/home/abi/fetcher/tmp/hashtag_utils-0.5.2.tar.gz]
+[2024-05-31 01:02:43] INFO root fetch - processPackages [hashtag-utils]: Remove: archive file [/home/abi/fetcher/tmp/hashtag_utils-0.5.3.tar.gz]
+[2024-05-31 01:02:43] INFO root fetch - main [MainThread]: End processing [hashtag-utils]: success
+[2024-05-31 01:02:44] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.4.0.tar.gz]
+[2024-05-31 01:02:44] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.0.tar.gz]
+[2024-05-31 01:02:44] INFO root fetch - main [MainThread]: End processing [social-auth-gsis]: success
+[2024-05-31 01:02:44] INFO root fetch - processPackages [typedload]: Remove: archive file [/home/abi/fetcher/tmp/typedload-2.8.tar.gz]
+[2024-05-31 01:02:44] INFO root fetch - processPackages [typedload]: Remove: archive file [/home/abi/fetcher/tmp/typedload-2.9.tar.gz]
+[2024-05-31 01:02:44] INFO root fetch - main [MainThread]: End processing [typedload]: success
+[2024-05-31 01:02:44] INFO root fetch - processPackages [xingyun]: Remove: archive file [/home/abi/fetcher/tmp/xingyun-0.0.8.post6.tar.gz]
+[2024-05-31 01:02:44] INFO root fetch - processPackages [xingyun]: Remove: archive file [/home/abi/fetcher/tmp/xingyun-0.0.8.post7.tar.gz]
+[2024-05-31 01:02:44] INFO root fetch - main [MainThread]: End processing [xingyun]: success
+[2024-05-31 01:02:44] INFO root fetch - main [MainThread]: Store serial: [23457930]
