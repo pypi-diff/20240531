@@ -616,3 +616,15 @@
 [2024-05-31 00:20:54] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-6.0.0-py3-none-any.whl.zip]
 [2024-05-31 00:20:54] INFO root fetch - main [MainThread]: End processing [topologicpy]: success
 [2024-05-31 00:20:54] INFO root fetch - main [MainThread]: Store serial: [23457519]
+[2024-05-31 00:22:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457519]
+[2024-05-31 00:23:03] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-31 00:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alex-ber-utils
+[2024-05-31 00:23:03] INFO root fetch - processPackages [alex-ber-utils]: New version: [0.9.1] Old Version: [0.9.0b0]
+[2024-05-31 00:23:03] INFO root fetch - processPackages [alex-ber-utils]: Downloading https://files.pythonhosted.org/packages/41/9e/8dcb8462d5f32a239c83057844b3ddf8ec0998203d8e82082afe138c4e96/alex_ber_utils-0.9.0b0.tar.gz
+[2024-05-31 00:23:03] INFO root fetch - processPackages [alex-ber-utils]: Downloading https://files.pythonhosted.org/packages/8f/d6/3d1a9801ec1a29a008ac9cd1655a6167223ed83be894a401c16d6da95114/alex_ber_utils-0.9.1-py3-none-any.whl
+[2024-05-31 00:23:03] INFO root fetch - processPackages [alex-ber-utils]: executing diffoscope
+[2024-05-31 00:23:03] INFO root fetch - processPackages [alex-ber-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alex_ber_utils-0.9.0b0.tar.gz tmp/alex_ber_utils-0.9.1-py3-none-any.whl.zip --markdown 20240531/a/alex-ber-utils/0.9.0b0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 00:23:04] INFO root fetch - processPackages [alex-ber-utils]: Remove: archive file [/home/abi/fetcher/tmp/alex_ber_utils-0.9.0b0.tar.gz]
+[2024-05-31 00:23:04] INFO root fetch - processPackages [alex-ber-utils]: Remove: archive file [/home/abi/fetcher/tmp/alex_ber_utils-0.9.1-py3-none-any.whl.zip]
+[2024-05-31 00:23:04] INFO root fetch - main [MainThread]: End processing [alex-ber-utils]: success
+[2024-05-31 00:23:04] INFO root fetch - main [MainThread]: Store serial: [23457522]
