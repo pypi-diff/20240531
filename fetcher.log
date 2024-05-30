@@ -1727,3 +1727,54 @@
 [2024-05-31 01:13:34] INFO root fetch - processPackages [ratingcurve]: Remove: archive file [/home/abi/fetcher/tmp/ratingcurve-1.0.2.tar.gz]
 [2024-05-31 01:13:34] INFO root fetch - main [MainThread]: End processing [ratingcurve]: success
 [2024-05-31 01:13:34] INFO root fetch - main [MainThread]: Store serial: [23458012]
+[2024-05-31 01:15:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458012]
+[2024-05-31 01:15:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 01:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appmesh
+[2024-05-31 01:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-readers-azure-devops
+[2024-05-31 01:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: social-auth-gsis
+[2024-05-31 01:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aind-exaspim-pipeline-utils
+[2024-05-31 01:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heaobject
+[2024-05-31 01:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: schemafunc
+[2024-05-31 01:15:43] INFO root fetch - processPackages [social-auth-gsis]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-31 01:15:43] INFO root fetch - processPackages [schemafunc]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-31 01:15:43] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/52/b6/d266babff79176a581b53a0e8f852aa83c6142da99d8afaca615c4ba8139/social_auth_gsis-0.5.0.tar.gz
+[2024-05-31 01:15:43] INFO root fetch - processPackages [appmesh]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-31 01:15:43] INFO root fetch - processPackages [schemafunc]: Downloading https://files.pythonhosted.org/packages/27/76/1b067a207729afe2bb2de199810d72fddc57bddf9e9b84dbcf89e26d15af/schemafunc-0.3.6.tar.gz
+[2024-05-31 01:15:43] WARNING root fetch - processPackages [llama-index-readers-azure-devops]: Skipping, unable to determine old version
+[2024-05-31 01:15:43] INFO root fetch - main [MainThread]: End processing [llama-index-readers-azure-devops] error
+[2024-05-31 01:15:43] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-31 01:15:43] INFO root fetch - processPackages [heaobject]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-31 01:15:43] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/c8/16/bf50271f51fd2786b245f592964798523369f2a9a6853d301a91fd8cc7f4/appmesh-1.1.8-py3-none-any.whl
+[2024-05-31 01:15:43] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/9a/89/40f36aaecb251eda342aaf1b990ed2b6d37565aa83adc7639a603e63d33c/heaobject-1.6.1.tar.gz
+[2024-05-31 01:15:43] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/10/2c/5b3774411a0f43ab224714982aa97b16dab938d7cf6f3cfbed99ab83212f/aind_exaspim_pipeline_utils-0.8.3.tar.gz
+[2024-05-31 01:15:43] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/f8/dd/986b690f2c559425ba559c085060fa201c60bc68f208e32ab4fb9c1622cd/social_auth_gsis-0.5.1.tar.gz
+[2024-05-31 01:15:43] INFO root fetch - processPackages [schemafunc]: Downloading https://files.pythonhosted.org/packages/b9/a9/434e5b23a6a5b4f291475a8ac0e0c46ff31f463e4966823643f25d78a3e8/schemafunc-0.3.7.tar.gz
+[2024-05-31 01:15:43] INFO root fetch - processPackages [social-auth-gsis]: executing diffoscope
+[2024-05-31 01:15:43] INFO root fetch - processPackages [social-auth-gsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_auth_gsis-0.5.0.tar.gz tmp/social_auth_gsis-0.5.1.tar.gz --markdown 20240531/s/social-auth-gsis/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-31 01:15:43] INFO root fetch - processPackages [schemafunc]: executing diffoscope
+[2024-05-31 01:15:43] INFO root fetch - processPackages [schemafunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemafunc-0.3.6.tar.gz tmp/schemafunc-0.3.7.tar.gz --markdown 20240531/s/schemafunc/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-31 01:15:43] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/03/ae/f3d16b05953f396c1389a2a66b034ba78373c3a0fb1cb1260feca8a7decc/appmesh-1.1.9-py3-none-any.whl
+[2024-05-31 01:15:44] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/94/d7/4c25c24a3301dabcaa5ac6322f46b31f38a7efc7691ea432d8fe6b37b567/heaobject-1.6.2.tar.gz
+[2024-05-31 01:15:44] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-31 01:15:44] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-1.1.8-py3-none-any.whl.zip tmp/appmesh-1.1.9-py3-none-any.whl.zip --markdown 20240531/a/appmesh/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-31 01:15:44] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Downloading https://files.pythonhosted.org/packages/1b/5e/4bd1e216c0e8cc86257eddce4bd959d9e8c73e3b371d1673bc2fc2b3230b/aind_exaspim_pipeline_utils-0.9.0.tar.gz
+[2024-05-31 01:15:44] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: executing diffoscope
+[2024-05-31 01:15:44] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_exaspim_pipeline_utils-0.8.3.tar.gz tmp/aind_exaspim_pipeline_utils-0.9.0.tar.gz --markdown 20240531/a/aind-exaspim-pipeline-utils/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-31 01:15:44] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2024-05-31 01:15:44] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.6.1.tar.gz tmp/heaobject-1.6.2.tar.gz --markdown 20240531/h/heaobject/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-31 01:15:44] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.0.tar.gz]
+[2024-05-31 01:15:44] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.1.tar.gz]
+[2024-05-31 01:15:44] INFO root fetch - main [MainThread]: End processing [social-auth-gsis]: success
+[2024-05-31 01:15:44] INFO root fetch - processPackages [schemafunc]: Remove: archive file [/home/abi/fetcher/tmp/schemafunc-0.3.6.tar.gz]
+[2024-05-31 01:15:44] INFO root fetch - processPackages [schemafunc]: Remove: archive file [/home/abi/fetcher/tmp/schemafunc-0.3.7.tar.gz]
+[2024-05-31 01:15:44] INFO root fetch - main [MainThread]: End processing [schemafunc]: success
+[2024-05-31 01:15:44] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.1.8-py3-none-any.whl.zip]
+[2024-05-31 01:15:44] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.1.9-py3-none-any.whl.zip]
+[2024-05-31 01:15:44] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-31 01:15:44] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.6.1.tar.gz]
+[2024-05-31 01:15:44] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.6.2.tar.gz]
+[2024-05-31 01:15:44] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2024-05-31 01:15:45] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.8.3.tar.gz]
+[2024-05-31 01:15:45] INFO root fetch - processPackages [aind-exaspim-pipeline-utils]: Remove: archive file [/home/abi/fetcher/tmp/aind_exaspim_pipeline_utils-0.9.0.tar.gz]
+[2024-05-31 01:15:45] INFO root fetch - main [MainThread]: End processing [aind-exaspim-pipeline-utils]: success
+[2024-05-31 01:15:45] INFO root fetch - main [MainThread]: Store serial: [23458031]
