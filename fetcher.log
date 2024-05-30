@@ -2391,3 +2391,51 @@
 [2024-05-31 01:40:34] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-2.1.9.tar.gz]
 [2024-05-31 01:40:34] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
 [2024-05-31 01:40:34] INFO root fetch - main [MainThread]: Store serial: [23458328]
+[2024-05-31 01:42:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458328]
+[2024-05-31 01:42:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 01:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afeng-py-tools
+[2024-05-31 01:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: social-auth-gsis
+[2024-05-31 01:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubernetes
+[2024-05-31 01:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sneat
+[2024-05-31 01:42:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heaserver-organizations
+[2024-05-31 01:42:43] INFO root fetch - processPackages [sneat]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 01:42:43] INFO root fetch - processPackages [social-auth-gsis]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-31 01:42:43] INFO root fetch - processPackages [kubernetes]: New version: [9.0.1] Old Version: [9.0.0b1]
+[2024-05-31 01:42:43] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 01:42:43] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/bb/0c/1cdc4b1259d53e61f72a2f937e6e1917a6085d4a0ccc082ef77c1bc11818/social_auth_gsis-0.5.3.tar.gz
+[2024-05-31 01:42:43] INFO root fetch - processPackages [heaserver-organizations]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-31 01:42:43] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-31 01:42:43] INFO root fetch - processPackages [sneat]: Downloading https://files.pythonhosted.org/packages/af/a2/4f7cc8c79348de46964b3012a67b455d73f0634357837e7da6ee9e4c3161/sneat-0.0.1.tar.gz
+[2024-05-31 01:42:43] INFO root fetch - processPackages [heaserver-organizations]: Downloading https://files.pythonhosted.org/packages/4c/7f/f623a75c06a2159c02c9d2b4a3544d8920fb22a4c47fdea6aa15f64c88f7/heaserver_organizations-1.4.5.tar.gz
+[2024-05-31 01:42:43] INFO root fetch - processPackages [kubernetes]: Downloading https://files.pythonhosted.org/packages/d1/f4/b57dff8d83d4b7cdc34797c203c65ea0a8869c11187b65ac128eada0d79b/kubernetes-9.0.0b1.tar.gz
+[2024-05-31 01:42:43] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-31 01:42:43] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/5f/bb/22c82c3d0a1ea26cea7fc058277a1ecaaa0d5f55813445056652d054da11/social_auth_gsis-0.5.4.tar.gz
+[2024-05-31 01:42:43] INFO root fetch - processPackages [sneat]: Downloading https://files.pythonhosted.org/packages/55/14/567e7647930e9e53c53437a0fa7ce36004db7679d0de07973fb59da556d4/sneat-0.0.2.tar.gz
+[2024-05-31 01:42:43] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-31 01:42:43] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240531/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 01:42:43] INFO root fetch - processPackages [heaserver-organizations]: Downloading https://files.pythonhosted.org/packages/4b/5e/8be37f478b85a3131ff7d0984c226b05b8b9ec37ab6dfda94973f11b4644/heaserver_organizations-1.4.6.tar.gz
+[2024-05-31 01:42:43] INFO root fetch - processPackages [social-auth-gsis]: executing diffoscope
+[2024-05-31 01:42:43] INFO root fetch - processPackages [social-auth-gsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_auth_gsis-0.5.3.tar.gz tmp/social_auth_gsis-0.5.4.tar.gz --markdown 20240531/s/social-auth-gsis/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-31 01:42:43] INFO root fetch - processPackages [sneat]: executing diffoscope
+[2024-05-31 01:42:43] INFO root fetch - processPackages [sneat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneat-0.0.1.tar.gz tmp/sneat-0.0.2.tar.gz --markdown 20240531/s/sneat/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 01:42:43] INFO root fetch - processPackages [heaserver-organizations]: executing diffoscope
+[2024-05-31 01:42:43] INFO root fetch - processPackages [heaserver-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver_organizations-1.4.5.tar.gz tmp/heaserver_organizations-1.4.6.tar.gz --markdown 20240531/h/heaserver-organizations/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-31 01:42:43] INFO root fetch - processPackages [kubernetes]: Downloading https://files.pythonhosted.org/packages/92/11/25f8b90cded6debf9e5130b14047733a4805ec17765dec887066cbbb2a74/kubernetes-9.0.1.tar.gz
+[2024-05-31 01:42:44] INFO root fetch - processPackages [kubernetes]: executing diffoscope
+[2024-05-31 01:42:44] INFO root fetch - processPackages [kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-9.0.0b1.tar.gz tmp/kubernetes-9.0.1.tar.gz --markdown 20240531/k/kubernetes/9.0.0b1-9.0.1/README.md --exclude *.pyd
+[2024-05-31 01:42:44] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.3.tar.gz]
+[2024-05-31 01:42:44] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.4.tar.gz]
+[2024-05-31 01:42:44] INFO root fetch - main [MainThread]: End processing [social-auth-gsis]: success
+[2024-05-31 01:42:44] INFO root fetch - processPackages [sneat]: Remove: archive file [/home/abi/fetcher/tmp/sneat-0.0.1.tar.gz]
+[2024-05-31 01:42:44] INFO root fetch - processPackages [sneat]: Remove: archive file [/home/abi/fetcher/tmp/sneat-0.0.2.tar.gz]
+[2024-05-31 01:42:44] INFO root fetch - main [MainThread]: End processing [sneat]: success
+[2024-05-31 01:42:44] INFO root fetch - processPackages [heaserver-organizations]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_organizations-1.4.5.tar.gz]
+[2024-05-31 01:42:44] INFO root fetch - processPackages [heaserver-organizations]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_organizations-1.4.6.tar.gz]
+[2024-05-31 01:42:44] INFO root fetch - main [MainThread]: End processing [heaserver-organizations]: success
+[2024-05-31 01:42:44] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-31 01:42:44] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-31 01:42:44] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-31 01:42:51] INFO root fetch - processPackages [kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-9.0.0b1.tar.gz]
+[2024-05-31 01:42:51] INFO root fetch - processPackages [kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-9.0.1.tar.gz]
+[2024-05-31 01:42:51] INFO root fetch - main [MainThread]: End processing [kubernetes]: success
+[2024-05-31 01:42:51] INFO root fetch - main [MainThread]: Store serial: [23458343]
