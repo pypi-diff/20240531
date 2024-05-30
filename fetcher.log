@@ -691,3 +691,108 @@
 [2024-05-31 00:27:23] INFO root fetch - processPackages [turntable-cli]: Remove: archive file [/home/abi/fetcher/tmp/turntable_cli-0.4.3-cp39-cp39-win_amd64.whl.zip]
 [2024-05-31 00:27:23] INFO root fetch - main [MainThread]: End processing [turntable-cli]: success
 [2024-05-31 00:27:23] INFO root fetch - main [MainThread]: Store serial: [23457569]
+[2024-05-31 00:29:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457569]
+[2024-05-31 00:29:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-31 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagster-mlflow
+[2024-05-31 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagster-airbyte
+[2024-05-31 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: godork
+[2024-05-31 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dipdup
+[2024-05-31 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagster-aws
+[2024-05-31 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: superseeker
+[2024-05-31 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dagster-deltalake
+[2024-05-31 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dagster-duckdb-polars
+[2024-05-31 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dagster-fivetran
+[2024-05-31 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prompt-learner
+[2024-05-31 00:29:32] INFO root fetch - processPackages [godork]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-31 00:29:32] INFO root fetch - processPackages [prompt-learner]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-mlflow]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 00:29:32] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/41/66/7ea4ab4ce937dfa5b367f1aa79f5a7b90ddec229462ca4c6c512854dd061/prompt_learner-0.2.9.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-airbyte]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-duckdb-polars]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dipdup]: New version: [8.0.0a1] Old Version: [7.5.7]
+[2024-05-31 00:29:32] WARNING root fetch - processPackages [superseeker]: Skipping, unable to determine old version
+[2024-05-31 00:29:32] INFO root fetch - processPackages [superseeker]: Start processing: pytest-custom-outputs
+[2024-05-31 00:29:32] INFO root fetch - main [MainThread]: End processing [superseeker] error
+[2024-05-31 00:29:32] INFO root fetch - processPackages [godork]: Downloading https://files.pythonhosted.org/packages/a2/04/40f390a3868c0d6e8723c93ab812d41ea708e8f01c245d70966003f30cf7/godork-1.2.4.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-deltalake]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-fivetran]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-aws]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2024-05-31 00:29:32] INFO root fetch - processPackages [pytest-custom-outputs]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/9a/ef/8362c4f513275c8a5968e65ca0e7df486d35a84a65544a8dc8e52be885ee/dipdup-7.5.7.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-mlflow]: Downloading https://files.pythonhosted.org/packages/95/fa/26fb7cd1621f9e2bcc322a4e2e164e23e3a6aa836860723851406c6359b0/dagster-mlflow-0.23.7.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-airbyte]: Downloading https://files.pythonhosted.org/packages/6a/0b/da079c55e997ce68cbf76b4bb6fef0a08b34f3c0ebf55f362d32a4d201f3/dagster-airbyte-0.23.7.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [pytest-custom-outputs]: Downloading https://files.pythonhosted.org/packages/e1/a6/c53cad4fd8ffed0b10e8e5d5d6ba43e71b5ea131a867ba81492b7360cfe4/pytest_custom_outputs-0.1.1.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/bd/f4/ad0aa5f85def984b9268f2ae9fb8fc50ad5b88c6c8101a51b808c5500eca/prompt_learner-0.3.0.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-duckdb-polars]: Downloading https://files.pythonhosted.org/packages/fa/af/ec241c97f7728b1970c8fb571e5486c5b11866819aeb2386dd8951c66525/dagster-duckdb-polars-0.23.7.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [godork]: Downloading https://files.pythonhosted.org/packages/3d/36/b942d95cee69b42b76e870d51904575a094201ec629de3eb0cf59677a95b/godork-1.2.5.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-deltalake]: Downloading https://files.pythonhosted.org/packages/33/5a/fc1f1b7eb750971201fdec5baa1f2c964b1a067deb63807df3314aec83ad/dagster-deltalake-0.23.7.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-fivetran]: Downloading https://files.pythonhosted.org/packages/1b/4f/70e4cab2064200c881d0177c5eec27c91824c8a944ab5ddc14f383be8e16/dagster-fivetran-0.23.7.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [dagster-aws]: Downloading https://files.pythonhosted.org/packages/5c/fb/795100ab029c5e8067e2891e422f8e37ff9ae149e58a6e7cf9ee5e79fc62/dagster-aws-0.9.9.tar.gz
+[2024-05-31 00:29:32] INFO root fetch - processPackages [prompt-learner]: executing diffoscope
+[2024-05-31 00:29:32] INFO root fetch - processPackages [prompt-learner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_learner-0.2.9.tar.gz tmp/prompt_learner-0.3.0.tar.gz --markdown 20240531/p/prompt-learner/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-31 00:29:32] INFO root fetch - processPackages [godork]: executing diffoscope
+[2024-05-31 00:29:32] INFO root fetch - processPackages [godork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godork-1.2.4.tar.gz tmp/godork-1.2.5.tar.gz --markdown 20240531/g/godork/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-mlflow]: Downloading https://files.pythonhosted.org/packages/b3/07/9f5e5443b4b7cdd4c8be1ae788b7348a39bc0e933ed16a247f4d5bd5e94e/dagster-mlflow-0.23.8.tar.gz
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-airbyte]: Downloading https://files.pythonhosted.org/packages/d1/98/6fe5b57bef21e2c1ba1af908838a0dcfd9b2629de2a6810bd2a2265b6380/dagster-airbyte-0.23.8.tar.gz
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-duckdb-polars]: Downloading https://files.pythonhosted.org/packages/c0/9a/ad1f03799bfd57a56a3932e6b7459810c06f7fcdc7d56602c44ff94ebaac/dagster-duckdb-polars-0.23.8.tar.gz
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-deltalake]: Downloading https://files.pythonhosted.org/packages/9f/cd/c34944d2f433ab4b2e0c1dca11237e8c68b2995dfe484fb11692d7d55e8f/dagster-deltalake-0.23.8.tar.gz
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-fivetran]: Downloading https://files.pythonhosted.org/packages/03/42/e3ef179ae9855d5c28bc500af3d4d03bb20922b342dc84e4d38e3092fbe5/dagster-fivetran-0.23.8.tar.gz
+[2024-05-31 00:29:33] INFO root fetch - processPackages [pytest-custom-outputs]: Downloading https://files.pythonhosted.org/packages/96/00/2a964b9f51a505dd11b2ff93a5fd1ceb5ecabd164cb912d9abf87c544dea/pytest_custom_outputs-0.1.2.tar.gz
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-mlflow]: executing diffoscope
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-mlflow-0.23.7.tar.gz tmp/dagster-mlflow-0.23.8.tar.gz --markdown 20240531/d/dagster-mlflow/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-aws]: Downloading https://files.pythonhosted.org/packages/e2/27/76e0a6ed801c5fa8620a94686a6212cf4726819cd6c831f1202b6b7888fd/dagster-aws-0.9.9rc1.tar.gz
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/ee/fb/661f2386ab237b154b3ba6d7fed94e464d01a680ab94f7b154b3e7b53bd7/dipdup-8.0.0a1.tar.gz
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-duckdb-polars]: executing diffoscope
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-duckdb-polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-duckdb-polars-0.23.7.tar.gz tmp/dagster-duckdb-polars-0.23.8.tar.gz --markdown 20240531/d/dagster-duckdb-polars/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-airbyte]: executing diffoscope
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-airbyte-0.23.7.tar.gz tmp/dagster-airbyte-0.23.8.tar.gz --markdown 20240531/d/dagster-airbyte/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-fivetran]: executing diffoscope
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-fivetran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-fivetran-0.23.7.tar.gz tmp/dagster-fivetran-0.23.8.tar.gz --markdown 20240531/d/dagster-fivetran/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-deltalake]: executing diffoscope
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-deltalake-0.23.7.tar.gz tmp/dagster-deltalake-0.23.8.tar.gz --markdown 20240531/d/dagster-deltalake/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 00:29:33] INFO root fetch - processPackages [pytest-custom-outputs]: executing diffoscope
+[2024-05-31 00:29:33] INFO root fetch - processPackages [pytest-custom-outputs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_custom_outputs-0.1.1.tar.gz tmp/pytest_custom_outputs-0.1.2.tar.gz --markdown 20240531/p/pytest-custom-outputs/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dipdup]: executing diffoscope
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dipdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipdup-7.5.7.tar.gz tmp/dipdup-8.0.0a1.tar.gz --markdown 20240531/d/dipdup/7.5.7-8.0.0a1/README.md --exclude *.pyd
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-aws]: executing diffoscope
+[2024-05-31 00:29:33] INFO root fetch - processPackages [dagster-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-aws-0.9.9.tar.gz tmp/dagster-aws-0.9.9rc1.tar.gz --markdown 20240531/d/dagster-aws/0.9.9-0.9.9rc1/README.md --exclude *.pyd
+[2024-05-31 00:29:33] INFO root fetch - processPackages [godork]: Remove: archive file [/home/abi/fetcher/tmp/godork-1.2.4.tar.gz]
+[2024-05-31 00:29:33] INFO root fetch - processPackages [godork]: Remove: archive file [/home/abi/fetcher/tmp/godork-1.2.5.tar.gz]
+[2024-05-31 00:29:33] INFO root fetch - processPackages [godork]: Start processing: salt-infisical
+[2024-05-31 00:29:33] INFO root fetch - main [MainThread]: End processing [godork]: success
+[2024-05-31 00:29:33] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.2.9.tar.gz]
+[2024-05-31 00:29:33] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.3.0.tar.gz]
+[2024-05-31 00:29:33] INFO root fetch - main [MainThread]: End processing [prompt-learner]: success
+[2024-05-31 00:29:33] INFO root fetch - processPackages [salt-infisical]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/dagster-mlflow-0.23.7.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/dagster-mlflow-0.23.8.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - main [MainThread]: End processing [dagster-mlflow]: success
+[2024-05-31 00:29:34] INFO root fetch - processPackages [salt-infisical]: Downloading https://files.pythonhosted.org/packages/d7/19/31d61852c9a36290e4fd0f99dda9531a4022f326b09ecd1597275d3e343e/salt_infisical-2.0.0.tar.gz
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/dagster-fivetran-0.23.7.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/dagster-fivetran-0.23.8.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - main [MainThread]: End processing [dagster-fivetran]: success
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-duckdb-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-polars-0.23.7.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-duckdb-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-polars-0.23.8.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - main [MainThread]: End processing [dagster-duckdb-polars]: success
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-deltalake]: Remove: archive file [/home/abi/fetcher/tmp/dagster-deltalake-0.23.7.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-deltalake]: Remove: archive file [/home/abi/fetcher/tmp/dagster-deltalake-0.23.8.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - main [MainThread]: End processing [dagster-deltalake]: success
+[2024-05-31 00:29:34] INFO root fetch - processPackages [pytest-custom-outputs]: Remove: archive file [/home/abi/fetcher/tmp/pytest_custom_outputs-0.1.1.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - processPackages [pytest-custom-outputs]: Remove: archive file [/home/abi/fetcher/tmp/pytest_custom_outputs-0.1.2.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - main [MainThread]: End processing [pytest-custom-outputs]: success
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-airbyte]: Remove: archive file [/home/abi/fetcher/tmp/dagster-airbyte-0.23.7.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-airbyte]: Remove: archive file [/home/abi/fetcher/tmp/dagster-airbyte-0.23.8.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - main [MainThread]: End processing [dagster-airbyte]: success
+[2024-05-31 00:29:34] INFO root fetch - processPackages [salt-infisical]: Downloading https://files.pythonhosted.org/packages/74/e9/f55e091a63b57f175d82afbecd60b9ac2cae73ee12373a51f6c3771cd80b/salt_infisical-2.1.0.tar.gz
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-aws]: Remove: archive file [/home/abi/fetcher/tmp/dagster-aws-0.9.9.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - processPackages [dagster-aws]: Remove: archive file [/home/abi/fetcher/tmp/dagster-aws-0.9.9rc1.tar.gz]
+[2024-05-31 00:29:34] INFO root fetch - main [MainThread]: End processing [dagster-aws]: success
+[2024-05-31 00:29:34] INFO root fetch - processPackages [salt-infisical]: executing diffoscope
+[2024-05-31 00:29:34] INFO root fetch - processPackages [salt-infisical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salt_infisical-2.0.0.tar.gz tmp/salt_infisical-2.1.0.tar.gz --markdown 20240531/s/salt-infisical/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-31 00:29:35] INFO root fetch - processPackages [salt-infisical]: Remove: archive file [/home/abi/fetcher/tmp/salt_infisical-2.0.0.tar.gz]
+[2024-05-31 00:29:35] INFO root fetch - processPackages [salt-infisical]: Remove: archive file [/home/abi/fetcher/tmp/salt_infisical-2.1.0.tar.gz]
+[2024-05-31 00:29:35] INFO root fetch - main [MainThread]: End processing [salt-infisical]: success
+[2024-05-31 00:29:37] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-7.5.7.tar.gz]
+[2024-05-31 00:29:37] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-8.0.0a1.tar.gz]
+[2024-05-31 00:29:37] INFO root fetch - main [MainThread]: End processing [dipdup]: success
+[2024-05-31 00:29:37] INFO root fetch - main [MainThread]: Store serial: [23457613]
