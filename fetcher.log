@@ -2474,3 +2474,45 @@
 [2024-05-31 01:49:16] INFO root fetch - processPackages [endf-parserpy]: Remove: archive file [/home/abi/fetcher/tmp/endf_parserpy-0.9.1.tar.gz]
 [2024-05-31 01:49:16] INFO root fetch - main [MainThread]: End processing [endf-parserpy]: success
 [2024-05-31 01:49:16] INFO root fetch - main [MainThread]: Store serial: [23458397]
+[2024-05-31 01:51:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458397]
+[2024-05-31 01:51:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataset-encoder
+[2024-05-31 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archiwith
+[2024-05-31 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tramp
+[2024-05-31 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mtgcdb
+[2024-05-31 01:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypop-genomics
+[2024-05-31 01:51:25] INFO root fetch - processPackages [tramp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 01:51:25] INFO root fetch - processPackages [mtgcdb]: New version: [0.1.5] Old Version: [0.1.0]
+[2024-05-31 01:51:25] INFO root fetch - processPackages [archiwith]: New version: [1.2] Old Version: [1.1.2]
+[2024-05-31 01:51:25] WARNING root fetch - processPackages [dataset-encoder]: Skipping, unable to determine old version
+[2024-05-31 01:51:25] INFO root fetch - main [MainThread]: End processing [dataset-encoder] error
+[2024-05-31 01:51:25] INFO root fetch - processPackages [pypop-genomics]: New version: [1.1.0rc2] Old Version: [1.1.0]
+[2024-05-31 01:51:25] INFO root fetch - processPackages [mtgcdb]: Downloading https://files.pythonhosted.org/packages/26/85/6302d92b92eccfc6d435fd06db3b1ff140b10c3b4fb20f1962ccca5ada72/mtgcdb-0.1.0.tar.gz
+[2024-05-31 01:51:25] INFO root fetch - processPackages [tramp]: Downloading https://files.pythonhosted.org/packages/99/63/b9451b19f3fae44fcf1da00e816d4cd00049742841da28bb02dc8fe6a26a/tramp-0.1.0.tar.gz
+[2024-05-31 01:51:25] INFO root fetch - processPackages [archiwith]: Downloading https://files.pythonhosted.org/packages/52/b1/6bd1cc8bce5d5acf982d47fc1baba9da78877f4a74e83a857e3d6da28d12/archiwith-1.1.2.tar.gz
+[2024-05-31 01:51:25] INFO root fetch - processPackages [pypop-genomics]: Downloading https://files.pythonhosted.org/packages/60/cd/6b015da8b47f602328102d725a4f931e7000afa7048205a58f00b1c29a25/pypop_genomics-1.1.0-cp310-cp310-win_amd64.whl
+[2024-05-31 01:51:25] INFO root fetch - processPackages [mtgcdb]: Downloading https://files.pythonhosted.org/packages/6b/bb/058017d8a5685ce11714ef4ff5a2f02123a3528f6e243fb41ee2c6cb6da8/mtgcdb-0.1.5.tar.gz
+[2024-05-31 01:51:25] INFO root fetch - processPackages [archiwith]: Downloading https://files.pythonhosted.org/packages/4f/d0/61cc462993f7f1cc09fc79bb19e0251789a0dd4ad207a4aa0b66446b47ed/archiwith-1.2.tar.gz
+[2024-05-31 01:51:26] INFO root fetch - processPackages [tramp]: Downloading https://files.pythonhosted.org/packages/45/59/8e5dacf508a562253e53a44b5eabf20fe099adca3b01542c3509fc806ba4/tramp-0.1.1.tar.gz
+[2024-05-31 01:51:26] INFO root fetch - processPackages [mtgcdb]: executing diffoscope
+[2024-05-31 01:51:26] INFO root fetch - processPackages [mtgcdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtgcdb-0.1.0.tar.gz tmp/mtgcdb-0.1.5.tar.gz --markdown 20240531/m/mtgcdb/0.1.0-0.1.5/README.md --exclude *.pyd
+[2024-05-31 01:51:26] INFO root fetch - processPackages [archiwith]: executing diffoscope
+[2024-05-31 01:51:26] INFO root fetch - processPackages [archiwith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archiwith-1.1.2.tar.gz tmp/archiwith-1.2.tar.gz --markdown 20240531/a/archiwith/1.1.2-1.2/README.md --exclude *.pyd
+[2024-05-31 01:51:26] INFO root fetch - processPackages [tramp]: executing diffoscope
+[2024-05-31 01:51:26] INFO root fetch - processPackages [tramp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tramp-0.1.0.tar.gz tmp/tramp-0.1.1.tar.gz --markdown 20240531/t/tramp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 01:51:26] INFO root fetch - processPackages [archiwith]: Remove: archive file [/home/abi/fetcher/tmp/archiwith-1.1.2.tar.gz]
+[2024-05-31 01:51:26] INFO root fetch - processPackages [archiwith]: Remove: archive file [/home/abi/fetcher/tmp/archiwith-1.2.tar.gz]
+[2024-05-31 01:51:26] INFO root fetch - main [MainThread]: End processing [archiwith]: success
+[2024-05-31 01:51:26] INFO root fetch - processPackages [mtgcdb]: Remove: archive file [/home/abi/fetcher/tmp/mtgcdb-0.1.0.tar.gz]
+[2024-05-31 01:51:26] INFO root fetch - processPackages [mtgcdb]: Remove: archive file [/home/abi/fetcher/tmp/mtgcdb-0.1.5.tar.gz]
+[2024-05-31 01:51:26] INFO root fetch - main [MainThread]: End processing [mtgcdb]: success
+[2024-05-31 01:51:26] INFO root fetch - processPackages [tramp]: Remove: archive file [/home/abi/fetcher/tmp/tramp-0.1.0.tar.gz]
+[2024-05-31 01:51:26] INFO root fetch - processPackages [tramp]: Remove: archive file [/home/abi/fetcher/tmp/tramp-0.1.1.tar.gz]
+[2024-05-31 01:51:26] INFO root fetch - main [MainThread]: End processing [tramp]: success
+[2024-05-31 01:51:26] INFO root fetch - processPackages [pypop-genomics]: Downloading https://files.pythonhosted.org/packages/df/4f/80e8c513e99396d9b03544a37cd190826ef056746ff87c39081ff20b3e0d/pypop_genomics-1.1.0rc2.tar.gz
+[2024-05-31 01:51:27] INFO root fetch - processPackages [pypop-genomics]: executing diffoscope
+[2024-05-31 01:51:27] INFO root fetch - processPackages [pypop-genomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypop_genomics-1.1.0-cp310-cp310-win_amd64.whl.zip tmp/pypop_genomics-1.1.0rc2.tar.gz --markdown 20240531/p/pypop-genomics/1.1.0-1.1.0rc2/README.md --exclude *.pyd
+[2024-05-31 01:51:31] INFO root fetch - processPackages [pypop-genomics]: Remove: archive file [/home/abi/fetcher/tmp/pypop_genomics-1.1.0-cp310-cp310-win_amd64.whl.zip]
+[2024-05-31 01:51:31] INFO root fetch - processPackages [pypop-genomics]: Remove: archive file [/home/abi/fetcher/tmp/pypop_genomics-1.1.0rc2.tar.gz]
+[2024-05-31 01:51:31] INFO root fetch - main [MainThread]: End processing [pypop-genomics]: success
+[2024-05-31 01:51:31] INFO root fetch - main [MainThread]: Store serial: [23458436]
