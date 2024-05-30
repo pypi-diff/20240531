@@ -2145,3 +2145,30 @@
 [2024-05-31 01:31:38] INFO root fetch - processPackages [dash-paperdragon]: Remove: archive file [/home/abi/fetcher/tmp/dash_paperdragon-0.1.1.tar.gz]
 [2024-05-31 01:31:38] INFO root fetch - main [MainThread]: End processing [dash-paperdragon]: success
 [2024-05-31 01:31:38] INFO root fetch - main [MainThread]: Store serial: [23458235]
+[2024-05-31 01:33:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458235]
+[2024-05-31 01:33:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 01:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wintersdeep.argparse
+[2024-05-31 01:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cuenca-validations
+[2024-05-31 01:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conditional-model-reliance
+[2024-05-31 01:33:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skypilot
+[2024-05-31 01:33:47] WARNING root fetch - processPackages [wintersdeep.argparse]: Skipping, unable to determine old version
+[2024-05-31 01:33:47] INFO root fetch - main [MainThread]: End processing [wintersdeep.argparse] error
+[2024-05-31 01:33:47] WARNING root fetch - processPackages [conditional-model-reliance]: Skipping, unable to determine old version
+[2024-05-31 01:33:47] INFO root fetch - main [MainThread]: End processing [conditional-model-reliance] error
+[2024-05-31 01:33:47] INFO root fetch - processPackages [skypilot]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-31 01:33:47] INFO root fetch - processPackages [cuenca-validations]: New version: [0.9.9.dev2] Old Version: [0.9.9.dev1]
+[2024-05-31 01:33:48] INFO root fetch - processPackages [skypilot]: Downloading https://files.pythonhosted.org/packages/18/8a/96373b6b3e36a917ccddb00b7e99f459e313b5511489b95dba4f9c1a9cfa/skypilot-0.5.0.tar.gz
+[2024-05-31 01:33:48] INFO root fetch - processPackages [cuenca-validations]: Downloading https://files.pythonhosted.org/packages/18/6b/d6c8ca2c3d9e6464acf49462ccfbfa5a5b1e4127dc0776f90a083715f6b7/cuenca_validations-0.9.9.dev1.tar.gz
+[2024-05-31 01:33:48] INFO root fetch - processPackages [cuenca-validations]: Downloading https://files.pythonhosted.org/packages/ab/b8/6a98c4d6bf6ae6613ef12e23a98d38b632bd04146a9b3ccd835a8b280961/cuenca_validations-0.9.9.dev2.tar.gz
+[2024-05-31 01:33:48] INFO root fetch - processPackages [cuenca-validations]: executing diffoscope
+[2024-05-31 01:33:48] INFO root fetch - processPackages [cuenca-validations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuenca_validations-0.9.9.dev1.tar.gz tmp/cuenca_validations-0.9.9.dev2.tar.gz --markdown 20240531/c/cuenca-validations/0.9.9.dev1-0.9.9.dev2/README.md --exclude *.pyd
+[2024-05-31 01:33:48] INFO root fetch - processPackages [skypilot]: Downloading https://files.pythonhosted.org/packages/fc/ce/97a00c3dfbd96f918335fc4ae29e64c2157170c7963bae1af477e05be041/skypilot-0.6.0.tar.gz
+[2024-05-31 01:33:49] INFO root fetch - processPackages [cuenca-validations]: Remove: archive file [/home/abi/fetcher/tmp/cuenca_validations-0.9.9.dev1.tar.gz]
+[2024-05-31 01:33:49] INFO root fetch - processPackages [cuenca-validations]: Remove: archive file [/home/abi/fetcher/tmp/cuenca_validations-0.9.9.dev2.tar.gz]
+[2024-05-31 01:33:49] INFO root fetch - main [MainThread]: End processing [cuenca-validations]: success
+[2024-05-31 01:33:49] INFO root fetch - processPackages [skypilot]: executing diffoscope
+[2024-05-31 01:33:49] INFO root fetch - processPackages [skypilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-0.5.0.tar.gz tmp/skypilot-0.6.0.tar.gz --markdown 20240531/s/skypilot/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-31 01:33:52] INFO root fetch - processPackages [skypilot]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-0.5.0.tar.gz]
+[2024-05-31 01:33:52] INFO root fetch - processPackages [skypilot]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-0.6.0.tar.gz]
+[2024-05-31 01:33:52] INFO root fetch - main [MainThread]: End processing [skypilot]: success
+[2024-05-31 01:33:52] INFO root fetch - main [MainThread]: Store serial: [23458248]
