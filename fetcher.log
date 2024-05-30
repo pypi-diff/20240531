@@ -2238,3 +2238,45 @@
 [2024-05-31 01:36:07] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
 [2024-05-31 01:36:07] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-05-31 01:36:07] INFO root fetch - main [MainThread]: Store serial: [23458266]
+[2024-05-31 01:38:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458266]
+[2024-05-31 01:38:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 01:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lagrange-open
+[2024-05-31 01:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cropimg
+[2024-05-31 01:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embykeeper
+[2024-05-31 01:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: facebook-login
+[2024-05-31 01:38:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fa-scrapper
+[2024-05-31 01:38:16] INFO root fetch - processPackages [embykeeper]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-31 01:38:16] INFO root fetch - processPackages [lagrange-open]: New version: [6.23.0] Old Version: [6.22.0]
+[2024-05-31 01:38:16] WARNING root fetch - processPackages [facebook-login]: Skipping, unable to determine old version
+[2024-05-31 01:38:16] INFO root fetch - main [MainThread]: End processing [facebook-login] error
+[2024-05-31 01:38:16] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/d0/e6/4bb1ee3290f4aba08e9d6751566f039db27dba7d51553fc0681095c6a015/embykeeper-3.2.8.tar.gz
+[2024-05-31 01:38:16] INFO root fetch - processPackages [lagrange-open]: Downloading https://files.pythonhosted.org/packages/c6/c3/b2845f11d38a8eb2bc1f8a7574291447aa6e81b546b51b0f4ce74425a7fa/lagrange_open-6.22.0-cp39-cp39-win_amd64.whl
+[2024-05-31 01:38:16] INFO root fetch - processPackages [cropimg]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-31 01:38:16] INFO root fetch - processPackages [fa-scrapper]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-31 01:38:16] INFO root fetch - processPackages [cropimg]: Downloading https://files.pythonhosted.org/packages/c4/21/180eafe567236866ebce2e9ec1ef87cafb369a352858d19dc392877ce34a/cropimg-0.1.2.tar.gz
+[2024-05-31 01:38:16] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/02/85/cffd52bc872be074110305f46303d258fa7478eab3eae08d86465d0653a8/embykeeper-3.2.9.tar.gz
+[2024-05-31 01:38:16] INFO root fetch - processPackages [fa-scrapper]: Downloading https://files.pythonhosted.org/packages/45/77/6cb3c7ea18f8cfb795c0493f0873551a56b8110214af9059f4d694425c41/fa-scrapper-0.3.0.tar.gz
+[2024-05-31 01:38:16] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2024-05-31 01:38:16] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-3.2.8.tar.gz tmp/embykeeper-3.2.9.tar.gz --markdown 20240531/e/embykeeper/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-31 01:38:16] INFO root fetch - processPackages [lagrange-open]: Downloading https://files.pythonhosted.org/packages/b5/a9/e96ab7cf0f0c8ad8bc14922273c2ada2656a1aa3b30109af99776d7115cd/lagrange_open-6.23.0-cp310-cp310-macosx_11_0_arm64.whl
+[2024-05-31 01:38:17] INFO root fetch - processPackages [cropimg]: Downloading https://files.pythonhosted.org/packages/f3/a0/2ef3475bda1a1e4b184a66d52c3cd6e82ca8ee006b7ce4be13516d66c789/cropimg-0.2.0.tar.gz
+[2024-05-31 01:38:17] INFO root fetch - processPackages [cropimg]: executing diffoscope
+[2024-05-31 01:38:17] INFO root fetch - processPackages [cropimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cropimg-0.1.2.tar.gz tmp/cropimg-0.2.0.tar.gz --markdown 20240531/c/cropimg/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-31 01:38:17] INFO root fetch - processPackages [fa-scrapper]: Downloading https://files.pythonhosted.org/packages/68/a5/598e72ee86dc9e0e1f3d587cc783ba22ba5e60b990b6ad814a7c8b32c821/fa_scrapper-0.4.0.tar.gz
+[2024-05-31 01:38:17] INFO root fetch - processPackages [lagrange-open]: executing diffoscope
+[2024-05-31 01:38:17] INFO root fetch - processPackages [lagrange-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lagrange_open-6.22.0-cp39-cp39-win_amd64.whl.zip tmp/lagrange_open-6.23.0-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240531/l/lagrange-open/6.22.0-6.23.0/README.md --exclude *.pyd
+[2024-05-31 01:38:17] INFO root fetch - processPackages [fa-scrapper]: executing diffoscope
+[2024-05-31 01:38:17] INFO root fetch - processPackages [fa-scrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-scrapper-0.3.0.tar.gz tmp/fa_scrapper-0.4.0.tar.gz --markdown 20240531/f/fa-scrapper/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-31 01:38:17] INFO root fetch - processPackages [cropimg]: Remove: archive file [/home/abi/fetcher/tmp/cropimg-0.1.2.tar.gz]
+[2024-05-31 01:38:17] INFO root fetch - processPackages [cropimg]: Remove: archive file [/home/abi/fetcher/tmp/cropimg-0.2.0.tar.gz]
+[2024-05-31 01:38:17] INFO root fetch - main [MainThread]: End processing [cropimg]: success
+[2024-05-31 01:38:17] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.8.tar.gz]
+[2024-05-31 01:38:17] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.9.tar.gz]
+[2024-05-31 01:38:17] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2024-05-31 01:38:17] INFO root fetch - processPackages [fa-scrapper]: Remove: archive file [/home/abi/fetcher/tmp/fa-scrapper-0.3.0.tar.gz]
+[2024-05-31 01:38:17] INFO root fetch - processPackages [fa-scrapper]: Remove: archive file [/home/abi/fetcher/tmp/fa_scrapper-0.4.0.tar.gz]
+[2024-05-31 01:38:17] INFO root fetch - main [MainThread]: End processing [fa-scrapper]: success
+[2024-05-31 01:38:18] INFO root fetch - processPackages [lagrange-open]: Remove: archive file [/home/abi/fetcher/tmp/lagrange_open-6.22.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 01:38:18] INFO root fetch - processPackages [lagrange-open]: Remove: archive file [/home/abi/fetcher/tmp/lagrange_open-6.23.0-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-05-31 01:38:18] INFO root fetch - main [MainThread]: End processing [lagrange-open]: success
+[2024-05-31 01:38:18] INFO root fetch - main [MainThread]: Store serial: [23458299]
