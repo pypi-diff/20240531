@@ -2095,3 +2095,27 @@
 [2024-05-31 01:26:38] INFO root fetch - processPackages [qbraid-core]: Remove: archive file [/home/abi/fetcher/tmp/qbraid_core-0.1.9.tar.gz]
 [2024-05-31 01:26:38] INFO root fetch - main [MainThread]: End processing [qbraid-core]: success
 [2024-05-31 01:26:38] INFO root fetch - main [MainThread]: Store serial: [23458180]
+[2024-05-31 01:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458180]
+[2024-05-31 01:28:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 01:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gis-conflation-toolchain
+[2024-05-31 01:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fordpip
+[2024-05-31 01:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wxhandler
+[2024-05-31 01:28:46] INFO root fetch - processPackages [gis-conflation-toolchain]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-31 01:28:46] WARNING root fetch - processPackages [wxhandler]: Skipping, unable to determine old version
+[2024-05-31 01:28:46] INFO root fetch - main [MainThread]: End processing [wxhandler] error
+[2024-05-31 01:28:46] INFO root fetch - processPackages [fordpip]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-31 01:28:47] INFO root fetch - processPackages [gis-conflation-toolchain]: Downloading https://files.pythonhosted.org/packages/88/ed/66fba032aece54c0b6c642d7f02ac96c666a0536ecf3476f38b2d67d3a64/gis-conflation-toolchain-0.7.1.tar.gz
+[2024-05-31 01:28:47] INFO root fetch - processPackages [fordpip]: Downloading https://files.pythonhosted.org/packages/7c/3c/260b40ebec1a98849ffb189a951da874f3c98a3a70c1a96214b3d8c07ada/fordpip-0.1.0.tar.gz
+[2024-05-31 01:28:47] INFO root fetch - processPackages [fordpip]: Downloading https://files.pythonhosted.org/packages/aa/2e/deb8f6627d80e6a9a24787e23f480b3fb6d0a9747b295e5c86b7ca1aa108/fordpip-1.0.0.tar.gz
+[2024-05-31 01:28:47] INFO root fetch - processPackages [gis-conflation-toolchain]: Downloading https://files.pythonhosted.org/packages/a7/c4/1a9a9b283f7a899a3422977f3988c759976f450c88c72d2b08dab0f6c0ec/gis_conflation_toolchain-0.7.2.tar.gz
+[2024-05-31 01:28:47] INFO root fetch - processPackages [fordpip]: executing diffoscope
+[2024-05-31 01:28:47] INFO root fetch - processPackages [fordpip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fordpip-0.1.0.tar.gz tmp/fordpip-1.0.0.tar.gz --markdown 20240531/f/fordpip/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-31 01:28:47] INFO root fetch - processPackages [gis-conflation-toolchain]: executing diffoscope
+[2024-05-31 01:28:47] INFO root fetch - processPackages [gis-conflation-toolchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gis-conflation-toolchain-0.7.1.tar.gz tmp/gis_conflation_toolchain-0.7.2.tar.gz --markdown 20240531/g/gis-conflation-toolchain/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-31 01:28:48] INFO root fetch - processPackages [fordpip]: Remove: archive file [/home/abi/fetcher/tmp/fordpip-0.1.0.tar.gz]
+[2024-05-31 01:28:48] INFO root fetch - processPackages [fordpip]: Remove: archive file [/home/abi/fetcher/tmp/fordpip-1.0.0.tar.gz]
+[2024-05-31 01:28:48] INFO root fetch - main [MainThread]: End processing [fordpip]: success
+[2024-05-31 01:28:48] INFO root fetch - processPackages [gis-conflation-toolchain]: Remove: archive file [/home/abi/fetcher/tmp/gis-conflation-toolchain-0.7.1.tar.gz]
+[2024-05-31 01:28:48] INFO root fetch - processPackages [gis-conflation-toolchain]: Remove: archive file [/home/abi/fetcher/tmp/gis_conflation_toolchain-0.7.2.tar.gz]
+[2024-05-31 01:28:48] INFO root fetch - main [MainThread]: End processing [gis-conflation-toolchain]: success
+[2024-05-31 01:28:48] INFO root fetch - main [MainThread]: Store serial: [23458205]
