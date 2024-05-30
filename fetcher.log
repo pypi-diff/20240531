@@ -1543,3 +1543,24 @@
 [2024-05-31 01:02:44] INFO root fetch - processPackages [xingyun]: Remove: archive file [/home/abi/fetcher/tmp/xingyun-0.0.8.post7.tar.gz]
 [2024-05-31 01:02:44] INFO root fetch - main [MainThread]: End processing [xingyun]: success
 [2024-05-31 01:02:44] INFO root fetch - main [MainThread]: Store serial: [23457930]
+[2024-05-31 01:04:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457930]
+[2024-05-31 01:04:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 01:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protoc-polyglot
+[2024-05-31 01:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyutmodelv2
+[2024-05-31 01:04:52] INFO root fetch - processPackages [protoc-polyglot]: New version: [0.0.1.post9] Old Version: [0.0.1.post8]
+[2024-05-31 01:04:52] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/e9/7b/373a68a962cdfb85f4bd76f6f4ea13ad3f2cfaca73bf0a9f70d0e7d34380/protoc_polyglot-0.0.1.post8.tar.gz
+[2024-05-31 01:04:52] INFO root fetch - processPackages [pyutmodelv2]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-05-31 01:04:53] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/01/80/bdadb218d1c3271c3a258316c3d5991f2676b54e6f358ac689f9495990f5/protoc_polyglot-0.0.1.post9.tar.gz
+[2024-05-31 01:04:53] INFO root fetch - processPackages [pyutmodelv2]: Downloading https://files.pythonhosted.org/packages/56/e8/b639f02310d360d82a064fa0a379e7e9194aa11658847ad1a5ad52519f4f/pyutmodelv2-2.1.5.tar.gz
+[2024-05-31 01:04:53] INFO root fetch - processPackages [protoc-polyglot]: executing diffoscope
+[2024-05-31 01:04:53] INFO root fetch - processPackages [protoc-polyglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_polyglot-0.0.1.post8.tar.gz tmp/protoc_polyglot-0.0.1.post9.tar.gz --markdown 20240531/p/protoc-polyglot/0.0.1.post8-0.0.1.post9/README.md --exclude *.pyd
+[2024-05-31 01:04:53] INFO root fetch - processPackages [pyutmodelv2]: Downloading https://files.pythonhosted.org/packages/15/eb/4ea697d529bf7fd87d6cb50f30a1b5191855671d87631c72dfcd2574fb46/pyutmodelv2-2.1.6.tar.gz
+[2024-05-31 01:04:53] INFO root fetch - processPackages [pyutmodelv2]: executing diffoscope
+[2024-05-31 01:04:53] INFO root fetch - processPackages [pyutmodelv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutmodelv2-2.1.5.tar.gz tmp/pyutmodelv2-2.1.6.tar.gz --markdown 20240531/p/pyutmodelv2/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-05-31 01:04:53] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post8.tar.gz]
+[2024-05-31 01:04:53] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post9.tar.gz]
+[2024-05-31 01:04:53] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
+[2024-05-31 01:04:54] INFO root fetch - processPackages [pyutmodelv2]: Remove: archive file [/home/abi/fetcher/tmp/pyutmodelv2-2.1.5.tar.gz]
+[2024-05-31 01:04:54] INFO root fetch - processPackages [pyutmodelv2]: Remove: archive file [/home/abi/fetcher/tmp/pyutmodelv2-2.1.6.tar.gz]
+[2024-05-31 01:04:54] INFO root fetch - main [MainThread]: End processing [pyutmodelv2]: success
+[2024-05-31 01:04:54] INFO root fetch - main [MainThread]: Store serial: [23457942]
