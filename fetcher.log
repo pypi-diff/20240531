@@ -2172,3 +2172,69 @@
 [2024-05-31 01:33:52] INFO root fetch - processPackages [skypilot]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-0.6.0.tar.gz]
 [2024-05-31 01:33:52] INFO root fetch - main [MainThread]: End processing [skypilot]: success
 [2024-05-31 01:33:52] INFO root fetch - main [MainThread]: Store serial: [23458248]
+[2024-05-31 01:35:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458248]
+[2024-05-31 01:36:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yt-dlp
+[2024-05-31 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diplomat-track
+[2024-05-31 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: social-auth-gsis
+[2024-05-31 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: komootgpx
+[2024-05-31 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prompt-learner
+[2024-05-31 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ofnodes
+[2024-05-31 01:36:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lagrange-open
+[2024-05-31 01:36:00] INFO root fetch - processPackages [prompt-learner]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 01:36:00] INFO root fetch - processPackages [ofnodes]: New version: [2.1] Old Version: [2.0]
+[2024-05-31 01:36:01] INFO root fetch - processPackages [social-auth-gsis]: New version: [0.5.3] Old Version: [0.5.1]
+[2024-05-31 01:36:01] INFO root fetch - processPackages [yt-dlp]: New version: [2024.5.8.232715.dev0] Old Version: [2024.5.5.232701.dev0]
+[2024-05-31 01:36:01] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/63/c2/8ef57cc274fbb48a8f62385eae280fd9dfcd7153ed5208e12e6cd94f16bc/prompt_learner-0.3.1.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/41/e9/a30f3a99f62c59f2ed095471acc8029808976aef20ccddcdcd8aae0d183a/ofnodes-2.0.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/f8/dd/986b690f2c559425ba559c085060fa201c60bc68f208e32ab4fb9c1622cd/social_auth_gsis-0.5.1.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [diplomat-track]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-31 01:36:01] INFO root fetch - processPackages [komootgpx]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-31 01:36:01] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/84/b9/776c1dd6af3d11b008b3d15993bd9675fea67e86f7b78a1dac88febb9fcf/yt_dlp-2024.5.5.232701.dev0.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [lagrange-open]: New version: [6.23.0] Old Version: [6.22.0]
+[2024-05-31 01:36:01] INFO root fetch - processPackages [diplomat-track]: Downloading https://files.pythonhosted.org/packages/bb/06/88151b78f1e29cbe026caa938a10bf17e1d921fdadcbcf7a3c4566155067/diplomat_track-0.1.5.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [komootgpx]: Downloading https://files.pythonhosted.org/packages/7f/3f/aad32a10a0feba9ad4d3207a453793ae102406f5c094004e62a078713647/komootgpx-1.1.2.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/de/33/84bf87e1e0f393846affcb0bcf44770b5f43bc4753462f67f2bae91a68eb/prompt_learner-0.3.2.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/bb/0c/1cdc4b1259d53e61f72a2f937e6e1917a6085d4a0ccc082ef77c1bc11818/social_auth_gsis-0.5.3.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [lagrange-open]: Downloading https://files.pythonhosted.org/packages/c6/c3/b2845f11d38a8eb2bc1f8a7574291447aa6e81b546b51b0f4ce74425a7fa/lagrange_open-6.22.0-cp39-cp39-win_amd64.whl
+[2024-05-31 01:36:01] INFO root fetch - processPackages [ofnodes]: Downloading https://files.pythonhosted.org/packages/12/fc/7ce3768a827fe1fd4b4c689c681a8f038240d904cf9d47366fe25462d42c/ofnodes-2.1.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [prompt-learner]: executing diffoscope
+[2024-05-31 01:36:01] INFO root fetch - processPackages [prompt-learner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_learner-0.3.1.tar.gz tmp/prompt_learner-0.3.2.tar.gz --markdown 20240531/p/prompt-learner/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 01:36:01] INFO root fetch - processPackages [social-auth-gsis]: executing diffoscope
+[2024-05-31 01:36:01] INFO root fetch - processPackages [social-auth-gsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_auth_gsis-0.5.1.tar.gz tmp/social_auth_gsis-0.5.3.tar.gz --markdown 20240531/s/social-auth-gsis/0.5.1-0.5.3/README.md --exclude *.pyd
+[2024-05-31 01:36:01] INFO root fetch - processPackages [ofnodes]: executing diffoscope
+[2024-05-31 01:36:01] INFO root fetch - processPackages [ofnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofnodes-2.0.tar.gz tmp/ofnodes-2.1.tar.gz --markdown 20240531/o/ofnodes/2.0-2.1/README.md --exclude *.pyd
+[2024-05-31 01:36:01] INFO root fetch - processPackages [diplomat-track]: Downloading https://files.pythonhosted.org/packages/28/2f/b01b0b2806be05a706bd23daa26a6911c2ba7b274d7e454ffbd40c220b4a/diplomat_track-0.1.6.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [komootgpx]: Downloading https://files.pythonhosted.org/packages/e4/d9/124eb9e2db2f554d484084f79a259656c224340bd3e4fd3a6dbdfbd9bc18/komootgpx-1.2.0.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/29/37/4d7e7b1d095d515aef0e3e9af758d0dc33fceebfe46ebce02a1a240d274c/yt_dlp-2024.5.8.232715.dev0.tar.gz
+[2024-05-31 01:36:01] INFO root fetch - processPackages [diplomat-track]: executing diffoscope
+[2024-05-31 01:36:01] INFO root fetch - processPackages [diplomat-track]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diplomat_track-0.1.5.tar.gz tmp/diplomat_track-0.1.6.tar.gz --markdown 20240531/d/diplomat-track/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-31 01:36:01] INFO root fetch - processPackages [komootgpx]: executing diffoscope
+[2024-05-31 01:36:01] INFO root fetch - processPackages [komootgpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komootgpx-1.1.2.tar.gz tmp/komootgpx-1.2.0.tar.gz --markdown 20240531/k/komootgpx/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-31 01:36:02] INFO root fetch - processPackages [lagrange-open]: Downloading https://files.pythonhosted.org/packages/b5/a9/e96ab7cf0f0c8ad8bc14922273c2ada2656a1aa3b30109af99776d7115cd/lagrange_open-6.23.0-cp310-cp310-macosx_11_0_arm64.whl
+[2024-05-31 01:36:02] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.1.tar.gz]
+[2024-05-31 01:36:02] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.3.tar.gz]
+[2024-05-31 01:36:02] INFO root fetch - main [MainThread]: End processing [social-auth-gsis]: success
+[2024-05-31 01:36:02] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-05-31 01:36:02] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz --markdown 20240531/y/yt-dlp/2024.5.5.232701.dev0-2024.5.8.232715.dev0/README.md --exclude *.pyd
+[2024-05-31 01:36:02] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-2.0.tar.gz]
+[2024-05-31 01:36:02] INFO root fetch - processPackages [ofnodes]: Remove: archive file [/home/abi/fetcher/tmp/ofnodes-2.1.tar.gz]
+[2024-05-31 01:36:02] INFO root fetch - main [MainThread]: End processing [ofnodes]: success
+[2024-05-31 01:36:02] INFO root fetch - processPackages [komootgpx]: Remove: archive file [/home/abi/fetcher/tmp/komootgpx-1.1.2.tar.gz]
+[2024-05-31 01:36:02] INFO root fetch - processPackages [komootgpx]: Remove: archive file [/home/abi/fetcher/tmp/komootgpx-1.2.0.tar.gz]
+[2024-05-31 01:36:02] INFO root fetch - main [MainThread]: End processing [komootgpx]: success
+[2024-05-31 01:36:02] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.3.1.tar.gz]
+[2024-05-31 01:36:02] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.3.2.tar.gz]
+[2024-05-31 01:36:02] INFO root fetch - main [MainThread]: End processing [prompt-learner]: success
+[2024-05-31 01:36:02] INFO root fetch - processPackages [diplomat-track]: Remove: archive file [/home/abi/fetcher/tmp/diplomat_track-0.1.5.tar.gz]
+[2024-05-31 01:36:02] INFO root fetch - processPackages [diplomat-track]: Remove: archive file [/home/abi/fetcher/tmp/diplomat_track-0.1.6.tar.gz]
+[2024-05-31 01:36:02] INFO root fetch - main [MainThread]: End processing [diplomat-track]: success
+[2024-05-31 01:36:03] INFO root fetch - processPackages [lagrange-open]: executing diffoscope
+[2024-05-31 01:36:03] INFO root fetch - processPackages [lagrange-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lagrange_open-6.22.0-cp39-cp39-win_amd64.whl.zip tmp/lagrange_open-6.23.0-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240531/l/lagrange-open/6.22.0-6.23.0/README.md --exclude *.pyd
+[2024-05-31 01:36:04] INFO root fetch - processPackages [lagrange-open]: Remove: archive file [/home/abi/fetcher/tmp/lagrange_open-6.22.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 01:36:04] INFO root fetch - processPackages [lagrange-open]: Remove: archive file [/home/abi/fetcher/tmp/lagrange_open-6.23.0-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-05-31 01:36:04] INFO root fetch - main [MainThread]: End processing [lagrange-open]: success
+[2024-05-31 01:36:07] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz]
+[2024-05-31 01:36:07] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
+[2024-05-31 01:36:07] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-05-31 01:36:07] INFO root fetch - main [MainThread]: Store serial: [23458266]
