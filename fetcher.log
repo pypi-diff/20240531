@@ -78,3 +78,69 @@
 [2024-05-31 00:03:31] INFO root fetch - processPackages [skeletonkey]: Remove: archive file [/home/abi/fetcher/tmp/skeletonkey-0.3.0.0.tar.gz]
 [2024-05-31 00:03:31] INFO root fetch - main [MainThread]: End processing [skeletonkey]: success
 [2024-05-31 00:03:31] INFO root fetch - main [MainThread]: Store serial: [23457314]
+[2024-05-31 00:05:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457314]
+[2024-05-31 00:05:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 00:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: highlight-io
+[2024-05-31 00:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagster
+[2024-05-31 00:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: captif-slp
+[2024-05-31 00:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatpack
+[2024-05-31 00:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagit
+[2024-05-31 00:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagster-pipes
+[2024-05-31 00:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dagster-graphql
+[2024-05-31 00:05:40] INFO root fetch - processPackages [captif-slp]: New version: [0.9] Old Version: [0.8]
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagster-pipes]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagster-graphql]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-05-31 00:05:40] INFO root fetch - processPackages [flatpack]: New version: [3.5.9] Old Version: [3.5.8]
+[2024-05-31 00:05:40] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/75/c7/7fb5e638eb2c7b5d22b7e0d723ee989855703084d4e73e59b9177bafba52/captif-slp-0.8.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [highlight-io]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagster]: New version: [1.7.8] Old Version: [1.7.7]
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagit]: New version: [1.7.8] Old Version: [1.7.7]
+[2024-05-31 00:05:40] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/0d/a9/8502480e2c2eb0cf1d5c96124b696b315ecaac8fbeabcea4683232791237/flatpack-3.5.8.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagster-pipes]: Downloading https://files.pythonhosted.org/packages/4b/32/aed25c18c8ca444b7a2c46f6d00460d4f3b8b43c4f17b8a96f98fe7c7dca/dagster-pipes-1.7.6.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagster-graphql]: Downloading https://files.pythonhosted.org/packages/ce/22/66cc81741e486d60e4c8c81bd874b693aa0b260d4c460bc17f7c66d426d3/dagster-graphql-1.7.6.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [highlight-io]: Downloading https://files.pythonhosted.org/packages/5e/77/027631bb2480d6f6714fc27e602bf1c0d937990ed576b1ae6f95c797368c/highlight_io-0.8.1.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagit]: Downloading https://files.pythonhosted.org/packages/87/97/4f2e349cdabc1820e98ad6269dcdfb78fa75a33ec2704bf5bc48175a6657/dagit-1.7.7.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [captif-slp]: Downloading https://files.pythonhosted.org/packages/08/59/6bc2fe7908f5fe4b6d93eb6f7c0c450a0e43b7ade9ce1906f1d0269f6d1f/captif-slp-0.9.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagster]: Downloading https://files.pythonhosted.org/packages/33/99/2e1011f5787db9e02283f2b40e2e80b7bc9ba5fc5354dc278b819265749f/dagster-1.7.7.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/d8/91/c9da419dc0b7492b44a9d95f36b27829ce600621fa73894b210c81dadbcd/flatpack-3.5.9.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagster-pipes]: Downloading https://files.pythonhosted.org/packages/3c/cc/3d8a3e88dcef7a1c3531f04af2c4394fbf9bc85822d105cf57ea8f9fdb2f/dagster-pipes-1.7.7.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [captif-slp]: executing diffoscope
+[2024-05-31 00:05:40] INFO root fetch - processPackages [captif-slp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captif-slp-0.8.tar.gz tmp/captif-slp-0.9.tar.gz --markdown 20240531/c/captif-slp/0.8-0.9/README.md --exclude *.pyd
+[2024-05-31 00:05:40] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-31 00:05:40] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.5.8.tar.gz tmp/flatpack-3.5.9.tar.gz --markdown 20240531/f/flatpack/3.5.8-3.5.9/README.md --exclude *.pyd
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagster-pipes]: executing diffoscope
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagster-pipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-pipes-1.7.6.tar.gz tmp/dagster-pipes-1.7.7.tar.gz --markdown 20240531/d/dagster-pipes/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-05-31 00:05:40] INFO root fetch - processPackages [highlight-io]: Downloading https://files.pythonhosted.org/packages/86/d7/667a80bbc96de8f710c4c349b5d155626dbd7c5e96cb2fc7eb687256de6b/highlight_io-0.8.2.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagster-graphql]: Downloading https://files.pythonhosted.org/packages/96/02/6e04760746fbca7317988c6f2a83407805ddc1e58efd482860d4d56642c9/dagster-graphql-1.7.7.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagit]: Downloading https://files.pythonhosted.org/packages/67/52/47196e4871ffbb9bd3e5c46dc91c2fb668038553cd0a23ac7b7d207ee328/dagit-1.7.8.tar.gz
+[2024-05-31 00:05:40] INFO root fetch - processPackages [highlight-io]: executing diffoscope
+[2024-05-31 00:05:40] INFO root fetch - processPackages [highlight-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highlight_io-0.8.1.tar.gz tmp/highlight_io-0.8.2.tar.gz --markdown 20240531/h/highlight-io/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-31 00:05:40] INFO root fetch - processPackages [dagster]: Downloading https://files.pythonhosted.org/packages/e0/78/595d6ef2d1d775f8b399f986ce7ec33a3512de4fb31ac3acefa5857ef4e7/dagster-1.7.8.tar.gz
+[2024-05-31 00:05:41] INFO root fetch - processPackages [dagster-graphql]: executing diffoscope
+[2024-05-31 00:05:41] INFO root fetch - processPackages [dagster-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-graphql-1.7.6.tar.gz tmp/dagster-graphql-1.7.7.tar.gz --markdown 20240531/d/dagster-graphql/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-05-31 00:05:41] INFO root fetch - processPackages [dagit]: executing diffoscope
+[2024-05-31 00:05:41] INFO root fetch - processPackages [dagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagit-1.7.7.tar.gz tmp/dagit-1.7.8.tar.gz --markdown 20240531/d/dagit/1.7.7-1.7.8/README.md --exclude *.pyd
+[2024-05-31 00:05:41] INFO root fetch - processPackages [dagster]: executing diffoscope
+[2024-05-31 00:05:41] INFO root fetch - processPackages [dagster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-1.7.7.tar.gz tmp/dagster-1.7.8.tar.gz --markdown 20240531/d/dagster/1.7.7-1.7.8/README.md --exclude *.pyd
+[2024-05-31 00:05:41] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.8.tar.gz]
+[2024-05-31 00:05:41] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.9.tar.gz]
+[2024-05-31 00:05:41] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-31 00:05:41] INFO root fetch - processPackages [captif-slp]: Remove: archive file [/home/abi/fetcher/tmp/captif-slp-0.8.tar.gz]
+[2024-05-31 00:05:41] INFO root fetch - processPackages [captif-slp]: Remove: archive file [/home/abi/fetcher/tmp/captif-slp-0.9.tar.gz]
+[2024-05-31 00:05:41] INFO root fetch - main [MainThread]: End processing [captif-slp]: success
+[2024-05-31 00:05:41] INFO root fetch - processPackages [dagster-pipes]: Remove: archive file [/home/abi/fetcher/tmp/dagster-pipes-1.7.6.tar.gz]
+[2024-05-31 00:05:41] INFO root fetch - processPackages [dagster-pipes]: Remove: archive file [/home/abi/fetcher/tmp/dagster-pipes-1.7.7.tar.gz]
+[2024-05-31 00:05:41] INFO root fetch - main [MainThread]: End processing [dagster-pipes]: success
+[2024-05-31 00:05:41] INFO root fetch - processPackages [highlight-io]: Remove: archive file [/home/abi/fetcher/tmp/highlight_io-0.8.1.tar.gz]
+[2024-05-31 00:05:41] INFO root fetch - processPackages [highlight-io]: Remove: archive file [/home/abi/fetcher/tmp/highlight_io-0.8.2.tar.gz]
+[2024-05-31 00:05:41] INFO root fetch - main [MainThread]: End processing [highlight-io]: success
+[2024-05-31 00:05:41] INFO root fetch - processPackages [dagit]: Remove: archive file [/home/abi/fetcher/tmp/dagit-1.7.7.tar.gz]
+[2024-05-31 00:05:41] INFO root fetch - processPackages [dagit]: Remove: archive file [/home/abi/fetcher/tmp/dagit-1.7.8.tar.gz]
+[2024-05-31 00:05:41] INFO root fetch - main [MainThread]: End processing [dagit]: success
+[2024-05-31 00:05:42] INFO root fetch - processPackages [dagster-graphql]: Remove: archive file [/home/abi/fetcher/tmp/dagster-graphql-1.7.6.tar.gz]
+[2024-05-31 00:05:42] INFO root fetch - processPackages [dagster-graphql]: Remove: archive file [/home/abi/fetcher/tmp/dagster-graphql-1.7.7.tar.gz]
+[2024-05-31 00:05:42] INFO root fetch - main [MainThread]: End processing [dagster-graphql]: success
+[2024-05-31 00:05:44] INFO root fetch - processPackages [dagster]: Remove: archive file [/home/abi/fetcher/tmp/dagster-1.7.7.tar.gz]
+[2024-05-31 00:05:44] INFO root fetch - processPackages [dagster]: Remove: archive file [/home/abi/fetcher/tmp/dagster-1.7.8.tar.gz]
+[2024-05-31 00:05:44] INFO root fetch - main [MainThread]: End processing [dagster]: success
+[2024-05-31 00:05:44] INFO root fetch - main [MainThread]: Store serial: [23457334]
