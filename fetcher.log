@@ -1877,3 +1877,144 @@
 [2024-05-31 01:20:05] INFO root fetch - processPackages [dagster-celery-docker]: Remove: archive file [/home/abi/fetcher/tmp/dagster-celery-docker-0.9.9rc1.tar.gz]
 [2024-05-31 01:20:05] INFO root fetch - main [MainThread]: End processing [dagster-celery-docker]: success
 [2024-05-31 01:20:05] INFO root fetch - main [MainThread]: Store serial: [23458073]
+[2024-05-31 01:22:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458073]
+[2024-05-31 01:22:14] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-31 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagster-celery-docker
+[2024-05-31 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagster-gcp
+[2024-05-31 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enigma-workflow-14
+[2024-05-31 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dagster-snowflake-pyspark
+[2024-05-31 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagster-deltalake-polars
+[2024-05-31 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dagster-pandera
+[2024-05-31 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: conditonial-model-reliance
+[2024-05-31 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dagster-shell
+[2024-05-31 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dagster-deltalake-pandas
+[2024-05-31 01:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dagster-duckdb-pyspark
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-celery-docker]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-pandera]: New version: [0.23.7] Old Version: [0.23.6]
+[2024-05-31 01:22:14] INFO root fetch - processPackages [enigma-workflow-14]: New version: [14.0.6] Old Version: [14.0.5]
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-deltalake-polars]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-deltalake-pandas]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 01:22:14] WARNING root fetch - processPackages [conditonial-model-reliance]: Skipping, unable to determine old version
+[2024-05-31 01:22:14] INFO root fetch - processPackages [conditonial-model-reliance]: Start processing: py-bmd-abaqus
+[2024-05-31 01:22:14] INFO root fetch - main [MainThread]: End processing [conditonial-model-reliance] error
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-celery-docker]: Downloading https://files.pythonhosted.org/packages/24/5d/68b8bdb9cf37c6327e1b7b124a28fd35b7ecac0dea84662017d29cec74ab/dagster-celery-docker-0.9.9.tar.gz
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-snowflake-pyspark]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-duckdb-pyspark]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-shell]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-gcp]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2024-05-31 01:22:14] INFO root fetch - processPackages [py-bmd-abaqus]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-pandera]: Downloading https://files.pythonhosted.org/packages/da/fa/c33aa696a02de412e8ad3231862f28d2498ede9f9ce8085e87967f6de42c/dagster-pandera-0.23.6.tar.gz
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-snowflake-pyspark]: Downloading https://files.pythonhosted.org/packages/54/d3/db74bbc26025f48df7416b51a7b4b6cd18b8168adbb7cc124707dab643d4/dagster-snowflake-pyspark-0.23.7.tar.gz
+[2024-05-31 01:22:14] INFO root fetch - processPackages [enigma-workflow-14]: Downloading https://files.pythonhosted.org/packages/9a/e4/784ab77339f75cdfaa2484f8fbaaa5fe93287e2733940be999e47ec03c38/enigma_workflow_14-14.0.5-cp39-cp39-win_amd64.whl
+[2024-05-31 01:22:14] INFO root fetch - processPackages [dagster-deltalake-polars]: Downloading https://files.pythonhosted.org/packages/96/b8/7c4b7fa54a7953fffd090e3dc96deeee2e2c1e7a43bf929cd34298c0e6cc/dagster-deltalake-polars-0.23.7.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-celery-docker]: Downloading https://files.pythonhosted.org/packages/b6/f1/217f008ce62d57396e2fda40eca516e257abdc1090ef68fb3a1a3b9ab0a2/dagster-celery-docker-0.9.9rc1.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-deltalake-pandas]: Downloading https://files.pythonhosted.org/packages/4c/85/eeb981e9b9324db0ab604b74ced803b64fc8db37dc20949c4dcfbf4db724/dagster-deltalake-pandas-0.23.7.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-shell]: Downloading https://files.pythonhosted.org/packages/ab/6f/9c6dad2aa131229f7e421df3ba3f4fd069f254c7244e006953fbbd9ba64b/dagster-shell-0.9.9.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-gcp]: Downloading https://files.pythonhosted.org/packages/52/e9/4332f0dec35cc874dcb561cca00a2a608dd18daedbad3e2a4568ab8a5c93/dagster-gcp-0.9.9.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [py-bmd-abaqus]: Downloading https://files.pythonhosted.org/packages/02/be/b4728b1bc26a1f22efcaa7b278867849fb65093446e160c7f9da9a50b872/py_bmd_abaqus-0.1.0.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Downloading https://files.pythonhosted.org/packages/05/31/bbcee1a397c20ea5a79b28a6b5fb7a5c25f5103f241b17076dcffc97d2fa/dagster-duckdb-pyspark-0.23.7.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-celery-docker]: executing diffoscope
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-celery-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-celery-docker-0.9.9.tar.gz tmp/dagster-celery-docker-0.9.9rc1.tar.gz --markdown 20240531/d/dagster-celery-docker/0.9.9-0.9.9rc1/README.md --exclude *.pyd
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-pandera]: Downloading https://files.pythonhosted.org/packages/3b/35/9bf959ac606f41c02f2cace74c711c47eb3bdbf0fa6313fd6eaa92ee4591/dagster-pandera-0.23.7.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-snowflake-pyspark]: Downloading https://files.pythonhosted.org/packages/4c/31/ba2b52a9fdb8c31d93138a0e8b921a162b0503acd84b1e3591c1d9aef773/dagster-snowflake-pyspark-0.23.8.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-deltalake-pandas]: Downloading https://files.pythonhosted.org/packages/5f/8a/1035d5a4dc8480994ac08972996a8b0f3ccd9ae97d815e844ddca6807c36/dagster-deltalake-pandas-0.23.8.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Downloading https://files.pythonhosted.org/packages/06/c7/bc2a62067394090250489a4bee9b030d99840c0ac8427127dc86d947b06a/dagster-duckdb-pyspark-0.23.8.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-deltalake-polars]: Downloading https://files.pythonhosted.org/packages/c2/e9/af35c3a09281d8427038f814c01f7c7ece7aa1d460cbfadadf6253e5a785/dagster-deltalake-polars-0.23.8.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [enigma-workflow-14]: Downloading https://files.pythonhosted.org/packages/0e/c4/d26753d1a2d9822a937436ce032e9af150fad0ffab11e81823aa75202743/enigma_workflow_14-14.0.6-cp312-cp312-macosx_11_0_arm64.whl
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-snowflake-pyspark]: executing diffoscope
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-snowflake-pyspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-snowflake-pyspark-0.23.7.tar.gz tmp/dagster-snowflake-pyspark-0.23.8.tar.gz --markdown 20240531/d/dagster-snowflake-pyspark/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-shell]: Downloading https://files.pythonhosted.org/packages/c8/4e/a761ebcb62fdcbdeb499b817360870686daadfe6f743a546171ccf5218cc/dagster-shell-0.9.9rc1.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [py-bmd-abaqus]: Downloading https://files.pythonhosted.org/packages/d7/d0/8e74842386409895f64cc7105f522ccfd79c7e977d1a1c8e2ab126b2dcba/py_bmd_abaqus-0.1.1.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-gcp]: Downloading https://files.pythonhosted.org/packages/f6/6a/5fdbcf57e14e57e208b6797a24167b1c25869d6929ff16565a6988f0505c/dagster-gcp-0.9.9rc1.tar.gz
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-pandera]: executing diffoscope
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-pandera-0.23.6.tar.gz tmp/dagster-pandera-0.23.7.tar.gz --markdown 20240531/d/dagster-pandera/0.23.6-0.23.7/README.md --exclude *.pyd
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-deltalake-pandas]: executing diffoscope
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-deltalake-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-deltalake-pandas-0.23.7.tar.gz tmp/dagster-deltalake-pandas-0.23.8.tar.gz --markdown 20240531/d/dagster-deltalake-pandas/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-shell]: executing diffoscope
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-shell-0.9.9.tar.gz tmp/dagster-shell-0.9.9rc1.tar.gz --markdown 20240531/d/dagster-shell/0.9.9-0.9.9rc1/README.md --exclude *.pyd
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-duckdb-pyspark]: executing diffoscope
+[2024-05-31 01:22:15] INFO root fetch - processPackages [py-bmd-abaqus]: executing diffoscope
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-duckdb-pyspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-duckdb-pyspark-0.23.7.tar.gz tmp/dagster-duckdb-pyspark-0.23.8.tar.gz --markdown 20240531/d/dagster-duckdb-pyspark/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 01:22:15] INFO root fetch - processPackages [py-bmd-abaqus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_bmd_abaqus-0.1.0.tar.gz tmp/py_bmd_abaqus-0.1.1.tar.gz --markdown 20240531/p/py-bmd-abaqus/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-gcp]: executing diffoscope
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-gcp-0.9.9.tar.gz tmp/dagster-gcp-0.9.9rc1.tar.gz --markdown 20240531/d/dagster-gcp/0.9.9-0.9.9rc1/README.md --exclude *.pyd
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-deltalake-polars]: executing diffoscope
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-deltalake-polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-deltalake-polars-0.23.7.tar.gz tmp/dagster-deltalake-polars-0.23.8.tar.gz --markdown 20240531/d/dagster-deltalake-polars/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 01:22:15] INFO root fetch - processPackages [enigma-workflow-14]: executing diffoscope
+[2024-05-31 01:22:15] INFO root fetch - processPackages [enigma-workflow-14]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigma_workflow_14-14.0.5-cp39-cp39-win_amd64.whl.zip tmp/enigma_workflow_14-14.0.6-cp312-cp312-macosx_11_0_arm64.whl.zip --markdown 20240531/e/enigma-workflow-14/14.0.5-14.0.6/README.md --exclude *.pyd
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-celery-docker]: Remove: archive file [/home/abi/fetcher/tmp/dagster-celery-docker-0.9.9.tar.gz]
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-celery-docker]: Remove: archive file [/home/abi/fetcher/tmp/dagster-celery-docker-0.9.9rc1.tar.gz]
+[2024-05-31 01:22:15] INFO root fetch - processPackages [dagster-celery-docker]: Start processing: dagster-postgres
+[2024-05-31 01:22:15] INFO root fetch - main [MainThread]: End processing [dagster-celery-docker]: success
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-postgres]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-postgres]: Downloading https://files.pythonhosted.org/packages/2c/14/7a2009fec627a0f96720638476fd48320d6c482912bcde3613ae97c096fd/dagster-postgres-0.9.9.tar.gz
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-snowflake-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-snowflake-pyspark-0.23.7.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-snowflake-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-snowflake-pyspark-0.23.8.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-snowflake-pyspark]: Start processing: dagster-spark
+[2024-05-31 01:22:16] INFO root fetch - main [MainThread]: End processing [dagster-snowflake-pyspark]: success
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-spark]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-pandera]: Remove: archive file [/home/abi/fetcher/tmp/dagster-pandera-0.23.6.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-pandera]: Remove: archive file [/home/abi/fetcher/tmp/dagster-pandera-0.23.7.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-pandera]: Start processing: dagster-datadog
+[2024-05-31 01:22:16] INFO root fetch - main [MainThread]: End processing [dagster-pandera]: success
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-postgres]: Downloading https://files.pythonhosted.org/packages/0b/ff/066cc4697c453cd53be4db9e469a242da3514d6b7fc77052113cd9efbcab/dagster-postgres-0.9.9rc1.tar.gz
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-datadog]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-deltalake-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster-deltalake-polars-0.23.7.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-deltalake-polars]: Remove: archive file [/home/abi/fetcher/tmp/dagster-deltalake-polars-0.23.8.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-deltalake-polars]: Start processing: dagster-datahub
+[2024-05-31 01:22:16] INFO root fetch - main [MainThread]: End processing [dagster-deltalake-polars]: success
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-spark]: Downloading https://files.pythonhosted.org/packages/5c/b8/8e306e4f5d833bf3b799ffe7114b36c5bd4a85bfc6b22a30dd6378f2dbfd/dagster-spark-0.9.9.tar.gz
+[2024-05-31 01:22:16] INFO root fetch - processPackages [enigma-workflow-14]: Remove: archive file [/home/abi/fetcher/tmp/enigma_workflow_14-14.0.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [enigma-workflow-14]: Remove: archive file [/home/abi/fetcher/tmp/enigma_workflow_14-14.0.6-cp312-cp312-macosx_11_0_arm64.whl.zip]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [enigma-workflow-14]: Start processing: dagster-openai
+[2024-05-31 01:22:16] INFO root fetch - main [MainThread]: End processing [enigma-workflow-14]: success
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-shell]: Remove: archive file [/home/abi/fetcher/tmp/dagster-shell-0.9.9.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-shell]: Remove: archive file [/home/abi/fetcher/tmp/dagster-shell-0.9.9rc1.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - main [MainThread]: End processing [dagster-shell]: success
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-postgres]: executing diffoscope
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-gcp]: Remove: archive file [/home/abi/fetcher/tmp/dagster-gcp-0.9.9.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-postgres-0.9.9.tar.gz tmp/dagster-postgres-0.9.9rc1.tar.gz --markdown 20240531/d/dagster-postgres/0.9.9-0.9.9rc1/README.md --exclude *.pyd
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-gcp]: Remove: archive file [/home/abi/fetcher/tmp/dagster-gcp-0.9.9rc1.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - main [MainThread]: End processing [dagster-gcp]: success
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-deltalake-pandas]: Remove: archive file [/home/abi/fetcher/tmp/dagster-deltalake-pandas-0.23.7.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-deltalake-pandas]: Remove: archive file [/home/abi/fetcher/tmp/dagster-deltalake-pandas-0.23.8.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - main [MainThread]: End processing [dagster-deltalake-pandas]: success
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-datahub]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [py-bmd-abaqus]: Remove: archive file [/home/abi/fetcher/tmp/py_bmd_abaqus-0.1.0.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-openai]: New version: [0.23.8] Old Version: [0.23.7]
+[2024-05-31 01:22:16] INFO root fetch - processPackages [py-bmd-abaqus]: Remove: archive file [/home/abi/fetcher/tmp/py_bmd_abaqus-0.1.1.tar.gz]
+[2024-05-31 01:22:16] INFO root fetch - main [MainThread]: End processing [py-bmd-abaqus]: success
+[2024-05-31 01:22:16] INFO root fetch - processPackages [dagster-datadog]: Downloading https://files.pythonhosted.org/packages/b6/ea/4f9ae3340f336de27a0f6856f2bf910d360174ce89d418a58fe71af8c87f/dagster-datadog-0.9.9.tar.gz
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-pyspark-0.23.7.tar.gz]
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-pyspark-0.23.8.tar.gz]
+[2024-05-31 01:22:17] INFO root fetch - main [MainThread]: End processing [dagster-duckdb-pyspark]: success
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-spark]: Downloading https://files.pythonhosted.org/packages/35/b5/3e3150c102e7a7b9b97795213b2be915bed9e409e1d1e20929184d0f65ca/dagster-spark-0.9.9rc1.tar.gz
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-datahub]: Downloading https://files.pythonhosted.org/packages/10/d5/2b110fbf6b40fe36453d88f4b7111230e12aec59068088be9939f5521a30/dagster-datahub-0.23.7.tar.gz
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-openai]: Downloading https://files.pythonhosted.org/packages/13/c8/d73320f99ee7a7516fc58361baeb9339127be9fe0abb21e46601d6bb9138/dagster-openai-0.23.7.tar.gz
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-spark]: executing diffoscope
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-spark-0.9.9.tar.gz tmp/dagster-spark-0.9.9rc1.tar.gz --markdown 20240531/d/dagster-spark/0.9.9-0.9.9rc1/README.md --exclude *.pyd
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-datadog]: Downloading https://files.pythonhosted.org/packages/47/d7/aa2a6dfa20b4593eeb42978089792cf00840776481fa0babb2bcb2092f93/dagster-datadog-0.9.9rc1.tar.gz
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-datahub]: Downloading https://files.pythonhosted.org/packages/53/81/2640b288ad16a6a38f702d4ecc1521b4c6fc7f20a006b43932af1bb1c286/dagster-datahub-0.23.8.tar.gz
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-postgres]: Remove: archive file [/home/abi/fetcher/tmp/dagster-postgres-0.9.9.tar.gz]
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-postgres]: Remove: archive file [/home/abi/fetcher/tmp/dagster-postgres-0.9.9rc1.tar.gz]
+[2024-05-31 01:22:17] INFO root fetch - main [MainThread]: End processing [dagster-postgres]: success
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-openai]: Downloading https://files.pythonhosted.org/packages/8e/9d/e04b5bd4586e6150f700a35bac317dcda44c5fa1c7976f830644d733194b/dagster-openai-0.23.8.tar.gz
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-datadog]: executing diffoscope
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-datadog-0.9.9.tar.gz tmp/dagster-datadog-0.9.9rc1.tar.gz --markdown 20240531/d/dagster-datadog/0.9.9-0.9.9rc1/README.md --exclude *.pyd
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-datahub]: executing diffoscope
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-datahub-0.23.7.tar.gz tmp/dagster-datahub-0.23.8.tar.gz --markdown 20240531/d/dagster-datahub/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-openai]: executing diffoscope
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-openai-0.23.7.tar.gz tmp/dagster-openai-0.23.8.tar.gz --markdown 20240531/d/dagster-openai/0.23.7-0.23.8/README.md --exclude *.pyd
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-spark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-spark-0.9.9.tar.gz]
+[2024-05-31 01:22:17] INFO root fetch - processPackages [dagster-spark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-spark-0.9.9rc1.tar.gz]
+[2024-05-31 01:22:17] INFO root fetch - main [MainThread]: End processing [dagster-spark]: success
+[2024-05-31 01:22:18] INFO root fetch - processPackages [dagster-datadog]: Remove: archive file [/home/abi/fetcher/tmp/dagster-datadog-0.9.9.tar.gz]
+[2024-05-31 01:22:18] INFO root fetch - processPackages [dagster-datadog]: Remove: archive file [/home/abi/fetcher/tmp/dagster-datadog-0.9.9rc1.tar.gz]
+[2024-05-31 01:22:18] INFO root fetch - main [MainThread]: End processing [dagster-datadog]: success
+[2024-05-31 01:22:18] INFO root fetch - processPackages [dagster-openai]: Remove: archive file [/home/abi/fetcher/tmp/dagster-openai-0.23.7.tar.gz]
+[2024-05-31 01:22:18] INFO root fetch - processPackages [dagster-openai]: Remove: archive file [/home/abi/fetcher/tmp/dagster-openai-0.23.8.tar.gz]
+[2024-05-31 01:22:18] INFO root fetch - main [MainThread]: End processing [dagster-openai]: success
+[2024-05-31 01:22:18] INFO root fetch - processPackages [dagster-datahub]: Remove: archive file [/home/abi/fetcher/tmp/dagster-datahub-0.23.7.tar.gz]
+[2024-05-31 01:22:18] INFO root fetch - processPackages [dagster-datahub]: Remove: archive file [/home/abi/fetcher/tmp/dagster-datahub-0.23.8.tar.gz]
+[2024-05-31 01:22:18] INFO root fetch - main [MainThread]: End processing [dagster-datahub]: success
+[2024-05-31 01:22:18] INFO root fetch - main [MainThread]: Store serial: [23458127]
