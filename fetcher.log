@@ -2439,3 +2439,15 @@
 [2024-05-31 01:42:51] INFO root fetch - processPackages [kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-9.0.1.tar.gz]
 [2024-05-31 01:42:51] INFO root fetch - main [MainThread]: End processing [kubernetes]: success
 [2024-05-31 01:42:51] INFO root fetch - main [MainThread]: Store serial: [23458343]
+[2024-05-31 01:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458343]
+[2024-05-31 01:45:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-31 01:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meditability
+[2024-05-31 01:45:00] INFO root fetch - processPackages [meditability]: New version: [0.2.3a0] Old Version: [0.2.2]
+[2024-05-31 01:45:00] INFO root fetch - processPackages [meditability]: Downloading https://files.pythonhosted.org/packages/ad/1d/cb57989092f7ace4130d7643bebc83693c2e58a1a0b3580bec5022e2d77a/meditability-0.2.2.tar.gz
+[2024-05-31 01:45:00] INFO root fetch - processPackages [meditability]: Downloading https://files.pythonhosted.org/packages/14/9c/93f1dad31a4e36a41e48bb07a3beff2a750d3b262997766d60feb85f5ba7/meditability-0.2.3a0.tar.gz
+[2024-05-31 01:45:00] INFO root fetch - processPackages [meditability]: executing diffoscope
+[2024-05-31 01:45:00] INFO root fetch - processPackages [meditability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meditability-0.2.2.tar.gz tmp/meditability-0.2.3a0.tar.gz --markdown 20240531/m/meditability/0.2.2-0.2.3a0/README.md --exclude *.pyd
+[2024-05-31 01:45:01] INFO root fetch - processPackages [meditability]: Remove: archive file [/home/abi/fetcher/tmp/meditability-0.2.2.tar.gz]
+[2024-05-31 01:45:01] INFO root fetch - processPackages [meditability]: Remove: archive file [/home/abi/fetcher/tmp/meditability-0.2.3a0.tar.gz]
+[2024-05-31 01:45:01] INFO root fetch - main [MainThread]: End processing [meditability]: success
+[2024-05-31 01:45:01] INFO root fetch - main [MainThread]: Store serial: [23458346]
