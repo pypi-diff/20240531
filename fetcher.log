@@ -979,3 +979,57 @@
 [2024-05-31 00:38:28] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-05-31 00:38:28] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-05-31 00:38:28] INFO root fetch - main [MainThread]: Store serial: [23457673]
+[2024-05-31 00:40:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457673]
+[2024-05-31 00:40:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 00:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snippets2changelog
+[2024-05-31 00:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beforerr
+[2024-05-31 00:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: labthings-fastapi
+[2024-05-31 00:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protoc-polyglot
+[2024-05-31 00:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-awsx
+[2024-05-31 00:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cherche
+[2024-05-31 00:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: echidma
+[2024-05-31 00:40:37] INFO root fetch - processPackages [snippets2changelog]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-31 00:40:37] WARNING root fetch - processPackages [beforerr]: Skipping, unable to determine old version
+[2024-05-31 00:40:37] INFO root fetch - main [MainThread]: End processing [beforerr] error
+[2024-05-31 00:40:37] INFO root fetch - processPackages [cherche]: New version: [2.1.0] Old Version: [2.0.6]
+[2024-05-31 00:40:37] INFO root fetch - processPackages [snippets2changelog]: Downloading https://files.pythonhosted.org/packages/32/a0/f311485b8a486db90a01b26b77e8c3573b556a1e8c94cbed6a87090736ea/snippets2changelog-0.1.0.tar.gz
+[2024-05-31 00:40:37] INFO root fetch - processPackages [protoc-polyglot]: New version: [0.0.1.post8] Old Version: [0.0.1.post7]
+[2024-05-31 00:40:37] WARNING root fetch - processPackages [echidma]: Skipping, unable to determine old version
+[2024-05-31 00:40:37] INFO root fetch - processPackages [labthings-fastapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 00:40:37] INFO root fetch - main [MainThread]: End processing [echidma] error
+[2024-05-31 00:40:37] INFO root fetch - processPackages [pulumi-awsx]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-31 00:40:37] INFO root fetch - processPackages [snippets2changelog]: Downloading https://files.pythonhosted.org/packages/71/b1/9af9612e58753bce949adf5f74d9920a68463f8b7e684da8987d501d5dfd/snippets2changelog-1.0.0.tar.gz
+[2024-05-31 00:40:37] INFO root fetch - processPackages [cherche]: Downloading https://files.pythonhosted.org/packages/db/40/04571e913c399fe36aeccdad982f031c66f5c920a3e4e65f9ecfd5096bf3/cherche-2.0.6.tar.gz
+[2024-05-31 00:40:37] INFO root fetch - processPackages [labthings-fastapi]: Downloading https://files.pythonhosted.org/packages/5a/a3/37a4e145e5c5e9e889418ee4f11d4122c1ab1d9a2c3eaa8f88d9ffff49ea/labthings_fastapi-0.0.1.tar.gz
+[2024-05-31 00:40:37] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/b4/76/d3c9d71a9b39a8ecea9e7497deeac7e74e7bf7d88fa58f0710c3c0a87004/protoc_polyglot-0.0.1.post7.tar.gz
+[2024-05-31 00:40:37] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/6b/5e/e31a330b971722a3f5990a97b8aba2709ff5b0752e314d861fc58a3efb95/pulumi_awsx-2.8.0.tar.gz
+[2024-05-31 00:40:37] INFO root fetch - processPackages [snippets2changelog]: executing diffoscope
+[2024-05-31 00:40:37] INFO root fetch - processPackages [snippets2changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snippets2changelog-0.1.0.tar.gz tmp/snippets2changelog-1.0.0.tar.gz --markdown 20240531/s/snippets2changelog/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-31 00:40:37] INFO root fetch - processPackages [labthings-fastapi]: Downloading https://files.pythonhosted.org/packages/c1/da/ffb10a4ba112b8441e9be2e134fe71f3a3ce87fa6740c0055209849b3f4d/labthings_fastapi-0.0.2.tar.gz
+[2024-05-31 00:40:37] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/e9/7b/373a68a962cdfb85f4bd76f6f4ea13ad3f2cfaca73bf0a9f70d0e7d34380/protoc_polyglot-0.0.1.post8.tar.gz
+[2024-05-31 00:40:38] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/43/ef/a4bf998f4e10d3b222a7898d012ee0efc1377889489f5ae47a60e1873788/pulumi_awsx-2.9.0.tar.gz
+[2024-05-31 00:40:38] INFO root fetch - processPackages [cherche]: Downloading https://files.pythonhosted.org/packages/5d/a6/0584df84e6deedf33bf5cd732dbc6d2e1e8da3479384e804145ebf5b2f38/cherche-2.1.0.tar.gz
+[2024-05-31 00:40:38] INFO root fetch - processPackages [protoc-polyglot]: executing diffoscope
+[2024-05-31 00:40:38] INFO root fetch - processPackages [protoc-polyglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_polyglot-0.0.1.post7.tar.gz tmp/protoc_polyglot-0.0.1.post8.tar.gz --markdown 20240531/p/protoc-polyglot/0.0.1.post7-0.0.1.post8/README.md --exclude *.pyd
+[2024-05-31 00:40:38] INFO root fetch - processPackages [labthings-fastapi]: executing diffoscope
+[2024-05-31 00:40:38] INFO root fetch - processPackages [labthings-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labthings_fastapi-0.0.1.tar.gz tmp/labthings_fastapi-0.0.2.tar.gz --markdown 20240531/l/labthings-fastapi/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 00:40:38] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2024-05-31 00:40:38] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-2.8.0.tar.gz tmp/pulumi_awsx-2.9.0.tar.gz --markdown 20240531/p/pulumi-awsx/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-31 00:40:38] INFO root fetch - processPackages [snippets2changelog]: Remove: archive file [/home/abi/fetcher/tmp/snippets2changelog-0.1.0.tar.gz]
+[2024-05-31 00:40:38] INFO root fetch - processPackages [snippets2changelog]: Remove: archive file [/home/abi/fetcher/tmp/snippets2changelog-1.0.0.tar.gz]
+[2024-05-31 00:40:38] INFO root fetch - main [MainThread]: End processing [snippets2changelog]: success
+[2024-05-31 00:40:38] INFO root fetch - processPackages [cherche]: executing diffoscope
+[2024-05-31 00:40:38] INFO root fetch - processPackages [cherche]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cherche-2.0.6.tar.gz tmp/cherche-2.1.0.tar.gz --markdown 20240531/c/cherche/2.0.6-2.1.0/README.md --exclude *.pyd
+[2024-05-31 00:40:38] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post7.tar.gz]
+[2024-05-31 00:40:38] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post8.tar.gz]
+[2024-05-31 00:40:38] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
+[2024-05-31 00:40:38] INFO root fetch - processPackages [labthings-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/labthings_fastapi-0.0.1.tar.gz]
+[2024-05-31 00:40:38] INFO root fetch - processPackages [labthings-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/labthings_fastapi-0.0.2.tar.gz]
+[2024-05-31 00:40:38] INFO root fetch - main [MainThread]: End processing [labthings-fastapi]: success
+[2024-05-31 00:40:38] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-2.8.0.tar.gz]
+[2024-05-31 00:40:38] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-2.9.0.tar.gz]
+[2024-05-31 00:40:38] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2024-05-31 00:40:39] INFO root fetch - processPackages [cherche]: Remove: archive file [/home/abi/fetcher/tmp/cherche-2.0.6.tar.gz]
+[2024-05-31 00:40:39] INFO root fetch - processPackages [cherche]: Remove: archive file [/home/abi/fetcher/tmp/cherche-2.1.0.tar.gz]
+[2024-05-31 00:40:39] INFO root fetch - main [MainThread]: End processing [cherche]: success
+[2024-05-31 00:40:39] INFO root fetch - main [MainThread]: Store serial: [23457695]
