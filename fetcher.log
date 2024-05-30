@@ -670,3 +670,24 @@
 [2024-05-31 00:25:14] INFO root fetch - processPackages [ensemble-networkx]: Remove: archive file [/home/abi/fetcher/tmp/ensemble_networkx-2024.5.30.tar.gz]
 [2024-05-31 00:25:14] INFO root fetch - main [MainThread]: End processing [ensemble-networkx]: success
 [2024-05-31 00:25:14] INFO root fetch - main [MainThread]: Store serial: [23457541]
+[2024-05-31 00:27:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457541]
+[2024-05-31 00:27:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 00:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xmonkey-namonica
+[2024-05-31 00:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turntable-cli
+[2024-05-31 00:27:22] INFO root fetch - processPackages [xmonkey-namonica]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 00:27:22] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/b0/3d/6203ff7af6294781f051903a25270845fd90f2978f0aad2922baf027467a/xmonkey_namonica-0.1.8.tar.gz
+[2024-05-31 00:27:22] INFO root fetch - processPackages [turntable-cli]: New version: [0.4.3] Old Version: [0.4.1]
+[2024-05-31 00:27:22] INFO root fetch - processPackages [xmonkey-namonica]: Downloading https://files.pythonhosted.org/packages/cf/b8/696ff3c9499cdf66adacf2f654a1d6d3e21fc8d3f60fedd73208f3172235/xmonkey_namonica-0.1.9.tar.gz
+[2024-05-31 00:27:22] INFO root fetch - processPackages [turntable-cli]: Downloading https://files.pythonhosted.org/packages/dc/83/9069e0395a27730cca31fc545bef2122effa946d96206a5564fac7abcb70/turntable_cli-0.4.1-cp39-cp39-win_amd64.whl
+[2024-05-31 00:27:22] INFO root fetch - processPackages [xmonkey-namonica]: executing diffoscope
+[2024-05-31 00:27:22] INFO root fetch - processPackages [xmonkey-namonica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmonkey_namonica-0.1.8.tar.gz tmp/xmonkey_namonica-0.1.9.tar.gz --markdown 20240531/x/xmonkey-namonica/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 00:27:23] INFO root fetch - processPackages [turntable-cli]: Downloading https://files.pythonhosted.org/packages/e6/79/1ee424984847df09767d08231f9ba095219be3ecbd68f63bba5943b02988/turntable_cli-0.4.3-cp39-cp39-win_amd64.whl
+[2024-05-31 00:27:23] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.8.tar.gz]
+[2024-05-31 00:27:23] INFO root fetch - processPackages [xmonkey-namonica]: Remove: archive file [/home/abi/fetcher/tmp/xmonkey_namonica-0.1.9.tar.gz]
+[2024-05-31 00:27:23] INFO root fetch - main [MainThread]: End processing [xmonkey-namonica]: success
+[2024-05-31 00:27:23] INFO root fetch - processPackages [turntable-cli]: executing diffoscope
+[2024-05-31 00:27:23] INFO root fetch - processPackages [turntable-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turntable_cli-0.4.1-cp39-cp39-win_amd64.whl.zip tmp/turntable_cli-0.4.3-cp39-cp39-win_amd64.whl.zip --markdown 20240531/t/turntable-cli/0.4.1-0.4.3/README.md --exclude *.pyd
+[2024-05-31 00:27:23] INFO root fetch - processPackages [turntable-cli]: Remove: archive file [/home/abi/fetcher/tmp/turntable_cli-0.4.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 00:27:23] INFO root fetch - processPackages [turntable-cli]: Remove: archive file [/home/abi/fetcher/tmp/turntable_cli-0.4.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 00:27:23] INFO root fetch - main [MainThread]: End processing [turntable-cli]: success
+[2024-05-31 00:27:23] INFO root fetch - main [MainThread]: Store serial: [23457569]
