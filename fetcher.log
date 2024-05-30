@@ -910,3 +910,72 @@
 [2024-05-31 00:36:09] INFO root fetch - processPackages [dash-oflog-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_oflog_components-0.0.9.tar.gz]
 [2024-05-31 00:36:09] INFO root fetch - main [MainThread]: End processing [dash-oflog-components]: success
 [2024-05-31 00:36:09] INFO root fetch - main [MainThread]: Store serial: [23457648]
+[2024-05-31 00:38:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457648]
+[2024-05-31 00:38:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 00:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salt-infisical
+[2024-05-31 00:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fish-simulator
+[2024-05-31 00:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-gcp
+[2024-05-31 00:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal
+[2024-05-31 00:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal-client
+[2024-05-31 00:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-contact-local
+[2024-05-31 00:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: superseeker
+[2024-05-31 00:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hashtag-utils
+[2024-05-31 00:38:17] WARNING root fetch - processPackages [superseeker]: Skipping, unable to determine old version
+[2024-05-31 00:38:17] INFO root fetch - main [MainThread]: End processing [superseeker] error
+[2024-05-31 00:38:17] INFO root fetch - processPackages [salt-infisical]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-31 00:38:17] INFO root fetch - processPackages [fish-simulator]: New version: [0.1.1] Old Version: [0.0.7]
+[2024-05-31 00:38:17] INFO root fetch - processPackages [hashtag-utils]: New version: [0.5] Old Version: [0.4]
+[2024-05-31 00:38:17] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-05-31 00:38:17] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-31 00:38:17] INFO root fetch - processPackages [salt-infisical]: Downloading https://files.pythonhosted.org/packages/d7/19/31d61852c9a36290e4fd0f99dda9531a4022f326b09ecd1597275d3e343e/salt_infisical-2.0.0.tar.gz
+[2024-05-31 00:38:17] INFO root fetch - processPackages [google-contact-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 00:38:17] INFO root fetch - processPackages [hashtag-utils]: Downloading https://files.pythonhosted.org/packages/ef/7e/3d914eea34bd48ca4c78e7b6ae00fda604f413eef67e1c3dea8eaa8e1443/hashtag_utils-0.4.tar.gz
+[2024-05-31 00:38:17] INFO root fetch - processPackages [fish-simulator]: Downloading https://files.pythonhosted.org/packages/70/ea/70e9adcf0c2975b3a70b756d4904c4ff74a8cbdb7508d58600d0f93ed7d4/fish_simulator-0.0.7.tar.gz
+[2024-05-31 00:38:17] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-31 00:38:17] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-05-31 00:38:18] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-31 00:38:18] INFO root fetch - processPackages [google-contact-local]: Downloading https://files.pythonhosted.org/packages/a8/55/f63aa14924da6703289e0881058be4b007251255a7c3affa28e065371e97/google-contact-local-0.0.8.tar.gz
+[2024-05-31 00:38:18] INFO root fetch - processPackages [salt-infisical]: Downloading https://files.pythonhosted.org/packages/74/e9/f55e091a63b57f175d82afbecd60b9ac2cae73ee12373a51f6c3771cd80b/salt_infisical-2.1.0.tar.gz
+[2024-05-31 00:38:18] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-31 00:38:18] INFO root fetch - processPackages [hashtag-utils]: Downloading https://files.pythonhosted.org/packages/db/1b/65163b4d05d789511c46d2ea51ee23b8700db5dcc7ba13d59f7af2181b2f/hashtag_utils-0.5.tar.gz
+[2024-05-31 00:38:18] INFO root fetch - processPackages [salt-infisical]: executing diffoscope
+[2024-05-31 00:38:18] INFO root fetch - processPackages [salt-infisical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salt_infisical-2.0.0.tar.gz tmp/salt_infisical-2.1.0.tar.gz --markdown 20240531/s/salt-infisical/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-31 00:38:18] INFO root fetch - processPackages [fish-simulator]: Downloading https://files.pythonhosted.org/packages/47/4a/d7a8ca8092c30c23025df6db1b72e2b3c1c9ecb60de781b1df5c229bff7c/fish_simulator-0.1.1.tar.gz
+[2024-05-31 00:38:18] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-05-31 00:38:18] INFO root fetch - processPackages [hashtag-utils]: executing diffoscope
+[2024-05-31 00:38:18] INFO root fetch - processPackages [hashtag-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hashtag_utils-0.4.tar.gz tmp/hashtag_utils-0.5.tar.gz --markdown 20240531/h/hashtag-utils/0.4-0.5/README.md --exclude *.pyd
+[2024-05-31 00:38:18] INFO root fetch - processPackages [fish-simulator]: executing diffoscope
+[2024-05-31 00:38:18] INFO root fetch - processPackages [fish-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fish_simulator-0.0.7.tar.gz tmp/fish_simulator-0.1.1.tar.gz --markdown 20240531/f/fish-simulator/0.0.7-0.1.1/README.md --exclude *.pyd
+[2024-05-31 00:38:18] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-31 00:38:18] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-31 00:38:18] INFO root fetch - processPackages [google-contact-local]: Downloading https://files.pythonhosted.org/packages/90/a0/6476b4b508a422b515b36c8e96bc42204832fa643e68545864d4ecc1f820/google-contact-local-0.0.9.tar.gz
+[2024-05-31 00:38:18] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-31 00:38:18] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240531/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-31 00:38:18] INFO root fetch - processPackages [google-contact-local]: executing diffoscope
+[2024-05-31 00:38:18] INFO root fetch - processPackages [google-contact-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-contact-local-0.0.8.tar.gz tmp/google-contact-local-0.0.9.tar.gz --markdown 20240531/g/google-contact-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 00:38:18] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-31 00:38:18] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240531/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-31 00:38:18] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-05-31 00:38:18] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240531/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-05-31 00:38:19] INFO root fetch - processPackages [salt-infisical]: Remove: archive file [/home/abi/fetcher/tmp/salt_infisical-2.0.0.tar.gz]
+[2024-05-31 00:38:19] INFO root fetch - processPackages [salt-infisical]: Remove: archive file [/home/abi/fetcher/tmp/salt_infisical-2.1.0.tar.gz]
+[2024-05-31 00:38:19] INFO root fetch - main [MainThread]: End processing [salt-infisical]: success
+[2024-05-31 00:38:19] INFO root fetch - processPackages [fish-simulator]: Remove: archive file [/home/abi/fetcher/tmp/fish_simulator-0.0.7.tar.gz]
+[2024-05-31 00:38:19] INFO root fetch - processPackages [fish-simulator]: Remove: archive file [/home/abi/fetcher/tmp/fish_simulator-0.1.1.tar.gz]
+[2024-05-31 00:38:19] INFO root fetch - main [MainThread]: End processing [fish-simulator]: success
+[2024-05-31 00:38:19] INFO root fetch - processPackages [hashtag-utils]: Remove: archive file [/home/abi/fetcher/tmp/hashtag_utils-0.4.tar.gz]
+[2024-05-31 00:38:19] INFO root fetch - processPackages [hashtag-utils]: Remove: archive file [/home/abi/fetcher/tmp/hashtag_utils-0.5.tar.gz]
+[2024-05-31 00:38:19] INFO root fetch - main [MainThread]: End processing [hashtag-utils]: success
+[2024-05-31 00:38:19] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-31 00:38:19] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-31 00:38:19] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-31 00:38:19] INFO root fetch - processPackages [google-contact-local]: Remove: archive file [/home/abi/fetcher/tmp/google-contact-local-0.0.8.tar.gz]
+[2024-05-31 00:38:19] INFO root fetch - processPackages [google-contact-local]: Remove: archive file [/home/abi/fetcher/tmp/google-contact-local-0.0.9.tar.gz]
+[2024-05-31 00:38:19] INFO root fetch - main [MainThread]: End processing [google-contact-local]: success
+[2024-05-31 00:38:20] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-31 00:38:20] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-31 00:38:20] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-31 00:38:28] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-05-31 00:38:28] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-05-31 00:38:28] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-05-31 00:38:28] INFO root fetch - main [MainThread]: Store serial: [23457673]
