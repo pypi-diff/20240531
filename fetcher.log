@@ -1234,3 +1234,51 @@
 [2024-05-31 00:49:23] INFO root fetch - processPackages [textualheatmap]: Remove: archive file [/home/abi/fetcher/tmp/textualheatmap-1.2.0.tar.gz]
 [2024-05-31 00:49:23] INFO root fetch - main [MainThread]: End processing [textualheatmap]: success
 [2024-05-31 00:49:23] INFO root fetch - main [MainThread]: Store serial: [23457782]
+[2024-05-31 00:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457782]
+[2024-05-31 00:51:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transformer-lens
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-cloud-aiplatform
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ziptimezone
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ASUllmAPI
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: punkweb-bb
+[2024-05-31 00:51:31] INFO root fetch - processPackages [punkweb-bb]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-31 00:51:31] INFO root fetch - processPackages [transformer-lens]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ziptimezone]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ASUllmAPI]: New version: [2.0.0] Old Version: [1.1.3]
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/c9/80/2f73f4257b3197db34f6a5ef1ffcea29051a3b12c275f023247ad84646e5/ziptimezone-1.1.6.tar.gz
+[2024-05-31 00:51:31] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/82/7d/d1214c865b02176d5387baa3da675bc1f9d5248159f246e54c8f70de47ea/punkweb_bb-0.2.2.tar.gz
+[2024-05-31 00:51:31] INFO root fetch - processPackages [transformer-lens]: Downloading https://files.pythonhosted.org/packages/ee/98/34a95a3d709102fbda95729813af98a34c1d5b24d1814d3fb0c005dff8a8/transformer_lens-1.9.0.tar.gz
+[2024-05-31 00:51:31] INFO root fetch - processPackages [google-cloud-aiplatform]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ASUllmAPI]: Downloading https://files.pythonhosted.org/packages/e6/00/8a490eb2cec14222618aba63af6f4e9783e2ea7b185e0a84ea89d656daf9/asullmapi-1.1.3.tar.gz
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/4d/59/864a0dac7139bdfaa7fc5e7111d1bc2d296e1a8e143eef443516154144fa/ziptimezone-1.1.7.tar.gz
+[2024-05-31 00:51:31] INFO root fetch - processPackages [transformer-lens]: Downloading https://files.pythonhosted.org/packages/27/61/104cad9713b2865aedacc4171be2e94e7c1401485e3874ea135094d6916d/transformer_lens-1.9.1.tar.gz
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ASUllmAPI]: Downloading https://files.pythonhosted.org/packages/c7/f8/a20e2a131d9a9d6e9aaf7e27ad5bfa4dde2fc4d3a4700d2939207ad5dc71/asullmapi-2.0.0.tar.gz
+[2024-05-31 00:51:31] INFO root fetch - processPackages [google-cloud-aiplatform]: Downloading https://files.pythonhosted.org/packages/87/ed/ff22ee773fb07107589eec61c3659904016820ba5aed048a68bf3eba44a9/google-cloud-aiplatform-1.8.1.tar.gz
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ziptimezone]: executing diffoscope
+[2024-05-31 00:51:31] INFO root fetch - processPackages [ziptimezone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ziptimezone-1.1.6.tar.gz tmp/ziptimezone-1.1.7.tar.gz --markdown 20240531/z/ziptimezone/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-31 00:51:32] INFO root fetch - processPackages [transformer-lens]: executing diffoscope
+[2024-05-31 00:51:32] INFO root fetch - processPackages [transformer-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformer_lens-1.9.0.tar.gz tmp/transformer_lens-1.9.1.tar.gz --markdown 20240531/t/transformer-lens/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-31 00:51:32] INFO root fetch - processPackages [ASUllmAPI]: executing diffoscope
+[2024-05-31 00:51:32] INFO root fetch - processPackages [ASUllmAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asullmapi-1.1.3.tar.gz tmp/asullmapi-2.0.0.tar.gz --markdown 20240531/A/ASUllmAPI/1.1.3-2.0.0/README.md --exclude *.pyd
+[2024-05-31 00:51:32] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/e9/81/c7f991e2c562832227f1185b1edc5e388fb8ac2e0e3dd297d7405f74d963/punkweb_bb-0.2.3.tar.gz
+[2024-05-31 00:51:32] INFO root fetch - processPackages [punkweb-bb]: executing diffoscope
+[2024-05-31 00:51:32] INFO root fetch - processPackages [punkweb-bb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punkweb_bb-0.2.2.tar.gz tmp/punkweb_bb-0.2.3.tar.gz --markdown 20240531/p/punkweb-bb/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-31 00:51:32] INFO root fetch - processPackages [google-cloud-aiplatform]: Downloading https://files.pythonhosted.org/packages/4d/c4/93fac91a85d9ee19de83e183b5b8980a3fe9e3a193e1a27c3574c7899c9c/google-cloud-aiplatform-1.9.0.tar.gz
+[2024-05-31 00:51:32] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.1.6.tar.gz]
+[2024-05-31 00:51:32] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-1.1.7.tar.gz]
+[2024-05-31 00:51:32] INFO root fetch - main [MainThread]: End processing [ziptimezone]: success
+[2024-05-31 00:51:32] INFO root fetch - processPackages [ASUllmAPI]: Remove: archive file [/home/abi/fetcher/tmp/asullmapi-1.1.3.tar.gz]
+[2024-05-31 00:51:32] INFO root fetch - processPackages [ASUllmAPI]: Remove: archive file [/home/abi/fetcher/tmp/asullmapi-2.0.0.tar.gz]
+[2024-05-31 00:51:32] INFO root fetch - main [MainThread]: End processing [ASUllmAPI]: success
+[2024-05-31 00:51:32] INFO root fetch - processPackages [transformer-lens]: Remove: archive file [/home/abi/fetcher/tmp/transformer_lens-1.9.0.tar.gz]
+[2024-05-31 00:51:32] INFO root fetch - processPackages [transformer-lens]: Remove: archive file [/home/abi/fetcher/tmp/transformer_lens-1.9.1.tar.gz]
+[2024-05-31 00:51:32] INFO root fetch - main [MainThread]: End processing [transformer-lens]: success
+[2024-05-31 00:51:33] INFO root fetch - processPackages [google-cloud-aiplatform]: executing diffoscope
+[2024-05-31 00:51:33] INFO root fetch - processPackages [google-cloud-aiplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-aiplatform-1.8.1.tar.gz tmp/google-cloud-aiplatform-1.9.0.tar.gz --markdown 20240531/g/google-cloud-aiplatform/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-31 00:51:33] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.2.2.tar.gz]
+[2024-05-31 00:51:33] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.2.3.tar.gz]
+[2024-05-31 00:51:33] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
+[2024-05-31 00:51:36] INFO root fetch - processPackages [google-cloud-aiplatform]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-aiplatform-1.8.1.tar.gz]
+[2024-05-31 00:51:36] INFO root fetch - processPackages [google-cloud-aiplatform]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-aiplatform-1.9.0.tar.gz]
+[2024-05-31 00:51:36] INFO root fetch - main [MainThread]: End processing [google-cloud-aiplatform]: success
+[2024-05-31 00:51:36] INFO root fetch - main [MainThread]: Store serial: [23457798]
