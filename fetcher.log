@@ -1282,3 +1282,42 @@
 [2024-05-31 00:51:36] INFO root fetch - processPackages [google-cloud-aiplatform]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-aiplatform-1.9.0.tar.gz]
 [2024-05-31 00:51:36] INFO root fetch - main [MainThread]: End processing [google-cloud-aiplatform]: success
 [2024-05-31 00:51:36] INFO root fetch - main [MainThread]: Store serial: [23457798]
+[2024-05-31 00:53:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457798]
+[2024-05-31 00:53:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 00:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superseeker
+[2024-05-31 00:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-alpaca-daily-losers
+[2024-05-31 00:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snippets2changelog
+[2024-05-31 00:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lmnt
+[2024-05-31 00:53:45] INFO root fetch - processPackages [snippets2changelog]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-31 00:53:45] INFO root fetch - processPackages [snippets2changelog]: Downloading https://files.pythonhosted.org/packages/71/b1/9af9612e58753bce949adf5f74d9920a68463f8b7e684da8987d501d5dfd/snippets2changelog-1.0.0.tar.gz
+[2024-05-31 00:53:45] INFO root fetch - processPackages [superseeker]: New version: [0.1.dev2] Old Version: [0.1.dev1]
+[2024-05-31 00:53:45] INFO root fetch - processPackages [py-alpaca-daily-losers]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-31 00:53:45] INFO root fetch - processPackages [lmnt]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-31 00:53:45] INFO root fetch - processPackages [superseeker]: Downloading https://files.pythonhosted.org/packages/3a/b2/e3e392d575545188d87340658a6d8e7417f027e2ecef30c965f8d421a19a/superseeker-0.1.dev1.tar.gz
+[2024-05-31 00:53:45] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/c4/50/60b2473f0743a5eaecb51b44375ab412cae46648f09cd6524d46b4218766/py_alpaca_daily_losers-0.3.3.tar.gz
+[2024-05-31 00:53:45] INFO root fetch - processPackages [lmnt]: Downloading https://files.pythonhosted.org/packages/fb/d1/6cd5a088c9f738e8d6a2cad584c7118ed46fb156d38205131066157f19c8/lmnt-1.1.2.tar.gz
+[2024-05-31 00:53:45] INFO root fetch - processPackages [snippets2changelog]: Downloading https://files.pythonhosted.org/packages/ff/3e/795a60051c613cf609ccae572a9dad95eb4a749b92ba60b65741b41a43d5/snippets2changelog-1.0.1.tar.gz
+[2024-05-31 00:53:45] INFO root fetch - processPackages [snippets2changelog]: executing diffoscope
+[2024-05-31 00:53:45] INFO root fetch - processPackages [snippets2changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snippets2changelog-1.0.0.tar.gz tmp/snippets2changelog-1.0.1.tar.gz --markdown 20240531/s/snippets2changelog/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-31 00:53:46] INFO root fetch - processPackages [superseeker]: Downloading https://files.pythonhosted.org/packages/30/22/3cf61e64c088f66b753997ae2b44d56628de3aae32a245c3ee9465ce6afb/superseeker-0.1.dev2.tar.gz
+[2024-05-31 00:53:46] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/72/6d/334236ccabc8554d93494408677e00394677dec868f7a16550590d6af913/py_alpaca_daily_losers-0.3.4.tar.gz
+[2024-05-31 00:53:46] INFO root fetch - processPackages [lmnt]: Downloading https://files.pythonhosted.org/packages/1e/6d/9985b6832f0437dfcea673b2e0fd99d2167077788b7a8e6c77527003fde6/lmnt-1.1.3.tar.gz
+[2024-05-31 00:53:46] INFO root fetch - processPackages [superseeker]: executing diffoscope
+[2024-05-31 00:53:46] INFO root fetch - processPackages [superseeker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superseeker-0.1.dev1.tar.gz tmp/superseeker-0.1.dev2.tar.gz --markdown 20240531/s/superseeker/0.1.dev1-0.1.dev2/README.md --exclude *.pyd
+[2024-05-31 00:53:46] INFO root fetch - processPackages [py-alpaca-daily-losers]: executing diffoscope
+[2024-05-31 00:53:46] INFO root fetch - processPackages [py-alpaca-daily-losers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_daily_losers-0.3.3.tar.gz tmp/py_alpaca_daily_losers-0.3.4.tar.gz --markdown 20240531/p/py-alpaca-daily-losers/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-31 00:53:46] INFO root fetch - processPackages [lmnt]: executing diffoscope
+[2024-05-31 00:53:46] INFO root fetch - processPackages [lmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmnt-1.1.2.tar.gz tmp/lmnt-1.1.3.tar.gz --markdown 20240531/l/lmnt/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-31 00:53:46] INFO root fetch - processPackages [snippets2changelog]: Remove: archive file [/home/abi/fetcher/tmp/snippets2changelog-1.0.0.tar.gz]
+[2024-05-31 00:53:46] INFO root fetch - processPackages [snippets2changelog]: Remove: archive file [/home/abi/fetcher/tmp/snippets2changelog-1.0.1.tar.gz]
+[2024-05-31 00:53:46] INFO root fetch - main [MainThread]: End processing [snippets2changelog]: success
+[2024-05-31 00:53:46] INFO root fetch - processPackages [superseeker]: Remove: archive file [/home/abi/fetcher/tmp/superseeker-0.1.dev1.tar.gz]
+[2024-05-31 00:53:46] INFO root fetch - processPackages [superseeker]: Remove: archive file [/home/abi/fetcher/tmp/superseeker-0.1.dev2.tar.gz]
+[2024-05-31 00:53:46] INFO root fetch - main [MainThread]: End processing [superseeker]: success
+[2024-05-31 00:53:46] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-0.3.3.tar.gz]
+[2024-05-31 00:53:46] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-0.3.4.tar.gz]
+[2024-05-31 00:53:46] INFO root fetch - main [MainThread]: End processing [py-alpaca-daily-losers]: success
+[2024-05-31 00:53:46] INFO root fetch - processPackages [lmnt]: Remove: archive file [/home/abi/fetcher/tmp/lmnt-1.1.2.tar.gz]
+[2024-05-31 00:53:46] INFO root fetch - processPackages [lmnt]: Remove: archive file [/home/abi/fetcher/tmp/lmnt-1.1.3.tar.gz]
+[2024-05-31 00:53:46] INFO root fetch - main [MainThread]: End processing [lmnt]: success
+[2024-05-31 00:53:46] INFO root fetch - main [MainThread]: Store serial: [23457812]
