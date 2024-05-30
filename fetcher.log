@@ -2280,3 +2280,114 @@
 [2024-05-31 01:38:18] INFO root fetch - processPackages [lagrange-open]: Remove: archive file [/home/abi/fetcher/tmp/lagrange_open-6.23.0-cp310-cp310-macosx_11_0_arm64.whl.zip]
 [2024-05-31 01:38:18] INFO root fetch - main [MainThread]: End processing [lagrange-open]: success
 [2024-05-31 01:38:18] INFO root fetch - main [MainThread]: Store serial: [23458299]
+[2024-05-31 01:40:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458299]
+[2024-05-31 01:40:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-31 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pySWXF
+[2024-05-31 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cuenca
+[2024-05-31 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari-sphinx-theme
+[2024-05-31 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idds-atlas
+[2024-05-31 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idds-client
+[2024-05-31 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: idds-common
+[2024-05-31 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idds-doma
+[2024-05-31 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idds-server
+[2024-05-31 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idds-monitor
+[2024-05-31 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idds-website
+[2024-05-31 01:40:26] INFO root fetch - processPackages [cuenca]: New version: [1.0.1.dev1] Old Version: [1.0.0]
+[2024-05-31 01:40:26] INFO root fetch - processPackages [pySWXF]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-31 01:40:26] INFO root fetch - processPackages [cuenca]: Downloading https://files.pythonhosted.org/packages/b9/74/bce170948ae005e95a50db3ace46b73da7ce9ce2f6e72df1aa5e5d29ecba/cuenca-1.0.0.tar.gz
+[2024-05-31 01:40:26] INFO root fetch - processPackages [napari-sphinx-theme]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-05-31 01:40:26] INFO root fetch - processPackages [pySWXF]: Downloading https://files.pythonhosted.org/packages/04/ae/732d19dcc7a32e7b40e4fe056bfe14cc92c1a3a66249ed5d63cab7e3ae8b/pyswxf-0.6.8.tar.gz
+[2024-05-31 01:40:26] INFO root fetch - processPackages [idds-server]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 01:40:26] INFO root fetch - processPackages [idds-client]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 01:40:26] INFO root fetch - processPackages [idds-common]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 01:40:26] INFO root fetch - processPackages [idds-website]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 01:40:26] INFO root fetch - processPackages [idds-monitor]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 01:40:26] INFO root fetch - processPackages [idds-doma]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 01:40:26] INFO root fetch - processPackages [idds-atlas]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 01:40:27] INFO root fetch - processPackages [napari-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/f3/2d/218a6f2d9a05a4dee45054ed1552fd466481c4ab169b9434581737faf5e1/napari_sphinx_theme-0.3.2.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [cuenca]: Downloading https://files.pythonhosted.org/packages/c8/78/0b565f2f96bc123cc681b22230c572be4738b9a10fb006204336507cc14a/cuenca-1.0.1.dev1.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/4f/92/825e6259c1fccaa55c2159a18b9af3f02a54e141aafa8515c0f6d19b5bad/idds-atlas-2.1.8.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/c9/11/038164aa15346125d484b18968a4243872fdf64187bbe7a67aad9bfc42e4/idds-server-2.1.8.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/21/07/53e35fb5f0c2d3a287117c066052a33410ad95da985307f9030833cff49a/idds-client-2.1.8.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/25/87/96b521daa782ac04080a060426d794942c20472474c441dd6ff2ecf1285d/idds-website-2.1.8.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/4e/fa/c765d4409c3150c46b43ed104aad3c9ba7bf06451f5c09d5a47544e95bb8/idds-monitor-2.1.8.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/d8/af/4ccb0f08b2862e66f50df687418f99e5dbf523fa2b22942963b6f15e9ddc/idds-doma-2.1.8.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/f3/e8/b76da5bb5d6a9fcecb92cf13fe7c48fb16cd476d494d942f7262882ff8d0/idds-common-2.1.8.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [pySWXF]: Downloading https://files.pythonhosted.org/packages/14/fb/bfc1b16595e7b90cee58841d843cda3dcb53f290f35a9ca99d97b4723d65/pyswxf-0.6.9.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [cuenca]: executing diffoscope
+[2024-05-31 01:40:27] INFO root fetch - processPackages [cuenca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuenca-1.0.0.tar.gz tmp/cuenca-1.0.1.dev1.tar.gz --markdown 20240531/c/cuenca/1.0.0-1.0.1.dev1/README.md --exclude *.pyd
+[2024-05-31 01:40:27] INFO root fetch - processPackages [pySWXF]: executing diffoscope
+[2024-05-31 01:40:27] INFO root fetch - processPackages [pySWXF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswxf-0.6.8.tar.gz tmp/pyswxf-0.6.9.tar.gz --markdown 20240531/p/pySWXF/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-31 01:40:27] INFO root fetch - processPackages [napari-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/9c/9d/c43bfc7f8abfabda3302e857136493a524d9f4f4a3f4640a41d0e3cf9787/napari_sphinx_theme-0.4.0.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/5e/79/361e4952b1c7cd13863e3218846ec390690a0ae6106ca6131bb538464742/idds-atlas-2.1.9.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/3c/64/c403f924db56ed4a6fab8f2d1ae742ca14a66c433a29bef4c128348501ca/idds-client-2.1.9.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/ca/86/8f562d8cfc13407a1049f1eafb42f83f55e4ddd5fcd097baf04a642e65ce/idds-server-2.1.9.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [napari-sphinx-theme]: executing diffoscope
+[2024-05-31 01:40:27] INFO root fetch - processPackages [napari-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_sphinx_theme-0.3.2.tar.gz tmp/napari_sphinx_theme-0.4.0.tar.gz --markdown 20240531/n/napari-sphinx-theme/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/52/d9/363af13bef7c43cca28ca3a56c05310b8fe21e3929b3fea6c4c9d686f079/idds-common-2.1.9.tar.gz
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-common]: executing diffoscope
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-common-2.1.8.tar.gz tmp/idds-common-2.1.9.tar.gz --markdown 20240531/i/idds-common/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-client]: executing diffoscope
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-client-2.1.8.tar.gz tmp/idds-client-2.1.9.tar.gz --markdown 20240531/i/idds-client/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 01:40:27] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/7a/db/d560bfae24647db0ff8de146a252b418d5777764acb329011c308312c740/idds-doma-2.1.9.tar.gz
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-atlas]: executing diffoscope
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-atlas-2.1.8.tar.gz tmp/idds-atlas-2.1.9.tar.gz --markdown 20240531/i/idds-atlas/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-doma]: executing diffoscope
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-doma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-doma-2.1.8.tar.gz tmp/idds-doma-2.1.9.tar.gz --markdown 20240531/i/idds-doma/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 01:40:28] INFO root fetch - processPackages [cuenca]: Remove: archive file [/home/abi/fetcher/tmp/cuenca-1.0.0.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - processPackages [cuenca]: Remove: archive file [/home/abi/fetcher/tmp/cuenca-1.0.1.dev1.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - processPackages [cuenca]: Start processing: idds-workflow
+[2024-05-31 01:40:28] INFO root fetch - main [MainThread]: End processing [cuenca]: success
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-workflow]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 01:40:28] INFO root fetch - processPackages [pySWXF]: Remove: archive file [/home/abi/fetcher/tmp/pyswxf-0.6.8.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - processPackages [pySWXF]: Remove: archive file [/home/abi/fetcher/tmp/pyswxf-0.6.9.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - processPackages [pySWXF]: Start processing: meditability
+[2024-05-31 01:40:28] INFO root fetch - main [MainThread]: End processing [pySWXF]: success
+[2024-05-31 01:40:28] INFO root fetch - processPackages [meditability]: New version: [0.2.3a0] Old Version: [0.2.2]
+[2024-05-31 01:40:28] INFO root fetch - processPackages [napari-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/napari_sphinx_theme-0.3.2.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - processPackages [napari-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/napari_sphinx_theme-0.4.0.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - main [MainThread]: End processing [napari-sphinx-theme]: success
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/55/fc/acbe5cdd95a1a358e3ffd73c14d401e268fc9dbf39e7f9432d5199e76f6f/idds-workflow-2.1.8.tar.gz
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-common]: Remove: archive file [/home/abi/fetcher/tmp/idds-common-2.1.8.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-common]: Remove: archive file [/home/abi/fetcher/tmp/idds-common-2.1.9.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - main [MainThread]: End processing [idds-common]: success
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/26/54/77c1b99aa5d9ce4f521911dca3bf41c4344092410388b94bd8d7c3e5f22e/idds-website-2.1.9.tar.gz
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-client]: Remove: archive file [/home/abi/fetcher/tmp/idds-client-2.1.8.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-client]: Remove: archive file [/home/abi/fetcher/tmp/idds-client-2.1.9.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - main [MainThread]: End processing [idds-client]: success
+[2024-05-31 01:40:28] INFO root fetch - processPackages [meditability]: Downloading https://files.pythonhosted.org/packages/ad/1d/cb57989092f7ace4130d7643bebc83693c2e58a1a0b3580bec5022e2d77a/meditability-0.2.2.tar.gz
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-doma]: Remove: archive file [/home/abi/fetcher/tmp/idds-doma-2.1.8.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-doma]: Remove: archive file [/home/abi/fetcher/tmp/idds-doma-2.1.9.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - main [MainThread]: End processing [idds-doma]: success
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-atlas]: Remove: archive file [/home/abi/fetcher/tmp/idds-atlas-2.1.8.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-atlas]: Remove: archive file [/home/abi/fetcher/tmp/idds-atlas-2.1.9.tar.gz]
+[2024-05-31 01:40:28] INFO root fetch - main [MainThread]: End processing [idds-atlas]: success
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/4c/72/049cf84e7ad7c539f3825e0591322a34dde07ed50d92cde0e63847d09c37/idds-workflow-2.1.9.tar.gz
+[2024-05-31 01:40:28] INFO root fetch - processPackages [meditability]: Downloading https://files.pythonhosted.org/packages/14/9c/93f1dad31a4e36a41e48bb07a3beff2a750d3b262997766d60feb85f5ba7/meditability-0.2.3a0.tar.gz
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-server]: executing diffoscope
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-server-2.1.8.tar.gz tmp/idds-server-2.1.9.tar.gz --markdown 20240531/i/idds-server/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-workflow]: executing diffoscope
+[2024-05-31 01:40:28] INFO root fetch - processPackages [idds-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-workflow-2.1.8.tar.gz tmp/idds-workflow-2.1.9.tar.gz --markdown 20240531/i/idds-workflow/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 01:40:29] INFO root fetch - processPackages [meditability]: executing diffoscope
+[2024-05-31 01:40:29] INFO root fetch - processPackages [meditability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meditability-0.2.2.tar.gz tmp/meditability-0.2.3a0.tar.gz --markdown 20240531/m/meditability/0.2.2-0.2.3a0/README.md --exclude *.pyd
+[2024-05-31 01:40:29] INFO root fetch - processPackages [idds-workflow]: Remove: archive file [/home/abi/fetcher/tmp/idds-workflow-2.1.8.tar.gz]
+[2024-05-31 01:40:29] INFO root fetch - processPackages [idds-workflow]: Remove: archive file [/home/abi/fetcher/tmp/idds-workflow-2.1.9.tar.gz]
+[2024-05-31 01:40:29] INFO root fetch - main [MainThread]: End processing [idds-workflow]: success
+[2024-05-31 01:40:29] INFO root fetch - processPackages [meditability]: Remove: archive file [/home/abi/fetcher/tmp/meditability-0.2.2.tar.gz]
+[2024-05-31 01:40:29] INFO root fetch - processPackages [meditability]: Remove: archive file [/home/abi/fetcher/tmp/meditability-0.2.3a0.tar.gz]
+[2024-05-31 01:40:29] INFO root fetch - main [MainThread]: End processing [meditability]: success
+[2024-05-31 01:40:30] INFO root fetch - processPackages [idds-server]: Remove: archive file [/home/abi/fetcher/tmp/idds-server-2.1.8.tar.gz]
+[2024-05-31 01:40:30] INFO root fetch - processPackages [idds-server]: Remove: archive file [/home/abi/fetcher/tmp/idds-server-2.1.9.tar.gz]
+[2024-05-31 01:40:30] INFO root fetch - main [MainThread]: End processing [idds-server]: success
+[2024-05-31 01:40:30] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/d7/92/fbc526d4eb744e1258d1a75611b14c1d386df513442ad67cda353bae496b/idds-monitor-2.1.9.tar.gz
+[2024-05-31 01:40:31] INFO root fetch - processPackages [idds-website]: executing diffoscope
+[2024-05-31 01:40:31] INFO root fetch - processPackages [idds-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-website-2.1.8.tar.gz tmp/idds-website-2.1.9.tar.gz --markdown 20240531/i/idds-website/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 01:40:31] INFO root fetch - processPackages [idds-monitor]: executing diffoscope
+[2024-05-31 01:40:31] INFO root fetch - processPackages [idds-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-monitor-2.1.8.tar.gz tmp/idds-monitor-2.1.9.tar.gz --markdown 20240531/i/idds-monitor/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 01:40:32] INFO root fetch - processPackages [idds-website]: Remove: archive file [/home/abi/fetcher/tmp/idds-website-2.1.8.tar.gz]
+[2024-05-31 01:40:32] INFO root fetch - processPackages [idds-website]: Remove: archive file [/home/abi/fetcher/tmp/idds-website-2.1.9.tar.gz]
+[2024-05-31 01:40:32] INFO root fetch - main [MainThread]: End processing [idds-website]: success
+[2024-05-31 01:40:34] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-2.1.8.tar.gz]
+[2024-05-31 01:40:34] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-2.1.9.tar.gz]
+[2024-05-31 01:40:34] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
+[2024-05-31 01:40:34] INFO root fetch - main [MainThread]: Store serial: [23458328]
