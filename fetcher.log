@@ -1694,3 +1694,36 @@
 [2024-05-31 01:11:24] INFO root fetch - processPackages [ovos-audio]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio-0.0.2a9-py3-none-any.whl.zip]
 [2024-05-31 01:11:24] INFO root fetch - main [MainThread]: End processing [ovos-audio]: success
 [2024-05-31 01:11:24] INFO root fetch - main [MainThread]: Store serial: [23457999]
+[2024-05-31 01:13:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457999]
+[2024-05-31 01:13:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SerialDBPy
+[2024-05-31 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: burny_common
+[2024-05-31 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ratingcurve
+[2024-05-31 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cleanlab-studio
+[2024-05-31 01:13:33] WARNING root fetch - processPackages [SerialDBPy]: Skipping, unable to determine old version
+[2024-05-31 01:13:33] INFO root fetch - main [MainThread]: End processing [SerialDBPy] error
+[2024-05-31 01:13:33] INFO root fetch - processPackages [burny_common]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 01:13:33] INFO root fetch - processPackages [cleanlab-studio]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-31 01:13:33] INFO root fetch - processPackages [ratingcurve]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-31 01:13:33] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/36/69/344f9b628d0b4e2cdd5720927be937d1014c43fecd96551582fc9abf7588/cleanlab_studio-2.0.5.tar.gz
+[2024-05-31 01:13:33] INFO root fetch - processPackages [burny_common]: Downloading https://files.pythonhosted.org/packages/cb/fd/94afdbbfe96bf985cb8f2ce4990fbac907749bef1b4babc81ee01556590f/burny_common-0.0.8.tar.gz
+[2024-05-31 01:13:33] INFO root fetch - processPackages [ratingcurve]: Downloading https://files.pythonhosted.org/packages/c4/12/c859a61edc7a4eabf52651c430c75b6cb719ce2f6a61c4f8101c382edebf/ratingcurve-1.0.1.tar.gz
+[2024-05-31 01:13:33] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/97/17/dd15e46d6885950c268e702ea51f59b10f95945b1d65ca87d04cc177b498/cleanlab_studio-2.0.6.tar.gz
+[2024-05-31 01:13:33] INFO root fetch - processPackages [burny_common]: Downloading https://files.pythonhosted.org/packages/23/4a/2559afa35b918543da5f953ce7a09cf3629307828fa528048b38ac26e8a1/burny_common-0.0.9.tar.gz
+[2024-05-31 01:13:33] INFO root fetch - processPackages [ratingcurve]: Downloading https://files.pythonhosted.org/packages/e8/53/6acf6e3674065a064f26360a127694e9766cfc6476fcd6799afaba260a76/ratingcurve-1.0.2.tar.gz
+[2024-05-31 01:13:33] INFO root fetch - processPackages [cleanlab-studio]: executing diffoscope
+[2024-05-31 01:13:33] INFO root fetch - processPackages [cleanlab-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanlab_studio-2.0.5.tar.gz tmp/cleanlab_studio-2.0.6.tar.gz --markdown 20240531/c/cleanlab-studio/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-31 01:13:33] INFO root fetch - processPackages [burny_common]: executing diffoscope
+[2024-05-31 01:13:33] INFO root fetch - processPackages [burny_common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burny_common-0.0.8.tar.gz tmp/burny_common-0.0.9.tar.gz --markdown 20240531/b/burny_common/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 01:13:34] INFO root fetch - processPackages [ratingcurve]: executing diffoscope
+[2024-05-31 01:13:34] INFO root fetch - processPackages [ratingcurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratingcurve-1.0.1.tar.gz tmp/ratingcurve-1.0.2.tar.gz --markdown 20240531/r/ratingcurve/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-31 01:13:34] INFO root fetch - processPackages [burny_common]: Remove: archive file [/home/abi/fetcher/tmp/burny_common-0.0.8.tar.gz]
+[2024-05-31 01:13:34] INFO root fetch - processPackages [burny_common]: Remove: archive file [/home/abi/fetcher/tmp/burny_common-0.0.9.tar.gz]
+[2024-05-31 01:13:34] INFO root fetch - main [MainThread]: End processing [burny_common]: success
+[2024-05-31 01:13:34] INFO root fetch - processPackages [cleanlab-studio]: Remove: archive file [/home/abi/fetcher/tmp/cleanlab_studio-2.0.5.tar.gz]
+[2024-05-31 01:13:34] INFO root fetch - processPackages [cleanlab-studio]: Remove: archive file [/home/abi/fetcher/tmp/cleanlab_studio-2.0.6.tar.gz]
+[2024-05-31 01:13:34] INFO root fetch - main [MainThread]: End processing [cleanlab-studio]: success
+[2024-05-31 01:13:34] INFO root fetch - processPackages [ratingcurve]: Remove: archive file [/home/abi/fetcher/tmp/ratingcurve-1.0.1.tar.gz]
+[2024-05-31 01:13:34] INFO root fetch - processPackages [ratingcurve]: Remove: archive file [/home/abi/fetcher/tmp/ratingcurve-1.0.2.tar.gz]
+[2024-05-31 01:13:34] INFO root fetch - main [MainThread]: End processing [ratingcurve]: success
+[2024-05-31 01:13:34] INFO root fetch - main [MainThread]: Store serial: [23458012]
