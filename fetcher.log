@@ -1616,3 +1616,45 @@
 [2024-05-31 01:07:04] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240529.tar.gz]
 [2024-05-31 01:07:04] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2024-05-31 01:07:04] INFO root fetch - main [MainThread]: Store serial: [23457969]
+[2024-05-31 01:09:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23457969]
+[2024-05-31 01:09:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 01:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagger-io
+[2024-05-31 01:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyTooling
+[2024-05-31 01:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sneat
+[2024-05-31 01:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qrs
+[2024-05-31 01:09:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hashtag-utils
+[2024-05-31 01:09:12] INFO root fetch - processPackages [hashtag-utils]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-31 01:09:12] INFO root fetch - processPackages [hashtag-utils]: Downloading https://files.pythonhosted.org/packages/08/f7/c6dd4ec16be9cbd72e3512ddf2bedbda00e8c9e5ecf8602680680f2688fb/hashtag_utils-0.5.3.tar.gz
+[2024-05-31 01:09:12] WARNING root fetch - processPackages [sneat]: Skipping, unable to determine old version
+[2024-05-31 01:09:12] INFO root fetch - main [MainThread]: End processing [sneat] error
+[2024-05-31 01:09:12] INFO root fetch - processPackages [qrs]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-31 01:09:12] INFO root fetch - processPackages [dagger-io]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-31 01:09:12] INFO root fetch - processPackages [pyTooling]: New version: [6.2.0] Old Version: [6.1.0]
+[2024-05-31 01:09:13] INFO root fetch - processPackages [qrs]: Downloading https://files.pythonhosted.org/packages/f1/c8/e483f361acf69e6476cb4b5bea10fa128e83d8bfa747ebcb4c07784320a7/qrs-1.3.0.tar.gz
+[2024-05-31 01:09:13] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/e9/d3/a12127507defc646ab3473c8e939bd97d6fbf5d03f96bb50adf54f568b7d/dagger_io-0.9.8.tar.gz
+[2024-05-31 01:09:13] INFO root fetch - processPackages [pyTooling]: Downloading https://files.pythonhosted.org/packages/58/d2/94d091664b633ea96537f870fd160da1da6729bd4d9f3857c3cb2fbf3974/pyTooling-6.1.0.tar.gz
+[2024-05-31 01:09:13] INFO root fetch - processPackages [hashtag-utils]: Downloading https://files.pythonhosted.org/packages/e5/6e/ab737f5b47c400f02ca9b63a1e5637059e88ab8740f233a584ceb55738f8/hashtag_utils-0.5.4.tar.gz
+[2024-05-31 01:09:13] INFO root fetch - processPackages [hashtag-utils]: executing diffoscope
+[2024-05-31 01:09:13] INFO root fetch - processPackages [hashtag-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hashtag_utils-0.5.3.tar.gz tmp/hashtag_utils-0.5.4.tar.gz --markdown 20240531/h/hashtag-utils/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-31 01:09:13] INFO root fetch - processPackages [pyTooling]: Downloading https://files.pythonhosted.org/packages/d5/72/55beb39638a74e902853a3250450dcd74d0b5c60f00e641f5d0db4b693b0/pytooling-6.2.0.tar.gz
+[2024-05-31 01:09:13] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/22/da/b1058863686424a36ad9fb7beba1a5ee490b6620adfe4c4b44432bd2a683/dagger_io-0.9.9.tar.gz
+[2024-05-31 01:09:13] INFO root fetch - processPackages [qrs]: Downloading https://files.pythonhosted.org/packages/0f/a9/770dfe16890caa4cd542c397e7305a632a608636850d1f1bc0951fe8074c/qrs-1.3.1.tar.gz
+[2024-05-31 01:09:13] INFO root fetch - processPackages [pyTooling]: executing diffoscope
+[2024-05-31 01:09:13] INFO root fetch - processPackages [pyTooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTooling-6.1.0.tar.gz tmp/pytooling-6.2.0.tar.gz --markdown 20240531/p/pyTooling/6.1.0-6.2.0/README.md --exclude *.pyd
+[2024-05-31 01:09:13] INFO root fetch - processPackages [dagger-io]: executing diffoscope
+[2024-05-31 01:09:13] INFO root fetch - processPackages [dagger-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagger_io-0.9.8.tar.gz tmp/dagger_io-0.9.9.tar.gz --markdown 20240531/d/dagger-io/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-31 01:09:13] INFO root fetch - processPackages [qrs]: executing diffoscope
+[2024-05-31 01:09:13] INFO root fetch - processPackages [qrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrs-1.3.0.tar.gz tmp/qrs-1.3.1.tar.gz --markdown 20240531/q/qrs/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-31 01:09:13] INFO root fetch - processPackages [hashtag-utils]: Remove: archive file [/home/abi/fetcher/tmp/hashtag_utils-0.5.3.tar.gz]
+[2024-05-31 01:09:13] INFO root fetch - processPackages [hashtag-utils]: Remove: archive file [/home/abi/fetcher/tmp/hashtag_utils-0.5.4.tar.gz]
+[2024-05-31 01:09:13] INFO root fetch - main [MainThread]: End processing [hashtag-utils]: success
+[2024-05-31 01:09:14] INFO root fetch - processPackages [pyTooling]: Remove: archive file [/home/abi/fetcher/tmp/pyTooling-6.1.0.tar.gz]
+[2024-05-31 01:09:14] INFO root fetch - processPackages [pyTooling]: Remove: archive file [/home/abi/fetcher/tmp/pytooling-6.2.0.tar.gz]
+[2024-05-31 01:09:14] INFO root fetch - main [MainThread]: End processing [pyTooling]: success
+[2024-05-31 01:09:14] INFO root fetch - processPackages [dagger-io]: Remove: archive file [/home/abi/fetcher/tmp/dagger_io-0.9.8.tar.gz]
+[2024-05-31 01:09:14] INFO root fetch - processPackages [dagger-io]: Remove: archive file [/home/abi/fetcher/tmp/dagger_io-0.9.9.tar.gz]
+[2024-05-31 01:09:14] INFO root fetch - main [MainThread]: End processing [dagger-io]: success
+[2024-05-31 01:09:14] INFO root fetch - processPackages [qrs]: Remove: archive file [/home/abi/fetcher/tmp/qrs-1.3.0.tar.gz]
+[2024-05-31 01:09:14] INFO root fetch - processPackages [qrs]: Remove: archive file [/home/abi/fetcher/tmp/qrs-1.3.1.tar.gz]
+[2024-05-31 01:09:14] INFO root fetch - main [MainThread]: End processing [qrs]: success
+[2024-05-31 01:09:14] INFO root fetch - main [MainThread]: Store serial: [23457983]
