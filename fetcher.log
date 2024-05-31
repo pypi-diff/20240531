@@ -12613,3 +12613,63 @@
 [2024-05-31 10:49:02] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.6.tar.gz]
 [2024-05-31 10:49:02] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
 [2024-05-31 10:49:02] INFO root fetch - main [MainThread]: Store serial: [23462987]
+[2024-05-31 10:51:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462987]
+[2024-05-31 10:51:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 10:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdal2numpy
+[2024-05-31 10:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: e6data-python-connector
+[2024-05-31 10:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-smartbase-admin
+[2024-05-31 10:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: variable-local
+[2024-05-31 10:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evomip
+[2024-05-31 10:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huscy.project-design
+[2024-05-31 10:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vectorvision
+[2024-05-31 10:51:11] INFO root fetch - processPackages [e6data-python-connector]: New version: [2.1.9.dev0] Old Version: [2.1.9]
+[2024-05-31 10:51:11] INFO root fetch - processPackages [evomip]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 10:51:11] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 10:51:11] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/3b/f2/73cc111099ae8f8930a9fa380bcf03f07d762a19907bb84bc1e7fb7f5fa0/e6data-python-connector-2.1.9.tar.gz
+[2024-05-31 10:51:11] WARNING root fetch - processPackages [vectorvision]: Skipping, unable to determine old version
+[2024-05-31 10:51:11] INFO root fetch - main [MainThread]: End processing [vectorvision] error
+[2024-05-31 10:51:11] INFO root fetch - processPackages [variable-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 10:51:11] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-31 10:51:11] INFO root fetch - processPackages [huscy.project-design]: New version: [0.4.1b15] Old Version: [0.4.0b14]
+[2024-05-31 10:51:11] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/e4/da/09eabfdb72484b6ce15a8df4914f1cf567f0b7170a39095e7419e3133aa6/evomip-0.1.0.tar.gz
+[2024-05-31 10:51:11] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2024-05-31 10:51:11] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-05-31 10:51:11] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/d5/3e/179dd9991168c94caa30f75b1bb444c7031b437254db41117b698d316f7f/e6data-python-connector-2.1.9.dev0.tar.gz
+[2024-05-31 10:51:11] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/70/d7/8f1cedc8864b64b1a14b0babb14012e1b55d36ce7f7d4131efd3a144ba8d/variable_local-0.0.98.tar.gz
+[2024-05-31 10:51:11] INFO root fetch - processPackages [huscy.project-design]: Downloading https://files.pythonhosted.org/packages/3b/62/f5643054e0cc5525cdb8ef91c5a713226127da86831741dbf9ad1b5b84e8/huscy.project_design-0.4.0b14.tar.gz
+[2024-05-31 10:51:11] INFO root fetch - processPackages [e6data-python-connector]: executing diffoscope
+[2024-05-31 10:51:11] INFO root fetch - processPackages [e6data-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e6data-python-connector-2.1.9.tar.gz tmp/e6data-python-connector-2.1.9.dev0.tar.gz --markdown 20240531/e/e6data-python-connector/2.1.9-2.1.9.dev0/README.md --exclude *.pyd
+[2024-05-31 10:51:11] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/73/e9/f0f58872cf21337fafafcca792e50e644c9b29a80757eda4b972faff84c0/evomip-0.1.1.tar.gz
+[2024-05-31 10:51:11] INFO root fetch - processPackages [huscy.project-design]: Downloading https://files.pythonhosted.org/packages/93/a4/b39b1420f59697e07c9a6fad19674d7ccf95da005155bda973808af7cbd3/huscy.project_design-0.4.1b15.tar.gz
+[2024-05-31 10:51:11] INFO root fetch - processPackages [evomip]: executing diffoscope
+[2024-05-31 10:51:11] INFO root fetch - processPackages [evomip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evomip-0.1.0.tar.gz tmp/evomip-0.1.1.tar.gz --markdown 20240531/e/evomip/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 10:51:11] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/20/8b/ee9947a8caefb731b30941901e0fe4a1c3ea3ec0e2f19a88de6dbd7bc499/variable_local-0.0.99.tar.gz
+[2024-05-31 10:51:12] INFO root fetch - processPackages [huscy.project-design]: executing diffoscope
+[2024-05-31 10:51:12] INFO root fetch - processPackages [huscy.project-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.project_design-0.4.0b14.tar.gz tmp/huscy.project_design-0.4.1b15.tar.gz --markdown 20240531/h/huscy.project-design/0.4.0b14-0.4.1b15/README.md --exclude *.pyd
+[2024-05-31 10:51:12] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2024-05-31 10:51:12] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-05-31 10:51:12] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.98.tar.gz tmp/variable_local-0.0.99.tar.gz --markdown 20240531/v/variable-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 10:51:12] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2024-05-31 10:51:12] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20240531/g/gdal2numpy/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 10:51:12] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.tar.gz]
+[2024-05-31 10:51:12] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.dev0.tar.gz]
+[2024-05-31 10:51:12] INFO root fetch - main [MainThread]: End processing [e6data-python-connector]: success
+[2024-05-31 10:51:12] INFO root fetch - processPackages [evomip]: Remove: archive file [/home/abi/fetcher/tmp/evomip-0.1.0.tar.gz]
+[2024-05-31 10:51:12] INFO root fetch - processPackages [evomip]: Remove: archive file [/home/abi/fetcher/tmp/evomip-0.1.1.tar.gz]
+[2024-05-31 10:51:12] INFO root fetch - main [MainThread]: End processing [evomip]: success
+[2024-05-31 10:51:12] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-05-31 10:51:12] INFO root fetch - processPackages [huscy.project-design]: Remove: archive file [/home/abi/fetcher/tmp/huscy.project_design-0.4.0b14.tar.gz]
+[2024-05-31 10:51:12] INFO root fetch - processPackages [huscy.project-design]: Remove: archive file [/home/abi/fetcher/tmp/huscy.project_design-0.4.1b15.tar.gz]
+[2024-05-31 10:51:12] INFO root fetch - main [MainThread]: End processing [huscy.project-design]: success
+[2024-05-31 10:51:12] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.98.tar.gz]
+[2024-05-31 10:51:12] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.99.tar.gz]
+[2024-05-31 10:51:12] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-05-31 10:51:12] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-05-31 10:51:12] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240531/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-31 10:51:13] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2024-05-31 10:51:13] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2024-05-31 10:51:13] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2024-05-31 10:51:17] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-05-31 10:51:17] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-05-31 10:51:17] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-05-31 10:51:17] INFO root fetch - main [MainThread]: Store serial: [23463011]
