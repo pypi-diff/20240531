@@ -8131,3 +8131,60 @@
 [2024-05-31 07:35:26] INFO root fetch - processPackages [DragonLog]: Remove: archive file [/home/abi/fetcher/tmp/dragonlog-1.3.tar.gz]
 [2024-05-31 07:35:26] INFO root fetch - main [MainThread]: End processing [DragonLog]: success
 [2024-05-31 07:35:26] INFO root fetch - main [MainThread]: Store serial: [23460764]
+[2024-05-31 07:37:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460764]
+[2024-05-31 07:37:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 07:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2024-05-31 07:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2024-05-31 07:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-esiclient
+[2024-05-31 07:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fundamend
+[2024-05-31 07:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-azuredevops
+[2024-05-31 07:37:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: capdata
+[2024-05-31 07:37:35] INFO root fetch - processPackages [capdata]: New version: [1.0.3.1] Old Version: [1.0.2.1]
+[2024-05-31 07:37:35] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.84]
+[2024-05-31 07:37:35] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-31 07:37:35] INFO root fetch - processPackages [fundamend]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-31 07:37:35] INFO root fetch - processPackages [python-esiclient]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-31 07:37:35] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.2.0a1717132690] Old Version: [3.2.0a1716959871]
+[2024-05-31 07:37:35] INFO root fetch - processPackages [capdata]: Downloading https://files.pythonhosted.org/packages/b9/69/86e8905b2e6fdf4bc5003924b5a599d02bfb9c58d21b8e46f9b242af6696/capdata-1.0.2.1.tar.gz
+[2024-05-31 07:37:35] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-31 07:37:35] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/1b/77/39d80106d7e3cfbdbf1c44553779cbbcb1a4c5ff6d48bc124c36ad931076/quantplay-1.5.84.tar.gz
+[2024-05-31 07:37:35] INFO root fetch - processPackages [python-esiclient]: Downloading https://files.pythonhosted.org/packages/d7/03/e65df4389d2074ea924b3028d8f05c8caf4d72def3682c92d756aeb4c110/python-esiclient-0.2.6.tar.gz
+[2024-05-31 07:37:35] INFO root fetch - processPackages [fundamend]: Downloading https://files.pythonhosted.org/packages/e8/5d/a0415165544f34bd4369ad5a1eb05fd8e686cf98de7c30944f66f7318aaa/fundamend-0.1.1.tar.gz
+[2024-05-31 07:37:35] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/32/01/62a22cd84e18ad72029985f4043f05d19fa948516e64dc26583a1cdd7bac/pulumi_azuredevops-3.2.0a1716959871.tar.gz
+[2024-05-31 07:37:35] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-31 07:37:35] INFO root fetch - processPackages [capdata]: Downloading https://files.pythonhosted.org/packages/6c/f0/2f12249920fdd59ce552b3b3f266b818bf4cced7a578ba70f0a76b5d90a0/capdata-1.0.3.1.tar.gz
+[2024-05-31 07:37:35] INFO root fetch - processPackages [fundamend]: Downloading https://files.pythonhosted.org/packages/35/b1/c0e9bbe12551e778f0da51014b36204a0c62e6d62c2c072bdc2df8ec8cbd/fundamend-0.2.0.tar.gz
+[2024-05-31 07:37:35] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-31 07:37:35] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.84.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240531/q/quantplay/1.5.84-1.5.9/README.md --exclude *.pyd
+[2024-05-31 07:37:36] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-31 07:37:36] INFO root fetch - processPackages [capdata]: executing diffoscope
+[2024-05-31 07:37:36] INFO root fetch - processPackages [capdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capdata-1.0.2.1.tar.gz tmp/capdata-1.0.3.1.tar.gz --markdown 20240531/c/capdata/1.0.2.1-1.0.3.1/README.md --exclude *.pyd
+[2024-05-31 07:37:36] INFO root fetch - processPackages [python-esiclient]: Downloading https://files.pythonhosted.org/packages/b6/6d/227dca4a7cf7db0953a26f3e72ab057b2c815718d26f26d5a84d20998656/python-esiclient-0.2.7.tar.gz
+[2024-05-31 07:37:36] INFO root fetch - processPackages [fundamend]: executing diffoscope
+[2024-05-31 07:37:36] INFO root fetch - processPackages [fundamend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundamend-0.1.1.tar.gz tmp/fundamend-0.2.0.tar.gz --markdown 20240531/f/fundamend/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-31 07:37:36] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/ef/b1/f2fdfd6f9c6889cc89a712561a89f536ceacfe1e215acd3bee0e0447c103/pulumi_azuredevops-3.2.0a1717132690.tar.gz
+[2024-05-31 07:37:36] INFO root fetch - processPackages [python-esiclient]: executing diffoscope
+[2024-05-31 07:37:36] INFO root fetch - processPackages [python-esiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-esiclient-0.2.6.tar.gz tmp/python-esiclient-0.2.7.tar.gz --markdown 20240531/p/python-esiclient/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-31 07:37:36] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-05-31 07:37:36] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.2.0a1716959871.tar.gz tmp/pulumi_azuredevops-3.2.0a1717132690.tar.gz --markdown 20240531/p/pulumi-azuredevops/3.2.0a1716959871-3.2.0a1717132690/README.md --exclude *.pyd
+[2024-05-31 07:37:36] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-31 07:37:36] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240531/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-31 07:37:36] INFO root fetch - processPackages [capdata]: Remove: archive file [/home/abi/fetcher/tmp/capdata-1.0.2.1.tar.gz]
+[2024-05-31 07:37:36] INFO root fetch - processPackages [capdata]: Remove: archive file [/home/abi/fetcher/tmp/capdata-1.0.3.1.tar.gz]
+[2024-05-31 07:37:36] INFO root fetch - main [MainThread]: End processing [capdata]: success
+[2024-05-31 07:37:36] INFO root fetch - processPackages [fundamend]: Remove: archive file [/home/abi/fetcher/tmp/fundamend-0.1.1.tar.gz]
+[2024-05-31 07:37:36] INFO root fetch - processPackages [fundamend]: Remove: archive file [/home/abi/fetcher/tmp/fundamend-0.2.0.tar.gz]
+[2024-05-31 07:37:36] INFO root fetch - main [MainThread]: End processing [fundamend]: success
+[2024-05-31 07:37:36] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.84.tar.gz]
+[2024-05-31 07:37:36] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-31 07:37:37] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-31 07:37:37] INFO root fetch - processPackages [python-esiclient]: Remove: archive file [/home/abi/fetcher/tmp/python-esiclient-0.2.6.tar.gz]
+[2024-05-31 07:37:37] INFO root fetch - processPackages [python-esiclient]: Remove: archive file [/home/abi/fetcher/tmp/python-esiclient-0.2.7.tar.gz]
+[2024-05-31 07:37:37] INFO root fetch - main [MainThread]: End processing [python-esiclient]: success
+[2024-05-31 07:37:37] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.2.0a1716959871.tar.gz]
+[2024-05-31 07:37:37] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.2.0a1717132690.tar.gz]
+[2024-05-31 07:37:37] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-05-31 07:37:37] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-31 07:37:37] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-31 07:37:37] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-31 07:37:37] INFO root fetch - main [MainThread]: Store serial: [23460783]
