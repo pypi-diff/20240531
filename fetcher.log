@@ -7302,3 +7302,42 @@
 [2024-05-31 06:32:03] INFO root fetch - processPackages [pycfdi-transform]: Remove: archive file [/home/abi/fetcher/tmp/pycfdi_transform-0.1.9.7-py3-none-any.whl.zip]
 [2024-05-31 06:32:03] INFO root fetch - main [MainThread]: End processing [pycfdi-transform]: success
 [2024-05-31 06:32:03] INFO root fetch - main [MainThread]: Store serial: [23460433]
+[2024-05-31 06:34:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460433]
+[2024-05-31 06:34:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 06:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CRUDFastAPI
+[2024-05-31 06:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gigawave
+[2024-05-31 06:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colabexts
+[2024-05-31 06:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: impactlab-tools
+[2024-05-31 06:34:11] INFO root fetch - processPackages [gigawave]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-31 06:34:11] INFO root fetch - processPackages [impactlab-tools]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-31 06:34:11] INFO root fetch - processPackages [CRUDFastAPI]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 06:34:11] INFO root fetch - processPackages [colabexts]: New version: [0.12300000000000003] Old Version: [0.12200000000000003]
+[2024-05-31 06:34:12] INFO root fetch - processPackages [colabexts]: Downloading https://files.pythonhosted.org/packages/00/3c/ed78ecf4a248c6b440cf971aea945331c2773092880b639dcd8bc02a50cf/colabexts-0.12200000000000003.tar.gz
+[2024-05-31 06:34:12] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/69/df/b805609a5cca69b4ff08e1a9b70536789d7cabf3f935089623ebe937ba23/crudfastapi-0.0.8.tar.gz
+[2024-05-31 06:34:12] INFO root fetch - processPackages [gigawave]: Downloading https://files.pythonhosted.org/packages/83/c2/435925be25da6f26da0d789a6d04b9656296f5741c0cf801f70b5ead5c99/gigawave-1.0.6.tar.gz
+[2024-05-31 06:34:12] INFO root fetch - processPackages [impactlab-tools]: Downloading https://files.pythonhosted.org/packages/0d/41/e63e681238906a7e38f1f2759163bad2b0047188d7450740f1848f945e35/impactlab_tools-0.5.0.tar.gz
+[2024-05-31 06:34:12] INFO root fetch - processPackages [colabexts]: Downloading https://files.pythonhosted.org/packages/60/9a/97d1ebd3f6b2099445f9ca617153e6f5e4d678887d4ba46ccb511af7f9da/colabexts-0.12300000000000003.tar.gz
+[2024-05-31 06:34:12] INFO root fetch - processPackages [gigawave]: Downloading https://files.pythonhosted.org/packages/30/d7/d4a3da60c896a039bbe35d6b60879f4fce09ebfd110e6cbbaf32ba4bb841/gigawave-1.0.7.tar.gz
+[2024-05-31 06:34:12] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/8e/2d/9a04ed5faefbb91237e8d38f0cebcd4b7fad32d9602ec77b22646abf321f/crudfastapi-0.0.9.tar.gz
+[2024-05-31 06:34:12] INFO root fetch - processPackages [CRUDFastAPI]: executing diffoscope
+[2024-05-31 06:34:12] INFO root fetch - processPackages [CRUDFastAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crudfastapi-0.0.8.tar.gz tmp/crudfastapi-0.0.9.tar.gz --markdown 20240531/C/CRUDFastAPI/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 06:34:12] INFO root fetch - processPackages [colabexts]: executing diffoscope
+[2024-05-31 06:34:12] INFO root fetch - processPackages [colabexts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colabexts-0.12200000000000003.tar.gz tmp/colabexts-0.12300000000000003.tar.gz --markdown 20240531/c/colabexts/0.12200000000000003-0.12300000000000003/README.md --exclude *.pyd
+[2024-05-31 06:34:12] INFO root fetch - processPackages [gigawave]: executing diffoscope
+[2024-05-31 06:34:12] INFO root fetch - processPackages [gigawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigawave-1.0.6.tar.gz tmp/gigawave-1.0.7.tar.gz --markdown 20240531/g/gigawave/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-31 06:34:12] INFO root fetch - processPackages [impactlab-tools]: Downloading https://files.pythonhosted.org/packages/b0/f8/7ccb88ccd7a509f0593bae7b193e14bca50afbb4d4036ed017f9c5d71162/impactlab_tools-0.6.0.tar.gz
+[2024-05-31 06:34:13] INFO root fetch - processPackages [colabexts]: Remove: archive file [/home/abi/fetcher/tmp/colabexts-0.12200000000000003.tar.gz]
+[2024-05-31 06:34:13] INFO root fetch - processPackages [colabexts]: Remove: archive file [/home/abi/fetcher/tmp/colabexts-0.12300000000000003.tar.gz]
+[2024-05-31 06:34:13] INFO root fetch - main [MainThread]: End processing [colabexts]: success
+[2024-05-31 06:34:13] INFO root fetch - processPackages [gigawave]: Remove: archive file [/home/abi/fetcher/tmp/gigawave-1.0.6.tar.gz]
+[2024-05-31 06:34:13] INFO root fetch - processPackages [gigawave]: Remove: archive file [/home/abi/fetcher/tmp/gigawave-1.0.7.tar.gz]
+[2024-05-31 06:34:13] INFO root fetch - main [MainThread]: End processing [gigawave]: success
+[2024-05-31 06:34:13] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.8.tar.gz]
+[2024-05-31 06:34:13] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.9.tar.gz]
+[2024-05-31 06:34:13] INFO root fetch - main [MainThread]: End processing [CRUDFastAPI]: success
+[2024-05-31 06:34:13] INFO root fetch - processPackages [impactlab-tools]: executing diffoscope
+[2024-05-31 06:34:13] INFO root fetch - processPackages [impactlab-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impactlab_tools-0.5.0.tar.gz tmp/impactlab_tools-0.6.0.tar.gz --markdown 20240531/i/impactlab-tools/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-31 06:34:15] INFO root fetch - processPackages [impactlab-tools]: Remove: archive file [/home/abi/fetcher/tmp/impactlab_tools-0.5.0.tar.gz]
+[2024-05-31 06:34:15] INFO root fetch - processPackages [impactlab-tools]: Remove: archive file [/home/abi/fetcher/tmp/impactlab_tools-0.6.0.tar.gz]
+[2024-05-31 06:34:15] INFO root fetch - main [MainThread]: End processing [impactlab-tools]: success
+[2024-05-31 06:34:15] INFO root fetch - main [MainThread]: Store serial: [23460445]
