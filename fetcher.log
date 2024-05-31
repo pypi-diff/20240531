@@ -23962,3 +23962,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:37:17] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9b0-py3-none-any.whl.zip]
 [2024-05-31 17:37:17] INFO root fetch - main [MainThread]: End processing [swibots]: success
 [2024-05-31 17:37:17] INFO root fetch - main [MainThread]: Store serial: [23468156]
+[2024-05-31 17:39:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23468156]
+[2024-05-31 17:39:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 17:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drawlib
+[2024-05-31 17:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osu
+[2024-05-31 17:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: network-diffusion
+[2024-05-31 17:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xerenity
+[2024-05-31 17:39:26] INFO root fetch - processPackages [network-diffusion]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 17:39:26] INFO root fetch - processPackages [network-diffusion]: Downloading https://files.pythonhosted.org/packages/31/07/8b415bbd0cce5d8c54f10ca2e9441fdbff6d9e3ce91e58f44843f41d2335/network_diffusion-0.8.0.tar.gz
+[2024-05-31 17:39:26] INFO root fetch - processPackages [drawlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 17:39:26] ERROR root fetch - processPackages [xerenity]: Unable to get metadata: No such project 'xerenity'
+[2024-05-31 17:39:26] INFO root fetch - main [MainThread]: End processing [xerenity] error
+[2024-05-31 17:39:26] INFO root fetch - processPackages [osu]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-31 17:39:26] INFO root fetch - processPackages [drawlib]: Downloading https://files.pythonhosted.org/packages/60/e9/e832f5447986e057ab79ab1e5d7e016a362ea358b59663545cca63fbafe5/drawlib-0.1.8.tar.gz
+[2024-05-31 17:39:26] INFO root fetch - processPackages [network-diffusion]: Downloading https://files.pythonhosted.org/packages/81/1a/b6692ce2d9c366a1672e75b7adbd512df91035714fadccd1a9f35515bd8e/network_diffusion-0.9.0.tar.gz
+[2024-05-31 17:39:26] INFO root fetch - processPackages [osu]: Downloading https://files.pythonhosted.org/packages/e1/f8/d594adabc77d0e74062b237278f04f358365e9241f4c09adc4bf4cc3aeec/osu-1.4.8.tar.gz
+[2024-05-31 17:39:26] INFO root fetch - processPackages [network-diffusion]: executing diffoscope
+[2024-05-31 17:39:26] INFO root fetch - processPackages [network-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_diffusion-0.8.0.tar.gz tmp/network_diffusion-0.9.0.tar.gz --markdown 20240531/n/network-diffusion/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 17:39:27] INFO root fetch - processPackages [osu]: Downloading https://files.pythonhosted.org/packages/2d/91/9eddbb1d01fdabdf3e0b30c67489a8c34e1c62404d5c1a4b5276d381403b/osu-1.4.9.tar.gz
+[2024-05-31 17:39:27] INFO root fetch - processPackages [drawlib]: Downloading https://files.pythonhosted.org/packages/14/38/2b20ad6663407cd5099289880ae7cc2bc2817b52f1751da02396f59388dc/drawlib-0.1.9.tar.gz
+[2024-05-31 17:39:27] INFO root fetch - processPackages [osu]: executing diffoscope
+[2024-05-31 17:39:27] INFO root fetch - processPackages [osu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osu-1.4.8.tar.gz tmp/osu-1.4.9.tar.gz --markdown 20240531/o/osu/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-31 17:39:27] INFO root fetch - processPackages [drawlib]: executing diffoscope
+[2024-05-31 17:39:27] INFO root fetch - processPackages [drawlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drawlib-0.1.8.tar.gz tmp/drawlib-0.1.9.tar.gz --markdown 20240531/d/drawlib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 17:39:27] INFO root fetch - processPackages [network-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/network_diffusion-0.8.0.tar.gz]
+[2024-05-31 17:39:27] INFO root fetch - processPackages [network-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/network_diffusion-0.9.0.tar.gz]
+[2024-05-31 17:39:27] INFO root fetch - main [MainThread]: End processing [network-diffusion]: success
+[2024-05-31 17:39:27] INFO root fetch - processPackages [osu]: Remove: archive file [/home/abi/fetcher/tmp/osu-1.4.8.tar.gz]
+[2024-05-31 17:39:27] INFO root fetch - processPackages [osu]: Remove: archive file [/home/abi/fetcher/tmp/osu-1.4.9.tar.gz]
+[2024-05-31 17:39:27] INFO root fetch - main [MainThread]: End processing [osu]: success
+[2024-05-31 17:39:27] INFO root fetch - processPackages [drawlib]: Remove: archive file [/home/abi/fetcher/tmp/drawlib-0.1.8.tar.gz]
+[2024-05-31 17:39:27] INFO root fetch - processPackages [drawlib]: Remove: archive file [/home/abi/fetcher/tmp/drawlib-0.1.9.tar.gz]
+[2024-05-31 17:39:27] INFO root fetch - main [MainThread]: End processing [drawlib]: success
+[2024-05-31 17:39:27] INFO root fetch - main [MainThread]: Store serial: [23468173]
