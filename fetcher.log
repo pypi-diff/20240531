@@ -7369,3 +7369,24 @@
 [2024-05-31 06:36:25] INFO root fetch - main [MainThread]: End processing [py-ewr]: success
 [2024-05-31 06:36:25] INFO root fetch - main [MainThread]: End processing [py-ewr]: success
 [2024-05-31 06:36:25] INFO root fetch - main [MainThread]: Store serial: [23460459]
+[2024-05-31 06:38:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460459]
+[2024-05-31 06:38:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 06:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fosslight-prechecker
+[2024-05-31 06:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpremote
+[2024-05-31 06:38:33] INFO root fetch - processPackages [mpremote]: New version: [1.23.0] Old Version: [1.22.0]
+[2024-05-31 06:38:33] INFO root fetch - processPackages [fosslight-prechecker]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-31 06:38:34] INFO root fetch - processPackages [mpremote]: Downloading https://files.pythonhosted.org/packages/b6/9d/4239159d51c92eac521062b081467d7321b5611fe39f9c6f29d6be337c8d/mpremote-1.22.0.tar.gz
+[2024-05-31 06:38:34] INFO root fetch - processPackages [fosslight-prechecker]: Downloading https://files.pythonhosted.org/packages/61/57/efe45723292f6a8885e3423659c5c2f437e83c85b3f9260ce3f543e64435/fosslight_prechecker-3.0.8.tar.gz
+[2024-05-31 06:38:34] INFO root fetch - processPackages [mpremote]: Downloading https://files.pythonhosted.org/packages/c2/47/c19d6662e90d5e7575b6164d6a4976d0727c7df1d3bfa9a6cf33a5efa8e6/mpremote-1.23.0.tar.gz
+[2024-05-31 06:38:34] INFO root fetch - processPackages [fosslight-prechecker]: Downloading https://files.pythonhosted.org/packages/1b/63/bef80aa14b33e429b88c4a1af1aae0176b9fdc454d79fbafea065e28118c/fosslight_prechecker-3.0.9.tar.gz
+[2024-05-31 06:38:34] INFO root fetch - processPackages [mpremote]: executing diffoscope
+[2024-05-31 06:38:34] INFO root fetch - processPackages [mpremote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpremote-1.22.0.tar.gz tmp/mpremote-1.23.0.tar.gz --markdown 20240531/m/mpremote/1.22.0-1.23.0/README.md --exclude *.pyd
+[2024-05-31 06:38:34] INFO root fetch - processPackages [fosslight-prechecker]: executing diffoscope
+[2024-05-31 06:38:34] INFO root fetch - processPackages [fosslight-prechecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_prechecker-3.0.8.tar.gz tmp/fosslight_prechecker-3.0.9.tar.gz --markdown 20240531/f/fosslight-prechecker/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-31 06:38:35] INFO root fetch - processPackages [mpremote]: Remove: archive file [/home/abi/fetcher/tmp/mpremote-1.22.0.tar.gz]
+[2024-05-31 06:38:35] INFO root fetch - processPackages [mpremote]: Remove: archive file [/home/abi/fetcher/tmp/mpremote-1.23.0.tar.gz]
+[2024-05-31 06:38:35] INFO root fetch - main [MainThread]: End processing [mpremote]: success
+[2024-05-31 06:38:35] INFO root fetch - processPackages [fosslight-prechecker]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_prechecker-3.0.8.tar.gz]
+[2024-05-31 06:38:35] INFO root fetch - processPackages [fosslight-prechecker]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_prechecker-3.0.9.tar.gz]
+[2024-05-31 06:38:35] INFO root fetch - main [MainThread]: End processing [fosslight-prechecker]: success
+[2024-05-31 06:38:35] INFO root fetch - main [MainThread]: Store serial: [23460466]
