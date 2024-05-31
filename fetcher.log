@@ -13979,3 +13979,77 @@
 [2024-05-31 11:46:51] INFO root fetch - processPackages [keyring-proxy-cli]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy_cli-0.1.3.tar.gz]
 [2024-05-31 11:46:51] INFO root fetch - main [MainThread]: End processing [keyring-proxy-cli]: success
 [2024-05-31 11:46:51] INFO root fetch - main [MainThread]: Store serial: [23463590]
+[2024-05-31 11:48:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463590]
+[2024-05-31 11:48:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 11:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-sdwan
+[2024-05-31 11:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lines-dataset
+[2024-05-31 11:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eralibpy
+[2024-05-31 11:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yandexcloud
+[2024-05-31 11:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idbt
+[2024-05-31 11:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esmf-regrid
+[2024-05-31 11:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lines-dataset
+[2024-05-31 11:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idbt
+[2024-05-31 11:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: restmapi
+[2024-05-31 11:48:59] INFO root fetch - processPackages [restmapi]: New version: [1.0.4.5] Old Version: [1.0.4.4]
+[2024-05-31 11:48:59] INFO root fetch - processPackages [idbt]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 11:48:59] INFO root fetch - processPackages [lines-dataset]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 11:48:59] INFO root fetch - processPackages [lines-dataset]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 11:48:59] INFO root fetch - processPackages [idbt]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 11:48:59] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-31 11:49:00] INFO root fetch - processPackages [pulumi-sdwan]: New version: [0.2.0a1717147084] Old Version: [0.2.0a1716962358]
+[2024-05-31 11:49:00] INFO root fetch - processPackages [esmf-regrid]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 11:49:00] WARNING root fetch - processPackages [eralibpy]: Skipping, unable to determine old version
+[2024-05-31 11:49:00] INFO root fetch - main [MainThread]: End processing [eralibpy] error
+[2024-05-31 11:49:00] INFO root fetch - processPackages [restmapi]: Downloading https://files.pythonhosted.org/packages/cc/b3/b755247e76e8b294e151402f8f8e2ce4809335974d12ff187ce19752d45c/restmapi-1.0.4.4-py3-none-any.whl
+[2024-05-31 11:49:00] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/5e/5d/50408dfb0a2245afc9771406dff6185f06fadd0bf2cd3d956e3abe8b05de/idbt-0.0.4.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/5e/5d/50408dfb0a2245afc9771406dff6185f06fadd0bf2cd3d956e3abe8b05de/idbt-0.0.4.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [lines-dataset]: Downloading https://files.pythonhosted.org/packages/3b/98/8fb8791731a0055fd33a0be958b0815d138eb9532e9b27b5eff356318721/lines_dataset-0.1.0.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [lines-dataset]: Downloading https://files.pythonhosted.org/packages/3b/98/8fb8791731a0055fd33a0be958b0815d138eb9532e9b27b5eff356318721/lines_dataset-0.1.0.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [esmf-regrid]: Downloading https://files.pythonhosted.org/packages/22/8c/15d90f3128bf94018f505339dc30d77f63d8ed2006fd5c620bc5584309be/esmf_regrid-0.8.0.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [pulumi-sdwan]: Downloading https://files.pythonhosted.org/packages/38/66/4e5c5d89470acdd117acd15f510e5f526d15bdfe1ae78c109f2849fdfd33/pulumi_sdwan-0.2.0a1716962358.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [restmapi]: Downloading https://files.pythonhosted.org/packages/83/d9/ad4f5d6e6ea5bdeab9e24f67c182a4deac6097d34fdb9947528ac5f9dbf7/restmapi-1.0.4.5-py3-none-any.whl
+[2024-05-31 11:49:00] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [restmapi]: executing diffoscope
+[2024-05-31 11:49:00] INFO root fetch - processPackages [restmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restmapi-1.0.4.4-py3-none-any.whl.zip tmp/restmapi-1.0.4.5-py3-none-any.whl.zip --markdown 20240531/r/restmapi/1.0.4.4-1.0.4.5/README.md --exclude *.pyd
+[2024-05-31 11:49:00] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/6a/66/b621fc3a4f0ed8eb4bb9d63eff195307bd6396bdcb48b4f94341c2f5243a/idbt-0.0.5.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/6a/66/b621fc3a4f0ed8eb4bb9d63eff195307bd6396bdcb48b4f94341c2f5243a/idbt-0.0.5.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [idbt]: executing diffoscope
+[2024-05-31 11:49:00] INFO root fetch - processPackages [idbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbt-0.0.4.tar.gz tmp/idbt-0.0.5.tar.gz --markdown 20240531/i/idbt/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-31 11:49:00] INFO root fetch - processPackages [idbt]: executing diffoscope
+[2024-05-31 11:49:00] INFO root fetch - processPackages [idbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbt-0.0.4.tar.gz tmp/idbt-0.0.5.tar.gz --markdown 20240531/i/idbt/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-31 11:49:00] INFO root fetch - processPackages [lines-dataset]: Downloading https://files.pythonhosted.org/packages/77/74/3df0ffcc14b87d67e53a384aa25ded55109450f19b3f0f7423a43370ae82/lines_dataset-0.1.1.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [lines-dataset]: Downloading https://files.pythonhosted.org/packages/77/74/3df0ffcc14b87d67e53a384aa25ded55109450f19b3f0f7423a43370ae82/lines_dataset-0.1.1.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [esmf-regrid]: Downloading https://files.pythonhosted.org/packages/17/8a/25b9a2620b6f230b42cabc9a33aa4730d5288a2ee13421e16a757355b363/esmf_regrid-0.9.0.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-31 11:49:00] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240531/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-31 11:49:00] INFO root fetch - processPackages [pulumi-sdwan]: Downloading https://files.pythonhosted.org/packages/4a/b5/f4a78e8a6d5e5301f41f606e47b397d587360f9d64a7fafcf65cada62126/pulumi_sdwan-0.2.0a1717147084.tar.gz
+[2024-05-31 11:49:00] INFO root fetch - processPackages [lines-dataset]: executing diffoscope
+[2024-05-31 11:49:00] INFO root fetch - processPackages [lines-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lines_dataset-0.1.0.tar.gz tmp/lines_dataset-0.1.1.tar.gz --markdown 20240531/l/lines-dataset/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 11:49:00] INFO root fetch - processPackages [lines-dataset]: executing diffoscope
+[2024-05-31 11:49:00] INFO root fetch - processPackages [lines-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lines_dataset-0.1.0.tar.gz tmp/lines_dataset-0.1.1.tar.gz --markdown 20240531/l/lines-dataset/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 11:49:00] INFO root fetch - processPackages [esmf-regrid]: executing diffoscope
+[2024-05-31 11:49:00] INFO root fetch - processPackages [esmf-regrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esmf_regrid-0.8.0.tar.gz tmp/esmf_regrid-0.9.0.tar.gz --markdown 20240531/e/esmf-regrid/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 11:49:01] INFO root fetch - processPackages [pulumi-sdwan]: executing diffoscope
+[2024-05-31 11:49:01] INFO root fetch - processPackages [pulumi-sdwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sdwan-0.2.0a1716962358.tar.gz tmp/pulumi_sdwan-0.2.0a1717147084.tar.gz --markdown 20240531/p/pulumi-sdwan/0.2.0a1716962358-0.2.0a1717147084/README.md --exclude *.pyd
+[2024-05-31 11:49:01] INFO root fetch - processPackages [restmapi]: Remove: archive file [/home/abi/fetcher/tmp/restmapi-1.0.4.4-py3-none-any.whl.zip]
+[2024-05-31 11:49:01] INFO root fetch - processPackages [restmapi]: Remove: archive file [/home/abi/fetcher/tmp/restmapi-1.0.4.5-py3-none-any.whl.zip]
+[2024-05-31 11:49:01] INFO root fetch - main [MainThread]: End processing [restmapi]: success
+[2024-05-31 11:49:01] INFO root fetch - processPackages [idbt]: Remove: archive file [/home/abi/fetcher/tmp/idbt-0.0.4.tar.gz]
+[2024-05-31 11:49:01] INFO root fetch - processPackages [idbt]: Remove: archive file [/home/abi/fetcher/tmp/idbt-0.0.5.tar.gz]
+[2024-05-31 11:49:01] INFO root fetch - main [MainThread]: End processing [idbt]: success
+[2024-05-31 11:49:01] INFO root fetch - main [MainThread]: End processing [idbt]: success
+[2024-05-31 11:49:01] INFO root fetch - processPackages [lines-dataset]: Remove: archive file [/home/abi/fetcher/tmp/lines_dataset-0.1.0.tar.gz]
+[2024-05-31 11:49:01] INFO root fetch - processPackages [lines-dataset]: Remove: archive file [/home/abi/fetcher/tmp/lines_dataset-0.1.1.tar.gz]
+[2024-05-31 11:49:01] INFO root fetch - main [MainThread]: End processing [lines-dataset]: success
+[2024-05-31 11:49:01] INFO root fetch - main [MainThread]: End processing [lines-dataset]: success
+[2024-05-31 11:49:01] INFO root fetch - processPackages [esmf-regrid]: Remove: archive file [/home/abi/fetcher/tmp/esmf_regrid-0.8.0.tar.gz]
+[2024-05-31 11:49:01] INFO root fetch - processPackages [esmf-regrid]: Remove: archive file [/home/abi/fetcher/tmp/esmf_regrid-0.9.0.tar.gz]
+[2024-05-31 11:49:01] INFO root fetch - main [MainThread]: End processing [esmf-regrid]: success
+[2024-05-31 11:49:03] INFO root fetch - processPackages [pulumi-sdwan]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sdwan-0.2.0a1716962358.tar.gz]
+[2024-05-31 11:49:03] INFO root fetch - processPackages [pulumi-sdwan]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sdwan-0.2.0a1717147084.tar.gz]
+[2024-05-31 11:49:03] INFO root fetch - main [MainThread]: End processing [pulumi-sdwan]: success
+[2024-05-31 11:49:03] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-05-31 11:49:03] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-05-31 11:49:03] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-31 11:49:03] INFO root fetch - main [MainThread]: Store serial: [23463618]
