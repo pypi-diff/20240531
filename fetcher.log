@@ -4713,3 +4713,18 @@
 [2024-05-31 03:46:06] INFO root fetch - processPackages [adaptive]: Remove: archive file [/home/abi/fetcher/tmp/adaptive-1.3.0.tar.gz]
 [2024-05-31 03:46:06] INFO root fetch - main [MainThread]: End processing [adaptive]: success
 [2024-05-31 03:46:06] INFO root fetch - main [MainThread]: Store serial: [23459378]
+[2024-05-31 03:48:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459378]
+[2024-05-31 03:48:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 03:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miracle-helper
+[2024-05-31 03:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reprompt
+[2024-05-31 03:48:14] WARNING root fetch - processPackages [miracle-helper]: Skipping, unable to determine old version
+[2024-05-31 03:48:14] INFO root fetch - main [MainThread]: End processing [miracle-helper] error
+[2024-05-31 03:48:14] INFO root fetch - processPackages [reprompt]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-31 03:48:15] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/16/be/48ea095464d54671ae1d7f9a8f68a699a6be3a4f3b4ce8173849df56fe5e/reprompt-0.0.7.8.tar.gz
+[2024-05-31 03:48:15] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/9f/57/4ca4c40e9d7a138326c5869361ac479d342f3896bc074d2cbd02c824da2d/reprompt-0.0.7.9.tar.gz
+[2024-05-31 03:48:15] INFO root fetch - processPackages [reprompt]: executing diffoscope
+[2024-05-31 03:48:15] INFO root fetch - processPackages [reprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprompt-0.0.7.8.tar.gz tmp/reprompt-0.0.7.9.tar.gz --markdown 20240531/r/reprompt/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-31 03:48:16] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.8.tar.gz]
+[2024-05-31 03:48:16] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.9.tar.gz]
+[2024-05-31 03:48:16] INFO root fetch - main [MainThread]: End processing [reprompt]: success
+[2024-05-31 03:48:16] INFO root fetch - main [MainThread]: Store serial: [23459386]
