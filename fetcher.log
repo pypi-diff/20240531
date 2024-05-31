@@ -14053,3 +14053,63 @@
 [2024-05-31 11:49:03] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
 [2024-05-31 11:49:03] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2024-05-31 11:49:03] INFO root fetch - main [MainThread]: Store serial: [23463618]
+[2024-05-31 11:51:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463618]
+[2024-05-31 11:51:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 11:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lines-dataset
+[2024-05-31 11:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redturtle.prenotazioni
+[2024-05-31 11:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eo-man
+[2024-05-31 11:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: captacity
+[2024-05-31 11:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rcd-dev-kit
+[2024-05-31 11:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: doipy
+[2024-05-31 11:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentiment-analysis-package
+[2024-05-31 11:51:12] WARNING root fetch - processPackages [captacity]: Skipping, unable to determine old version
+[2024-05-31 11:51:12] INFO root fetch - main [MainThread]: End processing [captacity] error
+[2024-05-31 11:51:12] INFO root fetch - processPackages [eo-man]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 11:51:12] INFO root fetch - processPackages [lines-dataset]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-31 11:51:12] INFO root fetch - processPackages [sentiment-analysis-package]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 11:51:12] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/23/75/6d82c706842c7f08b85b4f7b8a9c299e4da746bc2a7ef8a5e7e5b53b46c6/sentiment_analysis_package-0.8.0.tar.gz
+[2024-05-31 11:51:12] INFO root fetch - processPackages [doipy]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-31 11:51:12] INFO root fetch - processPackages [rcd-dev-kit]: New version: [2.4.8] Old Version: [2.4.7]
+[2024-05-31 11:51:12] INFO root fetch - processPackages [redturtle.prenotazioni]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-05-31 11:51:12] INFO root fetch - processPackages [lines-dataset]: Downloading https://files.pythonhosted.org/packages/ad/4c/e19fd42cab73099f8bc474ee79a84883cc717b324cf41e839dcea93383df/lines_dataset-0.1.2.tar.gz
+[2024-05-31 11:51:12] INFO root fetch - processPackages [eo-man]: Downloading https://files.pythonhosted.org/packages/5f/f6/62e408d39757f2c0c0c679a3936b77b3d3f90e5c181c16c8c2e98d58b8f1/eo_man-0.1.8.tar.gz
+[2024-05-31 11:51:12] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/e1/f5/e4bb5c828977561ad3ca9cc923f8bebc0bfd06b6764a1eb305729d4ba49c/redturtle.prenotazioni-2.7.0.tar.gz
+[2024-05-31 11:51:12] INFO root fetch - processPackages [rcd-dev-kit]: Downloading https://files.pythonhosted.org/packages/31/4e/5e05ab07563dc717c37cb6f7387f16e2837c6fd4881c3a859df99970afa5/rcd_dev_kit-2.4.7.tar.gz
+[2024-05-31 11:51:12] INFO root fetch - processPackages [doipy]: Downloading https://files.pythonhosted.org/packages/e3/44/fecde5d48dc3643585a3acb9da8b5d08ddd115517b993e586ebd0f5aad10/doipy-0.2.3.tar.gz
+[2024-05-31 11:51:12] INFO root fetch - processPackages [lines-dataset]: Downloading https://files.pythonhosted.org/packages/87/4a/294db7dcdd41e50df33b8a8e63d54c00cd620e9d2402209e26a94d4b08cf/lines_dataset-0.1.3.tar.gz
+[2024-05-31 11:51:13] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/27/57/012974178f26824d63c4e22c627fc42d92ce31d10eed15b531c3cc232073/sentiment_analysis_package-0.9.0.tar.gz
+[2024-05-31 11:51:13] INFO root fetch - processPackages [lines-dataset]: executing diffoscope
+[2024-05-31 11:51:13] INFO root fetch - processPackages [lines-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lines_dataset-0.1.2.tar.gz tmp/lines_dataset-0.1.3.tar.gz --markdown 20240531/l/lines-dataset/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-31 11:51:13] INFO root fetch - processPackages [eo-man]: Downloading https://files.pythonhosted.org/packages/53/05/13066f8b1064ffb32f602287c10286ebac61d959063d33a8658e27772972/eo_man-0.1.9.tar.gz
+[2024-05-31 11:51:13] INFO root fetch - processPackages [doipy]: Downloading https://files.pythonhosted.org/packages/f0/4c/6ef23e80bad28636631f23a45b80550d026abbc8eceedeb62ba566ec172b/doipy-0.2.4.tar.gz
+[2024-05-31 11:51:13] INFO root fetch - processPackages [rcd-dev-kit]: Downloading https://files.pythonhosted.org/packages/7d/3a/5f75777e382a727575557de5a326e43708aaf9284e580d42d5fee2ee6ad4/rcd_dev_kit-2.4.8.tar.gz
+[2024-05-31 11:51:13] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/7b/d8/5e9b5c0414824ebb9df9bbc8cd3a5e4d6aba6cfed3206b894c11dabade42/redturtle.prenotazioni-2.7.1.tar.gz
+[2024-05-31 11:51:13] INFO root fetch - processPackages [eo-man]: executing diffoscope
+[2024-05-31 11:51:13] INFO root fetch - processPackages [eo-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eo_man-0.1.8.tar.gz tmp/eo_man-0.1.9.tar.gz --markdown 20240531/e/eo-man/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 11:51:13] INFO root fetch - processPackages [rcd-dev-kit]: executing diffoscope
+[2024-05-31 11:51:13] INFO root fetch - processPackages [rcd-dev-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcd_dev_kit-2.4.7.tar.gz tmp/rcd_dev_kit-2.4.8.tar.gz --markdown 20240531/r/rcd-dev-kit/2.4.7-2.4.8/README.md --exclude *.pyd
+[2024-05-31 11:51:13] INFO root fetch - processPackages [doipy]: executing diffoscope
+[2024-05-31 11:51:13] INFO root fetch - processPackages [doipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doipy-0.2.3.tar.gz tmp/doipy-0.2.4.tar.gz --markdown 20240531/d/doipy/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-31 11:51:13] INFO root fetch - processPackages [redturtle.prenotazioni]: executing diffoscope
+[2024-05-31 11:51:13] INFO root fetch - processPackages [redturtle.prenotazioni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.prenotazioni-2.7.0.tar.gz tmp/redturtle.prenotazioni-2.7.1.tar.gz --markdown 20240531/r/redturtle.prenotazioni/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-05-31 11:51:13] INFO root fetch - processPackages [lines-dataset]: Remove: archive file [/home/abi/fetcher/tmp/lines_dataset-0.1.2.tar.gz]
+[2024-05-31 11:51:13] INFO root fetch - processPackages [lines-dataset]: Remove: archive file [/home/abi/fetcher/tmp/lines_dataset-0.1.3.tar.gz]
+[2024-05-31 11:51:13] INFO root fetch - main [MainThread]: End processing [lines-dataset]: success
+[2024-05-31 11:51:13] INFO root fetch - processPackages [sentiment-analysis-package]: executing diffoscope
+[2024-05-31 11:51:13] INFO root fetch - processPackages [sentiment-analysis-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_package-0.8.0.tar.gz tmp/sentiment_analysis_package-0.9.0.tar.gz --markdown 20240531/s/sentiment-analysis-package/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 11:51:13] INFO root fetch - processPackages [doipy]: Remove: archive file [/home/abi/fetcher/tmp/doipy-0.2.3.tar.gz]
+[2024-05-31 11:51:13] INFO root fetch - processPackages [doipy]: Remove: archive file [/home/abi/fetcher/tmp/doipy-0.2.4.tar.gz]
+[2024-05-31 11:51:13] INFO root fetch - main [MainThread]: End processing [doipy]: success
+[2024-05-31 11:51:14] INFO root fetch - processPackages [rcd-dev-kit]: Remove: archive file [/home/abi/fetcher/tmp/rcd_dev_kit-2.4.7.tar.gz]
+[2024-05-31 11:51:14] INFO root fetch - processPackages [rcd-dev-kit]: Remove: archive file [/home/abi/fetcher/tmp/rcd_dev_kit-2.4.8.tar.gz]
+[2024-05-31 11:51:14] INFO root fetch - main [MainThread]: End processing [rcd-dev-kit]: success
+[2024-05-31 11:51:14] INFO root fetch - processPackages [eo-man]: Remove: archive file [/home/abi/fetcher/tmp/eo_man-0.1.8.tar.gz]
+[2024-05-31 11:51:14] INFO root fetch - processPackages [eo-man]: Remove: archive file [/home/abi/fetcher/tmp/eo_man-0.1.9.tar.gz]
+[2024-05-31 11:51:14] INFO root fetch - main [MainThread]: End processing [eo-man]: success
+[2024-05-31 11:51:14] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.7.0.tar.gz]
+[2024-05-31 11:51:14] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.7.1.tar.gz]
+[2024-05-31 11:51:14] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
+[2024-05-31 11:51:19] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.8.0.tar.gz]
+[2024-05-31 11:51:19] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.9.0.tar.gz]
+[2024-05-31 11:51:19] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package]: success
+[2024-05-31 11:51:19] INFO root fetch - main [MainThread]: Store serial: [23463636]
