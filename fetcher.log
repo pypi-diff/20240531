@@ -10016,3 +10016,68 @@
 [2024-05-31 09:08:00] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
 [2024-05-31 09:08:00] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
 [2024-05-31 09:08:00] INFO root fetch - main [MainThread]: Store serial: [23461726]
+[2024-05-31 09:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461726]
+[2024-05-31 09:10:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 09:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-snowflake
+[2024-05-31 09:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pvtool
+[2024-05-31 09:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fennel-ai
+[2024-05-31 09:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: static-analysis-script
+[2024-05-31 09:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-hcloud
+[2024-05-31 09:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: halludetector
+[2024-05-31 09:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stashconnect
+[2024-05-31 09:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-tailscale
+[2024-05-31 09:10:09] WARNING root fetch - processPackages [stashconnect]: Skipping, unable to determine old version
+[2024-05-31 09:10:09] INFO root fetch - main [MainThread]: End processing [stashconnect] error
+[2024-05-31 09:10:09] INFO root fetch - processPackages [static-analysis-script]: New version: [0.2.4] Old Version: [0.2.0]
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pvtool]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-31 09:10:09] INFO root fetch - processPackages [halludetector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 09:10:09] INFO root fetch - processPackages [fennel-ai]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-05-31 09:10:09] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/b6/97/f1933a53180b8984048fec3b1c4af5dc47d04d6a75f421dc60e76b847a85/static_analysis_script-0.2.0.tar.gz
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pvtool]: Downloading https://files.pythonhosted.org/packages/e6/8f/9010295ed300c6d194a8b0506a5946fd1579d02eaf8537b542bebc315968/pvtool-0.0.7.tar.gz
+[2024-05-31 09:10:09] INFO root fetch - processPackages [halludetector]: Downloading https://files.pythonhosted.org/packages/11/2e/d4aa7d775c37a3a6904b93ab81610ce44322e5246f4573bd515dc437cde5/halludetector-0.0.8.tar.gz
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2024-05-31 09:10:09] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/29/8b/fce834f275deedf78c2cd53bd82aed7b1f61ed5492478e501e72d8f8b4b3/fennel_ai-1.3.8.tar.gz
+[2024-05-31 09:10:09] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40207351>=10485760
+[2024-05-31 09:10:09] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-05-31 09:10:09] INFO root fetch - processPackages [halludetector]: Downloading https://files.pythonhosted.org/packages/cc/8b/62afd5ed9cf95ffb133e40f518b55688a0c2d99e7c2e4a132c4baa945465/halludetector-0.0.9.tar.gz
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pvtool]: Downloading https://files.pythonhosted.org/packages/d9/f5/e46c55178d2ddb095808202f070a6a9de4e9b47ce6821bbfacb7653b6eb3/pvtool-0.0.8.tar.gz
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2024-05-31 09:10:09] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/11/45/02064176829c2948fc8734eb10de94d2185dc1aa9e9563233dae6eb088ee/static_analysis_script-0.2.4-py3-none-any.whl
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2024-05-31 09:10:09] INFO root fetch - processPackages [halludetector]: executing diffoscope
+[2024-05-31 09:10:09] INFO root fetch - processPackages [halludetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halludetector-0.0.8.tar.gz tmp/halludetector-0.0.9.tar.gz --markdown 20240531/h/halludetector/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-05-31 09:10:09] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240531/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20240531/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/README.md --exclude *.pyd
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20240531/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/README.md --exclude *.pyd
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pvtool]: executing diffoscope
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pvtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvtool-0.0.7.tar.gz tmp/pvtool-0.0.8.tar.gz --markdown 20240531/p/pvtool/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-31 09:10:10] INFO root fetch - processPackages [static-analysis-script]: executing diffoscope
+[2024-05-31 09:10:10] INFO root fetch - processPackages [static-analysis-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static_analysis_script-0.2.0.tar.gz tmp/static_analysis_script-0.2.4-py3-none-any.whl.zip --markdown 20240531/s/static-analysis-script/0.2.0-0.2.4/README.md --exclude *.pyd
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2024-05-31 09:10:10] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pvtool]: Remove: archive file [/home/abi/fetcher/tmp/pvtool-0.0.7.tar.gz]
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pvtool]: Remove: archive file [/home/abi/fetcher/tmp/pvtool-0.0.8.tar.gz]
+[2024-05-31 09:10:10] INFO root fetch - main [MainThread]: End processing [pvtool]: success
+[2024-05-31 09:10:10] INFO root fetch - processPackages [halludetector]: Remove: archive file [/home/abi/fetcher/tmp/halludetector-0.0.8.tar.gz]
+[2024-05-31 09:10:10] INFO root fetch - processPackages [halludetector]: Remove: archive file [/home/abi/fetcher/tmp/halludetector-0.0.9.tar.gz]
+[2024-05-31 09:10:10] INFO root fetch - main [MainThread]: End processing [halludetector]: success
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-05-31 09:10:10] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-05-31 09:10:10] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-05-31 09:10:11] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.2.0.tar.gz]
+[2024-05-31 09:10:11] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.2.4-py3-none-any.whl.zip]
+[2024-05-31 09:10:11] INFO root fetch - main [MainThread]: End processing [static-analysis-script]: success
+[2024-05-31 09:10:11] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2024-05-31 09:10:11] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2024-05-31 09:10:11] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2024-05-31 09:10:11] INFO root fetch - main [MainThread]: Store serial: [23461755]
