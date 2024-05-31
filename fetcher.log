@@ -10550,3 +10550,27 @@
 [2024-05-31 09:27:43] INFO root fetch - processPackages [odoo-addon-fs-base-multi-media]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_base_multi_media-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-05-31 09:27:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-base-multi-media]: success
 [2024-05-31 09:27:43] INFO root fetch - main [MainThread]: Store serial: [23462037]
+[2024-05-31 09:29:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462037]
+[2024-05-31 09:29:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-qqshell
+[2024-05-31 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiakid-simulation
+[2024-05-31 09:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: figaro
+[2024-05-31 09:29:52] WARNING root fetch - processPackages [nonebot-plugin-qqshell]: Skipping, unable to determine old version
+[2024-05-31 09:29:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-qqshell] error
+[2024-05-31 09:29:52] INFO root fetch - processPackages [spiakid-simulation]: New version: [1.24a0] Old Version: [1.24]
+[2024-05-31 09:29:52] INFO root fetch - processPackages [spiakid-simulation]: Downloading https://files.pythonhosted.org/packages/fd/a5/75c0033d8e1a758556b0f74a01fd57e20d7ac16cd60a53e97fc5722935b7/spiakid_simulation-1.24.tar.gz
+[2024-05-31 09:29:52] INFO root fetch - processPackages [figaro]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-05-31 09:29:52] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/2f/35/b0220fd82f384c3eae7ddb2c3fa8f62ed2c8020ca1c427249576b359ec8a/figaro-1.6.8.tar.gz
+[2024-05-31 09:29:52] INFO root fetch - processPackages [spiakid-simulation]: Downloading https://files.pythonhosted.org/packages/fd/cf/603a1fb110135455d29ba87e22dee41d2f2123c333af0c5a2256d444110a/spiakid_simulation-1.24a0.tar.gz
+[2024-05-31 09:29:52] INFO root fetch - processPackages [spiakid-simulation]: executing diffoscope
+[2024-05-31 09:29:52] INFO root fetch - processPackages [spiakid-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiakid_simulation-1.24.tar.gz tmp/spiakid_simulation-1.24a0.tar.gz --markdown 20240531/s/spiakid-simulation/1.24-1.24a0/README.md --exclude *.pyd
+[2024-05-31 09:29:53] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/78/b2/658b6f454fb1f3fb00eea244b8e9c07328b4562672e1305103e2c0ce82ee/figaro-1.6.9.tar.gz
+[2024-05-31 09:29:53] INFO root fetch - processPackages [figaro]: executing diffoscope
+[2024-05-31 09:29:53] INFO root fetch - processPackages [figaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/figaro-1.6.8.tar.gz tmp/figaro-1.6.9.tar.gz --markdown 20240531/f/figaro/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-05-31 09:29:53] INFO root fetch - processPackages [spiakid-simulation]: Remove: archive file [/home/abi/fetcher/tmp/spiakid_simulation-1.24.tar.gz]
+[2024-05-31 09:29:53] INFO root fetch - processPackages [spiakid-simulation]: Remove: archive file [/home/abi/fetcher/tmp/spiakid_simulation-1.24a0.tar.gz]
+[2024-05-31 09:29:53] INFO root fetch - main [MainThread]: End processing [spiakid-simulation]: success
+[2024-05-31 09:29:53] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.8.tar.gz]
+[2024-05-31 09:29:53] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.9.tar.gz]
+[2024-05-31 09:29:53] INFO root fetch - main [MainThread]: End processing [figaro]: success
+[2024-05-31 09:29:53] INFO root fetch - main [MainThread]: Store serial: [23462060]
