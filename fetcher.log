@@ -8367,3 +8367,69 @@
 [2024-05-31 07:48:29] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1717133397.tar.gz]
 [2024-05-31 07:48:29] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
 [2024-05-31 07:48:29] INFO root fetch - main [MainThread]: Store serial: [23460911]
+[2024-05-31 07:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460911]
+[2024-05-31 07:50:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenTTDLab
+[2024-05-31 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reverse-life
+[2024-05-31 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypomes-db
+[2024-05-31 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oslili
+[2024-05-31 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rockai-cli-app
+[2024-05-31 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cliexercises
+[2024-05-31 07:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-databricks
+[2024-05-31 07:50:38] INFO root fetch - processPackages [oslili]: New version: [0.9] Old Version: [0.8]
+[2024-05-31 07:50:38] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 07:50:38] INFO root fetch - processPackages [pypomes-db]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 07:50:38] INFO root fetch - processPackages [OpenTTDLab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 07:50:38] INFO root fetch - processPackages [reverse-life]: New version: [1.2.5] Old Version: [1.2.2]
+[2024-05-31 07:50:38] INFO root fetch - processPackages [cliexercises]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-05-31 07:50:38] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/5c/63/3bb301fdbb9386071fcf91aa8406ea18102d41aa3f235ceb3133c1a846dc/pypomes_db-0.9.0.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2024-05-31 07:50:38] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/d6/16/83bff826f4da072f185d73330a5c376a0184abffaf881f9cd0fe3cf99c9d/oslili-0.8.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/1f/6e/f9d8e929738fb28f0cf285d806e9d1e0b273a3abd0c627b823c266f87274/openttdlab-0.0.8.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [reverse-life]: Downloading https://files.pythonhosted.org/packages/1b/11/a355959b56eea2e5319d165fca11d504bce1246dc689d43fda71f369a2a3/reverse_life-1.2.2.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/57/a2/f4a90b8756fe1625401eed7f0006d1736808025081a6f0ec4b4297230fdd/pypomes_db-0.9.1.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [cliexercises]: Downloading https://files.pythonhosted.org/packages/90/b7/4ba986f34f3472efee86100d9f208739ed013ce5f0616dd13df4d491e42a/cliexercises-2.1.2.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-31 07:50:38] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.9.0.tar.gz tmp/pypomes_db-0.9.1.tar.gz --markdown 20240531/p/pypomes-db/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 07:50:38] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/16/35/75451c56b958f6d6563938b387adf36fd45d4211a37705096e1c5a7c8065/oslili-0.9.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/c9/28/0b49734d3f0e2b039817ac8dbe0930487e1d1764bc5c7cc16063210352e0/openttdlab-0.0.9.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-31 07:50:38] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240531/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 07:50:38] INFO root fetch - processPackages [reverse-life]: Downloading https://files.pythonhosted.org/packages/59/8c/3f9e7838aca9122816aa74caf8bae67795d1bd13db5ce29f6e76d6562400/reverse_life-1.2.5.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [cliexercises]: Downloading https://files.pythonhosted.org/packages/40/22/f1a61db691af940c87b93a5b7dd34df0581929da59f54c8f2948e45bd89a/cliexercises-2.2.0.tar.gz
+[2024-05-31 07:50:38] INFO root fetch - processPackages [OpenTTDLab]: executing diffoscope
+[2024-05-31 07:50:38] INFO root fetch - processPackages [OpenTTDLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttdlab-0.0.8.tar.gz tmp/openttdlab-0.0.9.tar.gz --markdown 20240531/O/OpenTTDLab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 07:50:39] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2024-05-31 07:50:39] INFO root fetch - processPackages [oslili]: executing diffoscope
+[2024-05-31 07:50:39] INFO root fetch - processPackages [oslili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslili-0.8.tar.gz tmp/oslili-0.9.tar.gz --markdown 20240531/o/oslili/0.8-0.9/README.md --exclude *.pyd
+[2024-05-31 07:50:39] INFO root fetch - processPackages [reverse-life]: executing diffoscope
+[2024-05-31 07:50:39] INFO root fetch - processPackages [reverse-life]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reverse_life-1.2.2.tar.gz tmp/reverse_life-1.2.5.tar.gz --markdown 20240531/r/reverse-life/1.2.2-1.2.5/README.md --exclude *.pyd
+[2024-05-31 07:50:39] INFO root fetch - processPackages [cliexercises]: executing diffoscope
+[2024-05-31 07:50:39] INFO root fetch - processPackages [cliexercises]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliexercises-2.1.2.tar.gz tmp/cliexercises-2.2.0.tar.gz --markdown 20240531/c/cliexercises/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-05-31 07:50:39] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2024-05-31 07:50:39] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20240531/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/README.md --exclude *.pyd
+[2024-05-31 07:50:39] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.0.tar.gz]
+[2024-05-31 07:50:39] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.1.tar.gz]
+[2024-05-31 07:50:39] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-31 07:50:39] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-05-31 07:50:39] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-05-31 07:50:39] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-31 07:50:39] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.8.tar.gz]
+[2024-05-31 07:50:39] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.9.tar.gz]
+[2024-05-31 07:50:39] INFO root fetch - main [MainThread]: End processing [OpenTTDLab]: success
+[2024-05-31 07:50:39] INFO root fetch - processPackages [reverse-life]: Remove: archive file [/home/abi/fetcher/tmp/reverse_life-1.2.2.tar.gz]
+[2024-05-31 07:50:39] INFO root fetch - processPackages [reverse-life]: Remove: archive file [/home/abi/fetcher/tmp/reverse_life-1.2.5.tar.gz]
+[2024-05-31 07:50:39] INFO root fetch - main [MainThread]: End processing [reverse-life]: success
+[2024-05-31 07:50:39] INFO root fetch - processPackages [cliexercises]: Remove: archive file [/home/abi/fetcher/tmp/cliexercises-2.1.2.tar.gz]
+[2024-05-31 07:50:39] INFO root fetch - processPackages [cliexercises]: Remove: archive file [/home/abi/fetcher/tmp/cliexercises-2.2.0.tar.gz]
+[2024-05-31 07:50:39] INFO root fetch - main [MainThread]: End processing [cliexercises]: success
+[2024-05-31 07:50:40] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2024-05-31 07:50:40] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2024-05-31 07:50:40] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2024-05-31 07:50:42] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.8.tar.gz]
+[2024-05-31 07:50:42] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.9.tar.gz]
+[2024-05-31 07:50:42] INFO root fetch - main [MainThread]: End processing [oslili]: success
+[2024-05-31 07:50:42] INFO root fetch - main [MainThread]: Store serial: [23460938]
