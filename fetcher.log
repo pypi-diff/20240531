@@ -6675,3 +6675,42 @@
 [2024-05-31 05:54:51] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
 [2024-05-31 05:54:51] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
 [2024-05-31 05:54:51] INFO root fetch - main [MainThread]: Store serial: [23460243]
+[2024-05-31 05:56:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460243]
+[2024-05-31 05:56:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 05:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctrip-helper
+[2024-05-31 05:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retsu
+[2024-05-31 05:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dingodb
+[2024-05-31 05:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vision-agent
+[2024-05-31 05:56:59] INFO root fetch - processPackages [ctrip-helper]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-31 05:56:59] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 05:56:59] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/a9/e0/be0dfeec5f5a768d766b13e56c3e3f9526a8ee1aa05bc8f1267a3e25000b/ctrip-helper-0.3.2.tar.gz
+[2024-05-31 05:56:59] INFO root fetch - processPackages [retsu]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-31 05:56:59] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 05:56:59] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-31 05:56:59] INFO root fetch - processPackages [retsu]: Downloading https://files.pythonhosted.org/packages/ff/d2/41daa0d47512ffb2a2f3b7fb143bae414df78907f3b5ea3e9c8fd38507cf/retsu-0.0.3.tar.gz
+[2024-05-31 05:56:59] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-05-31 05:57:00] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/7c/b0/5207f7e5361f253006c3460da2169361430a9ba1d589885718ad23623402/ctrip-helper-0.3.3.tar.gz
+[2024-05-31 05:57:00] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-31 05:57:00] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 05:57:00] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.3.2.tar.gz tmp/ctrip-helper-0.3.3.tar.gz --markdown 20240531/c/ctrip-helper/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-31 05:57:00] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-31 05:57:00] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240531/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 05:57:00] INFO root fetch - processPackages [retsu]: Downloading https://files.pythonhosted.org/packages/60/9e/8500a27a4bf1cbc398016fa325615ba2a42162ef6391dee805adb50e6e1a/retsu-0.0.4.tar.gz
+[2024-05-31 05:57:00] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-05-31 05:57:00] INFO root fetch - processPackages [retsu]: executing diffoscope
+[2024-05-31 05:57:00] INFO root fetch - processPackages [retsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retsu-0.0.3.tar.gz tmp/retsu-0.0.4.tar.gz --markdown 20240531/r/retsu/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-31 05:57:00] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-05-31 05:57:00] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240531/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 05:57:00] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.2.tar.gz]
+[2024-05-31 05:57:00] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.3.tar.gz]
+[2024-05-31 05:57:00] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 05:57:01] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-31 05:57:01] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-31 05:57:01] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-31 05:57:01] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-05-31 05:57:01] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-05-31 05:57:01] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-05-31 05:57:01] INFO root fetch - processPackages [retsu]: Remove: archive file [/home/abi/fetcher/tmp/retsu-0.0.3.tar.gz]
+[2024-05-31 05:57:01] INFO root fetch - processPackages [retsu]: Remove: archive file [/home/abi/fetcher/tmp/retsu-0.0.4.tar.gz]
+[2024-05-31 05:57:01] INFO root fetch - main [MainThread]: End processing [retsu]: success
+[2024-05-31 05:57:01] INFO root fetch - main [MainThread]: Store serial: [23460255]
