@@ -9458,3 +9458,33 @@
 [2024-05-31 08:41:43] INFO root fetch - processPackages [nifcloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-cli-1.9.0.tar.gz]
 [2024-05-31 08:41:43] INFO root fetch - main [MainThread]: End processing [nifcloud-cli]: success
 [2024-05-31 08:41:43] INFO root fetch - main [MainThread]: Store serial: [23461494]
+[2024-05-31 08:43:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461494]
+[2024-05-31 08:43:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 08:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-eventbridge20200401
+[2024-05-31 08:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablemaster
+[2024-05-31 08:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fundamend
+[2024-05-31 08:43:53] INFO root fetch - processPackages [fundamend]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-31 08:43:53] INFO root fetch - processPackages [fundamend]: Downloading https://files.pythonhosted.org/packages/35/b1/c0e9bbe12551e778f0da51014b36204a0c62e6d62c2c072bdc2df8ec8cbd/fundamend-0.2.0.tar.gz
+[2024-05-31 08:43:53] INFO root fetch - processPackages [tablemaster]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-31 08:43:53] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-05-31 08:43:53] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: Downloading https://files.pythonhosted.org/packages/b4/b0/f581471c875d2260d3729c558681988fa623cf7d5afd1b43f60800fbfaea/alibabacloud_eventbridge20200401-4.1.0.tar.gz
+[2024-05-31 08:43:53] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/72/fe/75b9039ad32d6c90e629231fc3952a26303da795f9f83ea113abe8ea20de/tablemaster-1.2.4.tar.gz
+[2024-05-31 08:43:53] INFO root fetch - processPackages [fundamend]: Downloading https://files.pythonhosted.org/packages/58/d6/8481be57ad8c9b157174174bd1dc3cc6a0af7ac70005bf7181329ee86f79/fundamend-0.3.0.tar.gz
+[2024-05-31 08:43:53] INFO root fetch - processPackages [fundamend]: executing diffoscope
+[2024-05-31 08:43:53] INFO root fetch - processPackages [fundamend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundamend-0.2.0.tar.gz tmp/fundamend-0.3.0.tar.gz --markdown 20240531/f/fundamend/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-31 08:43:53] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/6f/b6/2b18208e95240174082e04280ba2546e2e57591463111bde2152ec9117d7/tablemaster-1.2.5.tar.gz
+[2024-05-31 08:43:53] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: Downloading https://files.pythonhosted.org/packages/28/64/216237e6e0d9c4fca782d7e690217f1d0b4479c9fb25f53cb816a8fa8a33/alibabacloud_eventbridge20200401-4.1.1.tar.gz
+[2024-05-31 08:43:54] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: executing diffoscope
+[2024-05-31 08:43:54] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_eventbridge20200401-4.1.0.tar.gz tmp/alibabacloud_eventbridge20200401-4.1.1.tar.gz --markdown 20240531/a/alibabacloud-eventbridge20200401/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-05-31 08:43:54] INFO root fetch - processPackages [tablemaster]: executing diffoscope
+[2024-05-31 08:43:54] INFO root fetch - processPackages [tablemaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemaster-1.2.4.tar.gz tmp/tablemaster-1.2.5.tar.gz --markdown 20240531/t/tablemaster/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-31 08:43:54] INFO root fetch - processPackages [fundamend]: Remove: archive file [/home/abi/fetcher/tmp/fundamend-0.2.0.tar.gz]
+[2024-05-31 08:43:54] INFO root fetch - processPackages [fundamend]: Remove: archive file [/home/abi/fetcher/tmp/fundamend-0.3.0.tar.gz]
+[2024-05-31 08:43:54] INFO root fetch - main [MainThread]: End processing [fundamend]: success
+[2024-05-31 08:43:54] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.2.4.tar.gz]
+[2024-05-31 08:43:54] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.2.5.tar.gz]
+[2024-05-31 08:43:54] INFO root fetch - main [MainThread]: End processing [tablemaster]: success
+[2024-05-31 08:43:55] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eventbridge20200401-4.1.0.tar.gz]
+[2024-05-31 08:43:55] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eventbridge20200401-4.1.1.tar.gz]
+[2024-05-31 08:43:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-eventbridge20200401]: success
+[2024-05-31 08:43:55] INFO root fetch - main [MainThread]: Store serial: [23461506]
