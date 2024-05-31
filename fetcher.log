@@ -14672,3 +14672,60 @@
 [2024-05-31 12:06:48] INFO root fetch - processPackages [starmallow]: Remove: archive file [/home/abi/fetcher/tmp/starmallow-0.3.9.tar.gz]
 [2024-05-31 12:06:48] INFO root fetch - main [MainThread]: End processing [starmallow]: success
 [2024-05-31 12:06:48] INFO root fetch - main [MainThread]: Store serial: [23463934]
+[2024-05-31 12:08:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463934]
+[2024-05-31 12:08:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 12:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytroll-db
+[2024-05-31 12:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sensorialytics
+[2024-05-31 12:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ragelo
+[2024-05-31 12:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sorpus
+[2024-05-31 12:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MyLLM
+[2024-05-31 12:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: captacity
+[2024-05-31 12:08:57] INFO root fetch - processPackages [captacity]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 12:08:57] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-05-31 12:08:57] INFO root fetch - processPackages [sensorialytics]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 12:08:57] INFO root fetch - processPackages [ragelo]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 12:08:57] INFO root fetch - processPackages [sorpus]: New version: [0.0.1.post1] Old Version: [0.0.1]
+[2024-05-31 12:08:57] INFO root fetch - processPackages [pytroll-db]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-31 12:08:57] INFO root fetch - processPackages [captacity]: Downloading https://files.pythonhosted.org/packages/a6/38/808d4fb446af64c8e18e9b4e28b1bea1fdfe7e307cad9184fe443a47aae7/captacity-0.1.0.tar.gz
+[2024-05-31 12:08:57] INFO root fetch - processPackages [ragelo]: Downloading https://files.pythonhosted.org/packages/09/ca/fac4853c6a7413e33d423df7169c33d336d2c95c11f8740698a748514bc7/ragelo-0.1.1.tar.gz
+[2024-05-31 12:08:57] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-05-31 12:08:57] INFO root fetch - processPackages [sensorialytics]: Downloading https://files.pythonhosted.org/packages/7b/b1/ad234c7048eac4b0f2e71ccacf7637ee4d641fc0644c9057b34239e103f4/sensorialytics-1.0.8.tar.gz
+[2024-05-31 12:08:57] INFO root fetch - processPackages [sorpus]: Downloading https://files.pythonhosted.org/packages/7f/6f/84dd510f857050754df398b64d7de4b93bc57f85af7208c3ff7dd85581c2/sorpus-0.0.1.tar.gz
+[2024-05-31 12:08:57] INFO root fetch - processPackages [pytroll-db]: Downloading https://files.pythonhosted.org/packages/69/82/76a5526a9f55422a586986cd26393e0ddbf95ee6ab791fc09702b825e2e0/pytroll_db-0.2.0.tar.gz
+[2024-05-31 12:08:58] INFO root fetch - processPackages [captacity]: Downloading https://files.pythonhosted.org/packages/87/d0/a1d995d3ae3aebed8bb45d587795e241a8ad8f497889fb433b6d2fa0a09e/captacity-0.1.1-py3-none-any.whl
+[2024-05-31 12:08:58] INFO root fetch - processPackages [captacity]: executing diffoscope
+[2024-05-31 12:08:58] INFO root fetch - processPackages [captacity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/captacity-0.1.0.tar.gz tmp/captacity-0.1.1-py3-none-any.whl.zip --markdown 20240531/c/captacity/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 12:08:58] INFO root fetch - processPackages [ragelo]: Downloading https://files.pythonhosted.org/packages/46/60/df9076b6f079950a0f256e7001662cb0a3bd16b48123a40bfb0bdbe4a390/ragelo-0.1.2.tar.gz
+[2024-05-31 12:08:58] INFO root fetch - processPackages [sorpus]: Downloading https://files.pythonhosted.org/packages/94/d3/4f4e945c90d6503fb9440eba9f0ea90e92b0b0e70aefe79acb7cd363165a/sorpus-0.0.1.post1.tar.gz
+[2024-05-31 12:08:58] INFO root fetch - processPackages [sensorialytics]: Downloading https://files.pythonhosted.org/packages/01/0b/fe9bd377ee2dc4d699439879437aba2d91f0d5aac5297cae21b751a7dc8c/sensorialytics-1.0.9.tar.gz
+[2024-05-31 12:08:58] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-05-31 12:08:58] INFO root fetch - processPackages [pytroll-db]: Downloading https://files.pythonhosted.org/packages/41/fd/35750b7a3c4cbfca2b0edd61ce7f49c9233c8d2ab7956b900a0614e7eccc/pytroll_db-0.3.0.tar.gz
+[2024-05-31 12:08:58] INFO root fetch - processPackages [sorpus]: executing diffoscope
+[2024-05-31 12:08:58] INFO root fetch - processPackages [sorpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sorpus-0.0.1.tar.gz tmp/sorpus-0.0.1.post1.tar.gz --markdown 20240531/s/sorpus/0.0.1-0.0.1.post1/README.md --exclude *.pyd
+[2024-05-31 12:08:58] INFO root fetch - processPackages [ragelo]: executing diffoscope
+[2024-05-31 12:08:58] INFO root fetch - processPackages [ragelo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragelo-0.1.1.tar.gz tmp/ragelo-0.1.2.tar.gz --markdown 20240531/r/ragelo/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 12:08:58] INFO root fetch - processPackages [sensorialytics]: executing diffoscope
+[2024-05-31 12:08:58] INFO root fetch - processPackages [sensorialytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensorialytics-1.0.8.tar.gz tmp/sensorialytics-1.0.9.tar.gz --markdown 20240531/s/sensorialytics/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 12:08:58] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-05-31 12:08:58] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240531/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-05-31 12:08:58] INFO root fetch - processPackages [pytroll-db]: executing diffoscope
+[2024-05-31 12:08:58] INFO root fetch - processPackages [pytroll-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytroll_db-0.2.0.tar.gz tmp/pytroll_db-0.3.0.tar.gz --markdown 20240531/p/pytroll-db/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-31 12:08:58] INFO root fetch - processPackages [captacity]: Remove: archive file [/home/abi/fetcher/tmp/captacity-0.1.0.tar.gz]
+[2024-05-31 12:08:58] INFO root fetch - processPackages [captacity]: Remove: archive file [/home/abi/fetcher/tmp/captacity-0.1.1-py3-none-any.whl.zip]
+[2024-05-31 12:08:58] INFO root fetch - main [MainThread]: End processing [captacity]: success
+[2024-05-31 12:08:59] INFO root fetch - processPackages [sorpus]: Remove: archive file [/home/abi/fetcher/tmp/sorpus-0.0.1.tar.gz]
+[2024-05-31 12:08:59] INFO root fetch - processPackages [sorpus]: Remove: archive file [/home/abi/fetcher/tmp/sorpus-0.0.1.post1.tar.gz]
+[2024-05-31 12:08:59] INFO root fetch - main [MainThread]: End processing [sorpus]: success
+[2024-05-31 12:08:59] INFO root fetch - processPackages [sensorialytics]: Remove: archive file [/home/abi/fetcher/tmp/sensorialytics-1.0.8.tar.gz]
+[2024-05-31 12:08:59] INFO root fetch - processPackages [sensorialytics]: Remove: archive file [/home/abi/fetcher/tmp/sensorialytics-1.0.9.tar.gz]
+[2024-05-31 12:08:59] INFO root fetch - main [MainThread]: End processing [sensorialytics]: success
+[2024-05-31 12:08:59] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-05-31 12:08:59] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-05-31 12:08:59] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-05-31 12:08:59] INFO root fetch - processPackages [ragelo]: Remove: archive file [/home/abi/fetcher/tmp/ragelo-0.1.1.tar.gz]
+[2024-05-31 12:08:59] INFO root fetch - processPackages [ragelo]: Remove: archive file [/home/abi/fetcher/tmp/ragelo-0.1.2.tar.gz]
+[2024-05-31 12:08:59] INFO root fetch - main [MainThread]: End processing [ragelo]: success
+[2024-05-31 12:08:59] INFO root fetch - processPackages [pytroll-db]: Remove: archive file [/home/abi/fetcher/tmp/pytroll_db-0.2.0.tar.gz]
+[2024-05-31 12:08:59] INFO root fetch - processPackages [pytroll-db]: Remove: archive file [/home/abi/fetcher/tmp/pytroll_db-0.3.0.tar.gz]
+[2024-05-31 12:08:59] INFO root fetch - main [MainThread]: End processing [pytroll-db]: success
+[2024-05-31 12:08:59] INFO root fetch - main [MainThread]: Store serial: [23463953]
