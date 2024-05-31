@@ -7526,3 +7526,47 @@
 [2024-05-31 06:56:12] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.6.tar.gz]
 [2024-05-31 06:56:12] INFO root fetch - main [MainThread]: End processing [cumo]: success
 [2024-05-31 06:56:12] INFO root fetch - main [MainThread]: Store serial: [23460516]
+[2024-05-31 06:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460516]
+[2024-05-31 06:58:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 06:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-agent-openai
+[2024-05-31 06:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GPTPlugins4All
+[2024-05-31 06:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySimultan
+[2024-05-31 06:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-llms-gemini
+[2024-05-31 06:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-synapse
+[2024-05-31 06:58:20] INFO root fetch - processPackages [GPTPlugins4All]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 06:58:20] INFO root fetch - processPackages [PySimultan]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-31 06:58:20] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/5a/b5/97b0775cb4c951d2872d6c4e33db266a0dba4dc2207a3dbac7ed55f6b995/GPTPlugins4All-1.0.8.tar.gz
+[2024-05-31 06:58:20] INFO root fetch - processPackages [dbt-synapse]: New version: [1.8.0rc3] Old Version: [1.8.0rc2]
+[2024-05-31 06:58:20] INFO root fetch - processPackages [llama-index-agent-openai]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-31 06:58:20] INFO root fetch - processPackages [llama-index-llms-gemini]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 06:58:21] INFO root fetch - processPackages [PySimultan]: Downloading https://files.pythonhosted.org/packages/f1/ee/a6ba23576066ca0dd8ea816b87f67a5cb87bbab359b501bc94d6b172f114/pysimultan-0.2.6.tar.gz
+[2024-05-31 06:58:21] WARNING root fetch - processPackages [PySimultan]: Skipping package: exceeds size limit 12483794>=10485760
+[2024-05-31 06:58:21] INFO root fetch - main [MainThread]: End processing [PySimultan] error
+[2024-05-31 06:58:21] INFO root fetch - processPackages [dbt-synapse]: Downloading https://files.pythonhosted.org/packages/93/7c/f3cb6758bc0ea10d16369031a433423ec61ad6d1c652a49bdf8dd43653df/dbt-synapse-1.8.0rc2.tar.gz
+[2024-05-31 06:58:21] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/fb/16/af06befd4a411c5c48cd6f713bca08893d0e33bde8c93250203608d1ef03/GPTPlugins4All-1.0.9.tar.gz
+[2024-05-31 06:58:21] INFO root fetch - processPackages [llama-index-llms-gemini]: Downloading https://files.pythonhosted.org/packages/0a/cd/6807aab66a41703b30f89f39ccadb5409751c7a91236e9e2a856027e5f89/llama_index_llms_gemini-0.1.8.tar.gz
+[2024-05-31 06:58:21] INFO root fetch - processPackages [llama-index-agent-openai]: Downloading https://files.pythonhosted.org/packages/00/23/e417390dca5ace022addaf867ca27659abfb3a4e5686c2b30f1778c30318/llama_index_agent_openai-0.2.5.tar.gz
+[2024-05-31 06:58:21] INFO root fetch - processPackages [GPTPlugins4All]: executing diffoscope
+[2024-05-31 06:58:21] INFO root fetch - processPackages [GPTPlugins4All]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTPlugins4All-1.0.8.tar.gz tmp/GPTPlugins4All-1.0.9.tar.gz --markdown 20240531/G/GPTPlugins4All/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 06:58:21] INFO root fetch - processPackages [dbt-synapse]: Downloading https://files.pythonhosted.org/packages/bb/2e/536a17b909afb095ba431b0ae0ac01f743bff6f1a9d7178f049c9fdbf119/dbt_synapse-1.8.0rc3.tar.gz
+[2024-05-31 06:58:21] INFO root fetch - processPackages [llama-index-agent-openai]: Downloading https://files.pythonhosted.org/packages/c8/71/6f9951f320d8285d0fdcea29efee21c90fba62ad7a659e0443e7ef3d00a5/llama_index_agent_openai-0.2.6.tar.gz
+[2024-05-31 06:58:21] INFO root fetch - processPackages [llama-index-llms-gemini]: Downloading https://files.pythonhosted.org/packages/44/4a/8df8a6011ef900023198111df1d37dedd4f6f84111e59e1662118db984cf/llama_index_llms_gemini-0.1.9-py3-none-any.whl
+[2024-05-31 06:58:21] INFO root fetch - processPackages [dbt-synapse]: executing diffoscope
+[2024-05-31 06:58:21] INFO root fetch - processPackages [dbt-synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-synapse-1.8.0rc2.tar.gz tmp/dbt_synapse-1.8.0rc3.tar.gz --markdown 20240531/d/dbt-synapse/1.8.0rc2-1.8.0rc3/README.md --exclude *.pyd
+[2024-05-31 06:58:21] INFO root fetch - processPackages [llama-index-agent-openai]: executing diffoscope
+[2024-05-31 06:58:21] INFO root fetch - processPackages [llama-index-agent-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_agent_openai-0.2.5.tar.gz tmp/llama_index_agent_openai-0.2.6.tar.gz --markdown 20240531/l/llama-index-agent-openai/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-31 06:58:21] INFO root fetch - processPackages [llama-index-llms-gemini]: executing diffoscope
+[2024-05-31 06:58:21] INFO root fetch - processPackages [llama-index-llms-gemini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_llms_gemini-0.1.8.tar.gz tmp/llama_index_llms_gemini-0.1.9-py3-none-any.whl.zip --markdown 20240531/l/llama-index-llms-gemini/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 06:58:21] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.8.tar.gz]
+[2024-05-31 06:58:21] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
+[2024-05-31 06:58:21] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
+[2024-05-31 06:58:22] INFO root fetch - processPackages [llama-index-agent-openai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_agent_openai-0.2.5.tar.gz]
+[2024-05-31 06:58:22] INFO root fetch - processPackages [llama-index-agent-openai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_agent_openai-0.2.6.tar.gz]
+[2024-05-31 06:58:22] INFO root fetch - main [MainThread]: End processing [llama-index-agent-openai]: success
+[2024-05-31 06:58:22] INFO root fetch - processPackages [llama-index-llms-gemini]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_gemini-0.1.8.tar.gz]
+[2024-05-31 06:58:22] INFO root fetch - processPackages [llama-index-llms-gemini]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_gemini-0.1.9-py3-none-any.whl.zip]
+[2024-05-31 06:58:22] INFO root fetch - main [MainThread]: End processing [llama-index-llms-gemini]: success
+[2024-05-31 06:58:22] INFO root fetch - processPackages [dbt-synapse]: Remove: archive file [/home/abi/fetcher/tmp/dbt-synapse-1.8.0rc2.tar.gz]
+[2024-05-31 06:58:22] INFO root fetch - processPackages [dbt-synapse]: Remove: archive file [/home/abi/fetcher/tmp/dbt_synapse-1.8.0rc3.tar.gz]
+[2024-05-31 06:58:22] INFO root fetch - main [MainThread]: End processing [dbt-synapse]: success
+[2024-05-31 06:58:22] INFO root fetch - main [MainThread]: Store serial: [23460532]
