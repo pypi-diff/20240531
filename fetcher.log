@@ -15042,3 +15042,66 @@
 [2024-05-31 12:22:26] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.9.tar.gz]
 [2024-05-31 12:22:26] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-05-31 12:22:26] INFO root fetch - main [MainThread]: Store serial: [23464106]
+[2024-05-31 12:24:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464106]
+[2024-05-31 12:24:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 12:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lindi
+[2024-05-31 12:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphene-django-query-optimizer
+[2024-05-31 12:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bbo-labelgui
+[2024-05-31 12:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libreflow.extensions.anpo.import-files
+[2024-05-31 12:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finbourne-horizon-sdk
+[2024-05-31 12:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: harlequin-databend
+[2024-05-31 12:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: booking-copilot-client
+[2024-05-31 12:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepega
+[2024-05-31 12:24:36] INFO root fetch - processPackages [harlequin-databend]: New version: [0.1.2] Old Version: [0.1.17]
+[2024-05-31 12:24:36] INFO root fetch - processPackages [lindi]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 12:24:36] INFO root fetch - processPackages [graphene-django-query-optimizer]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-31 12:24:36] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 12:24:36] INFO root fetch - processPackages [bbo-labelgui]: New version: [0.16.0] Old Version: [0.15.2]
+[2024-05-31 12:24:36] INFO root fetch - processPackages [libreflow.extensions.anpo.import-files]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-31 12:24:36] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/01/3a/2b3894eb3ba10c7212a2b34f66a761bbf55511c5406da6cc9671343148b1/lindi-0.3.8.tar.gz
+[2024-05-31 12:24:36] WARNING root fetch - processPackages [booking-copilot-client]: Skipping, unable to determine old version
+[2024-05-31 12:24:36] INFO root fetch - main [MainThread]: End processing [booking-copilot-client] error
+[2024-05-31 12:24:36] WARNING root fetch - processPackages [pepega]: Skipping, unable to determine old version
+[2024-05-31 12:24:36] INFO root fetch - main [MainThread]: End processing [pepega] error
+[2024-05-31 12:24:36] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/2a/5b/6bed0d6b53a2f6138dcf627dea54ba957608c242f3153a346160838ce485/graphene_django_query_optimizer-0.7.0.tar.gz
+[2024-05-31 12:24:36] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-31 12:24:36] INFO root fetch - processPackages [harlequin-databend]: Downloading https://files.pythonhosted.org/packages/9e/53/8d4a5e5662934ca076ed9ce644dfe4da15fd96d1e62092124e29a99ac016/harlequin_databend-0.1.17.tar.gz
+[2024-05-31 12:24:36] INFO root fetch - processPackages [bbo-labelgui]: Downloading https://files.pythonhosted.org/packages/aa/c4/71698d5aebb5bae0fc68ec6d9b8df8c1cc85b78cfd94258ca5d1bdb7f20b/bbo-labelgui-0.15.2.tar.gz
+[2024-05-31 12:24:36] INFO root fetch - processPackages [libreflow.extensions.anpo.import-files]: Downloading https://files.pythonhosted.org/packages/be/19/77820c28a7c0226b9ad48543ba7f7c932ffab20d6a6a82fb1d9153acc1af/libreflow_extensions_anpo_import_files-1.0.1.tar.gz
+[2024-05-31 12:24:36] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/26/a9/ffb8586375c995f9f33314da1c95c7fdd72eca33c29c1fa3bc77eff4757a/lindi-0.3.9.tar.gz
+[2024-05-31 12:24:36] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-31 12:24:36] INFO root fetch - processPackages [harlequin-databend]: Downloading https://files.pythonhosted.org/packages/50/80/eff72de27ba8401cde7f7fe9a27f342c7ccc53d681ff221337ea304b34b3/harlequin_databend-0.1.2.tar.gz
+[2024-05-31 12:24:36] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/1c/38/cf6daad6d1db063548d2cb835c1ce0c86c80a1a00c8ec7f94fd345bdb40b/graphene_django_query_optimizer-0.7.1.tar.gz
+[2024-05-31 12:24:37] INFO root fetch - processPackages [lindi]: executing diffoscope
+[2024-05-31 12:24:37] INFO root fetch - processPackages [lindi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lindi-0.3.8.tar.gz tmp/lindi-0.3.9.tar.gz --markdown 20240531/l/lindi/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 12:24:37] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-31 12:24:37] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240531/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 12:24:37] INFO root fetch - processPackages [harlequin-databend]: executing diffoscope
+[2024-05-31 12:24:37] INFO root fetch - processPackages [harlequin-databend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin_databend-0.1.17.tar.gz tmp/harlequin_databend-0.1.2.tar.gz --markdown 20240531/h/harlequin-databend/0.1.17-0.1.2/README.md --exclude *.pyd
+[2024-05-31 12:24:37] INFO root fetch - processPackages [graphene-django-query-optimizer]: executing diffoscope
+[2024-05-31 12:24:37] INFO root fetch - processPackages [graphene-django-query-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_query_optimizer-0.7.0.tar.gz tmp/graphene_django_query_optimizer-0.7.1.tar.gz --markdown 20240531/g/graphene-django-query-optimizer/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-31 12:24:37] INFO root fetch - processPackages [bbo-labelgui]: Downloading https://files.pythonhosted.org/packages/c1/64/e15e5a1b216eadd6f901960122f7764a6f02b1a5fa24ebd39eff136fa6e5/bbo-labelgui-0.16.0.tar.gz
+[2024-05-31 12:24:37] INFO root fetch - processPackages [libreflow.extensions.anpo.import-files]: Downloading https://files.pythonhosted.org/packages/6d/f9/e4eb6d7723d62b856a0c05333eb6616850e373d026f3c196f4c06cb2d326/libreflow_extensions_anpo_import_files-1.0.2.tar.gz
+[2024-05-31 12:24:37] INFO root fetch - processPackages [libreflow.extensions.anpo.import-files]: executing diffoscope
+[2024-05-31 12:24:37] INFO root fetch - processPackages [libreflow.extensions.anpo.import-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreflow_extensions_anpo_import_files-1.0.1.tar.gz tmp/libreflow_extensions_anpo_import_files-1.0.2.tar.gz --markdown 20240531/l/libreflow.extensions.anpo.import-files/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-31 12:24:37] INFO root fetch - processPackages [bbo-labelgui]: executing diffoscope
+[2024-05-31 12:24:37] INFO root fetch - processPackages [bbo-labelgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbo-labelgui-0.15.2.tar.gz tmp/bbo-labelgui-0.16.0.tar.gz --markdown 20240531/b/bbo-labelgui/0.15.2-0.16.0/README.md --exclude *.pyd
+[2024-05-31 12:24:37] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.8.tar.gz]
+[2024-05-31 12:24:37] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.9.tar.gz]
+[2024-05-31 12:24:37] INFO root fetch - main [MainThread]: End processing [lindi]: success
+[2024-05-31 12:24:37] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.7.0.tar.gz]
+[2024-05-31 12:24:37] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.7.1.tar.gz]
+[2024-05-31 12:24:37] INFO root fetch - main [MainThread]: End processing [graphene-django-query-optimizer]: success
+[2024-05-31 12:24:37] INFO root fetch - processPackages [harlequin-databend]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_databend-0.1.17.tar.gz]
+[2024-05-31 12:24:37] INFO root fetch - processPackages [harlequin-databend]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_databend-0.1.2.tar.gz]
+[2024-05-31 12:24:37] INFO root fetch - main [MainThread]: End processing [harlequin-databend]: success
+[2024-05-31 12:24:38] INFO root fetch - processPackages [bbo-labelgui]: Remove: archive file [/home/abi/fetcher/tmp/bbo-labelgui-0.15.2.tar.gz]
+[2024-05-31 12:24:38] INFO root fetch - processPackages [bbo-labelgui]: Remove: archive file [/home/abi/fetcher/tmp/bbo-labelgui-0.16.0.tar.gz]
+[2024-05-31 12:24:38] INFO root fetch - main [MainThread]: End processing [bbo-labelgui]: success
+[2024-05-31 12:24:38] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-31 12:24:38] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-31 12:24:38] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-31 12:24:38] INFO root fetch - processPackages [libreflow.extensions.anpo.import-files]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_extensions_anpo_import_files-1.0.1.tar.gz]
+[2024-05-31 12:24:38] INFO root fetch - processPackages [libreflow.extensions.anpo.import-files]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_extensions_anpo_import_files-1.0.2.tar.gz]
+[2024-05-31 12:24:38] INFO root fetch - main [MainThread]: End processing [libreflow.extensions.anpo.import-files]: success
+[2024-05-31 12:24:38] INFO root fetch - main [MainThread]: Store serial: [23464137]
