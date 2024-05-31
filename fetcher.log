@@ -23835,3 +23835,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:32:55] INFO root fetch - processPackages [osu.py]: Remove: archive file [/home/abi/fetcher/tmp/osu_py-2.1.0.tar.gz]
 [2024-05-31 17:32:55] INFO root fetch - main [MainThread]: End processing [osu.py]: success
 [2024-05-31 17:32:55] INFO root fetch - main [MainThread]: Store serial: [23468105]
+[2024-05-31 17:34:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23468105]
+[2024-05-31 17:35:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 17:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scraibe-webui
+[2024-05-31 17:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aac
+[2024-05-31 17:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MaaDebugger
+[2024-05-31 17:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fmbench
+[2024-05-31 17:35:03] INFO root fetch - processPackages [fmbench]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 17:35:03] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/12/ff/7ccc41c0fab7fb2a7b7db448775887d29837bdaabdb47265fcd435e8eb35/fmbench-1.0.8.tar.gz
+[2024-05-31 17:35:03] INFO root fetch - processPackages [MaaDebugger]: New version: [1.2.0] Old Version: [1.1.0b2]
+[2024-05-31 17:35:03] WARNING root fetch - processPackages [scraibe-webui]: Skipping, unable to determine old version
+[2024-05-31 17:35:03] INFO root fetch - main [MainThread]: End processing [scraibe-webui] error
+[2024-05-31 17:35:03] INFO root fetch - processPackages [aac]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-31 17:35:04] INFO root fetch - processPackages [aac]: Downloading https://files.pythonhosted.org/packages/7e/aa/6a99fbdacdd461c10559b4c8b3d27ee58b8f5419271ff5a45c320d33adc8/aac-0.4.7-py3-none-any.whl
+[2024-05-31 17:35:04] INFO root fetch - processPackages [fmbench]: Downloading https://files.pythonhosted.org/packages/84/ee/d5b3731e328488d9664f215a9cdceeb188cdf6dd2c19b5f99a6a59daa9e4/fmbench-1.0.9.tar.gz
+[2024-05-31 17:35:04] INFO root fetch - processPackages [MaaDebugger]: Downloading https://files.pythonhosted.org/packages/6b/0c/5313b7055d2e23b1956f1229524b4e41308c1ed4cab850ad78d4d157b3a7/maadebugger-1.1.0b2.tar.gz
+[2024-05-31 17:35:04] INFO root fetch - processPackages [fmbench]: executing diffoscope
+[2024-05-31 17:35:04] INFO root fetch - processPackages [fmbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmbench-1.0.8.tar.gz tmp/fmbench-1.0.9.tar.gz --markdown 20240531/f/fmbench/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 17:35:04] INFO root fetch - processPackages [aac]: Downloading https://files.pythonhosted.org/packages/6d/43/3a1f2fb4d913162ee3db62078d3a6bea174fa8a022a1bf8ac6a9c02ea119/aac-0.4.8-py3-none-any.whl
+[2024-05-31 17:35:04] INFO root fetch - processPackages [MaaDebugger]: Downloading https://files.pythonhosted.org/packages/c6/9e/33e711a01fe3fd39ec9b0a20d28bfd3fea73f4d8be495e79f7803a2042b9/maadebugger-1.2.0.tar.gz
+[2024-05-31 17:35:04] INFO root fetch - processPackages [aac]: executing diffoscope
+[2024-05-31 17:35:04] INFO root fetch - processPackages [aac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aac-0.4.7-py3-none-any.whl.zip tmp/aac-0.4.8-py3-none-any.whl.zip --markdown 20240531/a/aac/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-31 17:35:04] INFO root fetch - processPackages [MaaDebugger]: executing diffoscope
+[2024-05-31 17:35:04] INFO root fetch - processPackages [MaaDebugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadebugger-1.1.0b2.tar.gz tmp/maadebugger-1.2.0.tar.gz --markdown 20240531/M/MaaDebugger/1.1.0b2-1.2.0/README.md --exclude *.pyd
+[2024-05-31 17:35:05] INFO root fetch - processPackages [MaaDebugger]: Remove: archive file [/home/abi/fetcher/tmp/maadebugger-1.1.0b2.tar.gz]
+[2024-05-31 17:35:05] INFO root fetch - processPackages [MaaDebugger]: Remove: archive file [/home/abi/fetcher/tmp/maadebugger-1.2.0.tar.gz]
+[2024-05-31 17:35:05] INFO root fetch - main [MainThread]: End processing [MaaDebugger]: success
+[2024-05-31 17:35:05] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.8.tar.gz]
+[2024-05-31 17:35:05] INFO root fetch - processPackages [fmbench]: Remove: archive file [/home/abi/fetcher/tmp/fmbench-1.0.9.tar.gz]
+[2024-05-31 17:35:05] INFO root fetch - main [MainThread]: End processing [fmbench]: success
+[2024-05-31 17:35:05] INFO root fetch - processPackages [aac]: Remove: archive file [/home/abi/fetcher/tmp/aac-0.4.7-py3-none-any.whl.zip]
+[2024-05-31 17:35:05] INFO root fetch - processPackages [aac]: Remove: archive file [/home/abi/fetcher/tmp/aac-0.4.8-py3-none-any.whl.zip]
+[2024-05-31 17:35:05] INFO root fetch - main [MainThread]: End processing [aac]: success
+[2024-05-31 17:35:05] INFO root fetch - main [MainThread]: Store serial: [23468123]
