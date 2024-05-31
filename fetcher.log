@@ -17967,3 +17967,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:12:53] INFO root fetch - processPackages [metldata]: Remove: archive file [/home/abi/fetcher/tmp/metldata-1.3.0.tar.gz]
 [2024-05-31 14:12:53] INFO root fetch - main [MainThread]: End processing [metldata]: success
 [2024-05-31 14:12:53] INFO root fetch - main [MainThread]: Store serial: [23465364]
+[2024-05-31 14:14:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465364]
+[2024-05-31 14:15:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 14:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-neat
+[2024-05-31 14:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cldfgeojson
+[2024-05-31 14:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tersel
+[2024-05-31 14:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zenml-nightly
+[2024-05-31 14:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talia
+[2024-05-31 14:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sklearn-smithy
+[2024-05-31 14:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-28
+[2024-05-31 14:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-image
+[2024-05-31 14:15:03] INFO root fetch - processPackages [cognite-neat]: New version: [0.78.1] Old Version: [0.78.0]
+[2024-05-31 14:15:03] INFO root fetch - processPackages [sklearn-smithy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 14:15:03] INFO root fetch - processPackages [cldfgeojson]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-31 14:15:03] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/0b/32/825c4b129ecd97849266f06f6453a6ea088e350026a8cbe36c5afa4b4696/cognite_neat-0.78.0.tar.gz
+[2024-05-31 14:15:03] INFO root fetch - processPackages [zenml-nightly]: New version: [0.58.0.dev20240531] Old Version: [0.58.0.dev20240530]
+[2024-05-31 14:15:03] INFO root fetch - processPackages [tersel]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 14:15:03] INFO root fetch - processPackages [sklearn-smithy]: Downloading https://files.pythonhosted.org/packages/53/13/8fa4e307644a2fbbe113a560b3499bd3912ffe0476e140cf6e004c3bc8a6/sklearn_smithy-0.0.4.tar.gz
+[2024-05-31 14:15:03] WARNING root fetch - processPackages [talia]: Skipping, unable to determine old version
+[2024-05-31 14:15:03] INFO root fetch - main [MainThread]: End processing [talia] error
+[2024-05-31 14:15:03] INFO root fetch - processPackages [cdk8s-plus-28]: New version: [2.3.5] Old Version: [2.3.4]
+[2024-05-31 14:15:03] INFO root fetch - processPackages [cldfgeojson]: Downloading https://files.pythonhosted.org/packages/80/1f/defc1342e8aac0645904aede1301f1ba876a5b0f9ce6ab1ae71f167d608e/cldfgeojson-0.2.0.tar.gz
+[2024-05-31 14:15:03] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-31 14:15:03] INFO root fetch - processPackages [sklearn-smithy]: Downloading https://files.pythonhosted.org/packages/92/af/40091e4e87498f32748bf180edb550373ea5bb5b164ac087aae0fff8749f/sklearn_smithy-0.0.5.tar.gz
+[2024-05-31 14:15:03] INFO root fetch - processPackages [zenml-nightly]: Downloading https://files.pythonhosted.org/packages/df/1a/eeb13e7b63c8711bf3cc5651aa5818fcaf0a8e24ec87cb465868b82645aa/zenml_nightly-0.58.0.dev20240530.tar.gz
+[2024-05-31 14:15:03] INFO root fetch - processPackages [tersel]: Downloading https://files.pythonhosted.org/packages/d6/ff/0c13b8fdc6cf3871581df91df12e390e5ef07327d562e5890012379a5466/tersel-0.0.2.tar.gz
+[2024-05-31 14:15:03] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/29/48/753e7cbecd431c137bd7a4857fcd735203940f6995ebab15cd97f3d51c2b/cdk8s-plus-28-2.3.4.tar.gz
+[2024-05-31 14:15:03] INFO root fetch - processPackages [sklearn-smithy]: executing diffoscope
+[2024-05-31 14:15:03] INFO root fetch - processPackages [sklearn-smithy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_smithy-0.0.4.tar.gz tmp/sklearn_smithy-0.0.5.tar.gz --markdown 20240531/s/sklearn-smithy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/00/49/54ebfb5d91206a527f258ab7eb5a766a7c795638d6c303abcf36af3e5ad0/cognite_neat-0.78.1.tar.gz
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cldfgeojson]: Downloading https://files.pythonhosted.org/packages/e8/05/2cf3c7db4b4d48260e7a9f024cc008572e7fac1858c6867f84557e404191/cldfgeojson-0.2.1.tar.gz
+[2024-05-31 14:15:04] INFO root fetch - processPackages [tersel]: Downloading https://files.pythonhosted.org/packages/d8/60/5bca5774c51fd186bf314fea4622a569dc7748580b654f1741c4e9cc3dc9/tersel-0.0.3.tar.gz
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cldfgeojson]: executing diffoscope
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cldfgeojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cldfgeojson-0.2.0.tar.gz tmp/cldfgeojson-0.2.1.tar.gz --markdown 20240531/c/cldfgeojson/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-31 14:15:04] INFO root fetch - processPackages [tersel]: executing diffoscope
+[2024-05-31 14:15:04] INFO root fetch - processPackages [tersel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tersel-0.0.2.tar.gz tmp/tersel-0.0.3.tar.gz --markdown 20240531/t/tersel/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.78.0.tar.gz tmp/cognite_neat-0.78.1.tar.gz --markdown 20240531/c/cognite-neat/0.78.0-0.78.1/README.md --exclude *.pyd
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2024-05-31 14:15:04] INFO root fetch - processPackages [zenml-nightly]: Downloading https://files.pythonhosted.org/packages/e2/be/3a314860e1a578f6eaacfbeb21c4a03d55e0a26e74aeb1bceb7499fa4483/zenml_nightly-0.58.0.dev20240531.tar.gz
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cdk8s-plus-28]: Downloading https://files.pythonhosted.org/packages/8b/f0/7357c20ca8710d9a414836c8890c712d15748a2c9955b20b32b6be1a3da2/cdk8s-plus-28-2.3.5.tar.gz
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20240531/c/cdk8s-image/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-31 14:15:04] INFO root fetch - processPackages [sklearn-smithy]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_smithy-0.0.4.tar.gz]
+[2024-05-31 14:15:04] INFO root fetch - processPackages [sklearn-smithy]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_smithy-0.0.5.tar.gz]
+[2024-05-31 14:15:04] INFO root fetch - main [MainThread]: End processing [sklearn-smithy]: success
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cldfgeojson]: Remove: archive file [/home/abi/fetcher/tmp/cldfgeojson-0.2.0.tar.gz]
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cldfgeojson]: Remove: archive file [/home/abi/fetcher/tmp/cldfgeojson-0.2.1.tar.gz]
+[2024-05-31 14:15:04] INFO root fetch - main [MainThread]: End processing [cldfgeojson]: success
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cdk8s-plus-28]: executing diffoscope
+[2024-05-31 14:15:04] INFO root fetch - processPackages [cdk8s-plus-28]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-28-2.3.4.tar.gz tmp/cdk8s-plus-28-2.3.5.tar.gz --markdown 20240531/c/cdk8s-plus-28/2.3.4-2.3.5/README.md --exclude *.pyd
+[2024-05-31 14:15:04] INFO root fetch - processPackages [tersel]: Remove: archive file [/home/abi/fetcher/tmp/tersel-0.0.2.tar.gz]
+[2024-05-31 14:15:04] INFO root fetch - processPackages [tersel]: Remove: archive file [/home/abi/fetcher/tmp/tersel-0.0.3.tar.gz]
+[2024-05-31 14:15:04] INFO root fetch - main [MainThread]: End processing [tersel]: success
+[2024-05-31 14:15:05] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2024-05-31 14:15:05] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2024-05-31 14:15:05] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2024-05-31 14:15:05] INFO root fetch - processPackages [zenml-nightly]: executing diffoscope
+[2024-05-31 14:15:05] INFO root fetch - processPackages [zenml-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenml_nightly-0.58.0.dev20240530.tar.gz tmp/zenml_nightly-0.58.0.dev20240531.tar.gz --markdown 20240531/z/zenml-nightly/0.58.0.dev20240530-0.58.0.dev20240531/README.md --exclude *.pyd
+[2024-05-31 14:15:05] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.3.4.tar.gz]
+[2024-05-31 14:15:05] INFO root fetch - processPackages [cdk8s-plus-28]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-28-2.3.5.tar.gz]
+[2024-05-31 14:15:05] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-28]: success
+[2024-05-31 14:15:08] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.78.0.tar.gz]
+[2024-05-31 14:15:08] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.78.1.tar.gz]
+[2024-05-31 14:15:08] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-05-31 14:15:11] INFO root fetch - processPackages [zenml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/zenml_nightly-0.58.0.dev20240530.tar.gz]
+[2024-05-31 14:15:11] INFO root fetch - processPackages [zenml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/zenml_nightly-0.58.0.dev20240531.tar.gz]
+[2024-05-31 14:15:11] INFO root fetch - main [MainThread]: End processing [zenml-nightly]: success
+[2024-05-31 14:15:11] INFO root fetch - main [MainThread]: Store serial: [23465395]
