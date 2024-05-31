@@ -13263,3 +13263,42 @@
 [2024-05-31 11:15:42] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
 [2024-05-31 11:15:42] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-31 11:15:42] INFO root fetch - main [MainThread]: Store serial: [23463266]
+[2024-05-31 11:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463266]
+[2024-05-31 11:17:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-31 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatgpt-klient
+[2024-05-31 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wirepas-mqtt-library
+[2024-05-31 11:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acetone-nnet
+[2024-05-31 11:17:51] INFO root fetch - processPackages [acetone-nnet]: New version: [0.3.2.dev2] Old Version: [0.3.2.dev1]
+[2024-05-31 11:17:52] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-31 11:17:52] INFO root fetch - processPackages [wirepas-mqtt-library]: New version: [1.2rc2] Old Version: [1.2rc1]
+[2024-05-31 11:17:52] INFO root fetch - processPackages [chatgpt-klient]: New version: [0.7.2] Old Version: [0.6.1]
+[2024-05-31 11:17:52] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/59/f1/29cf98fb7c923a572d2bfdad7b476f9920fdd330d4e19fbb792217d1c41c/acetone_nnet-0.3.2.dev1.tar.gz
+[2024-05-31 11:17:52] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-31 11:17:52] INFO root fetch - processPackages [wirepas-mqtt-library]: Downloading https://files.pythonhosted.org/packages/e1/be/3adea6a2e4c27425b74839c78a426367e3f2066b2e9062f0106908f224fa/wirepas_mqtt_library-1.2rc1.tar.gz
+[2024-05-31 11:17:52] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/ac/4f/91ca6586519a8fee93cec7cb4f02e8a3c21e1cd18dc0a50488cadfdba4ff/chatgpt_klient-0.6.1.tar.gz
+[2024-05-31 11:17:52] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-31 11:17:52] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/9e/4b/671381fd984433df480f74c332600de7761eb469c5a92798dc5f5bdfacdc/acetone_nnet-0.3.2.dev2.tar.gz
+[2024-05-31 11:17:52] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-31 11:17:52] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240531/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-31 11:17:52] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-05-31 11:17:52] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.3.2.dev1.tar.gz tmp/acetone_nnet-0.3.2.dev2.tar.gz --markdown 20240531/a/acetone-nnet/0.3.2.dev1-0.3.2.dev2/README.md --exclude *.pyd
+[2024-05-31 11:17:52] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/52/18/c58ca4e0f500a27b850231fa8670bd460a799b21f5b455aa9c6b0cbc8a01/chatgpt_klient-0.7.2.tar.gz
+[2024-05-31 11:17:52] INFO root fetch - processPackages [chatgpt-klient]: executing diffoscope
+[2024-05-31 11:17:52] INFO root fetch - processPackages [chatgpt-klient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_klient-0.6.1.tar.gz tmp/chatgpt_klient-0.7.2.tar.gz --markdown 20240531/c/chatgpt-klient/0.6.1-0.7.2/README.md --exclude *.pyd
+[2024-05-31 11:17:53] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-31 11:17:53] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-31 11:17:53] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-31 11:17:53] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_klient-0.6.1.tar.gz]
+[2024-05-31 11:17:53] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_klient-0.7.2.tar.gz]
+[2024-05-31 11:17:53] INFO root fetch - main [MainThread]: End processing [chatgpt-klient]: success
+[2024-05-31 11:17:53] INFO root fetch - processPackages [wirepas-mqtt-library]: Downloading https://files.pythonhosted.org/packages/9c/a1/569efdcdb7809ba4f384901caa1b54930faa9657bddfa9d3a13dd1a4f5e9/wirepas_mqtt_library-1.2rc2.tar.gz
+[2024-05-31 11:17:53] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.2.dev1.tar.gz]
+[2024-05-31 11:17:53] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.2.dev2.tar.gz]
+[2024-05-31 11:17:53] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-05-31 11:17:53] INFO root fetch - processPackages [wirepas-mqtt-library]: executing diffoscope
+[2024-05-31 11:17:53] INFO root fetch - processPackages [wirepas-mqtt-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wirepas_mqtt_library-1.2rc1.tar.gz tmp/wirepas_mqtt_library-1.2rc2.tar.gz --markdown 20240531/w/wirepas-mqtt-library/1.2rc1-1.2rc2/README.md --exclude *.pyd
+[2024-05-31 11:17:53] INFO root fetch - processPackages [wirepas-mqtt-library]: Remove: archive file [/home/abi/fetcher/tmp/wirepas_mqtt_library-1.2rc1.tar.gz]
+[2024-05-31 11:17:53] INFO root fetch - processPackages [wirepas-mqtt-library]: Remove: archive file [/home/abi/fetcher/tmp/wirepas_mqtt_library-1.2rc2.tar.gz]
+[2024-05-31 11:17:53] INFO root fetch - main [MainThread]: End processing [wirepas-mqtt-library]: success
+[2024-05-31 11:17:53] INFO root fetch - main [MainThread]: Store serial: [23463286]
