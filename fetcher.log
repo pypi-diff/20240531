@@ -24070,3 +24070,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:41:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405311200.tar.gz]
 [2024-05-31 17:41:40] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-31 17:41:40] INFO root fetch - main [MainThread]: Store serial: [23468196]
+[2024-05-31 17:43:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23468196]
+[2024-05-31 17:43:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 17:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2024-05-31 17:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mistralrs
+[2024-05-31 17:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2024-05-31 17:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygwalker
+[2024-05-31 17:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: etiket-client
+[2024-05-31 17:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qdrive
+[2024-05-31 17:43:50] INFO root fetch - processPackages [etiket-client]: New version: [0.2.16] Old Version: [0.2.15]
+[2024-05-31 17:43:50] INFO root fetch - processPackages [qdrive]: New version: [0.2.16] Old Version: [0.2.14]
+[2024-05-31 17:43:50] INFO root fetch - processPackages [kfish]: New version: [99.0.202405311445] Old Version: [99.0.202405310932]
+[2024-05-31 17:43:50] INFO root fetch - processPackages [kfish]: New version: [99.0.202405311445] Old Version: [99.0.202405310932]
+[2024-05-31 17:43:50] INFO root fetch - processPackages [pygwalker]: New version: [0.4.9a3] Old Version: [0.4.9a2]
+[2024-05-31 17:43:50] INFO root fetch - processPackages [mistralrs]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-31 17:43:50] INFO root fetch - processPackages [etiket-client]: Downloading https://files.pythonhosted.org/packages/32/95/456d773de35ac420641ed9c66f666a48b0afced9d43148daa985c821e2b4/etiket_client-0.2.15-py3-none-any.whl
+[2024-05-31 17:43:50] INFO root fetch - processPackages [qdrive]: Downloading https://files.pythonhosted.org/packages/b8/a0/e44fdbc66029267881839071ec29bb3de856c0ca1d824dbc91cb1df9ba04/qdrive-0.2.14-py3-none-any.whl
+[2024-05-31 17:43:50] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d8/4a/e64c69202da108537a755cb7df1ff8c9e3b8ee26cff011011cfa90eff42e/kfish-99.0.202405310932-py3-none-any.whl
+[2024-05-31 17:43:50] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d8/4a/e64c69202da108537a755cb7df1ff8c9e3b8ee26cff011011cfa90eff42e/kfish-99.0.202405310932-py3-none-any.whl
+[2024-05-31 17:43:50] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/6c/f4/22716a35132cc0405584e4709018c303605e6e9dc84207345058f125a7f8/mistralrs-0.1.7.tar.gz
+[2024-05-31 17:43:50] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/82/e5/9c0d43db55f894717c52d914ccee9febfccf54befce7a4e566ee756f9c8e/pygwalker-0.4.9a2.tar.gz
+[2024-05-31 17:43:50] INFO root fetch - processPackages [qdrive]: Downloading https://files.pythonhosted.org/packages/3c/75/306efcb7a021bf495bb50384fc23ecb80c011dd641066caf9352be5c2f5b/qdrive-0.2.16-py3-none-any.whl
+[2024-05-31 17:43:50] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/dd/d3/c2a754dfc13836da39763e14294316c37b6e31f7bb3d3597fb4ea0f2215f/kfish-99.0.202405311445-py3-none-any.whl
+[2024-05-31 17:43:50] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/dd/d3/c2a754dfc13836da39763e14294316c37b6e31f7bb3d3597fb4ea0f2215f/kfish-99.0.202405311445-py3-none-any.whl
+[2024-05-31 17:43:50] INFO root fetch - processPackages [etiket-client]: Downloading https://files.pythonhosted.org/packages/76/38/17cda53e7f0ca3a320756a66294bfa7aa379a4bea5c14e04260123340dde/etiket_client-0.2.16-py3-none-any.whl
+[2024-05-31 17:43:50] INFO root fetch - processPackages [qdrive]: executing diffoscope
+[2024-05-31 17:43:50] INFO root fetch - processPackages [qdrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdrive-0.2.14-py3-none-any.whl.zip tmp/qdrive-0.2.16-py3-none-any.whl.zip --markdown 20240531/q/qdrive/0.2.14-0.2.16/README.md --exclude *.pyd
+[2024-05-31 17:43:50] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-31 17:43:50] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405310932-py3-none-any.whl.zip tmp/kfish-99.0.202405311445-py3-none-any.whl.zip --markdown 20240531/k/kfish/99.0.202405310932-99.0.202405311445/README.md --exclude *.pyd
+[2024-05-31 17:43:50] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-31 17:43:50] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405310932-py3-none-any.whl.zip tmp/kfish-99.0.202405311445-py3-none-any.whl.zip --markdown 20240531/k/kfish/99.0.202405310932-99.0.202405311445/README.md --exclude *.pyd
+[2024-05-31 17:43:50] INFO root fetch - processPackages [etiket-client]: executing diffoscope
+[2024-05-31 17:43:50] INFO root fetch - processPackages [etiket-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etiket_client-0.2.15-py3-none-any.whl.zip tmp/etiket_client-0.2.16-py3-none-any.whl.zip --markdown 20240531/e/etiket-client/0.2.15-0.2.16/README.md --exclude *.pyd
+[2024-05-31 17:43:50] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/4b/aa/2362b3852bc98c119268e4306a1b28f9d70ec7c6286b0cb460098bd9f156/mistralrs-0.1.8.tar.gz
+[2024-05-31 17:43:50] INFO root fetch - processPackages [mistralrs]: executing diffoscope
+[2024-05-31 17:43:50] INFO root fetch - processPackages [mistralrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs-0.1.7.tar.gz tmp/mistralrs-0.1.8.tar.gz --markdown 20240531/m/mistralrs/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-31 17:43:50] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/f4/83/e04a8a041152e4eb155910dbf4cb2ce4f19db2fa28b18c71600e1146bd79/pygwalker-0.4.9a3.tar.gz
+[2024-05-31 17:43:51] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2024-05-31 17:43:51] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.4.9a2.tar.gz tmp/pygwalker-0.4.9a3.tar.gz --markdown 20240531/p/pygwalker/0.4.9a2-0.4.9a3/README.md --exclude *.pyd
+[2024-05-31 17:43:51] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405310932-py3-none-any.whl.zip]
+[2024-05-31 17:43:51] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405311445-py3-none-any.whl.zip]
+[2024-05-31 17:43:51] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-31 17:43:51] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-31 17:43:51] INFO root fetch - processPackages [qdrive]: Remove: archive file [/home/abi/fetcher/tmp/qdrive-0.2.14-py3-none-any.whl.zip]
+[2024-05-31 17:43:51] INFO root fetch - processPackages [qdrive]: Remove: archive file [/home/abi/fetcher/tmp/qdrive-0.2.16-py3-none-any.whl.zip]
+[2024-05-31 17:43:51] INFO root fetch - main [MainThread]: End processing [qdrive]: success
+[2024-05-31 17:43:51] INFO root fetch - processPackages [etiket-client]: Remove: archive file [/home/abi/fetcher/tmp/etiket_client-0.2.15-py3-none-any.whl.zip]
+[2024-05-31 17:43:51] INFO root fetch - processPackages [etiket-client]: Remove: archive file [/home/abi/fetcher/tmp/etiket_client-0.2.16-py3-none-any.whl.zip]
+[2024-05-31 17:43:51] INFO root fetch - main [MainThread]: End processing [etiket-client]: success
+[2024-05-31 17:43:52] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.7.tar.gz]
+[2024-05-31 17:43:52] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.8.tar.gz]
+[2024-05-31 17:43:52] INFO root fetch - main [MainThread]: End processing [mistralrs]: success
+[2024-05-31 17:44:22] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a2.tar.gz]
+[2024-05-31 17:44:22] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a3.tar.gz]
+[2024-05-31 17:44:22] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2024-05-31 17:44:22] INFO root fetch - main [MainThread]: Store serial: [23468212]
