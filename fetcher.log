@@ -22786,3 +22786,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:03:32] INFO root fetch - processPackages [kthcloud]: Remove: archive file [/home/abi/fetcher/tmp/kthcloud-0.6.0a0.tar.gz]
 [2024-05-31 17:03:32] INFO root fetch - main [MainThread]: End processing [kthcloud]: success
 [2024-05-31 17:03:32] INFO root fetch - main [MainThread]: Store serial: [23467635]
+[2024-05-31 17:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467635]
+[2024-05-31 17:05:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 17:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sorpus
+[2024-05-31 17:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-docker-build
+[2024-05-31 17:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluepyemodel
+[2024-05-31 17:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torrey
+[2024-05-31 17:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azureml-rag
+[2024-05-31 17:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-train-dev
+[2024-05-31 17:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipex-llm
+[2024-05-31 17:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phi-3-vision-mlx
+[2024-05-31 17:05:42] WARNING root fetch - processPackages [phi-3-vision-mlx]: Skipping, unable to determine old version
+[2024-05-31 17:05:42] INFO root fetch - main [MainThread]: End processing [phi-3-vision-mlx] error
+[2024-05-31 17:05:42] INFO root fetch - processPackages [pulumi-docker-build]: New version: [0.1.0a1717145876] Old Version: [0.1.0a1717145832]
+[2024-05-31 17:05:42] INFO root fetch - processPackages [sorpus]: New version: [0.0.1.post1] Old Version: [0.0.1]
+[2024-05-31 17:05:42] INFO root fetch - processPackages [torrey]: New version: [3.2.2.dev20240531141750] Old Version: [3.2.2.dev20240529142438]
+[2024-05-31 17:05:42] INFO root fetch - processPackages [ipex-llm]: New version: [2.1.0b20240530] Old Version: [2.1.0b20240529]
+[2024-05-31 17:05:42] INFO root fetch - processPackages [bluepyemodel]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 17:05:42] INFO root fetch - processPackages [azureml-rag]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 17:05:42] INFO root fetch - processPackages [sorpus]: Downloading https://files.pythonhosted.org/packages/7f/6f/84dd510f857050754df398b64d7de4b93bc57f85af7208c3ff7dd85581c2/sorpus-0.0.1.tar.gz
+[2024-05-31 17:05:42] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/4d/5c/075f07d36da13f55d8c436cac5e147a690f82b83532811fcdafad5e6fc17/pulumi_docker_build-0.1.0a1717145832.tar.gz
+[2024-05-31 17:05:42] INFO root fetch - processPackages [torrey]: Downloading https://files.pythonhosted.org/packages/53/48/bff61643745648156587df9a1588ea90c4cd9cb6bff0cf39412f09d75f57/torrey-3.2.2.dev20240529142438.tar.gz
+[2024-05-31 17:05:42] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/97/4b/ab91e1b39ae2e5efc457b5691556b673ad6745f27ce601b8bb765b6538b0/ipex_llm-2.1.0b20240529-py3-none-win_amd64.whl
+[2024-05-31 17:05:43] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.9.0.dev1] Old Version: [0.8.0.dev98]
+[2024-05-31 17:05:43] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/ae/1c/9a66b9e064763a88e12392ff7254bc1d5a41fd664021437ea9a52d570600/bluepyemodel-0.0.98.tar.gz
+[2024-05-31 17:05:43] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/cd/6b/d377d688c115fe0dca01efbe91a0e27be6b61358d1240f8ffd8e690e2d90/azureml_rag-0.2.8-py3-none-any.whl
+[2024-05-31 17:05:43] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/7c/6c/c2a1e1a6185a43f449956af92f8cbca57c7448c8568e51ae3f19d03e1959/pulumi_docker_build-0.1.0a1717145876.tar.gz
+[2024-05-31 17:05:43] INFO root fetch - processPackages [sorpus]: Downloading https://files.pythonhosted.org/packages/94/d3/4f4e945c90d6503fb9440eba9f0ea90e92b0b0e70aefe79acb7cd363165a/sorpus-0.0.1.post1.tar.gz
+[2024-05-31 17:05:43] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/cd/93/9d6051f96c04a5e6ee00be1cca9547a82d3561dcde526378f5ad4bd57c94/composabl_train_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 17:05:43] INFO root fetch - processPackages [torrey]: Downloading https://files.pythonhosted.org/packages/73/cd/b6c93666a1041e917997660ac8a2c681f2dc5de878beff82c0df2559ecf6/torrey-3.2.2.dev20240531141750.tar.gz
+[2024-05-31 17:05:43] INFO root fetch - processPackages [sorpus]: executing diffoscope
+[2024-05-31 17:05:43] INFO root fetch - processPackages [sorpus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sorpus-0.0.1.tar.gz tmp/sorpus-0.0.1.post1.tar.gz --markdown 20240531/s/sorpus/0.0.1-0.0.1.post1/README.md --exclude *.pyd
+[2024-05-31 17:05:43] INFO root fetch - processPackages [pulumi-docker-build]: executing diffoscope
+[2024-05-31 17:05:43] INFO root fetch - processPackages [pulumi-docker-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker_build-0.1.0a1717145832.tar.gz tmp/pulumi_docker_build-0.1.0a1717145876.tar.gz --markdown 20240531/p/pulumi-docker-build/0.1.0a1717145832-0.1.0a1717145876/README.md --exclude *.pyd
+[2024-05-31 17:05:43] INFO root fetch - processPackages [torrey]: executing diffoscope
+[2024-05-31 17:05:43] INFO root fetch - processPackages [torrey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torrey-3.2.2.dev20240529142438.tar.gz tmp/torrey-3.2.2.dev20240531141750.tar.gz --markdown 20240531/t/torrey/3.2.2.dev20240529142438-3.2.2.dev20240531141750/README.md --exclude *.pyd
+[2024-05-31 17:05:43] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/c2/0b/f529ab4cdab0b1a8fe34c43e9d7df28a2561b084aa679541cb5d2fbb861c/ipex_llm-2.1.0b20240530-py3-none-win_amd64.whl
+[2024-05-31 17:05:43] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/f3/84/b836de2d4c9aec3f94fbe80a1cf0f12b9999277127ca6b03bf9333080769/azureml_rag-0.2.9-py3-none-any.whl
+[2024-05-31 17:05:43] INFO root fetch - processPackages [ipex-llm]: executing diffoscope
+[2024-05-31 17:05:43] INFO root fetch - processPackages [ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipex_llm-2.1.0b20240529-py3-none-win_amd64.whl.zip tmp/ipex_llm-2.1.0b20240530-py3-none-win_amd64.whl.zip --markdown 20240531/i/ipex-llm/2.1.0b20240529-2.1.0b20240530/README.md --exclude *.pyd
+[2024-05-31 17:05:43] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/4f/65/91ef9e7a72d605aed2cdf86543b9abb7b94a9c7ea2e9e2a33483dc5b1833/composabl_train_dev-0.9.0.dev1-cp311-cp311-macosx_11_0_arm64.whl
+[2024-05-31 17:05:44] INFO root fetch - processPackages [sorpus]: Remove: archive file [/home/abi/fetcher/tmp/sorpus-0.0.1.tar.gz]
+[2024-05-31 17:05:44] INFO root fetch - processPackages [sorpus]: Remove: archive file [/home/abi/fetcher/tmp/sorpus-0.0.1.post1.tar.gz]
+[2024-05-31 17:05:44] INFO root fetch - main [MainThread]: End processing [sorpus]: success
+[2024-05-31 17:05:44] INFO root fetch - processPackages [pulumi-docker-build]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker_build-0.1.0a1717145832.tar.gz]
+[2024-05-31 17:05:44] INFO root fetch - processPackages [pulumi-docker-build]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker_build-0.1.0a1717145876.tar.gz]
+[2024-05-31 17:05:44] INFO root fetch - main [MainThread]: End processing [pulumi-docker-build]: success
+[2024-05-31 17:05:44] INFO root fetch - processPackages [azureml-rag]: executing diffoscope
+[2024-05-31 17:05:44] INFO root fetch - processPackages [azureml-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_rag-0.2.8-py3-none-any.whl.zip tmp/azureml_rag-0.2.9-py3-none-any.whl.zip --markdown 20240531/a/azureml-rag/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 17:05:44] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/4f/47/cdb97d873b536d0c711e95e2b3623dd29d62b3dedad06807f9db9e2e1d2c/bluepyemodel-0.0.99.tar.gz
+[2024-05-31 17:05:44] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-05-31 17:05:44] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.9.0.dev1-cp311-cp311-macosx_11_0_arm64.whl.zip --markdown 20240531/c/composabl-train-dev/0.8.0.dev98-0.9.0.dev1/README.md --exclude *.pyd
+[2024-05-31 17:05:44] INFO root fetch - processPackages [bluepyemodel]: executing diffoscope
+[2024-05-31 17:05:44] INFO root fetch - processPackages [bluepyemodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyemodel-0.0.98.tar.gz tmp/bluepyemodel-0.0.99.tar.gz --markdown 20240531/b/bluepyemodel/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 17:05:44] INFO root fetch - processPackages [torrey]: Remove: archive file [/home/abi/fetcher/tmp/torrey-3.2.2.dev20240529142438.tar.gz]
+[2024-05-31 17:05:44] INFO root fetch - processPackages [torrey]: Remove: archive file [/home/abi/fetcher/tmp/torrey-3.2.2.dev20240531141750.tar.gz]
+[2024-05-31 17:05:44] INFO root fetch - main [MainThread]: End processing [torrey]: success
+[2024-05-31 17:05:45] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.8-py3-none-any.whl.zip]
+[2024-05-31 17:05:45] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.9-py3-none-any.whl.zip]
+[2024-05-31 17:05:45] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
+[2024-05-31 17:05:45] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 17:05:45] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.9.0.dev1-cp311-cp311-macosx_11_0_arm64.whl.zip]
+[2024-05-31 17:05:45] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-05-31 17:05:48] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.98.tar.gz]
+[2024-05-31 17:05:48] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
+[2024-05-31 17:05:48] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
+[2024-05-31 17:06:11] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240529-py3-none-win_amd64.whl.zip]
+[2024-05-31 17:06:11] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240530-py3-none-win_amd64.whl.zip]
+[2024-05-31 17:06:11] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
+[2024-05-31 17:06:11] INFO root fetch - main [MainThread]: Store serial: [23467673]
