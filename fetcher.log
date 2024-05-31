@@ -10323,3 +10323,99 @@
 [2024-05-31 09:21:08] INFO root fetch - processPackages [sql-server-lineage]: Remove: archive file [/home/abi/fetcher/tmp/sql_server_lineage-1.13.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-05-31 09:21:08] INFO root fetch - main [MainThread]: End processing [sql-server-lineage]: success
 [2024-05-31 09:21:08] INFO root fetch - main [MainThread]: Store serial: [23461945]
+[2024-05-31 09:23:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461945]
+[2024-05-31 09:23:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-cicd-base
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-cli
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-dso
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-libs
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-whd
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-oci
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libcache
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ComfyUI-EasyNodes
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-qqshell
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: GameWorldNavigator
+[2024-05-31 09:23:17] INFO root fetch - processPackages [GameWorldNavigator]: New version: [0.0.7.2] Old Version: [0.0.7.1]
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2404.0] Old Version: [1.2403.0]
+[2024-05-31 09:23:17] INFO root fetch - processPackages [libcache]: New version: [1.1] Old Version: [1.0]
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ComfyUI-EasyNodes]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2404.0] Old Version: [1.2403.0]
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2404.0] Old Version: [1.2403.0]
+[2024-05-31 09:23:17] WARNING root fetch - processPackages [nonebot-plugin-qqshell]: Skipping, unable to determine old version
+[2024-05-31 09:23:17] INFO root fetch - processPackages [nonebot-plugin-qqshell]: Start processing: django-jalali-date
+[2024-05-31 09:23:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-qqshell] error
+[2024-05-31 09:23:17] INFO root fetch - processPackages [GameWorldNavigator]: Downloading https://files.pythonhosted.org/packages/0c/de/77e6b91711e9553207a2a9e747f6718e23bb3505a1f95fb8d1cc3dc4002d/GameWorldNavigator-0.0.7.1.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/b5/37/b928480800b6038404813d877cdff7dfea91191d61c82529d105477ce3ea/gardener_cicd_cli-1.2403.0.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Downloading https://files.pythonhosted.org/packages/50/f5/41ec6592eae34c6264c502de6dc11ad8c629a9727c6ba0c9c8514945957c/comfyui_easynodes-1.0.2.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2405.0] Old Version: [1.2403.0]
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/b9/ac/f59e8db05e6c6b728fe9b5130ed3e0f122d8a69a071a5c75cc1cdc49436c/gardener_cicd_base-1.2403.0.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/c5/3d/cd8a11060822b3659b189c59a88cb725c0cf19a3ac6c479c68dd37cede92/gardener_cicd_dso-1.2403.0.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2405.0] Old Version: [1.2403.0]
+[2024-05-31 09:23:17] INFO root fetch - processPackages [libcache]: Downloading https://files.pythonhosted.org/packages/b9/9a/74a2bc7c400e0ace17b75d0417ad8b710e5a9fd3d841f65340befde68550/libcache-1.0.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [django-jalali-date]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/fa/6a/159684f0db6e9642c4f23d9aa55cbea9d068024a64be0d578bce2308a888/gardener_cicd_libs-1.2403.0.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/27/b1/c8a9e7ddae46adeedc13f0c88257777e2fc98a5177ceae6ea17b740bd368/gardener_cicd_cli-1.2404.0-py3-none-any.whl
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/5a/34/236a84eb8b8121137be058fcd82faa66c33ff6c2c1771f82692614c0055c/gardener_cicd_base-1.2404.0-py3-none-any.whl
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/12/0d/4696f0d85d651683b7972f764b7416bb701828572ae062c6f979b6c7fc3f/gardener_cicd_whd-1.2403.0.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/7f/b9/c2ee7661a1826196b8530735b8096efc07a558d30113ee38e5449f2f8a72/gardener_cicd_dso-1.2404.0-py3-none-any.whl
+[2024-05-31 09:23:17] INFO root fetch - processPackages [django-jalali-date]: Downloading https://files.pythonhosted.org/packages/97/36/ab70cf8f71d33fac889549986d7f85664dbe517c03a405433414aeee662f/django_jalali_date-1.1.1.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [GameWorldNavigator]: Downloading https://files.pythonhosted.org/packages/3d/7e/6c71a796e2e4c7788b8f3fa2b0d16d019c0ae663d51bb22dcfec76bb5730/GameWorldNavigator-0.0.7.2.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Downloading https://files.pythonhosted.org/packages/b1/1e/5dc6c619b357e0ad99bf2726da54a5887ee5758748cd500ab49bb2856e04/comfyui_easynodes-1.0.3.tar.gz
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-31 09:23:17] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2403.0.tar.gz tmp/gardener_cicd_cli-1.2404.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-cli/1.2403.0-1.2404.0/README.md --exclude *.pyd
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2403.0.tar.gz tmp/gardener_cicd_base-1.2404.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-base/1.2403.0-1.2404.0/README.md --exclude *.pyd
+[2024-05-31 09:23:18] INFO root fetch - processPackages [libcache]: Downloading https://files.pythonhosted.org/packages/42/96/833352d7d2b8ab8e689065db76c0f95635e4518dccbaa8097afedc53c277/libcache-1.1.tar.gz
+[2024-05-31 09:23:18] INFO root fetch - processPackages [GameWorldNavigator]: executing diffoscope
+[2024-05-31 09:23:18] INFO root fetch - processPackages [GameWorldNavigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GameWorldNavigator-0.0.7.1.tar.gz tmp/GameWorldNavigator-0.0.7.2.tar.gz --markdown 20240531/G/GameWorldNavigator/0.0.7.1-0.0.7.2/README.md --exclude *.pyd
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2403.0.tar.gz tmp/gardener_cicd_dso-1.2404.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-dso/1.2403.0-1.2404.0/README.md --exclude *.pyd
+[2024-05-31 09:23:18] INFO root fetch - processPackages [ComfyUI-EasyNodes]: executing diffoscope
+[2024-05-31 09:23:18] INFO root fetch - processPackages [ComfyUI-EasyNodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfyui_easynodes-1.0.2.tar.gz tmp/comfyui_easynodes-1.0.3.tar.gz --markdown 20240531/C/ComfyUI-EasyNodes/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-31 09:23:18] INFO root fetch - processPackages [libcache]: executing diffoscope
+[2024-05-31 09:23:18] INFO root fetch - processPackages [libcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcache-1.0.tar.gz tmp/libcache-1.1.tar.gz --markdown 20240531/l/libcache/1.0-1.1/README.md --exclude *.pyd
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/8c/51/16e3dfccd56ed2c6f8d876dd875c83a426129f203d3d8157a5d278b53444/gardener_cicd_libs-1.2405.0-py3-none-any.whl
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/a2/bd/3d5f796ef94cb5a04b95d75e737ac278934fa082fabe304fcfa7c140b76d/gardener_cicd_whd-1.2405.0-py3-none-any.whl
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-05-31 09:23:18] INFO root fetch - processPackages [django-jalali-date]: Downloading https://files.pythonhosted.org/packages/a2/78/cc2fda91d4c1458ea3a730b9283815a9fe2198eaa6b0ca9090fd5dab1ec4/django_jalali_date-1.1.2.tar.gz
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2403.0.tar.gz tmp/gardener_cicd_libs-1.2405.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-libs/1.2403.0-1.2405.0/README.md --exclude *.pyd
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240531/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2403.0.tar.gz tmp/gardener_cicd_whd-1.2405.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-whd/1.2403.0-1.2405.0/README.md --exclude *.pyd
+[2024-05-31 09:23:18] INFO root fetch - processPackages [django-jalali-date]: executing diffoscope
+[2024-05-31 09:23:18] INFO root fetch - processPackages [django-jalali-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_jalali_date-1.1.1.tar.gz tmp/django_jalali_date-1.1.2.tar.gz --markdown 20240531/d/django-jalali-date/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2403.0.tar.gz]
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2404.0-py3-none-any.whl.zip]
+[2024-05-31 09:23:18] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2403.0.tar.gz]
+[2024-05-31 09:23:18] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2404.0-py3-none-any.whl.zip]
+[2024-05-31 09:23:18] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-31 09:23:19] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2403.0.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2404.0-py3-none-any.whl.zip]
+[2024-05-31 09:23:19] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-31 09:23:19] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Remove: archive file [/home/abi/fetcher/tmp/comfyui_easynodes-1.0.2.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Remove: archive file [/home/abi/fetcher/tmp/comfyui_easynodes-1.0.3.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - main [MainThread]: End processing [ComfyUI-EasyNodes]: success
+[2024-05-31 09:23:19] INFO root fetch - processPackages [GameWorldNavigator]: Remove: archive file [/home/abi/fetcher/tmp/GameWorldNavigator-0.0.7.1.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - processPackages [GameWorldNavigator]: Remove: archive file [/home/abi/fetcher/tmp/GameWorldNavigator-0.0.7.2.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - main [MainThread]: End processing [GameWorldNavigator]: success
+[2024-05-31 09:23:19] INFO root fetch - processPackages [libcache]: Remove: archive file [/home/abi/fetcher/tmp/libcache-1.0.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - processPackages [libcache]: Remove: archive file [/home/abi/fetcher/tmp/libcache-1.1.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - main [MainThread]: End processing [libcache]: success
+[2024-05-31 09:23:19] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-05-31 09:23:19] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2403.0.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2405.0-py3-none-any.whl.zip]
+[2024-05-31 09:23:19] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-05-31 09:23:19] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2403.0.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2405.0-py3-none-any.whl.zip]
+[2024-05-31 09:23:19] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-05-31 09:23:19] INFO root fetch - processPackages [django-jalali-date]: Remove: archive file [/home/abi/fetcher/tmp/django_jalali_date-1.1.1.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - processPackages [django-jalali-date]: Remove: archive file [/home/abi/fetcher/tmp/django_jalali_date-1.1.2.tar.gz]
+[2024-05-31 09:23:19] INFO root fetch - main [MainThread]: End processing [django-jalali-date]: success
+[2024-05-31 09:23:19] INFO root fetch - main [MainThread]: Store serial: [23461979]
