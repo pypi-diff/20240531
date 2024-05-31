@@ -14899,3 +14899,48 @@
 [2024-05-31 12:15:32] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-05-31 12:15:32] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-05-31 12:15:32] INFO root fetch - main [MainThread]: Store serial: [23464030]
+[2024-05-31 12:17:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464030]
+[2024-05-31 12:17:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ferncrypter
+[2024-05-31 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xphonebr
+[2024-05-31 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyNukiBT
+[2024-05-31 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: youtube-video-analyzer
+[2024-05-31 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cw-rpa
+[2024-05-31 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: energy-base
+[2024-05-31 12:17:41] INFO root fetch - processPackages [youtube-video-analyzer]: New version: [0.3.4] Old Version: [0.2.4]
+[2024-05-31 12:17:41] INFO root fetch - processPackages [energy-base]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-31 12:17:41] WARNING root fetch - processPackages [xphonebr]: Skipping, unable to determine old version
+[2024-05-31 12:17:41] WARNING root fetch - processPackages [ferncrypter]: Skipping, unable to determine old version
+[2024-05-31 12:17:41] INFO root fetch - main [MainThread]: End processing [xphonebr] error
+[2024-05-31 12:17:41] INFO root fetch - main [MainThread]: End processing [ferncrypter] error
+[2024-05-31 12:17:41] INFO root fetch - processPackages [pyNukiBT]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 12:17:41] INFO root fetch - processPackages [cw-rpa]: New version: [0.1.0b4] Old Version: [0.1.0b3]
+[2024-05-31 12:17:41] INFO root fetch - processPackages [youtube-video-analyzer]: Downloading https://files.pythonhosted.org/packages/f4/5c/1ce654f86cc9407b7dc7934b3776b400e95dacbb1a373247cc563b33b3e1/youtube_video_analyzer-0.2.4.tar.gz
+[2024-05-31 12:17:41] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/5d/d4/02b4b68d5562a59bf61eb4338d45bcc69825c00c8c7fc6ef06d2d77a18f1/energy_base-1.7.8.tar.gz
+[2024-05-31 12:17:41] INFO root fetch - processPackages [pyNukiBT]: Downloading https://files.pythonhosted.org/packages/6a/d3/db8331a97c450a0b088b1439983eda096c081039d9a298f36e6e7bc30e80/pyNukiBT-0.0.8.tar.gz
+[2024-05-31 12:17:41] INFO root fetch - processPackages [cw-rpa]: Downloading https://files.pythonhosted.org/packages/8c/16/142e1aad94e61d3968bb2ec6b8a219ad49f299f8b73dbe5b0d87fd156bdc/cw_rpa-0.1.0b3-py3-none-any.whl
+[2024-05-31 12:17:41] INFO root fetch - processPackages [youtube-video-analyzer]: Downloading https://files.pythonhosted.org/packages/fe/e4/f4a58a3b48c3718ebe27c5c31a1b33ab78d1152ee7cd1e4851c1abfc14e4/youtube_video_analyzer-0.3.4.tar.gz
+[2024-05-31 12:17:41] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/12/4e/eb510653c80cc21c727329990789e1de1e3a7800e46d59551ad531280761/energy_base-1.7.9.tar.gz
+[2024-05-31 12:17:41] INFO root fetch - processPackages [youtube-video-analyzer]: executing diffoscope
+[2024-05-31 12:17:41] INFO root fetch - processPackages [youtube-video-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube_video_analyzer-0.2.4.tar.gz tmp/youtube_video_analyzer-0.3.4.tar.gz --markdown 20240531/y/youtube-video-analyzer/0.2.4-0.3.4/README.md --exclude *.pyd
+[2024-05-31 12:17:41] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-05-31 12:17:41] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.7.8.tar.gz tmp/energy_base-1.7.9.tar.gz --markdown 20240531/e/energy-base/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-31 12:17:41] INFO root fetch - processPackages [cw-rpa]: Downloading https://files.pythonhosted.org/packages/e4/0e/913f8a073cd32a0d1fcb474a0bb8ffdfa84355e8089aea410239c3ef25b1/cw_rpa-0.1.0b4-py3-none-any.whl
+[2024-05-31 12:17:41] INFO root fetch - processPackages [pyNukiBT]: Downloading https://files.pythonhosted.org/packages/fd/ca/b0ed825b31b84dbe48728601a81a68edc532495b909130ee5bc9ec908950/pyNukiBT-0.0.9.tar.gz
+[2024-05-31 12:17:41] INFO root fetch - processPackages [cw-rpa]: executing diffoscope
+[2024-05-31 12:17:41] INFO root fetch - processPackages [cw-rpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cw_rpa-0.1.0b3-py3-none-any.whl.zip tmp/cw_rpa-0.1.0b4-py3-none-any.whl.zip --markdown 20240531/c/cw-rpa/0.1.0b3-0.1.0b4/README.md --exclude *.pyd
+[2024-05-31 12:17:41] INFO root fetch - processPackages [pyNukiBT]: executing diffoscope
+[2024-05-31 12:17:41] INFO root fetch - processPackages [pyNukiBT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyNukiBT-0.0.8.tar.gz tmp/pyNukiBT-0.0.9.tar.gz --markdown 20240531/p/pyNukiBT/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 12:17:42] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.8.tar.gz]
+[2024-05-31 12:17:42] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.9.tar.gz]
+[2024-05-31 12:17:42] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-05-31 12:17:42] INFO root fetch - processPackages [youtube-video-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/youtube_video_analyzer-0.2.4.tar.gz]
+[2024-05-31 12:17:42] INFO root fetch - processPackages [youtube-video-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/youtube_video_analyzer-0.3.4.tar.gz]
+[2024-05-31 12:17:42] INFO root fetch - main [MainThread]: End processing [youtube-video-analyzer]: success
+[2024-05-31 12:17:42] INFO root fetch - processPackages [cw-rpa]: Remove: archive file [/home/abi/fetcher/tmp/cw_rpa-0.1.0b3-py3-none-any.whl.zip]
+[2024-05-31 12:17:42] INFO root fetch - processPackages [cw-rpa]: Remove: archive file [/home/abi/fetcher/tmp/cw_rpa-0.1.0b4-py3-none-any.whl.zip]
+[2024-05-31 12:17:42] INFO root fetch - main [MainThread]: End processing [cw-rpa]: success
+[2024-05-31 12:17:42] INFO root fetch - processPackages [pyNukiBT]: Remove: archive file [/home/abi/fetcher/tmp/pyNukiBT-0.0.8.tar.gz]
+[2024-05-31 12:17:42] INFO root fetch - processPackages [pyNukiBT]: Remove: archive file [/home/abi/fetcher/tmp/pyNukiBT-0.0.9.tar.gz]
+[2024-05-31 12:17:42] INFO root fetch - main [MainThread]: End processing [pyNukiBT]: success
+[2024-05-31 12:17:42] INFO root fetch - main [MainThread]: Store serial: [23464051]
