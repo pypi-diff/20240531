@@ -7762,3 +7762,36 @@
 [2024-05-31 07:11:25] INFO root fetch - processPackages [contourplots]: Remove: archive file [/home/abi/fetcher/tmp/contourplots-0.3.3.tar.gz]
 [2024-05-31 07:11:25] INFO root fetch - main [MainThread]: End processing [contourplots]: success
 [2024-05-31 07:11:25] INFO root fetch - main [MainThread]: Store serial: [23460601]
+[2024-05-31 07:13:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460601]
+[2024-05-31 07:13:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 07:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nomad-media-pip
+[2024-05-31 07:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xbot.framework
+[2024-05-31 07:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-31 07:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e6data-python-connector
+[2024-05-31 07:13:33] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-31 07:13:33] INFO root fetch - processPackages [nomad-media-pip]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 07:13:33] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/ff/b0/4fd4c45cb94bd3f2101b36e14e4b5198242b561aeeca675b73e8203649f4/duwi_smarthome_sdk_dev-0.1.7.tar.gz
+[2024-05-31 07:13:33] WARNING root fetch - processPackages [xbot.framework]: Skipping, unable to determine old version
+[2024-05-31 07:13:33] INFO root fetch - main [MainThread]: End processing [xbot.framework] error
+[2024-05-31 07:13:33] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/89/17/9542f18838ecc3189b9eaaec4a7ccfe38f999660bb42c8092050b37835fd/nomad_media_pip-0.0.98.tar.gz
+[2024-05-31 07:13:33] INFO root fetch - processPackages [e6data-python-connector]: New version: [2.1.9.dev0] Old Version: [2.1.9]
+[2024-05-31 07:13:33] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/3b/f2/73cc111099ae8f8930a9fa380bcf03f07d762a19907bb84bc1e7fb7f5fa0/e6data-python-connector-2.1.9.tar.gz
+[2024-05-31 07:13:33] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/2b/93/9572cd6061f7b751abb490b170eb8add5795cf245ede93c0b7d20b885a13/nomad_media_pip-0.0.99.tar.gz
+[2024-05-31 07:13:33] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/dd/d0/9812fbee674e21e3c5446bb1752590103b082180779a0657f729dcbdbea8/duwi_smarthome_sdk_dev-0.1.8.tar.gz
+[2024-05-31 07:13:33] INFO root fetch - processPackages [nomad-media-pip]: executing diffoscope
+[2024-05-31 07:13:33] INFO root fetch - processPackages [nomad-media-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_media_pip-0.0.98.tar.gz tmp/nomad_media_pip-0.0.99.tar.gz --markdown 20240531/n/nomad-media-pip/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 07:13:33] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-31 07:13:33] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.1.7.tar.gz tmp/duwi_smarthome_sdk_dev-0.1.8.tar.gz --markdown 20240531/d/duwi-smarthome-sdk-dev/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-31 07:13:34] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/d5/3e/179dd9991168c94caa30f75b1bb444c7031b437254db41117b698d316f7f/e6data-python-connector-2.1.9.dev0.tar.gz
+[2024-05-31 07:13:34] INFO root fetch - processPackages [e6data-python-connector]: executing diffoscope
+[2024-05-31 07:13:34] INFO root fetch - processPackages [e6data-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e6data-python-connector-2.1.9.tar.gz tmp/e6data-python-connector-2.1.9.dev0.tar.gz --markdown 20240531/e/e6data-python-connector/2.1.9-2.1.9.dev0/README.md --exclude *.pyd
+[2024-05-31 07:13:34] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.7.tar.gz]
+[2024-05-31 07:13:34] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.8.tar.gz]
+[2024-05-31 07:13:34] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-31 07:13:34] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.tar.gz]
+[2024-05-31 07:13:34] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.dev0.tar.gz]
+[2024-05-31 07:13:34] INFO root fetch - main [MainThread]: End processing [e6data-python-connector]: success
+[2024-05-31 07:13:36] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.98.tar.gz]
+[2024-05-31 07:13:36] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
+[2024-05-31 07:13:36] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
+[2024-05-31 07:13:36] INFO root fetch - main [MainThread]: Store serial: [23460614]
