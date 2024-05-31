@@ -11391,3 +11391,96 @@
 [2024-05-31 10:00:33] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2406.0-py3-none-any.whl.zip]
 [2024-05-31 10:00:33] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
 [2024-05-31 10:00:33] INFO root fetch - main [MainThread]: Store serial: [23462436]
+[2024-05-31 10:02:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462436]
+[2024-05-31 10:02:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-cicd-whd
+[2024-05-31 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aicamera
+[2024-05-31 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudforet-console-api-v2
+[2024-05-31 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepsearch-toolkit
+[2024-05-31 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-cpp-agent
+[2024-05-31 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keelson
+[2024-05-31 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zern
+[2024-05-31 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2024-05-31 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: k8ctl
+[2024-05-31 10:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funcs-aux
+[2024-05-31 10:02:42] INFO root fetch - processPackages [k8ctl]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-31 10:02:42] INFO root fetch - processPackages [aicamera]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-31 10:02:42] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-31 10:02:42] INFO root fetch - processPackages [keelson]: New version: [0.3.6rc9] Old Version: [0.3.6rc8]
+[2024-05-31 10:02:42] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 10:02:42] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-31 10:02:42] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2408.0] Old Version: [1.2405.0]
+[2024-05-31 10:02:42] INFO root fetch - processPackages [funcs-aux]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-31 10:02:42] INFO root fetch - processPackages [deepsearch-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 10:02:42] INFO root fetch - processPackages [k8ctl]: Downloading https://files.pythonhosted.org/packages/c5/4c/53f60a707a565257fc517556f7d13f4825096237a0699122af0e5cbae8ae/k8ctl-0.0.7-py3-none-any.whl
+[2024-05-31 10:02:42] INFO root fetch - processPackages [zern]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 10:02:42] INFO root fetch - processPackages [aicamera]: Downloading https://files.pythonhosted.org/packages/5e/5a/79a2b5b010c9fbc8075610c34d8ac644b2bdace813d0529705eb778ece73/aicamera-2.1.0.tar.gz
+[2024-05-31 10:02:42] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-05-31 10:02:42] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/b6/ec/c72c91d2230096f98ed6949de7a17fb02db994048b4801536b545cba535d/keelson-0.3.6rc8-py3-none-any.whl
+[2024-05-31 10:02:42] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/a0/ba/e28b4ffe7b86f6d15ba5b9672537e66bc8273c02bbb8fa06f1337493886a/llama_cpp_agent-0.2.8.tar.gz
+[2024-05-31 10:02:42] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-31 10:02:42] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/a2/bd/3d5f796ef94cb5a04b95d75e737ac278934fa082fabe304fcfa7c140b76d/gardener_cicd_whd-1.2405.0-py3-none-any.whl
+[2024-05-31 10:02:42] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/53/66/33bde55a240a8b297e68f7746e32e0c49c3be34a0bef777b582ce892e75a/deepsearch_toolkit-0.8.0.tar.gz
+[2024-05-31 10:02:42] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/67/2c/5deb4841d86b2718c025c76fe440d6535671e90357788497083e44431bdd/funcs_aux-0.2.5.tar.gz
+[2024-05-31 10:02:42] INFO root fetch - processPackages [aicamera]: Downloading https://files.pythonhosted.org/packages/ba/4f/91cf330f0a7efaaa300d5e03f274dfc77ea5f90f7b11cad6f05cf39334d7/aicamera-2.1.1.tar.gz
+[2024-05-31 10:02:42] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/1f/da/00162e2371310a89c93444b828c4ef9046e808f78d46d6d744de51a78a29/zern-0.0.8.tar.gz
+[2024-05-31 10:02:42] INFO root fetch - processPackages [k8ctl]: Downloading https://files.pythonhosted.org/packages/9d/d2/9d1c97b438325dc1b61de892cc984370eff7cfd5b88c0b1c787b2a57301d/k8ctl-0.0.8-py3-none-any.whl
+[2024-05-31 10:02:42] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/e5/bb/9a16b289d7453095ab2485d73acf22968e24e78ddee8f364f962860bc7e1/llama_cpp_agent-0.2.9.tar.gz
+[2024-05-31 10:02:42] INFO root fetch - processPackages [aicamera]: executing diffoscope
+[2024-05-31 10:02:42] INFO root fetch - processPackages [aicamera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicamera-2.1.0.tar.gz tmp/aicamera-2.1.1.tar.gz --markdown 20240531/a/aicamera/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-31 10:02:42] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/61/69/854e0dcac27bd896778b7445ce78dc29f800271f23c2a098cab59e0dd3fe/keelson-0.3.6rc9-py3-none-any.whl
+[2024-05-31 10:02:42] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/cc/3a/2cab122ef371d628e0e339e8a0b5233e79840b362512069527bd9fce8f78/cloudforet-console-api-v2-2.0.dev99.tar.gz
+[2024-05-31 10:02:42] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-31 10:02:42] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-31 10:02:42] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_agent-0.2.8.tar.gz tmp/llama_cpp_agent-0.2.9.tar.gz --markdown 20240531/l/llama-cpp-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 10:02:42] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/52/29/c8c8f86049b7c285f47154c31763f1e7844ea7f5ef58bb94f481dc64d5fb/gardener_cicd_whd-1.2408.0-py3-none-any.whl
+[2024-05-31 10:02:42] INFO root fetch - processPackages [k8ctl]: executing diffoscope
+[2024-05-31 10:02:42] INFO root fetch - processPackages [k8ctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8ctl-0.0.7-py3-none-any.whl.zip tmp/k8ctl-0.0.8-py3-none-any.whl.zip --markdown 20240531/k/k8ctl/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-31 10:02:43] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/af/4f/81421d1676fe839d31289bc27a262bdbb1dfd7c868324c8a18fca437e37e/deepsearch_toolkit-0.9.0.tar.gz
+[2024-05-31 10:02:43] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-05-31 10:02:43] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.6rc8-py3-none-any.whl.zip tmp/keelson-0.3.6rc9-py3-none-any.whl.zip --markdown 20240531/k/keelson/0.3.6rc8-0.3.6rc9/README.md --exclude *.pyd
+[2024-05-31 10:02:43] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/7e/d0/81fe2df27064545194617bf917f312b74796f67ecee07385e83b0b0b2656/funcs_aux-0.2.6.tar.gz
+[2024-05-31 10:02:43] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/da/2b/b995610e20e170f20bfa70249e2c9ccfa458bda26c1898ebe6ba0844b9e6/zern-0.0.9.tar.gz
+[2024-05-31 10:02:43] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-05-31 10:02:43] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz --markdown 20240531/c/cloudforet-console-api-v2/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-31 10:02:43] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-31 10:02:43] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240531/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-31 10:02:43] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-05-31 10:02:43] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2405.0-py3-none-any.whl.zip tmp/gardener_cicd_whd-1.2408.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-whd/1.2405.0-1.2408.0/README.md --exclude *.pyd
+[2024-05-31 10:02:43] INFO root fetch - processPackages [zern]: executing diffoscope
+[2024-05-31 10:02:43] INFO root fetch - processPackages [zern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zern-0.0.8.tar.gz tmp/zern-0.0.9.tar.gz --markdown 20240531/z/zern/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 10:02:43] INFO root fetch - processPackages [funcs-aux]: executing diffoscope
+[2024-05-31 10:02:43] INFO root fetch - processPackages [funcs-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs_aux-0.2.5.tar.gz tmp/funcs_aux-0.2.6.tar.gz --markdown 20240531/f/funcs-aux/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-31 10:02:43] INFO root fetch - processPackages [deepsearch-toolkit]: executing diffoscope
+[2024-05-31 10:02:43] INFO root fetch - processPackages [deepsearch-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_toolkit-0.8.0.tar.gz tmp/deepsearch_toolkit-0.9.0.tar.gz --markdown 20240531/d/deepsearch-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 10:02:43] INFO root fetch - processPackages [aicamera]: Remove: archive file [/home/abi/fetcher/tmp/aicamera-2.1.0.tar.gz]
+[2024-05-31 10:02:43] INFO root fetch - processPackages [aicamera]: Remove: archive file [/home/abi/fetcher/tmp/aicamera-2.1.1.tar.gz]
+[2024-05-31 10:02:43] INFO root fetch - main [MainThread]: End processing [aicamera]: success
+[2024-05-31 10:02:43] INFO root fetch - processPackages [k8ctl]: Remove: archive file [/home/abi/fetcher/tmp/k8ctl-0.0.7-py3-none-any.whl.zip]
+[2024-05-31 10:02:43] INFO root fetch - processPackages [k8ctl]: Remove: archive file [/home/abi/fetcher/tmp/k8ctl-0.0.8-py3-none-any.whl.zip]
+[2024-05-31 10:02:43] INFO root fetch - main [MainThread]: End processing [k8ctl]: success
+[2024-05-31 10:02:43] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.6rc8-py3-none-any.whl.zip]
+[2024-05-31 10:02:43] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.6rc9-py3-none-any.whl.zip]
+[2024-05-31 10:02:43] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-05-31 10:02:44] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.8.tar.gz]
+[2024-05-31 10:02:44] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.9.tar.gz]
+[2024-05-31 10:02:44] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-31 10:02:44] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.2.5.tar.gz]
+[2024-05-31 10:02:44] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.2.6.tar.gz]
+[2024-05-31 10:02:44] INFO root fetch - main [MainThread]: End processing [funcs-aux]: success
+[2024-05-31 10:02:44] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-05-31 10:02:44] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
+[2024-05-31 10:02:44] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-05-31 10:02:44] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.8.tar.gz]
+[2024-05-31 10:02:44] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.9.tar.gz]
+[2024-05-31 10:02:44] INFO root fetch - main [MainThread]: End processing [zern]: success
+[2024-05-31 10:02:44] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2405.0-py3-none-any.whl.zip]
+[2024-05-31 10:02:44] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2408.0-py3-none-any.whl.zip]
+[2024-05-31 10:02:44] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-05-31 10:02:45] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-31 10:02:45] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-31 10:02:45] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-31 10:02:45] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.8.0.tar.gz]
+[2024-05-31 10:02:45] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.9.0.tar.gz]
+[2024-05-31 10:02:45] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
+[2024-05-31 10:02:45] INFO root fetch - main [MainThread]: Store serial: [23462463]
