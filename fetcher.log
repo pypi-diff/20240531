@@ -3154,3 +3154,59 @@
 [2024-05-31 02:26:34] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
 [2024-05-31 02:26:34] INFO root fetch - main [MainThread]: End processing [langroid]: success
 [2024-05-31 02:26:34] INFO root fetch - main [MainThread]: Store serial: [23458759]
+[2024-05-31 02:28:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458759]
+[2024-05-31 02:28:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 02:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-ecs-service-extensions
+[2024-05-31 02:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meditability
+[2024-05-31 02:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ladybug-grasshopper
+[2024-05-31 02:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypreql
+[2024-05-31 02:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-certbot-dns-route53
+[2024-05-31 02:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-aurora-globaldatabase
+[2024-05-31 02:28:42] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-05-31 02:28:42] INFO root fetch - processPackages [ladybug-grasshopper]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-05-31 02:28:42] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-31 02:28:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-31 02:28:42] INFO root fetch - processPackages [meditability]: New version: [0.2.6] Old Version: [0.2.4]
+[2024-05-31 02:28:43] INFO root fetch - processPackages [pypreql]: New version: [0.0.1rc9] Old Version: [0.0.1rc81]
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-05-31 02:28:43] INFO root fetch - processPackages [ladybug-grasshopper]: Downloading https://files.pythonhosted.org/packages/ec/49/777f995c954f015074487d7ab75a2c03b29bfd7c9fba5b15f7370a04139a/ladybug-grasshopper-1.9.3.tar.gz
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-31 02:28:43] WARNING root fetch - processPackages [meditability]: fallback to get urls: [0.2.4]
+[2024-05-31 02:28:43] WARNING root fetch - processPackages [meditability]: None
+[2024-05-31 02:28:43] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/f4/ab/dfe4981f20d38761d41496b84c2fb6aa67da5f1b74a7c89698bd40cdb2f0/pypreql-0.0.1rc81.tar.gz
+[2024-05-31 02:28:43] WARNING root fetch - processPackages [meditability]: None
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-05-31 02:28:43] WARNING root fetch - processPackages [meditability]: unable to get url for both version [0.2.4]
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-31 02:28:43] INFO root fetch - processPackages [ladybug-grasshopper]: Downloading https://files.pythonhosted.org/packages/36/c7/da7e7e51114ff7f4fdf8e1f110936d73131c1f23c71385e5ab4666ad04c4/ladybug-grasshopper-1.9.4.tar.gz
+[2024-05-31 02:28:43] WARNING root fetch - processPackages [meditability]: None
+[2024-05-31 02:28:43] INFO root fetch - main [MainThread]: End processing [meditability] error
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240531/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240531/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-05-31 02:28:43] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240531/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-05-31 02:28:43] INFO root fetch - processPackages [ladybug-grasshopper]: executing diffoscope
+[2024-05-31 02:28:43] INFO root fetch - processPackages [ladybug-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-grasshopper-1.9.3.tar.gz tmp/ladybug-grasshopper-1.9.4.tar.gz --markdown 20240531/l/ladybug-grasshopper/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-05-31 02:28:43] INFO root fetch - processPackages [pypreql]: Downloading https://files.pythonhosted.org/packages/1a/ce/33794a7ef68067e22a883f6d200722a8ccfc530b6b40d7ba9956ed4ff8bf/pypreql-0.0.1rc9.tar.gz
+[2024-05-31 02:28:43] INFO root fetch - processPackages [pypreql]: executing diffoscope
+[2024-05-31 02:28:43] INFO root fetch - processPackages [pypreql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypreql-0.0.1rc81.tar.gz tmp/pypreql-0.0.1rc9.tar.gz --markdown 20240531/p/pypreql/0.0.1rc81-0.0.1rc9/README.md --exclude *.pyd
+[2024-05-31 02:28:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-31 02:28:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-31 02:28:44] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-31 02:28:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-31 02:28:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-31 02:28:44] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-31 02:28:44] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-05-31 02:28:44] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-05-31 02:28:44] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-05-31 02:28:44] INFO root fetch - processPackages [pypreql]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-0.0.1rc81.tar.gz]
+[2024-05-31 02:28:44] INFO root fetch - processPackages [pypreql]: Remove: archive file [/home/abi/fetcher/tmp/pypreql-0.0.1rc9.tar.gz]
+[2024-05-31 02:28:44] INFO root fetch - main [MainThread]: End processing [pypreql]: success
+[2024-05-31 02:28:44] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.3.tar.gz]
+[2024-05-31 02:28:44] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.4.tar.gz]
+[2024-05-31 02:28:44] INFO root fetch - main [MainThread]: End processing [ladybug-grasshopper]: success
+[2024-05-31 02:28:44] INFO root fetch - main [MainThread]: Store serial: [23458784]
