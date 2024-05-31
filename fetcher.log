@@ -20621,3 +20621,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:50:14] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-31 15:50:14] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-31 15:50:14] INFO root fetch - main [MainThread]: Store serial: [23466501]
+[2024-05-31 15:52:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466501]
+[2024-05-31 15:52:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 15:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lit-ecology-classifier
+[2024-05-31 15:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: detroit
+[2024-05-31 15:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socialdataanalysis
+[2024-05-31 15:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythonanywhere
+[2024-05-31 15:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-azure-auth
+[2024-05-31 15:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botasaurus-driver
+[2024-05-31 15:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyIEM
+[2024-05-31 15:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyDynamic
+[2024-05-31 15:52:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lit-ecology-classifier
+[2024-05-31 15:52:23] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-31 15:52:23] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.7] Old Version: [0.6]
+[2024-05-31 15:52:23] INFO root fetch - processPackages [django-azure-auth]: New version: [1.4.2] Old Version: [1.4.1a0]
+[2024-05-31 15:52:23] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-31 15:52:23] INFO root fetch - processPackages [botasaurus-driver]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 15:52:23] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/41/7e/8e211c1fa260173fc2267d979e2ffd9310b5d918af01f9d05c77b54dd31e/lit_ecology_classifier-0.3.2-py3-none-any.whl
+[2024-05-31 15:52:23] INFO root fetch - processPackages [detroit]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-31 15:52:23] INFO root fetch - processPackages [django-azure-auth]: Downloading https://files.pythonhosted.org/packages/40/97/5627d226a0e8421f636ed0500a65074933d1927f6cd1966e1d9eeab06828/django_azure_auth-1.4.1a0.tar.gz
+[2024-05-31 15:52:23] INFO root fetch - processPackages [pythonanywhere]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-31 15:52:23] INFO root fetch - processPackages [pyIEM]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-31 15:52:23] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/99/ae/8b5508848ec84003194088d986d33666ec2a76b764734d7d28c554979f70/socialdataanalysis-0.6.tar.gz
+[2024-05-31 15:52:23] INFO root fetch - processPackages [PyDynamic]: New version: [2.5.0] Old Version: [2.4.2]
+[2024-05-31 15:52:23] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/fa/7e/4cded5fa90ea0a7190b71e9cff4e212107c073d4621880dcdb18dab7bf09/botasaurus_driver-4.0.8.tar.gz
+[2024-05-31 15:52:23] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/41/7e/8e211c1fa260173fc2267d979e2ffd9310b5d918af01f9d05c77b54dd31e/lit_ecology_classifier-0.3.2-py3-none-any.whl
+[2024-05-31 15:52:23] INFO root fetch - processPackages [detroit]: Downloading https://files.pythonhosted.org/packages/c4/1b/f2dd0136fc14f76d537845090d1439147b5b114a62bfdd4ba4a556049aaa/detroit-1.1.0.tar.gz
+[2024-05-31 15:52:23] INFO root fetch - processPackages [pythonanywhere]: Downloading https://files.pythonhosted.org/packages/3b/8d/6db52818e5208b482dd5dee7a45523935b12f1bbc60091214123220da36f/pythonanywhere-0.9.8.tar.gz
+[2024-05-31 15:52:23] INFO root fetch - processPackages [pyIEM]: Downloading https://files.pythonhosted.org/packages/8b/fa/5afc2ff6d5d17339b6cc58390ede07ac85131c6aa5d4947f9725a371717f/pyIEM-1.8.0.tar.gz
+[2024-05-31 15:52:23] INFO root fetch - processPackages [PyDynamic]: Downloading https://files.pythonhosted.org/packages/7d/b3/234a7fbcb3cd2a3ecc2f23cd2f9327b204c710130cc8b8f9b27bc4f49e75/PyDynamic-2.4.2.tar.gz
+[2024-05-31 15:52:23] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/1a/16/e32a1fdf055c3fbc6bc1707891292774f6275958698e3df032ec7d110b20/lit_ecology_classifier-0.3.3-py3-none-any.whl
+[2024-05-31 15:52:23] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/1a/16/e32a1fdf055c3fbc6bc1707891292774f6275958698e3df032ec7d110b20/lit_ecology_classifier-0.3.3-py3-none-any.whl
+[2024-05-31 15:52:23] INFO root fetch - processPackages [django-azure-auth]: Downloading https://files.pythonhosted.org/packages/a4/e6/1ac57b31036757668abdbf23dd64b71172f11410bc9cbd2e900ce56f6fa2/django_azure_auth-1.4.2.tar.gz
+[2024-05-31 15:52:23] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/ce/5e/e5ca04d588bf10dd6f4b1cf30e234ebbd63e7e18dfba39d23f1516872811/socialdataanalysis-0.7.tar.gz
+[2024-05-31 15:52:23] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/ad/57/c5587eb0a46a39cf90a36835b2e3372614749a4cde08db6baad1ff2eac4e/botasaurus_driver-4.0.9.tar.gz
+[2024-05-31 15:52:23] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-05-31 15:52:23] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-0.3.2-py3-none-any.whl.zip tmp/lit_ecology_classifier-0.3.3-py3-none-any.whl.zip --markdown 20240531/l/lit-ecology-classifier/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-31 15:52:23] INFO root fetch - processPackages [django-azure-auth]: executing diffoscope
+[2024-05-31 15:52:23] INFO root fetch - processPackages [django-azure-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_azure_auth-1.4.1a0.tar.gz tmp/django_azure_auth-1.4.2.tar.gz --markdown 20240531/d/django-azure-auth/1.4.1a0-1.4.2/README.md --exclude *.pyd
+[2024-05-31 15:52:23] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-05-31 15:52:23] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-0.3.2-py3-none-any.whl.zip tmp/lit_ecology_classifier-0.3.3-py3-none-any.whl.zip --markdown 20240531/l/lit-ecology-classifier/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-31 15:52:23] INFO root fetch - processPackages [detroit]: Downloading https://files.pythonhosted.org/packages/e8/5a/235189616eee443d3afd50e21fd1d627b9510fc7c307abdf4d67da02e2c9/detroit-1.2.0.tar.gz
+[2024-05-31 15:52:24] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 15:52:24] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.6.tar.gz tmp/socialdataanalysis-0.7.tar.gz --markdown 20240531/s/socialdataanalysis/0.6-0.7/README.md --exclude *.pyd
+[2024-05-31 15:52:24] WARNING root fetch - processPackages [pyIEM]: Skipping package: exceeds size limit 25135299>=10485760
+[2024-05-31 15:52:24] INFO root fetch - main [MainThread]: End processing [pyIEM] error
+[2024-05-31 15:52:24] INFO root fetch - processPackages [pythonanywhere]: Downloading https://files.pythonhosted.org/packages/49/4d/5bd2f051858345eba636dba994fb749aaf85a89979ba971e26c78a474375/pythonanywhere-0.9.9.tar.gz
+[2024-05-31 15:52:24] INFO root fetch - processPackages [botasaurus-driver]: executing diffoscope
+[2024-05-31 15:52:24] INFO root fetch - processPackages [botasaurus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_driver-4.0.8.tar.gz tmp/botasaurus_driver-4.0.9.tar.gz --markdown 20240531/b/botasaurus-driver/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 15:52:24] INFO root fetch - processPackages [PyDynamic]: Downloading https://files.pythonhosted.org/packages/98/0d/ef86ad5ef847cdc05ba8ebf4de3d631f6a03988191177f5cfe2f71c963e0/PyDynamic-2.5.0.tar.gz
+[2024-05-31 15:52:24] INFO root fetch - processPackages [detroit]: executing diffoscope
+[2024-05-31 15:52:24] INFO root fetch - processPackages [detroit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detroit-1.1.0.tar.gz tmp/detroit-1.2.0.tar.gz --markdown 20240531/d/detroit/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-31 15:52:24] INFO root fetch - processPackages [pythonanywhere]: executing diffoscope
+[2024-05-31 15:52:24] INFO root fetch - processPackages [pythonanywhere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonanywhere-0.9.8.tar.gz tmp/pythonanywhere-0.9.9.tar.gz --markdown 20240531/p/pythonanywhere/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-31 15:52:24] INFO root fetch - processPackages [PyDynamic]: executing diffoscope
+[2024-05-31 15:52:24] INFO root fetch - processPackages [PyDynamic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDynamic-2.4.2.tar.gz tmp/PyDynamic-2.5.0.tar.gz --markdown 20240531/P/PyDynamic/2.4.2-2.5.0/README.md --exclude *.pyd
+[2024-05-31 15:52:24] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.3.2-py3-none-any.whl.zip]
+[2024-05-31 15:52:24] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.3.3-py3-none-any.whl.zip]
+[2024-05-31 15:52:24] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-05-31 15:52:24] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-05-31 15:52:24] INFO root fetch - processPackages [django-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_auth-1.4.1a0.tar.gz]
+[2024-05-31 15:52:24] INFO root fetch - processPackages [django-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/django_azure_auth-1.4.2.tar.gz]
+[2024-05-31 15:52:24] INFO root fetch - main [MainThread]: End processing [django-azure-auth]: success
+[2024-05-31 15:52:24] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.6.tar.gz]
+[2024-05-31 15:52:24] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.7.tar.gz]
+[2024-05-31 15:52:24] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 15:52:25] INFO root fetch - processPackages [pythonanywhere]: Remove: archive file [/home/abi/fetcher/tmp/pythonanywhere-0.9.8.tar.gz]
+[2024-05-31 15:52:25] INFO root fetch - processPackages [pythonanywhere]: Remove: archive file [/home/abi/fetcher/tmp/pythonanywhere-0.9.9.tar.gz]
+[2024-05-31 15:52:25] INFO root fetch - main [MainThread]: End processing [pythonanywhere]: success
+[2024-05-31 15:52:25] INFO root fetch - processPackages [detroit]: Remove: archive file [/home/abi/fetcher/tmp/detroit-1.1.0.tar.gz]
+[2024-05-31 15:52:25] INFO root fetch - processPackages [detroit]: Remove: archive file [/home/abi/fetcher/tmp/detroit-1.2.0.tar.gz]
+[2024-05-31 15:52:25] INFO root fetch - main [MainThread]: End processing [detroit]: success
+[2024-05-31 15:52:25] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.8.tar.gz]
+[2024-05-31 15:52:25] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.9.tar.gz]
+[2024-05-31 15:52:25] INFO root fetch - main [MainThread]: End processing [botasaurus-driver]: success
+[2024-05-31 15:52:26] INFO root fetch - processPackages [PyDynamic]: Remove: archive file [/home/abi/fetcher/tmp/PyDynamic-2.4.2.tar.gz]
+[2024-05-31 15:52:26] INFO root fetch - processPackages [PyDynamic]: Remove: archive file [/home/abi/fetcher/tmp/PyDynamic-2.5.0.tar.gz]
+[2024-05-31 15:52:26] INFO root fetch - main [MainThread]: End processing [PyDynamic]: success
+[2024-05-31 15:52:26] INFO root fetch - main [MainThread]: Store serial: [23466527]
