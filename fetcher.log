@@ -12476,3 +12476,74 @@
 [2024-05-31 10:44:36] INFO root fetch - processPackages [neurom]: Remove: archive file [/home/abi/fetcher/tmp/neurom-4.0.1.tar.gz]
 [2024-05-31 10:44:36] INFO root fetch - main [MainThread]: End processing [neurom]: success
 [2024-05-31 10:44:36] INFO root fetch - main [MainThread]: Store serial: [23462923]
+[2024-05-31 10:46:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462923]
+[2024-05-31 10:46:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2024-05-31 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-gitlab
+[2024-05-31 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: creme-crm
+[2024-05-31 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2024-05-31 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tetos
+[2024-05-31 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hugchat
+[2024-05-31 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zope.testbrowser
+[2024-05-31 10:46:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartlink-remote-restapi
+[2024-05-31 10:46:44] INFO root fetch - processPackages [creme-crm]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-05-31 10:46:44] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-31 10:46:44] INFO root fetch - processPackages [creme-crm]: Downloading https://files.pythonhosted.org/packages/93/50/81dca09bad5373bb42e2c77da42b6f5d53f9dbbb4bf3cd472d8ccc54aa25/creme_crm-2.5.8.tar.gz
+[2024-05-31 10:46:44] INFO root fetch - processPackages [smartlink-remote-restapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 10:46:44] INFO root fetch - processPackages [hugchat]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-31 10:46:44] INFO root fetch - processPackages [pulumi-gitlab]: New version: [8.0.0] Old Version: [7.1.0a1716961064]
+[2024-05-31 10:46:44] INFO root fetch - processPackages [tetos]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-31 10:46:44] INFO root fetch - processPackages [zope.testbrowser]: New version: [7.0] Old Version: [6.0]
+[2024-05-31 10:46:44] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240531] Old Version: [2.17.0.dev20240530]
+[2024-05-31 10:46:44] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-31 10:46:44] WARNING root fetch - processPackages [creme-crm]: Skipping package: exceeds size limit 24042383>=10485760
+[2024-05-31 10:46:44] INFO root fetch - main [MainThread]: End processing [creme-crm] error
+[2024-05-31 10:46:45] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/7b/a6/89111164ab4b8caf87b7f62c4aca384b85a11cbeba9aa2340d259ca28476/pulumi_gitlab-7.1.0a1716961064.tar.gz
+[2024-05-31 10:46:45] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/ca/07/0ef7ea1acc944b92aa440125d84668d459161382ce1617eddf45c1f72e9c/hugchat-0.4.6.tar.gz
+[2024-05-31 10:46:45] INFO root fetch - processPackages [tetos]: Downloading https://files.pythonhosted.org/packages/37/11/69293e702f9d572d909b3ef2355099de4ef5866aab69f260045817fb3a16/tetos-0.2.1.tar.gz
+[2024-05-31 10:46:45] INFO root fetch - processPackages [smartlink-remote-restapi]: Downloading https://files.pythonhosted.org/packages/bf/3f/6b02542ffe0c59447e8357bf2e62fe136682fbf58296882742a346bd12fb/smartlink-remote-restapi-0.0.8.tar.gz
+[2024-05-31 10:46:45] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/85/17/0102a5e9be6bc040582a666cabe5aec499890f750bf3b15db6dc1843eced/tf_nightly_cpu-2.17.0.dev20240530-cp39-cp39-win_amd64.whl
+[2024-05-31 10:46:45] INFO root fetch - processPackages [zope.testbrowser]: Downloading https://files.pythonhosted.org/packages/42/3e/475e8be6a1f9865280f60fc5ed82f4e16153747d1266cf8dec02c07dc395/zope.testbrowser-6.0.tar.gz
+[2024-05-31 10:46:45] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-31 10:46:45] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/ef/d1/7fe4d0addbe451fe1c5fbaa17700622b55d644def35da98805e740a55d83/hugchat-0.4.7.tar.gz
+[2024-05-31 10:46:45] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/c5/18/feb2123639c17b7593730f0aa69388e9470afcd027a1e90f823332a38c70/pulumi_gitlab-8.0.0.tar.gz
+[2024-05-31 10:46:45] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/8b/c9/f09541828f02a512e8632cbf0f69aa9e3f18605f7ee51322ac2f79a5b71a/tf_nightly_cpu-2.17.0.dev20240531-cp39-cp39-win_amd64.whl
+[2024-05-31 10:46:45] INFO root fetch - processPackages [tetos]: Downloading https://files.pythonhosted.org/packages/59/a5/cdfe5dfb486a99faa269dd2ca917f908f2ff8d9d0904ebc10d5abeda8aa5/tetos-0.3.0.tar.gz
+[2024-05-31 10:46:45] INFO root fetch - processPackages [smartlink-remote-restapi]: Downloading https://files.pythonhosted.org/packages/9f/15/c1f285f1a5b18e4cd5e9bab2b6e5bfe01e4d4281c9221ac4bba5a69d2097/smartlink-remote-restapi-0.0.9.tar.gz
+[2024-05-31 10:46:45] INFO root fetch - processPackages [zope.testbrowser]: Downloading https://files.pythonhosted.org/packages/46/5f/db2128c4dc3cc3077d2652ba2232685fb2f8c0ee6bd970b2dbf165ef7a54/zope.testbrowser-7.0.tar.gz
+[2024-05-31 10:46:45] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2024-05-31 10:46:45] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.4.6.tar.gz tmp/hugchat-0.4.7.tar.gz --markdown 20240531/h/hugchat/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-31 10:46:45] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-31 10:46:45] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240531/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-31 10:46:45] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-31 10:46:45] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240530-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240531-cp39-cp39-win_amd64.whl.zip --markdown 20240531/t/tf-nightly-cpu/2.17.0.dev20240530-2.17.0.dev20240531/README.md --exclude *.pyd
+[2024-05-31 10:46:45] INFO root fetch - processPackages [tetos]: executing diffoscope
+[2024-05-31 10:46:45] INFO root fetch - processPackages [tetos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tetos-0.2.1.tar.gz tmp/tetos-0.3.0.tar.gz --markdown 20240531/t/tetos/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-31 10:46:45] INFO root fetch - processPackages [smartlink-remote-restapi]: executing diffoscope
+[2024-05-31 10:46:45] INFO root fetch - processPackages [smartlink-remote-restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-remote-restapi-0.0.8.tar.gz tmp/smartlink-remote-restapi-0.0.9.tar.gz --markdown 20240531/s/smartlink-remote-restapi/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 10:46:45] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-05-31 10:46:45] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-7.1.0a1716961064.tar.gz tmp/pulumi_gitlab-8.0.0.tar.gz --markdown 20240531/p/pulumi-gitlab/7.1.0a1716961064-8.0.0/README.md --exclude *.pyd
+[2024-05-31 10:46:45] INFO root fetch - processPackages [zope.testbrowser]: executing diffoscope
+[2024-05-31 10:46:45] INFO root fetch - processPackages [zope.testbrowser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.testbrowser-6.0.tar.gz tmp/zope.testbrowser-7.0.tar.gz --markdown 20240531/z/zope.testbrowser/6.0-7.0/README.md --exclude *.pyd
+[2024-05-31 10:46:46] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240530-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 10:46:46] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240531-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 10:46:46] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-31 10:46:46] INFO root fetch - processPackages [tetos]: Remove: archive file [/home/abi/fetcher/tmp/tetos-0.2.1.tar.gz]
+[2024-05-31 10:46:46] INFO root fetch - processPackages [tetos]: Remove: archive file [/home/abi/fetcher/tmp/tetos-0.3.0.tar.gz]
+[2024-05-31 10:46:46] INFO root fetch - main [MainThread]: End processing [tetos]: success
+[2024-05-31 10:46:46] INFO root fetch - processPackages [smartlink-remote-restapi]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-remote-restapi-0.0.8.tar.gz]
+[2024-05-31 10:46:46] INFO root fetch - processPackages [smartlink-remote-restapi]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-remote-restapi-0.0.9.tar.gz]
+[2024-05-31 10:46:46] INFO root fetch - main [MainThread]: End processing [smartlink-remote-restapi]: success
+[2024-05-31 10:46:46] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.4.6.tar.gz]
+[2024-05-31 10:46:46] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.4.7.tar.gz]
+[2024-05-31 10:46:46] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2024-05-31 10:46:46] INFO root fetch - processPackages [zope.testbrowser]: Remove: archive file [/home/abi/fetcher/tmp/zope.testbrowser-6.0.tar.gz]
+[2024-05-31 10:46:46] INFO root fetch - processPackages [zope.testbrowser]: Remove: archive file [/home/abi/fetcher/tmp/zope.testbrowser-7.0.tar.gz]
+[2024-05-31 10:46:46] INFO root fetch - main [MainThread]: End processing [zope.testbrowser]: success
+[2024-05-31 10:46:47] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-7.1.0a1716961064.tar.gz]
+[2024-05-31 10:46:47] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-8.0.0.tar.gz]
+[2024-05-31 10:46:47] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-05-31 10:46:48] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-31 10:46:48] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-31 10:46:48] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-31 10:46:48] INFO root fetch - main [MainThread]: Store serial: [23462951]
