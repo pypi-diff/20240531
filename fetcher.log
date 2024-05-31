@@ -7402,3 +7402,24 @@
 [2024-05-31 06:40:45] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-31 06:40:45] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-31 06:40:45] INFO root fetch - main [MainThread]: Store serial: [23460468]
+[2024-05-31 06:42:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460468]
+[2024-05-31 06:42:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 06:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abcli
+[2024-05-31 06:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gizai
+[2024-05-31 06:42:53] INFO root fetch - processPackages [abcli]: New version: [9.46.1] Old Version: [9.34.1]
+[2024-05-31 06:42:53] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-05-31 06:42:54] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/3c/9d/605e65ab9e13ece060779005e99f05f0f74e1eda7bc2d981ce6b707f0b9d/abcli-9.34.1.tar.gz
+[2024-05-31 06:42:54] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-05-31 06:42:54] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-05-31 06:42:54] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/92/ef/6a144af2a8124f4467afa863849b96d5a447b6012ccf5d41247440566541/abcli-9.46.1.tar.gz
+[2024-05-31 06:42:54] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-05-31 06:42:54] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240531/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-05-31 06:42:54] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-31 06:42:54] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-9.34.1.tar.gz tmp/abcli-9.46.1.tar.gz --markdown 20240531/a/abcli/9.34.1-9.46.1/README.md --exclude *.pyd
+[2024-05-31 06:42:54] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.6.1.tar.gz]
+[2024-05-31 06:42:54] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.9.1.tar.gz]
+[2024-05-31 06:42:54] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-05-31 06:42:55] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.34.1.tar.gz]
+[2024-05-31 06:42:55] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.46.1.tar.gz]
+[2024-05-31 06:42:55] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-31 06:42:55] INFO root fetch - main [MainThread]: Store serial: [23460474]
