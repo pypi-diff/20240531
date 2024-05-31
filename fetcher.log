@@ -16640,3 +16640,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:28:16] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
 [2024-05-31 13:28:16] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-31 13:28:16] INFO root fetch - main [MainThread]: Store serial: [23464793]
+[2024-05-31 13:30:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464793]
+[2024-05-31 13:30:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlink
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nestipy
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soil-sdk
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: textdescriptives
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blockchain-data-subnet-shared-libs
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-sdk-rafay-workflow
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ctrip-helper
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ctrip-helper]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-31 13:30:25] INFO root fetch - processPackages [python-sdk-rafay-workflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/33/b6/955cc5606c7154ce0cadf8e843243b5c9f5d49ed041857b54a5fd13938bd/ctrip-helper-0.4.0.tar.gz
+[2024-05-31 13:30:25] INFO root fetch - processPackages [python-sdk-rafay-workflow]: Downloading https://files.pythonhosted.org/packages/85/3e/45ff81087c5ffbd45d666eedb0f0b82c42994aaeaa34a017f19e40be1e43/python_sdk_rafay_workflow-0.0.8.tar.gz
+[2024-05-31 13:30:25] INFO root fetch - processPackages [sqlink]: New version: [1.5.6] Old Version: [1.5.5]
+[2024-05-31 13:30:25] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-31 13:30:25] INFO root fetch - processPackages [textdescriptives]: New version: [2.8.2] Old Version: [2.8.1]
+[2024-05-31 13:30:25] INFO root fetch - processPackages [nestipy]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-31 13:30:25] INFO root fetch - processPackages [soil-sdk]: New version: [0.6.9] Old Version: [0.6.8.dev2]
+[2024-05-31 13:30:25] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Downloading https://files.pythonhosted.org/packages/78/2b/22122d13b0bc7cc2c1e8553c26cad1d1c11dd5606c9adab9593351a0ea7a/blockchain_data_subnet_shared_libs-0.0.1.tar.gz
+[2024-05-31 13:30:25] INFO root fetch - processPackages [python-sdk-rafay-workflow]: Downloading https://files.pythonhosted.org/packages/9d/b9/c0241a298a0b4e62158741473e713a393dd0970f622d2111b70ce9ddda0d/python_sdk_rafay_workflow-0.0.9.tar.gz
+[2024-05-31 13:30:25] INFO root fetch - processPackages [sqlink]: Downloading https://files.pythonhosted.org/packages/6f/e5/386c1468f4d6cf7ad6033f5e55352858773f3314b26c41bcf921333347aa/sqlink-1.5.5.tar.gz
+[2024-05-31 13:30:25] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/23/22/8b2f55af8d6d60986a7cfd215b267a30068c25513b32673c9184e2cdd0a2/nestipy-0.3.7.tar.gz
+[2024-05-31 13:30:25] INFO root fetch - processPackages [textdescriptives]: Downloading https://files.pythonhosted.org/packages/25/77/0f07ae1dbc9e27f91216db1ee709daf7b591a60fd8a085eec09edc891403/textdescriptives-2.8.1.tar.gz
+[2024-05-31 13:30:25] INFO root fetch - processPackages [python-sdk-rafay-workflow]: executing diffoscope
+[2024-05-31 13:30:25] INFO root fetch - processPackages [python-sdk-rafay-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_rafay_workflow-0.0.8.tar.gz tmp/python_sdk_rafay_workflow-0.0.9.tar.gz --markdown 20240531/p/python-sdk-rafay-workflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/83/70/1994b87c93034c3bf97a5ad7611a9dca54dd920c8205e656bf78704a2dac/ctrip-helper-0.4.1.tar.gz
+[2024-05-31 13:30:25] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/43/64/68f336f248034f5496c0f6133882d758ff76d98fbc108383165e5c203e35/soil-sdk-0.6.8.dev2.tar.gz
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 13:30:25] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.4.0.tar.gz tmp/ctrip-helper-0.4.1.tar.gz --markdown 20240531/c/ctrip-helper/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-31 13:30:26] INFO root fetch - processPackages [sqlink]: Downloading https://files.pythonhosted.org/packages/a8/e5/4b858f036c93ae672feda09af9e75f1e9bdb497488987d77b24e70297eb1/sqlink-1.5.6.tar.gz
+[2024-05-31 13:30:26] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Downloading https://files.pythonhosted.org/packages/03/c9/86bc6e13af1d5f56a5bfb1e36182ee3e6fd4a0caae01abf35f710817c2ff/blockchain_data_subnet_shared_libs-1.0.0.tar.gz
+[2024-05-31 13:30:26] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/33/9d/049c79d67a3391020aebd59d61aa4461018497b37505c63c3fbe36ce4846/nestipy-0.3.8.tar.gz
+[2024-05-31 13:30:26] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: executing diffoscope
+[2024-05-31 13:30:26] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockchain_data_subnet_shared_libs-0.0.1.tar.gz tmp/blockchain_data_subnet_shared_libs-1.0.0.tar.gz --markdown 20240531/b/blockchain-data-subnet-shared-libs/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-31 13:30:26] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/95/a4/5d6fcf9c297529ccac89f00ed380d87a066c0f04eab9df8f4237645e0542/soil-sdk-0.6.9.tar.gz
+[2024-05-31 13:30:26] INFO root fetch - processPackages [sqlink]: executing diffoscope
+[2024-05-31 13:30:26] INFO root fetch - processPackages [sqlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlink-1.5.5.tar.gz tmp/sqlink-1.5.6.tar.gz --markdown 20240531/s/sqlink/1.5.5-1.5.6/README.md --exclude *.pyd
+[2024-05-31 13:30:26] INFO root fetch - processPackages [nestipy]: executing diffoscope
+[2024-05-31 13:30:26] INFO root fetch - processPackages [nestipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy-0.3.7.tar.gz tmp/nestipy-0.3.8.tar.gz --markdown 20240531/n/nestipy/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-31 13:30:26] INFO root fetch - processPackages [textdescriptives]: Downloading https://files.pythonhosted.org/packages/54/9a/874d218b703bc8c93b52ec81d82865cba607717d291fb4676cda3bd93a06/textdescriptives-2.8.2.tar.gz
+[2024-05-31 13:30:26] INFO root fetch - processPackages [python-sdk-rafay-workflow]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_rafay_workflow-0.0.8.tar.gz]
+[2024-05-31 13:30:26] INFO root fetch - processPackages [python-sdk-rafay-workflow]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_rafay_workflow-0.0.9.tar.gz]
+[2024-05-31 13:30:26] INFO root fetch - main [MainThread]: End processing [python-sdk-rafay-workflow]: success
+[2024-05-31 13:30:26] INFO root fetch - processPackages [soil-sdk]: executing diffoscope
+[2024-05-31 13:30:26] INFO root fetch - processPackages [soil-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-sdk-0.6.8.dev2.tar.gz tmp/soil-sdk-0.6.9.tar.gz --markdown 20240531/s/soil-sdk/0.6.8.dev2-0.6.9/README.md --exclude *.pyd
+[2024-05-31 13:30:26] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.4.0.tar.gz]
+[2024-05-31 13:30:26] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.4.1.tar.gz]
+[2024-05-31 13:30:26] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 13:30:26] INFO root fetch - processPackages [textdescriptives]: executing diffoscope
+[2024-05-31 13:30:26] INFO root fetch - processPackages [textdescriptives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textdescriptives-2.8.1.tar.gz tmp/textdescriptives-2.8.2.tar.gz --markdown 20240531/t/textdescriptives/2.8.1-2.8.2/README.md --exclude *.pyd
+[2024-05-31 13:30:26] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Remove: archive file [/home/abi/fetcher/tmp/blockchain_data_subnet_shared_libs-0.0.1.tar.gz]
+[2024-05-31 13:30:26] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Remove: archive file [/home/abi/fetcher/tmp/blockchain_data_subnet_shared_libs-1.0.0.tar.gz]
+[2024-05-31 13:30:26] INFO root fetch - main [MainThread]: End processing [blockchain-data-subnet-shared-libs]: success
+[2024-05-31 13:30:26] INFO root fetch - processPackages [sqlink]: Remove: archive file [/home/abi/fetcher/tmp/sqlink-1.5.5.tar.gz]
+[2024-05-31 13:30:26] INFO root fetch - processPackages [sqlink]: Remove: archive file [/home/abi/fetcher/tmp/sqlink-1.5.6.tar.gz]
+[2024-05-31 13:30:26] INFO root fetch - main [MainThread]: End processing [sqlink]: success
+[2024-05-31 13:30:27] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.3.7.tar.gz]
+[2024-05-31 13:30:27] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.3.8.tar.gz]
+[2024-05-31 13:30:27] INFO root fetch - main [MainThread]: End processing [nestipy]: success
+[2024-05-31 13:30:27] INFO root fetch - processPackages [textdescriptives]: Remove: archive file [/home/abi/fetcher/tmp/textdescriptives-2.8.1.tar.gz]
+[2024-05-31 13:30:27] INFO root fetch - processPackages [textdescriptives]: Remove: archive file [/home/abi/fetcher/tmp/textdescriptives-2.8.2.tar.gz]
+[2024-05-31 13:30:27] INFO root fetch - main [MainThread]: End processing [textdescriptives]: success
+[2024-05-31 13:30:27] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.8.dev2.tar.gz]
+[2024-05-31 13:30:27] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.9.tar.gz]
+[2024-05-31 13:30:27] INFO root fetch - main [MainThread]: End processing [soil-sdk]: success
+[2024-05-31 13:30:27] INFO root fetch - main [MainThread]: Store serial: [23464817]
