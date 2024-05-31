@@ -20468,3 +20468,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:45:37] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unianalytics_dashboard-4.0.9.tar.gz]
 [2024-05-31 15:45:37] INFO root fetch - main [MainThread]: End processing [jupyterlab-unianalytics-dashboard]: success
 [2024-05-31 15:45:37] INFO root fetch - main [MainThread]: Store serial: [23466448]
+[2024-05-31 15:47:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466448]
+[2024-05-31 15:47:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 15:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rattail
+[2024-05-31 15:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ocf-datapipes
+[2024-05-31 15:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-id-python
+[2024-05-31 15:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botasaurus-driver
+[2024-05-31 15:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langtrace-python-sdk
+[2024-05-31 15:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-bank-python
+[2024-05-31 15:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lit-ecology-classifier
+[2024-05-31 15:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: litetts
+[2024-05-31 15:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: direct-neural-biasing
+[2024-05-31 15:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ReProv
+[2024-05-31 15:47:46] INFO root fetch - processPackages [direct-neural-biasing]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-31 15:47:46] WARNING root fetch - processPackages [ReProv]: Skipping, unable to determine old version
+[2024-05-31 15:47:46] INFO root fetch - main [MainThread]: End processing [ReProv] error
+[2024-05-31 15:47:46] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 15:47:46] INFO root fetch - processPackages [litetts]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-31 15:47:46] INFO root fetch - processPackages [botasaurus-driver]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 15:47:46] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [2.1.4] Old Version: [2.1.2]
+[2024-05-31 15:47:46] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-31 15:47:46] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-31 15:47:46] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-31 15:47:46] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/b9/58/002e07f45245237f71c4d44636991e3643b246b0d77e735db8ec61c20911/direct_neural_biasing-0.7.0-cp311-none-win_amd64.whl
+[2024-05-31 15:47:46] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [ocf-datapipes]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-05-31 15:47:46] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/bc/31/4cd378ac22e9ffdf60dbcbb73e70e021c17c452bd5e575a904c98bc42e63/lit_ecology_classifier-0.3.1-py3-none-any.whl
+[2024-05-31 15:47:46] INFO root fetch - processPackages [litetts]: Downloading https://files.pythonhosted.org/packages/dc/ac/fd3f2294fc90425301e6423c5e995e405b220cad6a390091f12c3240c317/litetts-0.1.0.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/fa/7e/4cded5fa90ea0a7190b71e9cff4e212107c073d4621880dcdb18dab7bf09/botasaurus_driver-4.0.8.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/fa/77/97236b7f57df0d7b3618b0aba1963a699d0b9a834ee4e8923d56b4c24f60/langtrace_python_sdk-2.1.2.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/15/c1/a7b606f36344fabf944e15a0797bc3247212355d28ff2a63eef5077883b8/ocf_datapipes-3.3.8.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [litetts]: Downloading https://files.pythonhosted.org/packages/48/c5/79ca5d92935dbb981373ee6e2e845ceeafc51ad7f7045a6b26d95107305a/litetts-0.2.0.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/ad/57/c5587eb0a46a39cf90a36835b2e3372614749a4cde08db6baad1ff2eac4e/botasaurus_driver-4.0.9.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/41/7e/8e211c1fa260173fc2267d979e2ffd9310b5d918af01f9d05c77b54dd31e/lit_ecology_classifier-0.3.2-py3-none-any.whl
+[2024-05-31 15:47:46] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/99/e5/e3b54f420c2fd262e2fea2677a66fb743e46dc266c68c3e696bec52bd5ad/direct_neural_biasing-0.7.1-cp311-none-win_amd64.whl
+[2024-05-31 15:47:46] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/d9/58/6f95ec348c4e39ab147435a6eaddd38a0e4d197f59b00078671f055c5284/langtrace_python_sdk-2.1.4.tar.gz
+[2024-05-31 15:47:46] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2024-05-31 15:47:47] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-05-31 15:47:47] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240531/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-31 15:47:47] INFO root fetch - processPackages [litetts]: executing diffoscope
+[2024-05-31 15:47:47] INFO root fetch - processPackages [litetts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litetts-0.1.0.tar.gz tmp/litetts-0.2.0.tar.gz --markdown 20240531/l/litetts/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-31 15:47:47] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-31 15:47:47] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240531/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-31 15:47:47] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-05-31 15:47:47] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-0.3.1-py3-none-any.whl.zip tmp/lit_ecology_classifier-0.3.2-py3-none-any.whl.zip --markdown 20240531/l/lit-ecology-classifier/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 15:47:47] INFO root fetch - processPackages [botasaurus-driver]: executing diffoscope
+[2024-05-31 15:47:47] INFO root fetch - processPackages [botasaurus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_driver-4.0.8.tar.gz tmp/botasaurus_driver-4.0.9.tar.gz --markdown 20240531/b/botasaurus-driver/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 15:47:47] INFO root fetch - processPackages [direct-neural-biasing]: executing diffoscope
+[2024-05-31 15:47:47] INFO root fetch - processPackages [direct-neural-biasing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direct_neural_biasing-0.7.0-cp311-none-win_amd64.whl.zip tmp/direct_neural_biasing-0.7.1-cp311-none-win_amd64.whl.zip --markdown 20240531/d/direct-neural-biasing/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-31 15:47:47] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/55/0a/5970538e840540313fb117c6e1f7bad44ee3f3749d076d0440485cc60a89/ocf_datapipes-3.3.9.tar.gz
+[2024-05-31 15:47:47] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2024-05-31 15:47:47] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20240531/r/rattail/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-31 15:47:47] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-05-31 15:47:47] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-2.1.2.tar.gz tmp/langtrace_python_sdk-2.1.4.tar.gz --markdown 20240531/l/langtrace-python-sdk/2.1.2-2.1.4/README.md --exclude *.pyd
+[2024-05-31 15:47:47] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2024-05-31 15:47:47] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-3.3.8.tar.gz tmp/ocf_datapipes-3.3.9.tar.gz --markdown 20240531/o/ocf-datapipes/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-05-31 15:47:48] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.3.1-py3-none-any.whl.zip]
+[2024-05-31 15:47:48] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.3.2-py3-none-any.whl.zip]
+[2024-05-31 15:47:48] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-05-31 15:47:48] INFO root fetch - processPackages [litetts]: Remove: archive file [/home/abi/fetcher/tmp/litetts-0.1.0.tar.gz]
+[2024-05-31 15:47:48] INFO root fetch - processPackages [litetts]: Remove: archive file [/home/abi/fetcher/tmp/litetts-0.2.0.tar.gz]
+[2024-05-31 15:47:48] INFO root fetch - main [MainThread]: End processing [litetts]: success
+[2024-05-31 15:47:48] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.7.0-cp311-none-win_amd64.whl.zip]
+[2024-05-31 15:47:48] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.7.1-cp311-none-win_amd64.whl.zip]
+[2024-05-31 15:47:48] INFO root fetch - main [MainThread]: End processing [direct-neural-biasing]: success
+[2024-05-31 15:47:48] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.8.tar.gz]
+[2024-05-31 15:47:48] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.9.tar.gz]
+[2024-05-31 15:47:48] INFO root fetch - main [MainThread]: End processing [botasaurus-driver]: success
+[2024-05-31 15:47:48] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-31 15:47:48] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-31 15:47:48] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-31 15:47:48] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.8.tar.gz]
+[2024-05-31 15:47:48] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
+[2024-05-31 15:47:48] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2024-05-31 15:47:48] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.1.2.tar.gz]
+[2024-05-31 15:47:48] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.1.4.tar.gz]
+[2024-05-31 15:47:48] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-05-31 15:47:49] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.98.tar.gz]
+[2024-05-31 15:47:49] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
+[2024-05-31 15:47:49] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2024-05-31 15:47:49] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-05-31 15:47:49] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-05-31 15:47:49] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-05-31 15:47:49] INFO root fetch - main [MainThread]: Store serial: [23466478]
