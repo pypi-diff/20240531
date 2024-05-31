@@ -21281,3 +21281,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:12:32] INFO root fetch - processPackages [jdAppStreamEdit]: Remove: archive file [/home/abi/fetcher/tmp/jdappstreamedit-9.1.tar.gz]
 [2024-05-31 16:12:32] INFO root fetch - main [MainThread]: End processing [jdAppStreamEdit]: success
 [2024-05-31 16:12:32] INFO root fetch - main [MainThread]: Store serial: [23466786]
+[2024-05-31 16:14:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466786]
+[2024-05-31 16:14:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 16:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pySWXF
+[2024-05-31 16:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aimodelshare
+[2024-05-31 16:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2024-05-31 16:14:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ubi-population-tool
+[2024-05-31 16:14:41] INFO root fetch - processPackages [pySWXF]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-31 16:14:41] INFO root fetch - processPackages [pySWXF]: Downloading https://files.pythonhosted.org/packages/04/ae/732d19dcc7a32e7b40e4fe056bfe14cc92c1a3a66249ed5d63cab7e3ae8b/pyswxf-0.6.8.tar.gz
+[2024-05-31 16:14:41] INFO root fetch - processPackages [ubi-population-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 16:14:41] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-31 16:14:41] INFO root fetch - processPackages [aimodelshare]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 16:14:41] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-31 16:14:41] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/c0/89/8d5c1ec1f29fb33b0fe43c98e3f08f65c921359d526635068eef7a186e2c/aimodelshare-0.1.8.tar.gz
+[2024-05-31 16:14:41] INFO root fetch - processPackages [pySWXF]: Downloading https://files.pythonhosted.org/packages/14/fb/bfc1b16595e7b90cee58841d843cda3dcb53f290f35a9ca99d97b4723d65/pyswxf-0.6.9.tar.gz
+[2024-05-31 16:14:41] INFO root fetch - processPackages [ubi-population-tool]: Downloading https://files.pythonhosted.org/packages/91/d0/210447413dbc8a53cb298ac1430e36baa05d99d980f2d63d7fa1c979fcaa/ubi-population-tool-0.8.0.tar.gz
+[2024-05-31 16:14:41] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-31 16:14:41] INFO root fetch - processPackages [pySWXF]: executing diffoscope
+[2024-05-31 16:14:41] INFO root fetch - processPackages [pySWXF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyswxf-0.6.8.tar.gz tmp/pyswxf-0.6.9.tar.gz --markdown 20240531/p/pySWXF/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-31 16:14:41] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-31 16:14:41] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240531/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-31 16:14:41] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/92/1b/5990f7c62044a2ad0776737091765068646eecee14dd251c5ea3732caeb0/aimodelshare-0.1.9.tar.gz
+[2024-05-31 16:14:42] INFO root fetch - processPackages [ubi-population-tool]: Downloading https://files.pythonhosted.org/packages/25/a1/19e30b957f08c4a84a747fbb8f8d3484c6450f7f45341f80ea209d8c5f9f/ubi-population-tool-0.9.0.tar.gz
+[2024-05-31 16:14:42] INFO root fetch - processPackages [aimodelshare]: executing diffoscope
+[2024-05-31 16:14:42] INFO root fetch - processPackages [aimodelshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimodelshare-0.1.8.tar.gz tmp/aimodelshare-0.1.9.tar.gz --markdown 20240531/a/aimodelshare/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 16:14:42] INFO root fetch - processPackages [ubi-population-tool]: executing diffoscope
+[2024-05-31 16:14:42] INFO root fetch - processPackages [ubi-population-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubi-population-tool-0.8.0.tar.gz tmp/ubi-population-tool-0.9.0.tar.gz --markdown 20240531/u/ubi-population-tool/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 16:14:42] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-31 16:14:42] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-31 16:14:42] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-31 16:14:42] INFO root fetch - processPackages [pySWXF]: Remove: archive file [/home/abi/fetcher/tmp/pyswxf-0.6.8.tar.gz]
+[2024-05-31 16:14:42] INFO root fetch - processPackages [pySWXF]: Remove: archive file [/home/abi/fetcher/tmp/pyswxf-0.6.9.tar.gz]
+[2024-05-31 16:14:42] INFO root fetch - main [MainThread]: End processing [pySWXF]: success
+[2024-05-31 16:14:42] INFO root fetch - processPackages [ubi-population-tool]: Remove: archive file [/home/abi/fetcher/tmp/ubi-population-tool-0.8.0.tar.gz]
+[2024-05-31 16:14:42] INFO root fetch - processPackages [ubi-population-tool]: Remove: archive file [/home/abi/fetcher/tmp/ubi-population-tool-0.9.0.tar.gz]
+[2024-05-31 16:14:42] INFO root fetch - main [MainThread]: End processing [ubi-population-tool]: success
+[2024-05-31 16:14:43] INFO root fetch - processPackages [aimodelshare]: Remove: archive file [/home/abi/fetcher/tmp/aimodelshare-0.1.8.tar.gz]
+[2024-05-31 16:14:43] INFO root fetch - processPackages [aimodelshare]: Remove: archive file [/home/abi/fetcher/tmp/aimodelshare-0.1.9.tar.gz]
+[2024-05-31 16:14:43] INFO root fetch - main [MainThread]: End processing [aimodelshare]: success
+[2024-05-31 16:14:43] INFO root fetch - main [MainThread]: Store serial: [23466796]
