@@ -15933,3 +15933,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 13:03:29] INFO root fetch - processPackages [hyperqueue]: Remove: archive file [/home/abi/fetcher/tmp/hyperqueue-0.19.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-31 13:03:29] INFO root fetch - main [MainThread]: End processing [hyperqueue]: success
 [2024-05-31 13:03:29] INFO root fetch - main [MainThread]: Store serial: [23464495]
+[2024-05-31 13:05:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464495]
+[2024-05-31 13:06:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-sdwan
+[2024-05-31 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drisk-api
+[2024-05-31 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: delphai-fastapi
+[2024-05-31 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tidypath
+[2024-05-31 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databricks-connect
+[2024-05-31 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shrink-img
+[2024-05-31 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: conscia-secretvalue
+[2024-05-31 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ragstack-ai-langchain
+[2024-05-31 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rapid-router
+[2024-05-31 13:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pldag
+[2024-05-31 13:06:02] INFO root fetch - processPackages [tidypath]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-05-31 13:06:02] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.64] Old Version: [9.1.61]
+[2024-05-31 13:06:02] INFO root fetch - processPackages [pulumi-sdwan]: New version: [0.2.0a1717147084] Old Version: [0.2.0a1716962358]
+[2024-05-31 13:06:02] INFO root fetch - processPackages [rapid-router]: New version: [5.9.3] Old Version: [5.9.2]
+[2024-05-31 13:06:02] INFO root fetch - processPackages [delphai-fastapi]: New version: [3.0.6] Old Version: [3.0.5]
+[2024-05-31 13:06:02] INFO root fetch - processPackages [ragstack-ai-langchain]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-31 13:06:02] WARNING root fetch - processPackages [conscia-secretvalue]: Skipping, unable to determine old version
+[2024-05-31 13:06:02] INFO root fetch - main [MainThread]: End processing [conscia-secretvalue] error
+[2024-05-31 13:06:02] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/80/21/fab5cc0d3e345d9f57a43bc0a4f3626179e34f400074edab40f954187cae/tidypath-1.3.9.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [pldag]: New version: [0.8.62] Old Version: [0.8.61]
+[2024-05-31 13:06:02] INFO root fetch - processPackages [shrink-img]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-31 13:06:02] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/20/85/147c70c27300f8127a2ce5bbcb53edb293915313f6e88fc10271e71221c1/databricks-connect-9.1.61.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [drisk-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 13:06:02] INFO root fetch - processPackages [rapid-router]: Downloading https://files.pythonhosted.org/packages/f2/b8/68b5b8a7d7fdf50b63afbafdc617d1f70f0f450a0ccb6301247f610fa8df/rapid-router-5.9.2.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [pulumi-sdwan]: Downloading https://files.pythonhosted.org/packages/38/66/4e5c5d89470acdd117acd15f510e5f526d15bdfe1ae78c109f2849fdfd33/pulumi_sdwan-0.2.0a1716962358.tar.gz
+[2024-05-31 13:06:02] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257343588>=10485760
+[2024-05-31 13:06:02] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2024-05-31 13:06:02] INFO root fetch - processPackages [ragstack-ai-langchain]: Downloading https://files.pythonhosted.org/packages/7d/89/bb2bc6ca8f838871c788a37a75be67962edb08817e1af0854bb1cc9d7353/ragstack_ai_langchain-1.0.6.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/b5/45/cff1458680286303a87105f5f3ca5154729a626e738b0f32b741933d649b/delphai_fastapi-3.0.5.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [shrink-img]: Downloading https://files.pythonhosted.org/packages/cc/83/1b1b828445f38f8ab4e29c0ad05b270f3c79a427fa3591f63ee92d97acff/shrink_img-0.7.0.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [drisk-api]: Downloading https://files.pythonhosted.org/packages/ef/5c/9670104882daf64bde304f89c9e4e6a0e243f3844c2a857c08ba1cc9ce40/drisk_api-0.0.5-pp38-pypy38_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-31 13:06:02] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/95/dd/1fb9a01cbaac96f9c345762469699ea79c6fd640ce7bc22414be586262f2/pldag-0.8.61.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [tidypath]: Downloading https://files.pythonhosted.org/packages/32/60/40a4ff24e8ef41111e329608390a1d83604a8e382690e8e55dcbf9d08172/tidypath-1.4.0.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [pulumi-sdwan]: Downloading https://files.pythonhosted.org/packages/4a/b5/f4a78e8a6d5e5301f41f606e47b397d587360f9d64a7fafcf65cada62126/pulumi_sdwan-0.2.0a1717147084.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [tidypath]: executing diffoscope
+[2024-05-31 13:06:02] INFO root fetch - processPackages [tidypath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidypath-1.3.9.tar.gz tmp/tidypath-1.4.0.tar.gz --markdown 20240531/t/tidypath/1.3.9-1.4.0/README.md --exclude *.pyd
+[2024-05-31 13:06:02] INFO root fetch - processPackages [rapid-router]: Downloading https://files.pythonhosted.org/packages/cc/02/30f72d97397793614a152d21e24caef108d45b449a77d52d121c9cfbf808/rapid-router-5.9.3.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [delphai-fastapi]: Downloading https://files.pythonhosted.org/packages/ec/00/09c3fa1c2e9fe8e2059ea9293d10137c7fc914c64babf227ad24d6e8c644/delphai_fastapi-3.0.6.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [ragstack-ai-langchain]: Downloading https://files.pythonhosted.org/packages/4e/4c/908a0d4a38ebc764fb077dd06a721b0a809b594ea6eff151b31da47bf096/ragstack_ai_langchain-1.0.7.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/7c/d8/0335d1c1a9ff045e0fe2fe69da2fa0295f06d3cbb5907fe115e953d11fdf/pldag-0.8.62.tar.gz
+[2024-05-31 13:06:02] INFO root fetch - processPackages [shrink-img]: Downloading https://files.pythonhosted.org/packages/ce/92/93ca96a10340d978fc7e0c1fdb8ac14c9edb9a3f3e43be0fcb321f78c69d/shrink_img-0.8.0-cp312-cp312-macosx_10_13_x86_64.macosx_11_0_arm64.macosx_10_13_universal2.whl
+[2024-05-31 13:06:02] INFO root fetch - processPackages [pulumi-sdwan]: executing diffoscope
+[2024-05-31 13:06:02] INFO root fetch - processPackages [pulumi-sdwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sdwan-0.2.0a1716962358.tar.gz tmp/pulumi_sdwan-0.2.0a1717147084.tar.gz --markdown 20240531/p/pulumi-sdwan/0.2.0a1716962358-0.2.0a1717147084/README.md --exclude *.pyd
+[2024-05-31 13:06:02] INFO root fetch - processPackages [delphai-fastapi]: executing diffoscope
+[2024-05-31 13:06:02] INFO root fetch - processPackages [delphai-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_fastapi-3.0.5.tar.gz tmp/delphai_fastapi-3.0.6.tar.gz --markdown 20240531/d/delphai-fastapi/3.0.5-3.0.6/README.md --exclude *.pyd
+[2024-05-31 13:06:02] INFO root fetch - processPackages [ragstack-ai-langchain]: executing diffoscope
+[2024-05-31 13:06:02] INFO root fetch - processPackages [ragstack-ai-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragstack_ai_langchain-1.0.6.tar.gz tmp/ragstack_ai_langchain-1.0.7.tar.gz --markdown 20240531/r/ragstack-ai-langchain/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-31 13:06:03] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-05-31 13:06:03] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.8.61.tar.gz tmp/pldag-0.8.62.tar.gz --markdown 20240531/p/pldag/0.8.61-0.8.62/README.md --exclude *.pyd
+[2024-05-31 13:06:03] INFO root fetch - processPackages [drisk-api]: Downloading https://files.pythonhosted.org/packages/3b/8f/6aee475b6007a468eeb1a33cc75ce92d7c52a67fa8f5994e4e73d3eb9f57/drisk_api-0.0.6-pp39-pypy39_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl
+[2024-05-31 13:06:03] INFO root fetch - processPackages [shrink-img]: executing diffoscope
+[2024-05-31 13:06:03] INFO root fetch - processPackages [shrink-img]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shrink_img-0.7.0.tar.gz tmp/shrink_img-0.8.0-cp312-cp312-macosx_10_13_x86_64.macosx_11_0_arm64.macosx_10_13_universal2.whl.zip --markdown 20240531/s/shrink-img/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-31 13:06:03] INFO root fetch - processPackages [rapid-router]: executing diffoscope
+[2024-05-31 13:06:03] INFO root fetch - processPackages [rapid-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid-router-5.9.2.tar.gz tmp/rapid-router-5.9.3.tar.gz --markdown 20240531/r/rapid-router/5.9.2-5.9.3/README.md --exclude *.pyd
+[2024-05-31 13:06:03] INFO root fetch - processPackages [drisk-api]: executing diffoscope
+[2024-05-31 13:06:03] INFO root fetch - processPackages [drisk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drisk_api-0.0.5-pp38-pypy38_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip tmp/drisk_api-0.0.6-pp39-pypy39_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip --markdown 20240531/d/drisk-api/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 13:06:03] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.3.9.tar.gz]
+[2024-05-31 13:06:03] INFO root fetch - processPackages [tidypath]: Remove: archive file [/home/abi/fetcher/tmp/tidypath-1.4.0.tar.gz]
+[2024-05-31 13:06:03] INFO root fetch - main [MainThread]: End processing [tidypath]: success
+[2024-05-31 13:06:03] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-3.0.5.tar.gz]
+[2024-05-31 13:06:03] INFO root fetch - processPackages [ragstack-ai-langchain]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langchain-1.0.6.tar.gz]
+[2024-05-31 13:06:03] INFO root fetch - processPackages [ragstack-ai-langchain]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langchain-1.0.7.tar.gz]
+[2024-05-31 13:06:03] INFO root fetch - processPackages [delphai-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/delphai_fastapi-3.0.6.tar.gz]
+[2024-05-31 13:06:03] INFO root fetch - main [MainThread]: End processing [ragstack-ai-langchain]: success
+[2024-05-31 13:06:03] INFO root fetch - main [MainThread]: End processing [delphai-fastapi]: success
+[2024-05-31 13:06:03] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.61.tar.gz]
+[2024-05-31 13:06:03] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.62.tar.gz]
+[2024-05-31 13:06:03] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-05-31 13:06:04] INFO root fetch - processPackages [shrink-img]: Remove: archive file [/home/abi/fetcher/tmp/shrink_img-0.7.0.tar.gz]
+[2024-05-31 13:06:04] INFO root fetch - processPackages [shrink-img]: Remove: archive file [/home/abi/fetcher/tmp/shrink_img-0.8.0-cp312-cp312-macosx_10_13_x86_64.macosx_11_0_arm64.macosx_10_13_universal2.whl.zip]
+[2024-05-31 13:06:04] INFO root fetch - main [MainThread]: End processing [shrink-img]: success
+[2024-05-31 13:06:05] INFO root fetch - processPackages [pulumi-sdwan]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sdwan-0.2.0a1716962358.tar.gz]
+[2024-05-31 13:06:05] INFO root fetch - processPackages [pulumi-sdwan]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sdwan-0.2.0a1717147084.tar.gz]
+[2024-05-31 13:06:05] INFO root fetch - main [MainThread]: End processing [pulumi-sdwan]: success
+[2024-05-31 13:06:07] INFO root fetch - processPackages [rapid-router]: Remove: archive file [/home/abi/fetcher/tmp/rapid-router-5.9.2.tar.gz]
+[2024-05-31 13:06:07] INFO root fetch - processPackages [rapid-router]: Remove: archive file [/home/abi/fetcher/tmp/rapid-router-5.9.3.tar.gz]
+[2024-05-31 13:06:07] INFO root fetch - main [MainThread]: End processing [rapid-router]: success
+[2024-05-31 13:06:15] INFO root fetch - processPackages [drisk-api]: Remove: archive file [/home/abi/fetcher/tmp/drisk_api-0.0.5-pp38-pypy38_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-31 13:06:15] INFO root fetch - processPackages [drisk-api]: Remove: archive file [/home/abi/fetcher/tmp/drisk_api-0.0.6-pp39-pypy39_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
+[2024-05-31 13:06:15] INFO root fetch - main [MainThread]: End processing [drisk-api]: success
+[2024-05-31 13:06:15] INFO root fetch - main [MainThread]: Store serial: [23464549]
