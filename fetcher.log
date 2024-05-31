@@ -16895,3 +16895,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:37:04] INFO root fetch - processPackages [kolo]: Remove: archive file [/home/abi/fetcher/tmp/kolo-2.9.4.tar.gz]
 [2024-05-31 13:37:04] INFO root fetch - main [MainThread]: End processing [kolo]: success
 [2024-05-31 13:37:04] INFO root fetch - main [MainThread]: Store serial: [23464914]
+[2024-05-31 13:39:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464914]
+[2024-05-31 13:39:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 13:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kolo
+[2024-05-31 13:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dingosdk
+[2024-05-31 13:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xmextras
+[2024-05-31 13:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xssbase
+[2024-05-31 13:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: consensusGen
+[2024-05-31 13:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ragelo
+[2024-05-31 13:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scenariogeneration
+[2024-05-31 13:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pldag
+[2024-05-31 13:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gchat
+[2024-05-31 13:39:14] WARNING root fetch - processPackages [xmextras]: Skipping, unable to determine old version
+[2024-05-31 13:39:14] INFO root fetch - main [MainThread]: End processing [xmextras] error
+[2024-05-31 13:39:14] INFO root fetch - processPackages [kolo]: New version: [2.9.4] Old Version: [2.9.3]
+[2024-05-31 13:39:14] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc9] Old Version: [0.1rc8.post1]
+[2024-05-31 13:39:14] INFO root fetch - processPackages [xssbase]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-05-31 13:39:14] INFO root fetch - processPackages [ragelo]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 13:39:14] INFO root fetch - processPackages [pldag]: New version: [0.8.63] Old Version: [0.8.62]
+[2024-05-31 13:39:14] WARNING root fetch - processPackages [gchat]: Skipping, unable to determine old version
+[2024-05-31 13:39:14] INFO root fetch - main [MainThread]: End processing [gchat] error
+[2024-05-31 13:39:14] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/7b/10/2c6bb88645e870b167392150b76711fb4823aa921ee4bc314ba468f0d5dd/dingosdk-0.1rc8.post1.tar.gz
+[2024-05-31 13:39:15] INFO root fetch - processPackages [scenariogeneration]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-31 13:39:15] WARNING root fetch - processPackages [consensusGen]: Skipping, unable to determine old version
+[2024-05-31 13:39:15] INFO root fetch - main [MainThread]: End processing [consensusGen] error
+[2024-05-31 13:39:15] INFO root fetch - processPackages [kolo]: Downloading https://files.pythonhosted.org/packages/f9/1a/dd108d9edbccf912f4b78520ab7c3ddc6df0c064bff5c7f1b3b50ce67a5d/kolo-2.9.3.tar.gz
+[2024-05-31 13:39:15] INFO root fetch - processPackages [xssbase]: Downloading https://files.pythonhosted.org/packages/29/5c/8accd006da09cae2b096803a7dc89b0a43b746bee68542e133530ce0239a/xssbase-4.0.1.tar.gz
+[2024-05-31 13:39:15] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/7c/d8/0335d1c1a9ff045e0fe2fe69da2fa0295f06d3cbb5907fe115e953d11fdf/pldag-0.8.62.tar.gz
+[2024-05-31 13:39:15] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 63305453>=10485760
+[2024-05-31 13:39:15] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-31 13:39:15] INFO root fetch - processPackages [ragelo]: Downloading https://files.pythonhosted.org/packages/09/ca/fac4853c6a7413e33d423df7169c33d336d2c95c11f8740698a748514bc7/ragelo-0.1.1.tar.gz
+[2024-05-31 13:39:15] INFO root fetch - processPackages [xssbase]: Downloading https://files.pythonhosted.org/packages/7f/6c/fcf78f89494b9c2dfa52aeb5388bb472833966f31d1d8edf9d7eb056d568/xssbase-4.0.2.tar.gz
+[2024-05-31 13:39:15] INFO root fetch - processPackages [kolo]: Downloading https://files.pythonhosted.org/packages/d7/35/a0c2cdd9206f5a6dc51ac47598f4fd1b57fc73cb1beeaccdab9217197099/kolo-2.9.4.tar.gz
+[2024-05-31 13:39:15] INFO root fetch - processPackages [scenariogeneration]: Downloading https://files.pythonhosted.org/packages/5b/97/272479d86c1fb39ae9f25422ae291c1a5426fd8f2578545ca045b947eb35/scenariogeneration-0.9.2.tar.gz
+[2024-05-31 13:39:15] INFO root fetch - processPackages [ragelo]: Downloading https://files.pythonhosted.org/packages/46/60/df9076b6f079950a0f256e7001662cb0a3bd16b48123a40bfb0bdbe4a390/ragelo-0.1.2.tar.gz
+[2024-05-31 13:39:15] INFO root fetch - processPackages [xssbase]: executing diffoscope
+[2024-05-31 13:39:15] INFO root fetch - processPackages [xssbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xssbase-4.0.1.tar.gz tmp/xssbase-4.0.2.tar.gz --markdown 20240531/x/xssbase/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-05-31 13:39:15] INFO root fetch - processPackages [kolo]: executing diffoscope
+[2024-05-31 13:39:15] INFO root fetch - processPackages [kolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolo-2.9.3.tar.gz tmp/kolo-2.9.4.tar.gz --markdown 20240531/k/kolo/2.9.3-2.9.4/README.md --exclude *.pyd
+[2024-05-31 13:39:15] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/27/4f/7632e8f7b0d107ce80a3aed780602b02b0b7ae20556c79eb3f1ce028b06e/pldag-0.8.63.tar.gz
+[2024-05-31 13:39:15] INFO root fetch - processPackages [ragelo]: executing diffoscope
+[2024-05-31 13:39:15] INFO root fetch - processPackages [ragelo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragelo-0.1.1.tar.gz tmp/ragelo-0.1.2.tar.gz --markdown 20240531/r/ragelo/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 13:39:15] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-05-31 13:39:15] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.8.62.tar.gz tmp/pldag-0.8.63.tar.gz --markdown 20240531/p/pldag/0.8.62-0.8.63/README.md --exclude *.pyd
+[2024-05-31 13:39:15] INFO root fetch - processPackages [scenariogeneration]: Downloading https://files.pythonhosted.org/packages/0a/de/65b0ea40f2b370f99b2db18b1a8a83bb246791445448c8e281f65e7a8160/scenariogeneration-0.9.3.tar.gz
+[2024-05-31 13:39:15] INFO root fetch - processPackages [scenariogeneration]: executing diffoscope
+[2024-05-31 13:39:15] INFO root fetch - processPackages [scenariogeneration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenariogeneration-0.9.2.tar.gz tmp/scenariogeneration-0.9.3.tar.gz --markdown 20240531/s/scenariogeneration/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-31 13:39:16] INFO root fetch - processPackages [xssbase]: Remove: archive file [/home/abi/fetcher/tmp/xssbase-4.0.1.tar.gz]
+[2024-05-31 13:39:16] INFO root fetch - processPackages [xssbase]: Remove: archive file [/home/abi/fetcher/tmp/xssbase-4.0.2.tar.gz]
+[2024-05-31 13:39:16] INFO root fetch - main [MainThread]: End processing [xssbase]: success
+[2024-05-31 13:39:16] INFO root fetch - processPackages [kolo]: Remove: archive file [/home/abi/fetcher/tmp/kolo-2.9.3.tar.gz]
+[2024-05-31 13:39:16] INFO root fetch - processPackages [kolo]: Remove: archive file [/home/abi/fetcher/tmp/kolo-2.9.4.tar.gz]
+[2024-05-31 13:39:16] INFO root fetch - main [MainThread]: End processing [kolo]: success
+[2024-05-31 13:39:16] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.62.tar.gz]
+[2024-05-31 13:39:16] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.63.tar.gz]
+[2024-05-31 13:39:16] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-05-31 13:39:16] INFO root fetch - processPackages [ragelo]: Remove: archive file [/home/abi/fetcher/tmp/ragelo-0.1.1.tar.gz]
+[2024-05-31 13:39:16] INFO root fetch - processPackages [ragelo]: Remove: archive file [/home/abi/fetcher/tmp/ragelo-0.1.2.tar.gz]
+[2024-05-31 13:39:16] INFO root fetch - main [MainThread]: End processing [ragelo]: success
+[2024-05-31 13:39:16] INFO root fetch - processPackages [scenariogeneration]: Remove: archive file [/home/abi/fetcher/tmp/scenariogeneration-0.9.2.tar.gz]
+[2024-05-31 13:39:16] INFO root fetch - processPackages [scenariogeneration]: Remove: archive file [/home/abi/fetcher/tmp/scenariogeneration-0.9.3.tar.gz]
+[2024-05-31 13:39:16] INFO root fetch - main [MainThread]: End processing [scenariogeneration]: success
+[2024-05-31 13:39:16] INFO root fetch - main [MainThread]: Store serial: [23464956]
