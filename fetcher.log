@@ -16706,3 +16706,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:30:27] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.9.tar.gz]
 [2024-05-31 13:30:27] INFO root fetch - main [MainThread]: End processing [soil-sdk]: success
 [2024-05-31 13:30:27] INFO root fetch - main [MainThread]: Store serial: [23464817]
+[2024-05-31 13:32:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464817]
+[2024-05-31 13:32:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 13:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastdfe
+[2024-05-31 13:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchsnapshot-nightly
+[2024-05-31 13:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-crunchbase-client
+[2024-05-31 13:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lambda-genai-util
+[2024-05-31 13:32:36] INFO root fetch - processPackages [torchsnapshot-nightly]: New version: [2024.5.30] Old Version: [2024.5.29]
+[2024-05-31 13:32:36] WARNING root fetch - processPackages [lambda-genai-util]: Skipping, unable to determine old version
+[2024-05-31 13:32:36] INFO root fetch - main [MainThread]: End processing [lambda-genai-util] error
+[2024-05-31 13:32:36] WARNING root fetch - processPackages [python-crunchbase-client]: Skipping, unable to determine old version
+[2024-05-31 13:32:36] INFO root fetch - main [MainThread]: End processing [python-crunchbase-client] error
+[2024-05-31 13:32:36] INFO root fetch - processPackages [fastdfe]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-31 13:32:36] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/b6/90/5fcf5844691756817cdc7deaff458cae5f9460ef4b8ab6edac92fb638fed/torchsnapshot_nightly-2024.5.29.tar.gz
+[2024-05-31 13:32:37] INFO root fetch - processPackages [fastdfe]: Downloading https://files.pythonhosted.org/packages/c8/91/1bed63365b422ee35771b2dc011d0d068c4dfa40d2cd1ceccba7bbd5a8f9/fastdfe-1.1.6.tar.gz
+[2024-05-31 13:32:37] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/ef/83/8d4ba8fb95a79a92a733d8259eb5559500b095dd756237da1f712f80b3f2/torchsnapshot_nightly-2024.5.30.tar.gz
+[2024-05-31 13:32:37] INFO root fetch - processPackages [torchsnapshot-nightly]: executing diffoscope
+[2024-05-31 13:32:37] INFO root fetch - processPackages [torchsnapshot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsnapshot_nightly-2024.5.29.tar.gz tmp/torchsnapshot_nightly-2024.5.30.tar.gz --markdown 20240531/t/torchsnapshot-nightly/2024.5.29-2024.5.30/README.md --exclude *.pyd
+[2024-05-31 13:32:37] INFO root fetch - processPackages [fastdfe]: Downloading https://files.pythonhosted.org/packages/aa/d9/eaa7a3f46c31ca48afca7682f6491d6bd89490a9eedddda7fcaf121cf672/fastdfe-1.1.7.tar.gz
+[2024-05-31 13:32:37] INFO root fetch - processPackages [fastdfe]: executing diffoscope
+[2024-05-31 13:32:37] INFO root fetch - processPackages [fastdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdfe-1.1.6.tar.gz tmp/fastdfe-1.1.7.tar.gz --markdown 20240531/f/fastdfe/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-31 13:32:37] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.29.tar.gz]
+[2024-05-31 13:32:37] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.30.tar.gz]
+[2024-05-31 13:32:37] INFO root fetch - main [MainThread]: End processing [torchsnapshot-nightly]: success
+[2024-05-31 13:32:38] INFO root fetch - processPackages [fastdfe]: Remove: archive file [/home/abi/fetcher/tmp/fastdfe-1.1.6.tar.gz]
+[2024-05-31 13:32:38] INFO root fetch - processPackages [fastdfe]: Remove: archive file [/home/abi/fetcher/tmp/fastdfe-1.1.7.tar.gz]
+[2024-05-31 13:32:38] INFO root fetch - main [MainThread]: End processing [fastdfe]: success
+[2024-05-31 13:32:38] INFO root fetch - main [MainThread]: Store serial: [23464832]
