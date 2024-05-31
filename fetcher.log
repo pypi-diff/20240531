@@ -20372,3 +20372,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:43:24] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
 [2024-05-31 15:43:24] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
 [2024-05-31 15:43:24] INFO root fetch - main [MainThread]: Store serial: [23466417]
+[2024-05-31 15:45:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466417]
+[2024-05-31 15:45:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 15:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-persons-local
+[2024-05-31 15:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-profile-local
+[2024-05-31 15:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contact-email-address-local
+[2024-05-31 15:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-document-url
+[2024-05-31 15:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-db
+[2024-05-31 15:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NsparkleLog
+[2024-05-31 15:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyterlab-unianalytics-dashboard
+[2024-05-31 15:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: contact-notes-local
+[2024-05-31 15:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nessai-bilby
+[2024-05-31 15:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: contact-phone-local
+[2024-05-31 15:45:33] INFO root fetch - processPackages [contact-phone-local]: New version: [0.0.9] Old Version: [0.0.22]
+[2024-05-31 15:45:33] WARNING root fetch - processPackages [nessai-bilby]: Skipping, unable to determine old version
+[2024-05-31 15:45:33] INFO root fetch - processPackages [nessai-bilby]: Start processing: lit-ecology-classifier
+[2024-05-31 15:45:33] INFO root fetch - processPackages [NsparkleLog]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-31 15:45:33] INFO root fetch - main [MainThread]: End processing [nessai-bilby] error
+[2024-05-31 15:45:33] INFO root fetch - processPackages [contact-profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 15:45:33] INFO root fetch - processPackages [contact-notes-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 15:45:33] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [0.3.1] Old Version: [0.3]
+[2024-05-31 15:45:33] INFO root fetch - processPackages [pypomes-db]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-05-31 15:45:33] INFO root fetch - processPackages [contact-persons-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 15:45:33] INFO root fetch - processPackages [contact-email-address-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 15:45:33] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 15:45:33] INFO root fetch - processPackages [odoo-addon-document-url]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.4.1]
+[2024-05-31 15:45:33] INFO root fetch - processPackages [contact-phone-local]: Downloading https://files.pythonhosted.org/packages/f8/0d/c12d8116a81ec66dcc11f6e6b76466cc6ff64d0a9c9e19b97f942afb7783/contact_phone_local-0.0.22.tar.gz
+[2024-05-31 15:45:33] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/94/02/401f72b4bc3a22137e39e519a300db91b6d7f6f995ff3fdd5266dd81540c/contact-notes-local-0.0.8.tar.gz
+[2024-05-31 15:45:33] INFO root fetch - processPackages [NsparkleLog]: Downloading https://files.pythonhosted.org/packages/97/c5/138c24fda3c0118e0ad81e0b813276548066853135b6acc5e878485b2e1c/NsparkleLog-1.0.1.tar.gz
+[2024-05-31 15:45:33] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/80/7d/f40de8a1ba2599ffea82588c7b7fc57efb4d85818a66df616404383524e9/lit_ecology_classifier-0.3-py3-none-any.whl
+[2024-05-31 15:45:33] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/57/a2/f4a90b8756fe1625401eed7f0006d1736808025081a6f0ec4b4297230fdd/pypomes_db-0.9.1.tar.gz
+[2024-05-31 15:45:33] INFO root fetch - processPackages [contact-profile-local]: Downloading https://files.pythonhosted.org/packages/25/4a/9c68dad06d1a31f725b72a9ffc13addd416fc1a79227150e4cf02bed13fd/contact_profile_local-0.0.8.tar.gz
+[2024-05-31 15:45:33] INFO root fetch - processPackages [contact-persons-local]: Downloading https://files.pythonhosted.org/packages/0b/6b/76ed2113b4e86e4aaa68d65f4c760c036c393ee03064566f505f44867a22/contact-persons-local-0.0.8.tar.gz
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-email-address-local]: Downloading https://files.pythonhosted.org/packages/45/e5/8c05c5cc1f7122ebe442383a5ad976af6991ffade381619160f614b030cf/contact_email_address_local-0.0.8.tar.gz
+[2024-05-31 15:45:34] INFO root fetch - processPackages [odoo-addon-document-url]: Downloading https://files.pythonhosted.org/packages/80/28/3a475e524d82483b34eb81a559b7bfa7ce43c348fdd2f3d18252a32c20c9/odoo_addon_document_url-16.0.1.0.4.1-py3-none-any.whl
+[2024-05-31 15:45:34] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Downloading https://files.pythonhosted.org/packages/8a/47/66819a13c3a113812f79e555a30f3842cb57594689385998863eac401506/jupyterlab_unianalytics_dashboard-4.0.8.tar.gz
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-phone-local]: Downloading https://files.pythonhosted.org/packages/88/b5/c3cd7b2322b674e5115abe0cf1665d7405051dc6307ded8f38e07f5d95e7/contact_phone_local-0.0.9.tar.gz
+[2024-05-31 15:45:34] INFO root fetch - processPackages [NsparkleLog]: Downloading https://files.pythonhosted.org/packages/1b/32/1f9eb095126a4a44d1fd761605027f77fbd7dca89aeadba02282230a169d/NsparkleLog-1.0.2.tar.gz
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-notes-local]: Downloading https://files.pythonhosted.org/packages/7d/da/15635ad28159f22874e3fbe243ec786d3658da7812c3243f5feb8d5f8385/contact-notes-local-0.0.9.tar.gz
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-profile-local]: Downloading https://files.pythonhosted.org/packages/8f/de/661db7b84762d21a0fe82f0b63a31a7df9b884479bcaa52c125b53e4caa3/contact_profile_local-0.0.9.tar.gz
+[2024-05-31 15:45:34] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/4f/32/502efa7407fca2cfa06002901e31d663c2d14aa314ef2d7d29e512149a0c/pypomes_db-0.9.3.tar.gz
+[2024-05-31 15:45:34] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/bc/31/4cd378ac22e9ffdf60dbcbb73e70e021c17c452bd5e575a904c98bc42e63/lit_ecology_classifier-0.3.1-py3-none-any.whl
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-phone-local]: executing diffoscope
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-phone-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_phone_local-0.0.22.tar.gz tmp/contact_phone_local-0.0.9.tar.gz --markdown 20240531/c/contact-phone-local/0.0.22-0.0.9/README.md --exclude *.pyd
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-persons-local]: Downloading https://files.pythonhosted.org/packages/93/08/4bf1aef3fe8c2eb2bd907061dc10a7100c367ed8adfc58d6113cda458512/contact_persons_local-0.0.9.tar.gz
+[2024-05-31 15:45:34] INFO root fetch - processPackages [NsparkleLog]: executing diffoscope
+[2024-05-31 15:45:34] INFO root fetch - processPackages [NsparkleLog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NsparkleLog-1.0.1.tar.gz tmp/NsparkleLog-1.0.2.tar.gz --markdown 20240531/N/NsparkleLog/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-notes-local]: executing diffoscope
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-notes-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-notes-local-0.0.8.tar.gz tmp/contact-notes-local-0.0.9.tar.gz --markdown 20240531/c/contact-notes-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-profile-local]: executing diffoscope
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_profile_local-0.0.8.tar.gz tmp/contact_profile_local-0.0.9.tar.gz --markdown 20240531/c/contact-profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 15:45:34] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-31 15:45:34] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.9.1.tar.gz tmp/pypomes_db-0.9.3.tar.gz --markdown 20240531/p/pypomes-db/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-05-31 15:45:34] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-05-31 15:45:34] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-0.3-py3-none-any.whl.zip tmp/lit_ecology_classifier-0.3.1-py3-none-any.whl.zip --markdown 20240531/l/lit-ecology-classifier/0.3-0.3.1/README.md --exclude *.pyd
+[2024-05-31 15:45:34] INFO root fetch - processPackages [odoo-addon-document-url]: Downloading https://files.pythonhosted.org/packages/07/89/8fe7b2dea80a4fe94e47232e4342cdbef0d16b64de6f79f78496a4ea03c0/odoo_addon_document_url-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-persons-local]: executing diffoscope
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-persons-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-persons-local-0.0.8.tar.gz tmp/contact_persons_local-0.0.9.tar.gz --markdown 20240531/c/contact-persons-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-email-address-local]: Downloading https://files.pythonhosted.org/packages/b0/76/1d966bca88d8d64a3d93fa1704b27864994febe1a9d7d4d97fde54eb590b/contact_email_address_local-0.0.9.tar.gz
+[2024-05-31 15:45:34] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Downloading https://files.pythonhosted.org/packages/fa/3a/2f64cc08170843917ff625d07921de426902e629e5d8f94fc8a555e6a2a6/jupyterlab_unianalytics_dashboard-4.0.9.tar.gz
+[2024-05-31 15:45:34] INFO root fetch - processPackages [odoo-addon-document-url]: executing diffoscope
+[2024-05-31 15:45:34] INFO root fetch - processPackages [odoo-addon-document-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_url-16.0.1.0.4.1-py3-none-any.whl.zip tmp/odoo_addon_document_url-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-document-url/16.0.1.0.4.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-email-address-local]: executing diffoscope
+[2024-05-31 15:45:34] INFO root fetch - processPackages [contact-email-address-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_email_address_local-0.0.8.tar.gz tmp/contact_email_address_local-0.0.9.tar.gz --markdown 20240531/c/contact-email-address-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 15:45:34] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: executing diffoscope
+[2024-05-31 15:45:34] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_unianalytics_dashboard-4.0.8.tar.gz tmp/jupyterlab_unianalytics_dashboard-4.0.9.tar.gz --markdown 20240531/j/jupyterlab-unianalytics-dashboard/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 15:45:35] INFO root fetch - processPackages [contact-phone-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_phone_local-0.0.22.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - processPackages [contact-phone-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_phone_local-0.0.9.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - main [MainThread]: End processing [contact-phone-local]: success
+[2024-05-31 15:45:35] INFO root fetch - processPackages [contact-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_profile_local-0.0.8.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - processPackages [contact-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_profile_local-0.0.9.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - main [MainThread]: End processing [contact-profile-local]: success
+[2024-05-31 15:45:35] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.8.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - processPackages [contact-notes-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-notes-local-0.0.9.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - main [MainThread]: End processing [contact-notes-local]: success
+[2024-05-31 15:45:35] INFO root fetch - processPackages [NsparkleLog]: Remove: archive file [/home/abi/fetcher/tmp/NsparkleLog-1.0.1.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - processPackages [NsparkleLog]: Remove: archive file [/home/abi/fetcher/tmp/NsparkleLog-1.0.2.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - main [MainThread]: End processing [NsparkleLog]: success
+[2024-05-31 15:45:35] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.1.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.3.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-31 15:45:35] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.3-py3-none-any.whl.zip]
+[2024-05-31 15:45:35] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.3.1-py3-none-any.whl.zip]
+[2024-05-31 15:45:35] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-05-31 15:45:35] INFO root fetch - processPackages [contact-persons-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-persons-local-0.0.8.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - processPackages [contact-persons-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_persons_local-0.0.9.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - main [MainThread]: End processing [contact-persons-local]: success
+[2024-05-31 15:45:35] INFO root fetch - processPackages [contact-email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_email_address_local-0.0.8.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - processPackages [contact-email-address-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_email_address_local-0.0.9.tar.gz]
+[2024-05-31 15:45:35] INFO root fetch - main [MainThread]: End processing [contact-email-address-local]: success
+[2024-05-31 15:45:35] INFO root fetch - processPackages [odoo-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_url-16.0.1.0.4.1-py3-none-any.whl.zip]
+[2024-05-31 15:45:35] INFO root fetch - processPackages [odoo-addon-document-url]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_url-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-31 15:45:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-url]: success
+[2024-05-31 15:45:37] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unianalytics_dashboard-4.0.8.tar.gz]
+[2024-05-31 15:45:37] INFO root fetch - processPackages [jupyterlab-unianalytics-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unianalytics_dashboard-4.0.9.tar.gz]
+[2024-05-31 15:45:37] INFO root fetch - main [MainThread]: End processing [jupyterlab-unianalytics-dashboard]: success
+[2024-05-31 15:45:37] INFO root fetch - main [MainThread]: Store serial: [23466448]
