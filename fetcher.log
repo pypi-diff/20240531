@@ -9007,3 +9007,45 @@
 [2024-05-31 08:17:11] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240530.tar.gz]
 [2024-05-31 08:17:11] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-05-31 08:17:11] INFO root fetch - main [MainThread]: Store serial: [23461194]
+[2024-05-31 08:19:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461194]
+[2024-05-31 08:19:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2024-05-31 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module
+[2024-05-31 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyclicpeptide
+[2024-05-31 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnicom
+[2024-05-31 08:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nifcloud
+[2024-05-31 08:19:20] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240530] Old Version: [20240529]
+[2024-05-31 08:19:20] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240530] Old Version: [20240529]
+[2024-05-31 08:19:20] WARNING root fetch - processPackages [cyclicpeptide]: Skipping, unable to determine old version
+[2024-05-31 08:19:20] INFO root fetch - main [MainThread]: End processing [cyclicpeptide] error
+[2024-05-31 08:19:20] INFO root fetch - processPackages [nifcloud]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-31 08:19:20] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/9c/4d/95eaa5a2f6bf4bcd26b1d18729519c0428b922990cfcd4b697caafd86e43/fake_bpy_module-20240529.tar.gz
+[2024-05-31 08:19:20] INFO root fetch - processPackages [omnicom]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 08:19:20] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/4b/b1/9c7a12113a1ad810d37c0f45867972ab79313ac2e2c52ae133e26337f005/fake_bpy_module_latest-20240529.tar.gz
+[2024-05-31 08:19:20] INFO root fetch - processPackages [nifcloud]: Downloading https://files.pythonhosted.org/packages/e5/66/7d7a8fc91eca13ad0e4fc20105fe097cf9f4d950f10900e86d6f697bfe81/nifcloud-1.8.0.tar.gz
+[2024-05-31 08:19:20] INFO root fetch - processPackages [omnicom]: Downloading https://files.pythonhosted.org/packages/a9/1a/c414fdc880d7656e7ca500048a7dda5d2565b05988baaa832371ac5c9a21/omnicom-0.3.1-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-31 08:19:20] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/5a/b1/7e79fa2679b7a2582be230fdb242129b5c2b4cd0aaa6682eada6a524e53b/fake_bpy_module_latest-20240530.tar.gz
+[2024-05-31 08:19:20] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-31 08:19:20] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240529.tar.gz tmp/fake_bpy_module_latest-20240530.tar.gz --markdown 20240531/f/fake-bpy-module-latest/20240529-20240530/README.md --exclude *.pyd
+[2024-05-31 08:19:21] INFO root fetch - processPackages [nifcloud]: Downloading https://files.pythonhosted.org/packages/1a/0c/4b6b598b2bdb1def6860d3e4c687af6690d82f4504ce36329cc1391d7edf/nifcloud-1.9.0.tar.gz
+[2024-05-31 08:19:21] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/bd/9c/7db7bbe9d234610a5a9cd892129e0010bc04ba65d5ea6b3f4f86b86313ed/fake_bpy_module-20240530.tar.gz
+[2024-05-31 08:19:21] INFO root fetch - processPackages [omnicom]: Downloading https://files.pythonhosted.org/packages/b0/8d/f4431387321a7ed8054be79b4717f5804b298e883b5ed2ebf2289106f530/omnicom-0.3.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2024-05-31 08:19:21] INFO root fetch - processPackages [nifcloud]: executing diffoscope
+[2024-05-31 08:19:21] INFO root fetch - processPackages [nifcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifcloud-1.8.0.tar.gz tmp/nifcloud-1.9.0.tar.gz --markdown 20240531/n/nifcloud/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-31 08:19:21] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-31 08:19:21] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240529.tar.gz tmp/fake_bpy_module-20240530.tar.gz --markdown 20240531/f/fake-bpy-module/20240529-20240530/README.md --exclude *.pyd
+[2024-05-31 08:19:21] INFO root fetch - processPackages [omnicom]: executing diffoscope
+[2024-05-31 08:19:21] INFO root fetch - processPackages [omnicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnicom-0.3.1-pp39-pypy39_pp73-win_amd64.whl.zip tmp/omnicom-0.3.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip --markdown 20240531/o/omnicom/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 08:19:21] INFO root fetch - processPackages [omnicom]: Remove: archive file [/home/abi/fetcher/tmp/omnicom-0.3.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-31 08:19:21] INFO root fetch - processPackages [omnicom]: Remove: archive file [/home/abi/fetcher/tmp/omnicom-0.3.2-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
+[2024-05-31 08:19:21] INFO root fetch - main [MainThread]: End processing [omnicom]: success
+[2024-05-31 08:19:22] INFO root fetch - processPackages [nifcloud]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-1.8.0.tar.gz]
+[2024-05-31 08:19:22] INFO root fetch - processPackages [nifcloud]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-1.9.0.tar.gz]
+[2024-05-31 08:19:22] INFO root fetch - main [MainThread]: End processing [nifcloud]: success
+[2024-05-31 08:19:23] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240529.tar.gz]
+[2024-05-31 08:19:23] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240530.tar.gz]
+[2024-05-31 08:19:23] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-31 08:19:23] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240529.tar.gz]
+[2024-05-31 08:19:23] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240530.tar.gz]
+[2024-05-31 08:19:23] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-31 08:19:23] INFO root fetch - main [MainThread]: Store serial: [23461219]
