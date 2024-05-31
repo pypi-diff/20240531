@@ -12733,3 +12733,48 @@
 [2024-05-31 10:53:30] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
 [2024-05-31 10:53:30] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
 [2024-05-31 10:53:30] INFO root fetch - main [MainThread]: Store serial: [23463032]
+[2024-05-31 10:55:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463032]
+[2024-05-31 10:55:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npstructures
+[2024-05-31 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xphonebr
+[2024-05-31 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Starco
+[2024-05-31 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: closehaven-abc
+[2024-05-31 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lxdbapi
+[2024-05-31 10:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: domaintools-api-v2
+[2024-05-31 10:55:39] INFO root fetch - processPackages [lxdbapi]: New version: [2.3.202405310003] Old Version: [2.3.202405291717]
+[2024-05-31 10:55:39] INFO root fetch - processPackages [npstructures]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 10:55:39] INFO root fetch - processPackages [closehaven-abc]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 10:55:39] WARNING root fetch - processPackages [xphonebr]: Skipping, unable to determine old version
+[2024-05-31 10:55:39] INFO root fetch - main [MainThread]: End processing [xphonebr] error
+[2024-05-31 10:55:39] INFO root fetch - processPackages [Starco]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-05-31 10:55:39] WARNING root fetch - processPackages [domaintools-api-v2]: Skipping, unable to determine old version
+[2024-05-31 10:55:39] INFO root fetch - main [MainThread]: End processing [domaintools-api-v2] error
+[2024-05-31 10:55:39] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/2d/7b/590352857d3b243015f0dcf8ac32d35d369bb2d2f3b0d675d508e685883a/Starco-3.1.8.tar.gz
+[2024-05-31 10:55:39] INFO root fetch - processPackages [npstructures]: Downloading https://files.pythonhosted.org/packages/92/b6/cbb9f35985454930245ac1b514b83f321392f028e0e14ab3c197e1e6b5c4/npstructures-0.2.8.tar.gz
+[2024-05-31 10:55:39] INFO root fetch - processPackages [lxdbapi]: Downloading https://files.pythonhosted.org/packages/d8/e6/e80e88c4711f842412611cc5948e984d3080151c2cd035f22d280d415277/lxdbapi-2.3.202405291717.tar.gz
+[2024-05-31 10:55:39] INFO root fetch - processPackages [closehaven-abc]: Downloading https://files.pythonhosted.org/packages/d6/28/786511976d977e555a8d4d94d47dc52243083fbf41b7bf7dbb0b89eb26b7/closehaven-abc-0.1.3.tar.gz
+[2024-05-31 10:55:39] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/ab/a5/be5c43def593b7c7fbecda4eb933c08a7bd77789f45fa087f912a0afbadc/Starco-3.1.9.tar.gz
+[2024-05-31 10:55:39] INFO root fetch - processPackages [npstructures]: Downloading https://files.pythonhosted.org/packages/1e/e3/85bef5107dbfa17bdc2794894f79471692b745ff1529f6718ee5b61e3399/npstructures-0.2.9.tar.gz
+[2024-05-31 10:55:39] INFO root fetch - processPackages [closehaven-abc]: Downloading https://files.pythonhosted.org/packages/2b/46/9f2c504ec9e47bdbc04ab820d9eca12a258d17d032621140d0d8c9f93c05/closehaven-abc-0.1.4.tar.gz
+[2024-05-31 10:55:39] INFO root fetch - processPackages [lxdbapi]: Downloading https://files.pythonhosted.org/packages/6a/c2/c92f9d5c21732342fab6f3a1470798e55f37d92fb886a8f93e9d3a8cef93/lxdbapi-2.3.202405310003.tar.gz
+[2024-05-31 10:55:39] INFO root fetch - processPackages [npstructures]: executing diffoscope
+[2024-05-31 10:55:39] INFO root fetch - processPackages [npstructures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npstructures-0.2.8.tar.gz tmp/npstructures-0.2.9.tar.gz --markdown 20240531/n/npstructures/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 10:55:39] INFO root fetch - processPackages [Starco]: executing diffoscope
+[2024-05-31 10:55:39] INFO root fetch - processPackages [Starco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Starco-3.1.8.tar.gz tmp/Starco-3.1.9.tar.gz --markdown 20240531/S/Starco/3.1.8-3.1.9/README.md --exclude *.pyd
+[2024-05-31 10:55:39] INFO root fetch - processPackages [closehaven-abc]: executing diffoscope
+[2024-05-31 10:55:39] INFO root fetch - processPackages [closehaven-abc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/closehaven-abc-0.1.3.tar.gz tmp/closehaven-abc-0.1.4.tar.gz --markdown 20240531/c/closehaven-abc/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 10:55:39] INFO root fetch - processPackages [lxdbapi]: executing diffoscope
+[2024-05-31 10:55:39] INFO root fetch - processPackages [lxdbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxdbapi-2.3.202405291717.tar.gz tmp/lxdbapi-2.3.202405310003.tar.gz --markdown 20240531/l/lxdbapi/2.3.202405291717-2.3.202405310003/README.md --exclude *.pyd
+[2024-05-31 10:55:40] INFO root fetch - processPackages [closehaven-abc]: Remove: archive file [/home/abi/fetcher/tmp/closehaven-abc-0.1.3.tar.gz]
+[2024-05-31 10:55:40] INFO root fetch - processPackages [closehaven-abc]: Remove: archive file [/home/abi/fetcher/tmp/closehaven-abc-0.1.4.tar.gz]
+[2024-05-31 10:55:40] INFO root fetch - main [MainThread]: End processing [closehaven-abc]: success
+[2024-05-31 10:55:40] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.1.8.tar.gz]
+[2024-05-31 10:55:40] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.1.9.tar.gz]
+[2024-05-31 10:55:40] INFO root fetch - main [MainThread]: End processing [Starco]: success
+[2024-05-31 10:55:40] INFO root fetch - processPackages [npstructures]: Remove: archive file [/home/abi/fetcher/tmp/npstructures-0.2.8.tar.gz]
+[2024-05-31 10:55:40] INFO root fetch - processPackages [npstructures]: Remove: archive file [/home/abi/fetcher/tmp/npstructures-0.2.9.tar.gz]
+[2024-05-31 10:55:40] INFO root fetch - main [MainThread]: End processing [npstructures]: success
+[2024-05-31 10:55:41] INFO root fetch - processPackages [lxdbapi]: Remove: archive file [/home/abi/fetcher/tmp/lxdbapi-2.3.202405291717.tar.gz]
+[2024-05-31 10:55:41] INFO root fetch - processPackages [lxdbapi]: Remove: archive file [/home/abi/fetcher/tmp/lxdbapi-2.3.202405310003.tar.gz]
+[2024-05-31 10:55:41] INFO root fetch - main [MainThread]: End processing [lxdbapi]: success
+[2024-05-31 10:55:41] INFO root fetch - main [MainThread]: Store serial: [23463055]
