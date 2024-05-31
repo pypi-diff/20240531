@@ -6011,3 +6011,42 @@
 [2024-05-31 05:17:50] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.5.9.tar.gz]
 [2024-05-31 05:17:50] INFO root fetch - main [MainThread]: End processing [Supermarq]: success
 [2024-05-31 05:17:50] INFO root fetch - main [MainThread]: Store serial: [23460013]
+[2024-05-31 05:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460013]
+[2024-05-31 05:19:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 05:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fasttask-manager
+[2024-05-31 05:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openi
+[2024-05-31 05:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdb-connect-pkg
+[2024-05-31 05:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redbacktechpy
+[2024-05-31 05:19:59] INFO root fetch - processPackages [redbacktechpy]: New version: [2024.5.0b1] Old Version: [0.6.0]
+[2024-05-31 05:19:59] INFO root fetch - processPackages [openi]: New version: [2.0.0b5] Old Version: [2.0.0b2]
+[2024-05-31 05:19:59] INFO root fetch - processPackages [mdb-connect-pkg]: New version: [0.0.6] Old Version: [0.0.3]
+[2024-05-31 05:19:59] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/b9/ef/fdd08f4f1bc2afb294fc657252791eb8401022ef38dc3de07f8abfdaeeaf/redbacktechpy-0.6.0.tar.gz
+[2024-05-31 05:19:59] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/17/95/35c8cb8e2403ac22b75f43398662244c47e0136e348ed8e30690d5616b49/openi-2.0.0b2.tar.gz
+[2024-05-31 05:19:59] INFO root fetch - processPackages [fasttask-manager]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-31 05:19:59] INFO root fetch - processPackages [mdb-connect-pkg]: Downloading https://files.pythonhosted.org/packages/1f/11/eed0bd1f9891105a4ea77ba759deec85ef93630b2e12f9c12395c397f155/mdb_connect_pkg-0.0.3.tar.gz
+[2024-05-31 05:19:59] INFO root fetch - processPackages [fasttask-manager]: Downloading https://files.pythonhosted.org/packages/f1/9c/0f644340d68c156dabff43abf898ba3dc78443b42bac246a9974dcd7a66c/fasttask_manager-0.1.7.tar.gz
+[2024-05-31 05:19:59] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/04/d1/0491b8775678a797f8b2ee866b0db9eaa92252eca5a20aab90e331aa3b2b/openi-2.0.0b5.tar.gz
+[2024-05-31 05:20:00] INFO root fetch - processPackages [openi]: executing diffoscope
+[2024-05-31 05:20:00] INFO root fetch - processPackages [openi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-2.0.0b2.tar.gz tmp/openi-2.0.0b5.tar.gz --markdown 20240531/o/openi/2.0.0b2-2.0.0b5/README.md --exclude *.pyd
+[2024-05-31 05:20:00] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/66/5a/efc357e434c594975672b0821496915dee1a4900582ad1be28e9c24e9dcd/redbacktechpy-2024.5.0b1.tar.gz
+[2024-05-31 05:20:00] INFO root fetch - processPackages [mdb-connect-pkg]: Downloading https://files.pythonhosted.org/packages/1f/86/cb98303fed60b79ca0a8fa6193ee909916da6c0fc3a259977aec7e30e6ab/mdb_connect_pkg-0.0.6.tar.gz
+[2024-05-31 05:20:00] INFO root fetch - processPackages [redbacktechpy]: executing diffoscope
+[2024-05-31 05:20:00] INFO root fetch - processPackages [redbacktechpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbacktechpy-0.6.0.tar.gz tmp/redbacktechpy-2024.5.0b1.tar.gz --markdown 20240531/r/redbacktechpy/0.6.0-2024.5.0b1/README.md --exclude *.pyd
+[2024-05-31 05:20:00] INFO root fetch - processPackages [fasttask-manager]: Downloading https://files.pythonhosted.org/packages/f0/db/225ff37850ef83c8878792565540e69940fba578152a27fe0ef082464885/fasttask_manager-0.1.8.tar.gz
+[2024-05-31 05:20:00] INFO root fetch - processPackages [mdb-connect-pkg]: executing diffoscope
+[2024-05-31 05:20:00] INFO root fetch - processPackages [mdb-connect-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdb_connect_pkg-0.0.3.tar.gz tmp/mdb_connect_pkg-0.0.6.tar.gz --markdown 20240531/m/mdb-connect-pkg/0.0.3-0.0.6/README.md --exclude *.pyd
+[2024-05-31 05:20:00] INFO root fetch - processPackages [fasttask-manager]: executing diffoscope
+[2024-05-31 05:20:00] INFO root fetch - processPackages [fasttask-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttask_manager-0.1.7.tar.gz tmp/fasttask_manager-0.1.8.tar.gz --markdown 20240531/f/fasttask-manager/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-31 05:20:00] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-2.0.0b2.tar.gz]
+[2024-05-31 05:20:00] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-2.0.0b5.tar.gz]
+[2024-05-31 05:20:00] INFO root fetch - main [MainThread]: End processing [openi]: success
+[2024-05-31 05:20:00] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-0.6.0.tar.gz]
+[2024-05-31 05:20:00] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-2024.5.0b1.tar.gz]
+[2024-05-31 05:20:00] INFO root fetch - main [MainThread]: End processing [redbacktechpy]: success
+[2024-05-31 05:20:00] INFO root fetch - processPackages [mdb-connect-pkg]: Remove: archive file [/home/abi/fetcher/tmp/mdb_connect_pkg-0.0.3.tar.gz]
+[2024-05-31 05:20:00] INFO root fetch - processPackages [mdb-connect-pkg]: Remove: archive file [/home/abi/fetcher/tmp/mdb_connect_pkg-0.0.6.tar.gz]
+[2024-05-31 05:20:00] INFO root fetch - main [MainThread]: End processing [mdb-connect-pkg]: success
+[2024-05-31 05:20:00] INFO root fetch - processPackages [fasttask-manager]: Remove: archive file [/home/abi/fetcher/tmp/fasttask_manager-0.1.7.tar.gz]
+[2024-05-31 05:20:00] INFO root fetch - processPackages [fasttask-manager]: Remove: archive file [/home/abi/fetcher/tmp/fasttask_manager-0.1.8.tar.gz]
+[2024-05-31 05:20:00] INFO root fetch - main [MainThread]: End processing [fasttask-manager]: success
+[2024-05-31 05:20:00] INFO root fetch - main [MainThread]: Store serial: [23460028]
