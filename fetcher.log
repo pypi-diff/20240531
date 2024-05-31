@@ -20914,3 +20914,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:59:21] INFO root fetch - processPackages [PyDynamic]: Remove: archive file [/home/abi/fetcher/tmp/PyDynamic-2.5.0.tar.gz]
 [2024-05-31 15:59:21] INFO root fetch - main [MainThread]: End processing [PyDynamic]: success
 [2024-05-31 15:59:21] INFO root fetch - main [MainThread]: Store serial: [23466640]
+[2024-05-31 16:01:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466640]
+[2024-05-31 16:01:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 16:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-clickhouse
+[2024-05-31 16:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-ebill-payment-contract
+[2024-05-31 16:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellfinder
+[2024-05-31 16:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: woningwaardering
+[2024-05-31 16:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PQAnalysis
+[2024-05-31 16:01:30] WARNING root fetch - processPackages [odoo-addon-base-ebill-payment-contract]: Skipping, unable to determine old version
+[2024-05-31 16:01:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-ebill-payment-contract] error
+[2024-05-31 16:01:30] INFO root fetch - processPackages [woningwaardering]: New version: [0.4.0a3] Old Version: [0.4.0a2]
+[2024-05-31 16:01:30] INFO root fetch - processPackages [dbt-clickhouse]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-05-31 16:01:30] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/a1/e9/9e32fc3ec77f96f56da4d71f107d91aea9b71a5e4dee35a8c64e32da72fb/woningwaardering-0.4.0a2.tar.gz
+[2024-05-31 16:01:30] INFO root fetch - processPackages [cellfinder]: New version: [1.3.0rc1] Old Version: [1.3.0rc0]
+[2024-05-31 16:01:30] INFO root fetch - processPackages [PQAnalysis]: New version: [1.0.8.1] Old Version: [1.0.7]
+[2024-05-31 16:01:31] INFO root fetch - processPackages [cellfinder]: Downloading https://files.pythonhosted.org/packages/ad/3d/dc5e3aa2648e3798b1fd5f47ede6d6f383d18edd40df73b8b939ea1da090/cellfinder-1.3.0rc0.tar.gz
+[2024-05-31 16:01:31] INFO root fetch - processPackages [dbt-clickhouse]: Downloading https://files.pythonhosted.org/packages/95/51/f8ffc3a83de0e47208deb161005370a79ceba57d5b7651aac7e2b0dc436d/dbt-clickhouse-1.7.6.tar.gz
+[2024-05-31 16:01:31] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/dc/28/c84f06796d506987ea6b94439f987db1c0fb2bcff8d2b3bdba0064929b46/pqanalysis-1.0.7.tar.gz
+[2024-05-31 16:01:31] ERROR root fetch - processPackages [woningwaardering]: Unable to fetch info: No such project/version 'woningwaardering' 0.4.0a3
+[2024-05-31 16:01:31] INFO root fetch - main [MainThread]: End processing [woningwaardering] error
+[2024-05-31 16:01:31] INFO root fetch - processPackages [dbt-clickhouse]: Downloading https://files.pythonhosted.org/packages/0e/d4/647bf06177c254961d7319a860bc959c9c106a173f8a8308563c1c3a9d3d/dbt_clickhouse-1.7.7.tar.gz
+[2024-05-31 16:01:31] INFO root fetch - processPackages [cellfinder]: Downloading https://files.pythonhosted.org/packages/29/38/acaee5c7049848466dc6b8ce2a747f9ffa0ddc3c30bbe14458da35d3602e/cellfinder-1.3.0rc1.tar.gz
+[2024-05-31 16:01:31] INFO root fetch - processPackages [dbt-clickhouse]: executing diffoscope
+[2024-05-31 16:01:31] INFO root fetch - processPackages [dbt-clickhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickhouse-1.7.6.tar.gz tmp/dbt_clickhouse-1.7.7.tar.gz --markdown 20240531/d/dbt-clickhouse/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-05-31 16:01:31] INFO root fetch - processPackages [cellfinder]: executing diffoscope
+[2024-05-31 16:01:31] INFO root fetch - processPackages [cellfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellfinder-1.3.0rc0.tar.gz tmp/cellfinder-1.3.0rc1.tar.gz --markdown 20240531/c/cellfinder/1.3.0rc0-1.3.0rc1/README.md --exclude *.pyd
+[2024-05-31 16:01:31] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/83/2f/4ccd1518d7be2929aebe1ed681017d830a629896a187b19e7e65f816acb1/pqanalysis-1.0.8.1.tar.gz
+[2024-05-31 16:01:32] INFO root fetch - processPackages [dbt-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickhouse-1.7.6.tar.gz]
+[2024-05-31 16:01:32] INFO root fetch - processPackages [dbt-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/dbt_clickhouse-1.7.7.tar.gz]
+[2024-05-31 16:01:32] INFO root fetch - main [MainThread]: End processing [dbt-clickhouse]: success
+[2024-05-31 16:01:32] INFO root fetch - processPackages [PQAnalysis]: executing diffoscope
+[2024-05-31 16:01:32] INFO root fetch - processPackages [PQAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqanalysis-1.0.7.tar.gz tmp/pqanalysis-1.0.8.1.tar.gz --markdown 20240531/P/PQAnalysis/1.0.7-1.0.8.1/README.md --exclude *.pyd
+[2024-05-31 16:01:32] INFO root fetch - processPackages [cellfinder]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-1.3.0rc0.tar.gz]
+[2024-05-31 16:01:32] INFO root fetch - processPackages [cellfinder]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-1.3.0rc1.tar.gz]
+[2024-05-31 16:01:32] INFO root fetch - main [MainThread]: End processing [cellfinder]: success
+[2024-05-31 16:01:34] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.7.tar.gz]
+[2024-05-31 16:01:34] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.8.1.tar.gz]
+[2024-05-31 16:01:34] INFO root fetch - main [MainThread]: End processing [PQAnalysis]: success
+[2024-05-31 16:01:34] INFO root fetch - main [MainThread]: Store serial: [23466668]
