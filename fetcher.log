@@ -9577,3 +9577,27 @@
 [2024-05-31 08:48:21] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-4.1.0a1717136086.tar.gz]
 [2024-05-31 08:48:21] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-05-31 08:48:21] INFO root fetch - main [MainThread]: Store serial: [23461543]
+[2024-05-31 08:50:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461543]
+[2024-05-31 08:50:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-pagerduty
+[2024-05-31 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyclicpeptide
+[2024-05-31 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyasdb
+[2024-05-31 08:50:30] INFO root fetch - processPackages [pyasdb]: New version: [2024.5.31.1] Old Version: [0.0.6]
+[2024-05-31 08:50:30] WARNING root fetch - processPackages [cyclicpeptide]: Skipping, unable to determine old version
+[2024-05-31 08:50:30] INFO root fetch - main [MainThread]: End processing [cyclicpeptide] error
+[2024-05-31 08:50:30] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-05-31 08:50:30] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/bd/85/1cde567236ac9bc26b3f54cdd80f5e23f160bac30332dcf288177cc8654d/pyasdb-0.0.6.tar.gz
+[2024-05-31 08:50:30] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-05-31 08:50:30] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-05-31 08:50:30] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/ce/c3/e4d97ced5453b3efbc3476581a4dd48f0dbfe96717de9d96ab01ddbd6145/pyasdb-2024.5.31.1.tar.gz
+[2024-05-31 08:50:30] INFO root fetch - processPackages [pyasdb]: executing diffoscope
+[2024-05-31 08:50:30] INFO root fetch - processPackages [pyasdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasdb-0.0.6.tar.gz tmp/pyasdb-2024.5.31.1.tar.gz --markdown 20240531/p/pyasdb/0.0.6-2024.5.31.1/README.md --exclude *.pyd
+[2024-05-31 08:50:30] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-05-31 08:50:30] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240531/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-05-31 08:50:31] INFO root fetch - processPackages [pyasdb]: Remove: archive file [/home/abi/fetcher/tmp/pyasdb-0.0.6.tar.gz]
+[2024-05-31 08:50:31] INFO root fetch - processPackages [pyasdb]: Remove: archive file [/home/abi/fetcher/tmp/pyasdb-2024.5.31.1.tar.gz]
+[2024-05-31 08:50:31] INFO root fetch - main [MainThread]: End processing [pyasdb]: success
+[2024-05-31 08:50:31] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-05-31 08:50:31] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-05-31 08:50:31] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-05-31 08:50:31] INFO root fetch - main [MainThread]: Store serial: [23461557]
