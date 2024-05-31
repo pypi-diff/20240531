@@ -22180,3 +22180,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:43:20] INFO root fetch - processPackages [opteryx]: Remove: archive file [/home/abi/fetcher/tmp/opteryx-0.9.3.tar.gz]
 [2024-05-31 16:43:20] INFO root fetch - main [MainThread]: End processing [opteryx]: success
 [2024-05-31 16:43:20] INFO root fetch - main [MainThread]: Store serial: [23467304]
+[2024-05-31 16:45:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467304]
+[2024-05-31 16:45:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emotion-analysis
+[2024-05-31 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaphor-models
+[2024-05-31 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartcoop-python-sdk
+[2024-05-31 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: booking-copilot-client
+[2024-05-31 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onyx-extension
+[2024-05-31 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vac-aligner
+[2024-05-31 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chess-transformer
+[2024-05-31 16:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scraibe
+[2024-05-31 16:45:30] INFO root fetch - processPackages [scraibe]: New version: [0.1.1.dev362] Old Version: [0.1.1.dev361]
+[2024-05-31 16:45:30] WARNING root fetch - processPackages [vac-aligner]: Skipping, unable to determine old version
+[2024-05-31 16:45:30] INFO root fetch - main [MainThread]: End processing [vac-aligner] error
+[2024-05-31 16:45:30] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 16:45:30] INFO root fetch - processPackages [onyx-extension]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-31 16:45:30] INFO root fetch - processPackages [scraibe]: Downloading https://files.pythonhosted.org/packages/1e/7b/3f010f00b1ef2a6ac3bde979fc01f4b8f1f3501189722e1d9bd16653be50/scraibe-0.1.1.dev361-py3-none-any.whl
+[2024-05-31 16:45:30] INFO root fetch - processPackages [booking-copilot-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 16:45:30] WARNING root fetch - processPackages [smartcoop-python-sdk]: Skipping, unable to determine old version
+[2024-05-31 16:45:30] INFO root fetch - main [MainThread]: End processing [smartcoop-python-sdk] error
+[2024-05-31 16:45:30] INFO root fetch - processPackages [emotion-analysis]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-31 16:45:31] INFO root fetch - processPackages [onyx-extension]: Downloading https://files.pythonhosted.org/packages/f1/3f/420f7fc6234f7f04e0f7096f7ddfafca9848a1c1a9671f88900b8be2e558/onyx_extension-0.4.8.tar.gz
+[2024-05-31 16:45:31] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/17/9a/4eaffd0a6a3b549dde852c3725d047241701c2bfbd76111bc2bccccb0658/chess_transformer-0.1.8.tar.gz
+[2024-05-31 16:45:31] INFO root fetch - processPackages [metaphor-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 16:45:31] INFO root fetch - processPackages [booking-copilot-client]: Downloading https://files.pythonhosted.org/packages/84/64/3f1caa2796670e11f274abb209109719992f909449ed0f4e849a157f5f30/booking_copilot_client-0.0.2.tar.gz
+[2024-05-31 16:45:31] INFO root fetch - processPackages [emotion-analysis]: Downloading https://files.pythonhosted.org/packages/25/a2/7ef856ad5e34bcb3ad3f58e540a2d72ada1f773d4369eb18290b3cdd8b62/emotion_analysis-0.1.5.tar.gz
+[2024-05-31 16:45:31] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/74/c8/861ac19e980a9e86a231d993a5edbbe8c2ed5a3c7ec8a0d0202fc8ec34c7/metaphor-models-0.9.0.tar.gz
+[2024-05-31 16:45:31] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/ee/65/ac93cfdac6866e37c13a65533e65710bf7f19f73880bfb7a9eaeb907f8e0/chess_transformer-0.1.9.tar.gz
+[2024-05-31 16:45:31] INFO root fetch - processPackages [onyx-extension]: Downloading https://files.pythonhosted.org/packages/57/f5/0e37c1457c8b67af0bae950e3eb58f631af6ca40d2693fe0db93ff81a457/onyx_extension-0.4.9.tar.gz
+[2024-05-31 16:45:31] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-31 16:45:31] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.8.tar.gz tmp/chess_transformer-0.1.9.tar.gz --markdown 20240531/c/chess-transformer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 16:45:31] INFO root fetch - processPackages [scraibe]: Downloading https://files.pythonhosted.org/packages/26/fc/cb84315c42bc754ee8dcdf873c558d02aacf57c647864bfdfdd36775d893/scraibe-0.1.1.dev362.tar.gz
+[2024-05-31 16:45:31] INFO root fetch - processPackages [booking-copilot-client]: Downloading https://files.pythonhosted.org/packages/a4/70/70a28e24944e2895109726fa7680ebd4389c555f99bafc5eb3f408f18af9/booking_copilot_client-0.0.3.tar.gz
+[2024-05-31 16:45:31] INFO root fetch - processPackages [onyx-extension]: executing diffoscope
+[2024-05-31 16:45:31] INFO root fetch - processPackages [onyx-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyx_extension-0.4.8.tar.gz tmp/onyx_extension-0.4.9.tar.gz --markdown 20240531/o/onyx-extension/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-31 16:45:31] INFO root fetch - processPackages [emotion-analysis]: Downloading https://files.pythonhosted.org/packages/34/e5/c2e6b2c67a189db4dd69a520d2aedc69a0e797bdc5eafa6b0f18b8457c0c/emotion_analysis-0.1.6.tar.gz
+[2024-05-31 16:45:31] INFO root fetch - processPackages [scraibe]: executing diffoscope
+[2024-05-31 16:45:31] INFO root fetch - processPackages [scraibe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scraibe-0.1.1.dev361-py3-none-any.whl.zip tmp/scraibe-0.1.1.dev362.tar.gz --markdown 20240531/s/scraibe/0.1.1.dev361-0.1.1.dev362/README.md --exclude *.pyd
+[2024-05-31 16:45:31] INFO root fetch - processPackages [booking-copilot-client]: executing diffoscope
+[2024-05-31 16:45:31] INFO root fetch - processPackages [booking-copilot-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/booking_copilot_client-0.0.2.tar.gz tmp/booking_copilot_client-0.0.3.tar.gz --markdown 20240531/b/booking-copilot-client/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 16:45:31] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/56/65/21a7865fd28d1a8651af865fd1ef807e93d934f8e69bf168c4bd764821d7/metaphor-models-0.9.1.tar.gz
+[2024-05-31 16:45:31] INFO root fetch - processPackages [metaphor-models]: executing diffoscope
+[2024-05-31 16:45:31] INFO root fetch - processPackages [metaphor-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-models-0.9.0.tar.gz tmp/metaphor-models-0.9.1.tar.gz --markdown 20240531/m/metaphor-models/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 16:45:31] INFO root fetch - processPackages [emotion-analysis]: executing diffoscope
+[2024-05-31 16:45:31] INFO root fetch - processPackages [emotion-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emotion_analysis-0.1.5.tar.gz tmp/emotion_analysis-0.1.6.tar.gz --markdown 20240531/e/emotion-analysis/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-31 16:45:32] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.8.tar.gz]
+[2024-05-31 16:45:32] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.9.tar.gz]
+[2024-05-31 16:45:32] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-31 16:45:32] INFO root fetch - processPackages [booking-copilot-client]: Remove: archive file [/home/abi/fetcher/tmp/booking_copilot_client-0.0.2.tar.gz]
+[2024-05-31 16:45:32] INFO root fetch - processPackages [booking-copilot-client]: Remove: archive file [/home/abi/fetcher/tmp/booking_copilot_client-0.0.3.tar.gz]
+[2024-05-31 16:45:32] INFO root fetch - main [MainThread]: End processing [booking-copilot-client]: success
+[2024-05-31 16:45:32] INFO root fetch - processPackages [scraibe]: Remove: archive file [/home/abi/fetcher/tmp/scraibe-0.1.1.dev361-py3-none-any.whl.zip]
+[2024-05-31 16:45:32] INFO root fetch - processPackages [scraibe]: Remove: archive file [/home/abi/fetcher/tmp/scraibe-0.1.1.dev362.tar.gz]
+[2024-05-31 16:45:32] INFO root fetch - main [MainThread]: End processing [scraibe]: success
+[2024-05-31 16:45:32] INFO root fetch - processPackages [emotion-analysis]: Remove: archive file [/home/abi/fetcher/tmp/emotion_analysis-0.1.5.tar.gz]
+[2024-05-31 16:45:32] INFO root fetch - processPackages [emotion-analysis]: Remove: archive file [/home/abi/fetcher/tmp/emotion_analysis-0.1.6.tar.gz]
+[2024-05-31 16:45:32] INFO root fetch - main [MainThread]: End processing [emotion-analysis]: success
+[2024-05-31 16:45:32] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.0.tar.gz]
+[2024-05-31 16:45:32] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.1.tar.gz]
+[2024-05-31 16:45:32] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
+[2024-05-31 16:45:38] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.4.8.tar.gz]
+[2024-05-31 16:45:38] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.4.9.tar.gz]
+[2024-05-31 16:45:38] INFO root fetch - main [MainThread]: End processing [onyx-extension]: success
+[2024-05-31 16:45:38] INFO root fetch - main [MainThread]: Store serial: [23467336]
