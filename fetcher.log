@@ -17219,3 +17219,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:48:05] INFO root fetch - processPackages [phasegen]: Remove: archive file [/home/abi/fetcher/tmp/phasegen-0.0.9b0.tar.gz]
 [2024-05-31 13:48:05] INFO root fetch - main [MainThread]: End processing [phasegen]: success
 [2024-05-31 13:48:05] INFO root fetch - main [MainThread]: Store serial: [23465033]
+[2024-05-31 13:50:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465033]
+[2024-05-31 13:50:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 13:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molgrid
+[2024-05-31 13:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypas-cli
+[2024-05-31 13:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: consensusGen
+[2024-05-31 13:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phenom-api-management
+[2024-05-31 13:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kraken-build
+[2024-05-31 13:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metalarchivist
+[2024-05-31 13:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tdimport-client
+[2024-05-31 13:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tb-mqtt-client
+[2024-05-31 13:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Geode-Numerics
+[2024-05-31 13:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: schwab-py
+[2024-05-31 13:50:14] INFO root fetch - processPackages [tdimport-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-31 13:50:14] WARNING root fetch - processPackages [consensusGen]: Skipping, unable to determine old version
+[2024-05-31 13:50:14] INFO root fetch - main [MainThread]: End processing [consensusGen] error
+[2024-05-31 13:50:14] WARNING root fetch - processPackages [phenom-api-management]: Skipping, unable to determine old version
+[2024-05-31 13:50:14] INFO root fetch - main [MainThread]: End processing [phenom-api-management] error
+[2024-05-31 13:50:14] INFO root fetch - processPackages [molgrid]: New version: [0.5.4] Old Version: [0.5.3.dev2]
+[2024-05-31 13:50:14] INFO root fetch - processPackages [metalarchivist]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-31 13:50:14] INFO root fetch - processPackages [tdimport-client]: Downloading https://files.pythonhosted.org/packages/9b/7a/454c561a49e62bc6f47b75b252bd9ca75860ebebdc681d0b0d7f59e1f48a/tdimport_client-0.2.2-py3-none-any.whl
+[2024-05-31 13:50:14] INFO root fetch - processPackages [pypas-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 13:50:14] INFO root fetch - processPackages [kraken-build]: New version: [0.36.6] Old Version: [0.36.5]
+[2024-05-31 13:50:14] INFO root fetch - processPackages [molgrid]: Downloading https://files.pythonhosted.org/packages/75/a2/0f911791927f563d8a741a9fae60d6bb2d208eb95787d4ddd28f3018b27d/molgrid-0.5.3.dev2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 13:50:14] INFO root fetch - processPackages [tb-mqtt-client]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-31 13:50:14] INFO root fetch - processPackages [schwab-py]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-31 13:50:14] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/07/fb/bf083613e26c9c72fed7452977ba754fc6731123fced3723db14ffeb14ca/metalarchivist-0.5.0.tar.gz
+[2024-05-31 13:50:14] WARNING root fetch - processPackages [molgrid]: Skipping package: exceeds size limit 27037079>=10485760
+[2024-05-31 13:50:14] INFO root fetch - main [MainThread]: End processing [molgrid] error
+[2024-05-31 13:50:14] INFO root fetch - processPackages [Geode-Numerics]: New version: [4.4.0rc1] Old Version: [4.3.4rc1]
+[2024-05-31 13:50:15] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/a3/ce/b3a13bbbd4f59cbef1d1a9e04ec7b42517f495e920e2402dfc4c298e662d/kraken_build-0.36.5.tar.gz
+[2024-05-31 13:50:15] INFO root fetch - processPackages [pypas-cli]: Downloading https://files.pythonhosted.org/packages/52/9c/e17a94aa1372f70ec7f0203b48644d9b03a5a9aef8547f2fa76912da826d/pypas_cli-0.0.8.tar.gz
+[2024-05-31 13:50:15] INFO root fetch - processPackages [tdimport-client]: Downloading https://files.pythonhosted.org/packages/41/d6/dcb973d49c12ecb15ee420c59f411e9a87d7a2f0ddc9d2466a9d2376c2fd/tdimport_client-0.2.3-py3-none-any.whl
+[2024-05-31 13:50:15] INFO root fetch - processPackages [tb-mqtt-client]: Downloading https://files.pythonhosted.org/packages/af/70/92bdf971f5fc7cda0bb618ae958cca11778bab478f6f170a36e49749ba6a/tb-mqtt-client-1.9.1.tar.gz
+[2024-05-31 13:50:15] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/a0/d1/f9489161bbdd76382b17e129c4296c6acaa34b2763eb1da4ce8409b51db3/schwab_py-1.0.0.tar.gz
+[2024-05-31 13:50:15] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/af/48/fd36daadf042a36660a1653c2a51c7bf0305caaed7221f9287b508d5bdb8/metalarchivist-0.5.1.tar.gz
+[2024-05-31 13:50:15] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/61/55/af3c19097a8adb87ecb3095912c39b4e58ceed7ef75d4e35e5c658743dfa/Geode_Numerics-4.3.4rc1-cp39-cp39-win_amd64.whl
+[2024-05-31 13:50:15] INFO root fetch - processPackages [tdimport-client]: executing diffoscope
+[2024-05-31 13:50:15] INFO root fetch - processPackages [tdimport-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdimport_client-0.2.2-py3-none-any.whl.zip tmp/tdimport_client-0.2.3-py3-none-any.whl.zip --markdown 20240531/t/tdimport-client/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-31 13:50:15] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-05-31 13:50:15] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.5.0.tar.gz tmp/metalarchivist-0.5.1.tar.gz --markdown 20240531/m/metalarchivist/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-31 13:50:15] INFO root fetch - processPackages [pypas-cli]: Downloading https://files.pythonhosted.org/packages/2a/e4/26812f8e53500cff5b06b107e402d5f791b9a1fa2374fd1920eae073ee8d/pypas_cli-0.0.9.tar.gz
+[2024-05-31 13:50:15] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/fe/05/b37ad29b1c7665141a0e6901256a999ef30909a2c303d93e0ce0e0414606/kraken_build-0.36.6.tar.gz
+[2024-05-31 13:50:15] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/04/74/4b7687617cfc44487e4546880342d9ea439d586b32afe8face182404610e/schwab_py-1.0.1.tar.gz
+[2024-05-31 13:50:15] INFO root fetch - processPackages [pypas-cli]: executing diffoscope
+[2024-05-31 13:50:15] INFO root fetch - processPackages [pypas-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypas_cli-0.0.8.tar.gz tmp/pypas_cli-0.0.9.tar.gz --markdown 20240531/p/pypas-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 13:50:15] INFO root fetch - processPackages [tb-mqtt-client]: Downloading https://files.pythonhosted.org/packages/6c/27/c78dc963c49983986c9316a811be2941c9b6c3832935946bc5e4168bc512/tb-mqtt-client-1.9.2.tar.gz
+[2024-05-31 13:50:15] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2024-05-31 13:50:15] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.36.5.tar.gz tmp/kraken_build-0.36.6.tar.gz --markdown 20240531/k/kraken-build/0.36.5-0.36.6/README.md --exclude *.pyd
+[2024-05-31 13:50:15] INFO root fetch - processPackages [schwab-py]: executing diffoscope
+[2024-05-31 13:50:15] INFO root fetch - processPackages [schwab-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab_py-1.0.0.tar.gz tmp/schwab_py-1.0.1.tar.gz --markdown 20240531/s/schwab-py/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-31 13:50:15] INFO root fetch - processPackages [tb-mqtt-client]: executing diffoscope
+[2024-05-31 13:50:15] INFO root fetch - processPackages [tb-mqtt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb-mqtt-client-1.9.1.tar.gz tmp/tb-mqtt-client-1.9.2.tar.gz --markdown 20240531/t/tb-mqtt-client/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-31 13:50:15] INFO root fetch - processPackages [tdimport-client]: Remove: archive file [/home/abi/fetcher/tmp/tdimport_client-0.2.2-py3-none-any.whl.zip]
+[2024-05-31 13:50:15] INFO root fetch - processPackages [tdimport-client]: Remove: archive file [/home/abi/fetcher/tmp/tdimport_client-0.2.3-py3-none-any.whl.zip]
+[2024-05-31 13:50:15] INFO root fetch - main [MainThread]: End processing [tdimport-client]: success
+[2024-05-31 13:50:15] INFO root fetch - processPackages [Geode-Numerics]: Downloading https://files.pythonhosted.org/packages/6c/82/3e7db380cd9dcba1c9472d148672a15e4446d7540981b5d5d23d1c82dafd/Geode_Numerics-4.4.0rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-31 13:50:15] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.5.0.tar.gz]
+[2024-05-31 13:50:15] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.5.1.tar.gz]
+[2024-05-31 13:50:15] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-05-31 13:50:16] INFO root fetch - processPackages [pypas-cli]: Remove: archive file [/home/abi/fetcher/tmp/pypas_cli-0.0.8.tar.gz]
+[2024-05-31 13:50:16] INFO root fetch - processPackages [pypas-cli]: Remove: archive file [/home/abi/fetcher/tmp/pypas_cli-0.0.9.tar.gz]
+[2024-05-31 13:50:16] INFO root fetch - main [MainThread]: End processing [pypas-cli]: success
+[2024-05-31 13:50:16] INFO root fetch - processPackages [tb-mqtt-client]: Remove: archive file [/home/abi/fetcher/tmp/tb-mqtt-client-1.9.1.tar.gz]
+[2024-05-31 13:50:16] INFO root fetch - processPackages [tb-mqtt-client]: Remove: archive file [/home/abi/fetcher/tmp/tb-mqtt-client-1.9.2.tar.gz]
+[2024-05-31 13:50:16] INFO root fetch - main [MainThread]: End processing [tb-mqtt-client]: success
+[2024-05-31 13:50:16] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab_py-1.0.0.tar.gz]
+[2024-05-31 13:50:16] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab_py-1.0.1.tar.gz]
+[2024-05-31 13:50:16] INFO root fetch - main [MainThread]: End processing [schwab-py]: success
+[2024-05-31 13:50:16] INFO root fetch - processPackages [Geode-Numerics]: executing diffoscope
+[2024-05-31 13:50:16] INFO root fetch - processPackages [Geode-Numerics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Numerics-4.3.4rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Numerics-4.4.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240531/G/Geode-Numerics/4.3.4rc1-4.4.0rc1/README.md --exclude *.pyd
+[2024-05-31 13:50:16] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.36.5.tar.gz]
+[2024-05-31 13:50:16] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.36.6.tar.gz]
+[2024-05-31 13:50:16] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2024-05-31 13:50:17] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-4.3.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 13:50:17] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-4.4.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-31 13:50:17] INFO root fetch - main [MainThread]: End processing [Geode-Numerics]: success
+[2024-05-31 13:50:17] INFO root fetch - main [MainThread]: Store serial: [23465065]
