@@ -11528,3 +11528,47 @@
 [2024-05-31 10:04:58] INFO root fetch - processPackages [ibm-watsonx-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watsonx_ai-1.0.5.tar.gz]
 [2024-05-31 10:04:58] INFO root fetch - main [MainThread]: End processing [ibm-watsonx-ai]: success
 [2024-05-31 10:04:58] INFO root fetch - main [MainThread]: Store serial: [23462479]
+[2024-05-31 10:07:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462479]
+[2024-05-31 10:07:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 10:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-fnc
+[2024-05-31 10:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: punkweb-bb
+[2024-05-31 10:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anonipy
+[2024-05-31 10:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openpyexl
+[2024-05-31 10:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-auth0
+[2024-05-31 10:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pandans
+[2024-05-31 10:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-sdk-rafay-workflow
+[2024-05-31 10:07:07] WARNING root fetch - processPackages [easy-fnc]: Skipping, unable to determine old version
+[2024-05-31 10:07:07] INFO root fetch - main [MainThread]: End processing [easy-fnc] error
+[2024-05-31 10:07:07] INFO root fetch - processPackages [punkweb-bb]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-31 10:07:07] INFO root fetch - processPackages [anonipy]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 10:07:07] INFO root fetch - processPackages [python-sdk-rafay-workflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 10:07:07] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/e9/81/c7f991e2c562832227f1185b1edc5e388fb8ac2e0e3dd297d7405f74d963/punkweb_bb-0.2.3.tar.gz
+[2024-05-31 10:07:07] WARNING root fetch - processPackages [pandans]: Skipping, unable to determine old version
+[2024-05-31 10:07:07] INFO root fetch - main [MainThread]: End processing [pandans] error
+[2024-05-31 10:07:07] INFO root fetch - processPackages [airbyte-source-auth0]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-31 10:07:07] WARNING root fetch - processPackages [openpyexl]: Skipping, unable to determine old version
+[2024-05-31 10:07:07] INFO root fetch - main [MainThread]: End processing [openpyexl] error
+[2024-05-31 10:07:07] INFO root fetch - processPackages [anonipy]: Downloading https://files.pythonhosted.org/packages/f9/2d/fdd661a774d6c70cf08a3bfa3741705d48c14bbbd95bd211d7aaaee0aa17/anonipy-0.0.5.tar.gz
+[2024-05-31 10:07:07] INFO root fetch - processPackages [airbyte-source-auth0]: Downloading https://files.pythonhosted.org/packages/b6/56/38ff7ac93a7fc7a5d2d3aa8af1b9a8d2703cb22d42263b528a804418a148/airbyte_source_auth0-0.5.2.tar.gz
+[2024-05-31 10:07:07] INFO root fetch - processPackages [python-sdk-rafay-workflow]: Downloading https://files.pythonhosted.org/packages/85/3e/45ff81087c5ffbd45d666eedb0f0b82c42994aaeaa34a017f19e40be1e43/python_sdk_rafay_workflow-0.0.8.tar.gz
+[2024-05-31 10:07:07] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/1a/a5/61a20900fdf25aaf86c6df88e3f379151ff377dd781c8d5d596984353b72/punkweb_bb-0.3.0.tar.gz
+[2024-05-31 10:07:08] ERROR root fetch - processPackages [airbyte-source-auth0]: Unable to fetch info: No such project/version 'airbyte-source-auth0' 0.5.3
+[2024-05-31 10:07:08] INFO root fetch - main [MainThread]: End processing [airbyte-source-auth0] error
+[2024-05-31 10:07:08] INFO root fetch - processPackages [anonipy]: Downloading https://files.pythonhosted.org/packages/ae/d5/4095c024e5aab5449f4c508c8fb224f90ba968d4a8dc6eeac0a0f90826bd/anonipy-0.0.6.tar.gz
+[2024-05-31 10:07:08] INFO root fetch - processPackages [anonipy]: executing diffoscope
+[2024-05-31 10:07:08] INFO root fetch - processPackages [anonipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anonipy-0.0.5.tar.gz tmp/anonipy-0.0.6.tar.gz --markdown 20240531/a/anonipy/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 10:07:08] INFO root fetch - processPackages [python-sdk-rafay-workflow]: Downloading https://files.pythonhosted.org/packages/9d/b9/c0241a298a0b4e62158741473e713a393dd0970f622d2111b70ce9ddda0d/python_sdk_rafay_workflow-0.0.9.tar.gz
+[2024-05-31 10:07:08] INFO root fetch - processPackages [punkweb-bb]: executing diffoscope
+[2024-05-31 10:07:08] INFO root fetch - processPackages [punkweb-bb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punkweb_bb-0.2.3.tar.gz tmp/punkweb_bb-0.3.0.tar.gz --markdown 20240531/p/punkweb-bb/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-31 10:07:08] INFO root fetch - processPackages [python-sdk-rafay-workflow]: executing diffoscope
+[2024-05-31 10:07:08] INFO root fetch - processPackages [python-sdk-rafay-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_rafay_workflow-0.0.8.tar.gz tmp/python_sdk_rafay_workflow-0.0.9.tar.gz --markdown 20240531/p/python-sdk-rafay-workflow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 10:07:08] INFO root fetch - processPackages [anonipy]: Remove: archive file [/home/abi/fetcher/tmp/anonipy-0.0.5.tar.gz]
+[2024-05-31 10:07:08] INFO root fetch - processPackages [anonipy]: Remove: archive file [/home/abi/fetcher/tmp/anonipy-0.0.6.tar.gz]
+[2024-05-31 10:07:08] INFO root fetch - main [MainThread]: End processing [anonipy]: success
+[2024-05-31 10:07:08] INFO root fetch - processPackages [python-sdk-rafay-workflow]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_rafay_workflow-0.0.8.tar.gz]
+[2024-05-31 10:07:08] INFO root fetch - processPackages [python-sdk-rafay-workflow]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_rafay_workflow-0.0.9.tar.gz]
+[2024-05-31 10:07:08] INFO root fetch - main [MainThread]: End processing [python-sdk-rafay-workflow]: success
+[2024-05-31 10:07:09] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.2.3.tar.gz]
+[2024-05-31 10:07:09] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.3.0.tar.gz]
+[2024-05-31 10:07:09] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
+[2024-05-31 10:07:09] INFO root fetch - main [MainThread]: Store serial: [23462504]
