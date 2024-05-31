@@ -10419,3 +10419,72 @@
 [2024-05-31 09:23:19] INFO root fetch - processPackages [django-jalali-date]: Remove: archive file [/home/abi/fetcher/tmp/django_jalali_date-1.1.2.tar.gz]
 [2024-05-31 09:23:19] INFO root fetch - main [MainThread]: End processing [django-jalali-date]: success
 [2024-05-31 09:23:19] INFO root fetch - main [MainThread]: Store serial: [23461979]
+[2024-05-31 09:25:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461979]
+[2024-05-31 09:25:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 09:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spiakid-simulation
+[2024-05-31 09:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dpt
+[2024-05-31 09:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chaostoolkit-google-cloud-platform
+[2024-05-31 09:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: getmail6
+[2024-05-31 09:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: khoj-assistant
+[2024-05-31 09:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crypto-condor
+[2024-05-31 09:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dingodb
+[2024-05-31 09:25:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: getmail
+[2024-05-31 09:25:28] INFO root fetch - processPackages [spiakid-simulation]: New version: [1.24] Old Version: [1.23]
+[2024-05-31 09:25:28] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 09:25:28] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-05-31 09:25:28] INFO root fetch - processPackages [dpt]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-31 09:25:28] INFO root fetch - processPackages [getmail]: New version: [6.9] Old Version: [6.8]
+[2024-05-31 09:25:28] INFO root fetch - processPackages [getmail6]: New version: [6.9] Old Version: [6.8]
+[2024-05-31 09:25:28] WARNING root fetch - processPackages [crypto-condor]: Skipping, unable to determine old version
+[2024-05-31 09:25:28] INFO root fetch - main [MainThread]: End processing [crypto-condor] error
+[2024-05-31 09:25:28] INFO root fetch - processPackages [spiakid-simulation]: Downloading https://files.pythonhosted.org/packages/b5/a9/16aee5985f9b48e262e839642351fd4207f71ce069a32b30244402698880/spiakid_simulation-1.23-py3-none-any.whl
+[2024-05-31 09:25:28] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-05-31 09:25:28] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Downloading https://files.pythonhosted.org/packages/12/07/4d1110a4d4b7d4991abc2505c4e18770bf058568bd5132c229c29711bb5e/chaostoolkit-google-cloud-platform-0.9.0.tar.gz
+[2024-05-31 09:25:28] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-31 09:25:28] INFO root fetch - processPackages [dpt]: Downloading https://files.pythonhosted.org/packages/44/82/7e3977061179a1cfd2bb78a265c33603045e97add0a165872f145c6f3195/dpt-1.0.2.tar.gz
+[2024-05-31 09:25:28] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Downloading https://files.pythonhosted.org/packages/37/3d/14b7a4021c6fcdb294d892739505d505baca7cdba954a40c2b9a5b5da456/chaostoolkit-google-cloud-platform-0.9.2.tar.gz
+[2024-05-31 09:25:28] INFO root fetch - processPackages [getmail6]: Downloading https://files.pythonhosted.org/packages/22/4c/10f14c217ffe4d0c5359f1d13b3bef8fae7b6aa59c528d5032c66d834eee/getmail6-6.8-py3-none-any.whl
+[2024-05-31 09:25:28] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-05-31 09:25:28] INFO root fetch - processPackages [getmail]: Downloading https://files.pythonhosted.org/packages/d7/2b/c92306dc94a9714a8724f7809a87cd8f4d2ef618cba3675918ca28c758f8/getmail-6.8-py3-none-any.whl
+[2024-05-31 09:25:28] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-31 09:25:28] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: executing diffoscope
+[2024-05-31 09:25:28] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-google-cloud-platform-0.9.0.tar.gz tmp/chaostoolkit-google-cloud-platform-0.9.2.tar.gz --markdown 20240531/c/chaostoolkit-google-cloud-platform/0.9.0-0.9.2/README.md --exclude *.pyd
+[2024-05-31 09:25:28] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-05-31 09:25:28] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240531/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 09:25:28] INFO root fetch - processPackages [spiakid-simulation]: Downloading https://files.pythonhosted.org/packages/fd/a5/75c0033d8e1a758556b0f74a01fd57e20d7ac16cd60a53e97fc5722935b7/spiakid_simulation-1.24.tar.gz
+[2024-05-31 09:25:28] INFO root fetch - processPackages [dpt]: Downloading https://files.pythonhosted.org/packages/82/94/f5981efa1c35618d9646ce72da56386e62d2103914d506160d483e68dd3d/dpt-1.0.3.tar.gz
+[2024-05-31 09:25:29] INFO root fetch - processPackages [spiakid-simulation]: executing diffoscope
+[2024-05-31 09:25:29] INFO root fetch - processPackages [spiakid-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiakid_simulation-1.23-py3-none-any.whl.zip tmp/spiakid_simulation-1.24.tar.gz --markdown 20240531/s/spiakid-simulation/1.23-1.24/README.md --exclude *.pyd
+[2024-05-31 09:25:29] INFO root fetch - processPackages [getmail]: Downloading https://files.pythonhosted.org/packages/61/02/c8ab5bf43569f5dcd5442d35e0d84c943a2b1a01648e82764cd86ab26721/getmail-6.9-py3-none-any.whl
+[2024-05-31 09:25:29] INFO root fetch - processPackages [dpt]: executing diffoscope
+[2024-05-31 09:25:29] INFO root fetch - processPackages [dpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpt-1.0.2.tar.gz tmp/dpt-1.0.3.tar.gz --markdown 20240531/d/dpt/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-31 09:25:29] INFO root fetch - processPackages [getmail6]: Downloading https://files.pythonhosted.org/packages/69/8e/16afad3490d28bd19b0e352cebb5b909fb17ba194834f6e019bff92beaa7/getmail6-6.9-py3-none-any.whl
+[2024-05-31 09:25:29] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-31 09:25:29] INFO root fetch - processPackages [getmail]: executing diffoscope
+[2024-05-31 09:25:29] INFO root fetch - processPackages [getmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmail-6.8-py3-none-any.whl.zip tmp/getmail-6.9-py3-none-any.whl.zip --markdown 20240531/g/getmail/6.8-6.9/README.md --exclude *.pyd
+[2024-05-31 09:25:29] INFO root fetch - processPackages [getmail6]: executing diffoscope
+[2024-05-31 09:25:29] INFO root fetch - processPackages [getmail6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmail6-6.8-py3-none-any.whl.zip tmp/getmail6-6.9-py3-none-any.whl.zip --markdown 20240531/g/getmail6/6.8-6.9/README.md --exclude *.pyd
+[2024-05-31 09:25:29] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-31 09:25:29] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240531/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-31 09:25:29] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-05-31 09:25:29] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-05-31 09:25:29] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-05-31 09:25:29] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-google-cloud-platform-0.9.0.tar.gz]
+[2024-05-31 09:25:29] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-google-cloud-platform-0.9.2.tar.gz]
+[2024-05-31 09:25:29] INFO root fetch - main [MainThread]: End processing [chaostoolkit-google-cloud-platform]: success
+[2024-05-31 09:25:29] INFO root fetch - processPackages [dpt]: Remove: archive file [/home/abi/fetcher/tmp/dpt-1.0.2.tar.gz]
+[2024-05-31 09:25:29] INFO root fetch - processPackages [dpt]: Remove: archive file [/home/abi/fetcher/tmp/dpt-1.0.3.tar.gz]
+[2024-05-31 09:25:29] INFO root fetch - main [MainThread]: End processing [dpt]: success
+[2024-05-31 09:25:30] INFO root fetch - processPackages [spiakid-simulation]: Remove: archive file [/home/abi/fetcher/tmp/spiakid_simulation-1.23-py3-none-any.whl.zip]
+[2024-05-31 09:25:30] INFO root fetch - processPackages [spiakid-simulation]: Remove: archive file [/home/abi/fetcher/tmp/spiakid_simulation-1.24.tar.gz]
+[2024-05-31 09:25:30] INFO root fetch - main [MainThread]: End processing [spiakid-simulation]: success
+[2024-05-31 09:25:30] INFO root fetch - processPackages [getmail]: Remove: archive file [/home/abi/fetcher/tmp/getmail-6.8-py3-none-any.whl.zip]
+[2024-05-31 09:25:30] INFO root fetch - processPackages [getmail]: Remove: archive file [/home/abi/fetcher/tmp/getmail-6.9-py3-none-any.whl.zip]
+[2024-05-31 09:25:30] INFO root fetch - main [MainThread]: End processing [getmail]: success
+[2024-05-31 09:25:30] INFO root fetch - processPackages [getmail6]: Remove: archive file [/home/abi/fetcher/tmp/getmail6-6.8-py3-none-any.whl.zip]
+[2024-05-31 09:25:30] INFO root fetch - processPackages [getmail6]: Remove: archive file [/home/abi/fetcher/tmp/getmail6-6.9-py3-none-any.whl.zip]
+[2024-05-31 09:25:30] INFO root fetch - main [MainThread]: End processing [getmail6]: success
+[2024-05-31 09:25:31] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-31 09:25:31] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-31 09:25:31] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-31 09:25:31] INFO root fetch - main [MainThread]: Store serial: [23462006]
