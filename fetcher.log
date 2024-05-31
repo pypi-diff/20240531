@@ -22429,3 +22429,138 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:54:31] INFO root fetch - processPackages [japanese-address-parser-py]: Remove: archive file [/home/abi/fetcher/tmp/japanese_address_parser_py-0.1.1-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-05-31 16:54:31] INFO root fetch - main [MainThread]: End processing [japanese-address-parser-py]: success
 [2024-05-31 16:54:31] INFO root fetch - main [MainThread]: Store serial: [23467462]
+[2024-05-31 16:56:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467462]
+[2024-05-31 16:56:40] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-31 16:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: japanese-address-parser-py
+[2024-05-31 16:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: appmap
+[2024-05-31 16:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hnt-nf-jira-servicos-library
+[2024-05-31 16:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rov-db-access
+[2024-05-31 16:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vac-aligner
+[2024-05-31 16:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ics-to-todoist
+[2024-05-31 16:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyvckit
+[2024-05-31 16:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hnt-nf-jira-servicos-library
+[2024-05-31 16:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scalexi
+[2024-05-31 16:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dlqhandler
+[2024-05-31 16:56:40] INFO root fetch - processPackages [rov-db-access]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 16:56:40] WARNING root fetch - processPackages [hnt-nf-jira-servicos-library]: Skipping, unable to determine old version
+[2024-05-31 16:56:40] INFO root fetch - processPackages [hnt-nf-jira-servicos-library]: Start processing: lnwza
+[2024-05-31 16:56:40] INFO root fetch - main [MainThread]: End processing [hnt-nf-jira-servicos-library] error
+[2024-05-31 16:56:40] INFO root fetch - processPackages [vac-aligner]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 16:56:40] INFO root fetch - processPackages [dlqhandler]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-31 16:56:40] INFO root fetch - processPackages [japanese-address-parser-py]: New version: [0.1.1] Old Version: [0.1.0b18]
+[2024-05-31 16:56:40] WARNING root fetch - processPackages [hnt-nf-jira-servicos-library]: Skipping, unable to determine old version
+[2024-05-31 16:56:40] INFO root fetch - processPackages [hnt-nf-jira-servicos-library]: Start processing: exv
+[2024-05-31 16:56:40] INFO root fetch - main [MainThread]: End processing [hnt-nf-jira-servicos-library] error
+[2024-05-31 16:56:40] INFO root fetch - processPackages [ics-to-todoist]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-31 16:56:40] INFO root fetch - processPackages [rov-db-access]: Downloading https://files.pythonhosted.org/packages/fa/cf/2cde6b54256ee6a480534ddc1c450c4b26ec07c33db32c00a7b67c1bf822/rov_db_access-1.0.8.tar.gz
+[2024-05-31 16:56:40] INFO root fetch - processPackages [pyvckit]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 16:56:40] INFO root fetch - processPackages [scalexi]: New version: [0.4.7.2] Old Version: [0.4.7.1]
+[2024-05-31 16:56:40] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/3e/4f/fd0ea47b71721e449fe802066d7e7e6d0e4a82da5f540194434662aa8a0c/dlqhandler-0.2.5.tar.gz
+[2024-05-31 16:56:40] INFO root fetch - processPackages [appmap]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-31 16:56:40] INFO root fetch - processPackages [lnwza]: New version: [0.0.19] Old Version: [0.0.1]
+[2024-05-31 16:56:40] INFO root fetch - processPackages [japanese-address-parser-py]: Downloading https://files.pythonhosted.org/packages/03/4e/90cd90533a1103fd341167a533e90ea36a8a642924539c44cb8e8ada2568/japanese_address_parser_py-0.1.0b18.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [exv]: New version: [1.3] Old Version: [1.2]
+[2024-05-31 16:56:41] INFO root fetch - processPackages [vac-aligner]: Downloading https://files.pythonhosted.org/packages/97/02/1df49b8684e0f6478b775f664867458855f60a7b1416d86d78b36b765f8a/vac_aligner-0.0.1.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [ics-to-todoist]: Downloading https://files.pythonhosted.org/packages/98/b2/d518b2288939ea81e428229656715caf60a230fd67bf526ba5eb89081790/ics_to_todoist-0.4.1.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [pyvckit]: Downloading https://files.pythonhosted.org/packages/3a/a7/1e6fc938dbf6d0610fbfafef772b68ace1136eed7e9ef35d41823c24f8a7/pyvckit-0.0.1.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [scalexi]: Downloading https://files.pythonhosted.org/packages/13/e1/c31b38705138524846acb48189047714a883bc084dfd40740737faecec96/scalexi-0.4.7.1.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/30/9b/1cb0c64df5f6411788d7ada4a6f4134fb38648dbd8597039938830aa7dac/appmap-2.0.5.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [lnwza]: Downloading https://files.pythonhosted.org/packages/85/04/324c0d4f60ffe5e17554b37433c6230f9f806914d70b279fafca6977db9f/lnwza-0.0.1.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [exv]: Downloading https://files.pythonhosted.org/packages/74/65/3672eca9c04bde2225ee7dd17856555961847c6370e8d12f7789b80d0736/exv-1.2.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [japanese-address-parser-py]: Downloading https://files.pythonhosted.org/packages/f1/b6/913a7c0ce319bdfa56f7809a9108ee98f359aec9ff81545f6b719dbf2094/japanese_address_parser_py-0.1.1-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-31 16:56:41] INFO root fetch - processPackages [rov-db-access]: Downloading https://files.pythonhosted.org/packages/54/3f/5770c2243c3c7434936b4cfd3bcc2fd6c46302b5cddd40f9a23b6e058cf6/rov_db_access-1.0.9.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/ed/e0/a80f2239ed7e2b5674c1d662dab313cb92de41823b5f7f5900e419a46d88/dlqhandler-0.2.6.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [vac-aligner]: Downloading https://files.pythonhosted.org/packages/a7/b5/cc33c0fd7be4c8090015a602f5045c8f61547c2f338d5765ad55be745eca/vac_aligner-0.0.2-py2.py3-none-any.whl
+[2024-05-31 16:56:41] INFO root fetch - processPackages [rov-db-access]: executing diffoscope
+[2024-05-31 16:56:41] INFO root fetch - processPackages [rov-db-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rov_db_access-1.0.8.tar.gz tmp/rov_db_access-1.0.9.tar.gz --markdown 20240531/r/rov-db-access/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 16:56:41] INFO root fetch - processPackages [ics-to-todoist]: Downloading https://files.pythonhosted.org/packages/a0/a3/bc88137c8707565b0e04c4ba28428538a66eb3bfae994b02526a349b7c2a/ics_to_todoist-0.4.2.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [pyvckit]: Downloading https://files.pythonhosted.org/packages/e8/6d/67a7baaea734e1f8230527186e69d3d52e8508c00bc9154f2fb39b7279a2/pyvckit-0.0.2-py3-none-any.whl
+[2024-05-31 16:56:41] INFO root fetch - processPackages [dlqhandler]: executing diffoscope
+[2024-05-31 16:56:41] INFO root fetch - processPackages [dlqhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlqhandler-0.2.5.tar.gz tmp/dlqhandler-0.2.6.tar.gz --markdown 20240531/d/dlqhandler/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-31 16:56:41] INFO root fetch - processPackages [scalexi]: Downloading https://files.pythonhosted.org/packages/85/61/3490f85b9fdca01024c4d5ab2095b80cb8fb1a3bed5945a5f77700e35d23/scalexi-0.4.7.2.tar.gz
+[2024-05-31 16:56:41] INFO root fetch - processPackages [vac-aligner]: executing diffoscope
+[2024-05-31 16:56:41] INFO root fetch - processPackages [vac-aligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vac_aligner-0.0.1.tar.gz tmp/vac_aligner-0.0.2-py2.py3-none-any.whl.zip --markdown 20240531/v/vac-aligner/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 16:56:41] INFO root fetch - processPackages [lnwza]: Downloading https://files.pythonhosted.org/packages/2a/89/e0cfc534c8c33ae5625aa0a21524eb1bc95575a35dc81ee8a11373b6baa5/lnwza-0.0.19-py3-none-any.whl
+[2024-05-31 16:56:41] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/78/8a/c3e17c5450d01eb755588d8a86d3a1f0b02b85754d0fd99dc0aaafe89a5d/appmap-2.0.6-py3-none-any.whl
+[2024-05-31 16:56:41] INFO root fetch - processPackages [exv]: Downloading https://files.pythonhosted.org/packages/00/46/2a987e53c0a52686053fb2cff2fbff89f973a1d74cf81954c26736fd2be9/exv-1.3-py3-none-any.whl
+[2024-05-31 16:56:41] INFO root fetch - processPackages [japanese-address-parser-py]: executing diffoscope
+[2024-05-31 16:56:41] INFO root fetch - processPackages [japanese-address-parser-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/japanese_address_parser_py-0.1.0b18.tar.gz tmp/japanese_address_parser_py-0.1.1-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240531/j/japanese-address-parser-py/0.1.0b18-0.1.1/README.md --exclude *.pyd
+[2024-05-31 16:56:41] INFO root fetch - processPackages [ics-to-todoist]: executing diffoscope
+[2024-05-31 16:56:41] INFO root fetch - processPackages [ics-to-todoist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ics_to_todoist-0.4.1.tar.gz tmp/ics_to_todoist-0.4.2.tar.gz --markdown 20240531/i/ics-to-todoist/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-31 16:56:41] INFO root fetch - processPackages [pyvckit]: executing diffoscope
+[2024-05-31 16:56:41] INFO root fetch - processPackages [pyvckit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvckit-0.0.1.tar.gz tmp/pyvckit-0.0.2-py3-none-any.whl.zip --markdown 20240531/p/pyvckit/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 16:56:41] INFO root fetch - processPackages [lnwza]: executing diffoscope
+[2024-05-31 16:56:41] INFO root fetch - processPackages [lnwza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnwza-0.0.1.tar.gz tmp/lnwza-0.0.19-py3-none-any.whl.zip --markdown 20240531/l/lnwza/0.0.1-0.0.19/README.md --exclude *.pyd
+[2024-05-31 16:56:41] INFO root fetch - processPackages [scalexi]: executing diffoscope
+[2024-05-31 16:56:41] INFO root fetch - processPackages [scalexi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalexi-0.4.7.1.tar.gz tmp/scalexi-0.4.7.2.tar.gz --markdown 20240531/s/scalexi/0.4.7.1-0.4.7.2/README.md --exclude *.pyd
+[2024-05-31 16:56:41] INFO root fetch - processPackages [exv]: executing diffoscope
+[2024-05-31 16:56:41] INFO root fetch - processPackages [exv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exv-1.2.tar.gz tmp/exv-1.3-py3-none-any.whl.zip --markdown 20240531/e/exv/1.2-1.3/README.md --exclude *.pyd
+[2024-05-31 16:56:42] INFO root fetch - processPackages [appmap]: executing diffoscope
+[2024-05-31 16:56:42] INFO root fetch - processPackages [appmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmap-2.0.5.tar.gz tmp/appmap-2.0.6-py3-none-any.whl.zip --markdown 20240531/a/appmap/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-31 16:56:42] INFO root fetch - processPackages [rov-db-access]: Remove: archive file [/home/abi/fetcher/tmp/rov_db_access-1.0.8.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [rov-db-access]: Remove: archive file [/home/abi/fetcher/tmp/rov_db_access-1.0.9.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [rov-db-access]: Start processing: pharaoh-report
+[2024-05-31 16:56:42] INFO root fetch - main [MainThread]: End processing [rov-db-access]: success
+[2024-05-31 16:56:42] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.5.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.6.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [dlqhandler]: Start processing: constellate
+[2024-05-31 16:56:42] INFO root fetch - main [MainThread]: End processing [dlqhandler]: success
+[2024-05-31 16:56:42] INFO root fetch - processPackages [constellate]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [ics-to-todoist]: Remove: archive file [/home/abi/fetcher/tmp/ics_to_todoist-0.4.1.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [ics-to-todoist]: Remove: archive file [/home/abi/fetcher/tmp/ics_to_todoist-0.4.2.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [ics-to-todoist]: Start processing: django-content-editor
+[2024-05-31 16:56:42] INFO root fetch - main [MainThread]: End processing [ics-to-todoist]: success
+[2024-05-31 16:56:42] INFO root fetch - processPackages [pharaoh-report]: New version: [0.7.1rc1] Old Version: [0.7.0]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [django-content-editor]: New version: [7.0a4] Old Version: [7.0a3]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/6c/0d/fd37ee330a191b1d8a379de177951713c074efb50f5ccc649f94e258eabc/constellate-0.8.8.tar.gz
+[2024-05-31 16:56:42] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/20/62/dcd586e99e69039f1632bfdeb6bd16c5247334921421b6e7624a76fd6aa4/django_content_editor-7.0a3.tar.gz
+[2024-05-31 16:56:42] INFO root fetch - processPackages [japanese-address-parser-py]: Remove: archive file [/home/abi/fetcher/tmp/japanese_address_parser_py-0.1.0b18.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [japanese-address-parser-py]: Remove: archive file [/home/abi/fetcher/tmp/japanese_address_parser_py-0.1.1-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [japanese-address-parser-py]: Start processing: hishel
+[2024-05-31 16:56:42] INFO root fetch - main [MainThread]: End processing [japanese-address-parser-py]: success
+[2024-05-31 16:56:42] INFO root fetch - processPackages [pyvckit]: Remove: archive file [/home/abi/fetcher/tmp/pyvckit-0.0.1.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [pyvckit]: Remove: archive file [/home/abi/fetcher/tmp/pyvckit-0.0.2-py3-none-any.whl.zip]
+[2024-05-31 16:56:42] INFO root fetch - main [MainThread]: End processing [pyvckit]: success
+[2024-05-31 16:56:42] INFO root fetch - processPackages [exv]: Remove: archive file [/home/abi/fetcher/tmp/exv-1.2.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [exv]: Remove: archive file [/home/abi/fetcher/tmp/exv-1.3-py3-none-any.whl.zip]
+[2024-05-31 16:56:42] INFO root fetch - main [MainThread]: End processing [exv]: success
+[2024-05-31 16:56:42] INFO root fetch - processPackages [lnwza]: Remove: archive file [/home/abi/fetcher/tmp/lnwza-0.0.1.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [lnwza]: Remove: archive file [/home/abi/fetcher/tmp/lnwza-0.0.19-py3-none-any.whl.zip]
+[2024-05-31 16:56:42] INFO root fetch - main [MainThread]: End processing [lnwza]: success
+[2024-05-31 16:56:42] INFO root fetch - processPackages [pharaoh-report]: Downloading https://files.pythonhosted.org/packages/16/b7/e5f499ffa06ba7e6f16980154b86095b99ec02d4d921ac10913a541e7f93/pharaoh_report-0.7.0.tar.gz
+[2024-05-31 16:56:42] INFO root fetch - processPackages [appmap]: Remove: archive file [/home/abi/fetcher/tmp/appmap-2.0.5.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [appmap]: Remove: archive file [/home/abi/fetcher/tmp/appmap-2.0.6-py3-none-any.whl.zip]
+[2024-05-31 16:56:42] INFO root fetch - main [MainThread]: End processing [appmap]: success
+[2024-05-31 16:56:42] INFO root fetch - processPackages [scalexi]: Remove: archive file [/home/abi/fetcher/tmp/scalexi-0.4.7.1.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - processPackages [scalexi]: Remove: archive file [/home/abi/fetcher/tmp/scalexi-0.4.7.2.tar.gz]
+[2024-05-31 16:56:42] INFO root fetch - main [MainThread]: End processing [scalexi]: success
+[2024-05-31 16:56:43] INFO root fetch - processPackages [constellate]: Downloading https://files.pythonhosted.org/packages/1f/ca/19e7dfae08c4c8909dcde4744435503d70ee56a76cfb56e4947dd039c643/constellate-0.8.9.tar.gz
+[2024-05-31 16:56:43] INFO root fetch - processPackages [hishel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 16:56:43] INFO root fetch - processPackages [constellate]: executing diffoscope
+[2024-05-31 16:56:43] INFO root fetch - processPackages [constellate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constellate-0.8.8.tar.gz tmp/constellate-0.8.9.tar.gz --markdown 20240531/c/constellate/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-31 16:56:43] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/f7/34/8df63f872fb76512236649b1a62b603954f990dae598300d87bed2bb4b76/django_content_editor-7.0a4.tar.gz
+[2024-05-31 16:56:43] INFO root fetch - processPackages [pharaoh-report]: Downloading https://files.pythonhosted.org/packages/63/1b/0de6e54b10700738f5b7dac3122df857346c05f403246f7f95899ebaf7a4/pharaoh_report-0.7.1rc1.tar.gz
+[2024-05-31 16:56:43] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/70/30/746a1d5db3025b3b69995d907fe840d0c840e298f657e36039fdd6d6b553/hishel-0.0.8.tar.gz
+[2024-05-31 16:56:43] INFO root fetch - processPackages [django-content-editor]: executing diffoscope
+[2024-05-31 16:56:43] INFO root fetch - processPackages [django-content-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_content_editor-7.0a3.tar.gz tmp/django_content_editor-7.0a4.tar.gz --markdown 20240531/d/django-content-editor/7.0a3-7.0a4/README.md --exclude *.pyd
+[2024-05-31 16:56:43] INFO root fetch - processPackages [pharaoh-report]: executing diffoscope
+[2024-05-31 16:56:43] INFO root fetch - processPackages [pharaoh-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharaoh_report-0.7.0.tar.gz tmp/pharaoh_report-0.7.1rc1.tar.gz --markdown 20240531/p/pharaoh-report/0.7.0-0.7.1rc1/README.md --exclude *.pyd
+[2024-05-31 16:56:43] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/b1/8c/d6a0ef32c315189e5c35dbef5f3db303cfed2b4a0b63bce4da44c502e387/hishel-0.0.9.tar.gz
+[2024-05-31 16:56:43] INFO root fetch - processPackages [hishel]: executing diffoscope
+[2024-05-31 16:56:43] INFO root fetch - processPackages [hishel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hishel-0.0.8.tar.gz tmp/hishel-0.0.9.tar.gz --markdown 20240531/h/hishel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 16:56:44] INFO root fetch - processPackages [constellate]: Remove: archive file [/home/abi/fetcher/tmp/constellate-0.8.8.tar.gz]
+[2024-05-31 16:56:44] INFO root fetch - processPackages [constellate]: Remove: archive file [/home/abi/fetcher/tmp/constellate-0.8.9.tar.gz]
+[2024-05-31 16:56:44] INFO root fetch - main [MainThread]: End processing [constellate]: success
+[2024-05-31 16:56:44] INFO root fetch - processPackages [pharaoh-report]: Remove: archive file [/home/abi/fetcher/tmp/pharaoh_report-0.7.0.tar.gz]
+[2024-05-31 16:56:44] INFO root fetch - processPackages [pharaoh-report]: Remove: archive file [/home/abi/fetcher/tmp/pharaoh_report-0.7.1rc1.tar.gz]
+[2024-05-31 16:56:44] INFO root fetch - main [MainThread]: End processing [pharaoh-report]: success
+[2024-05-31 16:56:44] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.8.tar.gz]
+[2024-05-31 16:56:44] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.9.tar.gz]
+[2024-05-31 16:56:44] INFO root fetch - main [MainThread]: End processing [hishel]: success
+[2024-05-31 16:56:44] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-7.0a3.tar.gz]
+[2024-05-31 16:56:44] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-7.0a4.tar.gz]
+[2024-05-31 16:56:44] INFO root fetch - main [MainThread]: End processing [django-content-editor]: success
+[2024-05-31 16:56:44] INFO root fetch - processPackages [vac-aligner]: Remove: archive file [/home/abi/fetcher/tmp/vac_aligner-0.0.1.tar.gz]
+[2024-05-31 16:56:44] INFO root fetch - processPackages [vac-aligner]: Remove: archive file [/home/abi/fetcher/tmp/vac_aligner-0.0.2-py2.py3-none-any.whl.zip]
+[2024-05-31 16:56:44] INFO root fetch - main [MainThread]: End processing [vac-aligner]: success
+[2024-05-31 16:56:44] INFO root fetch - main [MainThread]: Store serial: [23467522]
