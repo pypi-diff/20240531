@@ -15483,3 +15483,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 12:40:09] INFO root fetch - processPackages [drisk-api]: Remove: archive file [/home/abi/fetcher/tmp/drisk_api-0.0.5-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-05-31 12:40:09] INFO root fetch - main [MainThread]: End processing [drisk-api]: success
 [2024-05-31 12:40:09] INFO root fetch - main [MainThread]: Store serial: [23464304]
+[2024-05-31 12:42:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464304]
+[2024-05-31 12:42:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 12:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hum
+[2024-05-31 12:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swh.objstorage
+[2024-05-31 12:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slap-cli
+[2024-05-31 12:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BarteSDK
+[2024-05-31 12:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepega
+[2024-05-31 12:42:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ok-script
+[2024-05-31 12:42:25] WARNING root fetch - processPackages [pepega]: Skipping, unable to determine old version
+[2024-05-31 12:42:25] INFO root fetch - main [MainThread]: End processing [pepega] error
+[2024-05-31 12:42:25] INFO root fetch - processPackages [BarteSDK]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 12:42:25] INFO root fetch - processPackages [slap-cli]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-05-31 12:42:26] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/cd/3d/0d9d8e2d128d6e432a2000363301cbf0965486389a66a3035b4fbb6342a2/BarteSDK-1.0.8.tar.gz
+[2024-05-31 12:42:26] INFO root fetch - processPackages [slap-cli]: Downloading https://files.pythonhosted.org/packages/c4/99/fb88f23aa376487fe3b5eb1f23d32a3a20596cd876e5e979eca9c7d106e9/slap_cli-1.9.7.tar.gz
+[2024-05-31 12:42:26] INFO root fetch - processPackages [hum]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 12:42:26] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 12:42:26] INFO root fetch - processPackages [swh.objstorage]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-05-31 12:42:26] INFO root fetch - processPackages [hum]: Downloading https://files.pythonhosted.org/packages/01/13/c55ea177e9a601a07aac880734f460938fa286625ac6b3d8e93fe2979f37/hum-0.1.8.tar.gz
+[2024-05-31 12:42:26] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-05-31 12:42:26] INFO root fetch - processPackages [swh.objstorage]: Downloading https://files.pythonhosted.org/packages/4d/d7/d00b6367c07c49c9f5676001e23dbefb7dd8efe590a3d419b84d85fcffe4/swh_objstorage-3.1.1.tar.gz
+[2024-05-31 12:42:26] INFO root fetch - processPackages [slap-cli]: Downloading https://files.pythonhosted.org/packages/46/01/c96d4c2ab438da45b6d7eaf4e4c410df0a5771789b03a4fc2ed42d9e9985/slap_cli-1.9.8.tar.gz
+[2024-05-31 12:42:26] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/c9/cc/3656c0ae24b9ba9d723c238d4d0b6ac94eff34a854991e6524e05780ffe1/BarteSDK-1.0.9.tar.gz
+[2024-05-31 12:42:26] INFO root fetch - processPackages [hum]: Downloading https://files.pythonhosted.org/packages/da/5e/1d5f826b76363381c16014d298d74b0fe9f14305bdb5d7776b470be429aa/hum-0.1.9.tar.gz
+[2024-05-31 12:42:26] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-05-31 12:42:26] INFO root fetch - processPackages [slap-cli]: executing diffoscope
+[2024-05-31 12:42:26] INFO root fetch - processPackages [slap-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slap_cli-1.9.7.tar.gz tmp/slap_cli-1.9.8.tar.gz --markdown 20240531/s/slap-cli/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-05-31 12:42:26] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-31 12:42:26] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BarteSDK-1.0.8.tar.gz tmp/BarteSDK-1.0.9.tar.gz --markdown 20240531/B/BarteSDK/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 12:42:26] INFO root fetch - processPackages [hum]: executing diffoscope
+[2024-05-31 12:42:26] INFO root fetch - processPackages [hum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hum-0.1.8.tar.gz tmp/hum-0.1.9.tar.gz --markdown 20240531/h/hum/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 12:42:26] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-05-31 12:42:26] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240531/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 12:42:26] INFO root fetch - processPackages [swh.objstorage]: Downloading https://files.pythonhosted.org/packages/e4/0a/2aa1c7c3ebb4f942633f0fa7cc8cf4a9eaf92f70836e4eb5206f255ee617/swh_objstorage-3.1.2.tar.gz
+[2024-05-31 12:42:26] INFO root fetch - processPackages [swh.objstorage]: executing diffoscope
+[2024-05-31 12:42:26] INFO root fetch - processPackages [swh.objstorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh_objstorage-3.1.1.tar.gz tmp/swh_objstorage-3.1.2.tar.gz --markdown 20240531/s/swh.objstorage/3.1.1-3.1.2/README.md --exclude *.pyd
+[2024-05-31 12:42:27] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-1.0.8.tar.gz]
+[2024-05-31 12:42:27] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/BarteSDK-1.0.9.tar.gz]
+[2024-05-31 12:42:27] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-31 12:42:27] INFO root fetch - processPackages [slap-cli]: Remove: archive file [/home/abi/fetcher/tmp/slap_cli-1.9.7.tar.gz]
+[2024-05-31 12:42:27] INFO root fetch - processPackages [slap-cli]: Remove: archive file [/home/abi/fetcher/tmp/slap_cli-1.9.8.tar.gz]
+[2024-05-31 12:42:27] INFO root fetch - main [MainThread]: End processing [slap-cli]: success
+[2024-05-31 12:42:27] INFO root fetch - processPackages [hum]: Remove: archive file [/home/abi/fetcher/tmp/hum-0.1.8.tar.gz]
+[2024-05-31 12:42:27] INFO root fetch - processPackages [hum]: Remove: archive file [/home/abi/fetcher/tmp/hum-0.1.9.tar.gz]
+[2024-05-31 12:42:27] INFO root fetch - main [MainThread]: End processing [hum]: success
+[2024-05-31 12:42:27] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-05-31 12:42:27] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-05-31 12:42:27] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-05-31 12:42:27] INFO root fetch - processPackages [swh.objstorage]: Remove: archive file [/home/abi/fetcher/tmp/swh_objstorage-3.1.1.tar.gz]
+[2024-05-31 12:42:27] INFO root fetch - processPackages [swh.objstorage]: Remove: archive file [/home/abi/fetcher/tmp/swh_objstorage-3.1.2.tar.gz]
+[2024-05-31 12:42:27] INFO root fetch - main [MainThread]: End processing [swh.objstorage]: success
+[2024-05-31 12:42:27] INFO root fetch - main [MainThread]: Store serial: [23464327]
