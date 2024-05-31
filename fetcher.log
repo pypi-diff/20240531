@@ -2959,3 +2959,67 @@
 [2024-05-31 02:15:37] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-31 02:15:37] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-31 02:15:37] INFO root fetch - main [MainThread]: Store serial: [23458665]
+[2024-05-31 02:17:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458665]
+[2024-05-31 02:17:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 02:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaeger
+[2024-05-31 02:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nomad-media-pip
+[2024-05-31 02:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-31 02:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edurpa-cloud
+[2024-05-31 02:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: embyclient
+[2024-05-31 02:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nomad-media-pip
+[2024-05-31 02:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.appsync-utils
+[2024-05-31 02:17:46] INFO root fetch - processPackages [edurpa-cloud]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-31 02:17:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-31 02:17:46] INFO root fetch - processPackages [nomad-media-pip]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 02:17:46] INFO root fetch - processPackages [nomad-media-pip]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 02:17:46] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 02:17:46] INFO root fetch - processPackages [embyclient]: New version: [4.8.8.0] Old Version: [4.8.7.0]
+[2024-05-31 02:17:46] INFO root fetch - processPackages [jaeger]: New version: [1.7.4] Old Version: [1.7.3]
+[2024-05-31 02:17:46] INFO root fetch - processPackages [edurpa-cloud]: Downloading https://files.pythonhosted.org/packages/51/05/ce16ff7b90a6ef92f8dcf0ddd22887634053b139340775158b3e6ee45d1a/edurpa_cloud-0.0.3-py3-none-any.whl
+[2024-05-31 02:17:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-31 02:17:46] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-31 02:17:46] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/89/17/9542f18838ecc3189b9eaaec4a7ccfe38f999660bb42c8092050b37835fd/nomad_media_pip-0.0.98.tar.gz
+[2024-05-31 02:17:46] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/89/17/9542f18838ecc3189b9eaaec4a7ccfe38f999660bb42c8092050b37835fd/nomad_media_pip-0.0.98.tar.gz
+[2024-05-31 02:17:46] INFO root fetch - processPackages [jaeger]: Downloading https://files.pythonhosted.org/packages/a9/d6/cd1dcabfa1057939fe95dcf43640085634f762fad9aa84f5a31c70b8bcc1/jaeger-1.7.3.tar.gz
+[2024-05-31 02:17:46] INFO root fetch - processPackages [embyclient]: Downloading https://files.pythonhosted.org/packages/c8/a6/2b9512e426e1dac29e67b2dc808d3c29ffd421aa5fc058aac82dd96bfffe/embyclient-4.8.7.0.tar.gz
+[2024-05-31 02:17:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-31 02:17:46] INFO root fetch - processPackages [edurpa-cloud]: Downloading https://files.pythonhosted.org/packages/d0/1a/fda71dce1babbb809803c54e21c46ef9c1bbd48837f099e066a277c6b6a4/edurpa_cloud-0.0.4-py3-none-any.whl
+[2024-05-31 02:17:46] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-31 02:17:46] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/2b/93/9572cd6061f7b751abb490b170eb8add5795cf245ede93c0b7d20b885a13/nomad_media_pip-0.0.99.tar.gz
+[2024-05-31 02:17:46] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/2b/93/9572cd6061f7b751abb490b170eb8add5795cf245ede93c0b7d20b885a13/nomad_media_pip-0.0.99.tar.gz
+[2024-05-31 02:17:46] INFO root fetch - processPackages [edurpa-cloud]: executing diffoscope
+[2024-05-31 02:17:46] INFO root fetch - processPackages [edurpa-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edurpa_cloud-0.0.3-py3-none-any.whl.zip tmp/edurpa_cloud-0.0.4-py3-none-any.whl.zip --markdown 20240531/e/edurpa-cloud/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-31 02:17:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-31 02:17:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240531/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-31 02:17:46] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-31 02:17:46] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240531/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 02:17:46] INFO root fetch - processPackages [jaeger]: Downloading https://files.pythonhosted.org/packages/66/e7/b08986c9e97134a4e72c7bd73a9c43d16325d0e02c0fc3fe4d03dac26fc5/jaeger-1.7.4.tar.gz
+[2024-05-31 02:17:46] INFO root fetch - processPackages [nomad-media-pip]: executing diffoscope
+[2024-05-31 02:17:46] INFO root fetch - processPackages [nomad-media-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_media_pip-0.0.98.tar.gz tmp/nomad_media_pip-0.0.99.tar.gz --markdown 20240531/n/nomad-media-pip/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 02:17:46] INFO root fetch - processPackages [nomad-media-pip]: executing diffoscope
+[2024-05-31 02:17:46] INFO root fetch - processPackages [nomad-media-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_media_pip-0.0.98.tar.gz tmp/nomad_media_pip-0.0.99.tar.gz --markdown 20240531/n/nomad-media-pip/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 02:17:47] INFO root fetch - processPackages [embyclient]: Downloading https://files.pythonhosted.org/packages/cd/2e/5032c2cb008107b4b03f33f8fb77c20c8986859b127c891be9171023b7eb/embyclient-4.8.8.0.tar.gz
+[2024-05-31 02:17:47] INFO root fetch - processPackages [jaeger]: executing diffoscope
+[2024-05-31 02:17:47] INFO root fetch - processPackages [jaeger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaeger-1.7.3.tar.gz tmp/jaeger-1.7.4.tar.gz --markdown 20240531/j/jaeger/1.7.3-1.7.4/README.md --exclude *.pyd
+[2024-05-31 02:17:47] INFO root fetch - processPackages [embyclient]: executing diffoscope
+[2024-05-31 02:17:47] INFO root fetch - processPackages [embyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embyclient-4.8.7.0.tar.gz tmp/embyclient-4.8.8.0.tar.gz --markdown 20240531/e/embyclient/4.8.7.0-4.8.8.0/README.md --exclude *.pyd
+[2024-05-31 02:17:47] INFO root fetch - processPackages [edurpa-cloud]: Remove: archive file [/home/abi/fetcher/tmp/edurpa_cloud-0.0.3-py3-none-any.whl.zip]
+[2024-05-31 02:17:47] INFO root fetch - processPackages [edurpa-cloud]: Remove: archive file [/home/abi/fetcher/tmp/edurpa_cloud-0.0.4-py3-none-any.whl.zip]
+[2024-05-31 02:17:47] INFO root fetch - main [MainThread]: End processing [edurpa-cloud]: success
+[2024-05-31 02:17:47] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-31 02:17:47] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-31 02:17:47] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-31 02:17:47] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-31 02:17:47] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-31 02:17:47] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-31 02:17:48] INFO root fetch - processPackages [jaeger]: Remove: archive file [/home/abi/fetcher/tmp/jaeger-1.7.3.tar.gz]
+[2024-05-31 02:17:48] INFO root fetch - processPackages [jaeger]: Remove: archive file [/home/abi/fetcher/tmp/jaeger-1.7.4.tar.gz]
+[2024-05-31 02:17:48] INFO root fetch - main [MainThread]: End processing [jaeger]: success
+[2024-05-31 02:17:48] INFO root fetch - processPackages [embyclient]: Remove: archive file [/home/abi/fetcher/tmp/embyclient-4.8.7.0.tar.gz]
+[2024-05-31 02:17:48] INFO root fetch - processPackages [embyclient]: Remove: archive file [/home/abi/fetcher/tmp/embyclient-4.8.8.0.tar.gz]
+[2024-05-31 02:17:48] INFO root fetch - main [MainThread]: End processing [embyclient]: success
+[2024-05-31 02:17:50] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.98.tar.gz]
+[2024-05-31 02:17:50] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
+[2024-05-31 02:17:50] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
+[2024-05-31 02:17:50] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
+[2024-05-31 02:17:50] INFO root fetch - main [MainThread]: Store serial: [23458687]
