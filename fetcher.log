@@ -22629,3 +22629,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:58:58] INFO root fetch - processPackages [tasksource]: Remove: archive file [/home/abi/fetcher/tmp/tasksource-0.0.9.tar.gz]
 [2024-05-31 16:58:58] INFO root fetch - main [MainThread]: End processing [tasksource]: success
 [2024-05-31 16:58:58] INFO root fetch - main [MainThread]: Store serial: [23467559]
+[2024-05-31 17:01:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467559]
+[2024-05-31 17:01:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 17:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lb-database
+[2024-05-31 17:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chess-transformer
+[2024-05-31 17:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composabl-cli-dev
+[2024-05-31 17:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systembridgedata
+[2024-05-31 17:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: saf-datasets
+[2024-05-31 17:01:08] INFO root fetch - processPackages [systembridgedata]: New version: [5.0.0.dev3] Old Version: [5.0.0.dev2]
+[2024-05-31 17:01:08] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 17:01:08] INFO root fetch - processPackages [lb-database]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-31 17:01:08] INFO root fetch - processPackages [systembridgedata]: Downloading https://files.pythonhosted.org/packages/b1/c7/fcfde38d0822a49d5c5f1f2b6b6db02a9b10095f76bf71ecabab07f4bb9f/systembridgedata-5.0.0.dev2.tar.gz
+[2024-05-31 17:01:08] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/17/9a/4eaffd0a6a3b549dde852c3725d047241701c2bfbd76111bc2bccccb0658/chess_transformer-0.1.8.tar.gz
+[2024-05-31 17:01:08] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.9.0.dev1] Old Version: [0.8.0.dev98]
+[2024-05-31 17:01:08] INFO root fetch - processPackages [saf-datasets]: New version: [0.6.8] Old Version: [0.6.6]
+[2024-05-31 17:01:08] INFO root fetch - processPackages [lb-database]: Downloading https://files.pythonhosted.org/packages/a2/a1/95ab40f4f556f8ea7bc2e0c8eb0061a2c05dfcf6413f10f619f71772776e/lb_database-1.1.4.tar.gz
+[2024-05-31 17:01:08] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/ee/65/ac93cfdac6866e37c13a65533e65710bf7f19f73880bfb7a9eaeb907f8e0/chess_transformer-0.1.9.tar.gz
+[2024-05-31 17:01:08] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/bb/b0/4da79ff7ddd189d9b21a561a055622eb01188dd08534f44f211e109fc307/composabl_cli_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 17:01:08] INFO root fetch - processPackages [saf-datasets]: Downloading https://files.pythonhosted.org/packages/89/63/a0e75dab60e299a609d263a6208d6d3306d2ef61d1daedeff833e0bcfa61/saf_datasets-0.6.6.tar.gz
+[2024-05-31 17:01:08] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-31 17:01:08] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.8.tar.gz tmp/chess_transformer-0.1.9.tar.gz --markdown 20240531/c/chess-transformer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 17:01:08] INFO root fetch - processPackages [systembridgedata]: Downloading https://files.pythonhosted.org/packages/5a/b5/187ae8c741351e0e646faa3f4ffc15900caa063a4572c36f4b994c241175/systembridgedata-5.0.0.dev3.tar.gz
+[2024-05-31 17:01:08] INFO root fetch - processPackages [lb-database]: Downloading https://files.pythonhosted.org/packages/fa/b2/ec3c8f051495cafaa26966ddb8cd2d646157e4e972530e2dd2bc8e303d1c/lb_database-1.1.5.tar.gz
+[2024-05-31 17:01:08] INFO root fetch - processPackages [systembridgedata]: executing diffoscope
+[2024-05-31 17:01:08] INFO root fetch - processPackages [systembridgedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgedata-5.0.0.dev2.tar.gz tmp/systembridgedata-5.0.0.dev3.tar.gz --markdown 20240531/s/systembridgedata/5.0.0.dev2-5.0.0.dev3/README.md --exclude *.pyd
+[2024-05-31 17:01:08] INFO root fetch - processPackages [lb-database]: executing diffoscope
+[2024-05-31 17:01:08] INFO root fetch - processPackages [lb-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lb_database-1.1.4.tar.gz tmp/lb_database-1.1.5.tar.gz --markdown 20240531/l/lb-database/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-31 17:01:08] INFO root fetch - processPackages [saf-datasets]: Downloading https://files.pythonhosted.org/packages/c3/3e/4170a7e42d51bce0705ff72040013ebc21dfd36c30aa165d2efd5be5f82d/saf_datasets-0.6.8.tar.gz
+[2024-05-31 17:01:09] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.8.tar.gz]
+[2024-05-31 17:01:09] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.9.tar.gz]
+[2024-05-31 17:01:09] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-31 17:01:09] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/fd/84/8fbc2a16e03163f198e9c4620aef3cb2b262c4d6780bbdbf3951fee390e7/composabl_cli_dev-0.9.0.dev1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 17:01:09] INFO root fetch - processPackages [systembridgedata]: Remove: archive file [/home/abi/fetcher/tmp/systembridgedata-5.0.0.dev2.tar.gz]
+[2024-05-31 17:01:09] INFO root fetch - processPackages [systembridgedata]: Remove: archive file [/home/abi/fetcher/tmp/systembridgedata-5.0.0.dev3.tar.gz]
+[2024-05-31 17:01:09] INFO root fetch - main [MainThread]: End processing [systembridgedata]: success
+[2024-05-31 17:01:09] INFO root fetch - processPackages [lb-database]: Remove: archive file [/home/abi/fetcher/tmp/lb_database-1.1.4.tar.gz]
+[2024-05-31 17:01:09] INFO root fetch - processPackages [lb-database]: Remove: archive file [/home/abi/fetcher/tmp/lb_database-1.1.5.tar.gz]
+[2024-05-31 17:01:09] INFO root fetch - main [MainThread]: End processing [lb-database]: success
+[2024-05-31 17:01:09] INFO root fetch - processPackages [saf-datasets]: executing diffoscope
+[2024-05-31 17:01:09] INFO root fetch - processPackages [saf-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saf_datasets-0.6.6.tar.gz tmp/saf_datasets-0.6.8.tar.gz --markdown 20240531/s/saf-datasets/0.6.6-0.6.8/README.md --exclude *.pyd
+[2024-05-31 17:01:09] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-05-31 17:01:09] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.9.0.dev1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240531/c/composabl-cli-dev/0.8.0.dev98-0.9.0.dev1/README.md --exclude *.pyd
+[2024-05-31 17:01:09] INFO root fetch - processPackages [saf-datasets]: Remove: archive file [/home/abi/fetcher/tmp/saf_datasets-0.6.6.tar.gz]
+[2024-05-31 17:01:09] INFO root fetch - processPackages [saf-datasets]: Remove: archive file [/home/abi/fetcher/tmp/saf_datasets-0.6.8.tar.gz]
+[2024-05-31 17:01:09] INFO root fetch - main [MainThread]: End processing [saf-datasets]: success
+[2024-05-31 17:01:16] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 17:01:16] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.9.0.dev1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 17:01:16] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-05-31 17:01:16] INFO root fetch - main [MainThread]: Store serial: [23467596]
