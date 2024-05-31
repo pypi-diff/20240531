@@ -6743,3 +6743,33 @@
 [2024-05-31 06:01:23] INFO root fetch - processPackages [wei-office-simptool]: Remove: archive file [/home/abi/fetcher/tmp/wei_office_simptool-0.0.9.tar.gz]
 [2024-05-31 06:01:23] INFO root fetch - main [MainThread]: End processing [wei-office-simptool]: success
 [2024-05-31 06:01:23] INFO root fetch - main [MainThread]: Store serial: [23460263]
+[2024-05-31 06:03:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460263]
+[2024-05-31 06:03:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 06:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: urllib3-future
+[2024-05-31 06:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fleet-vehicle-inspection
+[2024-05-31 06:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tuyul-sdk
+[2024-05-31 06:03:31] INFO root fetch - processPackages [tuyul-sdk]: New version: [0.0.1rc6] Old Version: [0.0.1rc5]
+[2024-05-31 06:03:31] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/93/dc/2439e89a1ca107f67b306e993d8a35774b4d8c9d37473e5bcaf6c5687ba6/tuyul_sdk-0.0.1rc5.tar.gz
+[2024-05-31 06:03:31] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2024-05-31 06:03:31] INFO root fetch - processPackages [urllib3-future]: New version: [2.7.913] Old Version: [2.7.912]
+[2024-05-31 06:03:32] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Downloading https://files.pythonhosted.org/packages/24/90/d4c2213757b6ee1b28cb38a4e6d3a9843cd0cf887af02a18e1c293b432ea/odoo_addon_fleet_vehicle_inspection-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-31 06:03:32] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/98/29/53c24e44323ea671de0bb108a3aa42cd18e15c6212821c2ee516ad31b6ca/urllib3_future-2.7.912.tar.gz
+[2024-05-31 06:03:32] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/27/94/8bd56a6baac41e61da431e9d0825e0fdff37602dd24f008d5bcc9399aa36/tuyul_sdk-0.0.1rc6.tar.gz
+[2024-05-31 06:03:32] INFO root fetch - processPackages [tuyul-sdk]: executing diffoscope
+[2024-05-31 06:03:32] INFO root fetch - processPackages [tuyul-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuyul_sdk-0.0.1rc5.tar.gz tmp/tuyul_sdk-0.0.1rc6.tar.gz --markdown 20240531/t/tuyul-sdk/0.0.1rc5-0.0.1rc6/README.md --exclude *.pyd
+[2024-05-31 06:03:32] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Downloading https://files.pythonhosted.org/packages/ae/84/c6d369d519b47c7f318ce89c445f97fbbcae5bf1f71d70aae2fdb80554d1/odoo_addon_fleet_vehicle_inspection-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-31 06:03:32] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/f5/03/bbd32e969f9dc7b97cb04ed6b654a4f027ab911b5fc5400401d33a9999a5/urllib3_future-2.7.913.tar.gz
+[2024-05-31 06:03:32] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: executing diffoscope
+[2024-05-31 06:03:32] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fleet_vehicle_inspection-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_fleet_vehicle_inspection-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-fleet-vehicle-inspection/16.0.1.0.0.6-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-31 06:03:32] INFO root fetch - processPackages [urllib3-future]: executing diffoscope
+[2024-05-31 06:03:32] INFO root fetch - processPackages [urllib3-future]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_future-2.7.912.tar.gz tmp/urllib3_future-2.7.913.tar.gz --markdown 20240531/u/urllib3-future/2.7.912-2.7.913/README.md --exclude *.pyd
+[2024-05-31 06:03:32] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.0.1rc5.tar.gz]
+[2024-05-31 06:03:32] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.0.1rc6.tar.gz]
+[2024-05-31 06:03:32] INFO root fetch - main [MainThread]: End processing [tuyul-sdk]: success
+[2024-05-31 06:03:33] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fleet_vehicle_inspection-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-31 06:03:33] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fleet_vehicle_inspection-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-31 06:03:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-inspection]: success
+[2024-05-31 06:03:34] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.912.tar.gz]
+[2024-05-31 06:03:34] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.913.tar.gz]
+[2024-05-31 06:03:34] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
+[2024-05-31 06:03:34] INFO root fetch - main [MainThread]: Store serial: [23460274]
