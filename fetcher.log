@@ -18732,3 +18732,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:41:42] INFO root fetch - processPackages [pulumi-meraki]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_meraki-0.2.1.tar.gz]
 [2024-05-31 14:41:42] INFO root fetch - main [MainThread]: End processing [pulumi-meraki]: success
 [2024-05-31 14:41:42] INFO root fetch - main [MainThread]: Store serial: [23465706]
+[2024-05-31 14:43:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465706]
+[2024-05-31 14:43:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 14:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: punchboot
+[2024-05-31 14:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edm-arch
+[2024-05-31 14:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-llm
+[2024-05-31 14:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: piccolo-admin
+[2024-05-31 14:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fds.sdk.EventsandTranscripts
+[2024-05-31 14:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tickterial
+[2024-05-31 14:43:51] INFO root fetch - processPackages [edm-arch]: New version: [1.0.43] Old Version: [1.0.42]
+[2024-05-31 14:43:51] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240530] Old Version: [2.5.0b20240529]
+[2024-05-31 14:43:51] INFO root fetch - processPackages [piccolo-admin]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-31 14:43:51] INFO root fetch - processPackages [tickterial]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-31 14:43:51] INFO root fetch - processPackages [fds.sdk.EventsandTranscripts]: New version: [0.21.0] Old Version: [0.20.1]
+[2024-05-31 14:43:51] INFO root fetch - processPackages [punchboot]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-31 14:43:51] INFO root fetch - processPackages [edm-arch]: Downloading https://files.pythonhosted.org/packages/c8/8d/254954a5256874aec054815c3d96a44e2da445a8c811fd45c0969f81bb66/edm_arch-1.0.42.tar.gz
+[2024-05-31 14:43:51] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/62/76/bae6751de445c8c0bffae6b4049899bfd6cedc7e7a5dd9b19b37791f9788/bigdl_llm-2.5.0b20240529-py3-none-win_amd64.whl
+[2024-05-31 14:43:51] INFO root fetch - processPackages [piccolo-admin]: Downloading https://files.pythonhosted.org/packages/35/cb/69c19e72c53f2471e87812d4c003edf699a126dde0942e23dea8d44b044f/piccolo_admin-1.3.2.tar.gz
+[2024-05-31 14:43:52] INFO root fetch - processPackages [punchboot]: Downloading https://files.pythonhosted.org/packages/28/c4/ee13c103a7e11950c76af59d0773550af07eab642d5da7cb5d78752dcfcf/punchboot-2.0.0.tar.gz
+[2024-05-31 14:43:52] INFO root fetch - processPackages [tickterial]: Downloading https://files.pythonhosted.org/packages/d4/93/07fd63c44163148ef737840aa62f7e7161cf0ab78c184cae4472e807d77e/tickterial-1.1.0.tar.gz
+[2024-05-31 14:43:52] INFO root fetch - processPackages [fds.sdk.EventsandTranscripts]: Downloading https://files.pythonhosted.org/packages/bc/99/aac5dec5701109030b71ef57045ba2ca27ca5a691c7262555a42af05cfff/fds.sdk.EventsandTranscripts-0.20.1-py3-none-any.whl
+[2024-05-31 14:43:52] INFO root fetch - processPackages [edm-arch]: Downloading https://files.pythonhosted.org/packages/a9/f3/5a2cb989de3a620ea6cd360f5101fbc3116793f1abc3e1a58722b4ac04a6/edm_arch-1.0.43.tar.gz
+[2024-05-31 14:43:52] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/b5/97/6c1adac2b269251c557333d2f0526cda7b82c306374f4fa40fc76cfd5e8b/bigdl_llm-2.5.0b20240530-py3-none-win_amd64.whl
+[2024-05-31 14:43:52] INFO root fetch - processPackages [edm-arch]: executing diffoscope
+[2024-05-31 14:43:52] INFO root fetch - processPackages [edm-arch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edm_arch-1.0.42.tar.gz tmp/edm_arch-1.0.43.tar.gz --markdown 20240531/e/edm-arch/1.0.42-1.0.43/README.md --exclude *.pyd
+[2024-05-31 14:43:52] INFO root fetch - processPackages [punchboot]: Downloading https://files.pythonhosted.org/packages/7b/1e/585f9467d37f7fa608198c77b45f7c53961053aa95baf493cb0cf2370390/punchboot-2.1.0-cp39-cp39-macosx_10_9_x86_64.whl
+[2024-05-31 14:43:52] INFO root fetch - processPackages [fds.sdk.EventsandTranscripts]: Downloading https://files.pythonhosted.org/packages/97/65/43b44a826220e92ecf354f17322bee55673f1462395be2b226514e871acd/fds.sdk.EventsandTranscripts-0.21.0-py3-none-any.whl
+[2024-05-31 14:43:52] INFO root fetch - processPackages [piccolo-admin]: Downloading https://files.pythonhosted.org/packages/62/31/25315a9b017c9f84aec0d4f14084411f921772ab5bb164757de72e4d58b7/piccolo_admin-1.3.3.tar.gz
+[2024-05-31 14:43:52] INFO root fetch - processPackages [tickterial]: Downloading https://files.pythonhosted.org/packages/d8/81/c2a7aac711ec3b473e13388445eed551f7846fc6ce5a3c41d7c328c57d49/tickterial-1.1.1.tar.gz
+[2024-05-31 14:43:52] INFO root fetch - processPackages [tickterial]: executing diffoscope
+[2024-05-31 14:43:52] INFO root fetch - processPackages [tickterial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tickterial-1.1.0.tar.gz tmp/tickterial-1.1.1.tar.gz --markdown 20240531/t/tickterial/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-31 14:43:52] INFO root fetch - processPackages [piccolo-admin]: executing diffoscope
+[2024-05-31 14:43:52] INFO root fetch - processPackages [piccolo-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piccolo_admin-1.3.2.tar.gz tmp/piccolo_admin-1.3.3.tar.gz --markdown 20240531/p/piccolo-admin/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-31 14:43:52] INFO root fetch - processPackages [punchboot]: executing diffoscope
+[2024-05-31 14:43:52] INFO root fetch - processPackages [punchboot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punchboot-2.0.0.tar.gz tmp/punchboot-2.1.0-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20240531/p/punchboot/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-31 14:43:52] INFO root fetch - processPackages [fds.sdk.EventsandTranscripts]: executing diffoscope
+[2024-05-31 14:43:52] INFO root fetch - processPackages [fds.sdk.EventsandTranscripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.EventsandTranscripts-0.20.1-py3-none-any.whl.zip tmp/fds.sdk.EventsandTranscripts-0.21.0-py3-none-any.whl.zip --markdown 20240531/f/fds.sdk.EventsandTranscripts/0.20.1-0.21.0/README.md --exclude *.pyd
+[2024-05-31 14:43:52] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-31 14:43:52] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240529-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240530-py3-none-win_amd64.whl.zip --markdown 20240531/b/bigdl-llm/2.5.0b20240529-2.5.0b20240530/README.md --exclude *.pyd
+[2024-05-31 14:43:53] INFO root fetch - processPackages [edm-arch]: Remove: archive file [/home/abi/fetcher/tmp/edm_arch-1.0.42.tar.gz]
+[2024-05-31 14:43:53] INFO root fetch - processPackages [edm-arch]: Remove: archive file [/home/abi/fetcher/tmp/edm_arch-1.0.43.tar.gz]
+[2024-05-31 14:43:53] INFO root fetch - main [MainThread]: End processing [edm-arch]: success
+[2024-05-31 14:43:53] INFO root fetch - processPackages [tickterial]: Remove: archive file [/home/abi/fetcher/tmp/tickterial-1.1.0.tar.gz]
+[2024-05-31 14:43:53] INFO root fetch - processPackages [tickterial]: Remove: archive file [/home/abi/fetcher/tmp/tickterial-1.1.1.tar.gz]
+[2024-05-31 14:43:53] INFO root fetch - main [MainThread]: End processing [tickterial]: success
+[2024-05-31 14:43:53] INFO root fetch - processPackages [punchboot]: Remove: archive file [/home/abi/fetcher/tmp/punchboot-2.0.0.tar.gz]
+[2024-05-31 14:43:53] INFO root fetch - processPackages [punchboot]: Remove: archive file [/home/abi/fetcher/tmp/punchboot-2.1.0-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2024-05-31 14:43:53] INFO root fetch - main [MainThread]: End processing [punchboot]: success
+[2024-05-31 14:43:53] INFO root fetch - processPackages [fds.sdk.EventsandTranscripts]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.EventsandTranscripts-0.20.1-py3-none-any.whl.zip]
+[2024-05-31 14:43:53] INFO root fetch - processPackages [fds.sdk.EventsandTranscripts]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.EventsandTranscripts-0.21.0-py3-none-any.whl.zip]
+[2024-05-31 14:43:53] INFO root fetch - main [MainThread]: End processing [fds.sdk.EventsandTranscripts]: success
+[2024-05-31 14:43:54] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240529-py3-none-win_amd64.whl.zip]
+[2024-05-31 14:43:54] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240530-py3-none-win_amd64.whl.zip]
+[2024-05-31 14:43:54] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-31 14:44:00] INFO root fetch - processPackages [piccolo-admin]: Remove: archive file [/home/abi/fetcher/tmp/piccolo_admin-1.3.2.tar.gz]
+[2024-05-31 14:44:00] INFO root fetch - processPackages [piccolo-admin]: Remove: archive file [/home/abi/fetcher/tmp/piccolo_admin-1.3.3.tar.gz]
+[2024-05-31 14:44:00] INFO root fetch - main [MainThread]: End processing [piccolo-admin]: success
+[2024-05-31 14:44:00] INFO root fetch - main [MainThread]: Store serial: [23465742]
