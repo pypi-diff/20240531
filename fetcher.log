@@ -11674,3 +11674,89 @@
 [2024-05-31 10:11:32] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
 [2024-05-31 10:11:32] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2024-05-31 10:11:32] INFO root fetch - main [MainThread]: Store serial: [23462552]
+[2024-05-31 10:13:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462552]
+[2024-05-31 10:13:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-fnc
+[2024-05-31 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voxelworldapi
+[2024-05-31 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: turing-planet
+[2024-05-31 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diffoscope
+[2024-05-31 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inflatox
+[2024-05-31 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-pictures
+[2024-05-31 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: librds
+[2024-05-31 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyTransit
+[2024-05-31 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-grpc-read-db
+[2024-05-31 10:13:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: figaro
+[2024-05-31 10:13:41] INFO root fetch - processPackages [turing-planet]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 10:13:41] INFO root fetch - processPackages [easy-fnc]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 10:13:41] INFO root fetch - processPackages [figaro]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-05-31 10:13:41] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.9rc1] Old Version: [0.0.9.dev9127420636]
+[2024-05-31 10:13:41] WARNING root fetch - processPackages [voxelworldapi]: Skipping, unable to determine old version
+[2024-05-31 10:13:41] INFO root fetch - processPackages [voxelworldapi]: Start processing: youqu-dogtail
+[2024-05-31 10:13:41] INFO root fetch - main [MainThread]: End processing [voxelworldapi] error
+[2024-05-31 10:13:41] INFO root fetch - processPackages [turing-planet]: Downloading https://files.pythonhosted.org/packages/94/c6/d433403a01748b97ee6d216df3e4145cc79d62b015c7993e2e46a424a94e/turing-planet-0.1.1.tar.gz
+[2024-05-31 10:13:41] INFO root fetch - processPackages [inflatox]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-31 10:13:41] INFO root fetch - processPackages [librds]: New version: [1.46] Old Version: [1.45]
+[2024-05-31 10:13:41] INFO root fetch - processPackages [django-pictures]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-31 10:13:41] INFO root fetch - processPackages [PyTransit]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-05-31 10:13:41] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/2f/35/b0220fd82f384c3eae7ddb2c3fa8f62ed2c8020ca1c427249576b359ec8a/figaro-1.6.8.tar.gz
+[2024-05-31 10:13:41] INFO root fetch - processPackages [diffoscope]: New version: [99] Old Version: [98]
+[2024-05-31 10:13:41] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/09/a4/a78d7a3f7916a7d0586869da82550a74b8527b42c6e64bd96fd3cd1ecb35/th2_grpc_read_db-0.0.9.dev9127420636.tar.gz
+[2024-05-31 10:13:41] WARNING root fetch - processPackages [youqu-dogtail]: Skipping, unable to determine old version
+[2024-05-31 10:13:41] INFO root fetch - main [MainThread]: End processing [youqu-dogtail] error
+[2024-05-31 10:13:41] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/8e/4d/9744ed49ec44d24ec56d4e3dec6833c11f977f40a41224e3678a26c114f9/easy_fnc-0.1.1.tar.gz
+[2024-05-31 10:13:41] INFO root fetch - processPackages [inflatox]: Downloading https://files.pythonhosted.org/packages/ae/33/ae076b2074fa6b3eb563dcf134738bbb7952fba74e1718c1431d5ef1a8de/inflatox-0.8.0-cp37-abi3-win_amd64.whl
+[2024-05-31 10:13:41] INFO root fetch - processPackages [librds]: Downloading https://files.pythonhosted.org/packages/7e/8f/70bfe3374bf610fd48c17c43858d4096c7c194d00c99877466302b1ecbe0/librds-1.45.tar.gz
+[2024-05-31 10:13:41] INFO root fetch - processPackages [PyTransit]: Downloading https://files.pythonhosted.org/packages/05/3e/7bba6bdf9df7d2f4acb6f68bddbc29f3611694711655f29599c8124fe3e9/pytransit-2.6.4.tar.gz
+[2024-05-31 10:13:41] INFO root fetch - processPackages [django-pictures]: Downloading https://files.pythonhosted.org/packages/4a/76/565926486cd7a80675c720e93264dc83dc25bb2c269cb686a61f0afdcf81/django_pictures-1.3.0.tar.gz
+[2024-05-31 10:13:41] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/3a/3e/308a04b435a6c8c9956656b7f2a66d6ed38d5972df453d70202834c4ff43/diffoscope-98.tar.gz
+[2024-05-31 10:13:42] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/a0/bd/c35ed7f4a1663e55187839b85dbae6beddb4258813a2af293cd2d0c53bea/th2_grpc_read_db-0.0.9rc1.tar.gz
+[2024-05-31 10:13:42] WARNING root fetch - processPackages [PyTransit]: Skipping package: exceeds size limit 10706692>=10485760
+[2024-05-31 10:13:42] INFO root fetch - main [MainThread]: End processing [PyTransit] error
+[2024-05-31 10:13:42] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/78/b2/658b6f454fb1f3fb00eea244b8e9c07328b4562672e1305103e2c0ce82ee/figaro-1.6.9.tar.gz
+[2024-05-31 10:13:42] INFO root fetch - processPackages [turing-planet]: Downloading https://files.pythonhosted.org/packages/ac/7a/a50d4333699bee7cc7cff79258afeacce6ddd1bdc59d2390959843e2fd4f/turing-planet-0.1.2.tar.gz
+[2024-05-31 10:13:42] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-05-31 10:13:42] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.9.dev9127420636.tar.gz tmp/th2_grpc_read_db-0.0.9rc1.tar.gz --markdown 20240531/t/th2-grpc-read-db/0.0.9.dev9127420636-0.0.9rc1/README.md --exclude *.pyd
+[2024-05-31 10:13:42] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/0a/e3/156671a225425316e9e73afed9cd0f47cd92e70e60c2fc10b2bb10f603f6/easy_fnc-0.1.2.tar.gz
+[2024-05-31 10:13:42] INFO root fetch - processPackages [figaro]: executing diffoscope
+[2024-05-31 10:13:42] INFO root fetch - processPackages [figaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/figaro-1.6.8.tar.gz tmp/figaro-1.6.9.tar.gz --markdown 20240531/f/figaro/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-05-31 10:13:42] INFO root fetch - processPackages [turing-planet]: executing diffoscope
+[2024-05-31 10:13:42] INFO root fetch - processPackages [turing-planet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turing-planet-0.1.1.tar.gz tmp/turing-planet-0.1.2.tar.gz --markdown 20240531/t/turing-planet/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 10:13:42] INFO root fetch - processPackages [librds]: Downloading https://files.pythonhosted.org/packages/2c/cc/6a49cda3ef0a4f8fbafc1649edfe2719cdeb937174274356b1a573c09b60/librds-1.46-py3-none-any.whl
+[2024-05-31 10:13:42] INFO root fetch - processPackages [easy-fnc]: executing diffoscope
+[2024-05-31 10:13:42] INFO root fetch - processPackages [easy-fnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_fnc-0.1.1.tar.gz tmp/easy_fnc-0.1.2.tar.gz --markdown 20240531/e/easy-fnc/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 10:13:42] INFO root fetch - processPackages [django-pictures]: Downloading https://files.pythonhosted.org/packages/0e/6f/2d26f8be028acca880d07f4830cd2314d5c24724479041bfc29ec5eab035/django_pictures-1.3.1.tar.gz
+[2024-05-31 10:13:42] INFO root fetch - processPackages [inflatox]: Downloading https://files.pythonhosted.org/packages/ce/66/b140104ae60d73112e99668e62674a5011b608dfcbe9e94a316917243e28/inflatox-0.8.1-cp37-abi3-win32.whl
+[2024-05-31 10:13:42] INFO root fetch - processPackages [django-pictures]: executing diffoscope
+[2024-05-31 10:13:42] INFO root fetch - processPackages [django-pictures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pictures-1.3.0.tar.gz tmp/django_pictures-1.3.1.tar.gz --markdown 20240531/d/django-pictures/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-31 10:13:42] INFO root fetch - processPackages [librds]: executing diffoscope
+[2024-05-31 10:13:42] INFO root fetch - processPackages [librds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librds-1.45.tar.gz tmp/librds-1.46-py3-none-any.whl.zip --markdown 20240531/l/librds/1.45-1.46/README.md --exclude *.pyd
+[2024-05-31 10:13:42] INFO root fetch - processPackages [inflatox]: executing diffoscope
+[2024-05-31 10:13:42] INFO root fetch - processPackages [inflatox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inflatox-0.8.0-cp37-abi3-win_amd64.whl.zip tmp/inflatox-0.8.1-cp37-abi3-win32.whl.zip --markdown 20240531/i/inflatox/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-31 10:13:42] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.9.dev9127420636.tar.gz]
+[2024-05-31 10:13:42] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.9rc1.tar.gz]
+[2024-05-31 10:13:42] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-05-31 10:13:42] INFO root fetch - processPackages [easy-fnc]: Remove: archive file [/home/abi/fetcher/tmp/easy_fnc-0.1.1.tar.gz]
+[2024-05-31 10:13:42] INFO root fetch - processPackages [easy-fnc]: Remove: archive file [/home/abi/fetcher/tmp/easy_fnc-0.1.2.tar.gz]
+[2024-05-31 10:13:42] INFO root fetch - main [MainThread]: End processing [easy-fnc]: success
+[2024-05-31 10:13:43] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.8.tar.gz]
+[2024-05-31 10:13:43] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.9.tar.gz]
+[2024-05-31 10:13:43] INFO root fetch - main [MainThread]: End processing [figaro]: success
+[2024-05-31 10:13:43] INFO root fetch - processPackages [librds]: Remove: archive file [/home/abi/fetcher/tmp/librds-1.45.tar.gz]
+[2024-05-31 10:13:43] INFO root fetch - processPackages [librds]: Remove: archive file [/home/abi/fetcher/tmp/librds-1.46-py3-none-any.whl.zip]
+[2024-05-31 10:13:43] INFO root fetch - main [MainThread]: End processing [librds]: success
+[2024-05-31 10:13:43] INFO root fetch - processPackages [inflatox]: Remove: archive file [/home/abi/fetcher/tmp/inflatox-0.8.0-cp37-abi3-win_amd64.whl.zip]
+[2024-05-31 10:13:43] INFO root fetch - processPackages [inflatox]: Remove: archive file [/home/abi/fetcher/tmp/inflatox-0.8.1-cp37-abi3-win32.whl.zip]
+[2024-05-31 10:13:43] INFO root fetch - main [MainThread]: End processing [inflatox]: success
+[2024-05-31 10:13:43] INFO root fetch - processPackages [django-pictures]: Remove: archive file [/home/abi/fetcher/tmp/django_pictures-1.3.0.tar.gz]
+[2024-05-31 10:13:43] INFO root fetch - processPackages [django-pictures]: Remove: archive file [/home/abi/fetcher/tmp/django_pictures-1.3.1.tar.gz]
+[2024-05-31 10:13:43] INFO root fetch - main [MainThread]: End processing [django-pictures]: success
+[2024-05-31 10:13:43] INFO root fetch - processPackages [turing-planet]: Remove: archive file [/home/abi/fetcher/tmp/turing-planet-0.1.1.tar.gz]
+[2024-05-31 10:13:43] INFO root fetch - processPackages [turing-planet]: Remove: archive file [/home/abi/fetcher/tmp/turing-planet-0.1.2.tar.gz]
+[2024-05-31 10:13:43] INFO root fetch - main [MainThread]: End processing [turing-planet]: success
+[2024-05-31 10:13:43] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/8d/e7/b8881e47097497471c7112ef2abc4328496f66e5c91772837ef365f39dc1/diffoscope-99.tar.gz
+[2024-05-31 10:13:47] INFO root fetch - processPackages [diffoscope]: executing diffoscope
+[2024-05-31 10:13:47] INFO root fetch - processPackages [diffoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffoscope-98.tar.gz tmp/diffoscope-99.tar.gz --markdown 20240531/d/diffoscope/98-99/README.md --exclude *.pyd
+[2024-05-31 10:13:49] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-98.tar.gz]
+[2024-05-31 10:13:49] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
+[2024-05-31 10:13:49] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
+[2024-05-31 10:13:49] INFO root fetch - main [MainThread]: Store serial: [23462587]
