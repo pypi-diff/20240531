@@ -24125,3 +24125,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:44:22] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a3.tar.gz]
 [2024-05-31 17:44:22] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2024-05-31 17:44:22] INFO root fetch - main [MainThread]: Store serial: [23468212]
+[2024-05-31 17:46:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23468212]
+[2024-05-31 17:46:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 17:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqcm
+[2024-05-31 17:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: instructlab
+[2024-05-31 17:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vac-aligner
+[2024-05-31 17:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecodev-core
+[2024-05-31 17:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: askchat
+[2024-05-31 17:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chefshatgym
+[2024-05-31 17:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pioreactor-logs2slack
+[2024-05-31 17:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sofapal
+[2024-05-31 17:46:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: switchboard-hw
+[2024-05-31 17:46:32] INFO root fetch - processPackages [pioreactor-logs2slack]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-31 17:46:32] INFO root fetch - processPackages [vac-aligner]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 17:46:32] WARNING root fetch - processPackages [sofapal]: Skipping, unable to determine old version
+[2024-05-31 17:46:32] INFO root fetch - main [MainThread]: End processing [sofapal] error
+[2024-05-31 17:46:32] INFO root fetch - processPackages [vac-aligner]: Downloading https://files.pythonhosted.org/packages/a7/b5/cc33c0fd7be4c8090015a602f5045c8f61547c2f338d5765ad55be745eca/vac_aligner-0.0.2-py2.py3-none-any.whl
+[2024-05-31 17:46:32] INFO root fetch - processPackages [pyqcm]: New version: [2.5.4] Old Version: [2.5.2]
+[2024-05-31 17:46:32] INFO root fetch - processPackages [chefshatgym]: New version: [2.2.1] Old Version: [2.1.1]
+[2024-05-31 17:46:32] INFO root fetch - processPackages [instructlab]: New version: [0.16.0] Old Version: [0.15.1]
+[2024-05-31 17:46:32] INFO root fetch - processPackages [askchat]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-31 17:46:32] INFO root fetch - processPackages [switchboard-hw]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-31 17:46:32] INFO root fetch - processPackages [ecodev-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 17:46:32] INFO root fetch - processPackages [pioreactor-logs2slack]: Downloading https://files.pythonhosted.org/packages/2c/48/e9b671ad63432e8d4493566bc5e29dc18f4342063185ea05060c0f285b3a/pioreactor_logs2slack-0.3.2-py3-none-any.whl
+[2024-05-31 17:46:32] INFO root fetch - processPackages [chefshatgym]: Downloading https://files.pythonhosted.org/packages/2c/9c/1a0d709bf8e257e5e802cfbed0072f28aeeef990e9ef8ea25e140db50541/chefshatgym-2.1.1-py3-none-any.whl
+[2024-05-31 17:46:32] INFO root fetch - processPackages [pyqcm]: Downloading https://files.pythonhosted.org/packages/cd/10/1f4756645bada4a36f87d46c8773ba009f3817f3d0961ff421650a230bb3/pyqcm-2.5.2.tar.gz
+[2024-05-31 17:46:32] INFO root fetch - processPackages [instructlab]: Downloading https://files.pythonhosted.org/packages/ed/d4/000d042ece9d2fa3566a6feb773adad6e3cb07e1cbc9bba0c15e5764944c/instructlab-0.15.1.tar.gz
+[2024-05-31 17:46:32] INFO root fetch - processPackages [askchat]: Downloading https://files.pythonhosted.org/packages/dd/8a/4367173cf88c6fe80702fd5ac944ff777c788615a346e65e2ded3004380e/askchat-1.1.5.tar.gz
+[2024-05-31 17:46:32] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/b5/a9/766d6853412070aa67063f8b8ba6353109df7a029b4e8c577447655f9dd1/ecodev_core-0.0.8.tar.gz
+[2024-05-31 17:46:32] INFO root fetch - processPackages [switchboard-hw]: Downloading https://files.pythonhosted.org/packages/fa/75/fcc2be1aeb4e2f9a610f2a7f3eb15c2d12927bc2302e342c076a7a5a980a/switchboard_hw-0.2.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 17:46:32] INFO root fetch - processPackages [vac-aligner]: Downloading https://files.pythonhosted.org/packages/b5/6d/2fb1baa4b3b18ded21fc149a561787938445be1cd2c2108b4f52d4816edd/vac_aligner-0.0.3-py2.py3-none-any.whl
+[2024-05-31 17:46:32] INFO root fetch - processPackages [pioreactor-logs2slack]: Downloading https://files.pythonhosted.org/packages/92/6d/ce77093820587812320edad6e021404542836d68f25438f74830ae5c97ef/pioreactor_logs2slack-0.3.3-py3-none-any.whl
+[2024-05-31 17:46:32] INFO root fetch - processPackages [vac-aligner]: executing diffoscope
+[2024-05-31 17:46:32] INFO root fetch - processPackages [vac-aligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vac_aligner-0.0.2-py2.py3-none-any.whl.zip tmp/vac_aligner-0.0.3-py2.py3-none-any.whl.zip --markdown 20240531/v/vac-aligner/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 17:46:32] INFO root fetch - processPackages [ecodev-core]: Downloading https://files.pythonhosted.org/packages/2b/a0/d654c8a620b75677b176be54783974380dae7715c39ab4ada944771e7e75/ecodev_core-0.0.9.tar.gz
+[2024-05-31 17:46:32] INFO root fetch - processPackages [chefshatgym]: Downloading https://files.pythonhosted.org/packages/ed/bf/4d61c0eb17522b9d97e6bca5f9892dc50bab88f723f8126b9f574d83c40a/chefshatgym-2.2.1-py3-none-any.whl
+[2024-05-31 17:46:32] INFO root fetch - processPackages [pioreactor-logs2slack]: executing diffoscope
+[2024-05-31 17:46:32] INFO root fetch - processPackages [pioreactor-logs2slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pioreactor_logs2slack-0.3.2-py3-none-any.whl.zip tmp/pioreactor_logs2slack-0.3.3-py3-none-any.whl.zip --markdown 20240531/p/pioreactor-logs2slack/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-31 17:46:32] INFO root fetch - processPackages [askchat]: Downloading https://files.pythonhosted.org/packages/3d/da/cc0fea368c5cf1b88dce6f2aa5362af6fbe8d6936c9257dcdd66de80b0bd/askchat-1.1.6.tar.gz
+[2024-05-31 17:46:32] INFO root fetch - processPackages [pyqcm]: Downloading https://files.pythonhosted.org/packages/65/4e/e59adc379acef4b768ca487d955be128f424e856500b2c4978fdf1d6ad44/pyqcm-2.5.4.tar.gz
+[2024-05-31 17:46:32] INFO root fetch - processPackages [ecodev-core]: executing diffoscope
+[2024-05-31 17:46:32] INFO root fetch - processPackages [ecodev-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_core-0.0.8.tar.gz tmp/ecodev_core-0.0.9.tar.gz --markdown 20240531/e/ecodev-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 17:46:32] INFO root fetch - processPackages [switchboard-hw]: Downloading https://files.pythonhosted.org/packages/cd/c7/25cf72d5bba2b5e2464e73340741902c9caaa01b2639ad7252cd9a33cd9f/switchboard_hw-0.2.5-cp38-cp38-macosx_11_0_arm64.whl
+[2024-05-31 17:46:32] INFO root fetch - processPackages [instructlab]: Downloading https://files.pythonhosted.org/packages/db/00/1685522049c0b0328d030c334e448a30d433bd18c33e771f7a9e02f3906e/instructlab-0.16.0.tar.gz
+[2024-05-31 17:46:33] INFO root fetch - processPackages [chefshatgym]: executing diffoscope
+[2024-05-31 17:46:33] INFO root fetch - processPackages [chefshatgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chefshatgym-2.1.1-py3-none-any.whl.zip tmp/chefshatgym-2.2.1-py3-none-any.whl.zip --markdown 20240531/c/chefshatgym/2.1.1-2.2.1/README.md --exclude *.pyd
+[2024-05-31 17:46:33] INFO root fetch - processPackages [pyqcm]: executing diffoscope
+[2024-05-31 17:46:33] INFO root fetch - processPackages [pyqcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqcm-2.5.2.tar.gz tmp/pyqcm-2.5.4.tar.gz --markdown 20240531/p/pyqcm/2.5.2-2.5.4/README.md --exclude *.pyd
+[2024-05-31 17:46:33] INFO root fetch - processPackages [instructlab]: executing diffoscope
+[2024-05-31 17:46:33] INFO root fetch - processPackages [instructlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructlab-0.15.1.tar.gz tmp/instructlab-0.16.0.tar.gz --markdown 20240531/i/instructlab/0.15.1-0.16.0/README.md --exclude *.pyd
+[2024-05-31 17:46:33] INFO root fetch - processPackages [askchat]: executing diffoscope
+[2024-05-31 17:46:33] INFO root fetch - processPackages [askchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askchat-1.1.5.tar.gz tmp/askchat-1.1.6.tar.gz --markdown 20240531/a/askchat/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-31 17:46:33] INFO root fetch - processPackages [pioreactor-logs2slack]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor_logs2slack-0.3.2-py3-none-any.whl.zip]
+[2024-05-31 17:46:33] INFO root fetch - processPackages [pioreactor-logs2slack]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor_logs2slack-0.3.3-py3-none-any.whl.zip]
+[2024-05-31 17:46:33] INFO root fetch - main [MainThread]: End processing [pioreactor-logs2slack]: success
+[2024-05-31 17:46:33] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.8.tar.gz]
+[2024-05-31 17:46:33] INFO root fetch - processPackages [ecodev-core]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_core-0.0.9.tar.gz]
+[2024-05-31 17:46:33] INFO root fetch - main [MainThread]: End processing [ecodev-core]: success
+[2024-05-31 17:46:33] INFO root fetch - processPackages [switchboard-hw]: executing diffoscope
+[2024-05-31 17:46:33] INFO root fetch - processPackages [switchboard-hw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switchboard_hw-0.2.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/switchboard_hw-0.2.5-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20240531/s/switchboard-hw/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-31 17:46:33] INFO root fetch - processPackages [vac-aligner]: Remove: archive file [/home/abi/fetcher/tmp/vac_aligner-0.0.2-py2.py3-none-any.whl.zip]
+[2024-05-31 17:46:33] INFO root fetch - processPackages [vac-aligner]: Remove: archive file [/home/abi/fetcher/tmp/vac_aligner-0.0.3-py2.py3-none-any.whl.zip]
+[2024-05-31 17:46:33] INFO root fetch - main [MainThread]: End processing [vac-aligner]: success
+[2024-05-31 17:46:33] INFO root fetch - processPackages [chefshatgym]: Remove: archive file [/home/abi/fetcher/tmp/chefshatgym-2.1.1-py3-none-any.whl.zip]
+[2024-05-31 17:46:33] INFO root fetch - processPackages [chefshatgym]: Remove: archive file [/home/abi/fetcher/tmp/chefshatgym-2.2.1-py3-none-any.whl.zip]
+[2024-05-31 17:46:33] INFO root fetch - main [MainThread]: End processing [chefshatgym]: success
+[2024-05-31 17:46:34] INFO root fetch - processPackages [askchat]: Remove: archive file [/home/abi/fetcher/tmp/askchat-1.1.5.tar.gz]
+[2024-05-31 17:46:34] INFO root fetch - processPackages [askchat]: Remove: archive file [/home/abi/fetcher/tmp/askchat-1.1.6.tar.gz]
+[2024-05-31 17:46:34] INFO root fetch - main [MainThread]: End processing [askchat]: success
+[2024-05-31 17:46:34] INFO root fetch - processPackages [switchboard-hw]: Remove: archive file [/home/abi/fetcher/tmp/switchboard_hw-0.2.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 17:46:34] INFO root fetch - processPackages [switchboard-hw]: Remove: archive file [/home/abi/fetcher/tmp/switchboard_hw-0.2.5-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2024-05-31 17:46:34] INFO root fetch - main [MainThread]: End processing [switchboard-hw]: success
+[2024-05-31 17:46:34] INFO root fetch - processPackages [instructlab]: Remove: archive file [/home/abi/fetcher/tmp/instructlab-0.15.1.tar.gz]
+[2024-05-31 17:46:34] INFO root fetch - processPackages [instructlab]: Remove: archive file [/home/abi/fetcher/tmp/instructlab-0.16.0.tar.gz]
+[2024-05-31 17:46:34] INFO root fetch - main [MainThread]: End processing [instructlab]: success
+[2024-05-31 17:46:34] INFO root fetch - processPackages [pyqcm]: Remove: archive file [/home/abi/fetcher/tmp/pyqcm-2.5.2.tar.gz]
+[2024-05-31 17:46:34] INFO root fetch - processPackages [pyqcm]: Remove: archive file [/home/abi/fetcher/tmp/pyqcm-2.5.4.tar.gz]
+[2024-05-31 17:46:34] INFO root fetch - main [MainThread]: End processing [pyqcm]: success
+[2024-05-31 17:46:35] INFO root fetch - main [MainThread]: Store serial: [23468250]
