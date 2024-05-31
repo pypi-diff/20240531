@@ -5219,3 +5219,29 @@
 [2024-05-31 04:27:41] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9311969471-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-31 04:27:41] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
 [2024-05-31 04:27:41] INFO root fetch - main [MainThread]: Store serial: [23459685]
+[2024-05-31 04:29:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459685]
+[2024-05-31 04:30:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SerialDBPy
+[2024-05-31 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dotabase
+[2024-05-31 04:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiramisu-wallet-client
+[2024-05-31 04:30:00] INFO root fetch - processPackages [SerialDBPy]: New version: [0.1.3.2] Old Version: [0.1.1]
+[2024-05-31 04:30:00] INFO root fetch - processPackages [SerialDBPy]: Downloading https://files.pythonhosted.org/packages/9a/34/eac609f46ad92e2875fc14a09c6b03d54415b65de46412145e34291aec52/SerialDBPy-0.1.1.tar.gz
+[2024-05-31 04:30:00] INFO root fetch - processPackages [dotabase]: New version: [7.7.1] Old Version: [7.7.0]
+[2024-05-31 04:30:00] INFO root fetch - processPackages [tiramisu-wallet-client]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-31 04:30:00] INFO root fetch - processPackages [dotabase]: Downloading https://files.pythonhosted.org/packages/e0/f1/39caaedfb201d04800daad7f78717c5c1b3aa8fd1454d1b589aa099e9dab/dotabase-7.7.0.tar.gz
+[2024-05-31 04:30:00] INFO root fetch - processPackages [SerialDBPy]: Downloading https://files.pythonhosted.org/packages/c4/74/d21c717858f00dc865bd682e42d865ff33c01c64b39bc237e411cbd83a42/SerialDBPy-0.1.3.2.tar.gz
+[2024-05-31 04:30:00] INFO root fetch - processPackages [tiramisu-wallet-client]: Downloading https://files.pythonhosted.org/packages/c3/f7/7588a783b9737e22ff2a18491d429caedb469ea5f48875390cd48f776739/tiramisu_wallet_client-0.0.6.tar.gz
+[2024-05-31 04:30:00] WARNING root fetch - processPackages [dotabase]: Skipping package: exceeds size limit 16536717>=10485760
+[2024-05-31 04:30:00] INFO root fetch - main [MainThread]: End processing [dotabase] error
+[2024-05-31 04:30:00] INFO root fetch - processPackages [SerialDBPy]: executing diffoscope
+[2024-05-31 04:30:00] INFO root fetch - processPackages [SerialDBPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SerialDBPy-0.1.1.tar.gz tmp/SerialDBPy-0.1.3.2.tar.gz --markdown 20240531/S/SerialDBPy/0.1.1-0.1.3.2/README.md --exclude *.pyd
+[2024-05-31 04:30:01] INFO root fetch - processPackages [SerialDBPy]: Remove: archive file [/home/abi/fetcher/tmp/SerialDBPy-0.1.1.tar.gz]
+[2024-05-31 04:30:01] INFO root fetch - processPackages [SerialDBPy]: Remove: archive file [/home/abi/fetcher/tmp/SerialDBPy-0.1.3.2.tar.gz]
+[2024-05-31 04:30:01] INFO root fetch - main [MainThread]: End processing [SerialDBPy]: success
+[2024-05-31 04:30:01] INFO root fetch - processPackages [tiramisu-wallet-client]: Downloading https://files.pythonhosted.org/packages/eb/de/5c4c45874e89f5615ff78f1817e44903af16c751448513532c8b6df5ca2e/tiramisu_wallet_client-0.0.7.tar.gz
+[2024-05-31 04:30:01] INFO root fetch - processPackages [tiramisu-wallet-client]: executing diffoscope
+[2024-05-31 04:30:01] INFO root fetch - processPackages [tiramisu-wallet-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiramisu_wallet_client-0.0.6.tar.gz tmp/tiramisu_wallet_client-0.0.7.tar.gz --markdown 20240531/t/tiramisu-wallet-client/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-31 04:30:02] INFO root fetch - processPackages [tiramisu-wallet-client]: Remove: archive file [/home/abi/fetcher/tmp/tiramisu_wallet_client-0.0.6.tar.gz]
+[2024-05-31 04:30:02] INFO root fetch - processPackages [tiramisu-wallet-client]: Remove: archive file [/home/abi/fetcher/tmp/tiramisu_wallet_client-0.0.7.tar.gz]
+[2024-05-31 04:30:02] INFO root fetch - main [MainThread]: End processing [tiramisu-wallet-client]: success
+[2024-05-31 04:30:02] INFO root fetch - main [MainThread]: Store serial: [23459693]
