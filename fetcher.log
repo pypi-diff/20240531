@@ -16067,3 +16067,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 13:08:30] INFO root fetch - processPackages [sedrila]: Remove: archive file [/home/abi/fetcher/tmp/sedrila-1.2.1.tar.gz]
 [2024-05-31 13:08:30] INFO root fetch - main [MainThread]: End processing [sedrila]: success
 [2024-05-31 13:08:30] INFO root fetch - main [MainThread]: Store serial: [23464571]
+[2024-05-31 13:10:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464571]
+[2024-05-31 13:10:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 13:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sedrila
+[2024-05-31 13:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bugbug
+[2024-05-31 13:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctrip-helper
+[2024-05-31 13:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pldag
+[2024-05-31 13:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: macrosynergy
+[2024-05-31 13:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ploosh
+[2024-05-31 13:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ploosh-core
+[2024-05-31 13:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lampsible
+[2024-05-31 13:10:38] INFO root fetch - processPackages [ctrip-helper]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 13:10:38] INFO root fetch - processPackages [ploosh]: New version: [0.2.9] Old Version: [0.2.11]
+[2024-05-31 13:10:38] INFO root fetch - processPackages [ploosh-core]: New version: [0.2.9] Old Version: [0.2.11]
+[2024-05-31 13:10:38] INFO root fetch - processPackages [pldag]: New version: [0.8.62] Old Version: [0.8.61]
+[2024-05-31 13:10:38] INFO root fetch - processPackages [macrosynergy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 13:10:39] INFO root fetch - processPackages [sedrila]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-31 13:10:39] INFO root fetch - processPackages [lampsible]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-31 13:10:39] INFO root fetch - processPackages [bugbug]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/0f/30/4c41a939a55a0f3cdb9e83878012ea04165d383b4ee66891df9c8c07e6c1/ctrip-helper-0.3.8.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/95/dd/1fb9a01cbaac96f9c345762469699ea79c6fd640ce7bc22414be586262f2/pldag-0.8.61.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [macrosynergy]: Downloading https://files.pythonhosted.org/packages/2d/ab/00749ace09d1854c70731845ceab79cb8e63ff8cb5dda26054274155e1cb/macrosynergy-0.1.8.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [sedrila]: Downloading https://files.pythonhosted.org/packages/1b/ed/2940b2c79cd49e5dd9b27581e6b2a63d65e74f84354c0f7a801d88d8e4ff/sedrila-1.2.0.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ploosh]: Downloading https://files.pythonhosted.org/packages/88/0a/02b883772cfbd16e9b6f80c0234ca427150a6fda0bd583c112fea394447f/ploosh-0.2.11.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ploosh-core]: Downloading https://files.pythonhosted.org/packages/ec/16/5ea6dd461f9617019336c897d20939aa3cef381efd9699f45593be3976e1/ploosh-core-0.2.11.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [lampsible]: Downloading https://files.pythonhosted.org/packages/be/1f/9223d66444aca8e513c9afdbb7b3ce0374d78688f3f3cf85ccabb4e00b61/lampsible-1.0.0.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/5b/6a/fc99f3a6e09827c698ee6eab2d88fea1cf94e1c6d0f0d04236a834ba423b/bugbug-0.0.98.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/7c/d8/0335d1c1a9ff045e0fe2fe69da2fa0295f06d3cbb5907fe115e953d11fdf/pldag-0.8.62.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [sedrila]: Downloading https://files.pythonhosted.org/packages/3a/ac/b832b887d1a15425a93ffcac9a036633f2693c22bf5e9a21ca29265e187b/sedrila-1.2.1.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [macrosynergy]: Downloading https://files.pythonhosted.org/packages/b9/b8/29dfcdf47d06d49a91811e245dd464a5d67077fc4a0523781818255e1443/macrosynergy-0.1.9.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/d8/d2/47a1fe42ff713e453432531eb462361ee04b256c2833aea021657e1486a1/ctrip-helper-0.3.9.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-05-31 13:10:39] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.8.61.tar.gz tmp/pldag-0.8.62.tar.gz --markdown 20240531/p/pldag/0.8.61-0.8.62/README.md --exclude *.pyd
+[2024-05-31 13:10:39] INFO root fetch - processPackages [sedrila]: executing diffoscope
+[2024-05-31 13:10:39] INFO root fetch - processPackages [sedrila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedrila-1.2.0.tar.gz tmp/sedrila-1.2.1.tar.gz --markdown 20240531/s/sedrila/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.3.8.tar.gz tmp/ctrip-helper-0.3.9.tar.gz --markdown 20240531/c/ctrip-helper/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ploosh]: Downloading https://files.pythonhosted.org/packages/e7/9e/f5505f03a7d64fdcd57966b0da17392775a7fb5480e1c7c148cbdfcc5b54/ploosh-0.2.9.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [macrosynergy]: executing diffoscope
+[2024-05-31 13:10:39] INFO root fetch - processPackages [macrosynergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrosynergy-0.1.8.tar.gz tmp/macrosynergy-0.1.9.tar.gz --markdown 20240531/m/macrosynergy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ploosh-core]: Downloading https://files.pythonhosted.org/packages/60/4d/b50bf3c8550712815794161ef8ee7e26da35a5623f2e98d2afe446932ed4/ploosh-core-0.2.9.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/1b/68/2d9f5d88a3b137b0acc5c563e30de6711280c6bea1292fb42f4652b41c4b/bugbug-0.0.99.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [lampsible]: Downloading https://files.pythonhosted.org/packages/2a/af/b850b5f46385cbb9e78ddc3b446fe7168a8ccb3a203e15ee58a635dd2c11/lampsible-1.1.0.tar.gz
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ploosh]: executing diffoscope
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ploosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploosh-0.2.11.tar.gz tmp/ploosh-0.2.9.tar.gz --markdown 20240531/p/ploosh/0.2.11-0.2.9/README.md --exclude *.pyd
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ploosh-core]: executing diffoscope
+[2024-05-31 13:10:39] INFO root fetch - processPackages [ploosh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploosh-core-0.2.11.tar.gz tmp/ploosh-core-0.2.9.tar.gz --markdown 20240531/p/ploosh-core/0.2.11-0.2.9/README.md --exclude *.pyd
+[2024-05-31 13:10:39] INFO root fetch - processPackages [bugbug]: executing diffoscope
+[2024-05-31 13:10:39] INFO root fetch - processPackages [bugbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugbug-0.0.98.tar.gz tmp/bugbug-0.0.99.tar.gz --markdown 20240531/b/bugbug/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 13:10:39] INFO root fetch - processPackages [lampsible]: executing diffoscope
+[2024-05-31 13:10:39] INFO root fetch - processPackages [lampsible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lampsible-1.0.0.tar.gz tmp/lampsible-1.1.0.tar.gz --markdown 20240531/l/lampsible/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-31 13:10:40] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.61.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.62.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-05-31 13:10:40] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.8.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.9.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 13:10:40] INFO root fetch - processPackages [ploosh-core]: Remove: archive file [/home/abi/fetcher/tmp/ploosh-core-0.2.11.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - processPackages [ploosh-core]: Remove: archive file [/home/abi/fetcher/tmp/ploosh-core-0.2.9.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - main [MainThread]: End processing [ploosh-core]: success
+[2024-05-31 13:10:40] INFO root fetch - processPackages [ploosh]: Remove: archive file [/home/abi/fetcher/tmp/ploosh-0.2.11.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - processPackages [ploosh]: Remove: archive file [/home/abi/fetcher/tmp/ploosh-0.2.9.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - main [MainThread]: End processing [ploosh]: success
+[2024-05-31 13:10:40] INFO root fetch - processPackages [sedrila]: Remove: archive file [/home/abi/fetcher/tmp/sedrila-1.2.0.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - processPackages [sedrila]: Remove: archive file [/home/abi/fetcher/tmp/sedrila-1.2.1.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - main [MainThread]: End processing [sedrila]: success
+[2024-05-31 13:10:40] INFO root fetch - processPackages [macrosynergy]: Remove: archive file [/home/abi/fetcher/tmp/macrosynergy-0.1.8.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - processPackages [macrosynergy]: Remove: archive file [/home/abi/fetcher/tmp/macrosynergy-0.1.9.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - main [MainThread]: End processing [macrosynergy]: success
+[2024-05-31 13:10:40] INFO root fetch - processPackages [lampsible]: Remove: archive file [/home/abi/fetcher/tmp/lampsible-1.0.0.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - processPackages [lampsible]: Remove: archive file [/home/abi/fetcher/tmp/lampsible-1.1.0.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - main [MainThread]: End processing [lampsible]: success
+[2024-05-31 13:10:40] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.98.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.99.tar.gz]
+[2024-05-31 13:10:40] INFO root fetch - main [MainThread]: End processing [bugbug]: success
+[2024-05-31 13:10:40] INFO root fetch - main [MainThread]: Store serial: [23464595]
