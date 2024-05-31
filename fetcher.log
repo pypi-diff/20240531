@@ -13116,3 +13116,42 @@
 [2024-05-31 11:09:02] INFO root fetch - processPackages [PyDicomGrouping]: Remove: archive file [/home/abi/fetcher/tmp/PyDicomGrouping-0.1.8-py3-none-any.whl.zip]
 [2024-05-31 11:09:02] INFO root fetch - main [MainThread]: End processing [PyDicomGrouping]: success
 [2024-05-31 11:09:02] INFO root fetch - main [MainThread]: Store serial: [23463201]
+[2024-05-31 11:11:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463201]
+[2024-05-31 11:11:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 11:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyDicomGrouping
+[2024-05-31 11:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aishalib
+[2024-05-31 11:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AAIT
+[2024-05-31 11:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter_resource_usage_proxy
+[2024-05-31 11:11:11] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2024-05-31 11:11:11] INFO root fetch - processPackages [PyDicomGrouping]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-31 11:11:11] INFO root fetch - processPackages [PyDicomGrouping]: Downloading https://files.pythonhosted.org/packages/1a/4a/5cd277d1caaed32610bb5544be9d3b779c9ab3cd6d457d73f410562a6507/PyDicomGrouping-0.1.7.tar.gz
+[2024-05-31 11:11:11] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/4b/ec/a3e05f449cce0171eccc1aaf2042c86118c169df00af32df839b4226b8b2/AAIT-0.0.2.8.tar.gz
+[2024-05-31 11:11:11] INFO root fetch - processPackages [aishalib]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 11:11:11] INFO root fetch - processPackages [jupyter_resource_usage_proxy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 11:11:11] INFO root fetch - processPackages [aishalib]: Downloading https://files.pythonhosted.org/packages/43/2a/2eda4770779cd18f7448d06dd4edb8d916bfe7371d450b5224c5fc14b5b3/aishalib-0.0.5.tar.gz
+[2024-05-31 11:11:11] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/a0/ed/929afa211bad78b2612459dbcacb9dca8231b0e919d21a6da65137005c11/AAIT-0.0.2.9.tar.gz
+[2024-05-31 11:11:11] INFO root fetch - processPackages [jupyter_resource_usage_proxy]: Downloading https://files.pythonhosted.org/packages/64/e3/93b5dc1b2fda82f41dab7e616fb97240ecfa6ec1e4c4ee647263e95c8558/jupyter_resource_usage_proxy-0.1.1.tar.gz
+[2024-05-31 11:11:11] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-05-31 11:11:11] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.8.tar.gz tmp/AAIT-0.0.2.9.tar.gz --markdown 20240531/A/AAIT/0.0.2.8-0.0.2.9/README.md --exclude *.pyd
+[2024-05-31 11:11:12] INFO root fetch - processPackages [aishalib]: Downloading https://files.pythonhosted.org/packages/fa/b7/6faf117a59fe8003db6fd43ef541be0d3c6bed18bbed7c1a149f598eda30/aishalib-0.0.6.tar.gz
+[2024-05-31 11:11:12] INFO root fetch - processPackages [aishalib]: executing diffoscope
+[2024-05-31 11:11:12] INFO root fetch - processPackages [aishalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aishalib-0.0.5.tar.gz tmp/aishalib-0.0.6.tar.gz --markdown 20240531/a/aishalib/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 11:11:12] INFO root fetch - processPackages [PyDicomGrouping]: Downloading https://files.pythonhosted.org/packages/f7/67/cc6dee8531ad91a02b8e3b824b0949cf3d855048e116c3fcf6fb794da51d/PyDicomGrouping-0.1.8-py3-none-any.whl
+[2024-05-31 11:11:12] INFO root fetch - processPackages [jupyter_resource_usage_proxy]: Downloading https://files.pythonhosted.org/packages/55/b7/d7ab81bcb74dba1787cc3219e88b16112521062bd4cde2697de10e7a7d8b/jupyter_resource_usage_proxy-0.1.2.tar.gz
+[2024-05-31 11:11:12] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.8.tar.gz]
+[2024-05-31 11:11:12] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.9.tar.gz]
+[2024-05-31 11:11:12] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-05-31 11:11:12] INFO root fetch - processPackages [jupyter_resource_usage_proxy]: executing diffoscope
+[2024-05-31 11:11:12] INFO root fetch - processPackages [jupyter_resource_usage_proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_resource_usage_proxy-0.1.1.tar.gz tmp/jupyter_resource_usage_proxy-0.1.2.tar.gz --markdown 20240531/j/jupyter_resource_usage_proxy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 11:11:12] INFO root fetch - processPackages [aishalib]: Remove: archive file [/home/abi/fetcher/tmp/aishalib-0.0.5.tar.gz]
+[2024-05-31 11:11:12] INFO root fetch - processPackages [aishalib]: Remove: archive file [/home/abi/fetcher/tmp/aishalib-0.0.6.tar.gz]
+[2024-05-31 11:11:12] INFO root fetch - main [MainThread]: End processing [aishalib]: success
+[2024-05-31 11:11:12] INFO root fetch - processPackages [PyDicomGrouping]: executing diffoscope
+[2024-05-31 11:11:12] INFO root fetch - processPackages [PyDicomGrouping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDicomGrouping-0.1.7.tar.gz tmp/PyDicomGrouping-0.1.8-py3-none-any.whl.zip --markdown 20240531/P/PyDicomGrouping/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-31 11:11:12] INFO root fetch - processPackages [jupyter_resource_usage_proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_resource_usage_proxy-0.1.1.tar.gz]
+[2024-05-31 11:11:12] INFO root fetch - processPackages [jupyter_resource_usage_proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_resource_usage_proxy-0.1.2.tar.gz]
+[2024-05-31 11:11:12] INFO root fetch - main [MainThread]: End processing [jupyter_resource_usage_proxy]: success
+[2024-05-31 11:11:20] INFO root fetch - processPackages [PyDicomGrouping]: Remove: archive file [/home/abi/fetcher/tmp/PyDicomGrouping-0.1.7.tar.gz]
+[2024-05-31 11:11:20] INFO root fetch - processPackages [PyDicomGrouping]: Remove: archive file [/home/abi/fetcher/tmp/PyDicomGrouping-0.1.8-py3-none-any.whl.zip]
+[2024-05-31 11:11:20] INFO root fetch - main [MainThread]: End processing [PyDicomGrouping]: success
+[2024-05-31 11:11:20] INFO root fetch - main [MainThread]: Store serial: [23463209]
