@@ -17687,3 +17687,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:03:32] INFO root fetch - processPackages [onchainpay-api]: Remove: archive file [/home/abi/fetcher/tmp/onchainpay_api-0.0.6-py3-none-any.whl.zip]
 [2024-05-31 14:03:32] INFO root fetch - main [MainThread]: End processing [onchainpay-api]: success
 [2024-05-31 14:03:32] INFO root fetch - main [MainThread]: Store serial: [23465211]
+[2024-05-31 14:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465211]
+[2024-05-31 14:05:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 14:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resc-backend
+[2024-05-31 14:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sstc-utils
+[2024-05-31 14:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretix-adyen
+[2024-05-31 14:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: booking-copilot-client
+[2024-05-31 14:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botasaurus-driver
+[2024-05-31 14:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dissect.cstruct
+[2024-05-31 14:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: policyengine-us
+[2024-05-31 14:05:42] WARNING root fetch - processPackages [booking-copilot-client]: Skipping, unable to determine old version
+[2024-05-31 14:05:42] INFO root fetch - main [MainThread]: End processing [booking-copilot-client] error
+[2024-05-31 14:05:42] INFO root fetch - processPackages [botasaurus-driver]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 14:05:42] INFO root fetch - processPackages [resc-backend]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-05-31 14:05:42] INFO root fetch - processPackages [policyengine-us]: New version: [0.777.7] Old Version: [0.777.6]
+[2024-05-31 14:05:42] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/fa/7e/4cded5fa90ea0a7190b71e9cff4e212107c073d4621880dcdb18dab7bf09/botasaurus_driver-4.0.8.tar.gz
+[2024-05-31 14:05:42] INFO root fetch - processPackages [pretix-adyen]: New version: [1.4.4.post2] Old Version: [1.4.3]
+[2024-05-31 14:05:42] INFO root fetch - processPackages [sstc-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 14:05:42] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/cf/b7/f7108613ac0e2ac344f365cdeb565c861b91b89c860e38755690765e256d/resc_backend-3.3.2.tar.gz
+[2024-05-31 14:05:42] INFO root fetch - processPackages [dissect.cstruct]: New version: [4.0.dev3] Old Version: [4.0.dev2]
+[2024-05-31 14:05:42] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/f8/6c/73273aa3ee4f20ba48a069f7d795d975fb36fa2d97683934f2c78b9a5f80/policyengine-us-0.777.6.tar.gz
+[2024-05-31 14:05:42] INFO root fetch - processPackages [pretix-adyen]: Downloading https://files.pythonhosted.org/packages/f7/8e/006c5ba41d590451a94e0b49a6722db3e7220b8fff0b648182e4c2762c63/pretix-adyen-1.4.3.tar.gz
+[2024-05-31 14:05:42] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/ad/57/c5587eb0a46a39cf90a36835b2e3372614749a4cde08db6baad1ff2eac4e/botasaurus_driver-4.0.9.tar.gz
+[2024-05-31 14:05:42] INFO root fetch - processPackages [sstc-utils]: Downloading https://files.pythonhosted.org/packages/2e/8e/08cec696483bcd46c723eccab8c973ce056e5a5b06cb772a6da0ae675db4/sstc_utils-0.1.1.tar.gz
+[2024-05-31 14:05:42] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/d3/7c/74263603873a19efe0cccb3be332ba2a18e186c31fe7cb38e54e59bfd726/dissect_cstruct-4.0.dev2.tar.gz
+[2024-05-31 14:05:42] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/01/12/1f4860847d6fe91d0379671d6750c7be53a555e696f5ee71de1494f468dc/resc_backend-3.3.3.tar.gz
+[2024-05-31 14:05:42] INFO root fetch - processPackages [botasaurus-driver]: executing diffoscope
+[2024-05-31 14:05:42] INFO root fetch - processPackages [botasaurus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_driver-4.0.8.tar.gz tmp/botasaurus_driver-4.0.9.tar.gz --markdown 20240531/b/botasaurus-driver/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 14:05:42] INFO root fetch - processPackages [resc-backend]: executing diffoscope
+[2024-05-31 14:05:42] INFO root fetch - processPackages [resc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_backend-3.3.2.tar.gz tmp/resc_backend-3.3.3.tar.gz --markdown 20240531/r/resc-backend/3.3.2-3.3.3/README.md --exclude *.pyd
+[2024-05-31 14:05:42] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/35/2d/117304d518fa389eb0c890b4226e92d54d02b1c178766e230e3b3b7be0e1/policyengine-us-0.777.7.tar.gz
+[2024-05-31 14:05:43] INFO root fetch - processPackages [sstc-utils]: Downloading https://files.pythonhosted.org/packages/c2/83/9db42229d2c97a3762f95b07d72cf7bb6be5447163058eca0c3c922d913c/sstc_utils-0.1.2.tar.gz
+[2024-05-31 14:05:43] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/86/83/206910255a0edafbfbaab3fa6824c0777d335c7cb64f9dc055646866ffe9/dissect_cstruct-4.0.dev3.tar.gz
+[2024-05-31 14:05:43] INFO root fetch - processPackages [pretix-adyen]: Downloading https://files.pythonhosted.org/packages/ce/b4/14fdc9771305959c7383ece94a9619ee6b2915d063722c7ac03c4d22197d/pretix_adyen-1.4.4.post2.tar.gz
+[2024-05-31 14:05:43] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-31 14:05:43] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.777.6.tar.gz tmp/policyengine-us-0.777.7.tar.gz --markdown 20240531/p/policyengine-us/0.777.6-0.777.7/README.md --exclude *.pyd
+[2024-05-31 14:05:43] INFO root fetch - processPackages [sstc-utils]: executing diffoscope
+[2024-05-31 14:05:43] INFO root fetch - processPackages [sstc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sstc_utils-0.1.1.tar.gz tmp/sstc_utils-0.1.2.tar.gz --markdown 20240531/s/sstc-utils/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 14:05:43] INFO root fetch - processPackages [dissect.cstruct]: executing diffoscope
+[2024-05-31 14:05:43] INFO root fetch - processPackages [dissect.cstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect_cstruct-4.0.dev2.tar.gz tmp/dissect_cstruct-4.0.dev3.tar.gz --markdown 20240531/d/dissect.cstruct/4.0.dev2-4.0.dev3/README.md --exclude *.pyd
+[2024-05-31 14:05:43] INFO root fetch - processPackages [pretix-adyen]: executing diffoscope
+[2024-05-31 14:05:43] INFO root fetch - processPackages [pretix-adyen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-adyen-1.4.3.tar.gz tmp/pretix_adyen-1.4.4.post2.tar.gz --markdown 20240531/p/pretix-adyen/1.4.3-1.4.4.post2/README.md --exclude *.pyd
+[2024-05-31 14:05:43] INFO root fetch - processPackages [sstc-utils]: Remove: archive file [/home/abi/fetcher/tmp/sstc_utils-0.1.1.tar.gz]
+[2024-05-31 14:05:43] INFO root fetch - processPackages [sstc-utils]: Remove: archive file [/home/abi/fetcher/tmp/sstc_utils-0.1.2.tar.gz]
+[2024-05-31 14:05:43] INFO root fetch - main [MainThread]: End processing [sstc-utils]: success
+[2024-05-31 14:05:43] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.3.2.tar.gz]
+[2024-05-31 14:05:43] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.3.3.tar.gz]
+[2024-05-31 14:05:43] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
+[2024-05-31 14:05:44] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.8.tar.gz]
+[2024-05-31 14:05:44] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.9.tar.gz]
+[2024-05-31 14:05:44] INFO root fetch - main [MainThread]: End processing [botasaurus-driver]: success
+[2024-05-31 14:05:44] INFO root fetch - processPackages [pretix-adyen]: Remove: archive file [/home/abi/fetcher/tmp/pretix-adyen-1.4.3.tar.gz]
+[2024-05-31 14:05:44] INFO root fetch - processPackages [pretix-adyen]: Remove: archive file [/home/abi/fetcher/tmp/pretix_adyen-1.4.4.post2.tar.gz]
+[2024-05-31 14:05:44] INFO root fetch - main [MainThread]: End processing [pretix-adyen]: success
+[2024-05-31 14:05:44] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect_cstruct-4.0.dev2.tar.gz]
+[2024-05-31 14:05:44] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect_cstruct-4.0.dev3.tar.gz]
+[2024-05-31 14:05:44] INFO root fetch - main [MainThread]: End processing [dissect.cstruct]: success
+[2024-05-31 14:06:16] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.777.6.tar.gz]
+[2024-05-31 14:06:16] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.777.7.tar.gz]
+[2024-05-31 14:06:16] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-31 14:06:16] INFO root fetch - main [MainThread]: Store serial: [23465247]
