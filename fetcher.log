@@ -20863,3 +20863,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:57:11] INFO root fetch - processPackages [juju]: Remove: archive file [/home/abi/fetcher/tmp/juju-3.5.0.0.tar.gz]
 [2024-05-31 15:57:11] INFO root fetch - main [MainThread]: End processing [juju]: success
 [2024-05-31 15:57:11] INFO root fetch - main [MainThread]: Store serial: [23466612]
+[2024-05-31 15:59:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466612]
+[2024-05-31 15:59:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 15:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySwitchbot
+[2024-05-31 15:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyDynamic
+[2024-05-31 15:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jam_sdk
+[2024-05-31 15:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oianalytics
+[2024-05-31 15:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: consensusGen
+[2024-05-31 15:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PropertyExtract
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PropertyExtract]: New version: [1.1] Old Version: [1.0]
+[2024-05-31 15:59:20] INFO root fetch - processPackages [oianalytics]: New version: [0.5.4b1] Old Version: [0.5.3]
+[2024-05-31 15:59:20] INFO root fetch - processPackages [consensusGen]: New version: [1.9] Old Version: [1.7]
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PyDynamic]: New version: [2.5.0] Old Version: [2.4.2]
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PropertyExtract]: Downloading https://files.pythonhosted.org/packages/8d/b0/6f5bd255bb049907afb7bd7d519975232565f1d45b09a5a3482501f8776a/PropertyExtract-1.0.tar.gz
+[2024-05-31 15:59:20] INFO root fetch - processPackages [oianalytics]: Downloading https://files.pythonhosted.org/packages/7f/bf/cea899dcb9d8525a749f850c89553e711a7b219a0695245ce5df90268fa8/oianalytics-0.5.3.tar.gz
+[2024-05-31 15:59:20] WARNING root fetch - processPackages [jam_sdk]: Skipping, unable to determine old version
+[2024-05-31 15:59:20] INFO root fetch - main [MainThread]: End processing [jam_sdk] error
+[2024-05-31 15:59:20] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/1f/00/e7b44b55c6f2388ed2685d641e2683e176ee9ef2b11ef62bf17dce51bdef/consensusgen-1.7.tar.gz
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PyDynamic]: Downloading https://files.pythonhosted.org/packages/7d/b3/234a7fbcb3cd2a3ecc2f23cd2f9327b204c710130cc8b8f9b27bc4f49e75/PyDynamic-2.4.2.tar.gz
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PySwitchbot]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PropertyExtract]: Downloading https://files.pythonhosted.org/packages/3d/ce/023b18458aa4623f23d4c96ce41e47765c8759c3980d396a1d591df7f3cc/propertyextract-1.1.tar.gz
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PySwitchbot]: Downloading https://files.pythonhosted.org/packages/50/2f/2eddd905a4a806273b8a9b3b5a2f0c654d14b9c711bd45f46edad164658b/PySwitchbot-0.9.0.tar.gz
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PyDynamic]: Downloading https://files.pythonhosted.org/packages/98/0d/ef86ad5ef847cdc05ba8ebf4de3d631f6a03988191177f5cfe2f71c963e0/PyDynamic-2.5.0.tar.gz
+[2024-05-31 15:59:20] INFO root fetch - processPackages [oianalytics]: Downloading https://files.pythonhosted.org/packages/cd/05/ffa7442a3108bafba3732d69120b41b8ab0015f0f62a3a587f86cca47551/oianalytics-0.5.4b1.tar.gz
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PropertyExtract]: executing diffoscope
+[2024-05-31 15:59:20] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/39/55/f91e2ae956b765b6d2c353dd985e4956cb0fb38e2b45bf9d71b686e89ca2/consensusGen-1.9-py3-none-any.whl
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PropertyExtract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PropertyExtract-1.0.tar.gz tmp/propertyextract-1.1.tar.gz --markdown 20240531/P/PropertyExtract/1.0-1.1/README.md --exclude *.pyd
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PyDynamic]: executing diffoscope
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PyDynamic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDynamic-2.4.2.tar.gz tmp/PyDynamic-2.5.0.tar.gz --markdown 20240531/P/PyDynamic/2.4.2-2.5.0/README.md --exclude *.pyd
+[2024-05-31 15:59:20] INFO root fetch - processPackages [consensusGen]: executing diffoscope
+[2024-05-31 15:59:20] INFO root fetch - processPackages [consensusGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consensusgen-1.7.tar.gz tmp/consensusGen-1.9-py3-none-any.whl.zip --markdown 20240531/c/consensusGen/1.7-1.9/README.md --exclude *.pyd
+[2024-05-31 15:59:20] INFO root fetch - processPackages [oianalytics]: executing diffoscope
+[2024-05-31 15:59:20] INFO root fetch - processPackages [oianalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oianalytics-0.5.3.tar.gz tmp/oianalytics-0.5.4b1.tar.gz --markdown 20240531/o/oianalytics/0.5.3-0.5.4b1/README.md --exclude *.pyd
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PySwitchbot]: Downloading https://files.pythonhosted.org/packages/4a/1d/17c4cb72d46152f50691f8ba5980eed9f8bb866cafbddd81e36af447c21d/PySwitchbot-0.9.1.tar.gz
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PySwitchbot]: executing diffoscope
+[2024-05-31 15:59:20] INFO root fetch - processPackages [PySwitchbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySwitchbot-0.9.0.tar.gz tmp/PySwitchbot-0.9.1.tar.gz --markdown 20240531/P/PySwitchbot/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 15:59:21] INFO root fetch - processPackages [PropertyExtract]: Remove: archive file [/home/abi/fetcher/tmp/PropertyExtract-1.0.tar.gz]
+[2024-05-31 15:59:21] INFO root fetch - processPackages [PropertyExtract]: Remove: archive file [/home/abi/fetcher/tmp/propertyextract-1.1.tar.gz]
+[2024-05-31 15:59:21] INFO root fetch - main [MainThread]: End processing [PropertyExtract]: success
+[2024-05-31 15:59:21] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-1.7.tar.gz]
+[2024-05-31 15:59:21] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusGen-1.9-py3-none-any.whl.zip]
+[2024-05-31 15:59:21] INFO root fetch - main [MainThread]: End processing [consensusGen]: success
+[2024-05-31 15:59:21] INFO root fetch - processPackages [PySwitchbot]: Remove: archive file [/home/abi/fetcher/tmp/PySwitchbot-0.9.0.tar.gz]
+[2024-05-31 15:59:21] INFO root fetch - processPackages [PySwitchbot]: Remove: archive file [/home/abi/fetcher/tmp/PySwitchbot-0.9.1.tar.gz]
+[2024-05-31 15:59:21] INFO root fetch - main [MainThread]: End processing [PySwitchbot]: success
+[2024-05-31 15:59:21] INFO root fetch - processPackages [oianalytics]: Remove: archive file [/home/abi/fetcher/tmp/oianalytics-0.5.3.tar.gz]
+[2024-05-31 15:59:21] INFO root fetch - processPackages [oianalytics]: Remove: archive file [/home/abi/fetcher/tmp/oianalytics-0.5.4b1.tar.gz]
+[2024-05-31 15:59:21] INFO root fetch - main [MainThread]: End processing [oianalytics]: success
+[2024-05-31 15:59:21] INFO root fetch - processPackages [PyDynamic]: Remove: archive file [/home/abi/fetcher/tmp/PyDynamic-2.4.2.tar.gz]
+[2024-05-31 15:59:21] INFO root fetch - processPackages [PyDynamic]: Remove: archive file [/home/abi/fetcher/tmp/PyDynamic-2.5.0.tar.gz]
+[2024-05-31 15:59:21] INFO root fetch - main [MainThread]: End processing [PyDynamic]: success
+[2024-05-31 15:59:21] INFO root fetch - main [MainThread]: Store serial: [23466640]
