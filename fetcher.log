@@ -8645,3 +8645,54 @@
 [2024-05-31 07:59:30] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405310558-py3-none-any.whl.zip]
 [2024-05-31 07:59:30] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-31 07:59:30] INFO root fetch - main [MainThread]: Store serial: [23461038]
+[2024-05-31 08:01:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461038]
+[2024-05-31 08:01:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 08:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyasdb
+[2024-05-31 08:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyasdb
+[2024-05-31 08:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyasdb
+[2024-05-31 08:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyasdb
+[2024-05-31 08:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyasdb
+[2024-05-31 08:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: echidma
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/a1/19/ca2949837345edec6755411bc46f619c279ec79202f691df65d959ae6923/pyasdb-0.0.1-py3-none-any.whl
+[2024-05-31 08:01:38] INFO root fetch - processPackages [echidma]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/a1/19/ca2949837345edec6755411bc46f619c279ec79202f691df65d959ae6923/pyasdb-0.0.1-py3-none-any.whl
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/a1/19/ca2949837345edec6755411bc46f619c279ec79202f691df65d959ae6923/pyasdb-0.0.1-py3-none-any.whl
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/a1/19/ca2949837345edec6755411bc46f619c279ec79202f691df65d959ae6923/pyasdb-0.0.1-py3-none-any.whl
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/a1/19/ca2949837345edec6755411bc46f619c279ec79202f691df65d959ae6923/pyasdb-0.0.1-py3-none-any.whl
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/ab/42/c54aed5c2486d1b16c54eceba8dc83df2dc8486374bab5f3fcffda5fc18f/pyasdb-0.0.3-py3-none-any.whl
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/ab/42/c54aed5c2486d1b16c54eceba8dc83df2dc8486374bab5f3fcffda5fc18f/pyasdb-0.0.3-py3-none-any.whl
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/ab/42/c54aed5c2486d1b16c54eceba8dc83df2dc8486374bab5f3fcffda5fc18f/pyasdb-0.0.3-py3-none-any.whl
+[2024-05-31 08:01:38] INFO root fetch - processPackages [echidma]: Downloading https://files.pythonhosted.org/packages/9f/3f/9ff81bba21802c7e1485941472bf1da40e83d91d44d29751ea34f122b54f/echidma-0.0.2.tar.gz
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/ab/42/c54aed5c2486d1b16c54eceba8dc83df2dc8486374bab5f3fcffda5fc18f/pyasdb-0.0.3-py3-none-any.whl
+[2024-05-31 08:01:38] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/ab/42/c54aed5c2486d1b16c54eceba8dc83df2dc8486374bab5f3fcffda5fc18f/pyasdb-0.0.3-py3-none-any.whl
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: executing diffoscope
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasdb-0.0.1.tar.gz tmp/pyasdb-0.0.3-py3-none-any.whl.zip --markdown 20240531/p/pyasdb/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: executing diffoscope
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasdb-0.0.1-py3-none-any.whl.zip tmp/pyasdb-0.0.3-py3-none-any.whl.zip --markdown 20240531/p/pyasdb/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: executing diffoscope
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasdb-0.0.1-py3-none-any.whl.zip tmp/pyasdb-0.0.3-py3-none-any.whl.zip --markdown 20240531/p/pyasdb/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: executing diffoscope
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasdb-0.0.1-py3-none-any.whl.zip tmp/pyasdb-0.0.3.tar.gz --markdown 20240531/p/pyasdb/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: executing diffoscope
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasdb-0.0.1.tar.gz tmp/pyasdb-0.0.3.tar.gz --markdown 20240531/p/pyasdb/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-31 08:01:39] INFO root fetch - processPackages [echidma]: Downloading https://files.pythonhosted.org/packages/89/28/a929bb57fc979a7f46a048ba6bd580caf58d14fec74b502cf3df6b940012/echidma-0.0.3.tar.gz
+[2024-05-31 08:01:39] INFO root fetch - processPackages [echidma]: executing diffoscope
+[2024-05-31 08:01:39] INFO root fetch - processPackages [echidma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echidma-0.0.2.tar.gz tmp/echidma-0.0.3.tar.gz --markdown 20240531/e/echidma/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: Remove: archive file [/home/abi/fetcher/tmp/pyasdb-0.0.1-py3-none-any.whl.zip]
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: Remove: archive file [/home/abi/fetcher/tmp/pyasdb-0.0.3-py3-none-any.whl.zip]
+[2024-05-31 08:01:39] INFO root fetch - main [MainThread]: End processing [pyasdb]: success
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: Remove: archive file [/home/abi/fetcher/tmp/pyasdb-0.0.3.tar.gz]
+[2024-05-31 08:01:39] INFO root fetch - main [MainThread]: End processing [pyasdb]: success
+[2024-05-31 08:01:39] INFO root fetch - processPackages [pyasdb]: Remove: archive file [/home/abi/fetcher/tmp/pyasdb-0.0.1.tar.gz]
+[2024-05-31 08:01:39] INFO root fetch - main [MainThread]: End processing [pyasdb]: success
+[2024-05-31 08:01:39] INFO root fetch - main [MainThread]: End processing [pyasdb]: success
+[2024-05-31 08:01:40] INFO root fetch - main [MainThread]: End processing [pyasdb]: success
+[2024-05-31 08:01:40] INFO root fetch - processPackages [echidma]: Remove: archive file [/home/abi/fetcher/tmp/echidma-0.0.2.tar.gz]
+[2024-05-31 08:01:40] INFO root fetch - processPackages [echidma]: Remove: archive file [/home/abi/fetcher/tmp/echidma-0.0.3.tar.gz]
+[2024-05-31 08:01:40] INFO root fetch - main [MainThread]: End processing [echidma]: success
+[2024-05-31 08:01:40] INFO root fetch - main [MainThread]: Store serial: [23461071]

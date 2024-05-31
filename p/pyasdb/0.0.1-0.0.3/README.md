@@ -1,4 +1,4 @@
-# Comparing `tmp/pyasdb-0.0.1-py3-none-any.whl.zip` & `tmp/pyasdb-0.0.3-py3-none-any.whl.zip`
+# Comparing `tmp/pyasdb-0.0.1.tar.gz` & `tmp/pyasdb-0.0.3.tar.gz`
 
 ## zipinfo {}
 
@@ -20,7 +20,7 @@
 +6 files, 90486 bytes uncompressed, 29195 bytes compressed:  67.7%
 ```
 
-## zipnote {}
+## zipnote «TEMP»/diffoscope_8n30mqd0_/tmpm8v83l2r_.zip
 
 ```diff
 @@ -1,19 +1,19 @@
