@@ -16445,3 +16445,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:19:29] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-05-31 13:19:29] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-05-31 13:19:29] INFO root fetch - main [MainThread]: Store serial: [23464710]
+[2024-05-31 13:21:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464710]
+[2024-05-31 13:21:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 13:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: svd-training
+[2024-05-31 13:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svn2git
+[2024-05-31 13:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lama2923
+[2024-05-31 13:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpanalyze
+[2024-05-31 13:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BinhoSupernova
+[2024-05-31 13:21:37] INFO root fetch - processPackages [svn2git]: New version: [0.8.5rc1] Old Version: [0.8.5]
+[2024-05-31 13:21:38] INFO root fetch - processPackages [svd-training]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 13:21:38] INFO root fetch - processPackages [lama2923]: New version: [1.1.2] Old Version: [1.0.8]
+[2024-05-31 13:21:38] INFO root fetch - processPackages [mpanalyze]: New version: [0.3] Old Version: [0.2]
+[2024-05-31 13:21:38] INFO root fetch - processPackages [BinhoSupernova]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-31 13:21:38] INFO root fetch - processPackages [svn2git]: Downloading https://files.pythonhosted.org/packages/ee/fa/9d052351e3d0565e5a21b2f9d161dd5ca34f19528bf3ab13ed64a4af60f2/svn2git-0.8.5.tar.gz
+[2024-05-31 13:21:38] INFO root fetch - processPackages [svd-training]: Downloading https://files.pythonhosted.org/packages/c2/00/04bcc3365febef1be9ffc6129ce4a6d4bd9a8fbafd4160ccdc7c68cb92cf/svd_training-0.0.1-py3-none-any.whl
+[2024-05-31 13:21:38] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/b3/02/334e8412f81224f0c4d21dfc1d4cdc18c8c079944cfe5ff56c1dfd6bff55/lama2923-1.0.8.tar.gz
+[2024-05-31 13:21:38] INFO root fetch - processPackages [BinhoSupernova]: Downloading https://files.pythonhosted.org/packages/ed/62/e5947f235e2b87a453f8d98905a3108311aea8f1c668e9733cbdf4ef86ae/BinhoSupernova-2.1.0.tar.gz
+[2024-05-31 13:21:38] INFO root fetch - processPackages [mpanalyze]: Downloading https://files.pythonhosted.org/packages/cd/2b/c9bc0916e130fef6712efe909c86fa87e737e8fc4b6d58a779956fe0aad5/mpanalyze-0.2.tar.gz
+[2024-05-31 13:21:38] INFO root fetch - processPackages [svn2git]: Downloading https://files.pythonhosted.org/packages/b8/83/34fc1359782b90378ccfd274bea7f9643053996c3ec5aa736f9add73d672/svn2git-0.8.5rc1.tar.gz
+[2024-05-31 13:21:38] INFO root fetch - processPackages [svd-training]: Downloading https://files.pythonhosted.org/packages/31/b4/d3d8bfa97c90704db405d5bcc418d1b8986283ca50af86a7451378bac9d9/svd_training-0.0.2-py3-none-any.whl
+[2024-05-31 13:21:38] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/f8/4f/0db127c42bd33f92dbe85291d9c05e758db582276a01f287964aad0515be/lama2923-1.1.2.tar.gz
+[2024-05-31 13:21:38] INFO root fetch - processPackages [svn2git]: executing diffoscope
+[2024-05-31 13:21:38] INFO root fetch - processPackages [svn2git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svn2git-0.8.5.tar.gz tmp/svn2git-0.8.5rc1.tar.gz --markdown 20240531/s/svn2git/0.8.5-0.8.5rc1/README.md --exclude *.pyd
+[2024-05-31 13:21:38] INFO root fetch - processPackages [mpanalyze]: Downloading https://files.pythonhosted.org/packages/76/09/945c0fe69a47f4e95c1cf55a6fa4b49a84b32d9bb4e4f6d99b35399afef3/mpanalyze-0.3.tar.gz
+[2024-05-31 13:21:38] INFO root fetch - processPackages [svd-training]: executing diffoscope
+[2024-05-31 13:21:38] INFO root fetch - processPackages [svd-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svd_training-0.0.1-py3-none-any.whl.zip tmp/svd_training-0.0.2-py3-none-any.whl.zip --markdown 20240531/s/svd-training/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 13:21:38] INFO root fetch - processPackages [lama2923]: executing diffoscope
+[2024-05-31 13:21:38] INFO root fetch - processPackages [lama2923]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lama2923-1.0.8.tar.gz tmp/lama2923-1.1.2.tar.gz --markdown 20240531/l/lama2923/1.0.8-1.1.2/README.md --exclude *.pyd
+[2024-05-31 13:21:38] INFO root fetch - processPackages [mpanalyze]: executing diffoscope
+[2024-05-31 13:21:38] INFO root fetch - processPackages [mpanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpanalyze-0.2.tar.gz tmp/mpanalyze-0.3.tar.gz --markdown 20240531/m/mpanalyze/0.2-0.3/README.md --exclude *.pyd
+[2024-05-31 13:21:38] INFO root fetch - processPackages [BinhoSupernova]: Downloading https://files.pythonhosted.org/packages/ad/0f/cc4b699a93d223b2169e7c016cc4cba1d7dcaad702ddd58c776e88cceb4a/BinhoSupernova-2.2.0.tar.gz
+[2024-05-31 13:21:39] INFO root fetch - processPackages [BinhoSupernova]: executing diffoscope
+[2024-05-31 13:21:39] INFO root fetch - processPackages [BinhoSupernova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BinhoSupernova-2.1.0.tar.gz tmp/BinhoSupernova-2.2.0.tar.gz --markdown 20240531/B/BinhoSupernova/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-31 13:21:39] INFO root fetch - processPackages [svn2git]: Remove: archive file [/home/abi/fetcher/tmp/svn2git-0.8.5.tar.gz]
+[2024-05-31 13:21:39] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.0.8.tar.gz]
+[2024-05-31 13:21:39] INFO root fetch - processPackages [svn2git]: Remove: archive file [/home/abi/fetcher/tmp/svn2git-0.8.5rc1.tar.gz]
+[2024-05-31 13:21:39] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.1.2.tar.gz]
+[2024-05-31 13:21:39] INFO root fetch - main [MainThread]: End processing [svn2git]: success
+[2024-05-31 13:21:39] INFO root fetch - main [MainThread]: End processing [lama2923]: success
+[2024-05-31 13:21:39] INFO root fetch - processPackages [mpanalyze]: Remove: archive file [/home/abi/fetcher/tmp/mpanalyze-0.2.tar.gz]
+[2024-05-31 13:21:39] INFO root fetch - processPackages [mpanalyze]: Remove: archive file [/home/abi/fetcher/tmp/mpanalyze-0.3.tar.gz]
+[2024-05-31 13:21:39] INFO root fetch - main [MainThread]: End processing [mpanalyze]: success
+[2024-05-31 13:21:39] INFO root fetch - processPackages [svd-training]: Remove: archive file [/home/abi/fetcher/tmp/svd_training-0.0.1-py3-none-any.whl.zip]
+[2024-05-31 13:21:39] INFO root fetch - processPackages [svd-training]: Remove: archive file [/home/abi/fetcher/tmp/svd_training-0.0.2-py3-none-any.whl.zip]
+[2024-05-31 13:21:39] INFO root fetch - main [MainThread]: End processing [svd-training]: success
+[2024-05-31 13:21:40] INFO root fetch - processPackages [BinhoSupernova]: Remove: archive file [/home/abi/fetcher/tmp/BinhoSupernova-2.1.0.tar.gz]
+[2024-05-31 13:21:40] INFO root fetch - processPackages [BinhoSupernova]: Remove: archive file [/home/abi/fetcher/tmp/BinhoSupernova-2.2.0.tar.gz]
+[2024-05-31 13:21:40] INFO root fetch - main [MainThread]: End processing [BinhoSupernova]: success
+[2024-05-31 13:21:40] INFO root fetch - main [MainThread]: Store serial: [23464732]
