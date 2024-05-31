@@ -13772,3 +13772,33 @@
 [2024-05-31 11:38:01] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-05-31 11:38:01] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
 [2024-05-31 11:38:01] INFO root fetch - main [MainThread]: Store serial: [23463508]
+[2024-05-31 11:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463508]
+[2024-05-31 11:40:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 11:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctrip-helper
+[2024-05-31 11:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: restmapi
+[2024-05-31 11:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iotics-grpc-client
+[2024-05-31 11:40:10] INFO root fetch - processPackages [ctrip-helper]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-31 11:40:10] INFO root fetch - processPackages [restmapi]: New version: [1.0.4.5] Old Version: [1.0.4.4]
+[2024-05-31 11:40:10] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/cf/46/d97e8832052044458d2b6a2f473f6b663fa1595f3a0277f03abec84c1512/ctrip-helper-0.3.6.tar.gz
+[2024-05-31 11:40:10] INFO root fetch - processPackages [restmapi]: Downloading https://files.pythonhosted.org/packages/cc/b3/b755247e76e8b294e151402f8f8e2ce4809335974d12ff187ce19752d45c/restmapi-1.0.4.4-py3-none-any.whl
+[2024-05-31 11:40:10] INFO root fetch - processPackages [iotics-grpc-client]: New version: [6.0.0] Old Version: [5.0.0]
+[2024-05-31 11:40:10] INFO root fetch - processPackages [restmapi]: Downloading https://files.pythonhosted.org/packages/83/d9/ad4f5d6e6ea5bdeab9e24f67c182a4deac6097d34fdb9947528ac5f9dbf7/restmapi-1.0.4.5-py3-none-any.whl
+[2024-05-31 11:40:10] INFO root fetch - processPackages [iotics-grpc-client]: Downloading https://files.pythonhosted.org/packages/cb/88/5b3831f8411d53ae689759f73a813f1008778d3fb8a8da30f2f381bdf692/iotics-grpc-client-5.0.0.tar.gz
+[2024-05-31 11:40:10] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/ac/be/840c6423513d0d6a2618b03df93caa2240a7de4440f45c5632a5e62d952a/ctrip-helper-0.3.7.tar.gz
+[2024-05-31 11:40:10] INFO root fetch - processPackages [restmapi]: executing diffoscope
+[2024-05-31 11:40:10] INFO root fetch - processPackages [restmapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restmapi-1.0.4.4-py3-none-any.whl.zip tmp/restmapi-1.0.4.5-py3-none-any.whl.zip --markdown 20240531/r/restmapi/1.0.4.4-1.0.4.5/README.md --exclude *.pyd
+[2024-05-31 11:40:10] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 11:40:10] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.3.6.tar.gz tmp/ctrip-helper-0.3.7.tar.gz --markdown 20240531/c/ctrip-helper/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-31 11:40:10] INFO root fetch - processPackages [iotics-grpc-client]: Downloading https://files.pythonhosted.org/packages/15/85/b545820f27889fbb63ad6cff3ae784c2fa779c436f003fbdc291d1895a4a/iotics-grpc-client-6.0.0.tar.gz
+[2024-05-31 11:40:11] INFO root fetch - processPackages [iotics-grpc-client]: executing diffoscope
+[2024-05-31 11:40:11] INFO root fetch - processPackages [iotics-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotics-grpc-client-5.0.0.tar.gz tmp/iotics-grpc-client-6.0.0.tar.gz --markdown 20240531/i/iotics-grpc-client/5.0.0-6.0.0/README.md --exclude *.pyd
+[2024-05-31 11:40:11] INFO root fetch - processPackages [restmapi]: Remove: archive file [/home/abi/fetcher/tmp/restmapi-1.0.4.4-py3-none-any.whl.zip]
+[2024-05-31 11:40:11] INFO root fetch - processPackages [restmapi]: Remove: archive file [/home/abi/fetcher/tmp/restmapi-1.0.4.5-py3-none-any.whl.zip]
+[2024-05-31 11:40:11] INFO root fetch - main [MainThread]: End processing [restmapi]: success
+[2024-05-31 11:40:11] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.6.tar.gz]
+[2024-05-31 11:40:11] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.7.tar.gz]
+[2024-05-31 11:40:11] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 11:40:11] INFO root fetch - processPackages [iotics-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/iotics-grpc-client-5.0.0.tar.gz]
+[2024-05-31 11:40:11] INFO root fetch - processPackages [iotics-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/iotics-grpc-client-6.0.0.tar.gz]
+[2024-05-31 11:40:11] INFO root fetch - main [MainThread]: End processing [iotics-grpc-client]: success
+[2024-05-31 11:40:11] INFO root fetch - main [MainThread]: Store serial: [23463516]
