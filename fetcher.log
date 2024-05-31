@@ -4791,3 +4791,15 @@
 [2024-05-31 03:54:45] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
 [2024-05-31 03:54:45] INFO root fetch - main [MainThread]: End processing [oebuild]: success
 [2024-05-31 03:54:45] INFO root fetch - main [MainThread]: Store serial: [23459404]
+[2024-05-31 03:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459404]
+[2024-05-31 03:56:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-31 03:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipyard-census
+[2024-05-31 03:56:54] INFO root fetch - processPackages [shipyard-census]: New version: [0.2.0a0] Old Version: [0.1.1a4]
+[2024-05-31 03:56:54] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/fc/79/419f5a26e84f7087458a9143fb7e29fc8905cda8618b270c5fdffd3a1adf/shipyard_census-0.1.1a4.tar.gz
+[2024-05-31 03:56:54] INFO root fetch - processPackages [shipyard-census]: Downloading https://files.pythonhosted.org/packages/6b/d6/f7ce1749a63d9aa2035aa96627bf57448f481d1ea17ce7202d68f53189fe/shipyard_census-0.2.0a0.tar.gz
+[2024-05-31 03:56:54] INFO root fetch - processPackages [shipyard-census]: executing diffoscope
+[2024-05-31 03:56:54] INFO root fetch - processPackages [shipyard-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_census-0.1.1a4.tar.gz tmp/shipyard_census-0.2.0a0.tar.gz --markdown 20240531/s/shipyard-census/0.1.1a4-0.2.0a0/README.md --exclude *.pyd
+[2024-05-31 03:56:55] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.1.1a4.tar.gz]
+[2024-05-31 03:56:55] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.2.0a0.tar.gz]
+[2024-05-31 03:56:55] INFO root fetch - main [MainThread]: End processing [shipyard-census]: success
+[2024-05-31 03:56:55] INFO root fetch - main [MainThread]: Store serial: [23459407]
