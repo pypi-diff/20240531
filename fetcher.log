@@ -19390,3 +19390,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:09:15] INFO root fetch - processPackages [ascat]: Remove: archive file [/home/abi/fetcher/tmp/ascat-2.4.2.tar.gz]
 [2024-05-31 15:09:15] INFO root fetch - main [MainThread]: End processing [ascat]: success
 [2024-05-31 15:09:15] INFO root fetch - main [MainThread]: Store serial: [23466037]
+[2024-05-31 15:11:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466037]
+[2024-05-31 15:11:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 15:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gftools
+[2024-05-31 15:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grafana-foundation-sdk
+[2024-05-31 15:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PQAnalysis
+[2024-05-31 15:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ppatch
+[2024-05-31 15:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: comet-mpm
+[2024-05-31 15:11:25] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1717160623!10.4.0] Old Version: [1717160612!10.3.0]
+[2024-05-31 15:11:25] INFO root fetch - processPackages [ppatch]: New version: [0.0.4b2] Old Version: [0.0.4b1]
+[2024-05-31 15:11:25] INFO root fetch - processPackages [gftools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-31 15:11:25] INFO root fetch - processPackages [PQAnalysis]: New version: [1.0.7] Old Version: [1.0.6.1]
+[2024-05-31 15:11:25] INFO root fetch - processPackages [comet-mpm]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-05-31 15:11:25] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/e7/cd/ad169c46b589edaf70c6a7eeff30d32250cb9aab3225c256ac8fd27f494f/grafana_foundation_sdk-1717160612!10.3.0.tar.gz
+[2024-05-31 15:11:25] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/6d/5d/f19c961c63554a9224a8abee321b0a8715dc1e05bbe03077b56b75a8bc0b/gftools-0.9.8.tar.gz
+[2024-05-31 15:11:25] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/fd/d4/ac388ef106b33559c92ca3a798f5d7c7f1e958d3e0f82ef9771ce9b14616/pqanalysis-1.0.6.1.tar.gz
+[2024-05-31 15:11:25] INFO root fetch - processPackages [ppatch]: Downloading https://files.pythonhosted.org/packages/74/32/f352985e26856ec0cb356977f5935ae41d6484ba4de078037e639d3c13f4/ppatch-0.0.4b1.tar.gz
+[2024-05-31 15:11:25] INFO root fetch - processPackages [comet-mpm]: Downloading https://files.pythonhosted.org/packages/57/28/61125d4a3d0dfbc69f2f4f82996319e7f47f850081c5385420399543fb32/comet_mpm-1.0.0.tar.gz
+[2024-05-31 15:11:25] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/6c/06/fbc38d333ebe79bca6cac3e6a1060713afb1094bfd31ebe036906f8887d5/grafana_foundation_sdk-1717160623!10.4.0.tar.gz
+[2024-05-31 15:11:25] INFO root fetch - processPackages [ppatch]: Downloading https://files.pythonhosted.org/packages/b1/db/76412277190b4ccb45380449b4d80d70c1862923ad9072ccedbe125e51bb/ppatch-0.0.4b2.tar.gz
+[2024-05-31 15:11:25] INFO root fetch - processPackages [comet-mpm]: Downloading https://files.pythonhosted.org/packages/7e/14/e1b9ca97f99dc6914c097b127d19a71509421ab8307e072c0b1af9b474b1/comet_mpm-1.0.2.tar.gz
+[2024-05-31 15:11:25] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-31 15:11:25] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1717160612!10.3.0.tar.gz tmp/grafana_foundation_sdk-1717160623!10.4.0.tar.gz --markdown 20240531/g/grafana-foundation-sdk/1717160612!10.3.0-1717160623!10.4.0/README.md --exclude *.pyd
+[2024-05-31 15:11:25] INFO root fetch - processPackages [ppatch]: executing diffoscope
+[2024-05-31 15:11:25] INFO root fetch - processPackages [ppatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppatch-0.0.4b1.tar.gz tmp/ppatch-0.0.4b2.tar.gz --markdown 20240531/p/ppatch/0.0.4b1-0.0.4b2/README.md --exclude *.pyd
+[2024-05-31 15:11:25] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/dc/28/c84f06796d506987ea6b94439f987db1c0fb2bcff8d2b3bdba0064929b46/pqanalysis-1.0.7.tar.gz
+[2024-05-31 15:11:25] INFO root fetch - processPackages [comet-mpm]: executing diffoscope
+[2024-05-31 15:11:25] INFO root fetch - processPackages [comet-mpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_mpm-1.0.0.tar.gz tmp/comet_mpm-1.0.2.tar.gz --markdown 20240531/c/comet-mpm/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-05-31 15:11:26] INFO root fetch - processPackages [PQAnalysis]: executing diffoscope
+[2024-05-31 15:11:26] INFO root fetch - processPackages [PQAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqanalysis-1.0.6.1.tar.gz tmp/pqanalysis-1.0.7.tar.gz --markdown 20240531/P/PQAnalysis/1.0.6.1-1.0.7/README.md --exclude *.pyd
+[2024-05-31 15:11:26] INFO root fetch - processPackages [ppatch]: Remove: archive file [/home/abi/fetcher/tmp/ppatch-0.0.4b1.tar.gz]
+[2024-05-31 15:11:26] INFO root fetch - processPackages [ppatch]: Remove: archive file [/home/abi/fetcher/tmp/ppatch-0.0.4b2.tar.gz]
+[2024-05-31 15:11:26] INFO root fetch - main [MainThread]: End processing [ppatch]: success
+[2024-05-31 15:11:26] INFO root fetch - processPackages [comet-mpm]: Remove: archive file [/home/abi/fetcher/tmp/comet_mpm-1.0.0.tar.gz]
+[2024-05-31 15:11:26] INFO root fetch - processPackages [comet-mpm]: Remove: archive file [/home/abi/fetcher/tmp/comet_mpm-1.0.2.tar.gz]
+[2024-05-31 15:11:26] INFO root fetch - main [MainThread]: End processing [comet-mpm]: success
+[2024-05-31 15:11:27] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1717160612!10.3.0.tar.gz]
+[2024-05-31 15:11:27] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1717160623!10.4.0.tar.gz]
+[2024-05-31 15:11:27] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-31 15:11:27] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/4a/43/0695adddf818c751dd6cd94baf605871116827e1297e634d3f4508330908/gftools-0.9.9.tar.gz
+[2024-05-31 15:11:28] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.6.1.tar.gz]
+[2024-05-31 15:11:28] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.7.tar.gz]
+[2024-05-31 15:11:28] INFO root fetch - main [MainThread]: End processing [PQAnalysis]: success
+[2024-05-31 15:11:28] INFO root fetch - processPackages [gftools]: executing diffoscope
+[2024-05-31 15:11:28] INFO root fetch - processPackages [gftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gftools-0.9.8.tar.gz tmp/gftools-0.9.9.tar.gz --markdown 20240531/g/gftools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-31 15:11:35] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.8.tar.gz]
+[2024-05-31 15:11:35] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
+[2024-05-31 15:11:35] INFO root fetch - main [MainThread]: End processing [gftools]: success
+[2024-05-31 15:11:35] INFO root fetch - main [MainThread]: Store serial: [23466053]
