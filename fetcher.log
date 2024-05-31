@@ -3349,3 +3349,24 @@
 [2024-05-31 02:37:31] INFO root fetch - processPackages [maialib]: Remove: archive file [/home/abi/fetcher/tmp/maialib-1.4.6-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-31 02:37:31] INFO root fetch - main [MainThread]: End processing [maialib]: success
 [2024-05-31 02:37:31] INFO root fetch - main [MainThread]: Store serial: [23458886]
+[2024-05-31 02:39:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458886]
+[2024-05-31 02:39:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 02:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-nag
+[2024-05-31 02:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ahk
+[2024-05-31 02:39:45] INFO root fetch - processPackages [ahk]: New version: [1.7.5] Old Version: [1.7.4]
+[2024-05-31 02:39:45] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-31 02:39:45] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/01/a5/de49aa7ad518fc97e6e481abce1d012d8ea5bbc6143903e91871b92a1400/ahk-1.7.4.tar.gz
+[2024-05-31 02:39:45] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-31 02:39:45] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/54/e3/68e3cf4564a44ea5f03e0fc9fecb419062f5410eda5edc11dd57290b2437/ahk-1.7.5.tar.gz
+[2024-05-31 02:39:45] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-31 02:39:45] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2024-05-31 02:39:45] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.7.4.tar.gz tmp/ahk-1.7.5.tar.gz --markdown 20240531/a/ahk/1.7.4-1.7.5/README.md --exclude *.pyd
+[2024-05-31 02:39:45] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-31 02:39:45] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240531/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-31 02:39:46] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-31 02:39:46] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-31 02:39:46] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-31 02:39:46] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.7.4.tar.gz]
+[2024-05-31 02:39:46] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.7.5.tar.gz]
+[2024-05-31 02:39:46] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2024-05-31 02:39:46] INFO root fetch - main [MainThread]: Store serial: [23458899]
