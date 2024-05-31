@@ -14409,3 +14409,72 @@
 [2024-05-31 12:00:08] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024053009.tar.gz]
 [2024-05-31 12:00:08] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-31 12:00:08] INFO root fetch - main [MainThread]: Store serial: [23463831]
+[2024-05-31 12:02:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463831]
+[2024-05-31 12:02:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 12:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dspawpy
+[2024-05-31 12:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-template-lsp
+[2024-05-31 12:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: groqchat
+[2024-05-31 12:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lektricowifi
+[2024-05-31 12:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ALLMDEV
+[2024-05-31 12:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PQAnalysis
+[2024-05-31 12:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lines-dataset
+[2024-05-31 12:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: message-local
+[2024-05-31 12:02:17] INFO root fetch - processPackages [lektricowifi]: New version: [0.0.9] Old Version: [0.0.29]
+[2024-05-31 12:02:17] INFO root fetch - processPackages [lines-dataset]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 12:02:17] INFO root fetch - processPackages [django-template-lsp]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-31 12:02:17] INFO root fetch - processPackages [lektricowifi]: Downloading https://files.pythonhosted.org/packages/a4/c8/43b2ca54f0c0a5f0fad0156a0f98c1ce3a552f9cd780bac6967ebe760c3b/lektricowifi-0.0.29.tar.gz
+[2024-05-31 12:02:18] INFO root fetch - processPackages [lines-dataset]: Downloading https://files.pythonhosted.org/packages/87/4a/294db7dcdd41e50df33b8a8e63d54c00cd620e9d2402209e26a94d4b08cf/lines_dataset-0.1.3.tar.gz
+[2024-05-31 12:02:18] WARNING root fetch - processPackages [groqchat]: Skipping, unable to determine old version
+[2024-05-31 12:02:18] INFO root fetch - main [MainThread]: End processing [groqchat] error
+[2024-05-31 12:02:18] INFO root fetch - processPackages [ALLMDEV]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-31 12:02:18] INFO root fetch - processPackages [dspawpy]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-31 12:02:18] INFO root fetch - processPackages [PQAnalysis]: New version: [1.0.6.1] Old Version: [1.0.6]
+[2024-05-31 12:02:18] INFO root fetch - processPackages [message-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 12:02:18] INFO root fetch - processPackages [lektricowifi]: Downloading https://files.pythonhosted.org/packages/14/11/f224fa1f58d2852240b73632f6f13082434177fb1ee9610a7285b6225a73/lektricowifi-0.0.9.tar.gz
+[2024-05-31 12:02:18] INFO root fetch - processPackages [django-template-lsp]: Downloading https://files.pythonhosted.org/packages/93/fb/ea1f7b73dd790fc9ab787b8d96cf7efdb0d7b686fad35d8eec991b8699c5/django_template_lsp-0.2.0.tar.gz
+[2024-05-31 12:02:18] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/26/04/df193487954786a8f3bbbfef3474c26d0180c57423f06ce9f88782133c39/ALLMDEV-1.3.7-py3-none-any.whl
+[2024-05-31 12:02:18] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/2a/1f/a9c05a77afc73a3fef56c493602b2da5fe24d44c68e0cff8b6dbc67ace34/pqanalysis-1.0.6.tar.gz
+[2024-05-31 12:02:18] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/65/3e/03ed3e1427c12fb391d7652241ba3611563c09712a342900a90d20c3caff/dspawpy-1.3.1.tar.gz
+[2024-05-31 12:02:18] INFO root fetch - processPackages [lektricowifi]: executing diffoscope
+[2024-05-31 12:02:18] INFO root fetch - processPackages [lektricowifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektricowifi-0.0.29.tar.gz tmp/lektricowifi-0.0.9.tar.gz --markdown 20240531/l/lektricowifi/0.0.29-0.0.9/README.md --exclude *.pyd
+[2024-05-31 12:02:18] INFO root fetch - processPackages [lines-dataset]: Downloading https://files.pythonhosted.org/packages/0b/53/66c3b2080ba635f0b7739ca79daaec1820f21e6bb881f7c3d7978d0732ba/lines_dataset-0.1.4.tar.gz
+[2024-05-31 12:02:18] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/58/98/6002a91d9f0eb23b635ecf892333a787e13c1e810b92090bc53584aa2f18/message-local-0.0.98.tar.gz
+[2024-05-31 12:02:18] INFO root fetch - processPackages [lines-dataset]: executing diffoscope
+[2024-05-31 12:02:18] INFO root fetch - processPackages [lines-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lines_dataset-0.1.3.tar.gz tmp/lines_dataset-0.1.4.tar.gz --markdown 20240531/l/lines-dataset/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 12:02:18] INFO root fetch - processPackages [django-template-lsp]: Downloading https://files.pythonhosted.org/packages/1a/d8/ef71c9f83d1d764b60d937ecd61c9a1290ec65bdbb067b267f689d4536fb/django_template_lsp-0.2.1.tar.gz
+[2024-05-31 12:02:18] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/4d/55/0aa6b819d8f1c7794b36f691259ccfe19f5188fca9368759289764fdc4c9/ALLMDEV-1.3.8-py3-none-any.whl
+[2024-05-31 12:02:18] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/d7/b4/9aacf12a37d6035551ef5c6e1343a61081af9dac67f7ab72473db52d18db/dspawpy-1.3.2.tar.gz
+[2024-05-31 12:02:18] INFO root fetch - processPackages [django-template-lsp]: executing diffoscope
+[2024-05-31 12:02:18] INFO root fetch - processPackages [django-template-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_template_lsp-0.2.0.tar.gz tmp/django_template_lsp-0.2.1.tar.gz --markdown 20240531/d/django-template-lsp/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-31 12:02:18] INFO root fetch - processPackages [message-local]: Downloading https://files.pythonhosted.org/packages/78/17/d149670c7821186afe25a7b74020f68bd8db48497b170965d75952fbe2d8/message-local-0.0.99.tar.gz
+[2024-05-31 12:02:18] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2024-05-31 12:02:18] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-1.3.1.tar.gz tmp/dspawpy-1.3.2.tar.gz --markdown 20240531/d/dspawpy/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-31 12:02:18] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/fd/d4/ac388ef106b33559c92ca3a798f5d7c7f1e958d3e0f82ef9771ce9b14616/pqanalysis-1.0.6.1.tar.gz
+[2024-05-31 12:02:18] INFO root fetch - processPackages [ALLMDEV]: executing diffoscope
+[2024-05-31 12:02:18] INFO root fetch - processPackages [ALLMDEV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALLMDEV-1.3.7-py3-none-any.whl.zip tmp/ALLMDEV-1.3.8-py3-none-any.whl.zip --markdown 20240531/A/ALLMDEV/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-31 12:02:18] INFO root fetch - processPackages [message-local]: executing diffoscope
+[2024-05-31 12:02:18] INFO root fetch - processPackages [message-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-local-0.0.98.tar.gz tmp/message-local-0.0.99.tar.gz --markdown 20240531/m/message-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 12:02:19] INFO root fetch - processPackages [lektricowifi]: Remove: archive file [/home/abi/fetcher/tmp/lektricowifi-0.0.29.tar.gz]
+[2024-05-31 12:02:19] INFO root fetch - processPackages [lektricowifi]: Remove: archive file [/home/abi/fetcher/tmp/lektricowifi-0.0.9.tar.gz]
+[2024-05-31 12:02:19] INFO root fetch - main [MainThread]: End processing [lektricowifi]: success
+[2024-05-31 12:02:19] INFO root fetch - processPackages [lines-dataset]: Remove: archive file [/home/abi/fetcher/tmp/lines_dataset-0.1.3.tar.gz]
+[2024-05-31 12:02:19] INFO root fetch - processPackages [lines-dataset]: Remove: archive file [/home/abi/fetcher/tmp/lines_dataset-0.1.4.tar.gz]
+[2024-05-31 12:02:19] INFO root fetch - main [MainThread]: End processing [lines-dataset]: success
+[2024-05-31 12:02:19] INFO root fetch - processPackages [django-template-lsp]: Remove: archive file [/home/abi/fetcher/tmp/django_template_lsp-0.2.0.tar.gz]
+[2024-05-31 12:02:19] INFO root fetch - processPackages [django-template-lsp]: Remove: archive file [/home/abi/fetcher/tmp/django_template_lsp-0.2.1.tar.gz]
+[2024-05-31 12:02:19] INFO root fetch - main [MainThread]: End processing [django-template-lsp]: success
+[2024-05-31 12:02:19] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.3.7-py3-none-any.whl.zip]
+[2024-05-31 12:02:19] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.3.8-py3-none-any.whl.zip]
+[2024-05-31 12:02:19] INFO root fetch - main [MainThread]: End processing [ALLMDEV]: success
+[2024-05-31 12:02:19] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.98.tar.gz]
+[2024-05-31 12:02:19] INFO root fetch - processPackages [message-local]: Remove: archive file [/home/abi/fetcher/tmp/message-local-0.0.99.tar.gz]
+[2024-05-31 12:02:19] INFO root fetch - main [MainThread]: End processing [message-local]: success
+[2024-05-31 12:02:19] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.3.1.tar.gz]
+[2024-05-31 12:02:19] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.3.2.tar.gz]
+[2024-05-31 12:02:19] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2024-05-31 12:02:19] INFO root fetch - processPackages [PQAnalysis]: executing diffoscope
+[2024-05-31 12:02:19] INFO root fetch - processPackages [PQAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqanalysis-1.0.6.tar.gz tmp/pqanalysis-1.0.6.1.tar.gz --markdown 20240531/P/PQAnalysis/1.0.6-1.0.6.1/README.md --exclude *.pyd
+[2024-05-31 12:02:21] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.6.tar.gz]
+[2024-05-31 12:02:21] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.6.1.tar.gz]
+[2024-05-31 12:02:21] INFO root fetch - main [MainThread]: End processing [PQAnalysis]: success
+[2024-05-31 12:02:21] INFO root fetch - main [MainThread]: Store serial: [23463859]
