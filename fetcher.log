@@ -15779,3 +15779,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 12:55:31] INFO root fetch - processPackages [pan-os-python]: Remove: archive file [/home/abi/fetcher/tmp/pan_os_python-1.9.0.tar.gz]
 [2024-05-31 12:55:31] INFO root fetch - main [MainThread]: End processing [pan-os-python]: success
 [2024-05-31 12:55:31] INFO root fetch - main [MainThread]: Store serial: [23464445]
+[2024-05-31 12:57:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464445]
+[2024-05-31 12:57:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 12:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roboto-ingestion-utils
+[2024-05-31 12:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mangopaysdk
+[2024-05-31 12:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databricks-connect
+[2024-05-31 12:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fdk
+[2024-05-31 12:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zeval
+[2024-05-31 12:57:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: afeng-py-tools
+[2024-05-31 12:57:40] INFO root fetch - processPackages [roboto-ingestion-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 12:57:40] INFO root fetch - processPackages [zeval]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-31 12:57:40] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.64] Old Version: [9.1.61]
+[2024-05-31 12:57:40] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 12:57:40] INFO root fetch - processPackages [zeval]: Downloading https://files.pythonhosted.org/packages/02/cd/4f3c697c721c990b0c6f28086a72e2d310ecd2e6d12299853e4f4c31c35c/zeval-0.1.2.tar.gz
+[2024-05-31 12:57:40] INFO root fetch - processPackages [mangopaysdk]: New version: [3.9.0] Old Version: [3.8.5]
+[2024-05-31 12:57:40] INFO root fetch - processPackages [roboto-ingestion-utils]: Downloading https://files.pythonhosted.org/packages/d2/c3/a80300609c6c2f463fde8ba9898b779475564f0466bb683963e1b9bc941e/roboto_ingestion_utils-0.0.8.tar.gz
+[2024-05-31 12:57:40] INFO root fetch - processPackages [fdk]: New version: [0.1.73] Old Version: [0.1.72]
+[2024-05-31 12:57:40] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-31 12:57:40] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/20/85/147c70c27300f8127a2ce5bbcb53edb293915313f6e88fc10271e71221c1/databricks-connect-9.1.61.tar.gz
+[2024-05-31 12:57:40] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257343588>=10485760
+[2024-05-31 12:57:40] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2024-05-31 12:57:40] INFO root fetch - processPackages [mangopaysdk]: Downloading https://files.pythonhosted.org/packages/b5/d3/8afd78cac231143acf70ef4161ce2a1af10fda7c818afb4e919d105f4295/mangopaysdk-3.8.5.tar.gz
+[2024-05-31 12:57:40] INFO root fetch - processPackages [roboto-ingestion-utils]: Downloading https://files.pythonhosted.org/packages/ee/df/fa04c2857761d93336c6d780c80867d0973c82e584c7eede506d3de23f10/roboto_ingestion_utils-0.0.9.tar.gz
+[2024-05-31 12:57:40] INFO root fetch - processPackages [fdk]: Downloading https://files.pythonhosted.org/packages/9a/cc/678f52aac34dae38ea93fdbddd4d5e1d35b0c72e80562388f1576f7a4cde/fdk-0.1.72.tar.gz
+[2024-05-31 12:57:40] INFO root fetch - processPackages [zeval]: Downloading https://files.pythonhosted.org/packages/fb/42/76eb9d62ba9af7553aa804a65efde8de1bf20a620197c474f969b7adea69/zeval-0.1.4.tar.gz
+[2024-05-31 12:57:40] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-31 12:57:40] INFO root fetch - processPackages [roboto-ingestion-utils]: executing diffoscope
+[2024-05-31 12:57:40] INFO root fetch - processPackages [roboto-ingestion-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_ingestion_utils-0.0.8.tar.gz tmp/roboto_ingestion_utils-0.0.9.tar.gz --markdown 20240531/r/roboto-ingestion-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 12:57:40] INFO root fetch - processPackages [zeval]: executing diffoscope
+[2024-05-31 12:57:40] INFO root fetch - processPackages [zeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeval-0.1.2.tar.gz tmp/zeval-0.1.4.tar.gz --markdown 20240531/z/zeval/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-31 12:57:40] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-31 12:57:40] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240531/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 12:57:40] INFO root fetch - processPackages [mangopaysdk]: Downloading https://files.pythonhosted.org/packages/99/49/070680f90659bb933ab3457c9cacc3e8b1304ae1a9efb8edaa1ed48d4fef/mangopaysdk-3.9.0.tar.gz
+[2024-05-31 12:57:40] INFO root fetch - processPackages [fdk]: Downloading https://files.pythonhosted.org/packages/44/51/00d9452dab99b09f49ec27ba1409333de095149921c1efea2d87ed4e3b6a/fdk-0.1.73.tar.gz
+[2024-05-31 12:57:40] INFO root fetch - processPackages [mangopaysdk]: executing diffoscope
+[2024-05-31 12:57:40] INFO root fetch - processPackages [mangopaysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mangopaysdk-3.8.5.tar.gz tmp/mangopaysdk-3.9.0.tar.gz --markdown 20240531/m/mangopaysdk/3.8.5-3.9.0/README.md --exclude *.pyd
+[2024-05-31 12:57:40] INFO root fetch - processPackages [fdk]: executing diffoscope
+[2024-05-31 12:57:40] INFO root fetch - processPackages [fdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdk-0.1.72.tar.gz tmp/fdk-0.1.73.tar.gz --markdown 20240531/f/fdk/0.1.72-0.1.73/README.md --exclude *.pyd
+[2024-05-31 12:57:41] INFO root fetch - processPackages [roboto-ingestion-utils]: Remove: archive file [/home/abi/fetcher/tmp/roboto_ingestion_utils-0.0.8.tar.gz]
+[2024-05-31 12:57:41] INFO root fetch - processPackages [roboto-ingestion-utils]: Remove: archive file [/home/abi/fetcher/tmp/roboto_ingestion_utils-0.0.9.tar.gz]
+[2024-05-31 12:57:41] INFO root fetch - main [MainThread]: End processing [roboto-ingestion-utils]: success
+[2024-05-31 12:57:41] INFO root fetch - processPackages [zeval]: Remove: archive file [/home/abi/fetcher/tmp/zeval-0.1.2.tar.gz]
+[2024-05-31 12:57:41] INFO root fetch - processPackages [zeval]: Remove: archive file [/home/abi/fetcher/tmp/zeval-0.1.4.tar.gz]
+[2024-05-31 12:57:41] INFO root fetch - main [MainThread]: End processing [zeval]: success
+[2024-05-31 12:57:41] INFO root fetch - processPackages [fdk]: Remove: archive file [/home/abi/fetcher/tmp/fdk-0.1.72.tar.gz]
+[2024-05-31 12:57:41] INFO root fetch - processPackages [fdk]: Remove: archive file [/home/abi/fetcher/tmp/fdk-0.1.73.tar.gz]
+[2024-05-31 12:57:41] INFO root fetch - main [MainThread]: End processing [fdk]: success
+[2024-05-31 12:57:41] INFO root fetch - processPackages [mangopaysdk]: Remove: archive file [/home/abi/fetcher/tmp/mangopaysdk-3.8.5.tar.gz]
+[2024-05-31 12:57:41] INFO root fetch - processPackages [mangopaysdk]: Remove: archive file [/home/abi/fetcher/tmp/mangopaysdk-3.9.0.tar.gz]
+[2024-05-31 12:57:41] INFO root fetch - main [MainThread]: End processing [mangopaysdk]: success
+[2024-05-31 12:57:41] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-31 12:57:41] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-31 12:57:41] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-31 12:57:41] INFO root fetch - main [MainThread]: Store serial: [23464462]
