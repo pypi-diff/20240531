@@ -2586,3 +2586,18 @@
 [2024-05-31 02:00:19] INFO root fetch - processPackages [enpt]: Remove: archive file [/home/abi/fetcher/tmp/enpt-0.20.2.tar.gz]
 [2024-05-31 02:00:19] INFO root fetch - main [MainThread]: End processing [enpt]: success
 [2024-05-31 02:00:19] INFO root fetch - main [MainThread]: Store serial: [23458495]
+[2024-05-31 02:02:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458495]
+[2024-05-31 02:02:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 02:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reflex
+[2024-05-31 02:02:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wxhandler
+[2024-05-31 02:02:27] WARNING root fetch - processPackages [wxhandler]: Skipping, unable to determine old version
+[2024-05-31 02:02:27] INFO root fetch - main [MainThread]: End processing [wxhandler] error
+[2024-05-31 02:02:28] INFO root fetch - processPackages [reflex]: New version: [0.5.2a1] Old Version: [0.5.2]
+[2024-05-31 02:02:28] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/db/07/ed594105d49eb03622d3f8336803744a8adec7ec7c2b19b83b8fd39443e2/reflex-0.5.2.tar.gz
+[2024-05-31 02:02:28] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/dc/18/cd466638e5894ebb4a479e5e407d02c1c0ed1df9a5c3b64407dd962a5a9f/reflex-0.5.2a1.tar.gz
+[2024-05-31 02:02:28] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2024-05-31 02:02:28] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.5.2.tar.gz tmp/reflex-0.5.2a1.tar.gz --markdown 20240531/r/reflex/0.5.2-0.5.2a1/README.md --exclude *.pyd
+[2024-05-31 02:02:30] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.5.2.tar.gz]
+[2024-05-31 02:02:30] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.5.2a1.tar.gz]
+[2024-05-31 02:02:30] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2024-05-31 02:02:30] INFO root fetch - main [MainThread]: Store serial: [23458501]
