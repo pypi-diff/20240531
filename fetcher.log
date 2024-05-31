@@ -8337,3 +8337,33 @@
 [2024-05-31 07:46:19] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240530.1.tar.gz]
 [2024-05-31 07:46:19] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2024-05-31 07:46:19] INFO root fetch - main [MainThread]: Store serial: [23460899]
+[2024-05-31 07:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460899]
+[2024-05-31 07:48:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 07:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redactive
+[2024-05-31 07:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-dbtcloud
+[2024-05-31 07:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-dnsimple
+[2024-05-31 07:48:28] INFO root fetch - processPackages [pulumi-dbtcloud]: New version: [0.2.0a1717083774] Old Version: [0.2.0a1716988489]
+[2024-05-31 07:48:28] INFO root fetch - processPackages [pulumi-dbtcloud]: Downloading https://files.pythonhosted.org/packages/43/85/e5079304acc8805d43ee56989335796663602c42b558ed29debc9593f3ec/pulumi_dbtcloud-0.2.0a1716988489.tar.gz
+[2024-05-31 07:48:28] INFO root fetch - processPackages [redactive]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-05-31 07:48:28] INFO root fetch - processPackages [redactive]: Downloading https://files.pythonhosted.org/packages/c1/42/998054ed53618ec73381434abd96c72391ec3a5644b1b78af79c2efd34fd/redactive-0.0.5.tar.gz
+[2024-05-31 07:48:28] INFO root fetch - processPackages [pulumi-dbtcloud]: Downloading https://files.pythonhosted.org/packages/ac/5c/885469ce9da162db2cf7b0c59aca638aea48450878788f7c833ed2d46393/pulumi_dbtcloud-0.2.0a1717083774.tar.gz
+[2024-05-31 07:48:28] INFO root fetch - processPackages [pulumi-dnsimple]: New version: [3.5.0a1717133397] Old Version: [3.5.0a1716965070]
+[2024-05-31 07:48:28] INFO root fetch - processPackages [pulumi-dbtcloud]: executing diffoscope
+[2024-05-31 07:48:28] INFO root fetch - processPackages [pulumi-dbtcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dbtcloud-0.2.0a1716988489.tar.gz tmp/pulumi_dbtcloud-0.2.0a1717083774.tar.gz --markdown 20240531/p/pulumi-dbtcloud/0.2.0a1716988489-0.2.0a1717083774/README.md --exclude *.pyd
+[2024-05-31 07:48:28] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/c6/f2/2d71b6fbd5c0889c54b21bac76c283dcb4ac6973e53a7a4149136c7ab58e/pulumi_dnsimple-3.5.0a1716965070.tar.gz
+[2024-05-31 07:48:28] INFO root fetch - processPackages [redactive]: Downloading https://files.pythonhosted.org/packages/88/49/28dde8c26c375cab0d70042aea60905a36717068168d045c70ec354d6f12/redactive-0.1.0.tar.gz
+[2024-05-31 07:48:29] INFO root fetch - processPackages [redactive]: executing diffoscope
+[2024-05-31 07:48:29] INFO root fetch - processPackages [redactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redactive-0.0.5.tar.gz tmp/redactive-0.1.0.tar.gz --markdown 20240531/r/redactive/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-05-31 07:48:29] INFO root fetch - processPackages [pulumi-dnsimple]: Downloading https://files.pythonhosted.org/packages/ff/a1/b1e0d41e333b9f2c65a60ee563711fdd28adf711249326a71c5b78b3d454/pulumi_dnsimple-3.5.0a1717133397.tar.gz
+[2024-05-31 07:48:29] INFO root fetch - processPackages [pulumi-dnsimple]: executing diffoscope
+[2024-05-31 07:48:29] INFO root fetch - processPackages [pulumi-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_dnsimple-3.5.0a1716965070.tar.gz tmp/pulumi_dnsimple-3.5.0a1717133397.tar.gz --markdown 20240531/p/pulumi-dnsimple/3.5.0a1716965070-3.5.0a1717133397/README.md --exclude *.pyd
+[2024-05-31 07:48:29] INFO root fetch - processPackages [pulumi-dbtcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dbtcloud-0.2.0a1716988489.tar.gz]
+[2024-05-31 07:48:29] INFO root fetch - processPackages [pulumi-dbtcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dbtcloud-0.2.0a1717083774.tar.gz]
+[2024-05-31 07:48:29] INFO root fetch - main [MainThread]: End processing [pulumi-dbtcloud]: success
+[2024-05-31 07:48:29] INFO root fetch - processPackages [redactive]: Remove: archive file [/home/abi/fetcher/tmp/redactive-0.0.5.tar.gz]
+[2024-05-31 07:48:29] INFO root fetch - processPackages [redactive]: Remove: archive file [/home/abi/fetcher/tmp/redactive-0.1.0.tar.gz]
+[2024-05-31 07:48:29] INFO root fetch - main [MainThread]: End processing [redactive]: success
+[2024-05-31 07:48:29] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1716965070.tar.gz]
+[2024-05-31 07:48:29] INFO root fetch - processPackages [pulumi-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_dnsimple-3.5.0a1717133397.tar.gz]
+[2024-05-31 07:48:29] INFO root fetch - main [MainThread]: End processing [pulumi-dnsimple]: success
+[2024-05-31 07:48:29] INFO root fetch - main [MainThread]: Store serial: [23460911]
