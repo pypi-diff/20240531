@@ -17747,3 +17747,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:06:16] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.777.7.tar.gz]
 [2024-05-31 14:06:16] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-05-31 14:06:16] INFO root fetch - main [MainThread]: Store serial: [23465247]
+[2024-05-31 14:08:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465247]
+[2024-05-31 14:08:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctrip-helper
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flameai
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphene-django-extended
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glean-sdk
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: context-timing
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edgegap-database
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: typeapi
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ctrip-helper]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-31 14:08:27] INFO root fetch - processPackages [edgegap-database]: New version: [1.8.0] Old Version: [1.7.2]
+[2024-05-31 14:08:27] WARNING root fetch - processPackages [context-timing]: Skipping, unable to determine old version
+[2024-05-31 14:08:27] INFO root fetch - main [MainThread]: End processing [context-timing] error
+[2024-05-31 14:08:27] INFO root fetch - processPackages [graphene-django-extended]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/83/70/1994b87c93034c3bf97a5ad7611a9dca54dd920c8205e656bf78704a2dac/ctrip-helper-0.4.1.tar.gz
+[2024-05-31 14:08:27] INFO root fetch - processPackages [flameai]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-31 14:08:27] INFO root fetch - processPackages [edgegap-database]: Downloading https://files.pythonhosted.org/packages/03/d7/82e97edd0426bcfa454beeb0e83790ea7f8f02b3b16a59b1c879e02dbf39/edgegap_database-1.7.2.tar.gz
+[2024-05-31 14:08:27] INFO root fetch - processPackages [glean-sdk]: New version: [60.3.0] Old Version: [60.2.0]
+[2024-05-31 14:08:27] INFO root fetch - processPackages [typeapi]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-31 14:08:27] INFO root fetch - processPackages [graphene-django-extended]: Downloading https://files.pythonhosted.org/packages/b0/fe/66f14d0d5d44b79505444c9994ba40955a4328a96165f7129071cbd95eb7/graphene_django_extended-1.1.1.tar.gz
+[2024-05-31 14:08:27] INFO root fetch - processPackages [flameai]: Downloading https://files.pythonhosted.org/packages/b0/53/78e6c188f08914f36bc5ff8c668846af901fcd62c42a21cf8e8e8bcbd069/flameai-1.0.6.tar.gz
+[2024-05-31 14:08:27] INFO root fetch - processPackages [edgegap-database]: Downloading https://files.pythonhosted.org/packages/de/1a/d6682ee2d6a030fa902e679b25c0426241a36acd05bbbecdb18ae250d138/edgegap_database-1.8.0.tar.gz
+[2024-05-31 14:08:27] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/61/1f/2a313b08434fbb6c2681c9ee4adf7f971663bc6638949bcec05eb8dfd637/glean_sdk-60.2.0.tar.gz
+[2024-05-31 14:08:27] INFO root fetch - processPackages [typeapi]: Downloading https://files.pythonhosted.org/packages/8a/5d/1b0e27d58f0b0437239260905ae86f04a9f0c98601aeed0597de6122c2d0/typeapi-2.2.1.tar.gz
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/01/bb/88923aac3a327a7060983b2a8f75a5a31e42566ad9d6450fcc119a44ab4c/ctrip-helper-0.4.2.tar.gz
+[2024-05-31 14:08:27] INFO root fetch - processPackages [edgegap-database]: executing diffoscope
+[2024-05-31 14:08:27] INFO root fetch - processPackages [edgegap-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_database-1.7.2.tar.gz tmp/edgegap_database-1.8.0.tar.gz --markdown 20240531/e/edgegap-database/1.7.2-1.8.0/README.md --exclude *.pyd
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 14:08:27] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.4.1.tar.gz tmp/ctrip-helper-0.4.2.tar.gz --markdown 20240531/c/ctrip-helper/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-31 14:08:27] INFO root fetch - processPackages [graphene-django-extended]: Downloading https://files.pythonhosted.org/packages/ab/f4/28b6ab426595033a85986b7f74d89cf106a08e858a0849fb5cc12c69ed1b/graphene_django_extended-1.2.0.tar.gz
+[2024-05-31 14:08:27] INFO root fetch - processPackages [flameai]: Downloading https://files.pythonhosted.org/packages/cc/0f/c0aa75c6b49c06654733139542447f99e64b02a8df478b931d18689be73e/flameai-1.0.7.tar.gz
+[2024-05-31 14:08:27] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/69/3a/31978c9541306c8b77cca6b12412fd54cf04fa47bc22762a9981004f7784/glean_sdk-60.3.0-py3-none-win_amd64.whl
+[2024-05-31 14:08:28] INFO root fetch - processPackages [graphene-django-extended]: executing diffoscope
+[2024-05-31 14:08:28] INFO root fetch - processPackages [graphene-django-extended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_extended-1.1.1.tar.gz tmp/graphene_django_extended-1.2.0.tar.gz --markdown 20240531/g/graphene-django-extended/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-31 14:08:28] INFO root fetch - processPackages [flameai]: executing diffoscope
+[2024-05-31 14:08:28] INFO root fetch - processPackages [flameai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flameai-1.0.6.tar.gz tmp/flameai-1.0.7.tar.gz --markdown 20240531/f/flameai/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-31 14:08:28] INFO root fetch - processPackages [typeapi]: Downloading https://files.pythonhosted.org/packages/7f/c8/aed423c8fac5ee94d3dd4808b71a265123b04be7d262a1f98d9149f55039/typeapi-2.2.2.tar.gz
+[2024-05-31 14:08:28] INFO root fetch - processPackages [edgegap-database]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_database-1.7.2.tar.gz]
+[2024-05-31 14:08:28] INFO root fetch - processPackages [edgegap-database]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_database-1.8.0.tar.gz]
+[2024-05-31 14:08:28] INFO root fetch - main [MainThread]: End processing [edgegap-database]: success
+[2024-05-31 14:08:28] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.4.1.tar.gz]
+[2024-05-31 14:08:28] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.4.2.tar.gz]
+[2024-05-31 14:08:28] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 14:08:28] INFO root fetch - processPackages [graphene-django-extended]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_extended-1.1.1.tar.gz]
+[2024-05-31 14:08:28] INFO root fetch - processPackages [graphene-django-extended]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_extended-1.2.0.tar.gz]
+[2024-05-31 14:08:28] INFO root fetch - main [MainThread]: End processing [graphene-django-extended]: success
+[2024-05-31 14:08:28] INFO root fetch - processPackages [glean-sdk]: executing diffoscope
+[2024-05-31 14:08:28] INFO root fetch - processPackages [glean-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean_sdk-60.2.0.tar.gz tmp/glean_sdk-60.3.0-py3-none-win_amd64.whl.zip --markdown 20240531/g/glean-sdk/60.2.0-60.3.0/README.md --exclude *.pyd
+[2024-05-31 14:08:28] INFO root fetch - processPackages [flameai]: Remove: archive file [/home/abi/fetcher/tmp/flameai-1.0.6.tar.gz]
+[2024-05-31 14:08:28] INFO root fetch - processPackages [flameai]: Remove: archive file [/home/abi/fetcher/tmp/flameai-1.0.7.tar.gz]
+[2024-05-31 14:08:28] INFO root fetch - main [MainThread]: End processing [flameai]: success
+[2024-05-31 14:08:28] INFO root fetch - processPackages [typeapi]: executing diffoscope
+[2024-05-31 14:08:28] INFO root fetch - processPackages [typeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeapi-2.2.1.tar.gz tmp/typeapi-2.2.2.tar.gz --markdown 20240531/t/typeapi/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-31 14:08:29] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean_sdk-60.2.0.tar.gz]
+[2024-05-31 14:08:29] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean_sdk-60.3.0-py3-none-win_amd64.whl.zip]
+[2024-05-31 14:08:29] INFO root fetch - main [MainThread]: End processing [glean-sdk]: success
+[2024-05-31 14:08:29] INFO root fetch - processPackages [typeapi]: Remove: archive file [/home/abi/fetcher/tmp/typeapi-2.2.1.tar.gz]
+[2024-05-31 14:08:29] INFO root fetch - processPackages [typeapi]: Remove: archive file [/home/abi/fetcher/tmp/typeapi-2.2.2.tar.gz]
+[2024-05-31 14:08:29] INFO root fetch - main [MainThread]: End processing [typeapi]: success
+[2024-05-31 14:08:29] INFO root fetch - main [MainThread]: Store serial: [23465306]
