@@ -4683,3 +4683,33 @@
 [2024-05-31 03:43:56] INFO root fetch - processPackages [vital-ai-vitalsigns]: Remove: archive file [/home/abi/fetcher/tmp/vital-ai-vitalsigns-0.1.9.tar.gz]
 [2024-05-31 03:43:56] INFO root fetch - main [MainThread]: End processing [vital-ai-vitalsigns]: success
 [2024-05-31 03:43:56] INFO root fetch - main [MainThread]: Store serial: [23459370]
+[2024-05-31 03:45:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459370]
+[2024-05-31 03:46:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 03:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adaptive
+[2024-05-31 03:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-testing
+[2024-05-31 03:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imds
+[2024-05-31 03:46:04] INFO root fetch - processPackages [imds]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 03:46:04] INFO root fetch - processPackages [imds]: Downloading https://files.pythonhosted.org/packages/63/87/82b737263e6576c21a09f95027fa71fe63fcc24a8bb39d75854d576bea41/imds-0.0.1.tar.gz
+[2024-05-31 03:46:04] INFO root fetch - processPackages [adaptive]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-31 03:46:04] INFO root fetch - processPackages [mo-testing]: New version: [8.644.24152] Old Version: [8.633.24139]
+[2024-05-31 03:46:04] INFO root fetch - processPackages [imds]: Downloading https://files.pythonhosted.org/packages/e0/4f/a87271565f4f91272d1a591da919d386c10580987b2f84fda00562409c67/imds-0.0.2.tar.gz
+[2024-05-31 03:46:04] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/ad/32/f8302c157ee1e6c955b208bf96d17d54014b1bb7fbf37b60455e34428652/mo_testing-8.633.24139.tar.gz
+[2024-05-31 03:46:04] INFO root fetch - processPackages [adaptive]: Downloading https://files.pythonhosted.org/packages/0d/7f/d73cf313033c0d1f5d6d79849e4c51a57853b89aa4bdd5af0482a908a44f/adaptive-1.2.0.tar.gz
+[2024-05-31 03:46:04] INFO root fetch - processPackages [imds]: executing diffoscope
+[2024-05-31 03:46:04] INFO root fetch - processPackages [imds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imds-0.0.1.tar.gz tmp/imds-0.0.2.tar.gz --markdown 20240531/i/imds/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 03:46:05] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/e4/d0/6a79fc58905a4577eae60c6a46eeeccd2cd5063fb3c35b8f38f9ce063c0c/mo_testing-8.644.24152.tar.gz
+[2024-05-31 03:46:05] INFO root fetch - processPackages [adaptive]: Downloading https://files.pythonhosted.org/packages/24/8e/3bc7241d5e0e2133678e7f0a8cacdbefae8b2629fff787e1196ebc546b40/adaptive-1.3.0.tar.gz
+[2024-05-31 03:46:05] INFO root fetch - processPackages [mo-testing]: executing diffoscope
+[2024-05-31 03:46:05] INFO root fetch - processPackages [mo-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_testing-8.633.24139.tar.gz tmp/mo_testing-8.644.24152.tar.gz --markdown 20240531/m/mo-testing/8.633.24139-8.644.24152/README.md --exclude *.pyd
+[2024-05-31 03:46:05] INFO root fetch - processPackages [adaptive]: executing diffoscope
+[2024-05-31 03:46:05] INFO root fetch - processPackages [adaptive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaptive-1.2.0.tar.gz tmp/adaptive-1.3.0.tar.gz --markdown 20240531/a/adaptive/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-31 03:46:05] INFO root fetch - processPackages [imds]: Remove: archive file [/home/abi/fetcher/tmp/imds-0.0.1.tar.gz]
+[2024-05-31 03:46:05] INFO root fetch - processPackages [imds]: Remove: archive file [/home/abi/fetcher/tmp/imds-0.0.2.tar.gz]
+[2024-05-31 03:46:05] INFO root fetch - main [MainThread]: End processing [imds]: success
+[2024-05-31 03:46:05] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo_testing-8.633.24139.tar.gz]
+[2024-05-31 03:46:05] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo_testing-8.644.24152.tar.gz]
+[2024-05-31 03:46:05] INFO root fetch - main [MainThread]: End processing [mo-testing]: success
+[2024-05-31 03:46:06] INFO root fetch - processPackages [adaptive]: Remove: archive file [/home/abi/fetcher/tmp/adaptive-1.2.0.tar.gz]
+[2024-05-31 03:46:06] INFO root fetch - processPackages [adaptive]: Remove: archive file [/home/abi/fetcher/tmp/adaptive-1.3.0.tar.gz]
+[2024-05-31 03:46:06] INFO root fetch - main [MainThread]: End processing [adaptive]: success
+[2024-05-31 03:46:06] INFO root fetch - main [MainThread]: Store serial: [23459378]
