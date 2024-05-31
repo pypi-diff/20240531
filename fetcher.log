@@ -23245,3 +23245,125 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:19:25] INFO root fetch - processPackages [vana]: Remove: archive file [/home/abi/fetcher/tmp/vana-0.1.1.tar.gz]
 [2024-05-31 17:19:25] INFO root fetch - main [MainThread]: End processing [vana]: success
 [2024-05-31 17:19:25] INFO root fetch - main [MainThread]: Store serial: [23467841]
+[2024-05-31 17:21:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467841]
+[2024-05-31 17:21:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-31 17:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vana
+[2024-05-31 17:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rwkv-tokenizer
+[2024-05-31 17:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourcelocation
+[2024-05-31 17:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cgt
+[2024-05-31 17:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-express
+[2024-05-31 17:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psychopy-visionscience
+[2024-05-31 17:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-core
+[2024-05-31 17:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: group-remote
+[2024-05-31 17:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-json-schema-editor
+[2024-05-31 17:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-autogen
+[2024-05-31 17:21:34] INFO root fetch - processPackages [vana]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 17:21:34] INFO root fetch - processPackages [django-json-schema-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 17:21:34] INFO root fetch - processPackages [composio-autogen]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 17:21:34] INFO root fetch - processPackages [composio-core]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 17:21:34] INFO root fetch - processPackages [sourcelocation]: New version: [1.1.5] Old Version: [1.0.5]
+[2024-05-31 17:21:34] INFO root fetch - processPackages [psychopy-visionscience]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 17:21:34] INFO root fetch - processPackages [vana]: Downloading https://files.pythonhosted.org/packages/5b/94/64ae0331e29756a529ceeb9622039da1a7780b413ee0da39418e27a881c7/vana-0.1.1.tar.gz
+[2024-05-31 17:21:34] INFO root fetch - processPackages [lusid-express]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-31 17:21:34] INFO root fetch - processPackages [cgt]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-31 17:21:34] WARNING root fetch - processPackages [rwkv-tokenizer]: Skipping, unable to determine old version
+[2024-05-31 17:21:34] INFO root fetch - processPackages [rwkv-tokenizer]: Start processing: hgui
+[2024-05-31 17:21:34] INFO root fetch - main [MainThread]: End processing [rwkv-tokenizer] error
+[2024-05-31 17:21:34] INFO root fetch - processPackages [group-remote]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 17:21:34] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/f1/7a/644b94f8e30f02521c773ac2294d8d33f4bf5be42ec5bce78f2fea7273e6/django_json_schema_editor-0.0.8.tar.gz
+[2024-05-31 17:21:34] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/b9/76/fac99e4ad20b2ac76f78053bfc340443bbf1cbad73430454d6910b73c927/composio_autogen-0.3.1.tar.gz
+[2024-05-31 17:21:34] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/23/23/e7e1d5f7247cd4e0814e93dda3b79d6ab603af06121db2e1ec3f558f30bb/composio_core-0.3.1.tar.gz
+[2024-05-31 17:21:34] INFO root fetch - processPackages [hgui]: New version: [4.0.1] Old Version: [4.0]
+[2024-05-31 17:21:35] INFO root fetch - processPackages [sourcelocation]: Downloading https://files.pythonhosted.org/packages/1d/df/a0782fe50be2c75f05b1d28aa8e45781d4e2c7c9e07c66cfc44815c4f422/sourcelocation-1.0.5-py3-none-any.whl
+[2024-05-31 17:21:35] INFO root fetch - processPackages [psychopy-visionscience]: Downloading https://files.pythonhosted.org/packages/9b/a3/5e0741b9652e29dba94a80fa948d54437bae28adb8d3fbdfb9b2b145eeb9/psychopy-visionscience-0.0.5.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [cgt]: Downloading https://files.pythonhosted.org/packages/5c/ff/37930dbd763b53eeebf295bd5f8dcb072400135f2ecc1fcaf61f0059d484/cgt-0.4.0.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/a7/13/f4b8794f2f06953057b7beed5529b66e125dca05fc2197e44518ce68dbf1/lusid_express-1.1.8.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [group-remote]: Downloading https://files.pythonhosted.org/packages/57/b2/e7d8728abc3d7bb588f284b30365c7e85e9fa1916285d4bf7c5a924dbc7c/group-remote-0.0.98.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/13/5b/ab7c84e8ddcef6c8fb8af5a481ba6f67e25f93d4c58a814b94626f7983b2/composio_autogen-0.3.2.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [vana]: Downloading https://files.pythonhosted.org/packages/de/ae/50676abcc14af3fb1b7d70c8afe2f999b1f4af1685b36078d119478f37d2/vana-0.1.2.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/de/24/cb4358883abe187169815965431bf028ac1a633be9f36a68346a2dd91857/composio_core-0.3.2.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/fe/33/fbc31371354b97194681d08db6bec40cb469672204617fbf4ef66b3bc6f4/django_json_schema_editor-0.0.9.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [hgui]: Downloading https://files.pythonhosted.org/packages/10/bc/4545857dc11190defa53875ac8bf709b93d91775a07dd93719137f18d13f/hgui-4.0.tar.gz
+[2024-05-31 17:21:35] WARNING root fetch - processPackages [hgui]: Skipping package: exceeds size limit 12589419>=10485760
+[2024-05-31 17:21:35] INFO root fetch - processPackages [hgui]: Start processing: odoo14-addon-l10n-br-nfe
+[2024-05-31 17:21:35] INFO root fetch - main [MainThread]: End processing [hgui] error
+[2024-05-31 17:21:35] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-31 17:21:35] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.3.1.tar.gz tmp/composio_autogen-0.3.2.tar.gz --markdown 20240531/c/composio-autogen/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 17:21:35] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-31 17:21:35] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.3.1.tar.gz tmp/composio_core-0.3.2.tar.gz --markdown 20240531/c/composio-core/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 17:21:35] INFO root fetch - processPackages [django-json-schema-editor]: executing diffoscope
+[2024-05-31 17:21:35] INFO root fetch - processPackages [django-json-schema-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_json_schema_editor-0.0.8.tar.gz tmp/django_json_schema_editor-0.0.9.tar.gz --markdown 20240531/d/django-json-schema-editor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 17:21:35] INFO root fetch - processPackages [vana]: executing diffoscope
+[2024-05-31 17:21:35] INFO root fetch - processPackages [vana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vana-0.1.1.tar.gz tmp/vana-0.1.2.tar.gz --markdown 20240531/v/vana/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 17:21:35] INFO root fetch - processPackages [psychopy-visionscience]: Downloading https://files.pythonhosted.org/packages/b1/cb/e07dba512de681cdbe5d1476aeaa0118e53055fb4ca5cf587d4580e1657d/psychopy_visionscience-0.0.6.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: New version: [14.0.9.1.1.dev1] Old Version: [14.0.9.0.1]
+[2024-05-31 17:21:35] INFO root fetch - processPackages [cgt]: Downloading https://files.pythonhosted.org/packages/25/e4/b75faa7ccaff0d85ea1875afd676aff5f1549f7c843ec811e4b4f9159830/cgt-0.4.1.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [sourcelocation]: Downloading https://files.pythonhosted.org/packages/20/72/5ac934d78686550f363a38c41168d44e9f8f4f453e47fe3ef57262280edf/sourcelocation-1.1.5.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/56/af/dfd842a77e8761fd460bf4798f16a783ae54204010368fa7287d2bed953d/lusid_express-1.1.9.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [group-remote]: Downloading https://files.pythonhosted.org/packages/4e/14/cf27e0c722ebe422d5024cbe915929742b7cb62d1719b04518655523e11d/group-remote-0.0.99.tar.gz
+[2024-05-31 17:21:35] INFO root fetch - processPackages [psychopy-visionscience]: executing diffoscope
+[2024-05-31 17:21:35] INFO root fetch - processPackages [psychopy-visionscience]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychopy-visionscience-0.0.5.tar.gz tmp/psychopy_visionscience-0.0.6.tar.gz --markdown 20240531/p/psychopy-visionscience/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 17:21:35] INFO root fetch - processPackages [lusid-express]: executing diffoscope
+[2024-05-31 17:21:35] INFO root fetch - processPackages [lusid-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_express-1.1.8.tar.gz tmp/lusid_express-1.1.9.tar.gz --markdown 20240531/l/lusid-express/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-31 17:21:35] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/e3/8c/24116b604c6bc22ce1e4e6d458ad5f4941cc363b81eabac01fe2ae3bcd9c/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl
+[2024-05-31 17:21:35] INFO root fetch - processPackages [sourcelocation]: executing diffoscope
+[2024-05-31 17:21:35] INFO root fetch - processPackages [sourcelocation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourcelocation-1.0.5-py3-none-any.whl.zip tmp/sourcelocation-1.1.5.tar.gz --markdown 20240531/s/sourcelocation/1.0.5-1.1.5/README.md --exclude *.pyd
+[2024-05-31 17:21:35] INFO root fetch - processPackages [cgt]: executing diffoscope
+[2024-05-31 17:21:35] INFO root fetch - processPackages [cgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgt-0.4.0.tar.gz tmp/cgt-0.4.1.tar.gz --markdown 20240531/c/cgt/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-31 17:21:35] INFO root fetch - processPackages [group-remote]: executing diffoscope
+[2024-05-31 17:21:35] INFO root fetch - processPackages [group-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group-remote-0.0.98.tar.gz tmp/group-remote-0.0.99.tar.gz --markdown 20240531/g/group-remote/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 17:21:36] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.3.1.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.3.2.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [composio-autogen]: Start processing: space-exploration-common-lib
+[2024-05-31 17:21:36] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-31 17:21:36] INFO root fetch - processPackages [space-exploration-common-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/f8/ef/5b863388381c35c36cfea4e1f356dafa923aab127c4dfe81de1ea7bd0465/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl
+[2024-05-31 17:21:36] INFO root fetch - processPackages [space-exploration-common-lib]: Downloading https://files.pythonhosted.org/packages/7c/27/9c3e17168cee54b0afa84911cee2c4c4923b5b1ddf48dd67a3045005f072/space_exploration_common_lib-0.0.8.tar.gz
+[2024-05-31 17:21:36] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: executing diffoscope
+[2024-05-31 17:21:36] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl.zip --markdown 20240531/o/odoo14-addon-l10n-br-nfe/14.0.9.0.1-14.0.9.1.1.dev1/README.md --exclude *.pyd
+[2024-05-31 17:21:36] INFO root fetch - processPackages [space-exploration-common-lib]: Downloading https://files.pythonhosted.org/packages/68/b3/be8588ce6908619fa879f1dedcee4fa0a35f5ae086c7e2ca7239ea6fecf0/space_exploration_common_lib-0.0.9.tar.gz
+[2024-05-31 17:21:36] INFO root fetch - processPackages [vana]: Remove: archive file [/home/abi/fetcher/tmp/vana-0.1.1.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [vana]: Remove: archive file [/home/abi/fetcher/tmp/vana-0.1.2.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [vana]: Start processing: kfre
+[2024-05-31 17:21:36] INFO root fetch - main [MainThread]: End processing [vana]: success
+[2024-05-31 17:21:36] INFO root fetch - processPackages [sourcelocation]: Remove: archive file [/home/abi/fetcher/tmp/sourcelocation-1.0.5-py3-none-any.whl.zip]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [sourcelocation]: Remove: archive file [/home/abi/fetcher/tmp/sourcelocation-1.1.5.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [sourcelocation]: Start processing: optimum-quanto
+[2024-05-31 17:21:36] INFO root fetch - main [MainThread]: End processing [sourcelocation]: success
+[2024-05-31 17:21:36] INFO root fetch - processPackages [space-exploration-common-lib]: executing diffoscope
+[2024-05-31 17:21:36] INFO root fetch - processPackages [space-exploration-common-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_exploration_common_lib-0.0.8.tar.gz tmp/space_exploration_common_lib-0.0.9.tar.gz --markdown 20240531/s/space-exploration-common-lib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 17:21:36] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.3.1.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.3.2.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-31 17:21:36] INFO root fetch - processPackages [kfre]: New version: [0.1.5a0] Old Version: [0.1.5]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [psychopy-visionscience]: Remove: archive file [/home/abi/fetcher/tmp/psychopy-visionscience-0.0.5.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [psychopy-visionscience]: Remove: archive file [/home/abi/fetcher/tmp/psychopy_visionscience-0.0.6.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - main [MainThread]: End processing [psychopy-visionscience]: success
+[2024-05-31 17:21:36] WARNING root fetch - processPackages [optimum-quanto]: Skipping, unable to determine old version
+[2024-05-31 17:21:36] INFO root fetch - main [MainThread]: End processing [optimum-quanto] error
+[2024-05-31 17:21:36] INFO root fetch - processPackages [group-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-remote-0.0.98.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [group-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-remote-0.0.99.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - main [MainThread]: End processing [group-remote]: success
+[2024-05-31 17:21:36] INFO root fetch - processPackages [cgt]: Remove: archive file [/home/abi/fetcher/tmp/cgt-0.4.0.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [cgt]: Remove: archive file [/home/abi/fetcher/tmp/cgt-0.4.1.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - main [MainThread]: End processing [cgt]: success
+[2024-05-31 17:21:36] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/9b/80/d6f0876e298a83ba0f3dbd96f5279b030824a54932484703f16b1a04ed48/kfre-0.1.5.tar.gz
+[2024-05-31 17:21:36] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-1.1.8.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-1.1.9.tar.gz]
+[2024-05-31 17:21:36] INFO root fetch - main [MainThread]: End processing [lusid-express]: success
+[2024-05-31 17:21:37] INFO root fetch - processPackages [space-exploration-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/space_exploration_common_lib-0.0.8.tar.gz]
+[2024-05-31 17:21:37] INFO root fetch - processPackages [space-exploration-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/space_exploration_common_lib-0.0.9.tar.gz]
+[2024-05-31 17:21:37] INFO root fetch - main [MainThread]: End processing [space-exploration-common-lib]: success
+[2024-05-31 17:21:37] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/5a/5e/a64d31d1600b991ae507d5b38b022301bfeba873a86cc6f6cbadbb306b02/kfre-0.1.5a0.tar.gz
+[2024-05-31 17:21:37] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl.zip]
+[2024-05-31 17:21:37] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl.zip]
+[2024-05-31 17:21:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe]: success
+[2024-05-31 17:21:37] INFO root fetch - processPackages [kfre]: executing diffoscope
+[2024-05-31 17:21:37] INFO root fetch - processPackages [kfre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfre-0.1.5.tar.gz tmp/kfre-0.1.5a0.tar.gz --markdown 20240531/k/kfre/0.1.5-0.1.5a0/README.md --exclude *.pyd
+[2024-05-31 17:21:37] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.5.tar.gz]
+[2024-05-31 17:21:37] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.5a0.tar.gz]
+[2024-05-31 17:21:37] INFO root fetch - main [MainThread]: End processing [kfre]: success
+[2024-05-31 17:21:40] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.8.tar.gz]
+[2024-05-31 17:21:40] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
+[2024-05-31 17:21:40] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
+[2024-05-31 17:21:40] INFO root fetch - main [MainThread]: Store serial: [23467890]
