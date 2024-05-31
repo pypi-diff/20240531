@@ -5303,3 +5303,21 @@
 [2024-05-31 04:36:29] INFO root fetch - processPackages [pasync]: Remove: archive file [/home/abi/fetcher/tmp/pasync-0.2.0.tar.gz]
 [2024-05-31 04:36:29] INFO root fetch - main [MainThread]: End processing [pasync]: success
 [2024-05-31 04:36:29] INFO root fetch - main [MainThread]: Store serial: [23459710]
+[2024-05-31 04:38:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459710]
+[2024-05-31 04:38:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 04:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coffifilter
+[2024-05-31 04:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chainlite
+[2024-05-31 04:38:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myfunctions-AdnanGrifat
+[2024-05-31 04:38:37] WARNING root fetch - processPackages [myfunctions-AdnanGrifat]: Skipping, unable to determine old version
+[2024-05-31 04:38:37] INFO root fetch - main [MainThread]: End processing [myfunctions-AdnanGrifat] error
+[2024-05-31 04:38:37] WARNING root fetch - processPackages [coffifilter]: Skipping, unable to determine old version
+[2024-05-31 04:38:37] INFO root fetch - main [MainThread]: End processing [coffifilter] error
+[2024-05-31 04:38:37] INFO root fetch - processPackages [chainlite]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 04:38:37] INFO root fetch - processPackages [chainlite]: Downloading https://files.pythonhosted.org/packages/d1/17/d225fb3eacbe1f0b484b103cba34c91e807830cc73c44a1f62e1f67293a3/chainlite-0.1.8.tar.gz
+[2024-05-31 04:38:38] INFO root fetch - processPackages [chainlite]: Downloading https://files.pythonhosted.org/packages/00/38/75ddd9bf7de664b880ab23d3009566d68ef7c9704db1993bb69840aec0ff/chainlite-0.1.9.tar.gz
+[2024-05-31 04:38:38] INFO root fetch - processPackages [chainlite]: executing diffoscope
+[2024-05-31 04:38:38] INFO root fetch - processPackages [chainlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlite-0.1.8.tar.gz tmp/chainlite-0.1.9.tar.gz --markdown 20240531/c/chainlite/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 04:38:38] INFO root fetch - processPackages [chainlite]: Remove: archive file [/home/abi/fetcher/tmp/chainlite-0.1.8.tar.gz]
+[2024-05-31 04:38:38] INFO root fetch - processPackages [chainlite]: Remove: archive file [/home/abi/fetcher/tmp/chainlite-0.1.9.tar.gz]
+[2024-05-31 04:38:38] INFO root fetch - main [MainThread]: End processing [chainlite]: success
+[2024-05-31 04:38:38] INFO root fetch - main [MainThread]: Store serial: [23459721]
