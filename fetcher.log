@@ -7894,3 +7894,33 @@
 [2024-05-31 07:20:07] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.9.tar.gz]
 [2024-05-31 07:20:07] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2024-05-31 07:20:07] INFO root fetch - main [MainThread]: Store serial: [23460642]
+[2024-05-31 07:22:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460642]
+[2024-05-31 07:22:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 07:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: immin5
+[2024-05-31 07:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apiAmoCRM
+[2024-05-31 07:22:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenTTDLab
+[2024-05-31 07:22:16] INFO root fetch - processPackages [apiAmoCRM]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 07:22:16] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/38/64/4c4efb0daa05088253fb9285fedfc941ff3b6bddc16c1c7da3a2af53e365/apiamocrm-0.1.3.tar.gz
+[2024-05-31 07:22:16] INFO root fetch - processPackages [immin5]: New version: [1.0.0] Old Version: [0.0.0]
+[2024-05-31 07:22:16] INFO root fetch - processPackages [OpenTTDLab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 07:22:16] INFO root fetch - processPackages [immin5]: Downloading https://files.pythonhosted.org/packages/2a/46/9b44d4b6f59fbda6d531ac42c4bc392025da238cc18adb8af979077c85b6/immin5-0.0.0-py3-none-any.whl
+[2024-05-31 07:22:16] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/1f/6e/f9d8e929738fb28f0cf285d806e9d1e0b273a3abd0c627b823c266f87274/openttdlab-0.0.8.tar.gz
+[2024-05-31 07:22:16] INFO root fetch - processPackages [apiAmoCRM]: Downloading https://files.pythonhosted.org/packages/3b/7e/04dae166dc2af483925cb6d3294f42422a14b77d7b30634ea2ec78d36589/apiamocrm-0.1.4.tar.gz
+[2024-05-31 07:22:16] INFO root fetch - processPackages [apiAmoCRM]: executing diffoscope
+[2024-05-31 07:22:16] INFO root fetch - processPackages [apiAmoCRM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiamocrm-0.1.3.tar.gz tmp/apiamocrm-0.1.4.tar.gz --markdown 20240531/a/apiAmoCRM/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 07:22:17] INFO root fetch - processPackages [immin5]: Downloading https://files.pythonhosted.org/packages/51/1a/dd57d0513989fb33a46dc1936b5761b90a8022f84647c5e35c4a5e285cbb/immin5-1.0.0.tar.gz
+[2024-05-31 07:22:17] INFO root fetch - processPackages [OpenTTDLab]: Downloading https://files.pythonhosted.org/packages/c9/28/0b49734d3f0e2b039817ac8dbe0930487e1d1764bc5c7cc16063210352e0/openttdlab-0.0.9.tar.gz
+[2024-05-31 07:22:17] INFO root fetch - processPackages [immin5]: executing diffoscope
+[2024-05-31 07:22:17] INFO root fetch - processPackages [immin5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immin5-0.0.0-py3-none-any.whl.zip tmp/immin5-1.0.0.tar.gz --markdown 20240531/i/immin5/0.0.0-1.0.0/README.md --exclude *.pyd
+[2024-05-31 07:22:17] INFO root fetch - processPackages [OpenTTDLab]: executing diffoscope
+[2024-05-31 07:22:17] INFO root fetch - processPackages [OpenTTDLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openttdlab-0.0.8.tar.gz tmp/openttdlab-0.0.9.tar.gz --markdown 20240531/O/OpenTTDLab/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 07:22:17] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.3.tar.gz]
+[2024-05-31 07:22:17] INFO root fetch - processPackages [apiAmoCRM]: Remove: archive file [/home/abi/fetcher/tmp/apiamocrm-0.1.4.tar.gz]
+[2024-05-31 07:22:17] INFO root fetch - main [MainThread]: End processing [apiAmoCRM]: success
+[2024-05-31 07:22:17] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.8.tar.gz]
+[2024-05-31 07:22:17] INFO root fetch - processPackages [OpenTTDLab]: Remove: archive file [/home/abi/fetcher/tmp/openttdlab-0.0.9.tar.gz]
+[2024-05-31 07:22:17] INFO root fetch - main [MainThread]: End processing [OpenTTDLab]: success
+[2024-05-31 07:22:17] INFO root fetch - processPackages [immin5]: Remove: archive file [/home/abi/fetcher/tmp/immin5-0.0.0-py3-none-any.whl.zip]
+[2024-05-31 07:22:17] INFO root fetch - processPackages [immin5]: Remove: archive file [/home/abi/fetcher/tmp/immin5-1.0.0.tar.gz]
+[2024-05-31 07:22:17] INFO root fetch - main [MainThread]: End processing [immin5]: success
+[2024-05-31 07:22:17] INFO root fetch - main [MainThread]: Store serial: [23460650]
