@@ -21123,3 +21123,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:08:10] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.8.6.tar.gz]
 [2024-05-31 16:08:10] INFO root fetch - main [MainThread]: End processing [rio-ui]: success
 [2024-05-31 16:08:10] INFO root fetch - main [MainThread]: Store serial: [23466728]
+[2024-05-31 16:10:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466728]
+[2024-05-31 16:10:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: econnect-python
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minder.research-data-snapshots
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libbiomedit
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ok-script
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Spinmob
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: henryobj
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: socialdataanalysis
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: digimat.mbio
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opea-eval
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: picea
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 16:10:19] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.9] Old Version: [0.8]
+[2024-05-31 16:10:19] INFO root fetch - processPackages [picea]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 16:10:19] INFO root fetch - processPackages [digimat.mbio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 16:10:19] INFO root fetch - processPackages [libbiomedit]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-31 16:10:19] INFO root fetch - processPackages [econnect-python]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-31 16:10:19] INFO root fetch - processPackages [minder.research-data-snapshots]: New version: [0.9] Old Version: [0.8]
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-05-31 16:10:19] WARNING root fetch - processPackages [opea-eval]: Skipping, unable to determine old version
+[2024-05-31 16:10:19] INFO root fetch - processPackages [opea-eval]: Start processing: detroit
+[2024-05-31 16:10:19] INFO root fetch - main [MainThread]: End processing [opea-eval] error
+[2024-05-31 16:10:19] INFO root fetch - processPackages [Spinmob]: New version: [3.5.9] Old Version: [3.5.8]
+[2024-05-31 16:10:19] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/ec/de/9a88b7204e212f04a2ba1520d3e95f227f3b9f25580a58dcb65b99794d97/socialdataanalysis-0.8.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [henryobj]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 16:10:19] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/71/e2/320c5b884cd4c2ec53c579c63ffa353c0113149d9856b2cbe51c5a7dc258/digimat.mbio-0.1.8.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [detroit]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-31 16:10:19] INFO root fetch - processPackages [minder.research-data-snapshots]: Downloading https://files.pythonhosted.org/packages/c6/38/3fa44b6c1901ce0ba70d393c6908e0d45fa3827f2ad9a003de4c8ca966e1/minder.research_data_snapshots-0.8-py3-none-any.whl
+[2024-05-31 16:10:19] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/e5/4d/2405f5f6231c98dc0bfd2b20d86d72de3b757ecd0ebf9e7cb71d2464721e/picea-0.0.8.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [detroit]: Downloading https://files.pythonhosted.org/packages/c4/1b/f2dd0136fc14f76d537845090d1439147b5b114a62bfdd4ba4a556049aaa/detroit-1.1.0.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [libbiomedit]: Downloading https://files.pythonhosted.org/packages/ff/2f/30c0a0061064cec6a4c3d36b68cf000dbfeb134b046f9be83cf542640d29/libbiomedit-0.6.4.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [econnect-python]: Downloading https://files.pythonhosted.org/packages/99/ca/65a2f8556e0ea3ec989849cbf22ec10c19849899cc915964039eb6ef3b7e/econnect_python-0.9.1.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [Spinmob]: Downloading https://files.pythonhosted.org/packages/1a/d8/2d688e4abcd997bb5a8c80eb4efc18c882d72ec29b84d850c43ae9ffd4ef/Spinmob-3.5.8.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [henryobj]: Downloading https://files.pythonhosted.org/packages/fa/d0/03a821c4ef462dccefaa16db16d560f0cdb6f82d0b0c7d9acf98d2d0153d/henryobj-0.2.7.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/39/6e/5bdff2534466d804cce6dfcbaca73554b2c423069c02d31759fddbe8406b/digimat.mbio-0.1.9.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/5e/a9/287e9e5a6d7a0b3cd29d8a6ca380d87fb94c8968755e7851dd88eb92b64c/socialdataanalysis-0.9.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/59/49/8c2f0a6f8d85f9fe751e4f7e27eef9281443b43b5bc2f5dad2b7aacfae6d/picea-0.0.9.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-05-31 16:10:19] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240531/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 16:10:19] INFO root fetch - processPackages [detroit]: Downloading https://files.pythonhosted.org/packages/e8/5a/235189616eee443d3afd50e21fd1d627b9510fc7c307abdf4d67da02e2c9/detroit-1.2.0.tar.gz
+[2024-05-31 16:10:19] INFO root fetch - processPackages [digimat.mbio]: executing diffoscope
+[2024-05-31 16:10:19] INFO root fetch - processPackages [digimat.mbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.mbio-0.1.8.tar.gz tmp/digimat.mbio-0.1.9.tar.gz --markdown 20240531/d/digimat.mbio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 16:10:20] INFO root fetch - processPackages [minder.research-data-snapshots]: Downloading https://files.pythonhosted.org/packages/dc/c6/079395b01c2b1d7255c758bfb0dc554b6b5ce44b80725b38c54f42f90407/minder.research_data_snapshots-0.9-py3-none-any.whl
+[2024-05-31 16:10:20] INFO root fetch - processPackages [libbiomedit]: Downloading https://files.pythonhosted.org/packages/7c/e0/f58edc68cb80c47c6dff937dec5e2499282647cc16461048e1d52442adb1/libbiomedit-0.6.5.tar.gz
+[2024-05-31 16:10:20] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 16:10:20] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.8.tar.gz tmp/socialdataanalysis-0.9.tar.gz --markdown 20240531/s/socialdataanalysis/0.8-0.9/README.md --exclude *.pyd
+[2024-05-31 16:10:20] INFO root fetch - processPackages [picea]: executing diffoscope
+[2024-05-31 16:10:20] INFO root fetch - processPackages [picea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picea-0.0.8.tar.gz tmp/picea-0.0.9.tar.gz --markdown 20240531/p/picea/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 16:10:20] INFO root fetch - processPackages [detroit]: executing diffoscope
+[2024-05-31 16:10:20] INFO root fetch - processPackages [detroit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detroit-1.1.0.tar.gz tmp/detroit-1.2.0.tar.gz --markdown 20240531/d/detroit/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-31 16:10:20] INFO root fetch - processPackages [henryobj]: Downloading https://files.pythonhosted.org/packages/58/e9/2693217dc6dd6b850b2c79f6536201a9dfa0af29e786541327220f93fcb1/henryobj-0.2.8.tar.gz
+[2024-05-31 16:10:20] INFO root fetch - processPackages [econnect-python]: Downloading https://files.pythonhosted.org/packages/53/8d/939b3694d26843ec0ed928235d2e246af7432d2d275c8c317ba5c2cd0e96/econnect_python-0.9.2.tar.gz
+[2024-05-31 16:10:20] INFO root fetch - processPackages [Spinmob]: Downloading https://files.pythonhosted.org/packages/b1/db/93207fd6861cdc072fc3491657439b5ed134848f98bb98d03c75f2857dc1/Spinmob-3.5.9.tar.gz
+[2024-05-31 16:10:20] INFO root fetch - processPackages [minder.research-data-snapshots]: executing diffoscope
+[2024-05-31 16:10:20] INFO root fetch - processPackages [minder.research-data-snapshots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minder.research_data_snapshots-0.8-py3-none-any.whl.zip tmp/minder.research_data_snapshots-0.9-py3-none-any.whl.zip --markdown 20240531/m/minder.research-data-snapshots/0.8-0.9/README.md --exclude *.pyd
+[2024-05-31 16:10:20] INFO root fetch - processPackages [libbiomedit]: executing diffoscope
+[2024-05-31 16:10:20] INFO root fetch - processPackages [libbiomedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libbiomedit-0.6.4.tar.gz tmp/libbiomedit-0.6.5.tar.gz --markdown 20240531/l/libbiomedit/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-31 16:10:20] INFO root fetch - processPackages [econnect-python]: executing diffoscope
+[2024-05-31 16:10:20] INFO root fetch - processPackages [econnect-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econnect_python-0.9.1.tar.gz tmp/econnect_python-0.9.2.tar.gz --markdown 20240531/e/econnect-python/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-31 16:10:20] INFO root fetch - processPackages [Spinmob]: executing diffoscope
+[2024-05-31 16:10:20] INFO root fetch - processPackages [Spinmob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Spinmob-3.5.8.tar.gz tmp/Spinmob-3.5.9.tar.gz --markdown 20240531/S/Spinmob/3.5.8-3.5.9/README.md --exclude *.pyd
+[2024-05-31 16:10:20] INFO root fetch - processPackages [henryobj]: executing diffoscope
+[2024-05-31 16:10:20] INFO root fetch - processPackages [henryobj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henryobj-0.2.7.tar.gz tmp/henryobj-0.2.8.tar.gz --markdown 20240531/h/henryobj/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 16:10:20] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.8.tar.gz]
+[2024-05-31 16:10:20] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.9.tar.gz]
+[2024-05-31 16:10:20] INFO root fetch - main [MainThread]: End processing [digimat.mbio]: success
+[2024-05-31 16:10:20] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.8.tar.gz]
+[2024-05-31 16:10:20] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.9.tar.gz]
+[2024-05-31 16:10:20] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 16:10:21] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.8.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.9.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - main [MainThread]: End processing [picea]: success
+[2024-05-31 16:10:21] INFO root fetch - processPackages [detroit]: Remove: archive file [/home/abi/fetcher/tmp/detroit-1.1.0.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - processPackages [detroit]: Remove: archive file [/home/abi/fetcher/tmp/detroit-1.2.0.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - main [MainThread]: End processing [detroit]: success
+[2024-05-31 16:10:21] INFO root fetch - processPackages [minder.research-data-snapshots]: Remove: archive file [/home/abi/fetcher/tmp/minder.research_data_snapshots-0.8-py3-none-any.whl.zip]
+[2024-05-31 16:10:21] INFO root fetch - processPackages [minder.research-data-snapshots]: Remove: archive file [/home/abi/fetcher/tmp/minder.research_data_snapshots-0.9-py3-none-any.whl.zip]
+[2024-05-31 16:10:21] INFO root fetch - main [MainThread]: End processing [minder.research-data-snapshots]: success
+[2024-05-31 16:10:21] INFO root fetch - processPackages [libbiomedit]: Remove: archive file [/home/abi/fetcher/tmp/libbiomedit-0.6.4.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - processPackages [libbiomedit]: Remove: archive file [/home/abi/fetcher/tmp/libbiomedit-0.6.5.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - main [MainThread]: End processing [libbiomedit]: success
+[2024-05-31 16:10:21] INFO root fetch - processPackages [henryobj]: Remove: archive file [/home/abi/fetcher/tmp/henryobj-0.2.7.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - processPackages [henryobj]: Remove: archive file [/home/abi/fetcher/tmp/henryobj-0.2.8.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - main [MainThread]: End processing [henryobj]: success
+[2024-05-31 16:10:21] INFO root fetch - processPackages [Spinmob]: Remove: archive file [/home/abi/fetcher/tmp/Spinmob-3.5.8.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - processPackages [Spinmob]: Remove: archive file [/home/abi/fetcher/tmp/Spinmob-3.5.9.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - main [MainThread]: End processing [Spinmob]: success
+[2024-05-31 16:10:21] INFO root fetch - processPackages [econnect-python]: Remove: archive file [/home/abi/fetcher/tmp/econnect_python-0.9.1.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - processPackages [econnect-python]: Remove: archive file [/home/abi/fetcher/tmp/econnect_python-0.9.2.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - main [MainThread]: End processing [econnect-python]: success
+[2024-05-31 16:10:21] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-05-31 16:10:21] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-05-31 16:10:21] INFO root fetch - main [MainThread]: Store serial: [23466763]
