@@ -5450,3 +5450,42 @@
 [2024-05-31 04:45:09] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.642.24144.tar.gz]
 [2024-05-31 04:45:09] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
 [2024-05-31 04:45:09] INFO root fetch - main [MainThread]: Store serial: [23459766]
+[2024-05-31 04:47:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459766]
+[2024-05-31 04:47:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 04:47:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-iArt
+[2024-05-31 04:47:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: youtube-dl-nightly
+[2024-05-31 04:47:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdb-connect-pkg
+[2024-05-31 04:47:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NEMO-reports
+[2024-05-31 04:47:18] INFO root fetch - processPackages [python-iArt]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-31 04:47:18] INFO root fetch - processPackages [youtube-dl-nightly]: New version: [2024.5.31] Old Version: [2024.5.16.1]
+[2024-05-31 04:47:18] INFO root fetch - processPackages [mdb-connect-pkg]: New version: [0.0.6] Old Version: [0.0.3]
+[2024-05-31 04:47:18] INFO root fetch - processPackages [NEMO-reports]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-31 04:47:18] INFO root fetch - processPackages [python-iArt]: Downloading https://files.pythonhosted.org/packages/1a/b4/9b5ab71eb59bec77f00ff7b0afeb3f93508a1d4ac67473e553089ae39a72/python-iArt-1.1.0.tar.gz
+[2024-05-31 04:47:18] INFO root fetch - processPackages [youtube-dl-nightly]: Downloading https://files.pythonhosted.org/packages/89/d9/ac533bc022d3d1d77c85d8cb45a6fbb7da0f45e8a0e2cc3053fc8da9eb53/youtube_dl_nightly-2024.5.16.1-py2.py3-none-any.whl
+[2024-05-31 04:47:18] INFO root fetch - processPackages [mdb-connect-pkg]: Downloading https://files.pythonhosted.org/packages/1f/11/eed0bd1f9891105a4ea77ba759deec85ef93630b2e12f9c12395c397f155/mdb_connect_pkg-0.0.3.tar.gz
+[2024-05-31 04:47:18] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/d7/47/c4633f1dc4f0256a434b9ad7c7a32dd39387644686bcc7312181ff0a43b8/NEMO_reports-1.8.1-py3-none-any.whl
+[2024-05-31 04:47:18] INFO root fetch - processPackages [python-iArt]: Downloading https://files.pythonhosted.org/packages/65/78/bee99592430ff0da2305803005bb71a923f05785451456935338e265521d/python-iArt-1.1.1.tar.gz
+[2024-05-31 04:47:18] INFO root fetch - processPackages [mdb-connect-pkg]: Downloading https://files.pythonhosted.org/packages/1f/86/cb98303fed60b79ca0a8fa6193ee909916da6c0fc3a259977aec7e30e6ab/mdb_connect_pkg-0.0.6.tar.gz
+[2024-05-31 04:47:18] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/78/53/85d076688f522504b7c46e6ee502e8c4efa0aad33eca147f3ec2f98437a1/NEMO_reports-1.9.0-py3-none-any.whl
+[2024-05-31 04:47:18] INFO root fetch - processPackages [youtube-dl-nightly]: Downloading https://files.pythonhosted.org/packages/5d/1a/20fdd602808873154c3d176cd13d632269c57bee5d6c935032bf6eb9e161/youtube_dl_nightly-2024.5.31-py2.py3-none-any.whl
+[2024-05-31 04:47:18] INFO root fetch - processPackages [mdb-connect-pkg]: executing diffoscope
+[2024-05-31 04:47:18] INFO root fetch - processPackages [mdb-connect-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdb_connect_pkg-0.0.3.tar.gz tmp/mdb_connect_pkg-0.0.6.tar.gz --markdown 20240531/m/mdb-connect-pkg/0.0.3-0.0.6/README.md --exclude *.pyd
+[2024-05-31 04:47:18] INFO root fetch - processPackages [python-iArt]: executing diffoscope
+[2024-05-31 04:47:18] INFO root fetch - processPackages [python-iArt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-iArt-1.1.0.tar.gz tmp/python-iArt-1.1.1.tar.gz --markdown 20240531/p/python-iArt/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-31 04:47:18] INFO root fetch - processPackages [NEMO-reports]: executing diffoscope
+[2024-05-31 04:47:18] INFO root fetch - processPackages [NEMO-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_reports-1.8.1-py3-none-any.whl.zip tmp/NEMO_reports-1.9.0-py3-none-any.whl.zip --markdown 20240531/N/NEMO-reports/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-31 04:47:19] INFO root fetch - processPackages [youtube-dl-nightly]: executing diffoscope
+[2024-05-31 04:47:19] INFO root fetch - processPackages [youtube-dl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtube_dl_nightly-2024.5.16.1-py2.py3-none-any.whl.zip tmp/youtube_dl_nightly-2024.5.31-py2.py3-none-any.whl.zip --markdown 20240531/y/youtube-dl-nightly/2024.5.16.1-2024.5.31/README.md --exclude *.pyd
+[2024-05-31 04:47:19] INFO root fetch - processPackages [mdb-connect-pkg]: Remove: archive file [/home/abi/fetcher/tmp/mdb_connect_pkg-0.0.3.tar.gz]
+[2024-05-31 04:47:19] INFO root fetch - processPackages [mdb-connect-pkg]: Remove: archive file [/home/abi/fetcher/tmp/mdb_connect_pkg-0.0.6.tar.gz]
+[2024-05-31 04:47:19] INFO root fetch - main [MainThread]: End processing [mdb-connect-pkg]: success
+[2024-05-31 04:47:19] INFO root fetch - processPackages [python-iArt]: Remove: archive file [/home/abi/fetcher/tmp/python-iArt-1.1.0.tar.gz]
+[2024-05-31 04:47:19] INFO root fetch - processPackages [python-iArt]: Remove: archive file [/home/abi/fetcher/tmp/python-iArt-1.1.1.tar.gz]
+[2024-05-31 04:47:19] INFO root fetch - main [MainThread]: End processing [python-iArt]: success
+[2024-05-31 04:47:19] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.8.1-py3-none-any.whl.zip]
+[2024-05-31 04:47:19] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.9.0-py3-none-any.whl.zip]
+[2024-05-31 04:47:19] INFO root fetch - main [MainThread]: End processing [NEMO-reports]: success
+[2024-05-31 04:47:21] INFO root fetch - processPackages [youtube-dl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/youtube_dl_nightly-2024.5.16.1-py2.py3-none-any.whl.zip]
+[2024-05-31 04:47:21] INFO root fetch - processPackages [youtube-dl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/youtube_dl_nightly-2024.5.31-py2.py3-none-any.whl.zip]
+[2024-05-31 04:47:21] INFO root fetch - main [MainThread]: End processing [youtube-dl-nightly]: success
+[2024-05-31 04:47:21] INFO root fetch - main [MainThread]: Store serial: [23459774]
