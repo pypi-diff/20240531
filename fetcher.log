@@ -23800,3 +23800,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:30:43] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
 [2024-05-31 17:30:43] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2024-05-31 17:30:43] INFO root fetch - main [MainThread]: Store serial: [23468094]
+[2024-05-31 17:32:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23468094]
+[2024-05-31 17:32:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 17:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: warn-transformer
+[2024-05-31 17:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osu.py
+[2024-05-31 17:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rov-db-access
+[2024-05-31 17:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vbr-devkit
+[2024-05-31 17:32:53] INFO root fetch - processPackages [rov-db-access]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 17:32:53] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.99] Old Version: [1.3.98]
+[2024-05-31 17:32:53] INFO root fetch - processPackages [rov-db-access]: Downloading https://files.pythonhosted.org/packages/fa/cf/2cde6b54256ee6a480534ddc1c450c4b26ec07c33db32c00a7b67c1bf822/rov_db_access-1.0.8.tar.gz
+[2024-05-31 17:32:53] INFO root fetch - processPackages [vbr-devkit]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-31 17:32:53] INFO root fetch - processPackages [osu.py]: New version: [2.1.0] Old Version: [2.0.2]
+[2024-05-31 17:32:53] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/b8/99/d6c890a82a61166d1783e52251ba393e28b663b82ae80de85f67cf32c5e8/warn-transformer-1.3.98.tar.gz
+[2024-05-31 17:32:53] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 25743623>=10485760
+[2024-05-31 17:32:53] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2024-05-31 17:32:53] INFO root fetch - processPackages [vbr-devkit]: Downloading https://files.pythonhosted.org/packages/af/85/a1d9fa1d5ed968f700b8b76cb92bdf6a0d67fedffc851119d91d2815c14c/vbr_devkit-0.0.3.tar.gz
+[2024-05-31 17:32:53] INFO root fetch - processPackages [osu.py]: Downloading https://files.pythonhosted.org/packages/3b/84/dc14c020c67d3976b64f66c786254c65cb1b24d848789d0b1c303aa3fefc/osu_py-2.0.2.tar.gz
+[2024-05-31 17:32:54] INFO root fetch - processPackages [rov-db-access]: Downloading https://files.pythonhosted.org/packages/54/3f/5770c2243c3c7434936b4cfd3bcc2fd6c46302b5cddd40f9a23b6e058cf6/rov_db_access-1.0.9.tar.gz
+[2024-05-31 17:32:54] INFO root fetch - processPackages [rov-db-access]: executing diffoscope
+[2024-05-31 17:32:54] INFO root fetch - processPackages [rov-db-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rov_db_access-1.0.8.tar.gz tmp/rov_db_access-1.0.9.tar.gz --markdown 20240531/r/rov-db-access/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 17:32:54] INFO root fetch - processPackages [vbr-devkit]: Downloading https://files.pythonhosted.org/packages/a8/e7/531bc2e4caf30eea513f72b68ee64ac90311f671de8555ed58e55ed8e5fb/vbr_devkit-0.0.4.tar.gz
+[2024-05-31 17:32:54] INFO root fetch - processPackages [osu.py]: Downloading https://files.pythonhosted.org/packages/b4/34/be6a33d82c038947d354df6ce98aeca3566acc73ff235e033ddb3eec469d/osu_py-2.1.0.tar.gz
+[2024-05-31 17:32:54] INFO root fetch - processPackages [vbr-devkit]: executing diffoscope
+[2024-05-31 17:32:54] INFO root fetch - processPackages [vbr-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbr_devkit-0.0.3.tar.gz tmp/vbr_devkit-0.0.4.tar.gz --markdown 20240531/v/vbr-devkit/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-31 17:32:54] INFO root fetch - processPackages [osu.py]: executing diffoscope
+[2024-05-31 17:32:54] INFO root fetch - processPackages [osu.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osu_py-2.0.2.tar.gz tmp/osu_py-2.1.0.tar.gz --markdown 20240531/o/osu.py/2.0.2-2.1.0/README.md --exclude *.pyd
+[2024-05-31 17:32:54] INFO root fetch - processPackages [rov-db-access]: Remove: archive file [/home/abi/fetcher/tmp/rov_db_access-1.0.8.tar.gz]
+[2024-05-31 17:32:54] INFO root fetch - processPackages [rov-db-access]: Remove: archive file [/home/abi/fetcher/tmp/rov_db_access-1.0.9.tar.gz]
+[2024-05-31 17:32:54] INFO root fetch - main [MainThread]: End processing [rov-db-access]: success
+[2024-05-31 17:32:54] INFO root fetch - processPackages [vbr-devkit]: Remove: archive file [/home/abi/fetcher/tmp/vbr_devkit-0.0.3.tar.gz]
+[2024-05-31 17:32:54] INFO root fetch - processPackages [vbr-devkit]: Remove: archive file [/home/abi/fetcher/tmp/vbr_devkit-0.0.4.tar.gz]
+[2024-05-31 17:32:54] INFO root fetch - main [MainThread]: End processing [vbr-devkit]: success
+[2024-05-31 17:32:55] INFO root fetch - processPackages [osu.py]: Remove: archive file [/home/abi/fetcher/tmp/osu_py-2.0.2.tar.gz]
+[2024-05-31 17:32:55] INFO root fetch - processPackages [osu.py]: Remove: archive file [/home/abi/fetcher/tmp/osu_py-2.1.0.tar.gz]
+[2024-05-31 17:32:55] INFO root fetch - main [MainThread]: End processing [osu.py]: success
+[2024-05-31 17:32:55] INFO root fetch - main [MainThread]: Store serial: [23468105]
