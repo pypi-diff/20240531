@@ -2601,3 +2601,45 @@
 [2024-05-31 02:02:30] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.5.2a1.tar.gz]
 [2024-05-31 02:02:30] INFO root fetch - main [MainThread]: End processing [reflex]: success
 [2024-05-31 02:02:30] INFO root fetch - main [MainThread]: Store serial: [23458501]
+[2024-05-31 02:04:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458501]
+[2024-05-31 02:04:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 02:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baml-py
+[2024-05-31 02:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rocketflightsim
+[2024-05-31 02:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ComfyUI-EasyNodes
+[2024-05-31 02:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zepben.protobuf
+[2024-05-31 02:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meditability
+[2024-05-31 02:04:39] INFO root fetch - processPackages [meditability]: New version: [0.2.3a0] Old Version: [0.2.3]
+[2024-05-31 02:04:39] INFO root fetch - processPackages [rocketflightsim]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 02:04:39] WARNING root fetch - processPackages [ComfyUI-EasyNodes]: Skipping, unable to determine old version
+[2024-05-31 02:04:39] INFO root fetch - main [MainThread]: End processing [ComfyUI-EasyNodes] error
+[2024-05-31 02:04:39] INFO root fetch - processPackages [baml-py]: New version: [0.30.4] Old Version: [0.30.3]
+[2024-05-31 02:04:39] INFO root fetch - processPackages [zepben.protobuf]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2024-05-31 02:04:39] INFO root fetch - processPackages [meditability]: Downloading https://files.pythonhosted.org/packages/a4/1f/a3c9b463b2238bcd62bbbe55b43c77ed04b9823e44ce6a5f54775b04738c/meditability-0.2.3.tar.gz
+[2024-05-31 02:04:39] INFO root fetch - processPackages [rocketflightsim]: Downloading https://files.pythonhosted.org/packages/9b/73/d9dceddb6b29a4b7bf1830311d407b8f241838b4dbdd5fe5497e926063d3/rocketflightsim-0.1.1.tar.gz
+[2024-05-31 02:04:39] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/5e/3d/6ceb042b7d6ac7be44ced1fc1301187c1c6b62ec57790df5c45b2728c39a/baml_py-0.30.3-cp38-abi3-win_amd64.whl
+[2024-05-31 02:04:39] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/e7/f9/98a738ec69d1cf6c1169c9e0e98d520ed5a5943e9911bce5201611265f81/zepben.protobuf-0.9.0b2-py3-none-any.whl
+[2024-05-31 02:04:39] INFO root fetch - processPackages [meditability]: Downloading https://files.pythonhosted.org/packages/14/9c/93f1dad31a4e36a41e48bb07a3beff2a750d3b262997766d60feb85f5ba7/meditability-0.2.3a0.tar.gz
+[2024-05-31 02:04:39] INFO root fetch - processPackages [meditability]: executing diffoscope
+[2024-05-31 02:04:39] INFO root fetch - processPackages [meditability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meditability-0.2.3.tar.gz tmp/meditability-0.2.3a0.tar.gz --markdown 20240531/m/meditability/0.2.3-0.2.3a0/README.md --exclude *.pyd
+[2024-05-31 02:04:39] INFO root fetch - processPackages [rocketflightsim]: Downloading https://files.pythonhosted.org/packages/0c/8c/3af0cb486789e7808094be9c6c122aa3489d491e8096d83e7fa345bfe921/rocketflightsim-0.1.2.tar.gz
+[2024-05-31 02:04:39] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/ea/50/751033a2cb3fef1cb800a48f0d63bf756c6cdb739fe466ebcae674b82ea8/zepben.protobuf-0.9.0b3-py3-none-any.whl
+[2024-05-31 02:04:39] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/c5/5b/b4bd1f567ae0ef322ecad2f208b82d2ada4d84774595b15814aa126fe2ff/baml_py-0.30.4-cp38-abi3-win_amd64.whl
+[2024-05-31 02:04:39] INFO root fetch - processPackages [rocketflightsim]: executing diffoscope
+[2024-05-31 02:04:39] INFO root fetch - processPackages [rocketflightsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocketflightsim-0.1.1.tar.gz tmp/rocketflightsim-0.1.2.tar.gz --markdown 20240531/r/rocketflightsim/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 02:04:40] INFO root fetch - processPackages [zepben.protobuf]: executing diffoscope
+[2024-05-31 02:04:40] INFO root fetch - processPackages [zepben.protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip --markdown 20240531/z/zepben.protobuf/0.9.0b2-0.9.0b3/README.md --exclude *.pyd
+[2024-05-31 02:04:40] INFO root fetch - processPackages [meditability]: Remove: archive file [/home/abi/fetcher/tmp/meditability-0.2.3.tar.gz]
+[2024-05-31 02:04:40] INFO root fetch - processPackages [meditability]: Remove: archive file [/home/abi/fetcher/tmp/meditability-0.2.3a0.tar.gz]
+[2024-05-31 02:04:40] INFO root fetch - main [MainThread]: End processing [meditability]: success
+[2024-05-31 02:04:40] INFO root fetch - processPackages [rocketflightsim]: Remove: archive file [/home/abi/fetcher/tmp/rocketflightsim-0.1.1.tar.gz]
+[2024-05-31 02:04:40] INFO root fetch - processPackages [rocketflightsim]: Remove: archive file [/home/abi/fetcher/tmp/rocketflightsim-0.1.2.tar.gz]
+[2024-05-31 02:04:40] INFO root fetch - main [MainThread]: End processing [rocketflightsim]: success
+[2024-05-31 02:04:40] INFO root fetch - processPackages [baml-py]: executing diffoscope
+[2024-05-31 02:04:40] INFO root fetch - processPackages [baml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml_py-0.30.3-cp38-abi3-win_amd64.whl.zip tmp/baml_py-0.30.4-cp38-abi3-win_amd64.whl.zip --markdown 20240531/b/baml-py/0.30.3-0.30.4/README.md --exclude *.pyd
+[2024-05-31 02:04:41] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip]
+[2024-05-31 02:04:41] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
+[2024-05-31 02:04:41] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
+[2024-05-31 02:04:41] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.30.3-cp38-abi3-win_amd64.whl.zip]
+[2024-05-31 02:04:41] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.30.4-cp38-abi3-win_amd64.whl.zip]
+[2024-05-31 02:04:41] INFO root fetch - main [MainThread]: End processing [baml-py]: success
+[2024-05-31 02:04:41] INFO root fetch - main [MainThread]: Store serial: [23458522]
