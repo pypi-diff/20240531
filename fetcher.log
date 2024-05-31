@@ -20806,3 +20806,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:54:56] INFO root fetch - processPackages [tamaas]: Remove: archive file [/home/abi/fetcher/tmp/tamaas-2.8.0rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip]
 [2024-05-31 15:54:56] INFO root fetch - main [MainThread]: End processing [tamaas]: success
 [2024-05-31 15:54:56] INFO root fetch - main [MainThread]: Store serial: [23466575]
+[2024-05-31 15:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466575]
+[2024-05-31 15:57:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 15:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picea
+[2024-05-31 15:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: make-html
+[2024-05-31 15:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litetts
+[2024-05-31 15:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-subfolder
+[2024-05-31 15:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hippo-db
+[2024-05-31 15:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socialdataanalysis
+[2024-05-31 15:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dokurestapi
+[2024-05-31 15:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: juju
+[2024-05-31 15:57:08] INFO root fetch - processPackages [picea]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 15:57:08] INFO root fetch - processPackages [litetts]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-31 15:57:08] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.8] Old Version: [0.7]
+[2024-05-31 15:57:08] WARNING root fetch - processPackages [dokurestapi]: Skipping, unable to determine old version
+[2024-05-31 15:57:08] INFO root fetch - main [MainThread]: End processing [dokurestapi] error
+[2024-05-31 15:57:08] INFO root fetch - processPackages [hippo-db]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 15:57:08] WARNING root fetch - processPackages [make-html]: Skipping, unable to determine old version
+[2024-05-31 15:57:08] INFO root fetch - main [MainThread]: End processing [make-html] error
+[2024-05-31 15:57:08] WARNING root fetch - processPackages [test-subfolder]: Skipping, unable to determine old version
+[2024-05-31 15:57:08] INFO root fetch - main [MainThread]: End processing [test-subfolder] error
+[2024-05-31 15:57:08] INFO root fetch - processPackages [litetts]: Downloading https://files.pythonhosted.org/packages/48/c5/79ca5d92935dbb981373ee6e2e845ceeafc51ad7f7045a6b26d95107305a/litetts-0.2.0.tar.gz
+[2024-05-31 15:57:08] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/e5/4d/2405f5f6231c98dc0bfd2b20d86d72de3b757ecd0ebf9e7cb71d2464721e/picea-0.0.8.tar.gz
+[2024-05-31 15:57:08] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/ce/5e/e5ca04d588bf10dd6f4b1cf30e234ebbd63e7e18dfba39d23f1516872811/socialdataanalysis-0.7.tar.gz
+[2024-05-31 15:57:08] INFO root fetch - processPackages [hippo-db]: Downloading https://files.pythonhosted.org/packages/81/91/9f00e180052831aa02fe664c66a38a5e8c1b379b2a03897b179ad98c3c9d/hippo_db-0.3.8.tar.gz
+[2024-05-31 15:57:08] INFO root fetch - processPackages [juju]: New version: [3.5.0.0] Old Version: [3.4.0.0]
+[2024-05-31 15:57:09] INFO root fetch - processPackages [hippo-db]: Downloading https://files.pythonhosted.org/packages/b3/e5/dad6e60b241064353923c0c5c497ef3919fef4e15a267cb7c4d59bea2687/hippo_db-0.3.9.tar.gz
+[2024-05-31 15:57:09] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/59/49/8c2f0a6f8d85f9fe751e4f7e27eef9281443b43b5bc2f5dad2b7aacfae6d/picea-0.0.9.tar.gz
+[2024-05-31 15:57:09] INFO root fetch - processPackages [juju]: Downloading https://files.pythonhosted.org/packages/d8/3e/4168bafcde6920fce813ae97c6f45fca04542b36617badb1110b084b133b/juju-3.4.0.0.tar.gz
+[2024-05-31 15:57:09] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/ec/de/9a88b7204e212f04a2ba1520d3e95f227f3b9f25580a58dcb65b99794d97/socialdataanalysis-0.8.tar.gz
+[2024-05-31 15:57:09] INFO root fetch - processPackages [litetts]: Downloading https://files.pythonhosted.org/packages/0b/88/297c0f5607cc4cc580df248d191c610b0902b44a692307109ff9cffd56fb/litetts-0.3.0.tar.gz
+[2024-05-31 15:57:09] INFO root fetch - processPackages [hippo-db]: executing diffoscope
+[2024-05-31 15:57:09] INFO root fetch - processPackages [hippo-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hippo_db-0.3.8.tar.gz tmp/hippo_db-0.3.9.tar.gz --markdown 20240531/h/hippo-db/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 15:57:09] INFO root fetch - processPackages [picea]: executing diffoscope
+[2024-05-31 15:57:09] INFO root fetch - processPackages [picea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picea-0.0.8.tar.gz tmp/picea-0.0.9.tar.gz --markdown 20240531/p/picea/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 15:57:09] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 15:57:09] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.7.tar.gz tmp/socialdataanalysis-0.8.tar.gz --markdown 20240531/s/socialdataanalysis/0.7-0.8/README.md --exclude *.pyd
+[2024-05-31 15:57:09] INFO root fetch - processPackages [litetts]: executing diffoscope
+[2024-05-31 15:57:09] INFO root fetch - processPackages [litetts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litetts-0.2.0.tar.gz tmp/litetts-0.3.0.tar.gz --markdown 20240531/l/litetts/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-31 15:57:09] INFO root fetch - processPackages [juju]: Downloading https://files.pythonhosted.org/packages/38/c7/f6d8ff3598099ce053dfc1e8418fe4b940fa539473b90d83e53cf78c3ab5/juju-3.5.0.0.tar.gz
+[2024-05-31 15:57:09] INFO root fetch - processPackages [hippo-db]: Remove: archive file [/home/abi/fetcher/tmp/hippo_db-0.3.8.tar.gz]
+[2024-05-31 15:57:09] INFO root fetch - processPackages [hippo-db]: Remove: archive file [/home/abi/fetcher/tmp/hippo_db-0.3.9.tar.gz]
+[2024-05-31 15:57:09] INFO root fetch - main [MainThread]: End processing [hippo-db]: success
+[2024-05-31 15:57:10] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.8.tar.gz]
+[2024-05-31 15:57:10] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.9.tar.gz]
+[2024-05-31 15:57:10] INFO root fetch - main [MainThread]: End processing [picea]: success
+[2024-05-31 15:57:10] INFO root fetch - processPackages [juju]: executing diffoscope
+[2024-05-31 15:57:10] INFO root fetch - processPackages [juju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juju-3.4.0.0.tar.gz tmp/juju-3.5.0.0.tar.gz --markdown 20240531/j/juju/3.4.0.0-3.5.0.0/README.md --exclude *.pyd
+[2024-05-31 15:57:10] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.7.tar.gz]
+[2024-05-31 15:57:10] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.8.tar.gz]
+[2024-05-31 15:57:10] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 15:57:10] INFO root fetch - processPackages [litetts]: Remove: archive file [/home/abi/fetcher/tmp/litetts-0.2.0.tar.gz]
+[2024-05-31 15:57:10] INFO root fetch - processPackages [litetts]: Remove: archive file [/home/abi/fetcher/tmp/litetts-0.3.0.tar.gz]
+[2024-05-31 15:57:10] INFO root fetch - main [MainThread]: End processing [litetts]: success
+[2024-05-31 15:57:11] INFO root fetch - processPackages [juju]: Remove: archive file [/home/abi/fetcher/tmp/juju-3.4.0.0.tar.gz]
+[2024-05-31 15:57:11] INFO root fetch - processPackages [juju]: Remove: archive file [/home/abi/fetcher/tmp/juju-3.5.0.0.tar.gz]
+[2024-05-31 15:57:11] INFO root fetch - main [MainThread]: End processing [juju]: success
+[2024-05-31 15:57:11] INFO root fetch - main [MainThread]: Store serial: [23466612]
