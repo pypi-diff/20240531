@@ -6198,3 +6198,48 @@
 [2024-05-31 05:30:56] INFO root fetch - processPackages [plutonium-238]: Remove: archive file [/home/abi/fetcher/tmp/plutonium-238-0.2.1.tar.gz]
 [2024-05-31 05:30:56] INFO root fetch - main [MainThread]: End processing [plutonium-238]: success
 [2024-05-31 05:30:56] INFO root fetch - main [MainThread]: Store serial: [23460083]
+[2024-05-31 05:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460083]
+[2024-05-31 05:33:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chat-with-functions
+[2024-05-31 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eirStru
+[2024-05-31 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mutt-html-reply
+[2024-05-31 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyinitlog-util
+[2024-05-31 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sensord
+[2024-05-31 05:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nlp-nightly
+[2024-05-31 05:33:05] INFO root fetch - processPackages [mutt-html-reply]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 05:33:05] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 05:33:05] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-31 05:33:05] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/d9/93/f07dfaa7527dcc63503091ce6bc7cc01c62791d2d167346bd1a87fb29d01/mutt_html_reply-0.3.1.tar.gz
+[2024-05-31 05:33:05] WARNING root fetch - processPackages [sensord]: Skipping, unable to determine old version
+[2024-05-31 05:33:05] INFO root fetch - main [MainThread]: End processing [sensord] error
+[2024-05-31 05:33:05] INFO root fetch - processPackages [chat-with-functions]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 05:33:05] WARNING root fetch - processPackages [pyinitlog-util]: Skipping, unable to determine old version
+[2024-05-31 05:33:05] INFO root fetch - main [MainThread]: End processing [pyinitlog-util] error
+[2024-05-31 05:33:05] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-05-31 05:33:05] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-31 05:33:05] INFO root fetch - processPackages [chat-with-functions]: Downloading https://files.pythonhosted.org/packages/58/85/1b735146369235ea9358f004de96fa1e1fca3ebd9a6a586abc3fd5282730/chat_with_functions-0.1.1.tar.gz
+[2024-05-31 05:33:05] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-31 05:33:05] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-05-31 05:33:05] INFO root fetch - processPackages [mutt-html-reply]: Downloading https://files.pythonhosted.org/packages/19/41/02489a51c91210b29fc147082ea20cdfa7a1db17f00c691b8528dbc83cb7/mutt_html_reply-0.3.2.tar.gz
+[2024-05-31 05:33:05] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-05-31 05:33:05] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240531/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 05:33:05] INFO root fetch - processPackages [mutt-html-reply]: executing diffoscope
+[2024-05-31 05:33:05] INFO root fetch - processPackages [mutt-html-reply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutt_html_reply-0.3.1.tar.gz tmp/mutt_html_reply-0.3.2.tar.gz --markdown 20240531/m/mutt-html-reply/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 05:33:05] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-31 05:33:05] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240531/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-31 05:33:06] INFO root fetch - processPackages [chat-with-functions]: Downloading https://files.pythonhosted.org/packages/aa/26/c3032394046ef5ca1272a8fdfbbe209f33880305c94346fb14c97ba4d5aa/chat_with_functions-0.1.2.tar.gz
+[2024-05-31 05:33:06] INFO root fetch - processPackages [chat-with-functions]: executing diffoscope
+[2024-05-31 05:33:06] INFO root fetch - processPackages [chat-with-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat_with_functions-0.1.1.tar.gz tmp/chat_with_functions-0.1.2.tar.gz --markdown 20240531/c/chat-with-functions/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 05:33:06] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.3.1.tar.gz]
+[2024-05-31 05:33:06] INFO root fetch - processPackages [mutt-html-reply]: Remove: archive file [/home/abi/fetcher/tmp/mutt_html_reply-0.3.2.tar.gz]
+[2024-05-31 05:33:06] INFO root fetch - main [MainThread]: End processing [mutt-html-reply]: success
+[2024-05-31 05:33:06] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-05-31 05:33:06] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-05-31 05:33:06] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-05-31 05:33:06] INFO root fetch - processPackages [chat-with-functions]: Remove: archive file [/home/abi/fetcher/tmp/chat_with_functions-0.1.1.tar.gz]
+[2024-05-31 05:33:06] INFO root fetch - processPackages [chat-with-functions]: Remove: archive file [/home/abi/fetcher/tmp/chat_with_functions-0.1.2.tar.gz]
+[2024-05-31 05:33:06] INFO root fetch - main [MainThread]: End processing [chat-with-functions]: success
+[2024-05-31 05:33:07] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-31 05:33:07] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-31 05:33:07] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-31 05:33:07] INFO root fetch - main [MainThread]: Store serial: [23460106]
