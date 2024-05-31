@@ -19081,3 +19081,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:54:55] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.4.0a0.tar.gz]
 [2024-05-31 14:54:55] INFO root fetch - main [MainThread]: End processing [woningwaardering]: success
 [2024-05-31 14:54:55] INFO root fetch - main [MainThread]: Store serial: [23465881]
+[2024-05-31 14:56:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465881]
+[2024-05-31 14:57:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 14:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xchainpy2-mayanode
+[2024-05-31 14:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xchainpy2-thornode
+[2024-05-31 14:57:04] INFO root fetch - processPackages [xchainpy2-thornode]: New version: [1.132.0] Old Version: [1.130.1]
+[2024-05-31 14:57:04] INFO root fetch - processPackages [xchainpy2-mayanode]: New version: [1.109.0] Old Version: [1.108.1]
+[2024-05-31 14:57:04] INFO root fetch - processPackages [xchainpy2-mayanode]: Downloading https://files.pythonhosted.org/packages/d9/c6/67940645971864d7b5f51994c18a00935aff556ad032baf3580ac1cef5e5/xchainpy2-mayanode-1.108.1.tar.gz
+[2024-05-31 14:57:04] INFO root fetch - processPackages [xchainpy2-thornode]: Downloading https://files.pythonhosted.org/packages/e9/3e/407692fc1d1452161add22b821859bf2dfdebc80612a6c824500ea013c93/xchainpy2-thornode-1.130.1.tar.gz
+[2024-05-31 14:57:04] INFO root fetch - processPackages [xchainpy2-thornode]: Downloading https://files.pythonhosted.org/packages/7f/d5/768f5ea4bd1a9a3db222999c89e95f124d78d8d920821771447bce38db07/xchainpy2_thornode-1.132.0.tar.gz
+[2024-05-31 14:57:04] INFO root fetch - processPackages [xchainpy2-mayanode]: Downloading https://files.pythonhosted.org/packages/d1/d2/704f231c5b4945ae25eafe486db98cd552c884eb8a414d2cea046b84caae/xchainpy2_mayanode-1.109.0.tar.gz
+[2024-05-31 14:57:05] INFO root fetch - processPackages [xchainpy2-thornode]: executing diffoscope
+[2024-05-31 14:57:05] INFO root fetch - processPackages [xchainpy2-thornode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchainpy2-thornode-1.130.1.tar.gz tmp/xchainpy2_thornode-1.132.0.tar.gz --markdown 20240531/x/xchainpy2-thornode/1.130.1-1.132.0/README.md --exclude *.pyd
+[2024-05-31 14:57:05] INFO root fetch - processPackages [xchainpy2-mayanode]: executing diffoscope
+[2024-05-31 14:57:05] INFO root fetch - processPackages [xchainpy2-mayanode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchainpy2-mayanode-1.108.1.tar.gz tmp/xchainpy2_mayanode-1.109.0.tar.gz --markdown 20240531/x/xchainpy2-mayanode/1.108.1-1.109.0/README.md --exclude *.pyd
+[2024-05-31 14:57:06] INFO root fetch - processPackages [xchainpy2-mayanode]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2-mayanode-1.108.1.tar.gz]
+[2024-05-31 14:57:06] INFO root fetch - processPackages [xchainpy2-mayanode]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_mayanode-1.109.0.tar.gz]
+[2024-05-31 14:57:06] INFO root fetch - main [MainThread]: End processing [xchainpy2-mayanode]: success
+[2024-05-31 14:57:07] INFO root fetch - processPackages [xchainpy2-thornode]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2-thornode-1.130.1.tar.gz]
+[2024-05-31 14:57:07] INFO root fetch - processPackages [xchainpy2-thornode]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_thornode-1.132.0.tar.gz]
+[2024-05-31 14:57:07] INFO root fetch - main [MainThread]: End processing [xchainpy2-thornode]: success
+[2024-05-31 14:57:07] INFO root fetch - main [MainThread]: Store serial: [23465887]
