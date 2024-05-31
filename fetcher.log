@@ -6074,3 +6074,24 @@
 [2024-05-31 05:22:10] INFO root fetch - processPackages [lptlib]: Remove: archive file [/home/abi/fetcher/tmp/lptlib-0.0.1a9.tar.gz]
 [2024-05-31 05:22:10] INFO root fetch - main [MainThread]: End processing [lptlib]: success
 [2024-05-31 05:22:10] INFO root fetch - main [MainThread]: Store serial: [23460040]
+[2024-05-31 05:24:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460040]
+[2024-05-31 05:24:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2024-05-31 05:24:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myfunctions-edatop
+[2024-05-31 05:24:19] INFO root fetch - processPackages [myfunctions-edatop]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 05:24:19] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024053103] Old Version: [3.3.3.dev2024052903]
+[2024-05-31 05:24:19] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/40/f9/57c5c3301dd377709adb64f5756bb655f741ca6b0e85cf33920b8a749247/myfunctions_edatop-0.0.1.tar.gz
+[2024-05-31 05:24:19] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/38/07/e55f0bcd4e19ad488065ee3de02d5f397a5375943c1bf1a2d3411cee493e/keras_nightly-3.3.3.dev2024052903.tar.gz
+[2024-05-31 05:24:19] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/4f/d5/3f4ea7c123aa20a98fa8d6f00488539302279bcdd3202db8e404940df789/myfunctions_edatop-0.0.2.tar.gz
+[2024-05-31 05:24:19] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/66/fc/199fbb20ecca93bf97cf7b969b438ee9920467a4dca0d3f040908f635dfa/keras_nightly-3.3.3.dev2024053103.tar.gz
+[2024-05-31 05:24:19] INFO root fetch - processPackages [myfunctions-edatop]: executing diffoscope
+[2024-05-31 05:24:19] INFO root fetch - processPackages [myfunctions-edatop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_edatop-0.0.1.tar.gz tmp/myfunctions_edatop-0.0.2.tar.gz --markdown 20240531/m/myfunctions-edatop/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 05:24:20] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-31 05:24:20] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024052903.tar.gz tmp/keras_nightly-3.3.3.dev2024053103.tar.gz --markdown 20240531/k/keras-nightly/3.3.3.dev2024052903-3.3.3.dev2024053103/README.md --exclude *.pyd
+[2024-05-31 05:24:20] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.1.tar.gz]
+[2024-05-31 05:24:20] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.2.tar.gz]
+[2024-05-31 05:24:20] INFO root fetch - main [MainThread]: End processing [myfunctions-edatop]: success
+[2024-05-31 05:24:22] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052903.tar.gz]
+[2024-05-31 05:24:22] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024053103.tar.gz]
+[2024-05-31 05:24:22] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-31 05:24:22] INFO root fetch - main [MainThread]: Store serial: [23460046]
