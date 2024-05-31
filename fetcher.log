@@ -3370,3 +3370,24 @@
 [2024-05-31 02:39:46] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.7.5.tar.gz]
 [2024-05-31 02:39:46] INFO root fetch - main [MainThread]: End processing [ahk]: success
 [2024-05-31 02:39:46] INFO root fetch - main [MainThread]: Store serial: [23458899]
+[2024-05-31 02:41:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458899]
+[2024-05-31 02:41:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 02:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinnacle-cli
+[2024-05-31 02:41:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loopstructuralvisualisation
+[2024-05-31 02:41:55] INFO root fetch - processPackages [loopstructuralvisualisation]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-31 02:41:55] INFO root fetch - processPackages [pinnacle-cli]: New version: [0.0.2a2] Old Version: [0.0.1]
+[2024-05-31 02:41:55] INFO root fetch - processPackages [loopstructuralvisualisation]: Downloading https://files.pythonhosted.org/packages/00/31/1d0c69c04fa1c900c498cb2daca25da992b39d1835ffdf93ea0e762d68e5/loopstructuralvisualisation-0.1.2.tar.gz
+[2024-05-31 02:41:55] INFO root fetch - processPackages [pinnacle-cli]: Downloading https://files.pythonhosted.org/packages/86/70/e8b70eb3b20a59bc89d8546afccdf60f4b7821baf12f97b1ad33e197d0f8/pinnacle_cli-0.0.1.tar.gz
+[2024-05-31 02:41:55] INFO root fetch - processPackages [loopstructuralvisualisation]: Downloading https://files.pythonhosted.org/packages/87/6b/06c85e74cc062695a985bf9761be149ec2f2fffb19e54ee245b282334ca4/loopstructuralvisualisation-0.1.3.tar.gz
+[2024-05-31 02:41:55] INFO root fetch - processPackages [pinnacle-cli]: Downloading https://files.pythonhosted.org/packages/32/8e/05afd3ea1c24108658251d6faa62a9852131e4bef9d6cf0c1927212bbb33/pinnacle_cli-0.0.2a2.tar.gz
+[2024-05-31 02:41:55] INFO root fetch - processPackages [loopstructuralvisualisation]: executing diffoscope
+[2024-05-31 02:41:55] INFO root fetch - processPackages [loopstructuralvisualisation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopstructuralvisualisation-0.1.2.tar.gz tmp/loopstructuralvisualisation-0.1.3.tar.gz --markdown 20240531/l/loopstructuralvisualisation/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-31 02:41:56] INFO root fetch - processPackages [pinnacle-cli]: executing diffoscope
+[2024-05-31 02:41:56] INFO root fetch - processPackages [pinnacle-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinnacle_cli-0.0.1.tar.gz tmp/pinnacle_cli-0.0.2a2.tar.gz --markdown 20240531/p/pinnacle-cli/0.0.1-0.0.2a2/README.md --exclude *.pyd
+[2024-05-31 02:41:56] INFO root fetch - processPackages [loopstructuralvisualisation]: Remove: archive file [/home/abi/fetcher/tmp/loopstructuralvisualisation-0.1.2.tar.gz]
+[2024-05-31 02:41:56] INFO root fetch - processPackages [loopstructuralvisualisation]: Remove: archive file [/home/abi/fetcher/tmp/loopstructuralvisualisation-0.1.3.tar.gz]
+[2024-05-31 02:41:56] INFO root fetch - main [MainThread]: End processing [loopstructuralvisualisation]: success
+[2024-05-31 02:41:57] INFO root fetch - processPackages [pinnacle-cli]: Remove: archive file [/home/abi/fetcher/tmp/pinnacle_cli-0.0.1.tar.gz]
+[2024-05-31 02:41:57] INFO root fetch - processPackages [pinnacle-cli]: Remove: archive file [/home/abi/fetcher/tmp/pinnacle_cli-0.0.2a2.tar.gz]
+[2024-05-31 02:41:57] INFO root fetch - main [MainThread]: End processing [pinnacle-cli]: success
+[2024-05-31 02:41:57] INFO root fetch - main [MainThread]: Store serial: [23458908]
