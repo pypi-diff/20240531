@@ -7478,3 +7478,51 @@
 [2024-05-31 06:53:35] INFO root fetch - processPackages [datamaestro-text]: Remove: archive file [/home/abi/fetcher/tmp/datamaestro_text-2024.5.31.tar.gz]
 [2024-05-31 06:53:35] INFO root fetch - main [MainThread]: End processing [datamaestro-text]: success
 [2024-05-31 06:53:35] INFO root fetch - main [MainThread]: Store serial: [23460501]
+[2024-05-31 06:55:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460501]
+[2024-05-31 06:55:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 06:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cumo
+[2024-05-31 06:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bees-challenge
+[2024-05-31 06:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iac-init
+[2024-05-31 06:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-agent-openai-legacy
+[2024-05-31 06:55:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index
+[2024-05-31 06:55:43] INFO root fetch - processPackages [iac-init]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-31 06:55:43] INFO root fetch - processPackages [bees-challenge]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 06:55:44] INFO root fetch - processPackages [cumo]: New version: [0.33.6] Old Version: [0.33.5]
+[2024-05-31 06:55:44] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/1e/87/25cfb85cbecfb61be13d8905d9e7259d9d2ec5052e1cccfc56d76afd5e7b/iac_init-0.9.1.tar.gz
+[2024-05-31 06:55:44] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-31 06:55:44] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/92/c9/eb04840a84191b4bb14a9aa79041b78ebc7207c9114d44295909ce6c2dc3/bees-challenge-0.8.0.tar.gz
+[2024-05-31 06:55:44] INFO root fetch - processPackages [llama-index]: New version: [0.9.9] Old Version: [0.9.8.post1]
+[2024-05-31 06:55:44] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/58/9b/955e6a0622093486dc8fc07d095b8fbf24b92f0c7300db9174340c75ef2b/cumo-0.33.5.tar.gz
+[2024-05-31 06:55:44] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/07/b0/8273979b766f0002142714ccac087661ca119069cca66ab3540321ebc94e/bees-challenge-0.9.0.tar.gz
+[2024-05-31 06:55:44] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: Downloading https://files.pythonhosted.org/packages/5b/ad/5796c4fd7a654fdd617eb0ed1c69f2609492609918a012407f9645cc6085/llama_index_agent_openai_legacy-0.1.4.tar.gz
+[2024-05-31 06:55:44] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/ff/05/5239ef88ab93061d5535beb6c21d17f0b463aa0c48c1c9baa8d0a5941098/llama_index-0.9.8.post1.tar.gz
+[2024-05-31 06:55:44] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/8c/57/ba3d3f372d3c1fcb68363775bfcded559c094cd8ecf094077e7d81c7b78c/iac_init-0.9.2.tar.gz
+[2024-05-31 06:55:44] INFO root fetch - processPackages [bees-challenge]: executing diffoscope
+[2024-05-31 06:55:44] INFO root fetch - processPackages [bees-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bees-challenge-0.8.0.tar.gz tmp/bees-challenge-0.9.0.tar.gz --markdown 20240531/b/bees-challenge/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 06:55:44] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-31 06:55:44] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.9.1.tar.gz tmp/iac_init-0.9.2.tar.gz --markdown 20240531/i/iac-init/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-31 06:55:44] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: Downloading https://files.pythonhosted.org/packages/1a/62/13c5a04e4c935c6bf31587ee754bfd71fddfcd24b4f1b2df921654b7e95c/llama_index_agent_openai_legacy-0.1.5.tar.gz
+[2024-05-31 06:55:44] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/05/1d/c871b4b0e16878a69d71275dc6ea2011ad14102477935eceed59d782bb77/cumo-0.33.6.tar.gz
+[2024-05-31 06:55:44] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/09/9b/6a7d14763cd2bdfe4705633fd1b850857e7c64d269c6cebd5d7bbc646187/llama_index-0.9.9.tar.gz
+[2024-05-31 06:55:44] INFO root fetch - processPackages [cumo]: executing diffoscope
+[2024-05-31 06:55:44] INFO root fetch - processPackages [cumo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumo-0.33.5.tar.gz tmp/cumo-0.33.6.tar.gz --markdown 20240531/c/cumo/0.33.5-0.33.6/README.md --exclude *.pyd
+[2024-05-31 06:55:44] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: executing diffoscope
+[2024-05-31 06:55:44] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_agent_openai_legacy-0.1.4.tar.gz tmp/llama_index_agent_openai_legacy-0.1.5.tar.gz --markdown 20240531/l/llama-index-agent-openai-legacy/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-31 06:55:44] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2024-05-31 06:55:44] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.9.8.post1.tar.gz tmp/llama_index-0.9.9.tar.gz --markdown 20240531/l/llama-index/0.9.8.post1-0.9.9/README.md --exclude *.pyd
+[2024-05-31 06:55:44] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.8.0.tar.gz]
+[2024-05-31 06:55:44] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.9.0.tar.gz]
+[2024-05-31 06:55:44] INFO root fetch - main [MainThread]: End processing [bees-challenge]: success
+[2024-05-31 06:55:45] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.1.tar.gz]
+[2024-05-31 06:55:45] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.2.tar.gz]
+[2024-05-31 06:55:45] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-31 06:55:45] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_agent_openai_legacy-0.1.4.tar.gz]
+[2024-05-31 06:55:45] INFO root fetch - processPackages [llama-index-agent-openai-legacy]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_agent_openai_legacy-0.1.5.tar.gz]
+[2024-05-31 06:55:45] INFO root fetch - main [MainThread]: End processing [llama-index-agent-openai-legacy]: success
+[2024-05-31 06:55:47] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.8.post1.tar.gz]
+[2024-05-31 06:55:47] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.9.tar.gz]
+[2024-05-31 06:55:47] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2024-05-31 06:56:12] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.5.tar.gz]
+[2024-05-31 06:56:12] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.6.tar.gz]
+[2024-05-31 06:56:12] INFO root fetch - main [MainThread]: End processing [cumo]: success
+[2024-05-31 06:56:12] INFO root fetch - main [MainThread]: Store serial: [23460516]
