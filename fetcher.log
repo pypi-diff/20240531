@@ -11083,3 +11083,99 @@
 [2024-05-31 09:46:06] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-2.3.tar.gz]
 [2024-05-31 09:46:06] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2024-05-31 09:46:06] INFO root fetch - main [MainThread]: Store serial: [23462282]
+[2024-05-31 09:48:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462282]
+[2024-05-31 09:48:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 09:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GeneralAgent
+[2024-05-31 09:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contactsoftware-functions-client
+[2024-05-31 09:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: static-analysis-script
+[2024-05-31 09:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: first-breaks-picking
+[2024-05-31 09:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: first-breaks-picking-gpu
+[2024-05-31 09:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enigma-workflow-14
+[2024-05-31 09:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2024-05-31 09:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dycw-utilities
+[2024-05-31 09:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wp-enhanced
+[2024-05-31 09:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agiflow-sdk
+[2024-05-31 09:48:16] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-31 09:48:16] INFO root fetch - processPackages [static-analysis-script]: New version: [0.2.6] Old Version: [0.2.4]
+[2024-05-31 09:48:16] INFO root fetch - processPackages [first-breaks-picking-gpu]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-31 09:48:16] INFO root fetch - processPackages [contactsoftware-functions-client]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-31 09:48:16] INFO root fetch - processPackages [first-breaks-picking]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-31 09:48:16] INFO root fetch - processPackages [wp-enhanced]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 09:48:16] INFO root fetch - processPackages [GeneralAgent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 09:48:16] WARNING root fetch - processPackages [agiflow-sdk]: Skipping, unable to determine old version
+[2024-05-31 09:48:16] INFO root fetch - processPackages [agiflow-sdk]: Start processing: sentiment-analysis-package
+[2024-05-31 09:48:16] INFO root fetch - main [MainThread]: End processing [agiflow-sdk] error
+[2024-05-31 09:48:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.39.0.dev20240529] Old Version: [1.39.0.dev20240528]
+[2024-05-31 09:48:16] INFO root fetch - processPackages [enigma-workflow-14]: New version: [14.0.8] Old Version: [14.0.7]
+[2024-05-31 09:48:16] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-31 09:48:16] INFO root fetch - processPackages [sentiment-analysis-package]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-31 09:48:16] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/62/6a/9b278b29ddf84d44f6e50cb3c3e41a589a10a28b831364f97144fd9f20fd/static_analysis_script-0.2.4.tar.gz
+[2024-05-31 09:48:16] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/3c/ef/1af252a480987910d43f58fec4713c9b099eee5e0c0e96f108b2481ab1ec/sentiment_analysis_package-0.4.0.tar.gz
+[2024-05-31 09:48:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/13/e3/ab19d99411b0875f7eb40e93f6f8f536ebbcb0c5a3c91588b4ff5a2e3383/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240528.tar.gz
+[2024-05-31 09:48:16] INFO root fetch - processPackages [first-breaks-picking-gpu]: Downloading https://files.pythonhosted.org/packages/44/8e/4de2d2f0dfe5e1f6bd08c1d55cf0fa47decc074c065e23c37bcde85b644f/first_breaks_picking_gpu-0.7.3.tar.gz
+[2024-05-31 09:48:16] INFO root fetch - processPackages [contactsoftware-functions-client]: Downloading https://files.pythonhosted.org/packages/51/e4/8e2518d8a606f4f7e52f8f89a4f0471fbc83e8c4ee90ea7a357cc5dc0bba/contactsoftware_functions_client-0.5.1.tar.gz
+[2024-05-31 09:48:16] INFO root fetch - processPackages [wp-enhanced]: Downloading https://files.pythonhosted.org/packages/d7/a1/a5c5deeabaeda453b57c878154367e4d05c16c4e487204af0d5ba32df0c3/wp_enhanced-0.9.0.tar.gz
+[2024-05-31 09:48:16] INFO root fetch - processPackages [GeneralAgent]: Downloading https://files.pythonhosted.org/packages/4a/85/8ba69c65756dc2834f17de340ea370a0f1766c4e2dbf7ad78a7a1d7897c8/generalagent-0.2.8.tar.gz
+[2024-05-31 09:48:16] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/04/d6/9afeb54d2b748918bb887c09992de2e2f6d186134036e3f3cb3e4f348142/first_breaks_picking-0.7.3.tar.gz
+[2024-05-31 09:48:16] INFO root fetch - processPackages [enigma-workflow-14]: Downloading https://files.pythonhosted.org/packages/d3/19/af6435d1800723b89a596eafcef2e66491a06d614fcccb36cc224efec032/enigma_workflow_14-14.0.7-cp39-cp39-macosx_11_0_arm64.whl
+[2024-05-31 09:48:16] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-31 09:48:17] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/4a/3e/6cedcd4d270a0b96cd42bbd3b9b67dd80fdefa787809c4759c6bf58f410a/static_analysis_script-0.2.6.tar.gz
+[2024-05-31 09:48:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/ae/b2/6129337fff553737715e91fb8ff72cd4691bbebecac4bf629ac67a74248b/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240529.tar.gz
+[2024-05-31 09:48:17] INFO root fetch - processPackages [first-breaks-picking-gpu]: Downloading https://files.pythonhosted.org/packages/b8/70/2fc5086e2a0be9c50d4099727bfcebe05a1265cc5ab11208e698aaaed7fb/first_breaks_picking_gpu-0.7.4.tar.gz
+[2024-05-31 09:48:17] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-31 09:48:17] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240531/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-31 09:48:17] INFO root fetch - processPackages [contactsoftware-functions-client]: Downloading https://files.pythonhosted.org/packages/99/20/06ad29d3b510fd052e9d7cd32a71312f312c51382c2929b5643bb37017a9/contactsoftware_functions_client-0.5.2.tar.gz
+[2024-05-31 09:48:17] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/02/df/ca7da4215d96d0f61dddc8e8de15b9bb699ae74cb39ac218254181bf5b31/first_breaks_picking-0.7.4.tar.gz
+[2024-05-31 09:48:17] INFO root fetch - processPackages [wp-enhanced]: Downloading https://files.pythonhosted.org/packages/3e/33/f65584a95deba20237859e32d3b335f0303d412a45832a5d04238922a47d/wp_enhanced-0.9.1.tar.gz
+[2024-05-31 09:48:17] INFO root fetch - processPackages [enigma-workflow-14]: Downloading https://files.pythonhosted.org/packages/d0/44/8a14ed455f8d851e88c821356c2842dec76e927a4cb7dbf1965f85b470c8/enigma_workflow_14-14.0.8-cp312-cp312-macosx_11_0_arm64.whl
+[2024-05-31 09:48:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2024-05-31 09:48:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240528.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240529.tar.gz --markdown 20240531/n/nvidia-dali-tf-plugin-nightly-cuda120/1.39.0.dev20240528-1.39.0.dev20240529/README.md --exclude *.pyd
+[2024-05-31 09:48:17] INFO root fetch - processPackages [first-breaks-picking-gpu]: executing diffoscope
+[2024-05-31 09:48:17] INFO root fetch - processPackages [first-breaks-picking-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/first_breaks_picking_gpu-0.7.3.tar.gz tmp/first_breaks_picking_gpu-0.7.4.tar.gz --markdown 20240531/f/first-breaks-picking-gpu/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-31 09:48:17] INFO root fetch - processPackages [static-analysis-script]: executing diffoscope
+[2024-05-31 09:48:17] INFO root fetch - processPackages [static-analysis-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static_analysis_script-0.2.4.tar.gz tmp/static_analysis_script-0.2.6.tar.gz --markdown 20240531/s/static-analysis-script/0.2.4-0.2.6/README.md --exclude *.pyd
+[2024-05-31 09:48:17] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/25/d0/ddae3115d20ad69b72d23f2d45eaa12e916b297283acb18023a649ecf3e8/sentiment_analysis_package-0.5.0.tar.gz
+[2024-05-31 09:48:17] INFO root fetch - processPackages [contactsoftware-functions-client]: executing diffoscope
+[2024-05-31 09:48:17] INFO root fetch - processPackages [contactsoftware-functions-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contactsoftware_functions_client-0.5.1.tar.gz tmp/contactsoftware_functions_client-0.5.2.tar.gz --markdown 20240531/c/contactsoftware-functions-client/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-31 09:48:17] INFO root fetch - processPackages [first-breaks-picking]: executing diffoscope
+[2024-05-31 09:48:17] INFO root fetch - processPackages [first-breaks-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/first_breaks_picking-0.7.3.tar.gz tmp/first_breaks_picking-0.7.4.tar.gz --markdown 20240531/f/first-breaks-picking/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-31 09:48:17] INFO root fetch - processPackages [wp-enhanced]: executing diffoscope
+[2024-05-31 09:48:17] INFO root fetch - processPackages [wp-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wp_enhanced-0.9.0.tar.gz tmp/wp_enhanced-0.9.1.tar.gz --markdown 20240531/w/wp-enhanced/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 09:48:17] INFO root fetch - processPackages [enigma-workflow-14]: executing diffoscope
+[2024-05-31 09:48:17] INFO root fetch - processPackages [enigma-workflow-14]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigma_workflow_14-14.0.7-cp39-cp39-macosx_11_0_arm64.whl.zip tmp/enigma_workflow_14-14.0.8-cp312-cp312-macosx_11_0_arm64.whl.zip --markdown 20240531/e/enigma-workflow-14/14.0.7-14.0.8/README.md --exclude *.pyd
+[2024-05-31 09:48:17] INFO root fetch - processPackages [sentiment-analysis-package]: executing diffoscope
+[2024-05-31 09:48:17] INFO root fetch - processPackages [sentiment-analysis-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_package-0.4.0.tar.gz tmp/sentiment_analysis_package-0.5.0.tar.gz --markdown 20240531/s/sentiment-analysis-package/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-31 09:48:17] INFO root fetch - processPackages [GeneralAgent]: Downloading https://files.pythonhosted.org/packages/e9/fa/fc31444c8cf506043f3d6aabb6baa345465ece6af60121119b62330ca790/generalagent-0.2.9.tar.gz
+[2024-05-31 09:48:18] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240528.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240529.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2024-05-31 09:48:18] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.2.4.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.2.6.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - main [MainThread]: End processing [static-analysis-script]: success
+[2024-05-31 09:48:18] INFO root fetch - processPackages [wp-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/wp_enhanced-0.9.0.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - processPackages [wp-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/wp_enhanced-0.9.1.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - main [MainThread]: End processing [wp-enhanced]: success
+[2024-05-31 09:48:18] INFO root fetch - processPackages [first-breaks-picking-gpu]: Remove: archive file [/home/abi/fetcher/tmp/first_breaks_picking_gpu-0.7.3.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - processPackages [first-breaks-picking-gpu]: Remove: archive file [/home/abi/fetcher/tmp/first_breaks_picking_gpu-0.7.4.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - main [MainThread]: End processing [first-breaks-picking-gpu]: success
+[2024-05-31 09:48:18] INFO root fetch - processPackages [contactsoftware-functions-client]: Remove: archive file [/home/abi/fetcher/tmp/contactsoftware_functions_client-0.5.1.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - processPackages [contactsoftware-functions-client]: Remove: archive file [/home/abi/fetcher/tmp/contactsoftware_functions_client-0.5.2.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - main [MainThread]: End processing [contactsoftware-functions-client]: success
+[2024-05-31 09:48:18] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first_breaks_picking-0.7.3.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first_breaks_picking-0.7.4.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - main [MainThread]: End processing [first-breaks-picking]: success
+[2024-05-31 09:48:18] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-31 09:48:18] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-31 09:48:19] INFO root fetch - processPackages [enigma-workflow-14]: Remove: archive file [/home/abi/fetcher/tmp/enigma_workflow_14-14.0.7-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-05-31 09:48:19] INFO root fetch - processPackages [enigma-workflow-14]: Remove: archive file [/home/abi/fetcher/tmp/enigma_workflow_14-14.0.8-cp312-cp312-macosx_11_0_arm64.whl.zip]
+[2024-05-31 09:48:19] INFO root fetch - main [MainThread]: End processing [enigma-workflow-14]: success
+[2024-05-31 09:48:19] INFO root fetch - processPackages [GeneralAgent]: executing diffoscope
+[2024-05-31 09:48:19] INFO root fetch - processPackages [GeneralAgent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generalagent-0.2.8.tar.gz tmp/generalagent-0.2.9.tar.gz --markdown 20240531/G/GeneralAgent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 09:48:20] INFO root fetch - processPackages [GeneralAgent]: Remove: archive file [/home/abi/fetcher/tmp/generalagent-0.2.8.tar.gz]
+[2024-05-31 09:48:20] INFO root fetch - processPackages [GeneralAgent]: Remove: archive file [/home/abi/fetcher/tmp/generalagent-0.2.9.tar.gz]
+[2024-05-31 09:48:20] INFO root fetch - main [MainThread]: End processing [GeneralAgent]: success
+[2024-05-31 09:48:22] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.4.0.tar.gz]
+[2024-05-31 09:48:22] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.5.0.tar.gz]
+[2024-05-31 09:48:22] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package]: success
+[2024-05-31 09:48:22] INFO root fetch - main [MainThread]: Store serial: [23462317]
