@@ -9160,3 +9160,48 @@
 [2024-05-31 08:25:54] INFO root fetch - processPackages [QuantumRingsLib]: Remove: archive file [/home/abi/fetcher/tmp/QuantumRingsLib-0.5.0-cp36-cp36m-manylinux_2_28_x86_64.whl.zip]
 [2024-05-31 08:25:54] INFO root fetch - main [MainThread]: End processing [QuantumRingsLib]: success
 [2024-05-31 08:25:54] INFO root fetch - main [MainThread]: Store serial: [23461280]
+[2024-05-31 08:27:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461280]
+[2024-05-31 08:28:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 08:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylc-cli
+[2024-05-31 08:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slizaiupload
+[2024-05-31 08:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solar-registry
+[2024-05-31 08:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-nomad
+[2024-05-31 08:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtmodel
+[2024-05-31 08:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-mysql
+[2024-05-31 08:28:03] INFO root fetch - processPackages [solar-registry]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-31 08:28:03] INFO root fetch - processPackages [qtmodel]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 08:28:03] WARNING root fetch - processPackages [slizaiupload]: Skipping, unable to determine old version
+[2024-05-31 08:28:03] INFO root fetch - main [MainThread]: End processing [slizaiupload] error
+[2024-05-31 08:28:03] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/c5/8d/74453fd3026f35f4a18e04be65ea7755f97fa2b927499516c20b4a879b3f/solar_registry-0.3.5.tar.gz
+[2024-05-31 08:28:03] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/34/16/d79b1c2addcfbbc1437a459c7b3c17a723da8a9a74665f5ae69779d48424/qtmodel-0.3.8.tar.gz
+[2024-05-31 08:28:03] INFO root fetch - processPackages [pulumi-nomad]: New version: [2.3.0a1717135346] Old Version: [2.3.0a1716962018]
+[2024-05-31 08:28:03] WARNING root fetch - processPackages [pylc-cli]: Skipping, unable to determine old version
+[2024-05-31 08:28:03] INFO root fetch - main [MainThread]: End processing [pylc-cli] error
+[2024-05-31 08:28:03] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.3.0a1717135234] Old Version: [3.3.0a1716962075]
+[2024-05-31 08:28:03] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/74/62/1c002dd3a5054303a8febbd89c4961fe0564938e018aa472ea765d27bebf/pulumi_nomad-2.3.0a1716962018.tar.gz
+[2024-05-31 08:28:03] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/75/a5/dd150e2abd2377b90cce48aa96134a633c690238b5aadb2bd0b4c2d61da4/qtmodel-0.3.9.tar.gz
+[2024-05-31 08:28:03] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/ae/24/659b5110ff1eb8222fe487a839a5c73c9ebdd414ceebe485b89b320fadb6/solar_registry-0.3.6.tar.gz
+[2024-05-31 08:28:03] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/90/5b/aa75d90db163045616d722e51c15b79bf0a88211edeafd922b3ef8137af8/pulumi_mysql-3.3.0a1716962075.tar.gz
+[2024-05-31 08:28:03] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-05-31 08:28:03] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.3.8.tar.gz tmp/qtmodel-0.3.9.tar.gz --markdown 20240531/q/qtmodel/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 08:28:04] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-31 08:28:04] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.3.5.tar.gz tmp/solar_registry-0.3.6.tar.gz --markdown 20240531/s/solar-registry/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-31 08:28:04] INFO root fetch - processPackages [pulumi-nomad]: Downloading https://files.pythonhosted.org/packages/35/67/e79e81561c64bdec98ac723ad2240f806a844281b5e6c0f105bca103b88b/pulumi_nomad-2.3.0a1717135346.tar.gz
+[2024-05-31 08:28:04] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/a3/83/f28541e246a0e49a5dc39e77951c2f8dea887dc98742f05e1e5a7d3e9111/pulumi_mysql-3.3.0a1717135234.tar.gz
+[2024-05-31 08:28:04] INFO root fetch - processPackages [pulumi-nomad]: executing diffoscope
+[2024-05-31 08:28:04] INFO root fetch - processPackages [pulumi-nomad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_nomad-2.3.0a1716962018.tar.gz tmp/pulumi_nomad-2.3.0a1717135346.tar.gz --markdown 20240531/p/pulumi-nomad/2.3.0a1716962018-2.3.0a1717135346/README.md --exclude *.pyd
+[2024-05-31 08:28:04] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2024-05-31 08:28:04] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.3.0a1716962075.tar.gz tmp/pulumi_mysql-3.3.0a1717135234.tar.gz --markdown 20240531/p/pulumi-mysql/3.3.0a1716962075-3.3.0a1717135234/README.md --exclude *.pyd
+[2024-05-31 08:28:04] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.3.5.tar.gz]
+[2024-05-31 08:28:04] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.3.6.tar.gz]
+[2024-05-31 08:28:04] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-31 08:28:04] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.8.tar.gz]
+[2024-05-31 08:28:04] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.9.tar.gz]
+[2024-05-31 08:28:04] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-05-31 08:28:04] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1716962075.tar.gz]
+[2024-05-31 08:28:04] INFO root fetch - processPackages [pulumi-mysql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mysql-3.3.0a1717135234.tar.gz]
+[2024-05-31 08:28:04] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2024-05-31 08:28:05] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1716962018.tar.gz]
+[2024-05-31 08:28:05] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1717135346.tar.gz]
+[2024-05-31 08:28:05] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
+[2024-05-31 08:28:05] INFO root fetch - main [MainThread]: Store serial: [23461308]
