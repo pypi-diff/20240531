@@ -5082,3 +5082,33 @@
 [2024-05-31 04:16:29] INFO root fetch - processPackages [trustregion]: Remove: archive file [/home/abi/fetcher/tmp/trustregion-1.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-31 04:16:29] INFO root fetch - main [MainThread]: End processing [trustregion]: success
 [2024-05-31 04:16:29] INFO root fetch - main [MainThread]: Store serial: [23459568]
+[2024-05-31 04:18:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459568]
+[2024-05-31 04:18:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Akatosh
+[2024-05-31 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: binsync
+[2024-05-31 04:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qiskit-aer
+[2024-05-31 04:18:38] INFO root fetch - processPackages [Akatosh]: New version: [3.0.8] Old Version: [3.0.7]
+[2024-05-31 04:18:38] INFO root fetch - processPackages [binsync]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-05-31 04:18:38] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/1a/a9/f40a94480a3585fc948d8b09773622c4ddaac087e69ee17e90efb61652e5/akatosh-3.0.7.tar.gz
+[2024-05-31 04:18:38] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/b9/3d/6bf3f12bc0935065d807b8a1c42972074fa613fb8582b54df1f3159fc849/binsync-4.1.8.tar.gz
+[2024-05-31 04:18:38] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/df/5d/72698a60e097bc2112f955e58f27d369b6ed9ab7a3d212c2e6f8671dbdec/akatosh-3.0.8.tar.gz
+[2024-05-31 04:18:38] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/f1/b8/4e65a473170f8f00a472db6610a4206ecdcfd2cbc2b15efdf1942fdf314a/binsync-4.1.9.tar.gz
+[2024-05-31 04:18:38] INFO root fetch - processPackages [qiskit-aer]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 04:18:38] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2024-05-31 04:18:38] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akatosh-3.0.7.tar.gz tmp/akatosh-3.0.8.tar.gz --markdown 20240531/A/Akatosh/3.0.7-3.0.8/README.md --exclude *.pyd
+[2024-05-31 04:18:38] INFO root fetch - processPackages [binsync]: executing diffoscope
+[2024-05-31 04:18:38] INFO root fetch - processPackages [binsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsync-4.1.8.tar.gz tmp/binsync-4.1.9.tar.gz --markdown 20240531/b/binsync/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-05-31 04:18:38] INFO root fetch - processPackages [qiskit-aer]: Downloading https://files.pythonhosted.org/packages/f2/c9/8432ff9213212a6c01590a4deaed308b2a82fe64faa41bc7210f4370cd24/qiskit-aer-0.9.0.tar.gz
+[2024-05-31 04:18:39] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/akatosh-3.0.7.tar.gz]
+[2024-05-31 04:18:39] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/akatosh-3.0.8.tar.gz]
+[2024-05-31 04:18:39] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2024-05-31 04:18:39] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.8.tar.gz]
+[2024-05-31 04:18:39] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.9.tar.gz]
+[2024-05-31 04:18:39] INFO root fetch - main [MainThread]: End processing [binsync]: success
+[2024-05-31 04:18:40] INFO root fetch - processPackages [qiskit-aer]: Downloading https://files.pythonhosted.org/packages/c5/25/bb6a38726d2fe5c5201e452943f793f7461bdb8bb2895c6a3fea177833d8/qiskit-aer-0.9.1.tar.gz
+[2024-05-31 04:18:43] INFO root fetch - processPackages [qiskit-aer]: executing diffoscope
+[2024-05-31 04:18:43] INFO root fetch - processPackages [qiskit-aer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-aer-0.9.0.tar.gz tmp/qiskit-aer-0.9.1.tar.gz --markdown 20240531/q/qiskit-aer/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 04:18:45] INFO root fetch - processPackages [qiskit-aer]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-aer-0.9.0.tar.gz]
+[2024-05-31 04:18:45] INFO root fetch - processPackages [qiskit-aer]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-aer-0.9.1.tar.gz]
+[2024-05-31 04:18:45] INFO root fetch - main [MainThread]: End processing [qiskit-aer]: success
+[2024-05-31 04:18:45] INFO root fetch - main [MainThread]: Store serial: [23459615]
