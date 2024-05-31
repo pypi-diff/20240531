@@ -23868,3 +23868,97 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:35:05] INFO root fetch - processPackages [aac]: Remove: archive file [/home/abi/fetcher/tmp/aac-0.4.8-py3-none-any.whl.zip]
 [2024-05-31 17:35:05] INFO root fetch - main [MainThread]: End processing [aac]: success
 [2024-05-31 17:35:05] INFO root fetch - main [MainThread]: Store serial: [23468123]
+[2024-05-31 17:37:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23468123]
+[2024-05-31 17:37:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 17:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: space-exploration-common-lib
+[2024-05-31 17:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypomes-db
+[2024-05-31 17:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyberdrop-dl
+[2024-05-31 17:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: space-exploration-common-lib
+[2024-05-31 17:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swibots
+[2024-05-31 17:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dt-extension-migrator
+[2024-05-31 17:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: getdist
+[2024-05-31 17:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kfre
+[2024-05-31 17:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: face-genius
+[2024-05-31 17:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jpl-small-bodies-de441-n16
+[2024-05-31 17:37:14] INFO root fetch - processPackages [face-genius]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-31 17:37:14] INFO root fetch - processPackages [dt-extension-migrator]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-31 17:37:14] INFO root fetch - processPackages [kfre]: New version: [0.1.5a0] Old Version: [0.1.5]
+[2024-05-31 17:37:14] INFO root fetch - processPackages [pypomes-db]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-31 17:37:14] INFO root fetch - processPackages [space-exploration-common-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 17:37:14] INFO root fetch - processPackages [space-exploration-common-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 17:37:14] INFO root fetch - processPackages [cyberdrop-dl]: New version: [5.3.9] Old Version: [5.3.8]
+[2024-05-31 17:37:14] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/9b/80/d6f0876e298a83ba0f3dbd96f5279b030824a54932484703f16b1a04ed48/kfre-0.1.5.tar.gz
+[2024-05-31 17:37:14] WARNING root fetch - processPackages [jpl-small-bodies-de441-n16]: Skipping, unable to determine old version
+[2024-05-31 17:37:14] INFO root fetch - processPackages [jpl-small-bodies-de441-n16]: Start processing: Sanatio
+[2024-05-31 17:37:14] INFO root fetch - main [MainThread]: End processing [jpl-small-bodies-de441-n16] error
+[2024-05-31 17:37:14] INFO root fetch - processPackages [getdist]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-31 17:37:14] INFO root fetch - processPackages [swibots]: New version: [1.4.9b0] Old Version: [1.4.9]
+[2024-05-31 17:37:14] INFO root fetch - processPackages [face-genius]: Downloading https://files.pythonhosted.org/packages/46/1a/170abf665ffd19cd83a0ea2dc1eee70237e3a2f63040783a04e449a4187a/face_genius-0.1.1.tar.gz
+[2024-05-31 17:37:14] INFO root fetch - processPackages [dt-extension-migrator]: Downloading https://files.pythonhosted.org/packages/34/67/7eb05b8ccccb9a116977ed4dec3a3b5f0a5f34829d82b728e0ffd53eb2f9/dt_extension_migrator-0.1.4.tar.gz
+[2024-05-31 17:37:14] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/74/73/910ebe41c9dd4d31b65f45325650b4746eedccf671cfb048e961558e5032/pypomes_db-0.9.4.tar.gz
+[2024-05-31 17:37:14] INFO root fetch - processPackages [space-exploration-common-lib]: Downloading https://files.pythonhosted.org/packages/7c/27/9c3e17168cee54b0afa84911cee2c4c4923b5b1ddf48dd67a3045005f072/space_exploration_common_lib-0.0.8.tar.gz
+[2024-05-31 17:37:14] INFO root fetch - processPackages [space-exploration-common-lib]: Downloading https://files.pythonhosted.org/packages/7c/27/9c3e17168cee54b0afa84911cee2c4c4923b5b1ddf48dd67a3045005f072/space_exploration_common_lib-0.0.8.tar.gz
+[2024-05-31 17:37:14] INFO root fetch - processPackages [Sanatio]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-31 17:37:15] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/9d/0d/5f6820ed8061d9c3ff5d6ac484bb19d78089d028e21d06652c84bd57af6a/cyberdrop_dl-5.3.8.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/ab/ad/e9fb4e6104646710bdb7ad640c25bec37453f90d223979930a44f7c8f72e/swibots-1.4.9-py3-none-any.whl
+[2024-05-31 17:37:15] INFO root fetch - processPackages [kfre]: Downloading https://files.pythonhosted.org/packages/5a/5e/a64d31d1600b991ae507d5b38b022301bfeba873a86cc6f6cbadbb306b02/kfre-0.1.5a0.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [face-genius]: Downloading https://files.pythonhosted.org/packages/94/4a/4ac0d49a3c1a2cad412579316225e8b5a9217f0b85c3395c692497d3c773/face_genius-0.2.0.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [getdist]: Downloading https://files.pythonhosted.org/packages/38/98/e718040983364bc6713df59c0f3ab6679f37cb37988fd5baa79b72157a3b/getdist-1.4.8.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [dt-extension-migrator]: Downloading https://files.pythonhosted.org/packages/e0/0b/c9fd11bb6a03d7b526bd3b7f1b8cd4f85fd4bf9af67b7767e0f30596cb66/dt_extension_migrator-0.1.5.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [Sanatio]: Downloading https://files.pythonhosted.org/packages/98/18/3db6e78531f7069967b97b0a17349e4ce404ab12f83e51396e7857af0213/Sanatio-0.0.1.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [kfre]: executing diffoscope
+[2024-05-31 17:37:15] INFO root fetch - processPackages [kfre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfre-0.1.5.tar.gz tmp/kfre-0.1.5a0.tar.gz --markdown 20240531/k/kfre/0.1.5-0.1.5a0/README.md --exclude *.pyd
+[2024-05-31 17:37:15] INFO root fetch - processPackages [face-genius]: executing diffoscope
+[2024-05-31 17:37:15] INFO root fetch - processPackages [face-genius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/face_genius-0.1.1.tar.gz tmp/face_genius-0.2.0.tar.gz --markdown 20240531/f/face-genius/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-31 17:37:15] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/27/4c/bfde49fdf07f83472da788fb8e5d412e260cfb50639db41fccca28cce719/pypomes_db-0.9.5.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [space-exploration-common-lib]: Downloading https://files.pythonhosted.org/packages/68/b3/be8588ce6908619fa879f1dedcee4fa0a35f5ae086c7e2ca7239ea6fecf0/space_exploration_common_lib-0.0.9.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [space-exploration-common-lib]: Downloading https://files.pythonhosted.org/packages/68/b3/be8588ce6908619fa879f1dedcee4fa0a35f5ae086c7e2ca7239ea6fecf0/space_exploration_common_lib-0.0.9.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [dt-extension-migrator]: executing diffoscope
+[2024-05-31 17:37:15] INFO root fetch - processPackages [dt-extension-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt_extension_migrator-0.1.4.tar.gz tmp/dt_extension_migrator-0.1.5.tar.gz --markdown 20240531/d/dt-extension-migrator/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-31 17:37:15] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-31 17:37:15] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.9.4.tar.gz tmp/pypomes_db-0.9.5.tar.gz --markdown 20240531/p/pypomes-db/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-31 17:37:15] INFO root fetch - processPackages [space-exploration-common-lib]: executing diffoscope
+[2024-05-31 17:37:15] INFO root fetch - processPackages [space-exploration-common-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_exploration_common_lib-0.0.8.tar.gz tmp/space_exploration_common_lib-0.0.9.tar.gz --markdown 20240531/s/space-exploration-common-lib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 17:37:15] INFO root fetch - processPackages [space-exploration-common-lib]: executing diffoscope
+[2024-05-31 17:37:15] INFO root fetch - processPackages [space-exploration-common-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_exploration_common_lib-0.0.8.tar.gz tmp/space_exploration_common_lib-0.0.9.tar.gz --markdown 20240531/s/space-exploration-common-lib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 17:37:15] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/29/03/640df8fe473e716b8fe88043148066f5b785815db2a2fd62adac919eb5a3/cyberdrop_dl-5.3.9.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/1a/29/9d4e43dad7e195938372caf1ec2d82ce234bb157328ce98870071d36f923/swibots-1.4.9b0-py3-none-any.whl
+[2024-05-31 17:37:15] INFO root fetch - processPackages [getdist]: Downloading https://files.pythonhosted.org/packages/91/67/07ccfadce05da69ae6445bc40a941c916c25dbf27b066b777f93351164dd/getdist-1.4.9.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [Sanatio]: Downloading https://files.pythonhosted.org/packages/59/2a/61995f7b02b2b0701e236e6cf54c46da51be807e9bbcc565dcd7cdff7957/Sanatio-1.0.0.tar.gz
+[2024-05-31 17:37:15] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2024-05-31 17:37:15] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop_dl-5.3.8.tar.gz tmp/cyberdrop_dl-5.3.9.tar.gz --markdown 20240531/c/cyberdrop-dl/5.3.8-5.3.9/README.md --exclude *.pyd
+[2024-05-31 17:37:15] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2024-05-31 17:37:15] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.4.9-py3-none-any.whl.zip tmp/swibots-1.4.9b0-py3-none-any.whl.zip --markdown 20240531/s/swibots/1.4.9-1.4.9b0/README.md --exclude *.pyd
+[2024-05-31 17:37:15] INFO root fetch - processPackages [Sanatio]: executing diffoscope
+[2024-05-31 17:37:15] INFO root fetch - processPackages [Sanatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sanatio-0.0.1.tar.gz tmp/Sanatio-1.0.0.tar.gz --markdown 20240531/S/Sanatio/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-31 17:37:16] INFO root fetch - processPackages [getdist]: executing diffoscope
+[2024-05-31 17:37:16] INFO root fetch - processPackages [getdist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getdist-1.4.8.tar.gz tmp/getdist-1.4.9.tar.gz --markdown 20240531/g/getdist/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-31 17:37:16] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.5.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - processPackages [kfre]: Remove: archive file [/home/abi/fetcher/tmp/kfre-0.1.5a0.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - main [MainThread]: End processing [kfre]: success
+[2024-05-31 17:37:16] INFO root fetch - processPackages [face-genius]: Remove: archive file [/home/abi/fetcher/tmp/face_genius-0.1.1.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - processPackages [face-genius]: Remove: archive file [/home/abi/fetcher/tmp/face_genius-0.2.0.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - main [MainThread]: End processing [face-genius]: success
+[2024-05-31 17:37:16] INFO root fetch - processPackages [space-exploration-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/space_exploration_common_lib-0.0.8.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - processPackages [space-exploration-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/space_exploration_common_lib-0.0.9.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - main [MainThread]: End processing [space-exploration-common-lib]: success
+[2024-05-31 17:37:16] INFO root fetch - main [MainThread]: End processing [space-exploration-common-lib]: success
+[2024-05-31 17:37:16] INFO root fetch - processPackages [dt-extension-migrator]: Remove: archive file [/home/abi/fetcher/tmp/dt_extension_migrator-0.1.4.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - processPackages [dt-extension-migrator]: Remove: archive file [/home/abi/fetcher/tmp/dt_extension_migrator-0.1.5.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - main [MainThread]: End processing [dt-extension-migrator]: success
+[2024-05-31 17:37:16] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.4.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.5.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-31 17:37:16] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.3.8.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.3.9.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2024-05-31 17:37:16] INFO root fetch - processPackages [Sanatio]: Remove: archive file [/home/abi/fetcher/tmp/Sanatio-0.0.1.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - processPackages [Sanatio]: Remove: archive file [/home/abi/fetcher/tmp/Sanatio-1.0.0.tar.gz]
+[2024-05-31 17:37:16] INFO root fetch - main [MainThread]: End processing [Sanatio]: success
+[2024-05-31 17:37:17] INFO root fetch - processPackages [getdist]: Remove: archive file [/home/abi/fetcher/tmp/getdist-1.4.8.tar.gz]
+[2024-05-31 17:37:17] INFO root fetch - processPackages [getdist]: Remove: archive file [/home/abi/fetcher/tmp/getdist-1.4.9.tar.gz]
+[2024-05-31 17:37:17] INFO root fetch - main [MainThread]: End processing [getdist]: success
+[2024-05-31 17:37:17] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9-py3-none-any.whl.zip]
+[2024-05-31 17:37:17] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.4.9b0-py3-none-any.whl.zip]
+[2024-05-31 17:37:17] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2024-05-31 17:37:17] INFO root fetch - main [MainThread]: Store serial: [23468156]
