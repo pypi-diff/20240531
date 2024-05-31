@@ -21774,3 +21774,89 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:27:58] INFO root fetch - processPackages [qianfan]: Remove: archive file [/home/abi/fetcher/tmp/qianfan-0.3.9.tar.gz]
 [2024-05-31 16:27:58] INFO root fetch - main [MainThread]: End processing [qianfan]: success
 [2024-05-31 16:27:58] INFO root fetch - main [MainThread]: Store serial: [23467017]
+[2024-05-31 16:30:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467017]
+[2024-05-31 16:30:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rattail
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: olas-operate-middleware
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robot-soccer-kit
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strawberry-graphql
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nba-on-court
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qr-generator
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nostr-dvm
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ALLMDEV
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: luminesce-sdk-preview
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: itk-webassemblyinterface
+[2024-05-31 16:30:07] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ALLMDEV]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-31 16:30:07] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-31 16:30:07] INFO root fetch - processPackages [nostr-dvm]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-31 16:30:07] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-31 16:30:07] INFO root fetch - processPackages [robot-soccer-kit]: New version: [2.2.0] Old Version: [2.1.8]
+[2024-05-31 16:30:07] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/26/04/df193487954786a8f3bbbfef3474c26d0180c57423f06ce9f88782133c39/ALLMDEV-1.3.7-py3-none-any.whl
+[2024-05-31 16:30:08] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2024-05-31 16:30:08] WARNING root fetch - processPackages [qr-generator]: Skipping, unable to determine old version
+[2024-05-31 16:30:08] INFO root fetch - main [MainThread]: End processing [qr-generator] error
+[2024-05-31 16:30:08] INFO root fetch - processPackages [nba-on-court]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-31 16:30:08] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2024-05-31 16:30:08] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/74/f3/a7619e60ca859e0c2aa25e5ef4fa9cfdcc666d993a327bedb3aeb5fac677/nostr_dvm-0.5.1.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [itk-webassemblyinterface]: New version: [1.0b53] Old Version: [1.0b175]
+[2024-05-31 16:30:08] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [robot-soccer-kit]: Downloading https://files.pythonhosted.org/packages/d4/ac/4c5b8131b53af7fde8549f476b9fb0fef0a10f354131c2436b6510faa803/robot-soccer-kit-2.1.8.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [nba-on-court]: Downloading https://files.pythonhosted.org/packages/c2/6a/c17f7c136892ef6280bb99affbbfd1db39f251fb3ff83f68079e6d41201a/nba_on_court-0.2.0.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/4d/55/0aa6b819d8f1c7794b36f691259ccfe19f5188fca9368759289764fdc4c9/ALLMDEV-1.3.8-py3-none-any.whl
+[2024-05-31 16:30:08] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [itk-webassemblyinterface]: Downloading https://files.pythonhosted.org/packages/14/c1/501267a71c125f7199e033644d47ed4221bd606f0c807759def2090713f7/itk_webassemblyinterface-1.0b175-cp38-cp38-macosx_10_9_x86_64.whl
+[2024-05-31 16:30:08] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/79/79/6b21038b4865603606e4178c1dca335007550b29708eb1a43622c733761c/nostr_dvm-0.5.2.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [ALLMDEV]: executing diffoscope
+[2024-05-31 16:30:08] INFO root fetch - processPackages [ALLMDEV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALLMDEV-1.3.7-py3-none-any.whl.zip tmp/ALLMDEV-1.3.8-py3-none-any.whl.zip --markdown 20240531/A/ALLMDEV/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-31 16:30:08] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-31 16:30:08] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240531/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-31 16:30:08] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2024-05-31 16:30:08] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20240531/r/rattail/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-31 16:30:08] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-31 16:30:08] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240531/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-31 16:30:08] INFO root fetch - processPackages [nba-on-court]: Downloading https://files.pythonhosted.org/packages/ed/91/61198a698e3e3647fb0428646f4266e54030371062edaf5b280d19ce8130/nba_on_court-0.2.1-py3-none-any.whl
+[2024-05-31 16:30:08] INFO root fetch - processPackages [nostr-dvm]: executing diffoscope
+[2024-05-31 16:30:08] INFO root fetch - processPackages [nostr-dvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_dvm-0.5.1.tar.gz tmp/nostr_dvm-0.5.2.tar.gz --markdown 20240531/n/nostr-dvm/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-31 16:30:08] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [robot-soccer-kit]: Downloading https://files.pythonhosted.org/packages/5c/d2/e17b990cd17b3a3b2a048547d8e4d5433c0d68e3119ad6f908fa80c16654/robot-soccer-kit-2.2.0.tar.gz
+[2024-05-31 16:30:08] INFO root fetch - processPackages [nba-on-court]: executing diffoscope
+[2024-05-31 16:30:08] INFO root fetch - processPackages [nba-on-court]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nba_on_court-0.2.0.tar.gz tmp/nba_on_court-0.2.1-py3-none-any.whl.zip --markdown 20240531/n/nba-on-court/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-31 16:30:08] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2024-05-31 16:30:08] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20240531/s/strawberry-graphql/0.99.2-0.99.3/README.md --exclude *.pyd
+[2024-05-31 16:30:09] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.3.7-py3-none-any.whl.zip]
+[2024-05-31 16:30:09] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.3.8-py3-none-any.whl.zip]
+[2024-05-31 16:30:09] INFO root fetch - main [MainThread]: End processing [ALLMDEV]: success
+[2024-05-31 16:30:09] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-31 16:30:09] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-31 16:30:09] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-31 16:30:09] INFO root fetch - processPackages [nba-on-court]: Remove: archive file [/home/abi/fetcher/tmp/nba_on_court-0.2.0.tar.gz]
+[2024-05-31 16:30:09] INFO root fetch - processPackages [nba-on-court]: Remove: archive file [/home/abi/fetcher/tmp/nba_on_court-0.2.1-py3-none-any.whl.zip]
+[2024-05-31 16:30:09] INFO root fetch - main [MainThread]: End processing [nba-on-court]: success
+[2024-05-31 16:30:09] INFO root fetch - processPackages [itk-webassemblyinterface]: executing diffoscope
+[2024-05-31 16:30:09] INFO root fetch - processPackages [itk-webassemblyinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_webassemblyinterface-1.0b175-cp38-cp38-macosx_10_9_x86_64.whl.zip tmp/itk_webassemblyinterface-1.0b53-cp39-cp39-win_amd64.whl.zip --markdown 20240531/i/itk-webassemblyinterface/1.0b175-1.0b53/README.md --exclude *.pyd
+[2024-05-31 16:30:09] INFO root fetch - processPackages [robot-soccer-kit]: executing diffoscope
+[2024-05-31 16:30:09] INFO root fetch - processPackages [robot-soccer-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robot-soccer-kit-2.1.8.tar.gz tmp/robot-soccer-kit-2.2.0.tar.gz --markdown 20240531/r/robot-soccer-kit/2.1.8-2.2.0/README.md --exclude *.pyd
+[2024-05-31 16:30:09] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.5.1.tar.gz]
+[2024-05-31 16:30:09] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.5.2.tar.gz]
+[2024-05-31 16:30:09] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
+[2024-05-31 16:30:09] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2024-05-31 16:30:09] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2024-05-31 16:30:09] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2024-05-31 16:30:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-31 16:30:10] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-31 16:30:10] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-31 16:30:10] INFO root fetch - processPackages [itk-webassemblyinterface]: Remove: archive file [/home/abi/fetcher/tmp/itk_webassemblyinterface-1.0b175-cp38-cp38-macosx_10_9_x86_64.whl.zip]
+[2024-05-31 16:30:10] INFO root fetch - processPackages [itk-webassemblyinterface]: Remove: archive file [/home/abi/fetcher/tmp/itk_webassemblyinterface-1.0b53-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 16:30:10] INFO root fetch - main [MainThread]: End processing [itk-webassemblyinterface]: success
+[2024-05-31 16:30:10] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.98.tar.gz]
+[2024-05-31 16:30:10] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
+[2024-05-31 16:30:10] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2024-05-31 16:30:11] INFO root fetch - processPackages [robot-soccer-kit]: Remove: archive file [/home/abi/fetcher/tmp/robot-soccer-kit-2.1.8.tar.gz]
+[2024-05-31 16:30:11] INFO root fetch - processPackages [robot-soccer-kit]: Remove: archive file [/home/abi/fetcher/tmp/robot-soccer-kit-2.2.0.tar.gz]
+[2024-05-31 16:30:11] INFO root fetch - main [MainThread]: End processing [robot-soccer-kit]: success
+[2024-05-31 16:30:11] INFO root fetch - main [MainThread]: Store serial: [23467061]
