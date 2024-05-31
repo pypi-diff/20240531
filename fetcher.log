@@ -5489,3 +5489,45 @@
 [2024-05-31 04:47:21] INFO root fetch - processPackages [youtube-dl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/youtube_dl_nightly-2024.5.31-py2.py3-none-any.whl.zip]
 [2024-05-31 04:47:21] INFO root fetch - main [MainThread]: End processing [youtube-dl-nightly]: success
 [2024-05-31 04:47:21] INFO root fetch - main [MainThread]: Store serial: [23459774]
+[2024-05-31 04:49:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459774]
+[2024-05-31 04:49:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 04:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NEMO-reports
+[2024-05-31 04:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dot-follow
+[2024-05-31 04:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: baidu-serp-api
+[2024-05-31 04:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myfunctions-AdnanGrifat
+[2024-05-31 04:49:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vital-ai-vitalsigns
+[2024-05-31 04:49:30] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 04:49:30] INFO root fetch - processPackages [baidu-serp-api]: New version: [0.5] Old Version: [0.4]
+[2024-05-31 04:49:30] INFO root fetch - processPackages [vital-ai-vitalsigns]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 04:49:30] INFO root fetch - processPackages [NEMO-reports]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-31 04:49:30] WARNING root fetch - processPackages [dot-follow]: Skipping, unable to determine old version
+[2024-05-31 04:49:30] INFO root fetch - main [MainThread]: End processing [dot-follow] error
+[2024-05-31 04:49:30] INFO root fetch - processPackages [baidu-serp-api]: Downloading https://files.pythonhosted.org/packages/36/f6/2a546f7dd3f08935ff1fb8e193b8e09e8d60e6bc2124375362cddf6c3098/baidu_serp_api-0.4.tar.gz
+[2024-05-31 04:49:30] INFO root fetch - processPackages [vital-ai-vitalsigns]: Downloading https://files.pythonhosted.org/packages/1b/05/a348c770dfa33dae22c9a0899f5440ba9a0668597ea1f04fca2715e082f2/vital-ai-vitalsigns-0.1.8.tar.gz
+[2024-05-31 04:49:30] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Downloading https://files.pythonhosted.org/packages/a5/9f/307c431186711132ad2d7cfc00bbb87fb3f7b82fc4e7723ae19e5dd4b17d/myfunctions_AdnanGrifat-0.0.4.tar.gz
+[2024-05-31 04:49:30] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/d7/47/c4633f1dc4f0256a434b9ad7c7a32dd39387644686bcc7312181ff0a43b8/NEMO_reports-1.8.1-py3-none-any.whl
+[2024-05-31 04:49:31] INFO root fetch - processPackages [vital-ai-vitalsigns]: Downloading https://files.pythonhosted.org/packages/c1/2a/83697e835fcca252a1e641e70739005ce2d7b821e3ed28ac64d9a51040ad/vital-ai-vitalsigns-0.1.9.tar.gz
+[2024-05-31 04:49:31] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/78/53/85d076688f522504b7c46e6ee502e8c4efa0aad33eca147f3ec2f98437a1/NEMO_reports-1.9.0-py3-none-any.whl
+[2024-05-31 04:49:31] INFO root fetch - processPackages [baidu-serp-api]: Downloading https://files.pythonhosted.org/packages/33/99/9da893c5a9dddc15dcce702fbf25f22cd31b1cc6d3cf6974f86b8b8f3b55/baidu_serp_api-0.5.tar.gz
+[2024-05-31 04:49:31] INFO root fetch - processPackages [vital-ai-vitalsigns]: executing diffoscope
+[2024-05-31 04:49:31] INFO root fetch - processPackages [vital-ai-vitalsigns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-ai-vitalsigns-0.1.8.tar.gz tmp/vital-ai-vitalsigns-0.1.9.tar.gz --markdown 20240531/v/vital-ai-vitalsigns/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 04:49:31] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Downloading https://files.pythonhosted.org/packages/39/3e/7f1e117cca1c5bfc49bae6f678d155093d6dc6f157ed1d6f7d9636a67a43/myfunctions_AdnanGrifat-0.0.5.tar.gz
+[2024-05-31 04:49:31] INFO root fetch - processPackages [NEMO-reports]: executing diffoscope
+[2024-05-31 04:49:31] INFO root fetch - processPackages [NEMO-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_reports-1.8.1-py3-none-any.whl.zip tmp/NEMO_reports-1.9.0-py3-none-any.whl.zip --markdown 20240531/N/NEMO-reports/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-31 04:49:31] INFO root fetch - processPackages [baidu-serp-api]: executing diffoscope
+[2024-05-31 04:49:31] INFO root fetch - processPackages [baidu-serp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baidu_serp_api-0.4.tar.gz tmp/baidu_serp_api-0.5.tar.gz --markdown 20240531/b/baidu-serp-api/0.4-0.5/README.md --exclude *.pyd
+[2024-05-31 04:49:31] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: executing diffoscope
+[2024-05-31 04:49:31] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_AdnanGrifat-0.0.4.tar.gz tmp/myfunctions_AdnanGrifat-0.0.5.tar.gz --markdown 20240531/m/myfunctions-AdnanGrifat/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-31 04:49:31] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.8.1-py3-none-any.whl.zip]
+[2024-05-31 04:49:31] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.9.0-py3-none-any.whl.zip]
+[2024-05-31 04:49:31] INFO root fetch - main [MainThread]: End processing [NEMO-reports]: success
+[2024-05-31 04:49:32] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_AdnanGrifat-0.0.4.tar.gz]
+[2024-05-31 04:49:32] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_AdnanGrifat-0.0.5.tar.gz]
+[2024-05-31 04:49:32] INFO root fetch - main [MainThread]: End processing [myfunctions-AdnanGrifat]: success
+[2024-05-31 04:49:32] INFO root fetch - processPackages [baidu-serp-api]: Remove: archive file [/home/abi/fetcher/tmp/baidu_serp_api-0.4.tar.gz]
+[2024-05-31 04:49:32] INFO root fetch - processPackages [baidu-serp-api]: Remove: archive file [/home/abi/fetcher/tmp/baidu_serp_api-0.5.tar.gz]
+[2024-05-31 04:49:32] INFO root fetch - main [MainThread]: End processing [baidu-serp-api]: success
+[2024-05-31 04:49:32] INFO root fetch - processPackages [vital-ai-vitalsigns]: Remove: archive file [/home/abi/fetcher/tmp/vital-ai-vitalsigns-0.1.8.tar.gz]
+[2024-05-31 04:49:32] INFO root fetch - processPackages [vital-ai-vitalsigns]: Remove: archive file [/home/abi/fetcher/tmp/vital-ai-vitalsigns-0.1.9.tar.gz]
+[2024-05-31 04:49:32] INFO root fetch - main [MainThread]: End processing [vital-ai-vitalsigns]: success
+[2024-05-31 04:49:32] INFO root fetch - main [MainThread]: Store serial: [23459791]
