@@ -16228,3 +16228,181 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 13:15:02] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2408.0-py3-none-any.whl.zip]
 [2024-05-31 13:15:02] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
 [2024-05-31 13:15:02] INFO root fetch - main [MainThread]: Store serial: [23464619]
+[2024-05-31 13:17:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464619]
+[2024-05-31 13:17:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 13:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-cicd-dso
+[2024-05-31 13:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-libs
+[2024-05-31 13:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-whd
+[2024-05-31 13:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-oci
+[2024-05-31 13:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odp-sdk
+[2024-05-31 13:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-xe-21
+[2024-05-31 13:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdnmon
+[2024-05-31 13:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyremotechrome
+[2024-05-31 13:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: loggissimo
+[2024-05-31 13:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-core-xe-addons-21
+[2024-05-31 13:17:11] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2408.0] Old Version: [1.2406.0]
+[2024-05-31 13:17:11] INFO root fetch - processPackages [loggissimo]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-31 13:17:11] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2410.0] Old Version: [1.2408.0]
+[2024-05-31 13:17:11] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-05-31 13:17:11] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/3b/83/b26a8aa8fb1465fe71c2ceacfb190244f290583548a30cf4db14542b9a80/gardener_cicd_libs-1.2406.0-py3-none-any.whl
+[2024-05-31 13:17:11] INFO root fetch - processPackages [odp-sdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-31 13:17:11] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: New version: [2.5.0b20240531] Old Version: [2.5.0b20240530]
+[2024-05-31 13:17:11] INFO root fetch - processPackages [cdnmon]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-31 13:17:11] INFO root fetch - processPackages [pyremotechrome]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 13:17:11] INFO root fetch - processPackages [loggissimo]: Downloading https://files.pythonhosted.org/packages/e3/1f/734337051e56709afd5dd4f2cc2bcb9f760adc41b66689affc5a647db0dc/loggissimo-0.1.0.tar.gz
+[2024-05-31 13:17:11] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240531] Old Version: [2.5.0b20240530]
+[2024-05-31 13:17:11] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2410.0] Old Version: [1.2408.0]
+[2024-05-31 13:17:11] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/e3/54/e0116bb47066204b6eef5b50dfaaa9c35897b223b9282326495c247859d2/gardener_cicd_dso-1.2408.0-py3-none-any.whl
+[2024-05-31 13:17:11] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-05-31 13:17:11] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/52/29/c8c8f86049b7c285f47154c31763f1e7844ea7f5ef58bb94f481dc64d5fb/gardener_cicd_whd-1.2408.0-py3-none-any.whl
+[2024-05-31 13:17:11] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: Downloading https://files.pythonhosted.org/packages/9a/a9/de696506b7bcaef38042e17dfadac81ee88f3f02eb5e978a91091258f326/bigdl_core_xe_addons_21-2.5.0b20240530-cp39-cp39-win_amd64.whl
+[2024-05-31 13:17:11] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/0c/d7/6786eab810e93a55929b9db3e01f60e5730ec2afe2830751c9bc30a33eb7/odp_sdk-0.4.8.tar.gz
+[2024-05-31 13:17:11] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/3d/cc/65ee39aeaf0fc5f29245ff1a9274c76d6e9c43e902e733e38fc8a7867945/cdnmon-0.5.5.tar.gz
+[2024-05-31 13:17:11] INFO root fetch - processPackages [pyremotechrome]: Downloading https://files.pythonhosted.org/packages/6d/25/d4ae91fc78ff63f6b20819387b9696b59b9448a693dc4663fe4a58c4fa0a/pyremotechrome-0.1.3.tar.gz
+[2024-05-31 13:17:11] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/e5/1e/80115728feeb157ee871d8722b5cb7b388ccd52c878e10a48685758bd61a/bigdl_core_xe_21-2.5.0b20240530-cp39-cp39-win_amd64.whl
+[2024-05-31 13:17:11] INFO root fetch - processPackages [loggissimo]: Downloading https://files.pythonhosted.org/packages/36/b8/16092fdde1c2156fb3cfb18f14d59693fe44c9d8d75b19e3e4a9d822d607/loggissimo-0.2.0.tar.gz
+[2024-05-31 13:17:11] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-05-31 13:17:11] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/71/72/ecb52bc10f95f58b80a84eea2d6624fddbf4ba7032cff9282bcc16b741dc/gardener_cicd_libs-1.2408.0-py3-none-any.whl
+[2024-05-31 13:17:11] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 22864235>=10485760
+[2024-05-31 13:17:11] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-31 13:17:11] INFO root fetch - processPackages [loggissimo]: executing diffoscope
+[2024-05-31 13:17:11] INFO root fetch - processPackages [loggissimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggissimo-0.1.0.tar.gz tmp/loggissimo-0.2.0.tar.gz --markdown 20240531/l/loggissimo/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-31 13:17:11] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/58/48/480e27c6f583f2bde8aa66981498d157cc01b635231dfa65db31b320706f/gardener_cicd_dso-1.2410.0.tar.gz
+[2024-05-31 13:17:12] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-05-31 13:17:12] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240531/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-05-31 13:17:12] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/bd/4a/56066325d2a0fa42b403e9dab954af24e18fef0f90ca9c4890013d4476c1/gardener_cicd_whd-1.2410.0.tar.gz
+[2024-05-31 13:17:12] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-05-31 13:17:12] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2406.0-py3-none-any.whl.zip tmp/gardener_cicd_libs-1.2408.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-libs/1.2406.0-1.2408.0/README.md --exclude *.pyd
+[2024-05-31 13:17:12] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/2d/a3/afccdb1099b3b43252f67f4255e00d2fe91582b91933dc6065455fd43ec8/odp_sdk-0.4.9.tar.gz
+[2024-05-31 13:17:12] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/9f/5d/8d1a7fc4df5e181f0b57d6ce6292f0c2bd57a2365f538151f7cbd89464dc/cdnmon-0.5.6.tar.gz
+[2024-05-31 13:17:12] INFO root fetch - processPackages [pyremotechrome]: Downloading https://files.pythonhosted.org/packages/ea/db/a44260670ccf73e81d79cf88234a5bd6a80dca5d6596019e47aaf9236d2d/pyremotechrome-0.1.4.tar.gz
+[2024-05-31 13:17:12] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-05-31 13:17:12] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2408.0-py3-none-any.whl.zip tmp/gardener_cicd_whd-1.2410.0.tar.gz --markdown 20240531/g/gardener-cicd-whd/1.2408.0-1.2410.0/README.md --exclude *.pyd
+[2024-05-31 13:17:12] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-31 13:17:12] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2408.0-py3-none-any.whl.zip tmp/gardener_cicd_dso-1.2410.0.tar.gz --markdown 20240531/g/gardener-cicd-dso/1.2408.0-1.2410.0/README.md --exclude *.pyd
+[2024-05-31 13:17:12] INFO root fetch - processPackages [cdnmon]: executing diffoscope
+[2024-05-31 13:17:12] INFO root fetch - processPackages [cdnmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnmon-0.5.5.tar.gz tmp/cdnmon-0.5.6.tar.gz --markdown 20240531/c/cdnmon/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-31 13:17:12] INFO root fetch - processPackages [odp-sdk]: executing diffoscope
+[2024-05-31 13:17:12] INFO root fetch - processPackages [odp-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk-0.4.8.tar.gz tmp/odp_sdk-0.4.9.tar.gz --markdown 20240531/o/odp-sdk/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-31 13:17:12] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: Downloading https://files.pythonhosted.org/packages/49/69/887f350f5dffd56a0ebb3f3e081b10939009f2d12bf1fa1574ed285a9d13/bigdl_core_xe_addons_21-2.5.0b20240531-cp311-cp311-win_amd64.whl
+[2024-05-31 13:17:12] INFO root fetch - processPackages [loggissimo]: Remove: archive file [/home/abi/fetcher/tmp/loggissimo-0.1.0.tar.gz]
+[2024-05-31 13:17:12] INFO root fetch - processPackages [loggissimo]: Remove: archive file [/home/abi/fetcher/tmp/loggissimo-0.2.0.tar.gz]
+[2024-05-31 13:17:12] INFO root fetch - main [MainThread]: End processing [loggissimo]: success
+[2024-05-31 13:17:12] INFO root fetch - processPackages [pyremotechrome]: executing diffoscope
+[2024-05-31 13:17:12] INFO root fetch - processPackages [pyremotechrome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyremotechrome-0.1.3.tar.gz tmp/pyremotechrome-0.1.4.tar.gz --markdown 20240531/p/pyremotechrome/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 13:17:12] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: executing diffoscope
+[2024-05-31 13:17:12] INFO root fetch - processPackages [bigdl-core-xe-addons-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_addons_21-2.5.0b20240530-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_addons_21-2.5.0b20240531-cp311-cp311-win_amd64.whl.zip --markdown 20240531/b/bigdl-core-xe-addons-21/2.5.0b20240530-2.5.0b20240531/README.md --exclude *.pyd
+[2024-05-31 13:17:12] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-05-31 13:17:12] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-05-31 13:17:12] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-05-31 13:17:13] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.8.tar.gz]
+[2024-05-31 13:17:13] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.9.tar.gz]
+[2024-05-31 13:17:13] INFO root fetch - main [MainThread]: End processing [odp-sdk]: success
+[2024-05-31 13:17:13] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.5.5.tar.gz]
+[2024-05-31 13:17:13] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.5.6.tar.gz]
+[2024-05-31 13:17:13] INFO root fetch - main [MainThread]: End processing [cdnmon]: success
+[2024-05-31 13:17:13] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2408.0-py3-none-any.whl.zip]
+[2024-05-31 13:17:13] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2410.0.tar.gz]
+[2024-05-31 13:17:13] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-05-31 13:17:13] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2408.0-py3-none-any.whl.zip]
+[2024-05-31 13:17:13] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2410.0.tar.gz]
+[2024-05-31 13:17:13] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-31 13:17:13] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.1.3.tar.gz]
+[2024-05-31 13:17:13] INFO root fetch - processPackages [pyremotechrome]: Remove: archive file [/home/abi/fetcher/tmp/pyremotechrome-0.1.4.tar.gz]
+[2024-05-31 13:17:13] INFO root fetch - main [MainThread]: End processing [pyremotechrome]: success
+[2024-05-31 13:17:13] ERROR root fetch - processPackages [bigdl-core-xe-addons-21]: Diffoscope failed: time="2024-05-31T13:17:12+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139958622887360)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139958488669696)
+
+[2024-05-31 13:17:13] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-addons-21] error
+[2024-05-31 13:17:13] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2406.0-py3-none-any.whl.zip]
+[2024-05-31 13:17:13] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2408.0-py3-none-any.whl.zip]
+[2024-05-31 13:17:13] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-05-31 13:17:13] INFO root fetch - main [MainThread]: Store serial: [23464652]
