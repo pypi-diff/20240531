@@ -18320,3 +18320,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:26:13] INFO root fetch - processPackages [SidraDataProductSDK]: Remove: archive file [/home/abi/fetcher/tmp/SidraDataProductSDK-2.0.9.post133-py3-none-any.whl.zip]
 [2024-05-31 14:26:13] INFO root fetch - main [MainThread]: End processing [SidraDataProductSDK]: success
 [2024-05-31 14:26:13] INFO root fetch - main [MainThread]: Store serial: [23465494]
+[2024-05-31 14:28:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465494]
+[2024-05-31 14:28:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 14:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ScreenPro2
+[2024-05-31 14:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: todoism
+[2024-05-31 14:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sirji-messages
+[2024-05-31 14:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloud-governance
+[2024-05-31 14:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hdfs-native
+[2024-05-31 14:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: picea
+[2024-05-31 14:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sirji-agents
+[2024-05-31 14:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: click-logging-config
+[2024-05-31 14:28:22] INFO root fetch - processPackages [picea]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 14:28:22] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-31 14:28:22] INFO root fetch - processPackages [ScreenPro2]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-31 14:28:22] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/e5/4d/2405f5f6231c98dc0bfd2b20d86d72de3b757ecd0ebf9e7cb71d2464721e/picea-0.0.8.tar.gz
+[2024-05-31 14:28:22] INFO root fetch - processPackages [hdfs-native]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-31 14:28:22] INFO root fetch - processPackages [sirji-messages]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-31 14:28:22] INFO root fetch - processPackages [todoism]: New version: [1.9] Old Version: [1.8]
+[2024-05-31 14:28:22] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 14:28:22] INFO root fetch - processPackages [click-logging-config]: New version: [1.1.2.post6] Old Version: [1.1.2.post24]
+[2024-05-31 14:28:23] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/36/5c/962b87ea9d834a7ecd5eb5fababc028692f89c99ca0c21874a42a4ecdffa/ScreenPro2-0.3.3-py2.py3-none-any.whl
+[2024-05-31 14:28:23] INFO root fetch - processPackages [hdfs-native]: Downloading https://files.pythonhosted.org/packages/53/16/3560a9facd10812b54ceb62b6a25000bc4c8eedeaaa8408169e4068639ca/hdfs_native-0.9.2.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/25/0f/ce33b958b10d49658da98af96fe8029289822968952893e499d7373ea186/sirji-messages-0.0.7.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [click-logging-config]: Downloading https://files.pythonhosted.org/packages/49/1c/f698b95b96ec0ee1580180954a8227128e807ece0d6d223ecc5d552a3e29/click_logging_config-1.1.2.post24.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [todoism]: Downloading https://files.pythonhosted.org/packages/ee/4c/09e91ca57cc4ed4e6b67b8e076087bc957088da9aff129f48b7c2f9a34d5/todoism-1.8.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/b3/5f/e94cc45ff6ae73814ab9c995ecb3f23935035430ed12404c6869f3101639/sirji-agents-0.0.8.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/59/49/8c2f0a6f8d85f9fe751e4f7e27eef9281443b43b5bc2f5dad2b7aacfae6d/picea-0.0.9.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [picea]: executing diffoscope
+[2024-05-31 14:28:23] INFO root fetch - processPackages [picea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picea-0.0.8.tar.gz tmp/picea-0.0.9.tar.gz --markdown 20240531/p/picea/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 14:28:23] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-31 14:28:23] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240531/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-31 14:28:23] INFO root fetch - processPackages [hdfs-native]: Downloading https://files.pythonhosted.org/packages/96/ad/a56b4cbdeae5d548c044efef5765f0c4cc88ed73aa863efa018559e0958e/hdfs_native-0.9.3.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [ScreenPro2]: Downloading https://files.pythonhosted.org/packages/36/3a/20993a8a209295278f0cdd8702cfb703a1f74dcff26cba3e287ce0087cf7/ScreenPro2-0.3.4-py2.py3-none-any.whl
+[2024-05-31 14:28:23] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/a5/c6/4ac7d143f28208fd31dc3a617bb8d957ddd00f4c7eb41fe7fe62b3590af7/sirji-messages-0.0.9.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2d/21/2f8f58a9460b37b13e4747c65a5e850216adf0cab4b50990fb72115eb4dd/sirji-agents-0.0.9.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [todoism]: Downloading https://files.pythonhosted.org/packages/95/4e/4926d9ca8cc21cbdaecbb68c64ca7277ead22f0877ef46b1120ba173e4f5/todoism-1.9.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [click-logging-config]: Downloading https://files.pythonhosted.org/packages/66/25/c5c8bc6eccc835d3076077f2a222e92e8010a8e3e640769dea5f625afe3f/click_logging_config-1.1.2.post6.tar.gz
+[2024-05-31 14:28:23] INFO root fetch - processPackages [ScreenPro2]: executing diffoscope
+[2024-05-31 14:28:23] INFO root fetch - processPackages [ScreenPro2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScreenPro2-0.3.3-py2.py3-none-any.whl.zip tmp/ScreenPro2-0.3.4-py2.py3-none-any.whl.zip --markdown 20240531/S/ScreenPro2/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-31 14:28:23] INFO root fetch - processPackages [sirji-messages]: executing diffoscope
+[2024-05-31 14:28:23] INFO root fetch - processPackages [sirji-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-messages-0.0.7.tar.gz tmp/sirji-messages-0.0.9.tar.gz --markdown 20240531/s/sirji-messages/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-31 14:28:23] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-05-31 14:28:23] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.8.tar.gz tmp/sirji-agents-0.0.9.tar.gz --markdown 20240531/s/sirji-agents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 14:28:23] INFO root fetch - processPackages [hdfs-native]: executing diffoscope
+[2024-05-31 14:28:23] INFO root fetch - processPackages [hdfs-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdfs_native-0.9.2.tar.gz tmp/hdfs_native-0.9.3.tar.gz --markdown 20240531/h/hdfs-native/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-31 14:28:23] INFO root fetch - processPackages [click-logging-config]: executing diffoscope
+[2024-05-31 14:28:23] INFO root fetch - processPackages [click-logging-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/click_logging_config-1.1.2.post24.tar.gz tmp/click_logging_config-1.1.2.post6.tar.gz --markdown 20240531/c/click-logging-config/1.1.2.post24-1.1.2.post6/README.md --exclude *.pyd
+[2024-05-31 14:28:23] INFO root fetch - processPackages [todoism]: executing diffoscope
+[2024-05-31 14:28:23] INFO root fetch - processPackages [todoism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todoism-1.8.tar.gz tmp/todoism-1.9.tar.gz --markdown 20240531/t/todoism/1.8-1.9/README.md --exclude *.pyd
+[2024-05-31 14:28:24] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-31 14:28:24] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-31 14:28:24] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-31 14:28:24] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.8.tar.gz]
+[2024-05-31 14:28:24] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.9.tar.gz]
+[2024-05-31 14:28:24] INFO root fetch - main [MainThread]: End processing [picea]: success
+[2024-05-31 14:28:24] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.8.tar.gz]
+[2024-05-31 14:28:24] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.9.tar.gz]
+[2024-05-31 14:28:24] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-05-31 14:28:24] INFO root fetch - processPackages [click-logging-config]: Remove: archive file [/home/abi/fetcher/tmp/click_logging_config-1.1.2.post24.tar.gz]
+[2024-05-31 14:28:24] INFO root fetch - processPackages [click-logging-config]: Remove: archive file [/home/abi/fetcher/tmp/click_logging_config-1.1.2.post6.tar.gz]
+[2024-05-31 14:28:24] INFO root fetch - main [MainThread]: End processing [click-logging-config]: success
+[2024-05-31 14:28:25] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.7.tar.gz]
+[2024-05-31 14:28:25] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.9.tar.gz]
+[2024-05-31 14:28:25] INFO root fetch - main [MainThread]: End processing [sirji-messages]: success
+[2024-05-31 14:28:25] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.3.3-py2.py3-none-any.whl.zip]
+[2024-05-31 14:28:25] INFO root fetch - processPackages [ScreenPro2]: Remove: archive file [/home/abi/fetcher/tmp/ScreenPro2-0.3.4-py2.py3-none-any.whl.zip]
+[2024-05-31 14:28:25] INFO root fetch - main [MainThread]: End processing [ScreenPro2]: success
+[2024-05-31 14:28:25] INFO root fetch - processPackages [todoism]: Remove: archive file [/home/abi/fetcher/tmp/todoism-1.8.tar.gz]
+[2024-05-31 14:28:25] INFO root fetch - processPackages [todoism]: Remove: archive file [/home/abi/fetcher/tmp/todoism-1.9.tar.gz]
+[2024-05-31 14:28:25] INFO root fetch - main [MainThread]: End processing [todoism]: success
+[2024-05-31 14:28:25] INFO root fetch - processPackages [hdfs-native]: Remove: archive file [/home/abi/fetcher/tmp/hdfs_native-0.9.2.tar.gz]
+[2024-05-31 14:28:25] INFO root fetch - processPackages [hdfs-native]: Remove: archive file [/home/abi/fetcher/tmp/hdfs_native-0.9.3.tar.gz]
+[2024-05-31 14:28:25] INFO root fetch - main [MainThread]: End processing [hdfs-native]: success
+[2024-05-31 14:28:25] INFO root fetch - main [MainThread]: Store serial: [23465526]
