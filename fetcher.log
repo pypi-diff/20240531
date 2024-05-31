@@ -6366,3 +6366,54 @@
 [2024-05-31 05:41:47] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.3.tar.gz]
 [2024-05-31 05:41:47] INFO root fetch - main [MainThread]: End processing [dlqhandler]: success
 [2024-05-31 05:41:47] INFO root fetch - main [MainThread]: Store serial: [23460148]
+[2024-05-31 05:43:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460148]
+[2024-05-31 05:43:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 05:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dlqhandler
+[2024-05-31 05:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-helper
+[2024-05-31 05:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-delivery-carrier-package-measure-required
+[2024-05-31 05:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myfunctions-edatop
+[2024-05-31 05:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-delivery-carrier
+[2024-05-31 05:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blastengine
+[2024-05-31 05:43:56] WARNING root fetch - processPackages [odoo-addon-delivery-carrier-package-measure-required]: Skipping, unable to determine old version
+[2024-05-31 05:43:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-carrier-package-measure-required] error
+[2024-05-31 05:43:56] INFO root fetch - processPackages [dlqhandler]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-31 05:43:56] INFO root fetch - processPackages [myfunctions-edatop]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 05:43:56] INFO root fetch - processPackages [ctrip-helper]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-31 05:43:56] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: New version: [16.0.20240529.0] Old Version: [16.0.20240401.0]
+[2024-05-31 05:43:56] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/76/6e/6ca9df71ba7714c39fbac953954c62516af48eefe765742ffc9df3480c5e/dlqhandler-0.2.2.tar.gz
+[2024-05-31 05:43:56] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/ef/aa/ae0c5d47ba45b2c667d82241c9f4f135e5cd269529a794e6c1e7b0a05fce/myfunctions_edatop-0.0.4.tar.gz
+[2024-05-31 05:43:56] INFO root fetch - processPackages [blastengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 05:43:56] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/01/02/e21b968eaf955a631e3c958ed19f8075e4893e6d9e3525e79d58334db0db/ctrip-helper-0.3.0.tar.gz
+[2024-05-31 05:43:56] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/37/bd/2441910e253bf344b324c06a71ad99c3716b96867573e30d888deb4914bd/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl
+[2024-05-31 05:43:56] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/f0/f0/5d4c6cb91ccfb64e145eb59a40b9d86d753d23e22033ba23670e406101d7/dlqhandler-0.2.3.tar.gz
+[2024-05-31 05:43:57] INFO root fetch - processPackages [blastengine]: Downloading https://files.pythonhosted.org/packages/79/0a/e390c9bfe0d0208af13dde1b56885ce597c8c567303cbdc7e28bdc71c721/blastengine-0.0.8.tar.gz
+[2024-05-31 05:43:57] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/98/f7/ad5dfd6d4297e119ae22f1c03844765cc9add9572917ac3a26ff804d74c5/myfunctions_edatop-0.0.5.tar.gz
+[2024-05-31 05:43:57] INFO root fetch - processPackages [dlqhandler]: executing diffoscope
+[2024-05-31 05:43:57] INFO root fetch - processPackages [dlqhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlqhandler-0.2.2.tar.gz tmp/dlqhandler-0.2.3.tar.gz --markdown 20240531/d/dlqhandler/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-31 05:43:57] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/cc/c0/0424e28e490b6c080b31a93c3adf0258237e3033a7e320bed4e19fb39882/odoo_addons_oca_delivery_carrier-16.0.20240529.0-py3-none-any.whl
+[2024-05-31 05:43:57] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/9e/e4/560722b76d3218bd6d695d911dcfcbf7900560a4604789741a4b5b780787/ctrip-helper-0.3.1.tar.gz
+[2024-05-31 05:43:57] INFO root fetch - processPackages [myfunctions-edatop]: executing diffoscope
+[2024-05-31 05:43:57] INFO root fetch - processPackages [myfunctions-edatop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_edatop-0.0.4.tar.gz tmp/myfunctions_edatop-0.0.5.tar.gz --markdown 20240531/m/myfunctions-edatop/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-31 05:43:57] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: executing diffoscope
+[2024-05-31 05:43:57] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl.zip tmp/odoo_addons_oca_delivery_carrier-16.0.20240529.0-py3-none-any.whl.zip --markdown 20240531/o/odoo-addons-oca-delivery-carrier/16.0.20240401.0-16.0.20240529.0/README.md --exclude *.pyd
+[2024-05-31 05:43:57] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 05:43:57] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.3.0.tar.gz tmp/ctrip-helper-0.3.1.tar.gz --markdown 20240531/c/ctrip-helper/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-31 05:43:57] INFO root fetch - processPackages [blastengine]: Downloading https://files.pythonhosted.org/packages/03/51/ca38a4e33a289eb13ffb11f2b47dc755b9b6a412358eccc5beeee4e55c82/blastengine-0.0.9.tar.gz
+[2024-05-31 05:43:57] INFO root fetch - processPackages [blastengine]: executing diffoscope
+[2024-05-31 05:43:57] INFO root fetch - processPackages [blastengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastengine-0.0.8.tar.gz tmp/blastengine-0.0.9.tar.gz --markdown 20240531/b/blastengine/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 05:43:57] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.4.tar.gz]
+[2024-05-31 05:43:57] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.5.tar.gz]
+[2024-05-31 05:43:57] INFO root fetch - main [MainThread]: End processing [myfunctions-edatop]: success
+[2024-05-31 05:43:57] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.2.tar.gz]
+[2024-05-31 05:43:57] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.3.tar.gz]
+[2024-05-31 05:43:57] INFO root fetch - main [MainThread]: End processing [dlqhandler]: success
+[2024-05-31 05:43:57] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.0.tar.gz]
+[2024-05-31 05:43:57] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.1.tar.gz]
+[2024-05-31 05:43:57] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 05:43:57] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl.zip]
+[2024-05-31 05:43:57] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_delivery_carrier-16.0.20240529.0-py3-none-any.whl.zip]
+[2024-05-31 05:43:57] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-delivery-carrier]: success
+[2024-05-31 05:43:58] INFO root fetch - processPackages [blastengine]: Remove: archive file [/home/abi/fetcher/tmp/blastengine-0.0.8.tar.gz]
+[2024-05-31 05:43:58] INFO root fetch - processPackages [blastengine]: Remove: archive file [/home/abi/fetcher/tmp/blastengine-0.0.9.tar.gz]
+[2024-05-31 05:43:58] INFO root fetch - main [MainThread]: End processing [blastengine]: success
+[2024-05-31 05:43:58] INFO root fetch - main [MainThread]: Store serial: [23460163]
