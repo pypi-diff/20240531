@@ -5735,3 +5735,27 @@
 [2024-05-31 05:02:35] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Remove: archive file [/home/abi/fetcher/tmp/comfyui_easynodes-1.0.2.tar.gz]
 [2024-05-31 05:02:35] INFO root fetch - main [MainThread]: End processing [ComfyUI-EasyNodes]: success
 [2024-05-31 05:02:35] INFO root fetch - main [MainThread]: Store serial: [23459888]
+[2024-05-31 05:04:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459888]
+[2024-05-31 05:04:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 05:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BlightStalker
+[2024-05-31 05:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: du-aio-tools
+[2024-05-31 05:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lptlib
+[2024-05-31 05:04:44] WARNING root fetch - processPackages [BlightStalker]: Skipping, unable to determine old version
+[2024-05-31 05:04:44] INFO root fetch - processPackages [du-aio-tools]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-31 05:04:44] INFO root fetch - main [MainThread]: End processing [BlightStalker] error
+[2024-05-31 05:04:44] INFO root fetch - processPackages [lptlib]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-31 05:04:44] INFO root fetch - processPackages [du-aio-tools]: Downloading https://files.pythonhosted.org/packages/01/6c/02cfb505f7798f8bd1ebde4a6197afc514593d59ae9175cec029d517f7ee/du_aio_tools-0.0.4.tar.gz
+[2024-05-31 05:04:44] INFO root fetch - processPackages [lptlib]: Downloading https://files.pythonhosted.org/packages/10/61/dcc53729e66c7bd15db61eae2d32ad120d7415ffdc2bbe411e08ecb68e12/lptlib-0.0.1a8.tar.gz
+[2024-05-31 05:04:44] INFO root fetch - processPackages [du-aio-tools]: Downloading https://files.pythonhosted.org/packages/6d/ad/d6a803329b4dfbfd2cb7e31efe3ec1e9e79dafb50749a2c1bd1f5eb13645/du_aio_tools-0.0.6.tar.gz
+[2024-05-31 05:04:44] INFO root fetch - processPackages [lptlib]: Downloading https://files.pythonhosted.org/packages/22/cf/0e9e64b7dd2a1cd9feb30be5681b58953e55c4df4308f13cb14fa309d0e6/lptlib-0.0.1a9.tar.gz
+[2024-05-31 05:04:45] INFO root fetch - processPackages [du-aio-tools]: executing diffoscope
+[2024-05-31 05:04:45] INFO root fetch - processPackages [du-aio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/du_aio_tools-0.0.4.tar.gz tmp/du_aio_tools-0.0.6.tar.gz --markdown 20240531/d/du-aio-tools/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-31 05:04:45] INFO root fetch - processPackages [lptlib]: executing diffoscope
+[2024-05-31 05:04:45] INFO root fetch - processPackages [lptlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lptlib-0.0.1a8.tar.gz tmp/lptlib-0.0.1a9.tar.gz --markdown 20240531/l/lptlib/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-31 05:04:45] INFO root fetch - processPackages [du-aio-tools]: Remove: archive file [/home/abi/fetcher/tmp/du_aio_tools-0.0.4.tar.gz]
+[2024-05-31 05:04:45] INFO root fetch - processPackages [du-aio-tools]: Remove: archive file [/home/abi/fetcher/tmp/du_aio_tools-0.0.6.tar.gz]
+[2024-05-31 05:04:45] INFO root fetch - main [MainThread]: End processing [du-aio-tools]: success
+[2024-05-31 05:04:45] INFO root fetch - processPackages [lptlib]: Remove: archive file [/home/abi/fetcher/tmp/lptlib-0.0.1a8.tar.gz]
+[2024-05-31 05:04:45] INFO root fetch - processPackages [lptlib]: Remove: archive file [/home/abi/fetcher/tmp/lptlib-0.0.1a9.tar.gz]
+[2024-05-31 05:04:45] INFO root fetch - main [MainThread]: End processing [lptlib]: success
+[2024-05-31 05:04:45] INFO root fetch - main [MainThread]: Store serial: [23459899]
