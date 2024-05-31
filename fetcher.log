@@ -3074,3 +3074,24 @@
 [2024-05-31 02:20:00] INFO root fetch - processPackages [hcs-core]: Remove: archive file [/home/abi/fetcher/tmp/hcs_core-0.1.239.tar.gz]
 [2024-05-31 02:20:00] INFO root fetch - main [MainThread]: End processing [hcs-core]: success
 [2024-05-31 02:20:00] INFO root fetch - main [MainThread]: Store serial: [23458706]
+[2024-05-31 02:22:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458706]
+[2024-05-31 02:22:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 02:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hcs-cli
+[2024-05-31 02:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-aurora-globaldatabase
+[2024-05-31 02:22:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-31 02:22:08] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-31 02:22:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-31 02:22:08] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/f8/df/208577492e791a01b215928ef17543dd71d1db9c71661a2eaf3b2c739e78/hcs-cli-0.1.97.tar.gz
+[2024-05-31 02:22:08] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-31 02:22:09] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-31 02:22:09] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240531/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-31 02:22:09] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/75/92/ba28bbaff4bfb3aa8084610c7992979d23060c125c74f6a73fdffaed4d58/hcs-cli-0.1.98.tar.gz
+[2024-05-31 02:22:09] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2024-05-31 02:22:09] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.97.tar.gz tmp/hcs-cli-0.1.98.tar.gz --markdown 20240531/h/hcs-cli/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-31 02:22:09] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-31 02:22:09] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-31 02:22:09] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-31 02:22:10] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.97.tar.gz]
+[2024-05-31 02:22:10] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.98.tar.gz]
+[2024-05-31 02:22:10] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2024-05-31 02:22:10] INFO root fetch - main [MainThread]: Store serial: [23458713]
