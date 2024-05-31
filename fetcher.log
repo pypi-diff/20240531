@@ -14478,3 +14478,78 @@
 [2024-05-31 12:02:21] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.6.1.tar.gz]
 [2024-05-31 12:02:21] INFO root fetch - main [MainThread]: End processing [PQAnalysis]: success
 [2024-05-31 12:02:21] INFO root fetch - main [MainThread]: Store serial: [23463859]
+[2024-05-31 12:04:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463859]
+[2024-05-31 12:04:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 12:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hanky
+[2024-05-31 12:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foldable-robotics
+[2024-05-31 12:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lines-dataset
+[2024-05-31 12:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatgpt-klient
+[2024-05-31 12:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: variable-local
+[2024-05-31 12:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: capeditor
+[2024-05-31 12:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qatg
+[2024-05-31 12:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mhmzx-little-paimon
+[2024-05-31 12:04:30] INFO root fetch - processPackages [chatgpt-klient]: New version: [0.7.2] Old Version: [0.6.1]
+[2024-05-31 12:04:30] INFO root fetch - processPackages [lines-dataset]: New version: [0.1.6] Old Version: [0.1.4]
+[2024-05-31 12:04:30] INFO root fetch - processPackages [variable-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 12:04:30] INFO root fetch - processPackages [capeditor]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-31 12:04:30] INFO root fetch - processPackages [foldable-robotics]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-31 12:04:30] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/70/d7/8f1cedc8864b64b1a14b0babb14012e1b55d36ce7f7d4131efd3a144ba8d/variable_local-0.0.98.tar.gz
+[2024-05-31 12:04:30] INFO root fetch - processPackages [mhmzx-little-paimon]: New version: [3.0.16] Old Version: [3.0.15]
+[2024-05-31 12:04:30] INFO root fetch - processPackages [hanky]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 12:04:30] INFO root fetch - processPackages [qatg]: New version: [0.8.0] Old Version: [0.5.17]
+[2024-05-31 12:04:30] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/ac/4f/91ca6586519a8fee93cec7cb4f02e8a3c21e1cd18dc0a50488cadfdba4ff/chatgpt_klient-0.6.1.tar.gz
+[2024-05-31 12:04:30] INFO root fetch - processPackages [lines-dataset]: Downloading https://files.pythonhosted.org/packages/0b/53/66c3b2080ba635f0b7739ca79daaec1820f21e6bb881f7c3d7978d0732ba/lines_dataset-0.1.4.tar.gz
+[2024-05-31 12:04:30] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/20/8b/ee9947a8caefb731b30941901e0fe4a1c3ea3ec0e2f19a88de6dbd7bc499/variable_local-0.0.99.tar.gz
+[2024-05-31 12:04:30] INFO root fetch - processPackages [hanky]: Downloading https://files.pythonhosted.org/packages/0d/4e/4bdca90771c3999afe09feade993c4e652c038d44fd0a663d4294c8c3dbf/hanky-0.0.2.tar.gz
+[2024-05-31 12:04:30] INFO root fetch - processPackages [foldable-robotics]: Downloading https://files.pythonhosted.org/packages/05/fd/3d789984d3dfeb86306d8f64909ac8b784ffbc0a24671d19b9838933a496/foldable_robotics-0.0.7-py2.py3-none-any.whl
+[2024-05-31 12:04:30] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/fb/ca/8ec6158f77af7dfd844b253a30af05f12f09d1c8085cd54539f4046a3dc6/capeditor-0.5.7.tar.gz
+[2024-05-31 12:04:30] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/52/18/c58ca4e0f500a27b850231fa8670bd460a799b21f5b455aa9c6b0cbc8a01/chatgpt_klient-0.7.2.tar.gz
+[2024-05-31 12:04:30] INFO root fetch - processPackages [mhmzx-little-paimon]: Downloading https://files.pythonhosted.org/packages/f6/8d/c1d40e51b2495c2674a4df7968f2c10aa8eaeb714e06dafe4473923811b9/mhmzx_little_paimon-3.0.15.tar.gz
+[2024-05-31 12:04:30] INFO root fetch - processPackages [qatg]: Downloading https://files.pythonhosted.org/packages/68/20/541dadc5ea747b4641022443baa67c500b10dd653b19eb3f13a9cb8968ec/qatg-0.5.17.tar.gz
+[2024-05-31 12:04:30] INFO root fetch - processPackages [lines-dataset]: Downloading https://files.pythonhosted.org/packages/5e/94/022f419f5b83942f976cfbbf0d1cf3889229ee744c37a334f108dc42ded1/lines_dataset-0.1.6-py3-none-any.whl
+[2024-05-31 12:04:30] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-05-31 12:04:30] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.98.tar.gz tmp/variable_local-0.0.99.tar.gz --markdown 20240531/v/variable-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 12:04:31] INFO root fetch - processPackages [chatgpt-klient]: executing diffoscope
+[2024-05-31 12:04:31] INFO root fetch - processPackages [chatgpt-klient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_klient-0.6.1.tar.gz tmp/chatgpt_klient-0.7.2.tar.gz --markdown 20240531/c/chatgpt-klient/0.6.1-0.7.2/README.md --exclude *.pyd
+[2024-05-31 12:04:31] INFO root fetch - processPackages [lines-dataset]: executing diffoscope
+[2024-05-31 12:04:31] INFO root fetch - processPackages [lines-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lines_dataset-0.1.4.tar.gz tmp/lines_dataset-0.1.6-py3-none-any.whl.zip --markdown 20240531/l/lines-dataset/0.1.4-0.1.6/README.md --exclude *.pyd
+[2024-05-31 12:04:31] INFO root fetch - processPackages [hanky]: Downloading https://files.pythonhosted.org/packages/c3/de/a10a81087abbe89c5f94023a93ca4d83f3803cc9e02dea53e6b292ebd9a3/hanky-0.0.3.tar.gz
+[2024-05-31 12:04:31] INFO root fetch - processPackages [foldable-robotics]: Downloading https://files.pythonhosted.org/packages/18/79/51dc2ed8013d376ede8e6aa57f8acf95bd92874616f6e0d0ca767ebbd30e/foldable_robotics-0.0.8-py2.py3-none-any.whl
+[2024-05-31 12:04:31] INFO root fetch - processPackages [qatg]: Downloading https://files.pythonhosted.org/packages/12/09/f67248afc2e1981494d758a788c1904e5affcf945959ba24b72af054d473/qatg-0.8.0.tar.gz
+[2024-05-31 12:04:31] INFO root fetch - processPackages [hanky]: executing diffoscope
+[2024-05-31 12:04:31] INFO root fetch - processPackages [hanky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hanky-0.0.2.tar.gz tmp/hanky-0.0.3.tar.gz --markdown 20240531/h/hanky/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 12:04:31] INFO root fetch - processPackages [foldable-robotics]: executing diffoscope
+[2024-05-31 12:04:31] INFO root fetch - processPackages [foldable-robotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foldable_robotics-0.0.7-py2.py3-none-any.whl.zip tmp/foldable_robotics-0.0.8-py2.py3-none-any.whl.zip --markdown 20240531/f/foldable-robotics/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-31 12:04:31] INFO root fetch - processPackages [mhmzx-little-paimon]: Downloading https://files.pythonhosted.org/packages/04/24/196c84e81bcbc6ab88b2720113ff526c6475275c54f856f83338bb028c0a/mhmzx_little_paimon-3.0.16.tar.gz
+[2024-05-31 12:04:31] INFO root fetch - processPackages [qatg]: executing diffoscope
+[2024-05-31 12:04:31] INFO root fetch - processPackages [qatg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qatg-0.5.17.tar.gz tmp/qatg-0.8.0.tar.gz --markdown 20240531/q/qatg/0.5.17-0.8.0/README.md --exclude *.pyd
+[2024-05-31 12:04:31] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/a4/a0/74673db559ab558e7c89229d2ca0736396beafe21d385bf235fdddfe5b25/capeditor-0.5.8.tar.gz
+[2024-05-31 12:04:31] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2024-05-31 12:04:31] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.5.7.tar.gz tmp/capeditor-0.5.8.tar.gz --markdown 20240531/c/capeditor/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-31 12:04:31] INFO root fetch - processPackages [mhmzx-little-paimon]: executing diffoscope
+[2024-05-31 12:04:31] INFO root fetch - processPackages [mhmzx-little-paimon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mhmzx_little_paimon-3.0.15.tar.gz tmp/mhmzx_little_paimon-3.0.16.tar.gz --markdown 20240531/m/mhmzx-little-paimon/3.0.15-3.0.16/README.md --exclude *.pyd
+[2024-05-31 12:04:31] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_klient-0.6.1.tar.gz]
+[2024-05-31 12:04:31] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_klient-0.7.2.tar.gz]
+[2024-05-31 12:04:31] INFO root fetch - main [MainThread]: End processing [chatgpt-klient]: success
+[2024-05-31 12:04:31] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.98.tar.gz]
+[2024-05-31 12:04:31] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.99.tar.gz]
+[2024-05-31 12:04:31] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-05-31 12:04:31] INFO root fetch - processPackages [lines-dataset]: Remove: archive file [/home/abi/fetcher/tmp/lines_dataset-0.1.4.tar.gz]
+[2024-05-31 12:04:31] INFO root fetch - processPackages [lines-dataset]: Remove: archive file [/home/abi/fetcher/tmp/lines_dataset-0.1.6-py3-none-any.whl.zip]
+[2024-05-31 12:04:31] INFO root fetch - main [MainThread]: End processing [lines-dataset]: success
+[2024-05-31 12:04:32] INFO root fetch - processPackages [hanky]: Remove: archive file [/home/abi/fetcher/tmp/hanky-0.0.2.tar.gz]
+[2024-05-31 12:04:32] INFO root fetch - processPackages [hanky]: Remove: archive file [/home/abi/fetcher/tmp/hanky-0.0.3.tar.gz]
+[2024-05-31 12:04:32] INFO root fetch - main [MainThread]: End processing [hanky]: success
+[2024-05-31 12:04:32] INFO root fetch - processPackages [qatg]: Remove: archive file [/home/abi/fetcher/tmp/qatg-0.5.17.tar.gz]
+[2024-05-31 12:04:32] INFO root fetch - processPackages [qatg]: Remove: archive file [/home/abi/fetcher/tmp/qatg-0.8.0.tar.gz]
+[2024-05-31 12:04:32] INFO root fetch - main [MainThread]: End processing [qatg]: success
+[2024-05-31 12:04:32] INFO root fetch - processPackages [foldable-robotics]: Remove: archive file [/home/abi/fetcher/tmp/foldable_robotics-0.0.7-py2.py3-none-any.whl.zip]
+[2024-05-31 12:04:32] INFO root fetch - processPackages [foldable-robotics]: Remove: archive file [/home/abi/fetcher/tmp/foldable_robotics-0.0.8-py2.py3-none-any.whl.zip]
+[2024-05-31 12:04:32] INFO root fetch - main [MainThread]: End processing [foldable-robotics]: success
+[2024-05-31 12:04:32] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.5.7.tar.gz]
+[2024-05-31 12:04:32] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.5.8.tar.gz]
+[2024-05-31 12:04:32] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2024-05-31 12:04:32] INFO root fetch - processPackages [mhmzx-little-paimon]: Remove: archive file [/home/abi/fetcher/tmp/mhmzx_little_paimon-3.0.15.tar.gz]
+[2024-05-31 12:04:32] INFO root fetch - processPackages [mhmzx-little-paimon]: Remove: archive file [/home/abi/fetcher/tmp/mhmzx_little_paimon-3.0.16.tar.gz]
+[2024-05-31 12:04:32] INFO root fetch - main [MainThread]: End processing [mhmzx-little-paimon]: success
+[2024-05-31 12:04:32] INFO root fetch - main [MainThread]: Store serial: [23463885]
