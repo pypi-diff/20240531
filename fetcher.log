@@ -12204,3 +12204,99 @@
 [2024-05-31 10:35:45] INFO root fetch - processPackages [bpkio-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_python_sdk-1.9.0.tar.gz]
 [2024-05-31 10:35:45] INFO root fetch - main [MainThread]: End processing [bpkio-python-sdk]: success
 [2024-05-31 10:35:45] INFO root fetch - main [MainThread]: Store serial: [23462791]
+[2024-05-31 10:37:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462791]
+[2024-05-31 10:37:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctrip-helper
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evomip
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: degann
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bpkio-cli
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-elasticsearch
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkmavrykchain
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mmisp-lib
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ukrr-models
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unreal-qt
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: binary-file-parser
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ctrip-helper]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-31 10:37:54] INFO root fetch - processPackages [langchain-elasticsearch]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-31 10:37:54] INFO root fetch - processPackages [mmisp-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/f2/d6/9ac4787266bf61061b4920c6885295a10f5993b9a0f1d973616bd9a5d46f/ctrip-helper-0.3.4.tar.gz
+[2024-05-31 10:37:54] INFO root fetch - processPackages [unreal-qt]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 10:37:54] INFO root fetch - processPackages [degann]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-31 10:37:54] INFO root fetch - processPackages [mkmavrykchain]: New version: [6.25.9] Old Version: [6.25.8]
+[2024-05-31 10:37:54] INFO root fetch - processPackages [bpkio-cli]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-31 10:37:54] INFO root fetch - processPackages [binary-file-parser]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ukrr-models]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-05-31 10:37:54] WARNING root fetch - processPackages [evomip]: Skipping, unable to determine old version
+[2024-05-31 10:37:54] INFO root fetch - processPackages [evomip]: Start processing: abalytics
+[2024-05-31 10:37:54] INFO root fetch - main [MainThread]: End processing [evomip] error
+[2024-05-31 10:37:54] INFO root fetch - processPackages [mmisp-lib]: Downloading https://files.pythonhosted.org/packages/75/de/3698e8e9548f21d9e223fba10baa35de58249c5be2dcf443f1fff3cc52bf/mmisp_lib-0.1.8.tar.gz
+[2024-05-31 10:37:54] INFO root fetch - processPackages [langchain-elasticsearch]: Downloading https://files.pythonhosted.org/packages/e7/07/f82f14691d97effbefafec1b0b4959575f099406e100d31e586e3d0ec00b/langchain_elasticsearch-0.2.1.tar.gz
+[2024-05-31 10:37:54] INFO root fetch - processPackages [unreal-qt]: Downloading https://files.pythonhosted.org/packages/81/99/fbe1614c550bfc971183d842d72834a8ca5fd70ab39a898aa0730bc63f4b/unreal-qt-0.0.1.tar.gz
+[2024-05-31 10:37:54] INFO root fetch - processPackages [abalytics]: New version: [3.0.6] Old Version: [3.0.4]
+[2024-05-31 10:37:54] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/4f/e9/6e535121a07acdeb06fceb1240da088046994124deadd1080957718f847b/mkmavrykchain-6.25.8-py3-none-any.whl
+[2024-05-31 10:37:54] INFO root fetch - processPackages [degann]: Downloading https://files.pythonhosted.org/packages/ed/aa/12bf49b6e8b9b105560dc8c7ad6394e1ccfd09b38e7162c5f7f94f422351/degann-1.1.4.tar.gz
+[2024-05-31 10:37:54] INFO root fetch - processPackages [ukrr-models]: Downloading https://files.pythonhosted.org/packages/75/c8/3aaef9ad6733d3a99d8c422f2033429f8ed006e442c37997db849e087a11/ukrr_models-2.1.1.tar.gz
+[2024-05-31 10:37:55] INFO root fetch - processPackages [binary-file-parser]: Downloading https://files.pythonhosted.org/packages/7b/90/770f1a0336c507cc76e283a77a79381496ac34ac7767d376f0457d43fe8a/binary_file_parser-0.2.0.tar.gz
+[2024-05-31 10:37:55] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/55/61/35d2bd60fef00e8cdf13a32002a415a3002f36f11f78cfe4a501088a952c/bpkio_cli-1.9.0.tar.gz
+[2024-05-31 10:37:55] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/6e/eb/bd7cda5dc23d19fc1a7fd7f2b70409ad194877f5f5553bd11989d8ac0051/ctrip-helper-0.3.5.tar.gz
+[2024-05-31 10:37:55] INFO root fetch - processPackages [abalytics]: Downloading https://files.pythonhosted.org/packages/b3/47/2fd665f2be56906d74587fa4c90c6c248ba98fd1ffecc7924f8ce088dccd/abalytics-3.0.4.tar.gz
+[2024-05-31 10:37:55] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 10:37:55] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.3.4.tar.gz tmp/ctrip-helper-0.3.5.tar.gz --markdown 20240531/c/ctrip-helper/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-31 10:37:55] INFO root fetch - processPackages [langchain-elasticsearch]: Downloading https://files.pythonhosted.org/packages/66/ff/db35bc0ccb3c407b2430b54ef63535649d6bc976fe861a39b9e7f584c701/langchain_elasticsearch-0.2.2.tar.gz
+[2024-05-31 10:37:55] INFO root fetch - processPackages [mmisp-lib]: Downloading https://files.pythonhosted.org/packages/6b/56/4f20cbefd5a4b0d50f16983355d26c51592c18b57e30c433e24c4017a9a1/mmisp_lib-0.1.9.tar.gz
+[2024-05-31 10:37:55] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/a3/84/0f1c74e0273e0e35a030e34242c803b740f9c21c97de8071b93ad5209999/mkmavrykchain-6.25.9-py3-none-any.whl
+[2024-05-31 10:37:55] INFO root fetch - processPackages [unreal-qt]: Downloading https://files.pythonhosted.org/packages/1a/a9/f60f939eecf99033921cf8ca35b2c537fb1c3426e0691f11b3ead729a242/unreal_qt-0.0.2.tar.gz
+[2024-05-31 10:37:55] INFO root fetch - processPackages [binary-file-parser]: Downloading https://files.pythonhosted.org/packages/30/d2/4a49a853e96b039e8fb138c065db4336b67e25db2591341ee056b57e77f3/binary_file_parser-0.2.1-py3-none-any.whl
+[2024-05-31 10:37:55] INFO root fetch - processPackages [degann]: Downloading https://files.pythonhosted.org/packages/a3/dc/9ffc6d09b6b2675655598a17f437630dbc9a1d3abecdabb2d51f016820ad/degann-1.1.5-py3-none-any.whl
+[2024-05-31 10:37:55] INFO root fetch - processPackages [mmisp-lib]: executing diffoscope
+[2024-05-31 10:37:55] INFO root fetch - processPackages [mmisp-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmisp_lib-0.1.8.tar.gz tmp/mmisp_lib-0.1.9.tar.gz --markdown 20240531/m/mmisp-lib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 10:37:55] INFO root fetch - processPackages [ukrr-models]: Downloading https://files.pythonhosted.org/packages/fc/f5/02da1153a701eb3497290997708b6b29f01079ca29936ffeba831301532f/ukrr_models-2.2.0.tar.gz
+[2024-05-31 10:37:55] INFO root fetch - processPackages [mkmavrykchain]: executing diffoscope
+[2024-05-31 10:37:55] INFO root fetch - processPackages [mkmavrykchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkmavrykchain-6.25.8-py3-none-any.whl.zip tmp/mkmavrykchain-6.25.9-py3-none-any.whl.zip --markdown 20240531/m/mkmavrykchain/6.25.8-6.25.9/README.md --exclude *.pyd
+[2024-05-31 10:37:55] INFO root fetch - processPackages [langchain-elasticsearch]: executing diffoscope
+[2024-05-31 10:37:55] INFO root fetch - processPackages [langchain-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_elasticsearch-0.2.1.tar.gz tmp/langchain_elasticsearch-0.2.2.tar.gz --markdown 20240531/l/langchain-elasticsearch/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-31 10:37:55] INFO root fetch - processPackages [abalytics]: Downloading https://files.pythonhosted.org/packages/15/fa/db8270afb9e9d0d5993bfec20cb2d3da530098003a69fb0954829b636c49/abalytics-3.0.6.tar.gz
+[2024-05-31 10:37:55] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/93/2d/061c46add6e00f11220006e64d6b62d18e3aeb21eda2eecf195a716159b9/bpkio_cli-1.9.1.tar.gz
+[2024-05-31 10:37:55] INFO root fetch - processPackages [unreal-qt]: executing diffoscope
+[2024-05-31 10:37:55] INFO root fetch - processPackages [unreal-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unreal-qt-0.0.1.tar.gz tmp/unreal_qt-0.0.2.tar.gz --markdown 20240531/u/unreal-qt/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 10:37:55] INFO root fetch - processPackages [binary-file-parser]: executing diffoscope
+[2024-05-31 10:37:55] INFO root fetch - processPackages [binary-file-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binary_file_parser-0.2.0.tar.gz tmp/binary_file_parser-0.2.1-py3-none-any.whl.zip --markdown 20240531/b/binary-file-parser/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-31 10:37:55] INFO root fetch - processPackages [degann]: executing diffoscope
+[2024-05-31 10:37:55] INFO root fetch - processPackages [degann]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degann-1.1.4.tar.gz tmp/degann-1.1.5-py3-none-any.whl.zip --markdown 20240531/d/degann/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-31 10:37:55] INFO root fetch - processPackages [ukrr-models]: executing diffoscope
+[2024-05-31 10:37:55] INFO root fetch - processPackages [ukrr-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukrr_models-2.1.1.tar.gz tmp/ukrr_models-2.2.0.tar.gz --markdown 20240531/u/ukrr-models/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-05-31 10:37:55] INFO root fetch - processPackages [abalytics]: executing diffoscope
+[2024-05-31 10:37:55] INFO root fetch - processPackages [abalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abalytics-3.0.4.tar.gz tmp/abalytics-3.0.6.tar.gz --markdown 20240531/a/abalytics/3.0.4-3.0.6/README.md --exclude *.pyd
+[2024-05-31 10:37:55] INFO root fetch - processPackages [bpkio-cli]: executing diffoscope
+[2024-05-31 10:37:55] INFO root fetch - processPackages [bpkio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_cli-1.9.0.tar.gz tmp/bpkio_cli-1.9.1.tar.gz --markdown 20240531/b/bpkio-cli/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-31 10:37:56] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.4.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.5.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 10:37:56] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.8-py3-none-any.whl.zip]
+[2024-05-31 10:37:56] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.9-py3-none-any.whl.zip]
+[2024-05-31 10:37:56] INFO root fetch - main [MainThread]: End processing [mkmavrykchain]: success
+[2024-05-31 10:37:56] INFO root fetch - processPackages [langchain-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/langchain_elasticsearch-0.2.1.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - processPackages [langchain-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/langchain_elasticsearch-0.2.2.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - main [MainThread]: End processing [langchain-elasticsearch]: success
+[2024-05-31 10:37:56] INFO root fetch - processPackages [degann]: Remove: archive file [/home/abi/fetcher/tmp/degann-1.1.4.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - processPackages [degann]: Remove: archive file [/home/abi/fetcher/tmp/degann-1.1.5-py3-none-any.whl.zip]
+[2024-05-31 10:37:56] INFO root fetch - main [MainThread]: End processing [degann]: success
+[2024-05-31 10:37:56] INFO root fetch - processPackages [ukrr-models]: Remove: archive file [/home/abi/fetcher/tmp/ukrr_models-2.1.1.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - processPackages [mmisp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mmisp_lib-0.1.8.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - processPackages [ukrr-models]: Remove: archive file [/home/abi/fetcher/tmp/ukrr_models-2.2.0.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - processPackages [mmisp-lib]: Remove: archive file [/home/abi/fetcher/tmp/mmisp_lib-0.1.9.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - main [MainThread]: End processing [ukrr-models]: success
+[2024-05-31 10:37:56] INFO root fetch - main [MainThread]: End processing [mmisp-lib]: success
+[2024-05-31 10:37:56] INFO root fetch - processPackages [unreal-qt]: Remove: archive file [/home/abi/fetcher/tmp/unreal-qt-0.0.1.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - processPackages [unreal-qt]: Remove: archive file [/home/abi/fetcher/tmp/unreal_qt-0.0.2.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - main [MainThread]: End processing [unreal-qt]: success
+[2024-05-31 10:37:56] INFO root fetch - processPackages [binary-file-parser]: Remove: archive file [/home/abi/fetcher/tmp/binary_file_parser-0.2.0.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - processPackages [binary-file-parser]: Remove: archive file [/home/abi/fetcher/tmp/binary_file_parser-0.2.1-py3-none-any.whl.zip]
+[2024-05-31 10:37:56] INFO root fetch - main [MainThread]: End processing [binary-file-parser]: success
+[2024-05-31 10:37:56] INFO root fetch - processPackages [abalytics]: Remove: archive file [/home/abi/fetcher/tmp/abalytics-3.0.4.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - processPackages [abalytics]: Remove: archive file [/home/abi/fetcher/tmp/abalytics-3.0.6.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - main [MainThread]: End processing [abalytics]: success
+[2024-05-31 10:37:56] INFO root fetch - processPackages [bpkio-cli]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_cli-1.9.0.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - processPackages [bpkio-cli]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_cli-1.9.1.tar.gz]
+[2024-05-31 10:37:56] INFO root fetch - main [MainThread]: End processing [bpkio-cli]: success
+[2024-05-31 10:37:56] INFO root fetch - main [MainThread]: Store serial: [23462822]
