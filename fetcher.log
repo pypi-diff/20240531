@@ -3654,3 +3654,45 @@
 [2024-05-31 02:57:35] INFO root fetch - processPackages [leptonai]: Remove: archive file [/home/abi/fetcher/tmp/leptonai-0.9.9-py3-none-any.whl.zip]
 [2024-05-31 02:57:35] INFO root fetch - main [MainThread]: End processing [leptonai]: success
 [2024-05-31 02:57:35] INFO root fetch - main [MainThread]: Store serial: [23459006]
+[2024-05-31 02:59:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459006]
+[2024-05-31 02:59:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 02:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyeamxx
+[2024-05-31 02:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EDAeasy
+[2024-05-31 02:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ooo-dev-tools
+[2024-05-31 02:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coiled
+[2024-05-31 02:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anne
+[2024-05-31 02:59:43] INFO root fetch - processPackages [anne]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-31 02:59:43] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-31 02:59:43] WARNING root fetch - processPackages [pyeamxx]: Skipping, unable to determine old version
+[2024-05-31 02:59:43] INFO root fetch - main [MainThread]: End processing [pyeamxx] error
+[2024-05-31 02:59:43] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-31 02:59:43] INFO root fetch - processPackages [EDAeasy]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-31 02:59:43] INFO root fetch - processPackages [anne]: Downloading https://files.pythonhosted.org/packages/ec/52/965a7f2261652beab073eed38e25f07525c514f8db441d8c0b2cfbd765ee/anne-1.0.6.tar.gz
+[2024-05-31 02:59:43] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2024-05-31 02:59:43] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-31 02:59:43] INFO root fetch - processPackages [EDAeasy]: Downloading https://files.pythonhosted.org/packages/ca/11/4bc9c7df999253cecc13a940a6ff3abe5c32491c885ab3cb1affcd4502b8/edaeasy-1.0.1.tar.gz
+[2024-05-31 02:59:43] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-31 02:59:44] INFO root fetch - processPackages [anne]: Downloading https://files.pythonhosted.org/packages/ef/e5/abdce1f486b903353fa97d487aa85903d989d65fbb2f73dbc25891c46102/anne-1.0.7.tar.gz
+[2024-05-31 02:59:44] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/20/e8/b38a2ad24f414b81985e10c35e1192cb22350ca6b0dc68f0104509e3c0bf/ooo_dev_tools-0.9.8.tar.gz
+[2024-05-31 02:59:44] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-31 02:59:44] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240531/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-31 02:59:44] INFO root fetch - processPackages [EDAeasy]: Downloading https://files.pythonhosted.org/packages/6a/20/5590c7f18070b3477021f744d5be3bca55f1e901bbcff083cab03b622385/edaeasy-1.1.0.tar.gz
+[2024-05-31 02:59:44] INFO root fetch - processPackages [anne]: executing diffoscope
+[2024-05-31 02:59:44] INFO root fetch - processPackages [anne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anne-1.0.6.tar.gz tmp/anne-1.0.7.tar.gz --markdown 20240531/a/anne/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-31 02:59:44] INFO root fetch - processPackages [EDAeasy]: executing diffoscope
+[2024-05-31 02:59:44] INFO root fetch - processPackages [EDAeasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edaeasy-1.0.1.tar.gz tmp/edaeasy-1.1.0.tar.gz --markdown 20240531/E/EDAeasy/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-31 02:59:44] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-31 02:59:44] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-31 02:59:44] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-31 02:59:44] INFO root fetch - processPackages [anne]: Remove: archive file [/home/abi/fetcher/tmp/anne-1.0.6.tar.gz]
+[2024-05-31 02:59:44] INFO root fetch - processPackages [anne]: Remove: archive file [/home/abi/fetcher/tmp/anne-1.0.7.tar.gz]
+[2024-05-31 02:59:44] INFO root fetch - main [MainThread]: End processing [anne]: success
+[2024-05-31 02:59:44] INFO root fetch - processPackages [EDAeasy]: Remove: archive file [/home/abi/fetcher/tmp/edaeasy-1.0.1.tar.gz]
+[2024-05-31 02:59:44] INFO root fetch - processPackages [EDAeasy]: Remove: archive file [/home/abi/fetcher/tmp/edaeasy-1.1.0.tar.gz]
+[2024-05-31 02:59:44] INFO root fetch - main [MainThread]: End processing [EDAeasy]: success
+[2024-05-31 02:59:45] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2024-05-31 02:59:45] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20240531/o/ooo-dev-tools/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-31 02:59:48] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.7.tar.gz]
+[2024-05-31 02:59:48] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
+[2024-05-31 02:59:48] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2024-05-31 02:59:48] INFO root fetch - main [MainThread]: Store serial: [23459021]
