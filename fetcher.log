@@ -7466,3 +7466,15 @@
 [2024-05-31 06:51:25] INFO root fetch - processPackages [yipao]: Remove: archive file [/home/abi/fetcher/tmp/yipao-0.0.4.tar.gz]
 [2024-05-31 06:51:25] INFO root fetch - main [MainThread]: End processing [yipao]: success
 [2024-05-31 06:51:25] INFO root fetch - main [MainThread]: Store serial: [23460493]
+[2024-05-31 06:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460493]
+[2024-05-31 06:53:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-31 06:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datamaestro-text
+[2024-05-31 06:53:33] INFO root fetch - processPackages [datamaestro-text]: New version: [2024.5.31] Old Version: [2024.3.6]
+[2024-05-31 06:53:34] INFO root fetch - processPackages [datamaestro-text]: Downloading https://files.pythonhosted.org/packages/1a/f3/5d2db73785b6eb2fb7ce385a0c31ad541485a1e595c258743edbbd1eed84/datamaestro-text-2024.3.6.tar.gz
+[2024-05-31 06:53:34] INFO root fetch - processPackages [datamaestro-text]: Downloading https://files.pythonhosted.org/packages/97/bb/d7c72108100e5bebb35ebcb2d49c5d76715c7c3d8dfbbe8a12922eb04ff0/datamaestro_text-2024.5.31.tar.gz
+[2024-05-31 06:53:34] INFO root fetch - processPackages [datamaestro-text]: executing diffoscope
+[2024-05-31 06:53:34] INFO root fetch - processPackages [datamaestro-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamaestro-text-2024.3.6.tar.gz tmp/datamaestro_text-2024.5.31.tar.gz --markdown 20240531/d/datamaestro-text/2024.3.6-2024.5.31/README.md --exclude *.pyd
+[2024-05-31 06:53:35] INFO root fetch - processPackages [datamaestro-text]: Remove: archive file [/home/abi/fetcher/tmp/datamaestro-text-2024.3.6.tar.gz]
+[2024-05-31 06:53:35] INFO root fetch - processPackages [datamaestro-text]: Remove: archive file [/home/abi/fetcher/tmp/datamaestro_text-2024.5.31.tar.gz]
+[2024-05-31 06:53:35] INFO root fetch - main [MainThread]: End processing [datamaestro-text]: success
+[2024-05-31 06:53:35] INFO root fetch - main [MainThread]: Store serial: [23460501]
