@@ -6983,3 +6983,42 @@
 [2024-05-31 06:12:17] INFO root fetch - processPackages [appdynamics]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics-4.5.8.0-py2.py3-none-any.whl.zip]
 [2024-05-31 06:12:17] INFO root fetch - main [MainThread]: End processing [appdynamics]: success
 [2024-05-31 06:12:17] INFO root fetch - main [MainThread]: Store serial: [23460335]
+[2024-05-31 06:14:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460335]
+[2024-05-31 06:14:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-expense-pay-to-vendor
+[2024-05-31 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lljz-tools
+[2024-05-31 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-hr-expense-invoice
+[2024-05-31 06:14:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-hr-expense
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: New version: [16.0.1.0.0.1] Old Version: [15.0.1.0.1]
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: Downloading https://files.pythonhosted.org/packages/e5/b3/c7331fe93545b94e9c7808ec76f63cb7b40ffc8c17dc270b8fa079da1df4/odoo_addon_hr_expense_pay_to_vendor-15.0.1.0.1-py3-none-any.whl
+[2024-05-31 06:14:26] INFO root fetch - processPackages [lljz-tools]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: New version: [16.0.20240530.0] Old Version: [16.0.20231202.0]
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: New version: [16.0.2.0.0.2] Old Version: [16.0.2.0.0.1]
+[2024-05-31 06:14:26] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/07/e1/d8ad41d04bd7526045884eb68fffdf0d0584720dc1f876fa9b7b87605451/lljz_tools-0.2.8.tar.gz
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: Downloading https://files.pythonhosted.org/packages/89/41/470f7a1aeffdf9aab688623639ba779fbe66122308a73c12d4befc7ae4d9/odoo_addons_oca_hr_expense-16.0.20231202.0-py3-none-any.whl
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: Downloading https://files.pythonhosted.org/packages/d1/fd/8048bbff3a19ca1101b55571bf44013c796e7af90bc6382bbf2d13844087/odoo_addon_hr_expense_invoice-16.0.2.0.0.1-py3-none-any.whl
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: Downloading https://files.pythonhosted.org/packages/6b/86/b493f44d96e0357bab60280273da703d8d5eb2f24439ca98fbb5c61a6bce/odoo_addon_hr_expense_pay_to_vendor-16.0.1.0.0.1-py3-none-any.whl
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: executing diffoscope
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_expense_pay_to_vendor-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_hr_expense_pay_to_vendor-16.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-hr-expense-pay-to-vendor/15.0.1.0.1-16.0.1.0.0.1/README.md --exclude *.pyd
+[2024-05-31 06:14:26] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/a7/af/a18c36655f7f553567ff5dd5fb22c0f4e280c4a0200a0b3c876136e8201f/lljz_tools-0.2.9.tar.gz
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: Downloading https://files.pythonhosted.org/packages/cc/62/c59016d236debe18ead10c3f261889d931892c56df8bc8738885bd3a8b1c/odoo_addons_oca_hr_expense-16.0.20240530.0-py3-none-any.whl
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: Downloading https://files.pythonhosted.org/packages/84/41/32ab2fb94b0caae996d70afb9f4c624a570a708adf658b91ee50dbb50bfe/odoo_addon_hr_expense_invoice-16.0.2.0.0.2-py3-none-any.whl
+[2024-05-31 06:14:26] INFO root fetch - processPackages [lljz-tools]: executing diffoscope
+[2024-05-31 06:14:26] INFO root fetch - processPackages [lljz-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lljz_tools-0.2.8.tar.gz tmp/lljz_tools-0.2.9.tar.gz --markdown 20240531/l/lljz-tools/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: executing diffoscope
+[2024-05-31 06:14:26] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_hr_expense-16.0.20231202.0-py3-none-any.whl.zip tmp/odoo_addons_oca_hr_expense-16.0.20240530.0-py3-none-any.whl.zip --markdown 20240531/o/odoo-addons-oca-hr-expense/16.0.20231202.0-16.0.20240530.0/README.md --exclude *.pyd
+[2024-05-31 06:14:27] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: executing diffoscope
+[2024-05-31 06:14:27] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_expense_invoice-16.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_hr_expense_invoice-16.0.2.0.0.2-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-hr-expense-invoice/16.0.2.0.0.1-16.0.2.0.0.2/README.md --exclude *.pyd
+[2024-05-31 06:14:27] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_pay_to_vendor-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-31 06:14:27] INFO root fetch - processPackages [odoo-addon-hr-expense-pay-to-vendor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_pay_to_vendor-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-31 06:14:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-pay-to-vendor]: success
+[2024-05-31 06:14:27] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.8.tar.gz]
+[2024-05-31 06:14:27] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.9.tar.gz]
+[2024-05-31 06:14:27] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
+[2024-05-31 06:14:27] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_hr_expense-16.0.20231202.0-py3-none-any.whl.zip]
+[2024-05-31 06:14:27] INFO root fetch - processPackages [odoo-addons-oca-hr-expense]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_hr_expense-16.0.20240530.0-py3-none-any.whl.zip]
+[2024-05-31 06:14:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-hr-expense]: success
+[2024-05-31 06:14:27] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_invoice-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-05-31 06:14:27] INFO root fetch - processPackages [odoo-addon-hr-expense-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_expense_invoice-16.0.2.0.0.2-py3-none-any.whl.zip]
+[2024-05-31 06:14:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-expense-invoice]: success
+[2024-05-31 06:14:27] INFO root fetch - main [MainThread]: Store serial: [23460344]
