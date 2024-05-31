@@ -5438,3 +5438,15 @@
 [2024-05-31 04:42:59] INFO root fetch - processPackages [drawlib]: Remove: archive file [/home/abi/fetcher/tmp/drawlib-0.1.9.tar.gz]
 [2024-05-31 04:42:59] INFO root fetch - main [MainThread]: End processing [drawlib]: success
 [2024-05-31 04:42:59] INFO root fetch - main [MainThread]: Store serial: [23459762]
+[2024-05-31 04:45:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459762]
+[2024-05-31 04:45:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-31 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-sql-parsing
+[2024-05-31 04:45:08] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.642.24144] Old Version: [9.640.24141]
+[2024-05-31 04:45:08] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/a1/2c/c8d66551469eaa365010bff49e53c778fe4423f82d73941cec6eafebe2e0/mo_sql_parsing-9.640.24141.tar.gz
+[2024-05-31 04:45:08] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/c4/c8/e91b882941e77a4c1c51eb35a44339e46fc87b5e32e907ef901b6f7bc183/mo_sql_parsing-9.642.24144.tar.gz
+[2024-05-31 04:45:08] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2024-05-31 04:45:08] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.640.24141.tar.gz tmp/mo_sql_parsing-9.642.24144.tar.gz --markdown 20240531/m/mo-sql-parsing/9.640.24141-9.642.24144/README.md --exclude *.pyd
+[2024-05-31 04:45:09] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.640.24141.tar.gz]
+[2024-05-31 04:45:09] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.642.24144.tar.gz]
+[2024-05-31 04:45:09] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2024-05-31 04:45:09] INFO root fetch - main [MainThread]: Store serial: [23459766]
