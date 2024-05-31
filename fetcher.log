@@ -7924,3 +7924,36 @@
 [2024-05-31 07:22:17] INFO root fetch - processPackages [immin5]: Remove: archive file [/home/abi/fetcher/tmp/immin5-1.0.0.tar.gz]
 [2024-05-31 07:22:17] INFO root fetch - main [MainThread]: End processing [immin5]: success
 [2024-05-31 07:22:17] INFO root fetch - main [MainThread]: Store serial: [23460650]
+[2024-05-31 07:24:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460650]
+[2024-05-31 07:24:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 07:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proximityhash
+[2024-05-31 07:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: VizAble
+[2024-05-31 07:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dlqhandler
+[2024-05-31 07:24:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omnicom
+[2024-05-31 07:24:27] INFO root fetch - processPackages [proximityhash]: New version: [3.0.0] Old Version: [1.0.1]
+[2024-05-31 07:24:27] INFO root fetch - processPackages [dlqhandler]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-31 07:24:27] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/f0/f0/5d4c6cb91ccfb64e145eb59a40b9d86d753d23e22033ba23670e406101d7/dlqhandler-0.2.3.tar.gz
+[2024-05-31 07:24:27] INFO root fetch - processPackages [proximityhash]: Downloading https://files.pythonhosted.org/packages/59/d0/4bd78bdbf596143119b12050e9a3b6843aee3b46d7318760a711093765aa/proximityhash-1.0.1.tar.gz
+[2024-05-31 07:24:27] INFO root fetch - processPackages [VizAble]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 07:24:27] WARNING root fetch - processPackages [omnicom]: Skipping, unable to determine old version
+[2024-05-31 07:24:27] INFO root fetch - main [MainThread]: End processing [omnicom] error
+[2024-05-31 07:24:27] INFO root fetch - processPackages [VizAble]: Downloading https://files.pythonhosted.org/packages/18/8d/d2ba6b0ca25a73926dd99be55778e8cb683131ad342a25f56f6c92849f18/vizable-0.8.0.tar.gz
+[2024-05-31 07:24:27] INFO root fetch - processPackages [proximityhash]: Downloading https://files.pythonhosted.org/packages/01/11/b86abbabfc7754da4b0a727b04b5c07fdf8b75c3f1b6b5bc723c2dec2985/proximityhash-3.0.0.tar.gz
+[2024-05-31 07:24:28] INFO root fetch - processPackages [proximityhash]: executing diffoscope
+[2024-05-31 07:24:28] INFO root fetch - processPackages [proximityhash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proximityhash-1.0.1.tar.gz tmp/proximityhash-3.0.0.tar.gz --markdown 20240531/p/proximityhash/1.0.1-3.0.0/README.md --exclude *.pyd
+[2024-05-31 07:24:28] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/f2/44/d832e5228f491c3d1c8b9e968789831986d4cb0bad6bc4f417c97be393a3/dlqhandler-0.2.4.tar.gz
+[2024-05-31 07:24:28] INFO root fetch - processPackages [dlqhandler]: executing diffoscope
+[2024-05-31 07:24:28] INFO root fetch - processPackages [dlqhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlqhandler-0.2.3.tar.gz tmp/dlqhandler-0.2.4.tar.gz --markdown 20240531/d/dlqhandler/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-31 07:24:28] INFO root fetch - processPackages [VizAble]: Downloading https://files.pythonhosted.org/packages/23/d4/f19d13b2598cf35c961841cb981abb85c9f8cfc95fe4ba56c8feeadf30e3/vizable-0.9.0.tar.gz
+[2024-05-31 07:24:28] INFO root fetch - processPackages [VizAble]: executing diffoscope
+[2024-05-31 07:24:28] INFO root fetch - processPackages [VizAble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizable-0.8.0.tar.gz tmp/vizable-0.9.0.tar.gz --markdown 20240531/V/VizAble/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 07:24:28] INFO root fetch - processPackages [proximityhash]: Remove: archive file [/home/abi/fetcher/tmp/proximityhash-1.0.1.tar.gz]
+[2024-05-31 07:24:28] INFO root fetch - processPackages [proximityhash]: Remove: archive file [/home/abi/fetcher/tmp/proximityhash-3.0.0.tar.gz]
+[2024-05-31 07:24:28] INFO root fetch - main [MainThread]: End processing [proximityhash]: success
+[2024-05-31 07:24:28] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.3.tar.gz]
+[2024-05-31 07:24:28] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.4.tar.gz]
+[2024-05-31 07:24:28] INFO root fetch - main [MainThread]: End processing [dlqhandler]: success
+[2024-05-31 07:24:28] INFO root fetch - processPackages [VizAble]: Remove: archive file [/home/abi/fetcher/tmp/vizable-0.8.0.tar.gz]
+[2024-05-31 07:24:28] INFO root fetch - processPackages [VizAble]: Remove: archive file [/home/abi/fetcher/tmp/vizable-0.9.0.tar.gz]
+[2024-05-31 07:24:28] INFO root fetch - main [MainThread]: End processing [VizAble]: success
+[2024-05-31 07:24:28] INFO root fetch - main [MainThread]: Store serial: [23460665]
