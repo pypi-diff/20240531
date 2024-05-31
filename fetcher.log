@@ -7747,3 +7747,18 @@
 [2024-05-31 07:09:15] INFO root fetch - processPackages [janus-core]: Remove: archive file [/home/abi/fetcher/tmp/janus_core-0.5.0b0.tar.gz]
 [2024-05-31 07:09:15] INFO root fetch - main [MainThread]: End processing [janus-core]: success
 [2024-05-31 07:09:15] INFO root fetch - main [MainThread]: Store serial: [23460594]
+[2024-05-31 07:11:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460594]
+[2024-05-31 07:11:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 07:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contourplots
+[2024-05-31 07:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentiment-analysis-package
+[2024-05-31 07:11:24] WARNING root fetch - processPackages [sentiment-analysis-package]: Skipping, unable to determine old version
+[2024-05-31 07:11:24] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package] error
+[2024-05-31 07:11:24] INFO root fetch - processPackages [contourplots]: New version: [0.3.3] Old Version: [0.3.1]
+[2024-05-31 07:11:24] INFO root fetch - processPackages [contourplots]: Downloading https://files.pythonhosted.org/packages/aa/ef/2982b087e9b0b3767662eaf02f5126d6e0646320ec0a8858eca5850c27c1/contourplots-0.3.1.tar.gz
+[2024-05-31 07:11:24] INFO root fetch - processPackages [contourplots]: Downloading https://files.pythonhosted.org/packages/c2/de/39ffc79bedd993a61058ee8f42b39d726232b465280390278e6a0fb62dcc/contourplots-0.3.3.tar.gz
+[2024-05-31 07:11:24] INFO root fetch - processPackages [contourplots]: executing diffoscope
+[2024-05-31 07:11:24] INFO root fetch - processPackages [contourplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contourplots-0.3.1.tar.gz tmp/contourplots-0.3.3.tar.gz --markdown 20240531/c/contourplots/0.3.1-0.3.3/README.md --exclude *.pyd
+[2024-05-31 07:11:25] INFO root fetch - processPackages [contourplots]: Remove: archive file [/home/abi/fetcher/tmp/contourplots-0.3.1.tar.gz]
+[2024-05-31 07:11:25] INFO root fetch - processPackages [contourplots]: Remove: archive file [/home/abi/fetcher/tmp/contourplots-0.3.3.tar.gz]
+[2024-05-31 07:11:25] INFO root fetch - main [MainThread]: End processing [contourplots]: success
+[2024-05-31 07:11:25] INFO root fetch - main [MainThread]: Store serial: [23460601]
