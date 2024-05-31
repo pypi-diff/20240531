@@ -8236,3 +8236,33 @@
 [2024-05-31 07:39:48] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
 [2024-05-31 07:39:48] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
 [2024-05-31 07:39:48] INFO root fetch - main [MainThread]: Store serial: [23460798]
+[2024-05-31 07:41:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460798]
+[2024-05-31 07:41:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 07:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentiment-analysis-package
+[2024-05-31 07:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyluba
+[2024-05-31 07:41:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-category-product-qty
+[2024-05-31 07:41:57] INFO root fetch - processPackages [sentiment-analysis-package]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-31 07:41:57] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 07:41:57] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-31 07:41:57] INFO root fetch - processPackages [odoo-addon-product-category-product-qty]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-05-31 07:41:57] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/3a/31/96bc4ee102c47efa0c4a61e5c9be9f5a8624f5b01cba698907c8375bb7ad/sentiment_analysis_package-0.1.0.tar.gz
+[2024-05-31 07:41:57] INFO root fetch - processPackages [odoo-addon-product-category-product-qty]: Downloading https://files.pythonhosted.org/packages/ca/15/458dc5263152fb4cf99bb0e3544cb84ea501fc8a8336144992fee27aafc2/odoo_addon_product_category_product_qty-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-31 07:41:57] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-31 07:41:57] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-31 07:41:57] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240531/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 07:41:57] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/29/5f/6252ffa7c428fe4349a52953e29b6af192706bf958af1e6fbf8589dd7d3d/sentiment_analysis_package-0.2.0.tar.gz
+[2024-05-31 07:41:57] INFO root fetch - processPackages [odoo-addon-product-category-product-qty]: Downloading https://files.pythonhosted.org/packages/f0/82/93182a72f0179dbe21de9cb7ebe62bbcc871cde06cb6be9910a8259ff8f4/odoo_addon_product_category_product_qty-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-31 07:41:57] INFO root fetch - processPackages [odoo-addon-product-category-product-qty]: executing diffoscope
+[2024-05-31 07:41:57] INFO root fetch - processPackages [odoo-addon-product-category-product-qty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_category_product_qty-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_category_product_qty-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-product-category-product-qty/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-31 07:41:58] INFO root fetch - processPackages [sentiment-analysis-package]: executing diffoscope
+[2024-05-31 07:41:58] INFO root fetch - processPackages [sentiment-analysis-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_package-0.1.0.tar.gz tmp/sentiment_analysis_package-0.2.0.tar.gz --markdown 20240531/s/sentiment-analysis-package/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-31 07:41:58] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-31 07:41:58] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-31 07:41:58] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-31 07:41:58] INFO root fetch - processPackages [odoo-addon-product-category-product-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_category_product_qty-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-31 07:41:58] INFO root fetch - processPackages [odoo-addon-product-category-product-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_category_product_qty-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-31 07:41:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-category-product-qty]: success
+[2024-05-31 07:41:58] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.1.0.tar.gz]
+[2024-05-31 07:41:58] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.2.0.tar.gz]
+[2024-05-31 07:41:58] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package]: success
+[2024-05-31 07:41:58] INFO root fetch - main [MainThread]: Store serial: [23460806]
