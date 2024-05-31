@@ -18566,3 +18566,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:35:08] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow_base-0.0.5.tar.gz]
 [2024-05-31 14:35:08] INFO root fetch - main [MainThread]: End processing [ragstack-ai-langflow-base]: success
 [2024-05-31 14:35:08] INFO root fetch - main [MainThread]: Store serial: [23465623]
+[2024-05-31 14:37:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465623]
+[2024-05-31 14:37:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 14:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voxelworldapi
+[2024-05-31 14:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymc3
+[2024-05-31 14:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-redis
+[2024-05-31 14:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resages
+[2024-05-31 14:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HOPYBOX
+[2024-05-31 14:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphene-django-extended
+[2024-05-31 14:37:17] INFO root fetch - processPackages [graphene-django-extended]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-31 14:37:17] INFO root fetch - processPackages [voxelworldapi]: New version: [1.0.20240531] Old Version: [1.0.120240531]
+[2024-05-31 14:37:17] INFO root fetch - processPackages [pymc3]: New version: [3.9.3] Old Version: [3.9.2]
+[2024-05-31 14:37:17] INFO root fetch - processPackages [resages]: New version: [0.21] Old Version: [0.2]
+[2024-05-31 14:37:17] INFO root fetch - processPackages [graphene-django-extended]: Downloading https://files.pythonhosted.org/packages/ab/f4/28b6ab426595033a85986b7f74d89cf106a08e858a0849fb5cc12c69ed1b/graphene_django_extended-1.2.0.tar.gz
+[2024-05-31 14:37:17] INFO root fetch - processPackages [HOPYBOX]: New version: [1.7.0] Old Version: [1.6.7]
+[2024-05-31 14:37:17] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-31 14:37:17] ERROR root fetch - processPackages [voxelworldapi]: Unable to fetch info: No such project/version 'voxelworldapi' 1.0.120240531
+[2024-05-31 14:37:17] INFO root fetch - main [MainThread]: End processing [voxelworldapi] error
+[2024-05-31 14:37:17] INFO root fetch - processPackages [pymc3]: Downloading https://files.pythonhosted.org/packages/37/55/abc8b77f6e51d806d9799580d80b9a8fd02fe9e2bd668583ab8597e671d7/pymc3-3.9.2.tar.gz
+[2024-05-31 14:37:17] INFO root fetch - processPackages [resages]: Downloading https://files.pythonhosted.org/packages/c0/49/a30ab3215a812998e25716b3c4088094ab9fb8ffa338f3bc1f5a2f43b4d3/resages-0.2.tar.gz
+[2024-05-31 14:37:17] INFO root fetch - processPackages [HOPYBOX]: Downloading https://files.pythonhosted.org/packages/ef/ac/44b08f2f47e159ac16f12ec54baca661e59eb2d9ec09427c8f0b16384a9c/HOPYBOX-1.6.7.tar.gz
+[2024-05-31 14:37:17] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2024-05-31 14:37:17] INFO root fetch - processPackages [graphene-django-extended]: Downloading https://files.pythonhosted.org/packages/34/6c/2c83f34b018aa9096874d8c438245dc0d5cc7730e9c32e244fd37799d059/graphene_django_extended-1.2.1.tar.gz
+[2024-05-31 14:37:17] INFO root fetch - processPackages [resages]: Downloading https://files.pythonhosted.org/packages/59/ad/2c1a7ae2cca4df7dba803c2f65c2a68dec7d10a4fed2b8d9c381bcf2a38d/resages-0.21.tar.gz
+[2024-05-31 14:37:17] INFO root fetch - processPackages [graphene-django-extended]: executing diffoscope
+[2024-05-31 14:37:17] INFO root fetch - processPackages [graphene-django-extended]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_extended-1.2.0.tar.gz tmp/graphene_django_extended-1.2.1.tar.gz --markdown 20240531/g/graphene-django-extended/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-31 14:37:17] INFO root fetch - processPackages [HOPYBOX]: Downloading https://files.pythonhosted.org/packages/7e/83/d32f39070d324f6a9f408db89629c424c646e2deb8f6493d60a3b288b2b2/hopybox-1.7.0.tar.gz
+[2024-05-31 14:37:18] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2024-05-31 14:37:18] INFO root fetch - processPackages [resages]: executing diffoscope
+[2024-05-31 14:37:18] INFO root fetch - processPackages [resages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resages-0.2.tar.gz tmp/resages-0.21.tar.gz --markdown 20240531/r/resages/0.2-0.21/README.md --exclude *.pyd
+[2024-05-31 14:37:18] INFO root fetch - processPackages [pymc3]: Downloading https://files.pythonhosted.org/packages/94/b7/34cfc6373efe82d187466cb21423a8e5e72386e97657f98e71afed97deae/pymc3-3.9.3.tar.gz
+[2024-05-31 14:37:18] INFO root fetch - processPackages [HOPYBOX]: executing diffoscope
+[2024-05-31 14:37:18] INFO root fetch - processPackages [HOPYBOX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HOPYBOX-1.6.7.tar.gz tmp/hopybox-1.7.0.tar.gz --markdown 20240531/H/HOPYBOX/1.6.7-1.7.0/README.md --exclude *.pyd
+[2024-05-31 14:37:18] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2024-05-31 14:37:18] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20240531/c/cdk8s-redis/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-31 14:37:18] INFO root fetch - processPackages [graphene-django-extended]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_extended-1.2.0.tar.gz]
+[2024-05-31 14:37:18] INFO root fetch - processPackages [graphene-django-extended]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_extended-1.2.1.tar.gz]
+[2024-05-31 14:37:18] INFO root fetch - main [MainThread]: End processing [graphene-django-extended]: success
+[2024-05-31 14:37:18] INFO root fetch - processPackages [pymc3]: executing diffoscope
+[2024-05-31 14:37:18] INFO root fetch - processPackages [pymc3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc3-3.9.2.tar.gz tmp/pymc3-3.9.3.tar.gz --markdown 20240531/p/pymc3/3.9.2-3.9.3/README.md --exclude *.pyd
+[2024-05-31 14:37:18] INFO root fetch - processPackages [resages]: Remove: archive file [/home/abi/fetcher/tmp/resages-0.2.tar.gz]
+[2024-05-31 14:37:18] INFO root fetch - processPackages [resages]: Remove: archive file [/home/abi/fetcher/tmp/resages-0.21.tar.gz]
+[2024-05-31 14:37:18] INFO root fetch - main [MainThread]: End processing [resages]: success
+[2024-05-31 14:37:18] INFO root fetch - processPackages [HOPYBOX]: Remove: archive file [/home/abi/fetcher/tmp/HOPYBOX-1.6.7.tar.gz]
+[2024-05-31 14:37:18] INFO root fetch - processPackages [HOPYBOX]: Remove: archive file [/home/abi/fetcher/tmp/hopybox-1.7.0.tar.gz]
+[2024-05-31 14:37:18] INFO root fetch - main [MainThread]: End processing [HOPYBOX]: success
+[2024-05-31 14:37:18] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2024-05-31 14:37:18] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2024-05-31 14:37:18] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2024-05-31 14:37:20] INFO root fetch - processPackages [pymc3]: Remove: archive file [/home/abi/fetcher/tmp/pymc3-3.9.2.tar.gz]
+[2024-05-31 14:37:20] INFO root fetch - processPackages [pymc3]: Remove: archive file [/home/abi/fetcher/tmp/pymc3-3.9.3.tar.gz]
+[2024-05-31 14:37:20] INFO root fetch - main [MainThread]: End processing [pymc3]: success
+[2024-05-31 14:37:20] INFO root fetch - main [MainThread]: Store serial: [23465644]
