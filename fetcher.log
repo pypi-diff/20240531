@@ -17533,3 +17533,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:59:06] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
 [2024-05-31 13:59:06] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-31 13:59:06] INFO root fetch - main [MainThread]: Store serial: [23465159]
+[2024-05-31 14:01:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465159]
+[2024-05-31 14:01:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2024-05-31 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-archiver-nightly
+[2024-05-31 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-workflow-archiver-nightly
+[2024-05-31 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Starco
+[2024-05-31 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2024-05-31 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pathlibs3
+[2024-05-31 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mfire
+[2024-05-31 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flatpack
+[2024-05-31 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-serialize
+[2024-05-31 14:01:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spider-rs
+[2024-05-31 14:01:18] INFO root fetch - processPackages [Starco]: New version: [3.2.4] Old Version: [3.2.2]
+[2024-05-31 14:01:18] INFO root fetch - processPackages [pathlibs3]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 14:01:18] INFO root fetch - processPackages [flatpack]: New version: [3.5.9] Old Version: [3.5.8]
+[2024-05-31 14:01:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-31 14:01:18] INFO root fetch - processPackages [mfire]: New version: [3.2.post1] Old Version: [3.2]
+[2024-05-31 14:01:18] INFO root fetch - processPackages [kcli]: New version: [99.0.202405310929] Old Version: [99.0.202405310558]
+[2024-05-31 14:01:18] INFO root fetch - processPackages [data-serialize]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-31 14:01:18] INFO root fetch - processPackages [spider-rs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 14:01:18] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-31 14:01:18] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/64/14/b8c6b556fe57166cd22c8209e45e49e4ece235a1009e3ad90aa9528f81c6/Starco-3.2.2.tar.gz
+[2024-05-31 14:01:18] INFO root fetch - processPackages [pathlibs3]: Downloading https://files.pythonhosted.org/packages/ce/0f/8bdfdd724dade07ca5dbdd7d106a5f9356c9b468104433b19d3f813e5f9a/pathlibs3-0.2.8.tar.gz
+[2024-05-31 14:01:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-31 14:01:18] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/0d/a9/8502480e2c2eb0cf1d5c96124b696b315ecaac8fbeabcea4683232791237/flatpack-3.5.8.tar.gz
+[2024-05-31 14:01:18] INFO root fetch - processPackages [data-serialize]: Downloading https://files.pythonhosted.org/packages/d0/49/cc5477783f464563093fab28f73e647b1a78d5b5bc472fc7b69a1cf2f991/data_serialize-0.2.2-py3-none-any.whl
+[2024-05-31 14:01:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/39/78/71d3bda9b58dfb022af392de084f78f15d848683db00d19d604fd076ecff/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-31 14:01:18] INFO root fetch - processPackages [mfire]: Downloading https://files.pythonhosted.org/packages/e1/28/18b6c50603bf72e9321ae8cca3938723c9e97f32e04848409bcb4977b801/mfire-3.2.tar.gz
+[2024-05-31 14:01:18] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e2/cc/8d2ac88c7472842fbb0c2e01b25cb0842ed2f540b7fa5161cf6796b6cee2/kcli-99.0.202405310558.tar.gz
+[2024-05-31 14:01:18] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/8c/43/921f1201a16b139e5df27112c5f8b7328ee4289bfc10ce1f76883a5ba87d/torchserve_nightly-2024.5.8-py3-none-any.whl
+[2024-05-31 14:01:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/38/34/a73ff276b5dc5c3f2e6e02c0282c2f5aedce8951e022f3add74d284d17a6/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-31 14:01:18] INFO root fetch - processPackages [spider-rs]: Downloading https://files.pythonhosted.org/packages/fb/92/d5c8042e037d003050ce1e8d75ea64c112c86ef2ff1f0d2bc03d19514747/spider_rs-0.0.8.tar.gz
+[2024-05-31 14:01:18] INFO root fetch - processPackages [pathlibs3]: Downloading https://files.pythonhosted.org/packages/e7/ca/66ff1902bd5e6faea11fd140b8a6cc0cc0bee720a32bde4ec72e05d9dd21/pathlibs3-0.2.9.tar.gz
+[2024-05-31 14:01:18] WARNING root fetch - processPackages [mfire]: Skipping package: exceeds size limit 41853001>=10485760
+[2024-05-31 14:01:18] INFO root fetch - main [MainThread]: End processing [mfire] error
+[2024-05-31 14:01:18] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/d8/91/c9da419dc0b7492b44a9d95f36b27829ce600621fa73894b210c81dadbcd/flatpack-3.5.9.tar.gz
+[2024-05-31 14:01:18] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24333047>=10485760
+[2024-05-31 14:01:18] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-31 14:01:18] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/91/e8/1dc94f443e96d7914c26065d655de4204fd6d6b3651d727fad7d6f187175/Starco-3.2.4.tar.gz
+[2024-05-31 14:01:18] INFO root fetch - processPackages [pathlibs3]: executing diffoscope
+[2024-05-31 14:01:18] INFO root fetch - processPackages [pathlibs3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathlibs3-0.2.8.tar.gz tmp/pathlibs3-0.2.9.tar.gz --markdown 20240531/p/pathlibs3/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 14:01:18] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-31 14:01:18] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.5.8.tar.gz tmp/flatpack-3.5.9.tar.gz --markdown 20240531/f/flatpack/3.5.8-3.5.9/README.md --exclude *.pyd
+[2024-05-31 14:01:18] INFO root fetch - processPackages [data-serialize]: Downloading https://files.pythonhosted.org/packages/f0/8b/8713d778c0b700ea0575d8e8b61db5410404a937a9d00875e97ff5cdb088/data_serialize-0.3.0-py3-none-any.whl
+[2024-05-31 14:01:18] INFO root fetch - processPackages [Starco]: executing diffoscope
+[2024-05-31 14:01:18] INFO root fetch - processPackages [Starco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Starco-3.2.2.tar.gz tmp/Starco-3.2.4.tar.gz --markdown 20240531/S/Starco/3.2.2-3.2.4/README.md --exclude *.pyd
+[2024-05-31 14:01:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/55/73/d6cac6137d8889445aa6a2fbae4644d9528d66859fb2e8149098c685de95/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-31 14:01:18] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/83/e4/3b1a400831a24da7e222ae85a5a2975818113d6050f44351a5449b0b0192/kcli-99.0.202405310929.tar.gz
+[2024-05-31 14:01:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5c/3d/7e9f420b3d052022aab0ce6e49d396d1d147acccfc51748d2cfa54ae3390/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-31 14:01:18] INFO root fetch - processPackages [spider-rs]: Downloading https://files.pythonhosted.org/packages/ca/88/6f68d26eb32a69cefc821a4acc57d061540231de60945e56636083f6357e/spider_rs-0.0.9.tar.gz
+[2024-05-31 14:01:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-31 14:01:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240531/t/torch-workflow-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-31 14:01:18] INFO root fetch - processPackages [data-serialize]: executing diffoscope
+[2024-05-31 14:01:18] INFO root fetch - processPackages [data-serialize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_serialize-0.2.2-py3-none-any.whl.zip tmp/data_serialize-0.3.0-py3-none-any.whl.zip --markdown 20240531/d/data-serialize/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-31 14:01:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-31 14:01:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240531/t/torch-model-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-31 14:01:19] INFO root fetch - processPackages [spider-rs]: executing diffoscope
+[2024-05-31 14:01:19] INFO root fetch - processPackages [spider-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider_rs-0.0.8.tar.gz tmp/spider_rs-0.0.9.tar.gz --markdown 20240531/s/spider-rs/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 14:01:19] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-31 14:01:19] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405310558.tar.gz tmp/kcli-99.0.202405310929.tar.gz --markdown 20240531/k/kcli/99.0.202405310558-99.0.202405310929/README.md --exclude *.pyd
+[2024-05-31 14:01:19] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.8.tar.gz]
+[2024-05-31 14:01:19] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.9.tar.gz]
+[2024-05-31 14:01:19] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-31 14:01:19] INFO root fetch - processPackages [pathlibs3]: Remove: archive file [/home/abi/fetcher/tmp/pathlibs3-0.2.8.tar.gz]
+[2024-05-31 14:01:19] INFO root fetch - processPackages [pathlibs3]: Remove: archive file [/home/abi/fetcher/tmp/pathlibs3-0.2.9.tar.gz]
+[2024-05-31 14:01:19] INFO root fetch - main [MainThread]: End processing [pathlibs3]: success
+[2024-05-31 14:01:19] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.2.2.tar.gz]
+[2024-05-31 14:01:19] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.2.4.tar.gz]
+[2024-05-31 14:01:19] INFO root fetch - main [MainThread]: End processing [Starco]: success
+[2024-05-31 14:01:19] INFO root fetch - processPackages [data-serialize]: Remove: archive file [/home/abi/fetcher/tmp/data_serialize-0.2.2-py3-none-any.whl.zip]
+[2024-05-31 14:01:19] INFO root fetch - processPackages [data-serialize]: Remove: archive file [/home/abi/fetcher/tmp/data_serialize-0.3.0-py3-none-any.whl.zip]
+[2024-05-31 14:01:19] INFO root fetch - main [MainThread]: End processing [data-serialize]: success
+[2024-05-31 14:01:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-31 14:01:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-31 14:01:19] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-31 14:01:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-31 14:01:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-31 14:01:19] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-31 14:01:19] INFO root fetch - processPackages [spider-rs]: Remove: archive file [/home/abi/fetcher/tmp/spider_rs-0.0.8.tar.gz]
+[2024-05-31 14:01:19] INFO root fetch - processPackages [spider-rs]: Remove: archive file [/home/abi/fetcher/tmp/spider_rs-0.0.9.tar.gz]
+[2024-05-31 14:01:19] INFO root fetch - main [MainThread]: End processing [spider-rs]: success
+[2024-05-31 14:01:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405310558.tar.gz]
+[2024-05-31 14:01:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405310929.tar.gz]
+[2024-05-31 14:01:21] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-31 14:01:21] INFO root fetch - main [MainThread]: Store serial: [23465185]
