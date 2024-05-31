@@ -6925,3 +6925,61 @@
 [2024-05-31 06:10:06] INFO root fetch - processPackages [pyautogen]: Remove: archive file [/home/abi/fetcher/tmp/pyautogen-0.2.9.tar.gz]
 [2024-05-31 06:10:06] INFO root fetch - main [MainThread]: End processing [pyautogen]: success
 [2024-05-31 06:10:06] INFO root fetch - main [MainThread]: Store serial: [23460315]
+[2024-05-31 06:12:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460315]
+[2024-05-31 06:12:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 06:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-employee-service
+[2024-05-31 06:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-hr
+[2024-05-31 06:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appdynamics-bindeps-linux-x64
+[2024-05-31 06:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: appdynamics
+[2024-05-31 06:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: appdynamics-alpine
+[2024-05-31 06:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appdynamics-bindeps-alpine-linux-x64
+[2024-05-31 06:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lama2923
+[2024-05-31 06:12:15] INFO root fetch - processPackages [odoo-addon-hr-employee-service]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2024-05-31 06:12:15] INFO root fetch - processPackages [lama2923]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-05-31 06:12:15] INFO root fetch - processPackages [odoo-addon-hr-employee-service]: Downloading https://files.pythonhosted.org/packages/1b/bb/0ba8065381ef2343708327ce194d817df9b97d2ece5ef5165135e81b0ba9/odoo_addon_hr_employee_service-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-31 06:12:15] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/b3/02/334e8412f81224f0c4d21dfc1d4cdc18c8c079944cfe5ff56c1dfd6bff55/lama2923-1.0.8.tar.gz
+[2024-05-31 06:12:15] INFO root fetch - processPackages [appdynamics]: New version: [4.5.8.0] Old Version: [4.5.7.0]
+[2024-05-31 06:12:15] INFO root fetch - processPackages [odoo-addons-oca-hr]: New version: [16.0.20240530.0] Old Version: [16.0.20240510.0]
+[2024-05-31 06:12:15] INFO root fetch - processPackages [appdynamics-alpine]: New version: [24.5.0.6849] Old Version: [24.4.1.6770]
+[2024-05-31 06:12:15] INFO root fetch - processPackages [appdynamics-bindeps-linux-x64]: New version: [4.3.2.0] Old Version: [4.3.1.0]
+[2024-05-31 06:12:15] INFO root fetch - processPackages [appdynamics-bindeps-alpine-linux-x64]: New version: [24.5.0] Old Version: [24.3.0]
+[2024-05-31 06:12:15] INFO root fetch - processPackages [odoo-addon-hr-employee-service]: Downloading https://files.pythonhosted.org/packages/66/a8/a5013a9a72c8df31ad54b1f0ba0a17f551835ac3270b52d0a9e52d35ca20/odoo_addon_hr_employee_service-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-31 06:12:15] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/b9/c3/004e2044dcd09980b0c7105a3c9f3e1fe0ca7691632ed7829bb74e2dff84/lama2923-1.1.0.tar.gz
+[2024-05-31 06:12:15] INFO root fetch - processPackages [odoo-addons-oca-hr]: Downloading https://files.pythonhosted.org/packages/56/f3/0ea465e8a5e389a3aeb1eb8c478537005da7a22146904b3767997dd86627/odoo_addons_oca_hr-16.0.20240510.0-py3-none-any.whl
+[2024-05-31 06:12:15] INFO root fetch - processPackages [appdynamics-bindeps-linux-x64]: Downloading https://files.pythonhosted.org/packages/b0/32/fe6233dbb333fbb9ff5127552143a28c144217aaeb58b0438e87d608e554/appdynamics_bindeps_linux_x64-4.3.1.0-cp34-none-any.whl
+[2024-05-31 06:12:15] INFO root fetch - processPackages [appdynamics]: Downloading https://files.pythonhosted.org/packages/bf/ed/2040d8ec7088ec99dc304a4d8278bf79a1473d3c1de3cb284c1fc1bf7cdc/appdynamics-4.5.7.0-py2.py3-none-any.whl
+[2024-05-31 06:12:15] INFO root fetch - processPackages [appdynamics-alpine]: Downloading https://files.pythonhosted.org/packages/4a/32/6950d351a953bae0fe813eee7a3d1ea8c29acee1c2a09f01f9c26cc125d1/appdynamics_alpine-24.4.1.6770-py2.py3-none-any.whl
+[2024-05-31 06:12:15] INFO root fetch - processPackages [appdynamics-bindeps-alpine-linux-x64]: Downloading https://files.pythonhosted.org/packages/ef/d6/244497fba8f2167f313ac4eed507b3984666d704e76a434d03cfab5281e7/appdynamics_bindeps_alpine_linux_x64-24.3.0-cp39-none-any.whl
+[2024-05-31 06:12:15] WARNING root fetch - processPackages [appdynamics-bindeps-linux-x64]: Skipping package: exceeds size limit 27672102>=10485760
+[2024-05-31 06:12:15] INFO root fetch - main [MainThread]: End processing [appdynamics-bindeps-linux-x64] error
+[2024-05-31 06:12:16] INFO root fetch - processPackages [odoo-addon-hr-employee-service]: executing diffoscope
+[2024-05-31 06:12:16] INFO root fetch - processPackages [odoo-addon-hr-employee-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_service-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_service-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-hr-employee-service/16.0.1.0.0.4-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-31 06:12:16] INFO root fetch - processPackages [lama2923]: executing diffoscope
+[2024-05-31 06:12:16] INFO root fetch - processPackages [lama2923]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lama2923-1.0.8.tar.gz tmp/lama2923-1.1.0.tar.gz --markdown 20240531/l/lama2923/1.0.8-1.1.0/README.md --exclude *.pyd
+[2024-05-31 06:12:16] WARNING root fetch - processPackages [appdynamics-bindeps-alpine-linux-x64]: Skipping package: exceeds size limit 66062994>=10485760
+[2024-05-31 06:12:16] INFO root fetch - main [MainThread]: End processing [appdynamics-bindeps-alpine-linux-x64] error
+[2024-05-31 06:12:16] INFO root fetch - processPackages [odoo-addons-oca-hr]: Downloading https://files.pythonhosted.org/packages/12/8b/129e89da50008abe310990e53f33bae27ed77bf38d2f9272ad37cec0a315/odoo_addons_oca_hr-16.0.20240530.0-py3-none-any.whl
+[2024-05-31 06:12:16] INFO root fetch - processPackages [appdynamics]: Downloading https://files.pythonhosted.org/packages/c1/39/9736ccc054ed982973efe45baf1491bf187e9431a105b163d6a087888d4b/appdynamics-4.5.8.0-py2.py3-none-any.whl
+[2024-05-31 06:12:16] INFO root fetch - processPackages [appdynamics-alpine]: Downloading https://files.pythonhosted.org/packages/6b/c4/75e801fddc5d40443dfacc4c8596b4b010d0fa0ddc975c6bffdd898e780e/appdynamics_alpine-24.5.0.6849-py2.py3-none-any.whl
+[2024-05-31 06:12:16] INFO root fetch - processPackages [odoo-addons-oca-hr]: executing diffoscope
+[2024-05-31 06:12:16] INFO root fetch - processPackages [odoo-addons-oca-hr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_hr-16.0.20240510.0-py3-none-any.whl.zip tmp/odoo_addons_oca_hr-16.0.20240530.0-py3-none-any.whl.zip --markdown 20240531/o/odoo-addons-oca-hr/16.0.20240510.0-16.0.20240530.0/README.md --exclude *.pyd
+[2024-05-31 06:12:16] INFO root fetch - processPackages [appdynamics]: executing diffoscope
+[2024-05-31 06:12:16] INFO root fetch - processPackages [appdynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdynamics-4.5.7.0-py2.py3-none-any.whl.zip tmp/appdynamics-4.5.8.0-py2.py3-none-any.whl.zip --markdown 20240531/a/appdynamics/4.5.7.0-4.5.8.0/README.md --exclude *.pyd
+[2024-05-31 06:12:16] INFO root fetch - processPackages [appdynamics-alpine]: executing diffoscope
+[2024-05-31 06:12:16] INFO root fetch - processPackages [appdynamics-alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdynamics_alpine-24.4.1.6770-py2.py3-none-any.whl.zip tmp/appdynamics_alpine-24.5.0.6849-py2.py3-none-any.whl.zip --markdown 20240531/a/appdynamics-alpine/24.4.1.6770-24.5.0.6849/README.md --exclude *.pyd
+[2024-05-31 06:12:16] INFO root fetch - processPackages [odoo-addon-hr-employee-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_service-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-31 06:12:16] INFO root fetch - processPackages [odoo-addon-hr-employee-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_service-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-31 06:12:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-service]: success
+[2024-05-31 06:12:16] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.0.8.tar.gz]
+[2024-05-31 06:12:16] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.1.0.tar.gz]
+[2024-05-31 06:12:16] INFO root fetch - main [MainThread]: End processing [lama2923]: success
+[2024-05-31 06:12:16] INFO root fetch - processPackages [odoo-addons-oca-hr]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_hr-16.0.20240510.0-py3-none-any.whl.zip]
+[2024-05-31 06:12:16] INFO root fetch - processPackages [odoo-addons-oca-hr]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_hr-16.0.20240530.0-py3-none-any.whl.zip]
+[2024-05-31 06:12:16] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-hr]: success
+[2024-05-31 06:12:17] INFO root fetch - processPackages [appdynamics-alpine]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics_alpine-24.4.1.6770-py2.py3-none-any.whl.zip]
+[2024-05-31 06:12:17] INFO root fetch - processPackages [appdynamics-alpine]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics_alpine-24.5.0.6849-py2.py3-none-any.whl.zip]
+[2024-05-31 06:12:17] INFO root fetch - main [MainThread]: End processing [appdynamics-alpine]: success
+[2024-05-31 06:12:17] INFO root fetch - processPackages [appdynamics]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics-4.5.7.0-py2.py3-none-any.whl.zip]
+[2024-05-31 06:12:17] INFO root fetch - processPackages [appdynamics]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics-4.5.8.0-py2.py3-none-any.whl.zip]
+[2024-05-31 06:12:17] INFO root fetch - main [MainThread]: End processing [appdynamics]: success
+[2024-05-31 06:12:17] INFO root fetch - main [MainThread]: Store serial: [23460335]
