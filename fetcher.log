@@ -10864,3 +10864,92 @@
 [2024-05-31 09:39:02] INFO root fetch - processPackages [cijoe]: Remove: archive file [/home/abi/fetcher/tmp/cijoe-0.9.9.tar.gz]
 [2024-05-31 09:39:02] INFO root fetch - main [MainThread]: End processing [cijoe]: success
 [2024-05-31 09:39:02] INFO root fetch - main [MainThread]: Store serial: [23462200]
+[2024-05-31 09:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462200]
+[2024-05-31 09:41:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-aux
+[2024-05-31 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentiment-analysis-package
+[2024-05-31 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embykeeper
+[2024-05-31 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: comet-toolbox
+[2024-05-31 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-asset-management
+[2024-05-31 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libschrodinger
+[2024-05-31 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amphi-etl
+[2024-05-31 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-picking-batch-print-invoices
+[2024-05-31 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pih
+[2024-05-31 09:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-picking-batch-print-pickings
+[2024-05-31 09:41:11] INFO root fetch - processPackages [libschrodinger]: New version: [1.1.0] Old Version: [1.0.4rc2]
+[2024-05-31 09:41:11] INFO root fetch - processPackages [sentiment-analysis-package]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-31 09:41:11] INFO root fetch - processPackages [pytest-aux]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-31 09:41:11] INFO root fetch - processPackages [pih]: New version: [0.37.4] Old Version: [0.37.3]
+[2024-05-31 09:41:11] INFO root fetch - processPackages [embykeeper]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-31 09:41:11] INFO root fetch - processPackages [comet-toolbox]: New version: [0.4.3] Old Version: [0.4.1]
+[2024-05-31 09:41:11] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-pickings]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.2.3]
+[2024-05-31 09:41:11] INFO root fetch - processPackages [libschrodinger]: Downloading https://files.pythonhosted.org/packages/7f/f7/01534db4d21ff4da8b1f22f4d0f66ea4ebe1f7e5a70f852e95b7a40ed65d/libschrodinger-1.0.4rc2.tar.gz
+[2024-05-31 09:41:11] INFO root fetch - processPackages [amphi-etl]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-31 09:41:11] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.2.1]
+[2024-05-31 09:41:11] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.2.2.1]
+[2024-05-31 09:41:11] INFO root fetch - processPackages [pytest-aux]: Downloading https://files.pythonhosted.org/packages/98/8b/a63844d658074a1a98163750046e46515280c81d801e1f040086968fe9ec/pytest_aux-0.0.3.tar.gz
+[2024-05-31 09:41:11] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/ec/98/cd21216b258524bdfbac9104a5d184766f588a747332335f85ef7335f48a/sentiment_analysis_package-0.3.0.tar.gz
+[2024-05-31 09:41:11] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/d0/e6/4bb1ee3290f4aba08e9d6751566f039db27dba7d51553fc0681095c6a015/embykeeper-3.2.8.tar.gz
+[2024-05-31 09:41:11] INFO root fetch - processPackages [amphi-etl]: Downloading https://files.pythonhosted.org/packages/0b/4c/1a549b01342c2eb7631bd99dfcc742c97d04267cefadf39ce581abbe19b1/amphi-etl-0.4.2.tar.gz
+[2024-05-31 09:41:11] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/06/1a/6a1470a9f67067edcff4b1fcbb5b98fcdfb84392e0e2512a9e3c6f9550ba/pih-0.37.3.tar.gz
+[2024-05-31 09:41:11] INFO root fetch - processPackages [comet-toolbox]: Downloading https://files.pythonhosted.org/packages/da/4b/209782cc15d05c0e9eb37e06c2a36b70222e884a5735a9b08b7de760a95f/comet_toolbox-0.4.1.tar.gz
+[2024-05-31 09:41:11] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-pickings]: Downloading https://files.pythonhosted.org/packages/7c/95/4a20bb6963711c815cea0b957467088a839c69d0a4430b2637c2f7297793/odoo_addon_stock_picking_batch_print_pickings-16.0.1.0.2.3-py3-none-any.whl
+[2024-05-31 09:41:11] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: Downloading https://files.pythonhosted.org/packages/69/a3/bab19e7091ae72fe6303740ca8e899ca3244789fe73e763646a94df8a8e3/odoo_addon_stock_picking_batch_print_invoices-16.0.1.0.2.1-py3-none-any.whl
+[2024-05-31 09:41:11] WARNING root fetch - processPackages [comet-toolbox]: Skipping package: exceeds size limit 10716133>=10485760
+[2024-05-31 09:41:11] INFO root fetch - main [MainThread]: End processing [comet-toolbox] error
+[2024-05-31 09:41:11] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/65/9a/9bd71db07db67bd29bcade4c8dcd276ea76b5b80d753dbb61e2b7ddc60c4/odoo_addon_account_asset_management-16.0.1.2.2.1-py3-none-any.whl
+[2024-05-31 09:41:11] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/02/85/cffd52bc872be074110305f46303d258fa7478eab3eae08d86465d0653a8/embykeeper-3.2.9.tar.gz
+[2024-05-31 09:41:11] INFO root fetch - processPackages [pytest-aux]: Downloading https://files.pythonhosted.org/packages/fd/66/4e1c520770e90c07fca5af83e40656d898028c80c78441cfb25be60082f1/pytest_aux-0.0.5.tar.gz
+[2024-05-31 09:41:11] INFO root fetch - processPackages [libschrodinger]: Downloading https://files.pythonhosted.org/packages/25/89/b9fa9cff5b00eb39f7a3eb6bd29ab3cb78393a2d8876d6c12469e586b0da/libschrodinger-1.1.0.tar.gz
+[2024-05-31 09:41:11] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2024-05-31 09:41:11] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-3.2.8.tar.gz tmp/embykeeper-3.2.9.tar.gz --markdown 20240531/e/embykeeper/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-31 09:41:11] INFO root fetch - processPackages [pytest-aux]: executing diffoscope
+[2024-05-31 09:41:11] INFO root fetch - processPackages [pytest-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_aux-0.0.3.tar.gz tmp/pytest_aux-0.0.5.tar.gz --markdown 20240531/p/pytest-aux/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-31 09:41:11] INFO root fetch - processPackages [amphi-etl]: Downloading https://files.pythonhosted.org/packages/7b/6c/42f78e0e366e043566f79b31e92db0db2d895aeab58c90eabfa84d66fd9b/amphi-etl-0.4.3.tar.gz
+[2024-05-31 09:41:11] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/65/60/7e2828c4fa658a30e99721c01c397aaac7b57f13d5615a7f3d6cfd8a0df1/pih-0.37.4.tar.gz
+[2024-05-31 09:41:12] INFO root fetch - processPackages [libschrodinger]: executing diffoscope
+[2024-05-31 09:41:12] INFO root fetch - processPackages [libschrodinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libschrodinger-1.0.4rc2.tar.gz tmp/libschrodinger-1.1.0.tar.gz --markdown 20240531/l/libschrodinger/1.0.4rc2-1.1.0/README.md --exclude *.pyd
+[2024-05-31 09:41:12] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-pickings]: Downloading https://files.pythonhosted.org/packages/92/88/62fd55118685ef236dd4d0d471b749f37e5b62dec9347c5dc5d53b5a7c20/odoo_addon_stock_picking_batch_print_pickings-16.0.1.1.0-py3-none-any.whl
+[2024-05-31 09:41:12] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/3c/ef/1af252a480987910d43f58fec4713c9b099eee5e0c0e96f108b2481ab1ec/sentiment_analysis_package-0.4.0.tar.gz
+[2024-05-31 09:41:12] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: Downloading https://files.pythonhosted.org/packages/49/1a/73c0e64d678fe9744cd7dd21b3650237bb7c5348739b930f5f9822a4d3af/odoo_addon_stock_picking_batch_print_invoices-16.0.1.1.0-py3-none-any.whl
+[2024-05-31 09:41:12] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-31 09:41:12] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.37.3.tar.gz tmp/pih-0.37.4.tar.gz --markdown 20240531/p/pih/0.37.3-0.37.4/README.md --exclude *.pyd
+[2024-05-31 09:41:12] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/d6/3e/a1c714d5af46fa32c4b1ec11de90213e2d95b7ecfb5267e162d19bea9604/odoo_addon_account_asset_management-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-31 09:41:12] INFO root fetch - processPackages [amphi-etl]: executing diffoscope
+[2024-05-31 09:41:12] INFO root fetch - processPackages [amphi-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amphi-etl-0.4.2.tar.gz tmp/amphi-etl-0.4.3.tar.gz --markdown 20240531/a/amphi-etl/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-31 09:41:12] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-pickings]: executing diffoscope
+[2024-05-31 09:41:12] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-pickings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_batch_print_pickings-16.0.1.0.2.3-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_batch_print_pickings-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-stock-picking-batch-print-pickings/16.0.1.0.2.3-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-31 09:41:12] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: executing diffoscope
+[2024-05-31 09:41:12] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_batch_print_invoices-16.0.1.0.2.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_batch_print_invoices-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-stock-picking-batch-print-invoices/16.0.1.0.2.1-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-31 09:41:12] INFO root fetch - processPackages [sentiment-analysis-package]: executing diffoscope
+[2024-05-31 09:41:12] INFO root fetch - processPackages [sentiment-analysis-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_package-0.3.0.tar.gz tmp/sentiment_analysis_package-0.4.0.tar.gz --markdown 20240531/s/sentiment-analysis-package/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-31 09:41:12] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2024-05-31 09:41:12] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.2.2.1-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-account-asset-management/16.0.1.2.2.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-31 09:41:12] INFO root fetch - processPackages [pytest-aux]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aux-0.0.3.tar.gz]
+[2024-05-31 09:41:12] INFO root fetch - processPackages [pytest-aux]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aux-0.0.5.tar.gz]
+[2024-05-31 09:41:12] INFO root fetch - main [MainThread]: End processing [pytest-aux]: success
+[2024-05-31 09:41:12] INFO root fetch - processPackages [libschrodinger]: Remove: archive file [/home/abi/fetcher/tmp/libschrodinger-1.0.4rc2.tar.gz]
+[2024-05-31 09:41:12] INFO root fetch - processPackages [libschrodinger]: Remove: archive file [/home/abi/fetcher/tmp/libschrodinger-1.1.0.tar.gz]
+[2024-05-31 09:41:12] INFO root fetch - main [MainThread]: End processing [libschrodinger]: success
+[2024-05-31 09:41:13] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.8.tar.gz]
+[2024-05-31 09:41:13] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.9.tar.gz]
+[2024-05-31 09:41:13] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2024-05-31 09:41:13] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-pickings]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_batch_print_pickings-16.0.1.0.2.3-py3-none-any.whl.zip]
+[2024-05-31 09:41:13] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-pickings]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_batch_print_pickings-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-31 09:41:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-batch-print-pickings]: success
+[2024-05-31 09:41:13] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_batch_print_invoices-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2024-05-31 09:41:13] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-print-invoices]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_batch_print_invoices-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-31 09:41:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-batch-print-invoices]: success
+[2024-05-31 09:41:13] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.37.3.tar.gz]
+[2024-05-31 09:41:13] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.37.4.tar.gz]
+[2024-05-31 09:41:13] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-31 09:41:13] INFO root fetch - processPackages [amphi-etl]: Remove: archive file [/home/abi/fetcher/tmp/amphi-etl-0.4.2.tar.gz]
+[2024-05-31 09:41:13] INFO root fetch - processPackages [amphi-etl]: Remove: archive file [/home/abi/fetcher/tmp/amphi-etl-0.4.3.tar.gz]
+[2024-05-31 09:41:13] INFO root fetch - main [MainThread]: End processing [amphi-etl]: success
+[2024-05-31 09:41:15] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.2.2.1-py3-none-any.whl.zip]
+[2024-05-31 09:41:15] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-31 09:41:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2024-05-31 09:41:18] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.3.0.tar.gz]
+[2024-05-31 09:41:18] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.4.0.tar.gz]
+[2024-05-31 09:41:18] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package]: success
+[2024-05-31 09:41:18] INFO root fetch - main [MainThread]: Store serial: [23462235]
