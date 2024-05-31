@@ -10694,3 +10694,90 @@
 [2024-05-31 09:32:14] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
 [2024-05-31 09:32:14] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2024-05-31 09:32:14] INFO root fetch - main [MainThread]: Store serial: [23462098]
+[2024-05-31 09:34:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462098]
+[2024-05-31 09:34:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 09:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-crew
+[2024-05-31 09:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywaybackup
+[2024-05-31 09:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acetone-nnet
+[2024-05-31 09:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modulos-client
+[2024-05-31 09:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: picea
+[2024-05-31 09:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rockai-cli-app
+[2024-05-31 09:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: UnityPredict
+[2024-05-31 09:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otc-sphinx-directives
+[2024-05-31 09:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: va-am
+[2024-05-31 09:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-maintenance-sign-oca
+[2024-05-31 09:34:24] WARNING root fetch - processPackages [django-crew]: Skipping, unable to determine old version
+[2024-05-31 09:34:24] INFO root fetch - main [MainThread]: End processing [django-crew] error
+[2024-05-31 09:34:24] INFO root fetch - processPackages [acetone-nnet]: New version: [0.3.2.dev1] Old Version: [0.3.1.dev3]
+[2024-05-31 09:34:24] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 09:34:24] INFO root fetch - processPackages [otc-sphinx-directives]: New version: [0.3.0] Old Version: [0.2.9.dev1]
+[2024-05-31 09:34:24] INFO root fetch - processPackages [UnityPredict]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 09:34:24] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [pywaybackup]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-31 09:34:24] INFO root fetch - processPackages [picea]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 09:34:24] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: New version: [15.0.1.0.2] Old Version: [15.0.1.0.1.1]
+[2024-05-31 09:34:24] INFO root fetch - processPackages [modulos-client]: New version: [0.6.0] Old Version: [0.5.7]
+[2024-05-31 09:34:24] INFO root fetch - processPackages [UnityPredict]: Downloading https://files.pythonhosted.org/packages/e4/fb/fa13d9cecb91051a37ecd0f49612db726454ff3283fff7f3fb86f84c87a5/UnityPredict-0.1.8.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [va-am]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-31 09:34:24] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/94/ce/c7a9794a622223402b861ec131044d1b4fa1cccb1a5bc4c05ac49e210e62/acetone_nnet-0.3.1.dev3.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [otc-sphinx-directives]: Downloading https://files.pythonhosted.org/packages/d5/7e/71303c498ee91b7885d4ba8e93f63e9d86c51cd09bd730fda7033a82523e/otc_sphinx_directives-0.2.9.dev1.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/e5/4d/2405f5f6231c98dc0bfd2b20d86d72de3b757ecd0ebf9e7cb71d2464721e/picea-0.0.8.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [pywaybackup]: Downloading https://files.pythonhosted.org/packages/fd/04/c0cf6667d772248cac734415d868d8bf76653222285d331205c2af116dc1/pywaybackup-1.0.1.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: Downloading https://files.pythonhosted.org/packages/27/6b/f5ccc865ed5619773b357c302c300d944923c7d45f6fd6783b195b2be2b0/odoo_addon_maintenance_sign_oca-15.0.1.0.1.1-py3-none-any.whl
+[2024-05-31 09:34:24] INFO root fetch - processPackages [UnityPredict]: Downloading https://files.pythonhosted.org/packages/f9/4f/4f365832e2efaf7c0d14b2c9c6ad80c83e6ac6d064864913aaf7768c9094/UnityPredict-0.1.9.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [modulos-client]: Downloading https://files.pythonhosted.org/packages/95/71/a111dbcffd830f99d31a1e7355578a01d40968cf079a0622edec9972c5ba/modulos_client-0.5.7.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [va-am]: Downloading https://files.pythonhosted.org/packages/ec/f8/467e5b932184b43024ae32ee6ede3d38b53622b09dc14db18ece99e2bad6/va_am-0.1.6.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/59/f1/29cf98fb7c923a572d2bfdad7b476f9920fdd330d4e19fbb792217d1c41c/acetone_nnet-0.3.2.dev1.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-31 09:34:24] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240531/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 09:34:24] INFO root fetch - processPackages [UnityPredict]: executing diffoscope
+[2024-05-31 09:34:24] INFO root fetch - processPackages [UnityPredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnityPredict-0.1.8.tar.gz tmp/UnityPredict-0.1.9.tar.gz --markdown 20240531/U/UnityPredict/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 09:34:24] INFO root fetch - processPackages [otc-sphinx-directives]: Downloading https://files.pythonhosted.org/packages/d2/80/037f2bd67c144bd8ff0e4739d2805b9824bf27a02e977d73626aeb634130/otc_sphinx_directives-0.3.0.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-05-31 09:34:24] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.3.1.dev3.tar.gz tmp/acetone_nnet-0.3.2.dev1.tar.gz --markdown 20240531/a/acetone-nnet/0.3.1.dev3-0.3.2.dev1/README.md --exclude *.pyd
+[2024-05-31 09:34:24] INFO root fetch - processPackages [pywaybackup]: Downloading https://files.pythonhosted.org/packages/6f/dc/1abdbfbb2f6839a5c9ee95ea67d4ea509272426308696b39c3df4d5fa180/pywaybackup-1.0.2.tar.gz
+[2024-05-31 09:34:24] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: Downloading https://files.pythonhosted.org/packages/83/d5/491fd541ea16b00e2d41eff2e3f2f5b90b06855b5cdc7a4b3c98cfaa4dcc/odoo_addon_maintenance_sign_oca-15.0.1.0.2-py3-none-any.whl
+[2024-05-31 09:34:25] INFO root fetch - processPackages [modulos-client]: Downloading https://files.pythonhosted.org/packages/d8/18/8aef1925a23043b242252023b368c255ce513a1f7c14958d82fba7744097/modulos_client-0.6.0.tar.gz
+[2024-05-31 09:34:25] INFO root fetch - processPackages [otc-sphinx-directives]: executing diffoscope
+[2024-05-31 09:34:25] INFO root fetch - processPackages [otc-sphinx-directives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otc_sphinx_directives-0.2.9.dev1.tar.gz tmp/otc_sphinx_directives-0.3.0.tar.gz --markdown 20240531/o/otc-sphinx-directives/0.2.9.dev1-0.3.0/README.md --exclude *.pyd
+[2024-05-31 09:34:25] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/59/49/8c2f0a6f8d85f9fe751e4f7e27eef9281443b43b5bc2f5dad2b7aacfae6d/picea-0.0.9.tar.gz
+[2024-05-31 09:34:25] INFO root fetch - processPackages [pywaybackup]: executing diffoscope
+[2024-05-31 09:34:25] INFO root fetch - processPackages [pywaybackup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywaybackup-1.0.1.tar.gz tmp/pywaybackup-1.0.2.tar.gz --markdown 20240531/p/pywaybackup/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-31 09:34:25] INFO root fetch - processPackages [va-am]: Downloading https://files.pythonhosted.org/packages/4f/8e/e62d4ce22f072ae5c0d31404b55e2c21da6e2eb0b7ef06b78960483f7384/va_am-0.1.7.tar.gz
+[2024-05-31 09:34:25] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: executing diffoscope
+[2024-05-31 09:34:25] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_sign_oca-15.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_maintenance_sign_oca-15.0.1.0.2-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-maintenance-sign-oca/15.0.1.0.1.1-15.0.1.0.2/README.md --exclude *.pyd
+[2024-05-31 09:34:25] INFO root fetch - processPackages [modulos-client]: executing diffoscope
+[2024-05-31 09:34:25] INFO root fetch - processPackages [modulos-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modulos_client-0.5.7.tar.gz tmp/modulos_client-0.6.0.tar.gz --markdown 20240531/m/modulos-client/0.5.7-0.6.0/README.md --exclude *.pyd
+[2024-05-31 09:34:25] INFO root fetch - processPackages [picea]: executing diffoscope
+[2024-05-31 09:34:25] INFO root fetch - processPackages [picea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picea-0.0.8.tar.gz tmp/picea-0.0.9.tar.gz --markdown 20240531/p/picea/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 09:34:25] INFO root fetch - processPackages [va-am]: executing diffoscope
+[2024-05-31 09:34:25] INFO root fetch - processPackages [va-am]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/va_am-0.1.6.tar.gz tmp/va_am-0.1.7.tar.gz --markdown 20240531/v/va-am/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-31 09:34:25] INFO root fetch - processPackages [UnityPredict]: Remove: archive file [/home/abi/fetcher/tmp/UnityPredict-0.1.8.tar.gz]
+[2024-05-31 09:34:25] INFO root fetch - processPackages [UnityPredict]: Remove: archive file [/home/abi/fetcher/tmp/UnityPredict-0.1.9.tar.gz]
+[2024-05-31 09:34:25] INFO root fetch - main [MainThread]: End processing [UnityPredict]: success
+[2024-05-31 09:34:25] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-05-31 09:34:25] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-05-31 09:34:25] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-31 09:34:25] INFO root fetch - processPackages [pywaybackup]: Remove: archive file [/home/abi/fetcher/tmp/pywaybackup-1.0.1.tar.gz]
+[2024-05-31 09:34:25] INFO root fetch - processPackages [pywaybackup]: Remove: archive file [/home/abi/fetcher/tmp/pywaybackup-1.0.2.tar.gz]
+[2024-05-31 09:34:25] INFO root fetch - main [MainThread]: End processing [pywaybackup]: success
+[2024-05-31 09:34:25] INFO root fetch - processPackages [otc-sphinx-directives]: Remove: archive file [/home/abi/fetcher/tmp/otc_sphinx_directives-0.2.9.dev1.tar.gz]
+[2024-05-31 09:34:25] INFO root fetch - processPackages [otc-sphinx-directives]: Remove: archive file [/home/abi/fetcher/tmp/otc_sphinx_directives-0.3.0.tar.gz]
+[2024-05-31 09:34:25] INFO root fetch - main [MainThread]: End processing [otc-sphinx-directives]: success
+[2024-05-31 09:34:26] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_sign_oca-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-31 09:34:26] INFO root fetch - processPackages [odoo-addon-maintenance-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_sign_oca-15.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-31 09:34:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-sign-oca]: success
+[2024-05-31 09:34:26] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.1.dev3.tar.gz]
+[2024-05-31 09:34:26] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.2.dev1.tar.gz]
+[2024-05-31 09:34:26] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-05-31 09:34:26] INFO root fetch - processPackages [modulos-client]: Remove: archive file [/home/abi/fetcher/tmp/modulos_client-0.5.7.tar.gz]
+[2024-05-31 09:34:26] INFO root fetch - processPackages [modulos-client]: Remove: archive file [/home/abi/fetcher/tmp/modulos_client-0.6.0.tar.gz]
+[2024-05-31 09:34:26] INFO root fetch - main [MainThread]: End processing [modulos-client]: success
+[2024-05-31 09:34:26] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.8.tar.gz]
+[2024-05-31 09:34:26] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.9.tar.gz]
+[2024-05-31 09:34:26] INFO root fetch - main [MainThread]: End processing [picea]: success
+[2024-05-31 09:34:26] INFO root fetch - processPackages [va-am]: Remove: archive file [/home/abi/fetcher/tmp/va_am-0.1.6.tar.gz]
+[2024-05-31 09:34:26] INFO root fetch - processPackages [va-am]: Remove: archive file [/home/abi/fetcher/tmp/va_am-0.1.7.tar.gz]
+[2024-05-31 09:34:26] INFO root fetch - main [MainThread]: End processing [va-am]: success
+[2024-05-31 09:34:26] INFO root fetch - main [MainThread]: Store serial: [23462139]
