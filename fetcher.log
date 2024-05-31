@@ -6177,3 +6177,24 @@
 [2024-05-31 05:28:46] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz]
 [2024-05-31 05:28:46] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
 [2024-05-31 05:28:46] INFO root fetch - main [MainThread]: Store serial: [23460077]
+[2024-05-31 05:30:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460077]
+[2024-05-31 05:30:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 05:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plutonium-238
+[2024-05-31 05:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SimplesAPI
+[2024-05-31 05:30:55] INFO root fetch - processPackages [SimplesAPI]: New version: [0.0.1a0] Old Version: [0.0.0a4]
+[2024-05-31 05:30:55] INFO root fetch - processPackages [plutonium-238]: New version: [0.2.1] Old Version: [0.1.5]
+[2024-05-31 05:30:55] INFO root fetch - processPackages [SimplesAPI]: Downloading https://files.pythonhosted.org/packages/c8/fd/e42394ae4d89328f7bb4c9300672b60f8f3e6739e15a4669cafecf02aa2b/simplesapi-0.0.0a4.tar.gz
+[2024-05-31 05:30:55] INFO root fetch - processPackages [plutonium-238]: Downloading https://files.pythonhosted.org/packages/9a/6e/db204d5d227b9b8da37eb96d6633c34af5586f3620f6a258d1f217434b13/plutonium-238-0.1.5.tar.gz
+[2024-05-31 05:30:55] INFO root fetch - processPackages [SimplesAPI]: Downloading https://files.pythonhosted.org/packages/c2/3f/bbfbbd1de5ec3d70013a08fd1cdfb787dc850894d12ae35b4da24b07efac/simplesapi-0.0.1a0.tar.gz
+[2024-05-31 05:30:56] INFO root fetch - processPackages [SimplesAPI]: executing diffoscope
+[2024-05-31 05:30:56] INFO root fetch - processPackages [SimplesAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplesapi-0.0.0a4.tar.gz tmp/simplesapi-0.0.1a0.tar.gz --markdown 20240531/S/SimplesAPI/0.0.0a4-0.0.1a0/README.md --exclude *.pyd
+[2024-05-31 05:30:56] INFO root fetch - processPackages [plutonium-238]: Downloading https://files.pythonhosted.org/packages/89/2a/e50d87705b82bae8c217034d0f45c0fe18bdd3e411bf6b87177cb5cf80f9/plutonium-238-0.2.1.tar.gz
+[2024-05-31 05:30:56] INFO root fetch - processPackages [plutonium-238]: executing diffoscope
+[2024-05-31 05:30:56] INFO root fetch - processPackages [plutonium-238]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutonium-238-0.1.5.tar.gz tmp/plutonium-238-0.2.1.tar.gz --markdown 20240531/p/plutonium-238/0.1.5-0.2.1/README.md --exclude *.pyd
+[2024-05-31 05:30:56] INFO root fetch - processPackages [SimplesAPI]: Remove: archive file [/home/abi/fetcher/tmp/simplesapi-0.0.0a4.tar.gz]
+[2024-05-31 05:30:56] INFO root fetch - processPackages [SimplesAPI]: Remove: archive file [/home/abi/fetcher/tmp/simplesapi-0.0.1a0.tar.gz]
+[2024-05-31 05:30:56] INFO root fetch - main [MainThread]: End processing [SimplesAPI]: success
+[2024-05-31 05:30:56] INFO root fetch - processPackages [plutonium-238]: Remove: archive file [/home/abi/fetcher/tmp/plutonium-238-0.1.5.tar.gz]
+[2024-05-31 05:30:56] INFO root fetch - processPackages [plutonium-238]: Remove: archive file [/home/abi/fetcher/tmp/plutonium-238-0.2.1.tar.gz]
+[2024-05-31 05:30:56] INFO root fetch - main [MainThread]: End processing [plutonium-238]: success
+[2024-05-31 05:30:56] INFO root fetch - main [MainThread]: Store serial: [23460083]
