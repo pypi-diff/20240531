@@ -20039,3 +20039,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:32:00] INFO root fetch - processPackages [aperturedb]: Remove: archive file [/home/abi/fetcher/tmp/aperturedb-0.4.9.tar.gz]
 [2024-05-31 15:32:00] INFO root fetch - main [MainThread]: End processing [aperturedb]: success
 [2024-05-31 15:32:00] INFO root fetch - main [MainThread]: Store serial: [23466284]
+[2024-05-31 15:34:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466284]
+[2024-05-31 15:34:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 15:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws-native
+[2024-05-31 15:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphafold3-pytorch
+[2024-05-31 15:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh-auth-rbac
+[2024-05-31 15:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xeus-python-shell
+[2024-05-31 15:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simo
+[2024-05-31 15:34:09] INFO root fetch - processPackages [edwh-auth-rbac]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-31 15:34:09] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-31 15:34:09] INFO root fetch - processPackages [alphafold3-pytorch]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-31 15:34:09] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/ec/ee/91827df4d94d5d4b2d73137b4e13d36c74d10b300bcaf03e18a87b70f049/edwh_auth_rbac-0.4.1.tar.gz
+[2024-05-31 15:34:09] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-31 15:34:09] INFO root fetch - processPackages [xeus-python-shell]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-31 15:34:09] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/3d/72/8f061cdc58195a9840e3995a1cd842045f159203049cae0e4d78e80a2411/alphafold3_pytorch-0.1.5.tar.gz
+[2024-05-31 15:34:09] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-31 15:34:09] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-31 15:34:09] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-31 15:34:09] INFO root fetch - processPackages [xeus-python-shell]: Downloading https://files.pythonhosted.org/packages/38/dd/9394ba6b5a14be09e4b0d64e6a76cf96cf378c8b1da403e5e63275f1b680/xeus-python-shell-0.6.1.tar.gz
+[2024-05-31 15:34:09] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-31 15:34:09] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/dd/c2/1ae35e48904972f7f64e2999044c3ab628a528a4c3e48ea4feec78102ff6/alphafold3_pytorch-0.1.6-py3-none-any.whl
+[2024-05-31 15:34:09] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/03/4b/2e068ae834e780ec825072a70452c1c299e560ed3dd257480d32f6b7b0d0/edwh_auth_rbac-0.4.2.tar.gz
+[2024-05-31 15:34:10] INFO root fetch - processPackages [alphafold3-pytorch]: executing diffoscope
+[2024-05-31 15:34:10] INFO root fetch - processPackages [alphafold3-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold3_pytorch-0.1.5.tar.gz tmp/alphafold3_pytorch-0.1.6-py3-none-any.whl.zip --markdown 20240531/a/alphafold3-pytorch/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-31 15:34:10] INFO root fetch - processPackages [edwh-auth-rbac]: executing diffoscope
+[2024-05-31 15:34:10] INFO root fetch - processPackages [edwh-auth-rbac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_auth_rbac-0.4.1.tar.gz tmp/edwh_auth_rbac-0.4.2.tar.gz --markdown 20240531/e/edwh-auth-rbac/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-31 15:34:10] INFO root fetch - processPackages [xeus-python-shell]: Downloading https://files.pythonhosted.org/packages/90/75/bd418e42e806af439c963923b996c0e50096d849dcd74550202458ce4bff/xeus_python_shell-0.6.2.tar.gz
+[2024-05-31 15:34:10] INFO root fetch - processPackages [xeus-python-shell]: executing diffoscope
+[2024-05-31 15:34:10] INFO root fetch - processPackages [xeus-python-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeus-python-shell-0.6.1.tar.gz tmp/xeus_python_shell-0.6.2.tar.gz --markdown 20240531/x/xeus-python-shell/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-31 15:34:10] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-31 15:34:10] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.1.5.tar.gz]
+[2024-05-31 15:34:10] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.1.6-py3-none-any.whl.zip]
+[2024-05-31 15:34:10] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch]: success
+[2024-05-31 15:34:10] INFO root fetch - processPackages [xeus-python-shell]: Remove: archive file [/home/abi/fetcher/tmp/xeus-python-shell-0.6.1.tar.gz]
+[2024-05-31 15:34:10] INFO root fetch - processPackages [xeus-python-shell]: Remove: archive file [/home/abi/fetcher/tmp/xeus_python_shell-0.6.2.tar.gz]
+[2024-05-31 15:34:10] INFO root fetch - main [MainThread]: End processing [xeus-python-shell]: success
+[2024-05-31 15:34:10] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.4.1.tar.gz]
+[2024-05-31 15:34:10] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.4.2.tar.gz]
+[2024-05-31 15:34:10] INFO root fetch - main [MainThread]: End processing [edwh-auth-rbac]: success
+[2024-05-31 15:34:10] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-31 15:34:10] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240531/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-31 15:34:25] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-31 15:34:25] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-31 15:34:25] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-31 15:34:25] INFO root fetch - main [MainThread]: Store serial: [23466299]
