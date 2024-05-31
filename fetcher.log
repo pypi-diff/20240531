@@ -5891,3 +5891,123 @@
 [2024-05-31 05:15:38] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-31 05:15:38] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-31 05:15:38] INFO root fetch - main [MainThread]: Store serial: [23459967]
+[2024-05-31 05:17:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459967]
+[2024-05-31 05:17:47] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-31 05:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-cv-nightly
+[2024-05-31 05:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoto-api
+[2024-05-31 05:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rockai-cli-app
+[2024-05-31 05:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bees-challenge
+[2024-05-31 05:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capdata
+[2024-05-31 05:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: checks-superstaq
+[2024-05-31 05:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openi
+[2024-05-31 05:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: general-superstaq
+[2024-05-31 05:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zeval
+[2024-05-31 05:17:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qiskit-superstaq
+[2024-05-31 05:17:47] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 05:17:47] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-31 05:17:47] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-31 05:17:47] INFO root fetch - processPackages [openi]: New version: [2.0.0b5] Old Version: [2.0.0b2]
+[2024-05-31 05:17:47] INFO root fetch - processPackages [bees-challenge]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 05:17:47] INFO root fetch - processPackages [capdata]: New version: [1.0.3] Old Version: [1.0.2.1]
+[2024-05-31 05:17:47] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-05-31 05:17:47] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-31 05:17:47] INFO root fetch - processPackages [checks-superstaq]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-31 05:17:47] INFO root fetch - processPackages [zeval]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-31 05:17:47] INFO root fetch - processPackages [general-superstaq]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-31 05:17:47] INFO root fetch - processPackages [qiskit-superstaq]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-31 05:17:47] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-31 05:17:47] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/92/c9/eb04840a84191b4bb14a9aa79041b78ebc7207c9114d44295909ce6c2dc3/bees-challenge-0.8.0.tar.gz
+[2024-05-31 05:17:47] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/17/95/35c8cb8e2403ac22b75f43398662244c47e0136e348ed8e30690d5616b49/openi-2.0.0b2.tar.gz
+[2024-05-31 05:17:47] INFO root fetch - processPackages [capdata]: Downloading https://files.pythonhosted.org/packages/b9/69/86e8905b2e6fdf4bc5003924b5a599d02bfb9c58d21b8e46f9b242af6696/capdata-1.0.2.1.tar.gz
+[2024-05-31 05:17:47] INFO root fetch - processPackages [checks-superstaq]: Downloading https://files.pythonhosted.org/packages/ab/b3/d98137bd77808a8cc087ee925dfcd0d0a3892f9e7863cd0e4b61dbfff150/checks-superstaq-0.5.8.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [zeval]: Downloading https://files.pythonhosted.org/packages/02/cd/4f3c697c721c990b0c6f28086a72e2d310ecd2e6d12299853e4f4c31c35c/zeval-0.1.2.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/12/84/192b2a00ffc68e99091da0c1a8af26a344ce258536eb8bb848735828e4e6/general-superstaq-0.5.8.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/3a/60/7c5776ba25ecff039feb7a9fa3ba0bc43a1e6e170cfa3f011f8b06339591/qiskit-superstaq-0.5.8.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/07/b0/8273979b766f0002142714ccac087661ca119069cca66ab3540321ebc94e/bees-challenge-0.9.0.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-31 05:17:48] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240531/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-31 05:17:48] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-31 05:17:48] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240531/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 05:17:48] INFO root fetch - processPackages [bees-challenge]: executing diffoscope
+[2024-05-31 05:17:48] INFO root fetch - processPackages [bees-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bees-challenge-0.8.0.tar.gz tmp/bees-challenge-0.9.0.tar.gz --markdown 20240531/b/bees-challenge/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 05:17:48] INFO root fetch - processPackages [capdata]: Downloading https://files.pythonhosted.org/packages/59/25/3351d6c9468ef37b38fb87da0f97d6ee6322c03055c2dc59ead8bf693ee9/capdata-1.0.3.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-31 05:17:48] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240531/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-31 05:17:48] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/04/d1/0491b8775678a797f8b2ee866b0db9eaa92252eca5a20aab90e331aa3b2b/openi-2.0.0b5.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [capdata]: executing diffoscope
+[2024-05-31 05:17:48] INFO root fetch - processPackages [capdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capdata-1.0.2.1.tar.gz tmp/capdata-1.0.3.tar.gz --markdown 20240531/c/capdata/1.0.2.1-1.0.3/README.md --exclude *.pyd
+[2024-05-31 05:17:48] INFO root fetch - processPackages [checks-superstaq]: Downloading https://files.pythonhosted.org/packages/44/61/adb190a9497abc1133f81777291073c1763823772bfe45c7e569315fcecb/checks-superstaq-0.5.9.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [qiskit-superstaq]: Downloading https://files.pythonhosted.org/packages/c8/81/7de765f231ebb7be50740a826509ee35713d372a05cff51d8afa8e47f336/qiskit-superstaq-0.5.9.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [general-superstaq]: Downloading https://files.pythonhosted.org/packages/48/7e/125ca48b0efc509cd11c2a28e42d1cebac4acc0e6d9e355f2354b710c584/general-superstaq-0.5.9.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [openi]: executing diffoscope
+[2024-05-31 05:17:48] INFO root fetch - processPackages [openi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-2.0.0b2.tar.gz tmp/openi-2.0.0b5.tar.gz --markdown 20240531/o/openi/2.0.0b2-2.0.0b5/README.md --exclude *.pyd
+[2024-05-31 05:17:48] INFO root fetch - processPackages [zeval]: Downloading https://files.pythonhosted.org/packages/fb/42/76eb9d62ba9af7553aa804a65efde8de1bf20a620197c474f969b7adea69/zeval-0.1.4.tar.gz
+[2024-05-31 05:17:48] INFO root fetch - processPackages [zeval]: executing diffoscope
+[2024-05-31 05:17:48] INFO root fetch - processPackages [zeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeval-0.1.2.tar.gz tmp/zeval-0.1.4.tar.gz --markdown 20240531/z/zeval/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-31 05:17:48] INFO root fetch - processPackages [general-superstaq]: executing diffoscope
+[2024-05-31 05:17:48] INFO root fetch - processPackages [general-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general-superstaq-0.5.8.tar.gz tmp/general-superstaq-0.5.9.tar.gz --markdown 20240531/g/general-superstaq/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-31 05:17:48] INFO root fetch - processPackages [qiskit-superstaq]: executing diffoscope
+[2024-05-31 05:17:48] INFO root fetch - processPackages [qiskit-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-superstaq-0.5.8.tar.gz tmp/qiskit-superstaq-0.5.9.tar.gz --markdown 20240531/q/qiskit-superstaq/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-31 05:17:49] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [rockai-cli-app]: Start processing: cirq-superstaq
+[2024-05-31 05:17:49] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-31 05:17:49] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [yoto-api]: Start processing: topmost
+[2024-05-31 05:17:49] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-31 05:17:49] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.8.0.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.9.0.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [bees-challenge]: Start processing: Supermarq
+[2024-05-31 05:17:49] INFO root fetch - main [MainThread]: End processing [bees-challenge]: success
+[2024-05-31 05:17:49] INFO root fetch - processPackages [cirq-superstaq]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [topmost]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [Supermarq]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [zeval]: Remove: archive file [/home/abi/fetcher/tmp/zeval-0.1.2.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [zeval]: Remove: archive file [/home/abi/fetcher/tmp/zeval-0.1.4.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - main [MainThread]: End processing [zeval]: success
+[2024-05-31 05:17:49] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-2.0.0b2.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-2.0.0b5.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - main [MainThread]: End processing [openi]: success
+[2024-05-31 05:17:49] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/3e/15/d32dc0aa33e6f4b634c639e99ddec06b3adce50c401ab0214eaca34d6da6/cirq-superstaq-0.5.8.tar.gz
+[2024-05-31 05:17:49] INFO root fetch - processPackages [capdata]: Remove: archive file [/home/abi/fetcher/tmp/capdata-1.0.2.1.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [capdata]: Remove: archive file [/home/abi/fetcher/tmp/capdata-1.0.3.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - main [MainThread]: End processing [capdata]: success
+[2024-05-31 05:17:49] INFO root fetch - processPackages [topmost]: Downloading https://files.pythonhosted.org/packages/77/e4/1b061eceecbd4463884f881f173452d80b45a21c4bf8e290c909000423bd/topmost-0.0.2-5-py3-none-any.whl
+[2024-05-31 05:17:49] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general-superstaq-0.5.8.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [general-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/general-superstaq-0.5.9.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - main [MainThread]: End processing [general-superstaq]: success
+[2024-05-31 05:17:49] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/3f/2a/c81c619804f8182f181478b7650406db153409d513ca5061a375e6180614/Supermarq-0.5.8.tar.gz
+[2024-05-31 05:17:49] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-superstaq-0.5.8.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - processPackages [qiskit-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-superstaq-0.5.9.tar.gz]
+[2024-05-31 05:17:49] INFO root fetch - main [MainThread]: End processing [qiskit-superstaq]: success
+[2024-05-31 05:17:49] INFO root fetch - processPackages [checks-superstaq]: executing diffoscope
+[2024-05-31 05:17:49] INFO root fetch - processPackages [checks-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checks-superstaq-0.5.8.tar.gz tmp/checks-superstaq-0.5.9.tar.gz --markdown 20240531/c/checks-superstaq/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-31 05:17:49] INFO root fetch - processPackages [topmost]: Downloading https://files.pythonhosted.org/packages/b8/f6/870629155d9016fc2cfadca6a947c0828eb520dafa89a2223290a6dca1d1/topmost-0.0.3-py3-none-any.whl
+[2024-05-31 05:17:49] INFO root fetch - processPackages [cirq-superstaq]: Downloading https://files.pythonhosted.org/packages/80/3f/11276d01777feacea7c75e0dd4715d7afb65da2692b8a212a59cba41d848/cirq-superstaq-0.5.9.tar.gz
+[2024-05-31 05:17:49] INFO root fetch - processPackages [Supermarq]: Downloading https://files.pythonhosted.org/packages/41/f8/282cdb43183b74424d3339ac0277285a4f92e352861cbc222cc85d48a5b3/Supermarq-0.5.9.tar.gz
+[2024-05-31 05:17:50] INFO root fetch - processPackages [topmost]: executing diffoscope
+[2024-05-31 05:17:50] INFO root fetch - processPackages [topmost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topmost-0.0.2-5-py3-none-any.whl.zip tmp/topmost-0.0.3-py3-none-any.whl.zip --markdown 20240531/t/topmost/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 05:17:50] INFO root fetch - processPackages [Supermarq]: executing diffoscope
+[2024-05-31 05:17:50] INFO root fetch - processPackages [Supermarq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Supermarq-0.5.8.tar.gz tmp/Supermarq-0.5.9.tar.gz --markdown 20240531/S/Supermarq/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-31 05:17:50] INFO root fetch - processPackages [cirq-superstaq]: executing diffoscope
+[2024-05-31 05:17:50] INFO root fetch - processPackages [cirq-superstaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-superstaq-0.5.8.tar.gz tmp/cirq-superstaq-0.5.9.tar.gz --markdown 20240531/c/cirq-superstaq/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-31 05:17:50] INFO root fetch - processPackages [checks-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/checks-superstaq-0.5.8.tar.gz]
+[2024-05-31 05:17:50] INFO root fetch - processPackages [checks-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/checks-superstaq-0.5.9.tar.gz]
+[2024-05-31 05:17:50] INFO root fetch - main [MainThread]: End processing [checks-superstaq]: success
+[2024-05-31 05:17:50] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-31 05:17:50] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-31 05:17:50] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-31 05:17:50] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-superstaq-0.5.8.tar.gz]
+[2024-05-31 05:17:50] INFO root fetch - processPackages [cirq-superstaq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-superstaq-0.5.9.tar.gz]
+[2024-05-31 05:17:50] INFO root fetch - main [MainThread]: End processing [cirq-superstaq]: success
+[2024-05-31 05:17:50] INFO root fetch - processPackages [topmost]: Remove: archive file [/home/abi/fetcher/tmp/topmost-0.0.2-5-py3-none-any.whl.zip]
+[2024-05-31 05:17:50] INFO root fetch - processPackages [topmost]: Remove: archive file [/home/abi/fetcher/tmp/topmost-0.0.3-py3-none-any.whl.zip]
+[2024-05-31 05:17:50] INFO root fetch - main [MainThread]: End processing [topmost]: success
+[2024-05-31 05:17:50] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.5.8.tar.gz]
+[2024-05-31 05:17:50] INFO root fetch - processPackages [Supermarq]: Remove: archive file [/home/abi/fetcher/tmp/Supermarq-0.5.9.tar.gz]
+[2024-05-31 05:17:50] INFO root fetch - main [MainThread]: End processing [Supermarq]: success
+[2024-05-31 05:17:50] INFO root fetch - main [MainThread]: Store serial: [23460013]
