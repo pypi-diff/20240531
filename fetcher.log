@@ -15832,3 +15832,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 12:57:41] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-31 12:57:41] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-31 12:57:41] INFO root fetch - main [MainThread]: Store serial: [23464462]
+[2024-05-31 12:59:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464462]
+[2024-05-31 12:59:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 12:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-scm
+[2024-05-31 12:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-inventory
+[2024-05-31 12:59:50] INFO root fetch - processPackages [pulumi-scm]: New version: [0.2.0a1717147110] Old Version: [0.2.0a1716962294]
+[2024-05-31 12:59:50] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-31 12:59:50] INFO root fetch - processPackages [pulumi-scm]: Downloading https://files.pythonhosted.org/packages/bc/ae/2fcc240a81e0f352d5d59262312a32d3615b8c21ca57f9c9c141254f9004/pulumi_scm-0.2.0a1716962294.tar.gz
+[2024-05-31 12:59:50] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-31 12:59:50] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-31 12:59:50] INFO root fetch - processPackages [pulumi-scm]: Downloading https://files.pythonhosted.org/packages/1d/0d/5c1a57357c21fd9bf54f894e2b7b5621a4282884ba44d5e2ed90b458f7e6/pulumi_scm-0.2.0a1717147110.tar.gz
+[2024-05-31 12:59:51] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-31 12:59:51] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240531/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-31 12:59:51] INFO root fetch - processPackages [pulumi-scm]: executing diffoscope
+[2024-05-31 12:59:51] INFO root fetch - processPackages [pulumi-scm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_scm-0.2.0a1716962294.tar.gz tmp/pulumi_scm-0.2.0a1717147110.tar.gz --markdown 20240531/p/pulumi-scm/0.2.0a1716962294-0.2.0a1717147110/README.md --exclude *.pyd
+[2024-05-31 12:59:51] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-31 12:59:51] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-31 12:59:51] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-31 12:59:52] INFO root fetch - processPackages [pulumi-scm]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_scm-0.2.0a1716962294.tar.gz]
+[2024-05-31 12:59:52] INFO root fetch - processPackages [pulumi-scm]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_scm-0.2.0a1717147110.tar.gz]
+[2024-05-31 12:59:52] INFO root fetch - main [MainThread]: End processing [pulumi-scm]: success
+[2024-05-31 12:59:52] INFO root fetch - main [MainThread]: Store serial: [23464467]
