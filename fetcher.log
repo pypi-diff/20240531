@@ -16142,3 +16142,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 13:10:40] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.99.tar.gz]
 [2024-05-31 13:10:40] INFO root fetch - main [MainThread]: End processing [bugbug]: success
 [2024-05-31 13:10:40] INFO root fetch - main [MainThread]: Store serial: [23464595]
+[2024-05-31 13:12:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464595]
+[2024-05-31 13:12:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-31 13:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aos-prov
+[2024-05-31 13:12:49] INFO root fetch - processPackages [aos-prov]: New version: [4.6.0b2] Old Version: [4.6.0b1]
+[2024-05-31 13:12:49] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/66/1b/e24f3fcc802f07102207dfde4c451d5d509d4779a10abd1b1ed6dad4767f/aos_prov-4.6.0b1-py3-none-any.whl
+[2024-05-31 13:12:50] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/b2/94/dd363268e67960f6478498cd88cad0ca6b5c5ffc59e5cdf16e0c043b94bd/aos_prov-4.6.0b2-py3-none-any.whl
+[2024-05-31 13:12:50] INFO root fetch - processPackages [aos-prov]: executing diffoscope
+[2024-05-31 13:12:50] INFO root fetch - processPackages [aos-prov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_prov-4.6.0b1-py3-none-any.whl.zip tmp/aos_prov-4.6.0b2-py3-none-any.whl.zip --markdown 20240531/a/aos-prov/4.6.0b1-4.6.0b2/README.md --exclude *.pyd
+[2024-05-31 13:12:51] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.6.0b1-py3-none-any.whl.zip]
+[2024-05-31 13:12:51] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.6.0b2-py3-none-any.whl.zip]
+[2024-05-31 13:12:51] INFO root fetch - main [MainThread]: End processing [aos-prov]: success
+[2024-05-31 13:12:51] INFO root fetch - main [MainThread]: Store serial: [23464597]
