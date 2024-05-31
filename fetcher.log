@@ -12673,3 +12673,63 @@
 [2024-05-31 10:51:17] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-05-31 10:51:17] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-05-31 10:51:17] INFO root fetch - main [MainThread]: Store serial: [23463011]
+[2024-05-31 10:53:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463011]
+[2024-05-31 10:53:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 10:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hum
+[2024-05-31 10:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nomad-media-pip
+[2024-05-31 10:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-af
+[2024-05-31 10:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-ebill-payment-contract
+[2024-05-31 10:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mnists
+[2024-05-31 10:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adbui
+[2024-05-31 10:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-problem
+[2024-05-31 10:53:26] INFO root fetch - processPackages [nomad-media-pip]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 10:53:26] INFO root fetch - processPackages [adbui]: New version: [4.5.9] Old Version: [4.5.8]
+[2024-05-31 10:53:26] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/89/17/9542f18838ecc3189b9eaaec4a7ccfe38f999660bb42c8092050b37835fd/nomad_media_pip-0.0.98.tar.gz
+[2024-05-31 10:53:26] INFO root fetch - processPackages [adbui]: Downloading https://files.pythonhosted.org/packages/d3/88/18545ea4467380fd5a6958785288405be2d109dea71b8c1d5570e6d9b980/adbui-4.5.8.tar.gz
+[2024-05-31 10:53:26] INFO root fetch - processPackages [mnists]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-31 10:53:26] WARNING root fetch - processPackages [odoo-addon-base-ebill-payment-contract]: Skipping, unable to determine old version
+[2024-05-31 10:53:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-ebill-payment-contract] error
+[2024-05-31 10:53:26] INFO root fetch - processPackages [fastapi-problem]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-31 10:53:26] INFO root fetch - processPackages [hum]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 10:53:26] INFO root fetch - processPackages [dbt-af]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-31 10:53:27] INFO root fetch - processPackages [hum]: Downloading https://files.pythonhosted.org/packages/01/13/c55ea177e9a601a07aac880734f460938fa286625ac6b3d8e93fe2979f37/hum-0.1.8.tar.gz
+[2024-05-31 10:53:27] INFO root fetch - processPackages [adbui]: Downloading https://files.pythonhosted.org/packages/c8/40/eeeb03fca8b1df6b10db6261fe24ff9a86f86eddcc86e2d460600d6eb7cb/adbui-4.5.9.tar.gz
+[2024-05-31 10:53:27] INFO root fetch - processPackages [mnists]: Downloading https://files.pythonhosted.org/packages/a0/d4/c73831f5580ef3214d6cbe46f0c5ad2937e8882e5744c188099c47bbcaae/mnists-0.2.1.tar.gz
+[2024-05-31 10:53:27] INFO root fetch - processPackages [dbt-af]: Downloading https://files.pythonhosted.org/packages/a6/65/a7edc4eb3fac0d73a4752f512644a183f83fdc547b85951028a50826f865/dbt_af-0.5.1.tar.gz
+[2024-05-31 10:53:27] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/2b/93/9572cd6061f7b751abb490b170eb8add5795cf245ede93c0b7d20b885a13/nomad_media_pip-0.0.99.tar.gz
+[2024-05-31 10:53:27] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/9a/46/066946726dee17bd984c54e6cb1b6a607c8858330058f05f55deb1a00091/fastapi_problem-0.7.8.tar.gz
+[2024-05-31 10:53:27] INFO root fetch - processPackages [adbui]: executing diffoscope
+[2024-05-31 10:53:27] INFO root fetch - processPackages [adbui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbui-4.5.8.tar.gz tmp/adbui-4.5.9.tar.gz --markdown 20240531/a/adbui/4.5.8-4.5.9/README.md --exclude *.pyd
+[2024-05-31 10:53:27] INFO root fetch - processPackages [nomad-media-pip]: executing diffoscope
+[2024-05-31 10:53:27] INFO root fetch - processPackages [nomad-media-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_media_pip-0.0.98.tar.gz tmp/nomad_media_pip-0.0.99.tar.gz --markdown 20240531/n/nomad-media-pip/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 10:53:27] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/d4/d0/a7ce60b4bd8f40086672b563c82b36bc980345555634a7ff83ff08ee1ba0/fastapi_problem-0.7.9.tar.gz
+[2024-05-31 10:53:27] INFO root fetch - processPackages [mnists]: Downloading https://files.pythonhosted.org/packages/c1/fa/aec13a833be78e99a84ef50a3ec1d0755d43ce95cc1132d0a3baefb8355d/mnists-0.3.0.tar.gz
+[2024-05-31 10:53:27] INFO root fetch - processPackages [hum]: Downloading https://files.pythonhosted.org/packages/da/5e/1d5f826b76363381c16014d298d74b0fe9f14305bdb5d7776b470be429aa/hum-0.1.9.tar.gz
+[2024-05-31 10:53:27] INFO root fetch - processPackages [fastapi-problem]: executing diffoscope
+[2024-05-31 10:53:27] INFO root fetch - processPackages [fastapi-problem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_problem-0.7.8.tar.gz tmp/fastapi_problem-0.7.9.tar.gz --markdown 20240531/f/fastapi-problem/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-31 10:53:27] INFO root fetch - processPackages [dbt-af]: Downloading https://files.pythonhosted.org/packages/74/fe/b1b095b57d062dc64e953f76e2d711e9b943f7138fd2ac15e2d1cbc86caa/dbt_af-0.5.2.tar.gz
+[2024-05-31 10:53:27] INFO root fetch - processPackages [mnists]: executing diffoscope
+[2024-05-31 10:53:27] INFO root fetch - processPackages [mnists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnists-0.2.1.tar.gz tmp/mnists-0.3.0.tar.gz --markdown 20240531/m/mnists/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-31 10:53:27] INFO root fetch - processPackages [hum]: executing diffoscope
+[2024-05-31 10:53:27] INFO root fetch - processPackages [hum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hum-0.1.8.tar.gz tmp/hum-0.1.9.tar.gz --markdown 20240531/h/hum/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 10:53:27] INFO root fetch - processPackages [dbt-af]: executing diffoscope
+[2024-05-31 10:53:27] INFO root fetch - processPackages [dbt-af]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_af-0.5.1.tar.gz tmp/dbt_af-0.5.2.tar.gz --markdown 20240531/d/dbt-af/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-31 10:53:27] INFO root fetch - processPackages [adbui]: Remove: archive file [/home/abi/fetcher/tmp/adbui-4.5.8.tar.gz]
+[2024-05-31 10:53:27] INFO root fetch - processPackages [adbui]: Remove: archive file [/home/abi/fetcher/tmp/adbui-4.5.9.tar.gz]
+[2024-05-31 10:53:27] INFO root fetch - main [MainThread]: End processing [adbui]: success
+[2024-05-31 10:53:28] INFO root fetch - processPackages [mnists]: Remove: archive file [/home/abi/fetcher/tmp/mnists-0.2.1.tar.gz]
+[2024-05-31 10:53:28] INFO root fetch - processPackages [mnists]: Remove: archive file [/home/abi/fetcher/tmp/mnists-0.3.0.tar.gz]
+[2024-05-31 10:53:28] INFO root fetch - main [MainThread]: End processing [mnists]: success
+[2024-05-31 10:53:28] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.8.tar.gz]
+[2024-05-31 10:53:28] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.9.tar.gz]
+[2024-05-31 10:53:28] INFO root fetch - main [MainThread]: End processing [fastapi-problem]: success
+[2024-05-31 10:53:28] INFO root fetch - processPackages [dbt-af]: Remove: archive file [/home/abi/fetcher/tmp/dbt_af-0.5.1.tar.gz]
+[2024-05-31 10:53:28] INFO root fetch - processPackages [dbt-af]: Remove: archive file [/home/abi/fetcher/tmp/dbt_af-0.5.2.tar.gz]
+[2024-05-31 10:53:28] INFO root fetch - main [MainThread]: End processing [dbt-af]: success
+[2024-05-31 10:53:28] INFO root fetch - processPackages [hum]: Remove: archive file [/home/abi/fetcher/tmp/hum-0.1.8.tar.gz]
+[2024-05-31 10:53:28] INFO root fetch - processPackages [hum]: Remove: archive file [/home/abi/fetcher/tmp/hum-0.1.9.tar.gz]
+[2024-05-31 10:53:28] INFO root fetch - main [MainThread]: End processing [hum]: success
+[2024-05-31 10:53:30] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.98.tar.gz]
+[2024-05-31 10:53:30] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
+[2024-05-31 10:53:30] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
+[2024-05-31 10:53:30] INFO root fetch - main [MainThread]: Store serial: [23463032]
