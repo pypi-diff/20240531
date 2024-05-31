@@ -11790,3 +11790,103 @@
 [2024-05-31 10:16:00] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.4.0.tar.gz]
 [2024-05-31 10:16:00] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
 [2024-05-31 10:16:00] INFO root fetch - main [MainThread]: Store serial: [23462614]
+[2024-05-31 10:18:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462614]
+[2024-05-31 10:18:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 10:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-aux
+[2024-05-31 10:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voxelworldapi
+[2024-05-31 10:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: springtime
+[2024-05-31 10:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baml-py
+[2024-05-31 10:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: voxelworldapi
+[2024-05-31 10:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-inventory
+[2024-05-31 10:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hypersync
+[2024-05-31 10:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rfc9457
+[2024-05-31 10:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyseg2
+[2024-05-31 10:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypath_common
+[2024-05-31 10:18:09] INFO root fetch - processPackages [voxelworldapi]: New version: [1.1] Old Version: [1.0]
+[2024-05-31 10:18:09] INFO root fetch - processPackages [pyseg2]: New version: [1.4.1] Old Version: [1.4]
+[2024-05-31 10:18:09] INFO root fetch - processPackages [pytest-aux]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-31 10:18:09] INFO root fetch - processPackages [voxelworldapi]: New version: [1.1] Old Version: [1.0]
+[2024-05-31 10:18:10] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-31 10:18:10] INFO root fetch - processPackages [rfc9457]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 10:18:10] INFO root fetch - processPackages [baml-py]: New version: [0.32.0] Old Version: [0.31.0]
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pyseg2]: Downloading https://files.pythonhosted.org/packages/f2/aa/04bd3a01ad8cc7ab6c55a4e3aa2c10b9367c32ed674ebdc583eaf5a9d657/pyseg2-1.4-py3-none-any.whl
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pypath_common]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-05-31 10:18:10] INFO root fetch - processPackages [springtime]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pytest-aux]: Downloading https://files.pythonhosted.org/packages/98/8b/a63844d658074a1a98163750046e46515280c81d801e1f040086968fe9ec/pytest_aux-0.0.3.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [hypersync]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-31 10:18:10] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [voxelworldapi]: Downloading https://files.pythonhosted.org/packages/6b/9a/30a8029562a277c0485ddc73b17a8d427bcfdf3a8060f9afe9669b139c8f/voxelworldapi-1.0.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [voxelworldapi]: Downloading https://files.pythonhosted.org/packages/6b/9a/30a8029562a277c0485ddc73b17a8d427bcfdf3a8060f9afe9669b139c8f/voxelworldapi-1.0.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [rfc9457]: Downloading https://files.pythonhosted.org/packages/9a/0f/f2f53321355093c66d24b5c8d38412d2a4a96f2554aeb20edb0502de25a7/rfc9457-0.0.8.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/aa/81/87c3365283c49166205307e2f65c695215a47c4fe0e7555870a35e5d468b/baml_py-0.31.0-cp38-abi3-win_amd64.whl
+[2024-05-31 10:18:10] INFO root fetch - processPackages [springtime]: Downloading https://files.pythonhosted.org/packages/cf/b2/a84a63a73152b8c84e940e58913b063060d1c3b2017fbff344f663e9f9d8/springtime-0.2.0.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pypath_common]: Downloading https://files.pythonhosted.org/packages/a7/55/c03405feab511c088b16353179845d3c05e1230ed600aa642c6a6683c4ec/pypath_common-0.2.0.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [hypersync]: Downloading https://files.pythonhosted.org/packages/e9/28/5f7ab399f714ab1cc128e512b0fee171527bb0a41925bee9696e60655fc2/hypersync-0.7.0.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pytest-aux]: Downloading https://files.pythonhosted.org/packages/fd/66/4e1c520770e90c07fca5af83e40656d898028c80c78441cfb25be60082f1/pytest_aux-0.0.5.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pyseg2]: Downloading https://files.pythonhosted.org/packages/e1/f8/248d0aaf47b02c230c652350e4067c20a309ddd1e9f394ab2ccef8bca227/pyseg2-1.4.1-py3-none-any.whl
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pytest-aux]: executing diffoscope
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pytest-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_aux-0.0.3.tar.gz tmp/pytest_aux-0.0.5.tar.gz --markdown 20240531/p/pytest-aux/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-31 10:18:10] INFO root fetch - processPackages [voxelworldapi]: Downloading https://files.pythonhosted.org/packages/88/31/a1dfe0e71ab275556505c47e0b6d7acf922c172f9c3f9d508e47fa47fb06/voxelworldapi-1.1-py3-none-any.whl
+[2024-05-31 10:18:10] INFO root fetch - processPackages [voxelworldapi]: Downloading https://files.pythonhosted.org/packages/88/31/a1dfe0e71ab275556505c47e0b6d7acf922c172f9c3f9d508e47fa47fb06/voxelworldapi-1.1-py3-none-any.whl
+[2024-05-31 10:18:10] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-31 10:18:10] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240531/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pyseg2]: executing diffoscope
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pyseg2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyseg2-1.4-py3-none-any.whl.zip tmp/pyseg2-1.4.1-py3-none-any.whl.zip --markdown 20240531/p/pyseg2/1.4-1.4.1/README.md --exclude *.pyd
+[2024-05-31 10:18:10] INFO root fetch - processPackages [rfc9457]: Downloading https://files.pythonhosted.org/packages/2a/d8/cfc9732a369c896d8aa80ba4ebfe8fc239804552049b7ed9660cb2de6029/rfc9457-0.0.9.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pypath_common]: Downloading https://files.pythonhosted.org/packages/cd/50/99ce90967cd16e690ef9ba278942d3597713122228e9c55cd9f467ac90e7/pypath_common-0.2.2.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [hypersync]: Downloading https://files.pythonhosted.org/packages/7d/f1/19f053f4ad29dc7221ec4937c13243974af7b0365865a5eb71594bc6f626/hypersync-0.7.1-cp312-cp312-macosx_10_12_x86_64.whl
+[2024-05-31 10:18:10] INFO root fetch - processPackages [voxelworldapi]: executing diffoscope
+[2024-05-31 10:18:10] INFO root fetch - processPackages [voxelworldapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelworldapi-1.0.tar.gz tmp/voxelworldapi-1.1-py3-none-any.whl.zip --markdown 20240531/v/voxelworldapi/1.0-1.1/README.md --exclude *.pyd
+[2024-05-31 10:18:10] INFO root fetch - processPackages [springtime]: Downloading https://files.pythonhosted.org/packages/0c/4b/24538f2c7c1876e95855acc4222023dda43090302088bb23f6629b2abc25/springtime-0.2.2.tar.gz
+[2024-05-31 10:18:10] INFO root fetch - processPackages [voxelworldapi]: executing diffoscope
+[2024-05-31 10:18:10] INFO root fetch - processPackages [voxelworldapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelworldapi-1.0.tar.gz tmp/voxelworldapi-1.1-py3-none-any.whl.zip --markdown 20240531/v/voxelworldapi/1.0-1.1/README.md --exclude *.pyd
+[2024-05-31 10:18:10] INFO root fetch - processPackages [rfc9457]: executing diffoscope
+[2024-05-31 10:18:10] INFO root fetch - processPackages [rfc9457]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfc9457-0.0.8.tar.gz tmp/rfc9457-0.0.9.tar.gz --markdown 20240531/r/rfc9457/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 10:18:10] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/46/66/8fd4c20ef4a15d99a5e3458ce36c47973125d65988d9a1dead4a1ee9d335/baml_py-0.32.0-cp38-abi3-win_amd64.whl
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pypath_common]: executing diffoscope
+[2024-05-31 10:18:10] INFO root fetch - processPackages [pypath_common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypath_common-0.2.0.tar.gz tmp/pypath_common-0.2.2.tar.gz --markdown 20240531/p/pypath_common/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-05-31 10:18:11] INFO root fetch - processPackages [springtime]: executing diffoscope
+[2024-05-31 10:18:11] INFO root fetch - processPackages [springtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/springtime-0.2.0.tar.gz tmp/springtime-0.2.2.tar.gz --markdown 20240531/s/springtime/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-05-31 10:18:11] INFO root fetch - processPackages [pytest-aux]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aux-0.0.3.tar.gz]
+[2024-05-31 10:18:11] INFO root fetch - processPackages [pytest-aux]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aux-0.0.5.tar.gz]
+[2024-05-31 10:18:11] INFO root fetch - processPackages [pytest-aux]: Start processing: easy-fnc
+[2024-05-31 10:18:11] INFO root fetch - main [MainThread]: End processing [pytest-aux]: success
+[2024-05-31 10:18:11] INFO root fetch - processPackages [easy-fnc]: New version: [0.1.2.1] Old Version: [0.1.2]
+[2024-05-31 10:18:11] INFO root fetch - processPackages [voxelworldapi]: Remove: archive file [/home/abi/fetcher/tmp/voxelworldapi-1.0.tar.gz]
+[2024-05-31 10:18:11] INFO root fetch - processPackages [voxelworldapi]: Remove: archive file [/home/abi/fetcher/tmp/voxelworldapi-1.1-py3-none-any.whl.zip]
+[2024-05-31 10:18:11] INFO root fetch - main [MainThread]: End processing [voxelworldapi]: success
+[2024-05-31 10:18:11] INFO root fetch - processPackages [pyseg2]: Remove: archive file [/home/abi/fetcher/tmp/pyseg2-1.4-py3-none-any.whl.zip]
+[2024-05-31 10:18:11] INFO root fetch - processPackages [pyseg2]: Remove: archive file [/home/abi/fetcher/tmp/pyseg2-1.4.1-py3-none-any.whl.zip]
+[2024-05-31 10:18:11] INFO root fetch - main [MainThread]: End processing [pyseg2]: success
+[2024-05-31 10:18:11] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/0a/e3/156671a225425316e9e73afed9cd0f47cd92e70e60c2fc10b2bb10f603f6/easy_fnc-0.1.2.tar.gz
+[2024-05-31 10:18:11] INFO root fetch - main [MainThread]: End processing [voxelworldapi]: success
+[2024-05-31 10:18:11] INFO root fetch - processPackages [rfc9457]: Remove: archive file [/home/abi/fetcher/tmp/rfc9457-0.0.8.tar.gz]
+[2024-05-31 10:18:11] INFO root fetch - processPackages [rfc9457]: Remove: archive file [/home/abi/fetcher/tmp/rfc9457-0.0.9.tar.gz]
+[2024-05-31 10:18:11] INFO root fetch - main [MainThread]: End processing [rfc9457]: success
+[2024-05-31 10:18:11] INFO root fetch - processPackages [hypersync]: executing diffoscope
+[2024-05-31 10:18:11] INFO root fetch - processPackages [hypersync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypersync-0.7.0.tar.gz tmp/hypersync-0.7.1-cp312-cp312-macosx_10_12_x86_64.whl.zip --markdown 20240531/h/hypersync/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-31 10:18:11] INFO root fetch - processPackages [springtime]: Remove: archive file [/home/abi/fetcher/tmp/springtime-0.2.0.tar.gz]
+[2024-05-31 10:18:11] INFO root fetch - processPackages [springtime]: Remove: archive file [/home/abi/fetcher/tmp/springtime-0.2.2.tar.gz]
+[2024-05-31 10:18:11] INFO root fetch - main [MainThread]: End processing [springtime]: success
+[2024-05-31 10:18:11] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/66/a1/293dea8744e5a72cadc2ecc9fbadf44fd3dea6dec85608ac95e8696c6500/easy_fnc-0.1.2.1.tar.gz
+[2024-05-31 10:18:11] INFO root fetch - processPackages [baml-py]: executing diffoscope
+[2024-05-31 10:18:11] INFO root fetch - processPackages [baml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml_py-0.31.0-cp38-abi3-win_amd64.whl.zip tmp/baml_py-0.32.0-cp38-abi3-win_amd64.whl.zip --markdown 20240531/b/baml-py/0.31.0-0.32.0/README.md --exclude *.pyd
+[2024-05-31 10:18:11] INFO root fetch - processPackages [pypath_common]: Remove: archive file [/home/abi/fetcher/tmp/pypath_common-0.2.0.tar.gz]
+[2024-05-31 10:18:11] INFO root fetch - processPackages [pypath_common]: Remove: archive file [/home/abi/fetcher/tmp/pypath_common-0.2.2.tar.gz]
+[2024-05-31 10:18:11] INFO root fetch - main [MainThread]: End processing [pypath_common]: success
+[2024-05-31 10:18:12] INFO root fetch - processPackages [easy-fnc]: executing diffoscope
+[2024-05-31 10:18:12] INFO root fetch - processPackages [easy-fnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_fnc-0.1.2.tar.gz tmp/easy_fnc-0.1.2.1.tar.gz --markdown 20240531/e/easy-fnc/0.1.2-0.1.2.1/README.md --exclude *.pyd
+[2024-05-31 10:18:12] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-31 10:18:12] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-31 10:18:12] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-31 10:18:12] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.31.0-cp38-abi3-win_amd64.whl.zip]
+[2024-05-31 10:18:12] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.32.0-cp38-abi3-win_amd64.whl.zip]
+[2024-05-31 10:18:12] INFO root fetch - main [MainThread]: End processing [baml-py]: success
+[2024-05-31 10:18:12] INFO root fetch - processPackages [easy-fnc]: Remove: archive file [/home/abi/fetcher/tmp/easy_fnc-0.1.2.tar.gz]
+[2024-05-31 10:18:12] INFO root fetch - processPackages [easy-fnc]: Remove: archive file [/home/abi/fetcher/tmp/easy_fnc-0.1.2.1.tar.gz]
+[2024-05-31 10:18:12] INFO root fetch - main [MainThread]: End processing [easy-fnc]: success
+[2024-05-31 10:18:12] INFO root fetch - processPackages [hypersync]: Remove: archive file [/home/abi/fetcher/tmp/hypersync-0.7.0.tar.gz]
+[2024-05-31 10:18:12] INFO root fetch - processPackages [hypersync]: Remove: archive file [/home/abi/fetcher/tmp/hypersync-0.7.1-cp312-cp312-macosx_10_12_x86_64.whl.zip]
+[2024-05-31 10:18:12] INFO root fetch - main [MainThread]: End processing [hypersync]: success
+[2024-05-31 10:18:12] INFO root fetch - main [MainThread]: Store serial: [23462656]
