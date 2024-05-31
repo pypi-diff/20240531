@@ -13464,3 +13464,67 @@
 [2024-05-31 11:24:31] INFO root fetch - processPackages [idbt]: Remove: archive file [/home/abi/fetcher/tmp/idbt-0.0.4.tar.gz]
 [2024-05-31 11:24:31] INFO root fetch - main [MainThread]: End processing [idbt]: success
 [2024-05-31 11:24:31] INFO root fetch - main [MainThread]: Store serial: [23463349]
+[2024-05-31 11:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463349]
+[2024-05-31 11:26:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 11:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lavague-core
+[2024-05-31 11:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edit-distance-correction
+[2024-05-31 11:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-docker-build
+[2024-05-31 11:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-docker-build
+[2024-05-31 11:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: idbt
+[2024-05-31 11:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botasaurus-requests
+[2024-05-31 11:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irispie
+[2024-05-31 11:26:40] INFO root fetch - processPackages [idbt]: New version: [0.0.4] Old Version: [0.0.3rc0]
+[2024-05-31 11:26:40] INFO root fetch - processPackages [lavague-core]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-31 11:26:40] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/17/e4/30e96503c826a86accba8478c1eceebbd6e04c3bc840a3b3632eed99f52c/idbt-0.0.3rc0.tar.gz
+[2024-05-31 11:26:40] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/3c/0a/f8a27d43c3b705f09c3a349deb94e81615a76147a38deebc6de36e4d6336/lavague_core-0.2.1.tar.gz
+[2024-05-31 11:26:40] INFO root fetch - processPackages [edit-distance-correction]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-31 11:26:40] INFO root fetch - processPackages [pulumi-docker-build]: New version: [0.1.0a1717145876] Old Version: [0.1.0a1717145832]
+[2024-05-31 11:26:40] INFO root fetch - processPackages [pulumi-docker-build]: New version: [0.1.0a1717145876] Old Version: [0.1.0a1717145832]
+[2024-05-31 11:26:40] INFO root fetch - processPackages [botasaurus-requests]: New version: [4.0.7] Old Version: [4.0.5]
+[2024-05-31 11:26:40] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-31 11:26:41] INFO root fetch - processPackages [edit-distance-correction]: Downloading https://files.pythonhosted.org/packages/e8/0a/95df8752a8a320e8664fb2fd40efeb06d1f1cdca9ffa77fcceed8baedd63/edit_distance_correction-1.1.6-py3-none-any.whl
+[2024-05-31 11:26:41] INFO root fetch - processPackages [idbt]: Downloading https://files.pythonhosted.org/packages/5e/5d/50408dfb0a2245afc9771406dff6185f06fadd0bf2cd3d956e3abe8b05de/idbt-0.0.4.tar.gz
+[2024-05-31 11:26:41] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/4d/5c/075f07d36da13f55d8c436cac5e147a690f82b83532811fcdafad5e6fc17/pulumi_docker_build-0.1.0a1717145832.tar.gz
+[2024-05-31 11:26:41] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/4d/5c/075f07d36da13f55d8c436cac5e147a690f82b83532811fcdafad5e6fc17/pulumi_docker_build-0.1.0a1717145832.tar.gz
+[2024-05-31 11:26:41] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-05-31 11:26:41] INFO root fetch - processPackages [botasaurus-requests]: Downloading https://files.pythonhosted.org/packages/b0/df/0e0b8fdc7b55c3c6611a425de490f1ca6dd072dbb0ce6f44b1452c98eb31/botasaurus_requests-4.0.5.tar.gz
+[2024-05-31 11:26:41] INFO root fetch - processPackages [idbt]: executing diffoscope
+[2024-05-31 11:26:41] INFO root fetch - processPackages [idbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbt-0.0.3rc0.tar.gz tmp/idbt-0.0.4.tar.gz --markdown 20240531/i/idbt/0.0.3rc0-0.0.4/README.md --exclude *.pyd
+[2024-05-31 11:26:41] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/f6/39/db449b51719bf85895ccbf1d3e541e5a688e97214b14adac6d695a67c575/lavague_core-0.2.2.tar.gz
+[2024-05-31 11:26:41] INFO root fetch - processPackages [lavague-core]: executing diffoscope
+[2024-05-31 11:26:41] INFO root fetch - processPackages [lavague-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague_core-0.2.1.tar.gz tmp/lavague_core-0.2.2.tar.gz --markdown 20240531/l/lavague-core/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-31 11:26:41] INFO root fetch - processPackages [edit-distance-correction]: Downloading https://files.pythonhosted.org/packages/0b/6a/f9b3719d6a07e4dc4d4e6543e55ce494e160a9c1a7c9c7ac0caae3ffa27e/edit_distance_correction-1.1.7-py3-none-any.whl
+[2024-05-31 11:26:41] INFO root fetch - processPackages [edit-distance-correction]: executing diffoscope
+[2024-05-31 11:26:41] INFO root fetch - processPackages [edit-distance-correction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edit_distance_correction-1.1.6-py3-none-any.whl.zip tmp/edit_distance_correction-1.1.7-py3-none-any.whl.zip --markdown 20240531/e/edit-distance-correction/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-31 11:26:41] INFO root fetch - processPackages [botasaurus-requests]: Downloading https://files.pythonhosted.org/packages/f4/61/7a96a1015aea85e93b2c3a3d4e689857659ac076ac8d868d7494c68c115f/botasaurus_requests-4.0.7.tar.gz
+[2024-05-31 11:26:41] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/7c/6c/c2a1e1a6185a43f449956af92f8cbca57c7448c8568e51ae3f19d03e1959/pulumi_docker_build-0.1.0a1717145876.tar.gz
+[2024-05-31 11:26:41] INFO root fetch - processPackages [pulumi-docker-build]: Downloading https://files.pythonhosted.org/packages/7c/6c/c2a1e1a6185a43f449956af92f8cbca57c7448c8568e51ae3f19d03e1959/pulumi_docker_build-0.1.0a1717145876.tar.gz
+[2024-05-31 11:26:41] INFO root fetch - processPackages [botasaurus-requests]: executing diffoscope
+[2024-05-31 11:26:41] INFO root fetch - processPackages [botasaurus-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_requests-4.0.5.tar.gz tmp/botasaurus_requests-4.0.7.tar.gz --markdown 20240531/b/botasaurus-requests/4.0.5-4.0.7/README.md --exclude *.pyd
+[2024-05-31 11:26:41] INFO root fetch - processPackages [pulumi-docker-build]: executing diffoscope
+[2024-05-31 11:26:41] INFO root fetch - processPackages [pulumi-docker-build]: executing diffoscope
+[2024-05-31 11:26:41] INFO root fetch - processPackages [pulumi-docker-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker_build-0.1.0a1717145832.tar.gz tmp/pulumi_docker_build-0.1.0a1717145876.tar.gz --markdown 20240531/p/pulumi-docker-build/0.1.0a1717145832-0.1.0a1717145876/README.md --exclude *.pyd
+[2024-05-31 11:26:41] INFO root fetch - processPackages [pulumi-docker-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker_build-0.1.0a1717145832.tar.gz tmp/pulumi_docker_build-0.1.0a1717145876.tar.gz --markdown 20240531/p/pulumi-docker-build/0.1.0a1717145832-0.1.0a1717145876/README.md --exclude *.pyd
+[2024-05-31 11:26:41] INFO root fetch - processPackages [idbt]: Remove: archive file [/home/abi/fetcher/tmp/idbt-0.0.3rc0.tar.gz]
+[2024-05-31 11:26:41] INFO root fetch - processPackages [idbt]: Remove: archive file [/home/abi/fetcher/tmp/idbt-0.0.4.tar.gz]
+[2024-05-31 11:26:41] INFO root fetch - main [MainThread]: End processing [idbt]: success
+[2024-05-31 11:26:42] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.2.1.tar.gz]
+[2024-05-31 11:26:42] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.2.2.tar.gz]
+[2024-05-31 11:26:42] INFO root fetch - main [MainThread]: End processing [lavague-core]: success
+[2024-05-31 11:26:42] INFO root fetch - processPackages [edit-distance-correction]: Remove: archive file [/home/abi/fetcher/tmp/edit_distance_correction-1.1.6-py3-none-any.whl.zip]
+[2024-05-31 11:26:42] INFO root fetch - processPackages [edit-distance-correction]: Remove: archive file [/home/abi/fetcher/tmp/edit_distance_correction-1.1.7-py3-none-any.whl.zip]
+[2024-05-31 11:26:42] INFO root fetch - main [MainThread]: End processing [edit-distance-correction]: success
+[2024-05-31 11:26:42] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-05-31 11:26:42] INFO root fetch - processPackages [botasaurus-requests]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_requests-4.0.5.tar.gz]
+[2024-05-31 11:26:42] INFO root fetch - processPackages [botasaurus-requests]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_requests-4.0.7.tar.gz]
+[2024-05-31 11:26:42] INFO root fetch - main [MainThread]: End processing [botasaurus-requests]: success
+[2024-05-31 11:26:42] INFO root fetch - processPackages [pulumi-docker-build]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker_build-0.1.0a1717145832.tar.gz]
+[2024-05-31 11:26:42] INFO root fetch - processPackages [pulumi-docker-build]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_docker_build-0.1.0a1717145876.tar.gz]
+[2024-05-31 11:26:42] INFO root fetch - main [MainThread]: End processing [pulumi-docker-build]: success
+[2024-05-31 11:26:42] INFO root fetch - main [MainThread]: End processing [pulumi-docker-build]: success
+[2024-05-31 11:26:43] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-05-31 11:26:43] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240531/i/irispie/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-31 11:26:45] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-05-31 11:26:45] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-05-31 11:26:45] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-05-31 11:26:45] INFO root fetch - main [MainThread]: Store serial: [23463376]
