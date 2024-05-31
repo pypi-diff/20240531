@@ -11890,3 +11890,50 @@
 [2024-05-31 10:18:12] INFO root fetch - processPackages [hypersync]: Remove: archive file [/home/abi/fetcher/tmp/hypersync-0.7.1-cp312-cp312-macosx_10_12_x86_64.whl.zip]
 [2024-05-31 10:18:12] INFO root fetch - main [MainThread]: End processing [hypersync]: success
 [2024-05-31 10:18:12] INFO root fetch - main [MainThread]: Store serial: [23462656]
+[2024-05-31 10:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462656]
+[2024-05-31 10:20:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 10:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-31 10:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reaction-local
+[2024-05-31 10:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LangRAGEval
+[2024-05-31 10:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: creme-crm
+[2024-05-31 10:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seria-library
+[2024-05-31 10:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-problem
+[2024-05-31 10:20:21] INFO root fetch - processPackages [seria-library]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-31 10:20:21] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-31 10:20:21] WARNING root fetch - processPackages [LangRAGEval]: Skipping, unable to determine old version
+[2024-05-31 10:20:21] INFO root fetch - main [MainThread]: End processing [LangRAGEval] error
+[2024-05-31 10:20:21] INFO root fetch - processPackages [creme-crm]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-05-31 10:20:21] INFO root fetch - processPackages [reaction-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 10:20:21] INFO root fetch - processPackages [fastapi-problem]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-31 10:20:21] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-31 10:20:21] INFO root fetch - processPackages [seria-library]: Downloading https://files.pythonhosted.org/packages/25/9c/2fdb53a288a401d13774216e3d8a46fe944f746289f8e28d23da21aecd24/seria_library-1.4.0.tar.gz
+[2024-05-31 10:20:21] INFO root fetch - processPackages [creme-crm]: Downloading https://files.pythonhosted.org/packages/93/50/81dca09bad5373bb42e2c77da42b6f5d53f9dbbb4bf3cd472d8ccc54aa25/creme_crm-2.5.8.tar.gz
+[2024-05-31 10:20:21] INFO root fetch - processPackages [reaction-local]: Downloading https://files.pythonhosted.org/packages/a6/9d/166c1f9c5c4ac252cc5a9501c4fe45b226c5e8ead84780af6e5d1f64c7a0/reaction-local-0.0.8.tar.gz
+[2024-05-31 10:20:21] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/9a/46/066946726dee17bd984c54e6cb1b6a607c8858330058f05f55deb1a00091/fastapi_problem-0.7.8.tar.gz
+[2024-05-31 10:20:21] WARNING root fetch - processPackages [creme-crm]: Skipping package: exceeds size limit 24042383>=10485760
+[2024-05-31 10:20:21] INFO root fetch - main [MainThread]: End processing [creme-crm] error
+[2024-05-31 10:20:21] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-31 10:20:21] INFO root fetch - processPackages [seria-library]: Downloading https://files.pythonhosted.org/packages/c6/08/7f5854a00378c803da8aff887960d762bdfb44332869c80efaa697cf99ca/seria_library-1.5.0.tar.gz
+[2024-05-31 10:20:22] INFO root fetch - processPackages [seria-library]: executing diffoscope
+[2024-05-31 10:20:22] INFO root fetch - processPackages [seria-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seria_library-1.4.0.tar.gz tmp/seria_library-1.5.0.tar.gz --markdown 20240531/s/seria-library/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-31 10:20:22] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-31 10:20:22] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240531/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-31 10:20:22] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/d4/d0/a7ce60b4bd8f40086672b563c82b36bc980345555634a7ff83ff08ee1ba0/fastapi_problem-0.7.9.tar.gz
+[2024-05-31 10:20:22] INFO root fetch - processPackages [reaction-local]: Downloading https://files.pythonhosted.org/packages/91/b7/5064d1d9f93220746c18f37cc5d646c060856eec1f817013f2d082124868/reaction-local-0.0.9.tar.gz
+[2024-05-31 10:20:22] INFO root fetch - processPackages [fastapi-problem]: executing diffoscope
+[2024-05-31 10:20:22] INFO root fetch - processPackages [fastapi-problem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_problem-0.7.8.tar.gz tmp/fastapi_problem-0.7.9.tar.gz --markdown 20240531/f/fastapi-problem/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-31 10:20:22] INFO root fetch - processPackages [reaction-local]: executing diffoscope
+[2024-05-31 10:20:22] INFO root fetch - processPackages [reaction-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaction-local-0.0.8.tar.gz tmp/reaction-local-0.0.9.tar.gz --markdown 20240531/r/reaction-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 10:20:22] INFO root fetch - processPackages [seria-library]: Remove: archive file [/home/abi/fetcher/tmp/seria_library-1.4.0.tar.gz]
+[2024-05-31 10:20:22] INFO root fetch - processPackages [seria-library]: Remove: archive file [/home/abi/fetcher/tmp/seria_library-1.5.0.tar.gz]
+[2024-05-31 10:20:22] INFO root fetch - main [MainThread]: End processing [seria-library]: success
+[2024-05-31 10:20:22] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.8.tar.gz]
+[2024-05-31 10:20:22] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.9.tar.gz]
+[2024-05-31 10:20:22] INFO root fetch - main [MainThread]: End processing [fastapi-problem]: success
+[2024-05-31 10:20:22] INFO root fetch - processPackages [reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/reaction-local-0.0.8.tar.gz]
+[2024-05-31 10:20:22] INFO root fetch - processPackages [reaction-local]: Remove: archive file [/home/abi/fetcher/tmp/reaction-local-0.0.9.tar.gz]
+[2024-05-31 10:20:22] INFO root fetch - main [MainThread]: End processing [reaction-local]: success
+[2024-05-31 10:20:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-31 10:20:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-31 10:20:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-31 10:20:23] INFO root fetch - main [MainThread]: Store serial: [23462686]
