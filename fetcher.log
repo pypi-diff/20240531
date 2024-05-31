@@ -9959,3 +9959,60 @@
 [2024-05-31 09:05:48] INFO root fetch - processPackages [enigma-workflow-14]: Remove: archive file [/home/abi/fetcher/tmp/enigma_workflow_14-14.0.7-cp39-cp39-macosx_11_0_arm64.whl.zip]
 [2024-05-31 09:05:48] INFO root fetch - main [MainThread]: End processing [enigma-workflow-14]: success
 [2024-05-31 09:05:48] INFO root fetch - main [MainThread]: Store serial: [23461702]
+[2024-05-31 09:07:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461702]
+[2024-05-31 09:07:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 09:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-splunk
+[2024-05-31 09:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trust-plutus-namematch
+[2024-05-31 09:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycanum
+[2024-05-31 09:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-spotinst
+[2024-05-31 09:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-tls
+[2024-05-31 09:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: privacera-shield
+[2024-05-31 09:07:58] INFO root fetch - processPackages [privacera-shield]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-31 09:07:58] INFO root fetch - processPackages [trust-plutus-namematch]: New version: [2.1] Old Version: [2]
+[2024-05-31 09:07:58] INFO root fetch - processPackages [privacera-shield]: Downloading https://files.pythonhosted.org/packages/72/6d/bb474c6ccf97efc0042401a9b53cb8d510bae8d4cec54b6e5fb60ac49482/privacera_shield-1.1.5-py3-none-any.whl
+[2024-05-31 09:07:58] INFO root fetch - processPackages [pycanum]: New version: [5.0.0] Old Version: [4.2.7]
+[2024-05-31 09:07:58] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/94/eb/045efc4241cea0929a7380d6479b6fe725ebba921f59fd35e46f08c13ef5/trust_plutus_namematch-2.tar.gz
+[2024-05-31 09:07:58] INFO root fetch - processPackages [pulumi-tls]: New version: [5.1.0a1717138108] Old Version: [5.1.0a1716964117]
+[2024-05-31 09:07:58] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1717137753] Old Version: [1.3.0a1716963716]
+[2024-05-31 09:07:58] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-05-31 09:07:58] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/dd/cf/f9ad1b1a41e0571bc26869ad2e4a2d35514789991a01a018f7add853b74e/trust_plutus_namematch-2.1.tar.gz
+[2024-05-31 09:07:58] INFO root fetch - processPackages [pycanum]: Downloading https://files.pythonhosted.org/packages/fe/6c/b20b9fad999b7bbec7c31a4055ee6ce669bdba17c5e12e95db216d3599d7/pycanum-4.2.7-cp39-cp39-win32.whl
+[2024-05-31 09:07:58] INFO root fetch - processPackages [privacera-shield]: Downloading https://files.pythonhosted.org/packages/c0/ec/e1e6b2efb8547765b24a68bbd9b7cd2b8d33b04f71e954bd29ec95cc02a8/privacera_shield-1.1.6-py3-none-any.whl
+[2024-05-31 09:07:58] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-05-31 09:07:58] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/83/84/c21862eeee0fb2f256ec7c3c0675c330c164be15e4f53d02677203c8d0b1/pulumi_tls-5.1.0a1716964117.tar.gz
+[2024-05-31 09:07:58] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/75/0c/ecfaab3c79f0011127f9b6c69b3fccd769918034bac371e9da56ef7d7d1c/pulumi_splunk-1.3.0a1716963716.tar.gz
+[2024-05-31 09:07:58] INFO root fetch - processPackages [trust-plutus-namematch]: executing diffoscope
+[2024-05-31 09:07:58] INFO root fetch - processPackages [trust-plutus-namematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trust_plutus_namematch-2.tar.gz tmp/trust_plutus_namematch-2.1.tar.gz --markdown 20240531/t/trust-plutus-namematch/2-2.1/README.md --exclude *.pyd
+[2024-05-31 09:07:58] INFO root fetch - processPackages [privacera-shield]: executing diffoscope
+[2024-05-31 09:07:58] INFO root fetch - processPackages [privacera-shield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/privacera_shield-1.1.5-py3-none-any.whl.zip tmp/privacera_shield-1.1.6-py3-none-any.whl.zip --markdown 20240531/p/privacera-shield/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pycanum]: Downloading https://files.pythonhosted.org/packages/e1/c5/c188bad719344f70c47f7e30e59b14c92f10b30e36dfd78d00f46c110e1d/pycanum-5.0.0-py3-none-any.whl
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pulumi-tls]: Downloading https://files.pythonhosted.org/packages/04/9c/0a1bbec1e18b2f93b4fe17e0be67e510cd92b88e1d1ea8a3f0244dab9ac8/pulumi_tls-5.1.0a1717138108.tar.gz
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/27/94/d16a9f54d7110a74fe911b2382f74016872e34fd34c83652dbf2954ea0b1/pulumi_splunk-1.3.0a1717137753.tar.gz
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1716963716.tar.gz tmp/pulumi_splunk-1.3.0a1717137753.tar.gz --markdown 20240531/p/pulumi-splunk/1.3.0a1716963716-1.3.0a1717137753/README.md --exclude *.pyd
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240531/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/README.md --exclude *.pyd
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pulumi-tls]: executing diffoscope
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pulumi-tls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tls-5.1.0a1716964117.tar.gz tmp/pulumi_tls-5.1.0a1717138108.tar.gz --markdown 20240531/p/pulumi-tls/5.1.0a1716964117-5.1.0a1717138108/README.md --exclude *.pyd
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pycanum]: executing diffoscope
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pycanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycanum-4.2.7-cp39-cp39-win32.whl.zip tmp/pycanum-5.0.0-py3-none-any.whl.zip --markdown 20240531/p/pycanum/4.2.7-5.0.0/README.md --exclude *.pyd
+[2024-05-31 09:07:59] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-2.tar.gz]
+[2024-05-31 09:07:59] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-2.1.tar.gz]
+[2024-05-31 09:07:59] INFO root fetch - main [MainThread]: End processing [trust-plutus-namematch]: success
+[2024-05-31 09:07:59] INFO root fetch - processPackages [privacera-shield]: Remove: archive file [/home/abi/fetcher/tmp/privacera_shield-1.1.5-py3-none-any.whl.zip]
+[2024-05-31 09:07:59] INFO root fetch - processPackages [privacera-shield]: Remove: archive file [/home/abi/fetcher/tmp/privacera_shield-1.1.6-py3-none-any.whl.zip]
+[2024-05-31 09:07:59] INFO root fetch - main [MainThread]: End processing [privacera-shield]: success
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pycanum]: Remove: archive file [/home/abi/fetcher/tmp/pycanum-4.2.7-cp39-cp39-win32.whl.zip]
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pycanum]: Remove: archive file [/home/abi/fetcher/tmp/pycanum-5.0.0-py3-none-any.whl.zip]
+[2024-05-31 09:07:59] INFO root fetch - main [MainThread]: End processing [pycanum]: success
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1716964117.tar.gz]
+[2024-05-31 09:07:59] INFO root fetch - processPackages [pulumi-tls]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tls-5.1.0a1717138108.tar.gz]
+[2024-05-31 09:07:59] INFO root fetch - main [MainThread]: End processing [pulumi-tls]: success
+[2024-05-31 09:08:00] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1716963716.tar.gz]
+[2024-05-31 09:08:00] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1717137753.tar.gz]
+[2024-05-31 09:08:00] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2024-05-31 09:08:00] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-05-31 09:08:00] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-05-31 09:08:00] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-05-31 09:08:00] INFO root fetch - main [MainThread]: Store serial: [23461726]
