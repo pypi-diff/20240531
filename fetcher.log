@@ -9257,3 +9257,32 @@
 [2024-05-31 08:30:17] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.9.tar.gz]
 [2024-05-31 08:30:17] INFO root fetch - main [MainThread]: End processing [oslili]: success
 [2024-05-31 08:30:17] INFO root fetch - main [MainThread]: Store serial: [23461347]
+[2024-05-31 08:32:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461347]
+[2024-05-31 08:32:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 08:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datajunction-server
+[2024-05-31 08:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-mongodbatlas
+[2024-05-31 08:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylc-cli
+[2024-05-31 08:32:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansible-variables
+[2024-05-31 08:32:27] WARNING root fetch - processPackages [pylc-cli]: Skipping, unable to determine old version
+[2024-05-31 08:32:27] INFO root fetch - main [MainThread]: End processing [pylc-cli] error
+[2024-05-31 08:32:27] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-05-31 08:32:27] INFO root fetch - processPackages [ansible-variables]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-31 08:32:27] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-31 08:32:27] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2024-05-31 08:32:27] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2024-05-31 08:32:27] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2024-05-31 08:32:28] INFO root fetch - processPackages [ansible-variables]: Downloading https://files.pythonhosted.org/packages/ce/ea/e5830bf84e89a1f383ab208535c03f1c5c497491824576e15272ae406879/ansible-variables-0.6.1.tar.gz
+[2024-05-31 08:32:28] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2024-05-31 08:32:28] INFO root fetch - processPackages [ansible-variables]: Downloading https://files.pythonhosted.org/packages/54/c1/e4c8876cbf074d658921d8790164ea946ff7a54d16f9fdb9858a7e7719ab/ansible_variables-0.7.0.tar.gz
+[2024-05-31 08:32:28] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2024-05-31 08:32:28] INFO root fetch - processPackages [ansible-variables]: executing diffoscope
+[2024-05-31 08:32:28] INFO root fetch - processPackages [ansible-variables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-variables-0.6.1.tar.gz tmp/ansible_variables-0.7.0.tar.gz --markdown 20240531/a/ansible-variables/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-31 08:32:28] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2024-05-31 08:32:28] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20240531/p/pulumi-mongodbatlas/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-31 08:32:29] INFO root fetch - processPackages [ansible-variables]: Remove: archive file [/home/abi/fetcher/tmp/ansible-variables-0.6.1.tar.gz]
+[2024-05-31 08:32:29] INFO root fetch - processPackages [ansible-variables]: Remove: archive file [/home/abi/fetcher/tmp/ansible_variables-0.7.0.tar.gz]
+[2024-05-31 08:32:29] INFO root fetch - main [MainThread]: End processing [ansible-variables]: success
+[2024-05-31 08:32:30] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2024-05-31 08:32:30] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2024-05-31 08:32:30] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2024-05-31 08:32:30] INFO root fetch - main [MainThread]: Store serial: [23461369]
