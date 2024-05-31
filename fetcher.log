@@ -9425,3 +9425,36 @@
 [2024-05-31 08:39:33] INFO root fetch - processPackages [ez-zarr]: Remove: archive file [/home/abi/fetcher/tmp/ez_zarr-0.2.0.tar.gz]
 [2024-05-31 08:39:33] INFO root fetch - main [MainThread]: End processing [ez-zarr]: success
 [2024-05-31 08:39:33] INFO root fetch - main [MainThread]: Store serial: [23461477]
+[2024-05-31 08:41:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461477]
+[2024-05-31 08:41:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nordvpn-best-switcher
+[2024-05-31 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nifcloud-cli
+[2024-05-31 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-identity
+[2024-05-31 08:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-api
+[2024-05-31 08:41:41] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-31 08:41:41] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-05-31 08:41:41] INFO root fetch - processPackages [nifcloud-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-31 08:41:41] WARNING root fetch - processPackages [nordvpn-best-switcher]: Skipping, unable to determine old version
+[2024-05-31 08:41:41] INFO root fetch - main [MainThread]: End processing [nordvpn-best-switcher] error
+[2024-05-31 08:41:41] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-05-31 08:41:41] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-05-31 08:41:42] INFO root fetch - processPackages [nifcloud-cli]: Downloading https://files.pythonhosted.org/packages/8f/eb/244a0a75544dd40a140e3efdccb1a136f1ab42a0cff6232aa662dad7dac1/nifcloud-cli-1.8.0.tar.gz
+[2024-05-31 08:41:42] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-05-31 08:41:42] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-05-31 08:41:42] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-05-31 08:41:42] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240531/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-05-31 08:41:42] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-05-31 08:41:42] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240531/s/spaceone-identity/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-31 08:41:42] INFO root fetch - processPackages [nifcloud-cli]: Downloading https://files.pythonhosted.org/packages/27/0a/d40670f357a988cc247afd658decacc6d4a267a18e4e8023b88fa24019a4/nifcloud-cli-1.9.0.tar.gz
+[2024-05-31 08:41:42] INFO root fetch - processPackages [nifcloud-cli]: executing diffoscope
+[2024-05-31 08:41:42] INFO root fetch - processPackages [nifcloud-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifcloud-cli-1.8.0.tar.gz tmp/nifcloud-cli-1.9.0.tar.gz --markdown 20240531/n/nifcloud-cli/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-31 08:41:43] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-05-31 08:41:43] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-05-31 08:41:43] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-05-31 08:41:43] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-05-31 08:41:43] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-05-31 08:41:43] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-05-31 08:41:43] INFO root fetch - processPackages [nifcloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-cli-1.8.0.tar.gz]
+[2024-05-31 08:41:43] INFO root fetch - processPackages [nifcloud-cli]: Remove: archive file [/home/abi/fetcher/tmp/nifcloud-cli-1.9.0.tar.gz]
+[2024-05-31 08:41:43] INFO root fetch - main [MainThread]: End processing [nifcloud-cli]: success
+[2024-05-31 08:41:43] INFO root fetch - main [MainThread]: Store serial: [23461494]
