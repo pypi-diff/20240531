@@ -18642,3 +18642,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:39:30] INFO root fetch - processPackages [sema4ai-action-server]: Remove: archive file [/home/abi/fetcher/tmp/sema4ai_action_server-0.9.1.tar.gz]
 [2024-05-31 14:39:30] INFO root fetch - main [MainThread]: End processing [sema4ai-action-server]: success
 [2024-05-31 14:39:30] INFO root fetch - main [MainThread]: Store serial: [23465660]
+[2024-05-31 14:41:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465660]
+[2024-05-31 14:41:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-meraki
+[2024-05-31 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aimodelshare
+[2024-05-31 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-newrelic
+[2024-05-31 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lmt-cli
+[2024-05-31 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-null
+[2024-05-31 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-github
+[2024-05-31 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: voxelworldapi
+[2024-05-31 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: talia
+[2024-05-31 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tensorcircuit-nightly
+[2024-05-31 14:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asp-selftest
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-meraki]: New version: [0.2.1] Old Version: [0.2.0a1716553135]
+[2024-05-31 14:41:39] INFO root fetch - processPackages [asp-selftest]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-31 14:41:39] WARNING root fetch - processPackages [voxelworldapi]: Skipping, unable to determine old version
+[2024-05-31 14:41:39] INFO root fetch - processPackages [voxelworldapi]: Start processing: picea
+[2024-05-31 14:41:39] INFO root fetch - main [MainThread]: End processing [voxelworldapi] error
+[2024-05-31 14:41:39] INFO root fetch - processPackages [aimodelshare]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 14:41:39] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-05-31 14:41:39] INFO root fetch - processPackages [lmt-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 14:41:39] INFO root fetch - processPackages [picea]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-meraki]: Downloading https://files.pythonhosted.org/packages/7e/73/b6e26e98b4bf0821bac3e19efedece0dc219b7693982611e26f797b33e77/pulumi_meraki-0.2.0a1716553135.tar.gz
+[2024-05-31 14:41:39] WARNING root fetch - processPackages [talia]: Skipping, unable to determine old version
+[2024-05-31 14:41:39] INFO root fetch - main [MainThread]: End processing [talia] error
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-github]: New version: [6.3.0a1717134012] Old Version: [6.3.0a1716961035]
+[2024-05-31 14:41:39] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/67/66/5ecf2b4724256e46a987f5ec2757bb056607970c66b2bd411d2c9048d155/asp_selftest-0.0.7.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-null]: New version: [0.1.0a1717135562] Old Version: [0.1.0a1716962277]
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-newrelic]: New version: [5.9.1] Old Version: [5.9.0a1680282898]
+[2024-05-31 14:41:39] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/c0/89/8d5c1ec1f29fb33b0fe43c98e3f08f65c921359d526635068eef7a186e2c/aimodelshare-0.1.8.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/e5/4d/2405f5f6231c98dc0bfd2b20d86d72de3b757ecd0ebf9e7cb71d2464721e/picea-0.0.8.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/dd/4b/fce444450557e5bdd993ccfff10c4812d085e35d0129ba817d63a119e9ec/lmt-cli-0.0.8.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/c5/f5/80cce325e0535b7f2530326bda1d6b96c0bd2bf2a39c9dd9c943d40a526a/asp_selftest-0.0.8.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/1e/4c/b1f7f311d7b241db6b87ee89c05acfcff95b654eae42e5bda9788a66707c/pulumi_newrelic-5.9.0a1680282898.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/be/8d/c25716c80d538456af1bb3951af794109ab50036305dc1ecfe749c0438e6/pulumi_github-6.3.0a1716961035.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/bd/7e/cc030ecc7bdf2c7214905f4d1de2bf75e9fa1f3c202c6934b93c0995ce98/pulumi_null-0.1.0a1716962277.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-meraki]: Downloading https://files.pythonhosted.org/packages/3c/e8/fc9d5694c359fffd1dc5c3be80f7749b63ffd338d14eb2a4ea1015c75c92/pulumi_meraki-0.2.1.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [picea]: Downloading https://files.pythonhosted.org/packages/59/49/8c2f0a6f8d85f9fe751e4f7e27eef9281443b43b5bc2f5dad2b7aacfae6d/picea-0.0.9.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/92/1b/5990f7c62044a2ad0776737091765068646eecee14dd251c5ea3732caeb0/aimodelshare-0.1.9.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [asp-selftest]: executing diffoscope
+[2024-05-31 14:41:39] INFO root fetch - processPackages [asp-selftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asp_selftest-0.0.7.tar.gz tmp/asp_selftest-0.0.8.tar.gz --markdown 20240531/a/asp-selftest/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-31 14:41:39] INFO root fetch - processPackages [picea]: executing diffoscope
+[2024-05-31 14:41:39] INFO root fetch - processPackages [picea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picea-0.0.8.tar.gz tmp/picea-0.0.9.tar.gz --markdown 20240531/p/picea/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-meraki]: executing diffoscope
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-meraki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_meraki-0.2.0a1716553135.tar.gz tmp/pulumi_meraki-0.2.1.tar.gz --markdown 20240531/p/pulumi-meraki/0.2.0a1716553135-0.2.1/README.md --exclude *.pyd
+[2024-05-31 14:41:39] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-05-31 14:41:39] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240531/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-05-31 14:41:39] INFO root fetch - processPackages [aimodelshare]: executing diffoscope
+[2024-05-31 14:41:39] INFO root fetch - processPackages [aimodelshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimodelshare-0.1.8.tar.gz tmp/aimodelshare-0.1.9.tar.gz --markdown 20240531/a/aimodelshare/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-newrelic]: Downloading https://files.pythonhosted.org/packages/43/ba/b3c2500610b8b3fabfc1479cb763f9657e73613a00e1e2f96ee26cec9a63/pulumi_newrelic-5.9.1.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-null]: Downloading https://files.pythonhosted.org/packages/02/9f/c32ea60c9e6a2f7b5f8a1c3810e1386f7f0dc5b635e3276bb295b3f04521/pulumi_null-0.1.0a1717135562.tar.gz
+[2024-05-31 14:41:39] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/67/9d/58841a2b87330ddf841b14a32b28400af8a6ca2c31641537db1f1bcda867/pulumi_github-6.3.0a1717134012.tar.gz
+[2024-05-31 14:41:40] INFO root fetch - processPackages [pulumi-newrelic]: executing diffoscope
+[2024-05-31 14:41:40] INFO root fetch - processPackages [pulumi-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz tmp/pulumi_newrelic-5.9.1.tar.gz --markdown 20240531/p/pulumi-newrelic/5.9.0a1680282898-5.9.1/README.md --exclude *.pyd
+[2024-05-31 14:41:40] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/be/60/52cf0d164af470f6eec27abddf7be5275d262c8f8984172c6ef7598f0959/lmt-cli-0.0.9.tar.gz
+[2024-05-31 14:41:40] INFO root fetch - processPackages [pulumi-null]: executing diffoscope
+[2024-05-31 14:41:40] INFO root fetch - processPackages [pulumi-null]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_null-0.1.0a1716962277.tar.gz tmp/pulumi_null-0.1.0a1717135562.tar.gz --markdown 20240531/p/pulumi-null/0.1.0a1716962277-0.1.0a1717135562/README.md --exclude *.pyd
+[2024-05-31 14:41:40] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2024-05-31 14:41:40] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-6.3.0a1716961035.tar.gz tmp/pulumi_github-6.3.0a1717134012.tar.gz --markdown 20240531/p/pulumi-github/6.3.0a1716961035-6.3.0a1717134012/README.md --exclude *.pyd
+[2024-05-31 14:41:40] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.7.tar.gz]
+[2024-05-31 14:41:40] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.8.tar.gz]
+[2024-05-31 14:41:40] INFO root fetch - main [MainThread]: End processing [asp-selftest]: success
+[2024-05-31 14:41:40] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.8.tar.gz]
+[2024-05-31 14:41:40] INFO root fetch - processPackages [picea]: Remove: archive file [/home/abi/fetcher/tmp/picea-0.0.9.tar.gz]
+[2024-05-31 14:41:40] INFO root fetch - main [MainThread]: End processing [picea]: success
+[2024-05-31 14:41:40] INFO root fetch - processPackages [lmt-cli]: executing diffoscope
+[2024-05-31 14:41:40] INFO root fetch - processPackages [lmt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmt-cli-0.0.8.tar.gz tmp/lmt-cli-0.0.9.tar.gz --markdown 20240531/l/lmt-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 14:41:41] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1716962277.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - processPackages [pulumi-null]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_null-0.1.0a1717135562.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - main [MainThread]: End processing [pulumi-null]: success
+[2024-05-31 14:41:41] INFO root fetch - processPackages [aimodelshare]: Remove: archive file [/home/abi/fetcher/tmp/aimodelshare-0.1.8.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - processPackages [aimodelshare]: Remove: archive file [/home/abi/fetcher/tmp/aimodelshare-0.1.9.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - main [MainThread]: End processing [aimodelshare]: success
+[2024-05-31 14:41:41] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-05-31 14:41:41] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.0a1680282898.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - processPackages [pulumi-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_newrelic-5.9.1.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - main [MainThread]: End processing [pulumi-newrelic]: success
+[2024-05-31 14:41:41] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1716961035.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-6.3.0a1717134012.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2024-05-31 14:41:41] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.8.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.9.tar.gz]
+[2024-05-31 14:41:41] INFO root fetch - main [MainThread]: End processing [lmt-cli]: success
+[2024-05-31 14:41:42] INFO root fetch - processPackages [pulumi-meraki]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_meraki-0.2.0a1716553135.tar.gz]
+[2024-05-31 14:41:42] INFO root fetch - processPackages [pulumi-meraki]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_meraki-0.2.1.tar.gz]
+[2024-05-31 14:41:42] INFO root fetch - main [MainThread]: End processing [pulumi-meraki]: success
+[2024-05-31 14:41:42] INFO root fetch - main [MainThread]: Store serial: [23465706]
