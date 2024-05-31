@@ -9094,3 +9094,69 @@
 [2024-05-31 08:23:43] INFO root fetch - processPackages [pulumiverse-acme]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_acme-0.1.0.tar.gz]
 [2024-05-31 08:23:43] INFO root fetch - main [MainThread]: End processing [pulumiverse-acme]: success
 [2024-05-31 08:23:43] INFO root fetch - main [MainThread]: Store serial: [23461236]
+[2024-05-31 08:25:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461236]
+[2024-05-31 08:25:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QuantumRingsLib
+[2024-05-31 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmgtoolkit
+[2024-05-31 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pnu-libgh
+[2024-05-31 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cubecoders-amp-api-wrapper
+[2024-05-31 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaizen-cloudcode
+[2024-05-31 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rockai-cli-app
+[2024-05-31 08:25:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataskema
+[2024-05-31 08:25:52] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 08:25:52] INFO root fetch - processPackages [dataskema]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-05-31 08:25:52] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-05-31 08:25:52] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: New version: [0.1.1] Old Version: [0.1.0.post0]
+[2024-05-31 08:25:52] INFO root fetch - processPackages [pnu-libgh]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-31 08:25:52] INFO root fetch - processPackages [QuantumRingsLib]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-31 08:25:52] INFO root fetch - processPackages [kaizen-cloudcode]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 08:25:52] INFO root fetch - processPackages [dataskema]: Downloading https://files.pythonhosted.org/packages/15/44/878e4b72b540f1a5b8bfebfa31885390c3338a1d2c2e610f2b89e9a243e3/dataskema-1.7.1.tar.gz
+[2024-05-31 08:25:52] INFO root fetch - processPackages [tmgtoolkit]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-31 08:25:52] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Downloading https://files.pythonhosted.org/packages/d1/3b/68c5a43ec9c3a1c7085d5cc8f5e4324a7153a6d27a2b202e79c515c9b8a6/cubecoders_amp_api_wrapper-0.1.0.post0.tar.gz
+[2024-05-31 08:25:52] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-05-31 08:25:52] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/f1/55/f80272be3e1648104bf08d9742ea6432a688a9e6042c034220d53fe3eebe/kaizen_cloudcode-0.1.8.tar.gz
+[2024-05-31 08:25:53] INFO root fetch - processPackages [dataskema]: Downloading https://files.pythonhosted.org/packages/d5/9b/02410955f53542a3e935803b3c1cf36dab331ea518bec8b0f93412131f73/dataskema-1.7.2.tar.gz
+[2024-05-31 08:25:53] INFO root fetch - processPackages [QuantumRingsLib]: Downloading https://files.pythonhosted.org/packages/f0/da/3015f36079caa2778df19288c29822bd0d549c6e8590b27a85cf40147fba/QuantumRingsLib-0.4.0-cp311-cp311-win_amd64.whl
+[2024-05-31 08:25:53] INFO root fetch - processPackages [tmgtoolkit]: Downloading https://files.pythonhosted.org/packages/71/19/02f3e475b5a8ffba60ca82944c4d251c331417ea27d91b6134ca6715c347/tmgtoolkit-0.1.4.tar.gz
+[2024-05-31 08:25:53] INFO root fetch - processPackages [pnu-libgh]: Downloading https://files.pythonhosted.org/packages/e0/3f/468f20f47fb90653f3e0038603b0a26a26018e9235f8062ad08fb9668494/pnu_libgh-0.9.3.tar.gz
+[2024-05-31 08:25:53] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-31 08:25:53] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240531/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 08:25:53] INFO root fetch - processPackages [dataskema]: executing diffoscope
+[2024-05-31 08:25:53] INFO root fetch - processPackages [dataskema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskema-1.7.1.tar.gz tmp/dataskema-1.7.2.tar.gz --markdown 20240531/d/dataskema/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-05-31 08:25:53] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Downloading https://files.pythonhosted.org/packages/71/03/d715f6de851a2ea7cb329972d59c26758f0a41fc847841de67867e37f0c2/cubecoders_amp_api_wrapper-0.1.1.tar.gz
+[2024-05-31 08:25:53] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: executing diffoscope
+[2024-05-31 08:25:53] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubecoders_amp_api_wrapper-0.1.0.post0.tar.gz tmp/cubecoders_amp_api_wrapper-0.1.1.tar.gz --markdown 20240531/c/cubecoders-amp-api-wrapper/0.1.0.post0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 08:25:53] INFO root fetch - processPackages [pnu-libgh]: Downloading https://files.pythonhosted.org/packages/69/d1/19ba4367f19837385c9e51ba067e58e933fbe886902cffd947b4f2d99122/pnu_libgh-0.9.4.tar.gz
+[2024-05-31 08:25:53] INFO root fetch - processPackages [tmgtoolkit]: Downloading https://files.pythonhosted.org/packages/3e/88/93f713cb0c053c4bd29ec2dec1288c3c36a46aba74bc5d7661e59cb632bc/tmgtoolkit-0.1.5.tar.gz
+[2024-05-31 08:25:53] INFO root fetch - processPackages [kaizen-cloudcode]: Downloading https://files.pythonhosted.org/packages/e4/d9/2c4a647ea9b29da3866ad33e2f70daddb22b06068d121a2e48e92d9a5b18/kaizen_cloudcode-0.1.9.tar.gz
+[2024-05-31 08:25:53] INFO root fetch - processPackages [pnu-libgh]: executing diffoscope
+[2024-05-31 08:25:53] INFO root fetch - processPackages [pnu-libgh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnu_libgh-0.9.3.tar.gz tmp/pnu_libgh-0.9.4.tar.gz --markdown 20240531/p/pnu-libgh/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-31 08:25:53] INFO root fetch - processPackages [QuantumRingsLib]: Downloading https://files.pythonhosted.org/packages/bf/d5/1d58127d320d7fa7d2953cd0a0ffc4189b896c2c9e04390b87e4357605eb/QuantumRingsLib-0.5.0-cp36-cp36m-manylinux_2_28_x86_64.whl
+[2024-05-31 08:25:53] INFO root fetch - processPackages [tmgtoolkit]: executing diffoscope
+[2024-05-31 08:25:53] INFO root fetch - processPackages [tmgtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmgtoolkit-0.1.4.tar.gz tmp/tmgtoolkit-0.1.5.tar.gz --markdown 20240531/t/tmgtoolkit/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-31 08:25:53] INFO root fetch - processPackages [kaizen-cloudcode]: executing diffoscope
+[2024-05-31 08:25:53] INFO root fetch - processPackages [kaizen-cloudcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaizen_cloudcode-0.1.8.tar.gz tmp/kaizen_cloudcode-0.1.9.tar.gz --markdown 20240531/k/kaizen-cloudcode/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 08:25:53] INFO root fetch - processPackages [dataskema]: Remove: archive file [/home/abi/fetcher/tmp/dataskema-1.7.1.tar.gz]
+[2024-05-31 08:25:53] INFO root fetch - processPackages [dataskema]: Remove: archive file [/home/abi/fetcher/tmp/dataskema-1.7.2.tar.gz]
+[2024-05-31 08:25:53] INFO root fetch - main [MainThread]: End processing [dataskema]: success
+[2024-05-31 08:25:53] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-05-31 08:25:53] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-05-31 08:25:53] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-31 08:25:54] INFO root fetch - processPackages [QuantumRingsLib]: executing diffoscope
+[2024-05-31 08:25:54] INFO root fetch - processPackages [QuantumRingsLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantumRingsLib-0.4.0-cp311-cp311-win_amd64.whl.zip tmp/QuantumRingsLib-0.5.0-cp36-cp36m-manylinux_2_28_x86_64.whl.zip --markdown 20240531/Q/QuantumRingsLib/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-31 08:25:54] INFO root fetch - processPackages [pnu-libgh]: Remove: archive file [/home/abi/fetcher/tmp/pnu_libgh-0.9.3.tar.gz]
+[2024-05-31 08:25:54] INFO root fetch - processPackages [pnu-libgh]: Remove: archive file [/home/abi/fetcher/tmp/pnu_libgh-0.9.4.tar.gz]
+[2024-05-31 08:25:54] INFO root fetch - main [MainThread]: End processing [pnu-libgh]: success
+[2024-05-31 08:25:54] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/cubecoders_amp_api_wrapper-0.1.0.post0.tar.gz]
+[2024-05-31 08:25:54] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/cubecoders_amp_api_wrapper-0.1.1.tar.gz]
+[2024-05-31 08:25:54] INFO root fetch - main [MainThread]: End processing [cubecoders-amp-api-wrapper]: success
+[2024-05-31 08:25:54] INFO root fetch - processPackages [tmgtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tmgtoolkit-0.1.4.tar.gz]
+[2024-05-31 08:25:54] INFO root fetch - processPackages [tmgtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tmgtoolkit-0.1.5.tar.gz]
+[2024-05-31 08:25:54] INFO root fetch - main [MainThread]: End processing [tmgtoolkit]: success
+[2024-05-31 08:25:54] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.8.tar.gz]
+[2024-05-31 08:25:54] INFO root fetch - processPackages [kaizen-cloudcode]: Remove: archive file [/home/abi/fetcher/tmp/kaizen_cloudcode-0.1.9.tar.gz]
+[2024-05-31 08:25:54] INFO root fetch - main [MainThread]: End processing [kaizen-cloudcode]: success
+[2024-05-31 08:25:54] INFO root fetch - processPackages [QuantumRingsLib]: Remove: archive file [/home/abi/fetcher/tmp/QuantumRingsLib-0.4.0-cp311-cp311-win_amd64.whl.zip]
+[2024-05-31 08:25:54] INFO root fetch - processPackages [QuantumRingsLib]: Remove: archive file [/home/abi/fetcher/tmp/QuantumRingsLib-0.5.0-cp36-cp36m-manylinux_2_28_x86_64.whl.zip]
+[2024-05-31 08:25:54] INFO root fetch - main [MainThread]: End processing [QuantumRingsLib]: success
+[2024-05-31 08:25:54] INFO root fetch - main [MainThread]: Store serial: [23461280]
