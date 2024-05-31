@@ -10227,3 +10227,42 @@
 [2024-05-31 09:16:44] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
 [2024-05-31 09:16:44] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
 [2024-05-31 09:16:44] INFO root fetch - main [MainThread]: Store serial: [23461914]
+[2024-05-31 09:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461914]
+[2024-05-31 09:18:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 09:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rbExtendedApproval
+[2024-05-31 09:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GPTPlugins4All
+[2024-05-31 09:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterlab-amphi
+[2024-05-31 09:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-vault
+[2024-05-31 09:18:53] INFO root fetch - processPackages [rbExtendedApproval]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-31 09:18:53] INFO root fetch - processPackages [GPTPlugins4All]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 09:18:53] INFO root fetch - processPackages [rbExtendedApproval]: Downloading https://files.pythonhosted.org/packages/1a/f1/0c5e4fa0e917d386be7a1ea68307ae1e5a1975970f2789fa8a11ca8e53e6/rbextendedapproval-1.2.2.tar.gz
+[2024-05-31 09:18:53] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/5a/b5/97b0775cb4c951d2872d6c4e33db266a0dba4dc2207a3dbac7ed55f6b995/GPTPlugins4All-1.0.8.tar.gz
+[2024-05-31 09:18:53] INFO root fetch - processPackages [jupyterlab-amphi]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-31 09:18:53] INFO root fetch - processPackages [pulumi-vault]: New version: [6.2.0a1717138515] Old Version: [6.2.0a1716964164]
+[2024-05-31 09:18:53] INFO root fetch - processPackages [jupyterlab-amphi]: Downloading https://files.pythonhosted.org/packages/9c/36/79e739b7f928579b8811d0f921c57c926252bb71de381d470330e3a3cb86/jupyterlab_amphi-0.3.9.tar.gz
+[2024-05-31 09:18:53] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/fb/16/af06befd4a411c5c48cd6f713bca08893d0e33bde8c93250203608d1ef03/GPTPlugins4All-1.0.9.tar.gz
+[2024-05-31 09:18:53] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/fd/58/2d61dcc58d74e26ab2d30024ea715f8c8145d361f7e93ff045078939f8f8/pulumi_vault-6.2.0a1716964164.tar.gz
+[2024-05-31 09:18:53] INFO root fetch - processPackages [rbExtendedApproval]: Downloading https://files.pythonhosted.org/packages/aa/59/35f73ee9f4166603ff0b5d988d96cda6c5579850ea4427931f3c92ffea84/rbextendedapproval-1.2.3.tar.gz
+[2024-05-31 09:18:53] INFO root fetch - processPackages [GPTPlugins4All]: executing diffoscope
+[2024-05-31 09:18:53] INFO root fetch - processPackages [GPTPlugins4All]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTPlugins4All-1.0.8.tar.gz tmp/GPTPlugins4All-1.0.9.tar.gz --markdown 20240531/G/GPTPlugins4All/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 09:18:53] INFO root fetch - processPackages [rbExtendedApproval]: executing diffoscope
+[2024-05-31 09:18:53] INFO root fetch - processPackages [rbExtendedApproval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbextendedapproval-1.2.2.tar.gz tmp/rbextendedapproval-1.2.3.tar.gz --markdown 20240531/r/rbExtendedApproval/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-31 09:18:53] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/40/f7/6562721ec9d23ab770b0c4d08f3ce2573d88a37e97020c788c01a6647dda/pulumi_vault-6.2.0a1717138515.tar.gz
+[2024-05-31 09:18:53] INFO root fetch - processPackages [jupyterlab-amphi]: Downloading https://files.pythonhosted.org/packages/bb/d1/ae47c17d9f09e1787cdaa963527f78f90f156b69f99dfd9be93712731695/jupyterlab_amphi-0.4.0.tar.gz
+[2024-05-31 09:18:54] INFO root fetch - processPackages [rbExtendedApproval]: Remove: archive file [/home/abi/fetcher/tmp/rbextendedapproval-1.2.2.tar.gz]
+[2024-05-31 09:18:54] INFO root fetch - processPackages [rbExtendedApproval]: Remove: archive file [/home/abi/fetcher/tmp/rbextendedapproval-1.2.3.tar.gz]
+[2024-05-31 09:18:54] INFO root fetch - main [MainThread]: End processing [rbExtendedApproval]: success
+[2024-05-31 09:18:54] INFO root fetch - processPackages [jupyterlab-amphi]: executing diffoscope
+[2024-05-31 09:18:54] INFO root fetch - processPackages [jupyterlab-amphi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_amphi-0.3.9.tar.gz tmp/jupyterlab_amphi-0.4.0.tar.gz --markdown 20240531/j/jupyterlab-amphi/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-31 09:18:54] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.8.tar.gz]
+[2024-05-31 09:18:54] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
+[2024-05-31 09:18:54] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
+[2024-05-31 09:18:54] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-05-31 09:18:54] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.2.0a1716964164.tar.gz tmp/pulumi_vault-6.2.0a1717138515.tar.gz --markdown 20240531/p/pulumi-vault/6.2.0a1716964164-6.2.0a1717138515/README.md --exclude *.pyd
+[2024-05-31 09:18:55] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1716964164.tar.gz]
+[2024-05-31 09:18:55] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.2.0a1717138515.tar.gz]
+[2024-05-31 09:18:55] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-05-31 09:18:57] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.3.9.tar.gz]
+[2024-05-31 09:18:57] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.4.0.tar.gz]
+[2024-05-31 09:18:57] INFO root fetch - main [MainThread]: End processing [jupyterlab-amphi]: success
+[2024-05-31 09:18:57] INFO root fetch - main [MainThread]: Store serial: [23461926]
