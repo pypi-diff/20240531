@@ -18395,3 +18395,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:28:25] INFO root fetch - processPackages [hdfs-native]: Remove: archive file [/home/abi/fetcher/tmp/hdfs_native-0.9.3.tar.gz]
 [2024-05-31 14:28:25] INFO root fetch - main [MainThread]: End processing [hdfs-native]: success
 [2024-05-31 14:28:25] INFO root fetch - main [MainThread]: Store serial: [23465526]
+[2024-05-31 14:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465526]
+[2024-05-31 14:30:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lit-ecology-classifier
+[2024-05-31 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: svn2git
+[2024-05-31 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-api-dbu
+[2024-05-31 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bencode2
+[2024-05-31 14:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: etm-dgraham
+[2024-05-31 14:30:33] INFO root fetch - processPackages [svn2git]: New version: [0.8.5rc2] Old Version: [0.8.5rc1]
+[2024-05-31 14:30:33] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-31 14:30:33] INFO root fetch - processPackages [bencode2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 14:30:33] INFO root fetch - processPackages [ansys-api-dbu]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 14:30:33] INFO root fetch - processPackages [svn2git]: Downloading https://files.pythonhosted.org/packages/b8/83/34fc1359782b90378ccfd274bea7f9643053996c3ec5aa736f9add73d672/svn2git-0.8.5rc1.tar.gz
+[2024-05-31 14:30:33] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/46/56/b2fb85c7aa348ffd67a716f8486820e5be1001f8162678abeeeb94a8893c/lit_ecology_classifier-0.2.4-py3-none-any.whl
+[2024-05-31 14:30:33] INFO root fetch - processPackages [etm-dgraham]: New version: [6.3.0] Old Version: [6.2.7]
+[2024-05-31 14:30:33] INFO root fetch - processPackages [bencode2]: Downloading https://files.pythonhosted.org/packages/23/f4/a28e8c52b18fc023e1b81784bbf2d9b9a8238d10dbf675853b69f64f6f8d/bencode2-0.0.8.tar.gz
+[2024-05-31 14:30:34] INFO root fetch - processPackages [ansys-api-dbu]: Downloading https://files.pythonhosted.org/packages/97/cb/8ec3204ade2e11415cd29967cccee709d87026a6788dd81229476b84110f/ansys_api_dbu-0.3.1.tar.gz
+[2024-05-31 14:30:34] INFO root fetch - processPackages [bencode2]: Downloading https://files.pythonhosted.org/packages/0f/06/7fedfc22787eec56cd4d7da016a9d7a7aa43a4ab7e1a41b7443bdc8bf981/bencode2-0.0.9.tar.gz
+[2024-05-31 14:30:34] INFO root fetch - processPackages [svn2git]: Downloading https://files.pythonhosted.org/packages/10/cf/51c309ce95416699aaa4384d291a9c86e47d11fe7b0e7baffcb043eafffb/svn2git-0.8.5rc2.tar.gz
+[2024-05-31 14:30:34] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/41/8b/5bec93bb2cb667a03ce7dd27899ef70f2170579fd65bbe17ec6c7e161d5d/lit_ecology_classifier-0.2.5-py3-none-any.whl
+[2024-05-31 14:30:34] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/2a/ef/b61e197003c263a790656eff488b4bb3bb5d641549f1c643e31a9f8c3603/etm-dgraham-6.2.7.tar.gz
+[2024-05-31 14:30:34] INFO root fetch - processPackages [svn2git]: executing diffoscope
+[2024-05-31 14:30:34] INFO root fetch - processPackages [svn2git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svn2git-0.8.5rc1.tar.gz tmp/svn2git-0.8.5rc2.tar.gz --markdown 20240531/s/svn2git/0.8.5rc1-0.8.5rc2/README.md --exclude *.pyd
+[2024-05-31 14:30:34] INFO root fetch - processPackages [ansys-api-dbu]: Downloading https://files.pythonhosted.org/packages/fc/27/6993cc6533a357a6683d0a5cf5f3bf8cfbc69bd988636c58e4e4afae3535/ansys_api_dbu-0.3.2.tar.gz
+[2024-05-31 14:30:34] INFO root fetch - processPackages [bencode2]: executing diffoscope
+[2024-05-31 14:30:34] INFO root fetch - processPackages [bencode2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bencode2-0.0.8.tar.gz tmp/bencode2-0.0.9.tar.gz --markdown 20240531/b/bencode2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 14:30:34] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-05-31 14:30:34] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-0.2.4-py3-none-any.whl.zip tmp/lit_ecology_classifier-0.2.5-py3-none-any.whl.zip --markdown 20240531/l/lit-ecology-classifier/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-31 14:30:34] INFO root fetch - processPackages [ansys-api-dbu]: executing diffoscope
+[2024-05-31 14:30:34] INFO root fetch - processPackages [ansys-api-dbu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_api_dbu-0.3.1.tar.gz tmp/ansys_api_dbu-0.3.2.tar.gz --markdown 20240531/a/ansys-api-dbu/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 14:30:34] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/10/27/ebe86e1e439381151d2f14557e06fba4e65279c8ac36c347521f4f7105f2/etm-dgraham-6.3.0.tar.gz
+[2024-05-31 14:30:34] INFO root fetch - processPackages [svn2git]: Remove: archive file [/home/abi/fetcher/tmp/svn2git-0.8.5rc1.tar.gz]
+[2024-05-31 14:30:34] INFO root fetch - processPackages [svn2git]: Remove: archive file [/home/abi/fetcher/tmp/svn2git-0.8.5rc2.tar.gz]
+[2024-05-31 14:30:34] INFO root fetch - main [MainThread]: End processing [svn2git]: success
+[2024-05-31 14:30:34] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2024-05-31 14:30:34] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-6.2.7.tar.gz tmp/etm-dgraham-6.3.0.tar.gz --markdown 20240531/e/etm-dgraham/6.2.7-6.3.0/README.md --exclude *.pyd
+[2024-05-31 14:30:35] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.2.4-py3-none-any.whl.zip]
+[2024-05-31 14:30:35] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.2.5-py3-none-any.whl.zip]
+[2024-05-31 14:30:35] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-05-31 14:30:35] INFO root fetch - processPackages [ansys-api-dbu]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_dbu-0.3.1.tar.gz]
+[2024-05-31 14:30:35] INFO root fetch - processPackages [ansys-api-dbu]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_dbu-0.3.2.tar.gz]
+[2024-05-31 14:30:35] INFO root fetch - main [MainThread]: End processing [ansys-api-dbu]: success
+[2024-05-31 14:30:35] INFO root fetch - processPackages [bencode2]: Remove: archive file [/home/abi/fetcher/tmp/bencode2-0.0.8.tar.gz]
+[2024-05-31 14:30:35] INFO root fetch - processPackages [bencode2]: Remove: archive file [/home/abi/fetcher/tmp/bencode2-0.0.9.tar.gz]
+[2024-05-31 14:30:35] INFO root fetch - main [MainThread]: End processing [bencode2]: success
+[2024-05-31 14:30:36] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-6.2.7.tar.gz]
+[2024-05-31 14:30:36] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-6.3.0.tar.gz]
+[2024-05-31 14:30:36] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2024-05-31 14:30:36] INFO root fetch - main [MainThread]: Store serial: [23465577]
