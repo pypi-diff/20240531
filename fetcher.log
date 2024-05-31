@@ -18165,3 +18165,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:17:24] INFO root fetch - processPackages [swh.search]: Remove: archive file [/home/abi/fetcher/tmp/swh.search-0.9.0.tar.gz]
 [2024-05-31 14:17:24] INFO root fetch - main [MainThread]: End processing [swh.search]: success
 [2024-05-31 14:17:24] INFO root fetch - main [MainThread]: Store serial: [23465438]
+[2024-05-31 14:19:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465438]
+[2024-05-31 14:19:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 14:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambda-genai-util
+[2024-05-31 14:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erp-apis
+[2024-05-31 14:19:33] INFO root fetch - processPackages [lambda-genai-util]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 14:19:33] INFO root fetch - processPackages [erp-apis]: New version: [1.2.11] Old Version: [1.0.8]
+[2024-05-31 14:19:33] INFO root fetch - processPackages [lambda-genai-util]: Downloading https://files.pythonhosted.org/packages/fd/22/a876998ff7d6eb04e52ce6c8377f3dd887760d36394f599edac7e08e9b3d/lambda_genai_util-0.0.1.tar.gz
+[2024-05-31 14:19:33] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/42/1e/cba77bac20eec7a4f26720c52035b2943dfe2955d226c91157d443090182/erp_apis-1.0.8-py3-none-any.whl
+[2024-05-31 14:19:33] INFO root fetch - processPackages [lambda-genai-util]: Downloading https://files.pythonhosted.org/packages/3b/91/b04005dbe79f0aaabf4b9e78ba869d56003bfb8ad30016787b898a73df8c/lambda_genai_util-0.0.2.tar.gz
+[2024-05-31 14:19:34] INFO root fetch - processPackages [lambda-genai-util]: executing diffoscope
+[2024-05-31 14:19:34] INFO root fetch - processPackages [lambda-genai-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda_genai_util-0.0.1.tar.gz tmp/lambda_genai_util-0.0.2.tar.gz --markdown 20240531/l/lambda-genai-util/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 14:19:34] INFO root fetch - processPackages [erp-apis]: Downloading https://files.pythonhosted.org/packages/bc/61/dcfd0b88193e65807a6f68b6fe57a5532be0e3cff5a12ab9cfff5b218c21/erp_apis-1.2.11-py3-none-any.whl
+[2024-05-31 14:19:34] INFO root fetch - processPackages [erp-apis]: executing diffoscope
+[2024-05-31 14:19:34] INFO root fetch - processPackages [erp-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erp_apis-1.0.8-py3-none-any.whl.zip tmp/erp_apis-1.2.11-py3-none-any.whl.zip --markdown 20240531/e/erp-apis/1.0.8-1.2.11/README.md --exclude *.pyd
+[2024-05-31 14:19:34] INFO root fetch - processPackages [lambda-genai-util]: Remove: archive file [/home/abi/fetcher/tmp/lambda_genai_util-0.0.1.tar.gz]
+[2024-05-31 14:19:34] INFO root fetch - processPackages [lambda-genai-util]: Remove: archive file [/home/abi/fetcher/tmp/lambda_genai_util-0.0.2.tar.gz]
+[2024-05-31 14:19:34] INFO root fetch - main [MainThread]: End processing [lambda-genai-util]: success
+[2024-05-31 14:19:34] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.0.8-py3-none-any.whl.zip]
+[2024-05-31 14:19:34] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.2.11-py3-none-any.whl.zip]
+[2024-05-31 14:19:34] INFO root fetch - main [MainThread]: End processing [erp-apis]: success
+[2024-05-31 14:19:34] INFO root fetch - main [MainThread]: Store serial: [23465443]
