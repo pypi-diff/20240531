@@ -18254,3 +18254,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:24:02] INFO root fetch - processPackages [pyseobnr]: Remove: archive file [/home/abi/fetcher/tmp/pyseobnr-0.2.9.tar.gz]
 [2024-05-31 14:24:02] INFO root fetch - main [MainThread]: End processing [pyseobnr]: success
 [2024-05-31 14:24:02] INFO root fetch - main [MainThread]: Store serial: [23465469]
+[2024-05-31 14:26:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465469]
+[2024-05-31 14:26:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 14:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blockchain-data-subnet-shared-libs
+[2024-05-31 14:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: faunanet-record
+[2024-05-31 14:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dektools
+[2024-05-31 14:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-content-editor
+[2024-05-31 14:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: web-ui-helper
+[2024-05-31 14:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: isvirtual
+[2024-05-31 14:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SidraDataProductSDK
+[2024-05-31 14:26:11] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: New version: [1.0.0] Old Version: [0.0.2]
+[2024-05-31 14:26:11] INFO root fetch - processPackages [faunanet-record]: New version: [0.0.9] Old Version: [0.0.10]
+[2024-05-31 14:26:11] INFO root fetch - processPackages [SidraDataProductSDK]: New version: [2.0.9.post133] Old Version: [2.0.8.post130]
+[2024-05-31 14:26:11] INFO root fetch - processPackages [isvirtual]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-31 14:26:11] INFO root fetch - processPackages [django-content-editor]: New version: [7.0a3] Old Version: [7.0a2]
+[2024-05-31 14:26:12] INFO root fetch - processPackages [web-ui-helper]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 14:26:12] INFO root fetch - processPackages [dektools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-31 14:26:12] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/72/75/d3256b178ff935f7985965b1fd64270b95bb5d5e6ee63c9a6e953a985bfd/django_content_editor-7.0a2.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [SidraDataProductSDK]: Downloading https://files.pythonhosted.org/packages/af/64/33cd09d74f9afbf977c78eec6dc50ed758b92602adaa00358ba4ad239c60/SidraDataProductSDK-2.0.8.post130-py3-none-any.whl
+[2024-05-31 14:26:12] INFO root fetch - processPackages [isvirtual]: Downloading https://files.pythonhosted.org/packages/55/b9/29365cbeac8c96db209458d9fc043aedc4d1a142059273974684e39a74e8/isvirtual-1.3.0.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Downloading https://files.pythonhosted.org/packages/a2/87/951f9682983d665488f1139961000a2651c9680d2b8d8611534a1a36ddf9/blockchain_data_subnet_shared_libs-0.0.2.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [faunanet-record]: Downloading https://files.pythonhosted.org/packages/5c/e3/b23b7496836871d907cca2bd070823899efc3eca62486144856b54ae3477/faunanet_record-0.0.10.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/67/d1/56a19de2a95c3993ad45754337db189811dca775ef3a6ba0fc17f894d0e7/web-ui-helper-1.0.8.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/88/5a/bd6084967a50e422353476fe59bcf41bd273e85422386c1c733773bcf6bd/dektools-0.1.98.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [isvirtual]: Downloading https://files.pythonhosted.org/packages/f5/71/da377535885b0767dede98052319950d77461947be82a2541b36ea45be26/isvirtual-1.4.0.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [SidraDataProductSDK]: Downloading https://files.pythonhosted.org/packages/3b/36/b917e91a1f6a87df03593e01490f440778d5bfc07d3e110a15cf2e2693b0/SidraDataProductSDK-2.0.9.post133-py3-none-any.whl
+[2024-05-31 14:26:12] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/20/62/dcd586e99e69039f1632bfdeb6bd16c5247334921421b6e7624a76fd6aa4/django_content_editor-7.0a3.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Downloading https://files.pythonhosted.org/packages/03/c9/86bc6e13af1d5f56a5bfb1e36182ee3e6fd4a0caae01abf35f710817c2ff/blockchain_data_subnet_shared_libs-1.0.0.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [faunanet-record]: Downloading https://files.pythonhosted.org/packages/95/cb/aeec070ba004fc1ce895e18fa1cbd77d3876ecd609cc23897e7f326f2052/faunanet_record-0.0.9.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [isvirtual]: executing diffoscope
+[2024-05-31 14:26:12] INFO root fetch - processPackages [isvirtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isvirtual-1.3.0.tar.gz tmp/isvirtual-1.4.0.tar.gz --markdown 20240531/i/isvirtual/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-31 14:26:12] INFO root fetch - processPackages [SidraDataProductSDK]: executing diffoscope
+[2024-05-31 14:26:12] INFO root fetch - processPackages [SidraDataProductSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SidraDataProductSDK-2.0.8.post130-py3-none-any.whl.zip tmp/SidraDataProductSDK-2.0.9.post133-py3-none-any.whl.zip --markdown 20240531/S/SidraDataProductSDK/2.0.8.post130-2.0.9.post133/README.md --exclude *.pyd
+[2024-05-31 14:26:12] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: executing diffoscope
+[2024-05-31 14:26:12] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockchain_data_subnet_shared_libs-0.0.2.tar.gz tmp/blockchain_data_subnet_shared_libs-1.0.0.tar.gz --markdown 20240531/b/blockchain-data-subnet-shared-libs/0.0.2-1.0.0/README.md --exclude *.pyd
+[2024-05-31 14:26:12] INFO root fetch - processPackages [django-content-editor]: executing diffoscope
+[2024-05-31 14:26:12] INFO root fetch - processPackages [django-content-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_content_editor-7.0a2.tar.gz tmp/django_content_editor-7.0a3.tar.gz --markdown 20240531/d/django-content-editor/7.0a2-7.0a3/README.md --exclude *.pyd
+[2024-05-31 14:26:12] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/b5/37/3854bf0e9d3f36790f9c3b784892d4e833c07bd9ece57af86519bedc5e96/dektools-0.1.99.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [web-ui-helper]: Downloading https://files.pythonhosted.org/packages/36/c6/5f7e99b93377be87620e3bf693507ed08a22637aca669f7144762e0aa0eb/web-ui-helper-1.0.9.tar.gz
+[2024-05-31 14:26:12] INFO root fetch - processPackages [faunanet-record]: executing diffoscope
+[2024-05-31 14:26:12] INFO root fetch - processPackages [faunanet-record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faunanet_record-0.0.10.tar.gz tmp/faunanet_record-0.0.9.tar.gz --markdown 20240531/f/faunanet-record/0.0.10-0.0.9/README.md --exclude *.pyd
+[2024-05-31 14:26:12] INFO root fetch - processPackages [dektools]: executing diffoscope
+[2024-05-31 14:26:12] INFO root fetch - processPackages [dektools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dektools-0.1.98.tar.gz tmp/dektools-0.1.99.tar.gz --markdown 20240531/d/dektools/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-31 14:26:12] INFO root fetch - processPackages [web-ui-helper]: executing diffoscope
+[2024-05-31 14:26:12] INFO root fetch - processPackages [web-ui-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web-ui-helper-1.0.8.tar.gz tmp/web-ui-helper-1.0.9.tar.gz --markdown 20240531/w/web-ui-helper/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 14:26:13] INFO root fetch - processPackages [isvirtual]: Remove: archive file [/home/abi/fetcher/tmp/isvirtual-1.3.0.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - processPackages [isvirtual]: Remove: archive file [/home/abi/fetcher/tmp/isvirtual-1.4.0.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - main [MainThread]: End processing [isvirtual]: success
+[2024-05-31 14:26:13] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Remove: archive file [/home/abi/fetcher/tmp/blockchain_data_subnet_shared_libs-0.0.2.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Remove: archive file [/home/abi/fetcher/tmp/blockchain_data_subnet_shared_libs-1.0.0.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - main [MainThread]: End processing [blockchain-data-subnet-shared-libs]: success
+[2024-05-31 14:26:13] INFO root fetch - processPackages [faunanet-record]: Remove: archive file [/home/abi/fetcher/tmp/faunanet_record-0.0.10.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - processPackages [faunanet-record]: Remove: archive file [/home/abi/fetcher/tmp/faunanet_record-0.0.9.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - main [MainThread]: End processing [faunanet-record]: success
+[2024-05-31 14:26:13] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-1.0.8.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - processPackages [web-ui-helper]: Remove: archive file [/home/abi/fetcher/tmp/web-ui-helper-1.0.9.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - main [MainThread]: End processing [web-ui-helper]: success
+[2024-05-31 14:26:13] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.98.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.99.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - main [MainThread]: End processing [dektools]: success
+[2024-05-31 14:26:13] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-7.0a2.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-7.0a3.tar.gz]
+[2024-05-31 14:26:13] INFO root fetch - main [MainThread]: End processing [django-content-editor]: success
+[2024-05-31 14:26:13] INFO root fetch - processPackages [SidraDataProductSDK]: Remove: archive file [/home/abi/fetcher/tmp/SidraDataProductSDK-2.0.8.post130-py3-none-any.whl.zip]
+[2024-05-31 14:26:13] INFO root fetch - processPackages [SidraDataProductSDK]: Remove: archive file [/home/abi/fetcher/tmp/SidraDataProductSDK-2.0.9.post133-py3-none-any.whl.zip]
+[2024-05-31 14:26:13] INFO root fetch - main [MainThread]: End processing [SidraDataProductSDK]: success
+[2024-05-31 14:26:13] INFO root fetch - main [MainThread]: Store serial: [23465494]
