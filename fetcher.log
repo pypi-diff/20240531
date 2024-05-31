@@ -2545,3 +2545,44 @@
 [2024-05-31 01:56:02] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14609100>=10485760
 [2024-05-31 01:56:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
 [2024-05-31 01:56:02] INFO root fetch - main [MainThread]: Store serial: [23458485]
+[2024-05-31 01:58:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458485]
+[2024-05-31 01:58:10] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-31 02:00:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458485]
+[2024-05-31 02:00:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 02:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enpt
+[2024-05-31 02:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-audit-trail
+[2024-05-31 02:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amazon-kclpy
+[2024-05-31 02:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: layrz-sdk
+[2024-05-31 02:00:16] INFO root fetch - processPackages [enpt]: New version: [0.20.2] Old Version: [0.20.1]
+[2024-05-31 02:00:16] INFO root fetch - processPackages [layrz-sdk]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-05-31 02:00:16] INFO root fetch - processPackages [amazon-kclpy]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-31 02:00:16] INFO root fetch - processPackages [drf-audit-trail]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-31 02:00:16] INFO root fetch - processPackages [enpt]: Downloading https://files.pythonhosted.org/packages/55/67/4881ea72b2dc5997edfda53248531d359953c6c7122e6261b4ea9e77da16/enpt-0.20.1.tar.gz
+[2024-05-31 02:00:16] INFO root fetch - processPackages [amazon-kclpy]: Downloading https://files.pythonhosted.org/packages/50/75/22326c93a1f2e2b0ed37eb801ef9c4c37dc3049069db1aa6dfcb650a5189/amazon_kclpy-2.1.4.tar.gz
+[2024-05-31 02:00:16] INFO root fetch - processPackages [layrz-sdk]: Downloading https://files.pythonhosted.org/packages/ec/da/cfeabed3230b5d4d210136873e1fe446b83885fe32c07f35bd8b42252cb3/layrz_sdk-3.0.4.tar.gz
+[2024-05-31 02:00:16] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/b4/cf/95383273c26c9f499a632845a7f46c09425661fe43f9a2c53aa047822486/drf_audit_trail-0.2.1.tar.gz
+[2024-05-31 02:00:16] INFO root fetch - processPackages [layrz-sdk]: Downloading https://files.pythonhosted.org/packages/d9/44/065900e74ca5845e35858162098f55ece266319db6551eaeb8a78368fb69/layrz_sdk-3.0.5.tar.gz
+[2024-05-31 02:00:16] INFO root fetch - processPackages [amazon-kclpy]: Downloading https://files.pythonhosted.org/packages/76/45/5b804c056cd3ab7606b9266230ed657d6347d1d5e4cf7c92f6f96f503606/amazon_kclpy-2.1.5.tar.gz
+[2024-05-31 02:00:16] INFO root fetch - processPackages [drf-audit-trail]: Downloading https://files.pythonhosted.org/packages/c3/1e/65395429434aa63fe9b236b84c8ed53360678004aabeeb2c1b1a870b3198/drf_audit_trail-0.2.2.tar.gz
+[2024-05-31 02:00:16] INFO root fetch - processPackages [amazon-kclpy]: executing diffoscope
+[2024-05-31 02:00:16] INFO root fetch - processPackages [amazon-kclpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_kclpy-2.1.4.tar.gz tmp/amazon_kclpy-2.1.5.tar.gz --markdown 20240531/a/amazon-kclpy/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-31 02:00:16] INFO root fetch - processPackages [drf-audit-trail]: executing diffoscope
+[2024-05-31 02:00:16] INFO root fetch - processPackages [drf-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_audit_trail-0.2.1.tar.gz tmp/drf_audit_trail-0.2.2.tar.gz --markdown 20240531/d/drf-audit-trail/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-31 02:00:17] INFO root fetch - processPackages [layrz-sdk]: executing diffoscope
+[2024-05-31 02:00:17] INFO root fetch - processPackages [layrz-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layrz_sdk-3.0.4.tar.gz tmp/layrz_sdk-3.0.5.tar.gz --markdown 20240531/l/layrz-sdk/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-05-31 02:00:17] INFO root fetch - processPackages [enpt]: Downloading https://files.pythonhosted.org/packages/f1/62/757b01678e4b335f46ee4e8edca0b17b19719fc12ba2d92428b0efa7cad8/enpt-0.20.2.tar.gz
+[2024-05-31 02:00:17] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.2.1.tar.gz]
+[2024-05-31 02:00:17] INFO root fetch - processPackages [drf-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/drf_audit_trail-0.2.2.tar.gz]
+[2024-05-31 02:00:17] INFO root fetch - main [MainThread]: End processing [drf-audit-trail]: success
+[2024-05-31 02:00:17] INFO root fetch - processPackages [amazon-kclpy]: Remove: archive file [/home/abi/fetcher/tmp/amazon_kclpy-2.1.4.tar.gz]
+[2024-05-31 02:00:17] INFO root fetch - processPackages [amazon-kclpy]: Remove: archive file [/home/abi/fetcher/tmp/amazon_kclpy-2.1.5.tar.gz]
+[2024-05-31 02:00:17] INFO root fetch - main [MainThread]: End processing [amazon-kclpy]: success
+[2024-05-31 02:00:17] INFO root fetch - processPackages [layrz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/layrz_sdk-3.0.4.tar.gz]
+[2024-05-31 02:00:17] INFO root fetch - processPackages [layrz-sdk]: Remove: archive file [/home/abi/fetcher/tmp/layrz_sdk-3.0.5.tar.gz]
+[2024-05-31 02:00:17] INFO root fetch - main [MainThread]: End processing [layrz-sdk]: success
+[2024-05-31 02:00:18] INFO root fetch - processPackages [enpt]: executing diffoscope
+[2024-05-31 02:00:18] INFO root fetch - processPackages [enpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enpt-0.20.1.tar.gz tmp/enpt-0.20.2.tar.gz --markdown 20240531/e/enpt/0.20.1-0.20.2/README.md --exclude *.pyd
+[2024-05-31 02:00:19] INFO root fetch - processPackages [enpt]: Remove: archive file [/home/abi/fetcher/tmp/enpt-0.20.1.tar.gz]
+[2024-05-31 02:00:19] INFO root fetch - processPackages [enpt]: Remove: archive file [/home/abi/fetcher/tmp/enpt-0.20.2.tar.gz]
+[2024-05-31 02:00:19] INFO root fetch - main [MainThread]: End processing [enpt]: success
+[2024-05-31 02:00:19] INFO root fetch - main [MainThread]: Store serial: [23458495]
