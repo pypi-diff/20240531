@@ -3696,3 +3696,24 @@
 [2024-05-31 02:59:48] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
 [2024-05-31 02:59:48] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2024-05-31 02:59:48] INFO root fetch - main [MainThread]: Store serial: [23459021]
+[2024-05-31 03:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459021]
+[2024-05-31 03:01:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sleipnirgroup-jormungandr
+[2024-05-31 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pr-pilot-cli
+[2024-05-31 03:01:56] INFO root fetch - processPackages [pr-pilot-cli]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-31 03:01:56] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-31 03:01:56] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/7c/b2/816f97982a5372d22a07c7be0a829387de77a1ae3e7857b8b2f5e36c6183/pr_pilot_cli-1.3.2.tar.gz
+[2024-05-31 03:01:56] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-31 03:01:56] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-31 03:01:56] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/21/9d/bb483305f6edf1ede2bd3c485c0390f5470d778a5e5f75974b6f957081ab/pr_pilot_cli-1.3.3.tar.gz
+[2024-05-31 03:01:56] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-31 03:01:56] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240531/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-31 03:01:56] INFO root fetch - processPackages [pr-pilot-cli]: executing diffoscope
+[2024-05-31 03:01:56] INFO root fetch - processPackages [pr-pilot-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot_cli-1.3.2.tar.gz tmp/pr_pilot_cli-1.3.3.tar.gz --markdown 20240531/p/pr-pilot-cli/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-31 03:01:57] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.3.2.tar.gz]
+[2024-05-31 03:01:57] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.3.3.tar.gz]
+[2024-05-31 03:01:57] INFO root fetch - main [MainThread]: End processing [pr-pilot-cli]: success
+[2024-05-31 03:01:57] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-31 03:01:57] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-31 03:01:57] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-31 03:01:57] INFO root fetch - main [MainThread]: Store serial: [23459037]
