@@ -2840,3 +2840,42 @@
 [2024-05-31 02:11:16] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240530.post1136.tar.gz]
 [2024-05-31 02:11:16] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
 [2024-05-31 02:11:16] INFO root fetch - main [MainThread]: Store serial: [23458610]
+[2024-05-31 02:13:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458610]
+[2024-05-31 02:13:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 02:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pr-pilot-cli
+[2024-05-31 02:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptic
+[2024-05-31 02:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wxhandler
+[2024-05-31 02:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lambdex
+[2024-05-31 02:13:24] INFO root fetch - processPackages [pr-pilot-cli]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-31 02:13:24] INFO root fetch - processPackages [wxhandler]: New version: [0.1.1.1] Old Version: [0.1.1]
+[2024-05-31 02:13:24] INFO root fetch - processPackages [promptic]: New version: [0.7.0a1] Old Version: [0.6.1]
+[2024-05-31 02:13:24] INFO root fetch - processPackages [lambdex]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-31 02:13:24] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/8e/89/b9f60e4eb3dfecc4c5e96c27aa094eb10de526b4934371297bd1fce2ad6f/pr_pilot_cli-1.3.0.tar.gz
+[2024-05-31 02:13:24] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/d1/73/c668b322ef1ea2e2774ed123c9cf1dea81a7dc7241e71636abb312643ea5/promptic-0.6.1.tar.gz
+[2024-05-31 02:13:24] INFO root fetch - processPackages [wxhandler]: Downloading https://files.pythonhosted.org/packages/06/0f/0ca8b50ff81475d1c4bf937585c79fe0353457123a2df1553daaa09a343a/wxhandler-0.1.1.tar.gz
+[2024-05-31 02:13:24] INFO root fetch - processPackages [lambdex]: Downloading https://files.pythonhosted.org/packages/d0/be/178cf646ec16fbaed37e60c3d1394a2e7dab4462fcc83bbd758b26cd0acd/lambdex-0.1.9.tar.gz
+[2024-05-31 02:13:25] INFO root fetch - processPackages [wxhandler]: Downloading https://files.pythonhosted.org/packages/b1/b9/9b2aad4f8f05a1d8a1227013ad31a796cb17d57550790a67fe4b9c28008f/wxhandler-0.1.1.1.tar.gz
+[2024-05-31 02:13:25] INFO root fetch - processPackages [pr-pilot-cli]: Downloading https://files.pythonhosted.org/packages/01/4b/aa8cc8f93d8cacdd2f9730798cc84f84e493476e4ddcac49367900ac60a6/pr_pilot_cli-1.3.1.tar.gz
+[2024-05-31 02:13:25] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/43/db/728304ee5aac494a195b0f6b54f24a7e16d5e15907cc669b94af10de4791/promptic-0.7.0a1.tar.gz
+[2024-05-31 02:13:25] INFO root fetch - processPackages [lambdex]: Downloading https://files.pythonhosted.org/packages/bf/f0/cc2bf7781012c53581bd120e9648996262aeb6e53601d9f17efe0d55ec35/lambdex-0.2.0.tar.gz
+[2024-05-31 02:13:25] INFO root fetch - processPackages [wxhandler]: executing diffoscope
+[2024-05-31 02:13:25] INFO root fetch - processPackages [wxhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxhandler-0.1.1.tar.gz tmp/wxhandler-0.1.1.1.tar.gz --markdown 20240531/w/wxhandler/0.1.1-0.1.1.1/README.md --exclude *.pyd
+[2024-05-31 02:13:25] INFO root fetch - processPackages [pr-pilot-cli]: executing diffoscope
+[2024-05-31 02:13:25] INFO root fetch - processPackages [pr-pilot-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_pilot_cli-1.3.0.tar.gz tmp/pr_pilot_cli-1.3.1.tar.gz --markdown 20240531/p/pr-pilot-cli/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-31 02:13:25] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-31 02:13:25] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.6.1.tar.gz tmp/promptic-0.7.0a1.tar.gz --markdown 20240531/p/promptic/0.6.1-0.7.0a1/README.md --exclude *.pyd
+[2024-05-31 02:13:25] INFO root fetch - processPackages [lambdex]: executing diffoscope
+[2024-05-31 02:13:25] INFO root fetch - processPackages [lambdex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambdex-0.1.9.tar.gz tmp/lambdex-0.2.0.tar.gz --markdown 20240531/l/lambdex/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-31 02:13:26] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.3.0.tar.gz]
+[2024-05-31 02:13:26] INFO root fetch - processPackages [pr-pilot-cli]: Remove: archive file [/home/abi/fetcher/tmp/pr_pilot_cli-1.3.1.tar.gz]
+[2024-05-31 02:13:26] INFO root fetch - main [MainThread]: End processing [pr-pilot-cli]: success
+[2024-05-31 02:13:26] INFO root fetch - processPackages [wxhandler]: Remove: archive file [/home/abi/fetcher/tmp/wxhandler-0.1.1.tar.gz]
+[2024-05-31 02:13:26] INFO root fetch - processPackages [wxhandler]: Remove: archive file [/home/abi/fetcher/tmp/wxhandler-0.1.1.1.tar.gz]
+[2024-05-31 02:13:26] INFO root fetch - main [MainThread]: End processing [wxhandler]: success
+[2024-05-31 02:13:26] INFO root fetch - processPackages [lambdex]: Remove: archive file [/home/abi/fetcher/tmp/lambdex-0.1.9.tar.gz]
+[2024-05-31 02:13:26] INFO root fetch - processPackages [lambdex]: Remove: archive file [/home/abi/fetcher/tmp/lambdex-0.2.0.tar.gz]
+[2024-05-31 02:13:26] INFO root fetch - main [MainThread]: End processing [lambdex]: success
+[2024-05-31 02:13:26] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.6.1.tar.gz]
+[2024-05-31 02:13:26] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.7.0a1.tar.gz]
+[2024-05-31 02:13:26] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-31 02:13:26] INFO root fetch - main [MainThread]: Store serial: [23458628]
