@@ -9863,3 +9863,63 @@
 [2024-05-31 09:01:27] INFO root fetch - processPackages [pulumi-rancher2]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rancher2-6.2.0a1717136216.tar.gz]
 [2024-05-31 09:01:27] INFO root fetch - main [MainThread]: End processing [pulumi-rancher2]: success
 [2024-05-31 09:01:27] INFO root fetch - main [MainThread]: Store serial: [23461644]
+[2024-05-31 09:03:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461644]
+[2024-05-31 09:03:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 09:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wsh213v4
+[2024-05-31 09:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-signalfx
+[2024-05-31 09:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2024-05-31 09:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ampel-hu-astro
+[2024-05-31 09:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zenoh-cli
+[2024-05-31 09:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-slack
+[2024-05-31 09:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: afeng-py-tools
+[2024-05-31 09:03:36] INFO root fetch - processPackages [ampel-hu-astro]: New version: [0.8.4a1] Old Version: [0.8.4a0]
+[2024-05-31 09:03:36] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 09:03:36] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-31 09:03:36] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1717136910] Old Version: [7.2.0a1716963243]
+[2024-05-31 09:03:36] WARNING root fetch - processPackages [wsh213v4]: Skipping, unable to determine old version
+[2024-05-31 09:03:36] INFO root fetch - main [MainThread]: End processing [wsh213v4] error
+[2024-05-31 09:03:36] INFO root fetch - processPackages [zenoh-cli]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-31 09:03:36] INFO root fetch - processPackages [ampel-hu-astro]: Downloading https://files.pythonhosted.org/packages/d0/9e/b75aff37c1fdb779a108045b6c602f2df59dd2caf83a5c720247218f7dba/ampel_hu_astro-0.8.4a0.tar.gz
+[2024-05-31 09:03:36] INFO root fetch - processPackages [pulumi-slack]: New version: [0.5.0a1717137036] Old Version: [0.5.0a1716963622]
+[2024-05-31 09:03:36] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-31 09:03:36] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-31 09:03:36] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/f4/7e/11eb9d8a67ac1ef426774d93698b082c0f083b5964068950bf4393c2d0a4/pulumi_signalfx-7.2.0a1716963243.tar.gz
+[2024-05-31 09:03:36] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/8d/69/85dfb632c83af4502ec9b77b6bb9678acedcc3e772e238ef85679e7e3e9f/pulumi_slack-0.5.0a1716963622.tar.gz
+[2024-05-31 09:03:36] INFO root fetch - processPackages [zenoh-cli]: Downloading https://files.pythonhosted.org/packages/9d/37/7e0226bd10a81bb289bc8e00a45514650c1101ab55bac5c737d1705ff912/zenoh_cli-0.5.1-py3-none-any.whl
+[2024-05-31 09:03:36] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-31 09:03:36] INFO root fetch - processPackages [ampel-hu-astro]: Downloading https://files.pythonhosted.org/packages/eb/78/6aba122b5b53c2be6b15d0df5d256634cf337aa85f47ff9bcccc03a7a23b/ampel_hu_astro-0.8.4a1.tar.gz
+[2024-05-31 09:03:36] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-31 09:03:36] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-31 09:03:36] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240531/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 09:03:36] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-31 09:03:36] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240531/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-31 09:03:36] INFO root fetch - processPackages [ampel-hu-astro]: executing diffoscope
+[2024-05-31 09:03:36] INFO root fetch - processPackages [ampel-hu-astro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampel_hu_astro-0.8.4a0.tar.gz tmp/ampel_hu_astro-0.8.4a1.tar.gz --markdown 20240531/a/ampel-hu-astro/0.8.4a0-0.8.4a1/README.md --exclude *.pyd
+[2024-05-31 09:03:36] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/16/85/d5c8a7f5d5152e84b574a53f575283601615a9a84b77215eb797ace37384/pulumi_slack-0.5.0a1717137036.tar.gz
+[2024-05-31 09:03:36] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/62/08/b03070aea22cca95f76994823230d0c848f66aca86989b6496abf9643f8a/pulumi_signalfx-7.2.0a1717136910.tar.gz
+[2024-05-31 09:03:36] INFO root fetch - processPackages [zenoh-cli]: Downloading https://files.pythonhosted.org/packages/fc/d6/a91df4532d397ede5456ca2a08129597971bc20a6b8e0ff8ae80554f0c70/zenoh_cli-0.5.2-py3-none-any.whl
+[2024-05-31 09:03:36] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-05-31 09:03:36] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1716963243.tar.gz tmp/pulumi_signalfx-7.2.0a1717136910.tar.gz --markdown 20240531/p/pulumi-signalfx/7.2.0a1716963243-7.2.0a1717136910/README.md --exclude *.pyd
+[2024-05-31 09:03:36] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2024-05-31 09:03:36] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.5.0a1716963622.tar.gz tmp/pulumi_slack-0.5.0a1717137036.tar.gz --markdown 20240531/p/pulumi-slack/0.5.0a1716963622-0.5.0a1717137036/README.md --exclude *.pyd
+[2024-05-31 09:03:36] INFO root fetch - processPackages [zenoh-cli]: executing diffoscope
+[2024-05-31 09:03:36] INFO root fetch - processPackages [zenoh-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenoh_cli-0.5.1-py3-none-any.whl.zip tmp/zenoh_cli-0.5.2-py3-none-any.whl.zip --markdown 20240531/z/zenoh-cli/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-31 09:03:37] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-31 09:03:37] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-31 09:03:37] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-31 09:03:37] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1716963622.tar.gz]
+[2024-05-31 09:03:37] INFO root fetch - processPackages [pulumi-slack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_slack-0.5.0a1717137036.tar.gz]
+[2024-05-31 09:03:37] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2024-05-31 09:03:37] INFO root fetch - processPackages [zenoh-cli]: Remove: archive file [/home/abi/fetcher/tmp/zenoh_cli-0.5.1-py3-none-any.whl.zip]
+[2024-05-31 09:03:37] INFO root fetch - processPackages [zenoh-cli]: Remove: archive file [/home/abi/fetcher/tmp/zenoh_cli-0.5.2-py3-none-any.whl.zip]
+[2024-05-31 09:03:37] INFO root fetch - main [MainThread]: End processing [zenoh-cli]: success
+[2024-05-31 09:03:37] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1716963243.tar.gz]
+[2024-05-31 09:03:37] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1717136910.tar.gz]
+[2024-05-31 09:03:37] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-05-31 09:03:37] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-31 09:03:37] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-31 09:03:37] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-31 09:03:38] INFO root fetch - processPackages [ampel-hu-astro]: Remove: archive file [/home/abi/fetcher/tmp/ampel_hu_astro-0.8.4a0.tar.gz]
+[2024-05-31 09:03:38] INFO root fetch - processPackages [ampel-hu-astro]: Remove: archive file [/home/abi/fetcher/tmp/ampel_hu_astro-0.8.4a1.tar.gz]
+[2024-05-31 09:03:38] INFO root fetch - main [MainThread]: End processing [ampel-hu-astro]: success
+[2024-05-31 09:03:38] INFO root fetch - main [MainThread]: Store serial: [23461680]
