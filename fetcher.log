@@ -9341,3 +9341,63 @@
 [2024-05-31 08:34:44] INFO root fetch - processPackages [stereopy]: Remove: archive file [/home/abi/fetcher/tmp/stereopy-1.3.0b2.tar.gz]
 [2024-05-31 08:34:44] INFO root fetch - main [MainThread]: End processing [stereopy]: success
 [2024-05-31 08:34:44] INFO root fetch - main [MainThread]: Store serial: [23461405]
+[2024-05-31 08:36:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461405]
+[2024-05-31 08:36:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 08:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylc-cli
+[2024-05-31 08:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-spreadsheet-oca
+[2024-05-31 08:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sensord
+[2024-05-31 08:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-spreadsheet-dashboard-oca
+[2024-05-31 08:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: immin5
+[2024-05-31 08:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-ns1
+[2024-05-31 08:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hypdelta
+[2024-05-31 08:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyhoul
+[2024-05-31 08:36:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SQLamarr
+[2024-05-31 08:36:53] WARNING root fetch - processPackages [sensord]: Skipping, unable to determine old version
+[2024-05-31 08:36:53] INFO root fetch - main [MainThread]: End processing [sensord] error
+[2024-05-31 08:36:53] INFO root fetch - processPackages [immin5]: New version: [1.0.0] Old Version: [0.0.2]
+[2024-05-31 08:36:53] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: New version: [16.0.1.2.3.7] Old Version: [16.0.1.2.3.5]
+[2024-05-31 08:36:53] WARNING root fetch - processPackages [pylc-cli]: Skipping, unable to determine old version
+[2024-05-31 08:36:53] INFO root fetch - main [MainThread]: End processing [pylc-cli] error
+[2024-05-31 08:36:53] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.3.0a1717135393] Old Version: [3.3.0a1716962249]
+[2024-05-31 08:36:53] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: New version: [16.0.1.1.1.2] Old Version: [16.0.1.1.1.1]
+[2024-05-31 08:36:53] WARNING root fetch - processPackages [pyhoul]: Skipping, unable to determine old version
+[2024-05-31 08:36:53] INFO root fetch - main [MainThread]: End processing [pyhoul] error
+[2024-05-31 08:36:53] WARNING root fetch - processPackages [hypdelta]: Skipping, unable to determine old version
+[2024-05-31 08:36:53] INFO root fetch - processPackages [SQLamarr]: New version: [0.0rc7] Old Version: [0.0rc6]
+[2024-05-31 08:36:53] INFO root fetch - main [MainThread]: End processing [hypdelta] error
+[2024-05-31 08:36:53] INFO root fetch - processPackages [immin5]: Downloading https://files.pythonhosted.org/packages/62/23/ca26ee824d76e7566a267cafbcc618cc2785ff1f99fff53b8fd3803284ea/immin5-0.0.2.tar.gz
+[2024-05-31 08:36:53] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/19/cd/1bac8454e2c0830799941befb58328b49a23876342a01b5207534ed0380f/odoo_addon_spreadsheet_oca-16.0.1.2.3.5-py3-none-any.whl
+[2024-05-31 08:36:53] INFO root fetch - processPackages [SQLamarr]: Downloading https://files.pythonhosted.org/packages/d2/4f/829e98c7c46329f59bcbc7845442e964588f513dff6ac8929697f39b32b4/SQLamarr-0.0rc6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 08:36:53] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/8d/b6/a523ab81e818864bd15c2ff599d529ec22a6b89622772a4ab579b0e8716b/pulumi_ns1-3.3.0a1716962249.tar.gz
+[2024-05-31 08:36:53] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: Downloading https://files.pythonhosted.org/packages/d1/5f/4ed13f0814e25c2f3570272efba0f57c843453dff683d9fbbccb50077093/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.1.1-py3-none-any.whl
+[2024-05-31 08:36:53] INFO root fetch - processPackages [immin5]: Downloading https://files.pythonhosted.org/packages/51/1a/dd57d0513989fb33a46dc1936b5761b90a8022f84647c5e35c4a5e285cbb/immin5-1.0.0.tar.gz
+[2024-05-31 08:36:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/56/4f/4985abe66085c21e01bc1fedd05c3787223d312988ffee3d303d16887052/odoo_addon_spreadsheet_oca-16.0.1.2.3.7-py3-none-any.whl
+[2024-05-31 08:36:54] INFO root fetch - processPackages [immin5]: executing diffoscope
+[2024-05-31 08:36:54] INFO root fetch - processPackages [immin5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immin5-0.0.2.tar.gz tmp/immin5-1.0.0.tar.gz --markdown 20240531/i/immin5/0.0.2-1.0.0/README.md --exclude *.pyd
+[2024-05-31 08:36:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: Downloading https://files.pythonhosted.org/packages/d5/d3/dc2da48c655c3d7190c4dff613b0d21030cf1e1e81656ed2dc39826eb6bb/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.1.2-py3-none-any.whl
+[2024-05-31 08:36:54] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/1a/c4/10612dca04a8a608dce1d801255e0ab049bc301046525db9efcfd6682f19/pulumi_ns1-3.3.0a1717135393-py3-none-any.whl
+[2024-05-31 08:36:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: executing diffoscope
+[2024-05-31 08:36:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_spreadsheet_oca-16.0.1.2.3.5-py3-none-any.whl.zip tmp/odoo_addon_spreadsheet_oca-16.0.1.2.3.7-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-spreadsheet-oca/16.0.1.2.3.5-16.0.1.2.3.7/README.md --exclude *.pyd
+[2024-05-31 08:36:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: executing diffoscope
+[2024-05-31 08:36:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.1.2-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-spreadsheet-dashboard-oca/16.0.1.1.1.1-16.0.1.1.1.2/README.md --exclude *.pyd
+[2024-05-31 08:36:54] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2024-05-31 08:36:54] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.3.0a1716962249.tar.gz tmp/pulumi_ns1-3.3.0a1717135393-py3-none-any.whl.zip --markdown 20240531/p/pulumi-ns1/3.3.0a1716962249-3.3.0a1717135393/README.md --exclude *.pyd
+[2024-05-31 08:36:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.2.3.5-py3-none-any.whl.zip]
+[2024-05-31 08:36:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_oca-16.0.1.2.3.7-py3-none-any.whl.zip]
+[2024-05-31 08:36:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-spreadsheet-oca]: success
+[2024-05-31 08:36:54] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1716962249.tar.gz]
+[2024-05-31 08:36:54] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1717135393-py3-none-any.whl.zip]
+[2024-05-31 08:36:54] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2024-05-31 08:36:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.1.1-py3-none-any.whl.zip]
+[2024-05-31 08:36:54] INFO root fetch - processPackages [odoo-addon-spreadsheet-dashboard-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_spreadsheet_dashboard_oca-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2024-05-31 08:36:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-spreadsheet-dashboard-oca]: success
+[2024-05-31 08:36:56] INFO root fetch - processPackages [immin5]: Remove: archive file [/home/abi/fetcher/tmp/immin5-0.0.2.tar.gz]
+[2024-05-31 08:36:56] INFO root fetch - processPackages [immin5]: Remove: archive file [/home/abi/fetcher/tmp/immin5-1.0.0.tar.gz]
+[2024-05-31 08:36:56] INFO root fetch - main [MainThread]: End processing [immin5]: success
+[2024-05-31 08:36:56] INFO root fetch - processPackages [SQLamarr]: Downloading https://files.pythonhosted.org/packages/55/7b/3e2f0ca08f2836296adff60ed9d99382e12659543cd00a7fe03262818e2d/SQLamarr-0.0rc7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 08:36:56] INFO root fetch - processPackages [SQLamarr]: executing diffoscope
+[2024-05-31 08:36:56] INFO root fetch - processPackages [SQLamarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLamarr-0.0rc6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/SQLamarr-0.0rc7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240531/S/SQLamarr/0.0rc6-0.0rc7/README.md --exclude *.pyd
+[2024-05-31 08:37:16] INFO root fetch - processPackages [SQLamarr]: Remove: archive file [/home/abi/fetcher/tmp/SQLamarr-0.0rc6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 08:37:16] INFO root fetch - processPackages [SQLamarr]: Remove: archive file [/home/abi/fetcher/tmp/SQLamarr-0.0rc7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 08:37:16] INFO root fetch - main [MainThread]: End processing [SQLamarr]: success
+[2024-05-31 08:37:17] INFO root fetch - main [MainThread]: Store serial: [23461442]
