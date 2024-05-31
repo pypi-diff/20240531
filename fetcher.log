@@ -7795,3 +7795,15 @@
 [2024-05-31 07:13:36] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
 [2024-05-31 07:13:36] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
 [2024-05-31 07:13:36] INFO root fetch - main [MainThread]: Store serial: [23460614]
+[2024-05-31 07:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460614]
+[2024-05-31 07:15:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-31 07:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kirjava-jvm
+[2024-05-31 07:15:44] INFO root fetch - processPackages [kirjava-jvm]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-31 07:15:45] INFO root fetch - processPackages [kirjava-jvm]: Downloading https://files.pythonhosted.org/packages/91/e0/bf6264ceb20edf4e2261cbb8d1b048e9f636fb22cba9df2232abb04240e5/kirjava-jvm-0.1.5.tar.gz
+[2024-05-31 07:15:45] INFO root fetch - processPackages [kirjava-jvm]: Downloading https://files.pythonhosted.org/packages/75/66/f82fc904082572a25bf4b1f13726036414fe7df7aedaf6896180b7c045db/kirjava-jvm-0.1.6.tar.gz
+[2024-05-31 07:15:45] INFO root fetch - processPackages [kirjava-jvm]: executing diffoscope
+[2024-05-31 07:15:45] INFO root fetch - processPackages [kirjava-jvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirjava-jvm-0.1.5.tar.gz tmp/kirjava-jvm-0.1.6.tar.gz --markdown 20240531/k/kirjava-jvm/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-31 07:15:46] INFO root fetch - processPackages [kirjava-jvm]: Remove: archive file [/home/abi/fetcher/tmp/kirjava-jvm-0.1.5.tar.gz]
+[2024-05-31 07:15:46] INFO root fetch - processPackages [kirjava-jvm]: Remove: archive file [/home/abi/fetcher/tmp/kirjava-jvm-0.1.6.tar.gz]
+[2024-05-31 07:15:46] INFO root fetch - main [MainThread]: End processing [kirjava-jvm]: success
+[2024-05-31 07:15:46] INFO root fetch - main [MainThread]: Store serial: [23460616]
