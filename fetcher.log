@@ -6773,3 +6773,76 @@
 [2024-05-31 06:03:34] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.913.tar.gz]
 [2024-05-31 06:03:34] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
 [2024-05-31 06:03:34] INFO root fetch - main [MainThread]: Store serial: [23460274]
+[2024-05-31 06:05:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460274]
+[2024-05-31 06:05:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdb-connect-pkg
+[2024-05-31 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuyul-sdk
+[2024-05-31 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: relationalai
+[2024-05-31 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datonius
+[2024-05-31 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-okx
+[2024-05-31 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chromedriver-binary
+[2024-05-31 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chromedriver-binary
+[2024-05-31 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bioxelnodes
+[2024-05-31 06:05:43] INFO root fetch - processPackages [tuyul-sdk]: New version: [0.1.0] Old Version: [0.0.1rc6]
+[2024-05-31 06:05:43] INFO root fetch - processPackages [mdb-connect-pkg]: New version: [1.0.0] Old Version: [0.1]
+[2024-05-31 06:05:43] INFO root fetch - processPackages [relationalai]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-31 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-31 06:05:43] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/27/94/8bd56a6baac41e61da431e9d0825e0fdff37602dd24f008d5bcc9399aa36/tuyul_sdk-0.0.1rc6.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [datonius]: New version: [1.2.0] Old Version: [0.2.0]
+[2024-05-31 06:05:43] INFO root fetch - processPackages [python-okx]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-31 06:05:43] INFO root fetch - processPackages [bioxelnodes]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-31 06:05:43] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/0f/5b/65be430872f8e8ac8c240c41bad3943cb20d1bf5207d54decdb02c16d924/relationalai-0.3.1.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [mdb-connect-pkg]: Downloading https://files.pythonhosted.org/packages/32/af/8f513aa065324e2210d0d7b69187837e6af9494e1327a72602e19f7d2cf6/mdb_connect_pkg-0.1.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [datonius]: Downloading https://files.pythonhosted.org/packages/09/ad/05f409b5e0af3f62c9faf75dfe91063eb0338b1f3e2fef8fdd22dd5ef637/datonius-0.2.0.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [python-okx]: Downloading https://files.pythonhosted.org/packages/df/2b/8562701a4b8a0f0b18474a22c3352e25b6e8b778411d692c32bb79eaf1f9/python-okx-0.2.9.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [bioxelnodes]: Downloading https://files.pythonhosted.org/packages/0a/cf/0d6e7734e50562c755fe3e1356fd543c8cbfb70d01871dde4a73c3ffe405/bioxelnodes-0.1.1.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [mdb-connect-pkg]: Downloading https://files.pythonhosted.org/packages/4e/00/dd8f23d5b3765934bf13609cdbf41e301ffd1709a7634c226cbde57fa230/mdb_connect_pkg-1.0.0.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [tuyul-sdk]: Downloading https://files.pythonhosted.org/packages/27/76/18ce336c849dd9f82f8fab88946bcdbbfd75d74bbcf9422f408efa5da09a/tuyul_sdk-0.1.0.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [mdb-connect-pkg]: executing diffoscope
+[2024-05-31 06:05:43] INFO root fetch - processPackages [mdb-connect-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdb_connect_pkg-0.1.tar.gz tmp/mdb_connect_pkg-1.0.0.tar.gz --markdown 20240531/m/mdb-connect-pkg/0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-31 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-31 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240531/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-31 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-31 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240531/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-31 06:05:43] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/60/0e/7c16a264e3045791327d9cb5fc460f3417b14c377997505f6d20fcdffb65/relationalai-0.3.2.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [tuyul-sdk]: executing diffoscope
+[2024-05-31 06:05:43] INFO root fetch - processPackages [tuyul-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuyul_sdk-0.0.1rc6.tar.gz tmp/tuyul_sdk-0.1.0.tar.gz --markdown 20240531/t/tuyul-sdk/0.0.1rc6-0.1.0/README.md --exclude *.pyd
+[2024-05-31 06:05:43] INFO root fetch - processPackages [datonius]: Downloading https://files.pythonhosted.org/packages/76/82/480c144d9c79a3e88c9a6cd15a8ee5b3f97cf776ac6daed7bd352824b574/datonius-1.2.0.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [python-okx]: Downloading https://files.pythonhosted.org/packages/bc/a4/5740b80ff9597e30564d9ab188cdeae6fb1b3c30711930dbbbc3a3696387/python-okx-0.3.0.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [datonius]: executing diffoscope
+[2024-05-31 06:05:43] INFO root fetch - processPackages [datonius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datonius-0.2.0.tar.gz tmp/datonius-1.2.0.tar.gz --markdown 20240531/d/datonius/0.2.0-1.2.0/README.md --exclude *.pyd
+[2024-05-31 06:05:43] INFO root fetch - processPackages [bioxelnodes]: Downloading https://files.pythonhosted.org/packages/43/66/6feb613846d4feb57258ba16155a41931d5c91c2a81fd793b29708aacd9f/bioxelnodes-0.2.0.tar.gz
+[2024-05-31 06:05:43] INFO root fetch - processPackages [python-okx]: executing diffoscope
+[2024-05-31 06:05:43] INFO root fetch - processPackages [python-okx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-okx-0.2.9.tar.gz tmp/python-okx-0.3.0.tar.gz --markdown 20240531/p/python-okx/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-31 06:05:44] INFO root fetch - processPackages [relationalai]: executing diffoscope
+[2024-05-31 06:05:44] INFO root fetch - processPackages [relationalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relationalai-0.3.1.tar.gz tmp/relationalai-0.3.2.tar.gz --markdown 20240531/r/relationalai/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 06:05:44] INFO root fetch - processPackages [bioxelnodes]: executing diffoscope
+[2024-05-31 06:05:44] INFO root fetch - processPackages [bioxelnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioxelnodes-0.1.1.tar.gz tmp/bioxelnodes-0.2.0.tar.gz --markdown 20240531/b/bioxelnodes/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-31 06:05:44] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-31 06:05:44] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-31 06:05:44] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-31 06:05:44] INFO root fetch - processPackages [mdb-connect-pkg]: Remove: archive file [/home/abi/fetcher/tmp/mdb_connect_pkg-0.1.tar.gz]
+[2024-05-31 06:05:44] INFO root fetch - processPackages [mdb-connect-pkg]: Remove: archive file [/home/abi/fetcher/tmp/mdb_connect_pkg-1.0.0.tar.gz]
+[2024-05-31 06:05:44] INFO root fetch - main [MainThread]: End processing [mdb-connect-pkg]: success
+[2024-05-31 06:05:44] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.0.1rc6.tar.gz]
+[2024-05-31 06:05:44] INFO root fetch - processPackages [tuyul-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tuyul_sdk-0.1.0.tar.gz]
+[2024-05-31 06:05:44] INFO root fetch - main [MainThread]: End processing [tuyul-sdk]: success
+[2024-05-31 06:05:44] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-31 06:05:44] INFO root fetch - processPackages [datonius]: Remove: archive file [/home/abi/fetcher/tmp/datonius-0.2.0.tar.gz]
+[2024-05-31 06:05:44] INFO root fetch - processPackages [datonius]: Remove: archive file [/home/abi/fetcher/tmp/datonius-1.2.0.tar.gz]
+[2024-05-31 06:05:44] INFO root fetch - main [MainThread]: End processing [datonius]: success
+[2024-05-31 06:05:44] INFO root fetch - processPackages [python-okx]: Remove: archive file [/home/abi/fetcher/tmp/python-okx-0.2.9.tar.gz]
+[2024-05-31 06:05:44] INFO root fetch - processPackages [python-okx]: Remove: archive file [/home/abi/fetcher/tmp/python-okx-0.3.0.tar.gz]
+[2024-05-31 06:05:44] INFO root fetch - main [MainThread]: End processing [python-okx]: success
+[2024-05-31 06:05:45] INFO root fetch - processPackages [bioxelnodes]: Remove: archive file [/home/abi/fetcher/tmp/bioxelnodes-0.1.1.tar.gz]
+[2024-05-31 06:05:45] INFO root fetch - processPackages [bioxelnodes]: Remove: archive file [/home/abi/fetcher/tmp/bioxelnodes-0.2.0.tar.gz]
+[2024-05-31 06:05:45] INFO root fetch - main [MainThread]: End processing [bioxelnodes]: success
+[2024-05-31 06:05:46] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.3.1.tar.gz]
+[2024-05-31 06:05:46] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.3.2.tar.gz]
+[2024-05-31 06:05:46] INFO root fetch - main [MainThread]: End processing [relationalai]: success
+[2024-05-31 06:05:46] INFO root fetch - main [MainThread]: Store serial: [23460293]
