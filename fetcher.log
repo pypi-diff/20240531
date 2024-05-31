@@ -10781,3 +10781,51 @@
 [2024-05-31 09:34:26] INFO root fetch - processPackages [va-am]: Remove: archive file [/home/abi/fetcher/tmp/va_am-0.1.7.tar.gz]
 [2024-05-31 09:34:26] INFO root fetch - main [MainThread]: End processing [va-am]: success
 [2024-05-31 09:34:26] INFO root fetch - main [MainThread]: Store serial: [23462139]
+[2024-05-31 09:36:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462139]
+[2024-05-31 09:36:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codedog
+[2024-05-31 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aibridge-test
+[2024-05-31 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqueen
+[2024-05-31 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dycw-utilities
+[2024-05-31 09:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-oci
+[2024-05-31 09:36:35] INFO root fetch - processPackages [aibridge-test]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 09:36:35] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/05/d5/88679fc6d235fd7093565abf4a144b7f4f836d3ababe47748ca27d6f64ab/aibridge_test-0.3.8.tar.gz
+[2024-05-31 09:36:35] INFO root fetch - processPackages [pulumi-oci]: New version: [1.9.0a1693981063] Old Version: [1.9.0a1693634572]
+[2024-05-31 09:36:35] INFO root fetch - processPackages [codedog]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-31 09:36:35] INFO root fetch - processPackages [pyqueen]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-31 09:36:35] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-31 09:36:35] INFO root fetch - processPackages [pyqueen]: Downloading https://files.pythonhosted.org/packages/f1/ad/830720cd04717b900203a0602fe0c5225d1f541ec3b53ce5a59b3dc21b59/pyqueen-1.1.2.tar.gz
+[2024-05-31 09:36:35] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/06/e6/d148ed01d9144224901437774503cd2598b05fdb79a8aba4ecb29a8b9bdd/aibridge_test-0.3.9.tar.gz
+[2024-05-31 09:36:35] INFO root fetch - processPackages [codedog]: Downloading https://files.pythonhosted.org/packages/b3/43/b9783dfa5adda0b79d31107f56ef1eb602333a860011f95843cd66e65c54/codedog-0.8.2.tar.gz
+[2024-05-31 09:36:35] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/02/f8/59b31ede3416e4e37062af605ed2293a67d7cfe3eec867258c58481c638d/pulumi_oci-1.9.0a1693634572.tar.gz
+[2024-05-31 09:36:35] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-31 09:36:35] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-05-31 09:36:35] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.3.8.tar.gz tmp/aibridge_test-0.3.9.tar.gz --markdown 20240531/a/aibridge-test/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 09:36:35] INFO root fetch - processPackages [codedog]: Downloading https://files.pythonhosted.org/packages/aa/70/f2ef5069f4dfa68469d9aeb42ca310a467e32304511aed01170cf0dd9257/codedog-0.9.0.tar.gz
+[2024-05-31 09:36:35] INFO root fetch - processPackages [pyqueen]: Downloading https://files.pythonhosted.org/packages/60/36/bf86e69a2de9ea3a8bf8f5fb8cca0774a0659bc7d3ad4a3d46fe949305ae/pyqueen-1.1.3.tar.gz
+[2024-05-31 09:36:35] INFO root fetch - processPackages [codedog]: executing diffoscope
+[2024-05-31 09:36:35] INFO root fetch - processPackages [codedog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedog-0.8.2.tar.gz tmp/codedog-0.9.0.tar.gz --markdown 20240531/c/codedog/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-31 09:36:35] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-31 09:36:36] INFO root fetch - processPackages [pyqueen]: executing diffoscope
+[2024-05-31 09:36:36] INFO root fetch - processPackages [pyqueen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqueen-1.1.2.tar.gz tmp/pyqueen-1.1.3.tar.gz --markdown 20240531/p/pyqueen/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-31 09:36:36] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-31 09:36:36] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240531/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-31 09:36:36] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.8.tar.gz]
+[2024-05-31 09:36:36] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.9.tar.gz]
+[2024-05-31 09:36:36] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-05-31 09:36:36] INFO root fetch - processPackages [pyqueen]: Remove: archive file [/home/abi/fetcher/tmp/pyqueen-1.1.2.tar.gz]
+[2024-05-31 09:36:36] INFO root fetch - processPackages [pyqueen]: Remove: archive file [/home/abi/fetcher/tmp/pyqueen-1.1.3.tar.gz]
+[2024-05-31 09:36:36] INFO root fetch - main [MainThread]: End processing [pyqueen]: success
+[2024-05-31 09:36:36] INFO root fetch - processPackages [codedog]: Remove: archive file [/home/abi/fetcher/tmp/codedog-0.8.2.tar.gz]
+[2024-05-31 09:36:36] INFO root fetch - processPackages [codedog]: Remove: archive file [/home/abi/fetcher/tmp/codedog-0.9.0.tar.gz]
+[2024-05-31 09:36:36] INFO root fetch - main [MainThread]: End processing [codedog]: success
+[2024-05-31 09:36:36] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/77/93/cd3384a9ca236f6aa79a6f6fa7c94647e0588bdaf8a86d173cca47e31e21/pulumi_oci-1.9.0a1693981063.tar.gz
+[2024-05-31 09:36:37] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-31 09:36:37] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-31 09:36:37] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-31 09:36:37] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2024-05-31 09:36:37] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-1.9.0a1693634572.tar.gz tmp/pulumi_oci-1.9.0a1693981063.tar.gz --markdown 20240531/p/pulumi-oci/1.9.0a1693634572-1.9.0a1693981063/README.md --exclude *.pyd
+[2024-05-31 09:36:52] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693634572.tar.gz]
+[2024-05-31 09:36:52] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
+[2024-05-31 09:36:52] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2024-05-31 09:36:52] INFO root fetch - main [MainThread]: Store serial: [23462176]
