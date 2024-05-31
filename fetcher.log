@@ -8188,3 +8188,51 @@
 [2024-05-31 07:37:37] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
 [2024-05-31 07:37:37] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-05-31 07:37:37] INFO root fetch - main [MainThread]: Store serial: [23460783]
+[2024-05-31 07:39:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460783]
+[2024-05-31 07:39:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 07:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-civo
+[2024-05-31 07:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudamqp
+[2024-05-31 07:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudinit
+[2024-05-31 07:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-aiven
+[2024-05-31 07:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blendedUx-Lang
+[2024-05-31 07:39:46] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1717132685] Old Version: [2.4.0a1716959879]
+[2024-05-31 07:39:46] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.5.0a1717132832] Old Version: [1.5.0a1716960021]
+[2024-05-31 07:39:46] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-05-31 07:39:46] INFO root fetch - processPackages [blendedUx-Lang]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-31 07:39:46] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-31 07:39:46] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/4a/4e/21b905e54e34bbd557030aef274869b9df92ef0d095cd0ad8b5f4c1bcaf2/pulumi_civo-2.4.0a1716959879.tar.gz
+[2024-05-31 07:39:46] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/11/e9/21f7b016e33dfe37759f872bc35e5859819c933ab5e3b90a1a659ab49314/pulumi_cloudamqp-3.9.1.tar.gz
+[2024-05-31 07:39:46] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-05-31 07:39:46] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/83/40/a1f91baeddbb1b8a33b15e2813f627409d2ebae627d1b50165f79a7517c4/pulumi_cloudinit-1.5.0a1716960021.tar.gz
+[2024-05-31 07:39:46] INFO root fetch - processPackages [blendedUx-Lang]: Downloading https://files.pythonhosted.org/packages/d5/33/7f6db744f0ca3f110b5043d09fcf5a772fed5da9f25959d282c6cbc5278d/blendedUx_Lang-1.1.0.tar.gz
+[2024-05-31 07:39:46] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/cf/9b/5a918007d9e8dd43b776dfb44a15f7748145d7191cbf24e886e127316afb/pulumi_civo-2.4.0a1717132685.tar.gz
+[2024-05-31 07:39:46] INFO root fetch - processPackages [pulumi-cloudamqp]: Downloading https://files.pythonhosted.org/packages/af/5a/e693fc66be78e5b911198861afba3393be3d0c49d5f64c45c63abd861205/pulumi_cloudamqp-3.9.2.tar.gz
+[2024-05-31 07:39:46] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/f6/44/6d4208c746e09e1ad096e22990427c9da4252bd9804837e5bd97fc44751e/pulumi_cloudinit-1.5.0a1717132832.tar.gz
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20240531/p/pulumi-cloudamqp/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1716959879.tar.gz tmp/pulumi_civo-2.4.0a1717132685.tar.gz --markdown 20240531/p/pulumi-civo/2.4.0a1716959879-2.4.0a1717132685/README.md --exclude *.pyd
+[2024-05-31 07:39:47] INFO root fetch - processPackages [blendedUx-Lang]: Downloading https://files.pythonhosted.org/packages/dd/f3/7a4a85f7f6a278626383dcd4448a180787ecc29df4534b7695f4ab51ccb5/blendedUx_Lang-1.1.1.tar.gz
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.5.0a1716960021.tar.gz tmp/pulumi_cloudinit-1.5.0a1717132832.tar.gz --markdown 20240531/p/pulumi-cloudinit/1.5.0a1716960021-1.5.0a1717132832/README.md --exclude *.pyd
+[2024-05-31 07:39:47] INFO root fetch - processPackages [blendedUx-Lang]: executing diffoscope
+[2024-05-31 07:39:47] INFO root fetch - processPackages [blendedUx-Lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blendedUx_Lang-1.1.0.tar.gz tmp/blendedUx_Lang-1.1.1.tar.gz --markdown 20240531/b/blendedUx-Lang/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240531/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1716960021.tar.gz]
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-cloudinit]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudinit-1.5.0a1717132832.tar.gz]
+[2024-05-31 07:39:47] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1716959879.tar.gz]
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1717132685.tar.gz]
+[2024-05-31 07:39:47] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.1.tar.gz]
+[2024-05-31 07:39:47] INFO root fetch - processPackages [pulumi-cloudamqp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudamqp-3.9.2.tar.gz]
+[2024-05-31 07:39:47] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2024-05-31 07:39:48] INFO root fetch - processPackages [blendedUx-Lang]: Remove: archive file [/home/abi/fetcher/tmp/blendedUx_Lang-1.1.0.tar.gz]
+[2024-05-31 07:39:48] INFO root fetch - processPackages [blendedUx-Lang]: Remove: archive file [/home/abi/fetcher/tmp/blendedUx_Lang-1.1.1.tar.gz]
+[2024-05-31 07:39:48] INFO root fetch - main [MainThread]: End processing [blendedUx-Lang]: success
+[2024-05-31 07:39:48] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-05-31 07:39:48] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-05-31 07:39:48] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-05-31 07:39:48] INFO root fetch - main [MainThread]: Store serial: [23460798]
