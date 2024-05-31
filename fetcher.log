@@ -24203,3 +24203,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:46:34] INFO root fetch - processPackages [pyqcm]: Remove: archive file [/home/abi/fetcher/tmp/pyqcm-2.5.4.tar.gz]
 [2024-05-31 17:46:34] INFO root fetch - main [MainThread]: End processing [pyqcm]: success
 [2024-05-31 17:46:35] INFO root fetch - main [MainThread]: Store serial: [23468250]
+[2024-05-31 17:48:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23468250]
+[2024-05-31 17:48:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 17:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydatagenerator
+[2024-05-31 17:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuatNet
+[2024-05-31 17:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezkl-gpu
+[2024-05-31 17:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: direct-neural-biasing
+[2024-05-31 17:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple-numeric-methods-Ulixes2202
+[2024-05-31 17:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dt-extension-migrator
+[2024-05-31 17:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xsuite
+[2024-05-31 17:48:44] INFO root fetch - processPackages [ezkl-gpu]: New version: [9.5.0] Old Version: [9.4.4]
+[2024-05-31 17:48:44] INFO root fetch - processPackages [dt-extension-migrator]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-31 17:48:44] INFO root fetch - processPackages [direct-neural-biasing]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-31 17:48:44] INFO root fetch - processPackages [xsuite]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-31 17:48:44] INFO root fetch - processPackages [pydatagenerator]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 17:48:44] INFO root fetch - processPackages [ezkl-gpu]: Downloading https://files.pythonhosted.org/packages/0a/7a/6ba1898c5763102473f591d6c6deb50cc26c158d75e30ca3759eca1e6b05/ezkl_gpu-9.4.4-cp37-abi3-manylinux_2_35_x86_64.whl
+[2024-05-31 17:48:44] WARNING root fetch - processPackages [simple-numeric-methods-Ulixes2202]: Skipping, unable to determine old version
+[2024-05-31 17:48:44] INFO root fetch - main [MainThread]: End processing [simple-numeric-methods-Ulixes2202] error
+[2024-05-31 17:48:44] INFO root fetch - processPackages [QuatNet]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 17:48:44] INFO root fetch - processPackages [dt-extension-migrator]: Downloading https://files.pythonhosted.org/packages/e0/0b/c9fd11bb6a03d7b526bd3b7f1b8cd4f85fd4bf9af67b7767e0f30596cb66/dt_extension_migrator-0.1.5.tar.gz
+[2024-05-31 17:48:44] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/0b/dd/1239de8ee635a57cf153b26cba8516b0ce5da4381c0e5ada1a18e0baedea/direct_neural_biasing-0.7.3-cp311-none-win_amd64.whl
+[2024-05-31 17:48:44] INFO root fetch - processPackages [xsuite]: Downloading https://files.pythonhosted.org/packages/f0/df/5ebca898443ec7082cc18dc2d146ac831db32a0db9f3eb249f335f586544/xsuite-0.9.3.tar.gz
+[2024-05-31 17:48:44] WARNING root fetch - processPackages [ezkl-gpu]: Skipping package: exceeds size limit 60535856>=10485760
+[2024-05-31 17:48:44] INFO root fetch - main [MainThread]: End processing [ezkl-gpu] error
+[2024-05-31 17:48:44] INFO root fetch - processPackages [QuatNet]: Downloading https://files.pythonhosted.org/packages/19/40/d1f0518640d11da84ffc027338c40b1df06a8a1eea35f8306ae34714f855/QuatNet-0.1.1.tar.gz
+[2024-05-31 17:48:44] INFO root fetch - processPackages [pydatagenerator]: Downloading https://files.pythonhosted.org/packages/fa/90/b8e929a0f1b641cb119acb35b101b33b67dae553b00728f20dac3812fa2f/pydatagenerator-0.0.1.tar.gz
+[2024-05-31 17:48:44] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/4b/85/c2762a0c6854481d4739818c97d04512e49ecac60f3aa5839da259d67663/direct_neural_biasing-0.7.4-cp311-none-win_amd64.whl
+[2024-05-31 17:48:44] INFO root fetch - processPackages [dt-extension-migrator]: Downloading https://files.pythonhosted.org/packages/70/fe/95d16f336e52479535d9a2053d22edbdc1a25e669bfecc71380897e4408c/dt_extension_migrator-0.1.6.tar.gz
+[2024-05-31 17:48:45] INFO root fetch - processPackages [direct-neural-biasing]: executing diffoscope
+[2024-05-31 17:48:45] INFO root fetch - processPackages [direct-neural-biasing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direct_neural_biasing-0.7.3-cp311-none-win_amd64.whl.zip tmp/direct_neural_biasing-0.7.4-cp311-none-win_amd64.whl.zip --markdown 20240531/d/direct-neural-biasing/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-31 17:48:45] INFO root fetch - processPackages [dt-extension-migrator]: executing diffoscope
+[2024-05-31 17:48:45] INFO root fetch - processPackages [dt-extension-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt_extension_migrator-0.1.5.tar.gz tmp/dt_extension_migrator-0.1.6.tar.gz --markdown 20240531/d/dt-extension-migrator/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-31 17:48:45] INFO root fetch - processPackages [xsuite]: Downloading https://files.pythonhosted.org/packages/14/d6/77d70a5f579f2cb19579161cb29bfea0f48d009fcc0a6120dc14f1d09f91/xsuite-0.9.4.tar.gz
+[2024-05-31 17:48:45] INFO root fetch - processPackages [pydatagenerator]: Downloading https://files.pythonhosted.org/packages/f9/03/47817025be07423af70dc1d58efd4943d2475bdee6c5b43ee85e32d65d4e/pydatagenerator-0.0.2.tar.gz
+[2024-05-31 17:48:45] INFO root fetch - processPackages [QuatNet]: Downloading https://files.pythonhosted.org/packages/b8/b8/202f76ff030725ae749d2e350ae31c1c6234f8ab68cb36fd85f76271981d/quatnet-0.1.2.tar.gz
+[2024-05-31 17:48:45] INFO root fetch - processPackages [pydatagenerator]: executing diffoscope
+[2024-05-31 17:48:45] INFO root fetch - processPackages [pydatagenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatagenerator-0.0.1.tar.gz tmp/pydatagenerator-0.0.2.tar.gz --markdown 20240531/p/pydatagenerator/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 17:48:45] INFO root fetch - processPackages [QuatNet]: executing diffoscope
+[2024-05-31 17:48:45] INFO root fetch - processPackages [QuatNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuatNet-0.1.1.tar.gz tmp/quatnet-0.1.2.tar.gz --markdown 20240531/Q/QuatNet/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 17:48:45] INFO root fetch - processPackages [xsuite]: executing diffoscope
+[2024-05-31 17:48:45] INFO root fetch - processPackages [xsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsuite-0.9.3.tar.gz tmp/xsuite-0.9.4.tar.gz --markdown 20240531/x/xsuite/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-31 17:48:45] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.7.3-cp311-none-win_amd64.whl.zip]
+[2024-05-31 17:48:45] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.7.4-cp311-none-win_amd64.whl.zip]
+[2024-05-31 17:48:45] INFO root fetch - main [MainThread]: End processing [direct-neural-biasing]: success
+[2024-05-31 17:48:45] INFO root fetch - processPackages [dt-extension-migrator]: Remove: archive file [/home/abi/fetcher/tmp/dt_extension_migrator-0.1.5.tar.gz]
+[2024-05-31 17:48:45] INFO root fetch - processPackages [dt-extension-migrator]: Remove: archive file [/home/abi/fetcher/tmp/dt_extension_migrator-0.1.6.tar.gz]
+[2024-05-31 17:48:45] INFO root fetch - main [MainThread]: End processing [dt-extension-migrator]: success
+[2024-05-31 17:48:45] INFO root fetch - processPackages [pydatagenerator]: Remove: archive file [/home/abi/fetcher/tmp/pydatagenerator-0.0.1.tar.gz]
+[2024-05-31 17:48:45] INFO root fetch - processPackages [pydatagenerator]: Remove: archive file [/home/abi/fetcher/tmp/pydatagenerator-0.0.2.tar.gz]
+[2024-05-31 17:48:45] INFO root fetch - main [MainThread]: End processing [pydatagenerator]: success
+[2024-05-31 17:48:45] INFO root fetch - processPackages [QuatNet]: Remove: archive file [/home/abi/fetcher/tmp/QuatNet-0.1.1.tar.gz]
+[2024-05-31 17:48:45] INFO root fetch - processPackages [QuatNet]: Remove: archive file [/home/abi/fetcher/tmp/quatnet-0.1.2.tar.gz]
+[2024-05-31 17:48:45] INFO root fetch - main [MainThread]: End processing [QuatNet]: success
+[2024-05-31 17:48:46] INFO root fetch - processPackages [xsuite]: Remove: archive file [/home/abi/fetcher/tmp/xsuite-0.9.3.tar.gz]
+[2024-05-31 17:48:46] INFO root fetch - processPackages [xsuite]: Remove: archive file [/home/abi/fetcher/tmp/xsuite-0.9.4.tar.gz]
+[2024-05-31 17:48:46] INFO root fetch - main [MainThread]: End processing [xsuite]: success
+[2024-05-31 17:48:46] INFO root fetch - main [MainThread]: Store serial: [23468282]
