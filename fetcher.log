@@ -20699,3 +20699,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:52:26] INFO root fetch - processPackages [PyDynamic]: Remove: archive file [/home/abi/fetcher/tmp/PyDynamic-2.5.0.tar.gz]
 [2024-05-31 15:52:26] INFO root fetch - main [MainThread]: End processing [PyDynamic]: success
 [2024-05-31 15:52:26] INFO root fetch - main [MainThread]: Store serial: [23466527]
+[2024-05-31 15:54:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466527]
+[2024-05-31 15:54:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-31 15:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tamaas
+[2024-05-31 15:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyserde
+[2024-05-31 15:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: consensusGen
+[2024-05-31 15:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: changy
+[2024-05-31 15:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: htcondor
+[2024-05-31 15:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhasura
+[2024-05-31 15:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipfabric
+[2024-05-31 15:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MolParse
+[2024-05-31 15:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: woningwaardering
+[2024-05-31 15:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tensordict-nightly
+[2024-05-31 15:54:34] INFO root fetch - processPackages [changy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 15:54:34] INFO root fetch - processPackages [consensusGen]: New version: [1.7] Old Version: [1.6]
+[2024-05-31 15:54:34] INFO root fetch - processPackages [woningwaardering]: New version: [0.4.0a2] Old Version: [0.4.0a1]
+[2024-05-31 15:54:34] INFO root fetch - processPackages [MolParse]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 15:54:34] INFO root fetch - processPackages [pyhasura]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 15:54:34] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/fc/ec/04bfc41d5002e8b544d92368f124175bd15b599239d917e0e95b8c574677/consensusgen-1.6.tar.gz
+[2024-05-31 15:54:34] INFO root fetch - processPackages [tamaas]: New version: [2.8.0rc1] Old Version: [2.7.1rc1]
+[2024-05-31 15:54:34] INFO root fetch - processPackages [htcondor]: New version: [9.0.17] Old Version: [8.8.15]
+[2024-05-31 15:54:34] INFO root fetch - processPackages [changy]: Downloading https://files.pythonhosted.org/packages/12/4c/780fc4e77d7385b44952066801ebab6a73fe0b00d691d334dd3993685a17/changy-0.1.1.tar.gz
+[2024-05-31 15:54:34] INFO root fetch - processPackages [pyserde]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-31 15:54:34] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/95/74/b4ed4bf242f56b3aed70cb52554c8acf938206faa9687d37ee0841c221a5/pyhasura-1.0.8.tar.gz
+[2024-05-31 15:54:34] INFO root fetch - processPackages [MolParse]: Downloading https://files.pythonhosted.org/packages/cf/d8/69bb3a1a65912e386d7ef0186301ee34958c99a47ec8a33004016c09768c/molparse-0.0.8.tar.gz
+[2024-05-31 15:54:34] INFO root fetch - processPackages [ipfabric]: New version: [6.8.2b0] Old Version: [6.8.2]
+[2024-05-31 15:54:35] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-31 15:54:35] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/f2/86/bb94594de319ae91a173a922d00d18ead788a5e994b5bb0e2248c0eefda5/woningwaardering-0.4.0a1.tar.gz
+[2024-05-31 15:54:35] INFO root fetch - processPackages [tamaas]: Downloading https://files.pythonhosted.org/packages/15/3f/a81969a4386c3861174bcbf2e2d0cc80f0f9fd71a6c2716d2b76596a1764/tamaas-2.7.1rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+[2024-05-31 15:54:35] INFO root fetch - processPackages [pyserde]: Downloading https://files.pythonhosted.org/packages/c6/fd/8a6d9967aa1ca3450ce7bf8b1556359e7801a809e354b85682ed16481fb5/pyserde-0.9.7.tar.gz
+[2024-05-31 15:54:35] INFO root fetch - processPackages [htcondor]: Downloading https://files.pythonhosted.org/packages/1d/1c/45f3cfdbaafc66adddffee7f6c2fb7a98fb20a53e958ce906f3972cd0241/htcondor-8.8.15-cp37-cp37m-manylinux1_x86_64.whl
+[2024-05-31 15:54:35] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/c7/f0/48c2859465422c40e59cc1b4545e93ff94a44aa59f5103fb64d1958ca3a3/ipfabric-6.8.2.tar.gz
+[2024-05-31 15:54:35] INFO root fetch - processPackages [changy]: Downloading https://files.pythonhosted.org/packages/69/e8/8529341e209d4a9d405d2680d6e53113a38dc6cabbadb4b399d4747e2a7a/changy-0.1.2.tar.gz
+[2024-05-31 15:54:35] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/eb/3e/ee576591a7c4ea777ff94996eb0197f5034bade0047be6fcac2596d26e84/pyhasura-1.0.9.tar.gz
+[2024-05-31 15:54:35] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/92/36/819c077c6f13e604fee257ce897f68e5860a53e54214b83dce4b4878dff6/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-31 15:54:35] INFO root fetch - processPackages [MolParse]: Downloading https://files.pythonhosted.org/packages/34/60/41575f38929cea6fe707b94e71bb10a51b19d236e7693a5a8dfdf4e46890/molparse-0.0.9.tar.gz
+[2024-05-31 15:54:35] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/1f/00/e7b44b55c6f2388ed2685d641e2683e176ee9ef2b11ef62bf17dce51bdef/consensusgen-1.7.tar.gz
+[2024-05-31 15:54:35] INFO root fetch - processPackages [changy]: executing diffoscope
+[2024-05-31 15:54:35] INFO root fetch - processPackages [changy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changy-0.1.1.tar.gz tmp/changy-0.1.2.tar.gz --markdown 20240531/c/changy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 15:54:35] INFO root fetch - processPackages [pyhasura]: executing diffoscope
+[2024-05-31 15:54:35] INFO root fetch - processPackages [pyhasura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhasura-1.0.8.tar.gz tmp/pyhasura-1.0.9.tar.gz --markdown 20240531/p/pyhasura/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 15:54:35] INFO root fetch - processPackages [consensusGen]: executing diffoscope
+[2024-05-31 15:54:35] INFO root fetch - processPackages [consensusGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consensusgen-1.6.tar.gz tmp/consensusgen-1.7.tar.gz --markdown 20240531/c/consensusGen/1.6-1.7/README.md --exclude *.pyd
+[2024-05-31 15:54:35] WARNING root fetch - processPackages [htcondor]: Skipping package: exceeds size limit 26089811>=10485760
+[2024-05-31 15:54:35] INFO root fetch - processPackages [htcondor]: Start processing: aimodelshare
+[2024-05-31 15:54:35] INFO root fetch - main [MainThread]: End processing [htcondor] error
+[2024-05-31 15:54:35] INFO root fetch - processPackages [MolParse]: executing diffoscope
+[2024-05-31 15:54:35] INFO root fetch - processPackages [MolParse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molparse-0.0.8.tar.gz tmp/molparse-0.0.9.tar.gz --markdown 20240531/M/MolParse/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 15:54:35] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/a1/e9/9e32fc3ec77f96f56da4d71f107d91aea9b71a5e4dee35a8c64e32da72fb/woningwaardering-0.4.0a2.tar.gz
+[2024-05-31 15:54:35] INFO root fetch - processPackages [aimodelshare]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 15:54:35] INFO root fetch - processPackages [pyserde]: Downloading https://files.pythonhosted.org/packages/08/1d/65f8f49d7df9b9326fb7de9ae0bb1dae880de85e2ae08ee6d850014f4b7d/pyserde-0.9.8.tar.gz
+[2024-05-31 15:54:35] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/c0/89/8d5c1ec1f29fb33b0fe43c98e3f08f65c921359d526635068eef7a186e2c/aimodelshare-0.1.8.tar.gz
+[2024-05-31 15:54:35] INFO root fetch - processPackages [ipfabric]: Downloading https://files.pythonhosted.org/packages/bd/0c/ee6cf42d5829cb456716c9556648a51d88be51e19d8d937e977061b24c54/ipfabric-6.8.2b0.tar.gz
+[2024-05-31 15:54:35] INFO root fetch - processPackages [pyserde]: executing diffoscope
+[2024-05-31 15:54:35] INFO root fetch - processPackages [pyserde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserde-0.9.7.tar.gz tmp/pyserde-0.9.8.tar.gz --markdown 20240531/p/pyserde/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-31 15:54:35] INFO root fetch - processPackages [woningwaardering]: executing diffoscope
+[2024-05-31 15:54:35] INFO root fetch - processPackages [woningwaardering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woningwaardering-0.4.0a1.tar.gz tmp/woningwaardering-0.4.0a2.tar.gz --markdown 20240531/w/woningwaardering/0.4.0a1-0.4.0a2/README.md --exclude *.pyd
+[2024-05-31 15:54:35] INFO root fetch - processPackages [tamaas]: Downloading https://files.pythonhosted.org/packages/66/65/cb09b6a03049d3fcf555d5ef8c0de809bcb00b847c52c2ee4ba31c3f5524/tamaas-2.8.0rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+[2024-05-31 15:54:35] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/b9/28/e296d4b168e87aedf19b6cf0d7e65b1474a3da33b8e5314b4a04050bda78/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-31 15:54:35] INFO root fetch - processPackages [ipfabric]: executing diffoscope
+[2024-05-31 15:54:35] INFO root fetch - processPackages [ipfabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipfabric-6.8.2.tar.gz tmp/ipfabric-6.8.2b0.tar.gz --markdown 20240531/i/ipfabric/6.8.2-6.8.2b0/README.md --exclude *.pyd
+[2024-05-31 15:54:36] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-05-31 15:54:36] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240531/t/tensordict-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-31 15:54:36] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/92/1b/5990f7c62044a2ad0776737091765068646eecee14dd251c5ea3732caeb0/aimodelshare-0.1.9.tar.gz
+[2024-05-31 15:54:36] INFO root fetch - processPackages [changy]: Remove: archive file [/home/abi/fetcher/tmp/changy-0.1.1.tar.gz]
+[2024-05-31 15:54:36] INFO root fetch - processPackages [changy]: Remove: archive file [/home/abi/fetcher/tmp/changy-0.1.2.tar.gz]
+[2024-05-31 15:54:36] INFO root fetch - processPackages [changy]: Start processing: PropertyExtract
+[2024-05-31 15:54:36] INFO root fetch - main [MainThread]: End processing [changy]: success
+[2024-05-31 15:54:36] INFO root fetch - processPackages [tamaas]: executing diffoscope
+[2024-05-31 15:54:36] INFO root fetch - processPackages [tamaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tamaas-2.7.1rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip tmp/tamaas-2.8.0rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip --markdown 20240531/t/tamaas/2.7.1rc1-2.8.0rc1/README.md --exclude *.pyd
+[2024-05-31 15:54:36] INFO root fetch - processPackages [aimodelshare]: executing diffoscope
+[2024-05-31 15:54:36] INFO root fetch - processPackages [aimodelshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimodelshare-0.1.8.tar.gz tmp/aimodelshare-0.1.9.tar.gz --markdown 20240531/a/aimodelshare/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 15:54:36] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-1.6.tar.gz]
+[2024-05-31 15:54:36] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-1.7.tar.gz]
+[2024-05-31 15:54:36] INFO root fetch - main [MainThread]: End processing [consensusGen]: success
+[2024-05-31 15:54:36] INFO root fetch - processPackages [PropertyExtract]: New version: [1.1] Old Version: [1.0]
+[2024-05-31 15:54:36] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.8.tar.gz]
+[2024-05-31 15:54:36] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.9.tar.gz]
+[2024-05-31 15:54:36] INFO root fetch - main [MainThread]: End processing [pyhasura]: success
+[2024-05-31 15:54:36] INFO root fetch - processPackages [MolParse]: Remove: archive file [/home/abi/fetcher/tmp/molparse-0.0.8.tar.gz]
+[2024-05-31 15:54:36] INFO root fetch - processPackages [MolParse]: Remove: archive file [/home/abi/fetcher/tmp/molparse-0.0.9.tar.gz]
+[2024-05-31 15:54:36] INFO root fetch - main [MainThread]: End processing [MolParse]: success
+[2024-05-31 15:54:36] INFO root fetch - processPackages [pyserde]: Remove: archive file [/home/abi/fetcher/tmp/pyserde-0.9.7.tar.gz]
+[2024-05-31 15:54:36] INFO root fetch - processPackages [pyserde]: Remove: archive file [/home/abi/fetcher/tmp/pyserde-0.9.8.tar.gz]
+[2024-05-31 15:54:36] INFO root fetch - main [MainThread]: End processing [pyserde]: success
+[2024-05-31 15:54:36] INFO root fetch - processPackages [PropertyExtract]: Downloading https://files.pythonhosted.org/packages/8d/b0/6f5bd255bb049907afb7bd7d519975232565f1d45b09a5a3482501f8776a/PropertyExtract-1.0.tar.gz
+[2024-05-31 15:54:37] INFO root fetch - processPackages [PropertyExtract]: Downloading https://files.pythonhosted.org/packages/3d/ce/023b18458aa4623f23d4c96ce41e47765c8759c3980d396a1d591df7f3cc/propertyextract-1.1.tar.gz
+[2024-05-31 15:54:37] INFO root fetch - processPackages [ipfabric]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric-6.8.2.tar.gz]
+[2024-05-31 15:54:37] INFO root fetch - processPackages [ipfabric]: Remove: archive file [/home/abi/fetcher/tmp/ipfabric-6.8.2b0.tar.gz]
+[2024-05-31 15:54:37] INFO root fetch - main [MainThread]: End processing [ipfabric]: success
+[2024-05-31 15:54:37] INFO root fetch - processPackages [PropertyExtract]: executing diffoscope
+[2024-05-31 15:54:37] INFO root fetch - processPackages [PropertyExtract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PropertyExtract-1.0.tar.gz tmp/propertyextract-1.1.tar.gz --markdown 20240531/P/PropertyExtract/1.0-1.1/README.md --exclude *.pyd
+[2024-05-31 15:54:37] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 15:54:37] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 15:54:37] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-05-31 15:54:37] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.4.0a1.tar.gz]
+[2024-05-31 15:54:37] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.4.0a2.tar.gz]
+[2024-05-31 15:54:37] INFO root fetch - main [MainThread]: End processing [woningwaardering]: success
+[2024-05-31 15:54:37] INFO root fetch - processPackages [aimodelshare]: Remove: archive file [/home/abi/fetcher/tmp/aimodelshare-0.1.8.tar.gz]
+[2024-05-31 15:54:37] INFO root fetch - processPackages [aimodelshare]: Remove: archive file [/home/abi/fetcher/tmp/aimodelshare-0.1.9.tar.gz]
+[2024-05-31 15:54:37] INFO root fetch - main [MainThread]: End processing [aimodelshare]: success
+[2024-05-31 15:54:37] INFO root fetch - processPackages [PropertyExtract]: Remove: archive file [/home/abi/fetcher/tmp/PropertyExtract-1.0.tar.gz]
+[2024-05-31 15:54:37] INFO root fetch - processPackages [PropertyExtract]: Remove: archive file [/home/abi/fetcher/tmp/propertyextract-1.1.tar.gz]
+[2024-05-31 15:54:37] INFO root fetch - main [MainThread]: End processing [PropertyExtract]: success
+[2024-05-31 15:54:56] INFO root fetch - processPackages [tamaas]: Remove: archive file [/home/abi/fetcher/tmp/tamaas-2.7.1rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip]
+[2024-05-31 15:54:56] INFO root fetch - processPackages [tamaas]: Remove: archive file [/home/abi/fetcher/tmp/tamaas-2.8.0rc1-cp39-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.zip]
+[2024-05-31 15:54:56] INFO root fetch - main [MainThread]: End processing [tamaas]: success
+[2024-05-31 15:54:56] INFO root fetch - main [MainThread]: Store serial: [23466575]
