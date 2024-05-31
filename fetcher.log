@@ -9622,3 +9622,47 @@
 [2024-05-31 08:52:41] INFO root fetch - processPackages [grid2fp]: Remove: archive file [/home/abi/fetcher/tmp/grid2fp-0.0.9.tar.gz]
 [2024-05-31 08:52:41] INFO root fetch - main [MainThread]: End processing [grid2fp]: success
 [2024-05-31 08:52:41] INFO root fetch - main [MainThread]: Store serial: [23461568]
+[2024-05-31 08:54:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461568]
+[2024-05-31 08:54:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 08:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyclicpeptide
+[2024-05-31 08:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: group-profile-remote
+[2024-05-31 08:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slizaiupload
+[2024-05-31 08:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openi
+[2024-05-31 08:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyasdb
+[2024-05-31 08:54:49] INFO root fetch - processPackages [slizaiupload]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-31 08:54:49] INFO root fetch - processPackages [openi]: New version: [2.0.0b51] Old Version: [2.0.0b2]
+[2024-05-31 08:54:49] INFO root fetch - processPackages [cyclicpeptide]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-31 08:54:49] INFO root fetch - processPackages [pyasdb]: New version: [2024.5.31.2] Old Version: [2024.5.31.1]
+[2024-05-31 08:54:50] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/17/95/35c8cb8e2403ac22b75f43398662244c47e0136e348ed8e30690d5616b49/openi-2.0.0b2.tar.gz
+[2024-05-31 08:54:50] INFO root fetch - processPackages [group-profile-remote]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 08:54:50] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/ce/c3/e4d97ced5453b3efbc3476581a4dd48f0dbfe96717de9d96ab01ddbd6145/pyasdb-2024.5.31.1.tar.gz
+[2024-05-31 08:54:50] INFO root fetch - processPackages [slizaiupload]: Downloading https://files.pythonhosted.org/packages/0f/5e/df2a6754d9ed6ebd6a9ef1b357f88d81fba6e5381bb7061ee3e8e6311ec9/slizaiupload-1.0.0.tar.gz
+[2024-05-31 08:54:50] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/c6/70/162a1d2c65588916e390b0322272b686f7b189e37f4cc0b037dc35a5c3f7/cyclicpeptide-1.0.0.tar.gz
+[2024-05-31 08:54:50] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/d6/33/ab096f276fe5e54500857cb3593d867c9d8078ea8c62fa953704ab27462b/group-profile-remote-0.0.8.tar.gz
+[2024-05-31 08:54:50] ERROR root fetch - processPackages [openi]: Unable to fetch info: No such project/version 'openi' 2.0.0b51
+[2024-05-31 08:54:50] INFO root fetch - main [MainThread]: End processing [openi] error
+[2024-05-31 08:54:50] INFO root fetch - processPackages [slizaiupload]: Downloading https://files.pythonhosted.org/packages/41/22/05e9bd57f84dfbb88205d22450f0008cceeb005f44cdd20d167956e21011/slizaiupload-1.0.1.tar.gz
+[2024-05-31 08:54:50] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/37/d1/b2e4c8200390c96a178fd16b57c922e444c68a395c804793fb0611c83217/cyclicpeptide-1.0.1.tar.gz
+[2024-05-31 08:54:50] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/98/80/1dfbc3d036042c1d41507a2d531103ab776efa1ef6eeb63656076f164c29/pyasdb-2024.5.31.2.tar.gz
+[2024-05-31 08:54:50] INFO root fetch - processPackages [slizaiupload]: executing diffoscope
+[2024-05-31 08:54:50] INFO root fetch - processPackages [slizaiupload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slizaiupload-1.0.0.tar.gz tmp/slizaiupload-1.0.1.tar.gz --markdown 20240531/s/slizaiupload/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-31 08:54:50] INFO root fetch - processPackages [cyclicpeptide]: executing diffoscope
+[2024-05-31 08:54:50] INFO root fetch - processPackages [cyclicpeptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclicpeptide-1.0.0.tar.gz tmp/cyclicpeptide-1.0.1.tar.gz --markdown 20240531/c/cyclicpeptide/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-31 08:54:50] INFO root fetch - processPackages [pyasdb]: executing diffoscope
+[2024-05-31 08:54:50] INFO root fetch - processPackages [pyasdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasdb-2024.5.31.1.tar.gz tmp/pyasdb-2024.5.31.2.tar.gz --markdown 20240531/p/pyasdb/2024.5.31.1-2024.5.31.2/README.md --exclude *.pyd
+[2024-05-31 08:54:50] INFO root fetch - processPackages [group-profile-remote]: Downloading https://files.pythonhosted.org/packages/34/ee/57cb372a3197cdeb2c87926baf42fae2595983919e4f9ab179939ad1b72e/group-profile-remote-0.0.9.tar.gz
+[2024-05-31 08:54:50] INFO root fetch - processPackages [group-profile-remote]: executing diffoscope
+[2024-05-31 08:54:50] INFO root fetch - processPackages [group-profile-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group-profile-remote-0.0.8.tar.gz tmp/group-profile-remote-0.0.9.tar.gz --markdown 20240531/g/group-profile-remote/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 08:54:51] INFO root fetch - processPackages [slizaiupload]: Remove: archive file [/home/abi/fetcher/tmp/slizaiupload-1.0.0.tar.gz]
+[2024-05-31 08:54:51] INFO root fetch - processPackages [slizaiupload]: Remove: archive file [/home/abi/fetcher/tmp/slizaiupload-1.0.1.tar.gz]
+[2024-05-31 08:54:51] INFO root fetch - main [MainThread]: End processing [slizaiupload]: success
+[2024-05-31 08:54:51] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.0.tar.gz]
+[2024-05-31 08:54:51] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.1.tar.gz]
+[2024-05-31 08:54:51] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
+[2024-05-31 08:54:51] INFO root fetch - processPackages [pyasdb]: Remove: archive file [/home/abi/fetcher/tmp/pyasdb-2024.5.31.1.tar.gz]
+[2024-05-31 08:54:51] INFO root fetch - processPackages [pyasdb]: Remove: archive file [/home/abi/fetcher/tmp/pyasdb-2024.5.31.2.tar.gz]
+[2024-05-31 08:54:51] INFO root fetch - main [MainThread]: End processing [pyasdb]: success
+[2024-05-31 08:54:51] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.8.tar.gz]
+[2024-05-31 08:54:51] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.9.tar.gz]
+[2024-05-31 08:54:51] INFO root fetch - main [MainThread]: End processing [group-profile-remote]: success
+[2024-05-31 08:54:51] INFO root fetch - main [MainThread]: Store serial: [23461584]
