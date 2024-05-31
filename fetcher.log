@@ -18197,3 +18197,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:21:44] WARNING root fetch - processPackages [PySimultan]: Skipping package: exceeds size limit 12483804>=10485760
 [2024-05-31 14:21:44] INFO root fetch - main [MainThread]: End processing [PySimultan] error
 [2024-05-31 14:21:44] INFO root fetch - main [MainThread]: Store serial: [23465452]
+[2024-05-31 14:23:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465452]
+[2024-05-31 14:23:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 14:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SidraDataProductSDK
+[2024-05-31 14:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smaht-submitr
+[2024-05-31 14:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scraibe
+[2024-05-31 14:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Maslib
+[2024-05-31 14:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bepatient
+[2024-05-31 14:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyseobnr
+[2024-05-31 14:23:53] INFO root fetch - processPackages [Maslib]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-31 14:23:53] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.2.1b9] Old Version: [0.8.2.1b8]
+[2024-05-31 14:23:53] INFO root fetch - processPackages [Maslib]: Downloading https://files.pythonhosted.org/packages/6d/9f/73ad17a60f8004346fbec331cff74a850000b769eeae23f6b73aae82fd54/maslib-0.2.0.tar.gz
+[2024-05-31 14:23:53] INFO root fetch - processPackages [scraibe]: New version: [0.1.1.dev361] Old Version: [0.1.1]
+[2024-05-31 14:23:53] INFO root fetch - processPackages [SidraDataProductSDK]: New version: [2.0.9.post133] Old Version: [2.0.8.post130]
+[2024-05-31 14:23:53] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/94/70/b34d2d34c394fc3e3b347e32bec8900b8b8643db5842d59991c4e84ea528/smaht_submitr-0.8.2.1b8.tar.gz
+[2024-05-31 14:23:53] INFO root fetch - processPackages [pyseobnr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 14:23:53] INFO root fetch - processPackages [bepatient]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-31 14:23:54] INFO root fetch - processPackages [scraibe]: Downloading https://files.pythonhosted.org/packages/9e/54/81145ff106120df5e6591df859153e66e8e8e4c85a04998c6438a441f091/scraibe-0.1.1.tar.gz
+[2024-05-31 14:23:54] INFO root fetch - processPackages [Maslib]: Downloading https://files.pythonhosted.org/packages/26/bb/fe941573b4cf77d8c3b8e36bb9a1d68d2ce5b49025e796c0ef3a067efba5/maslib-0.2.1.tar.gz
+[2024-05-31 14:23:54] INFO root fetch - processPackages [SidraDataProductSDK]: Downloading https://files.pythonhosted.org/packages/af/64/33cd09d74f9afbf977c78eec6dc50ed758b92602adaa00358ba4ad239c60/SidraDataProductSDK-2.0.8.post130-py3-none-any.whl
+[2024-05-31 14:23:54] INFO root fetch - processPackages [pyseobnr]: Downloading https://files.pythonhosted.org/packages/2a/d1/d1dc9323dfdc75631781f776a1d93e6bd81439fa15759ca9c956d5aa8ff0/pyseobnr-0.2.8.tar.gz
+[2024-05-31 14:23:54] INFO root fetch - processPackages [bepatient]: Downloading https://files.pythonhosted.org/packages/4d/31/c1f973e9e0593c1c52f4b3030b54f405d5a05335cf09dbb97f6cf81ff2d0/bepatient-0.8.1.tar.gz
+[2024-05-31 14:23:54] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/49/5f/4a0cbcc953b126fd89e8d3c5beafcab7cf195845995d05395f40952ad23c/smaht_submitr-0.8.2.1b9.tar.gz
+[2024-05-31 14:23:54] INFO root fetch - processPackages [Maslib]: executing diffoscope
+[2024-05-31 14:23:54] INFO root fetch - processPackages [Maslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maslib-0.2.0.tar.gz tmp/maslib-0.2.1.tar.gz --markdown 20240531/M/Maslib/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-31 14:23:54] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-05-31 14:23:54] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.2.1b8.tar.gz tmp/smaht_submitr-0.8.2.1b9.tar.gz --markdown 20240531/s/smaht-submitr/0.8.2.1b8-0.8.2.1b9/README.md --exclude *.pyd
+[2024-05-31 14:23:54] INFO root fetch - processPackages [scraibe]: Downloading https://files.pythonhosted.org/packages/1e/7b/3f010f00b1ef2a6ac3bde979fc01f4b8f1f3501189722e1d9bd16653be50/scraibe-0.1.1.dev361-py3-none-any.whl
+[2024-05-31 14:23:54] INFO root fetch - processPackages [SidraDataProductSDK]: Downloading https://files.pythonhosted.org/packages/3b/36/b917e91a1f6a87df03593e01490f440778d5bfc07d3e110a15cf2e2693b0/SidraDataProductSDK-2.0.9.post133-py3-none-any.whl
+[2024-05-31 14:23:54] INFO root fetch - processPackages [bepatient]: Downloading https://files.pythonhosted.org/packages/b4/ad/8bbfb639897d8367c85e72a70adbeffa8304f0e02ff1c3fa7bd716325264/bepatient-0.9.0.tar.gz
+[2024-05-31 14:23:54] INFO root fetch - processPackages [scraibe]: executing diffoscope
+[2024-05-31 14:23:54] INFO root fetch - processPackages [scraibe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scraibe-0.1.1.tar.gz tmp/scraibe-0.1.1.dev361-py3-none-any.whl.zip --markdown 20240531/s/scraibe/0.1.1-0.1.1.dev361/README.md --exclude *.pyd
+[2024-05-31 14:23:54] INFO root fetch - processPackages [SidraDataProductSDK]: executing diffoscope
+[2024-05-31 14:23:54] INFO root fetch - processPackages [SidraDataProductSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SidraDataProductSDK-2.0.8.post130-py3-none-any.whl.zip tmp/SidraDataProductSDK-2.0.9.post133-py3-none-any.whl.zip --markdown 20240531/S/SidraDataProductSDK/2.0.8.post130-2.0.9.post133/README.md --exclude *.pyd
+[2024-05-31 14:23:54] INFO root fetch - processPackages [bepatient]: executing diffoscope
+[2024-05-31 14:23:54] INFO root fetch - processPackages [bepatient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bepatient-0.8.1.tar.gz tmp/bepatient-0.9.0.tar.gz --markdown 20240531/b/bepatient/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-31 14:23:54] INFO root fetch - processPackages [Maslib]: Remove: archive file [/home/abi/fetcher/tmp/maslib-0.2.0.tar.gz]
+[2024-05-31 14:23:54] INFO root fetch - processPackages [Maslib]: Remove: archive file [/home/abi/fetcher/tmp/maslib-0.2.1.tar.gz]
+[2024-05-31 14:23:54] INFO root fetch - main [MainThread]: End processing [Maslib]: success
+[2024-05-31 14:23:55] INFO root fetch - processPackages [scraibe]: Remove: archive file [/home/abi/fetcher/tmp/scraibe-0.1.1.tar.gz]
+[2024-05-31 14:23:55] INFO root fetch - processPackages [scraibe]: Remove: archive file [/home/abi/fetcher/tmp/scraibe-0.1.1.dev361-py3-none-any.whl.zip]
+[2024-05-31 14:23:55] INFO root fetch - main [MainThread]: End processing [scraibe]: success
+[2024-05-31 14:23:55] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b8.tar.gz]
+[2024-05-31 14:23:55] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b9.tar.gz]
+[2024-05-31 14:23:55] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-05-31 14:23:55] INFO root fetch - processPackages [pyseobnr]: Downloading https://files.pythonhosted.org/packages/93/90/d335948c90fdd161059fccb7d77724d698add42a23252f4542e2e8b21c32/pyseobnr-0.2.9.tar.gz
+[2024-05-31 14:23:55] INFO root fetch - processPackages [bepatient]: Remove: archive file [/home/abi/fetcher/tmp/bepatient-0.8.1.tar.gz]
+[2024-05-31 14:23:55] INFO root fetch - processPackages [bepatient]: Remove: archive file [/home/abi/fetcher/tmp/bepatient-0.9.0.tar.gz]
+[2024-05-31 14:23:55] INFO root fetch - main [MainThread]: End processing [bepatient]: success
+[2024-05-31 14:23:55] INFO root fetch - processPackages [pyseobnr]: executing diffoscope
+[2024-05-31 14:23:55] INFO root fetch - processPackages [pyseobnr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyseobnr-0.2.8.tar.gz tmp/pyseobnr-0.2.9.tar.gz --markdown 20240531/p/pyseobnr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 14:23:55] INFO root fetch - processPackages [SidraDataProductSDK]: Remove: archive file [/home/abi/fetcher/tmp/SidraDataProductSDK-2.0.8.post130-py3-none-any.whl.zip]
+[2024-05-31 14:23:55] INFO root fetch - processPackages [SidraDataProductSDK]: Remove: archive file [/home/abi/fetcher/tmp/SidraDataProductSDK-2.0.9.post133-py3-none-any.whl.zip]
+[2024-05-31 14:23:55] INFO root fetch - main [MainThread]: End processing [SidraDataProductSDK]: success
+[2024-05-31 14:24:02] INFO root fetch - processPackages [pyseobnr]: Remove: archive file [/home/abi/fetcher/tmp/pyseobnr-0.2.8.tar.gz]
+[2024-05-31 14:24:02] INFO root fetch - processPackages [pyseobnr]: Remove: archive file [/home/abi/fetcher/tmp/pyseobnr-0.2.9.tar.gz]
+[2024-05-31 14:24:02] INFO root fetch - main [MainThread]: End processing [pyseobnr]: success
+[2024-05-31 14:24:02] INFO root fetch - main [MainThread]: Store serial: [23465469]
