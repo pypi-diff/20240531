@@ -17482,3 +17482,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:56:55] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.9.tar.gz]
 [2024-05-31 13:56:55] INFO root fetch - main [MainThread]: End processing [python-alist]: success
 [2024-05-31 13:56:55] INFO root fetch - main [MainThread]: Store serial: [23465140]
+[2024-05-31 13:58:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465140]
+[2024-05-31 13:59:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 13:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LearningNashQLearning
+[2024-05-31 13:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: consensusGen
+[2024-05-31 13:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Talia
+[2024-05-31 13:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dve-lumipy-testing
+[2024-05-31 13:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-moltrack
+[2024-05-31 13:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botasaurus-driver
+[2024-05-31 13:59:04] INFO root fetch - processPackages [napari-moltrack]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 13:59:04] INFO root fetch - processPackages [botasaurus-driver]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 13:59:04] INFO root fetch - processPackages [consensusGen]: New version: [1.2] Old Version: [1.1]
+[2024-05-31 13:59:04] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-31 13:59:04] INFO root fetch - processPackages [LearningNashQLearning]: New version: [0.4] Old Version: [0.3]
+[2024-05-31 13:59:04] INFO root fetch - processPackages [napari-moltrack]: Downloading https://files.pythonhosted.org/packages/f6/a2/cd2bfa359dfeac3ec8e88277b320a738072a476a6c754baf2b66d7c174df/napari_moltrack-0.0.2.tar.gz
+[2024-05-31 13:59:04] WARNING root fetch - processPackages [Talia]: Skipping, unable to determine old version
+[2024-05-31 13:59:04] INFO root fetch - main [MainThread]: End processing [Talia] error
+[2024-05-31 13:59:04] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/fa/7e/4cded5fa90ea0a7190b71e9cff4e212107c073d4621880dcdb18dab7bf09/botasaurus_driver-4.0.8.tar.gz
+[2024-05-31 13:59:04] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-05-31 13:59:04] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/b7/a7/0e119425ee301b7855bcd7b0345eae0b060559de708d0563f9207712ef47/consensusgen-1.1.tar.gz
+[2024-05-31 13:59:05] INFO root fetch - processPackages [LearningNashQLearning]: Downloading https://files.pythonhosted.org/packages/15/26/92cb44c345fb115e859d29a87c530326f430073f8047455f3eeb8bc5145d/LearningNashQLearning-0.3.tar.gz
+[2024-05-31 13:59:05] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/ad/57/c5587eb0a46a39cf90a36835b2e3372614749a4cde08db6baad1ff2eac4e/botasaurus_driver-4.0.9.tar.gz
+[2024-05-31 13:59:05] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-05-31 13:59:05] INFO root fetch - processPackages [napari-moltrack]: Downloading https://files.pythonhosted.org/packages/75/0d/42e70bb9c87976de75ca86eb4b575a878e3a2f96220b1511da96576fcb66/napari_moltrack-0.0.3.tar.gz
+[2024-05-31 13:59:05] INFO root fetch - processPackages [botasaurus-driver]: executing diffoscope
+[2024-05-31 13:59:05] INFO root fetch - processPackages [botasaurus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_driver-4.0.8.tar.gz tmp/botasaurus_driver-4.0.9.tar.gz --markdown 20240531/b/botasaurus-driver/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 13:59:05] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/59/83/4a279cbb6c53b8b390bc16fd9522029bcf34dea1889d2406253179176f2e/consensusgen-1.2.tar.gz
+[2024-05-31 13:59:05] INFO root fetch - processPackages [LearningNashQLearning]: Downloading https://files.pythonhosted.org/packages/7a/79/183ed08301d59dac7a56b19a52315b16d06d0482a292558d8e11462f3a34/LearningNashQLearning-0.4.tar.gz
+[2024-05-31 13:59:05] INFO root fetch - processPackages [napari-moltrack]: executing diffoscope
+[2024-05-31 13:59:05] INFO root fetch - processPackages [napari-moltrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_moltrack-0.0.2.tar.gz tmp/napari_moltrack-0.0.3.tar.gz --markdown 20240531/n/napari-moltrack/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 13:59:05] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-31 13:59:05] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240531/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-31 13:59:05] INFO root fetch - processPackages [consensusGen]: executing diffoscope
+[2024-05-31 13:59:05] INFO root fetch - processPackages [consensusGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consensusgen-1.1.tar.gz tmp/consensusgen-1.2.tar.gz --markdown 20240531/c/consensusGen/1.1-1.2/README.md --exclude *.pyd
+[2024-05-31 13:59:05] INFO root fetch - processPackages [LearningNashQLearning]: executing diffoscope
+[2024-05-31 13:59:05] INFO root fetch - processPackages [LearningNashQLearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LearningNashQLearning-0.3.tar.gz tmp/LearningNashQLearning-0.4.tar.gz --markdown 20240531/L/LearningNashQLearning/0.3-0.4/README.md --exclude *.pyd
+[2024-05-31 13:59:06] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-1.1.tar.gz]
+[2024-05-31 13:59:06] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-1.2.tar.gz]
+[2024-05-31 13:59:06] INFO root fetch - main [MainThread]: End processing [consensusGen]: success
+[2024-05-31 13:59:06] INFO root fetch - processPackages [napari-moltrack]: Remove: archive file [/home/abi/fetcher/tmp/napari_moltrack-0.0.2.tar.gz]
+[2024-05-31 13:59:06] INFO root fetch - processPackages [LearningNashQLearning]: Remove: archive file [/home/abi/fetcher/tmp/LearningNashQLearning-0.3.tar.gz]
+[2024-05-31 13:59:06] INFO root fetch - processPackages [napari-moltrack]: Remove: archive file [/home/abi/fetcher/tmp/napari_moltrack-0.0.3.tar.gz]
+[2024-05-31 13:59:06] INFO root fetch - processPackages [LearningNashQLearning]: Remove: archive file [/home/abi/fetcher/tmp/LearningNashQLearning-0.4.tar.gz]
+[2024-05-31 13:59:06] INFO root fetch - main [MainThread]: End processing [LearningNashQLearning]: success
+[2024-05-31 13:59:06] INFO root fetch - main [MainThread]: End processing [napari-moltrack]: success
+[2024-05-31 13:59:06] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.8.tar.gz]
+[2024-05-31 13:59:06] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.9.tar.gz]
+[2024-05-31 13:59:06] INFO root fetch - main [MainThread]: End processing [botasaurus-driver]: success
+[2024-05-31 13:59:06] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-05-31 13:59:06] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-05-31 13:59:06] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-31 13:59:06] INFO root fetch - main [MainThread]: Store serial: [23465159]
