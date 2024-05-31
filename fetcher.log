@@ -22917,3 +22917,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:08:25] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
 [2024-05-31 17:08:25] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
 [2024-05-31 17:08:25] INFO root fetch - main [MainThread]: Store serial: [23467708]
+[2024-05-31 17:10:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467708]
+[2024-05-31 17:10:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 17:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zerohertzLib
+[2024-05-31 17:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: satip
+[2024-05-31 17:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agenta
+[2024-05-31 17:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Text-to-Image-GeneratorAnnaMaria
+[2024-05-31 17:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botasaurus2
+[2024-05-31 17:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: labcomm
+[2024-05-31 17:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-bundle
+[2024-05-31 17:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hellocash
+[2024-05-31 17:10:34] INFO root fetch - processPackages [botasaurus2]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-31 17:10:34] WARNING root fetch - processPackages [hellocash]: Skipping, unable to determine old version
+[2024-05-31 17:10:34] INFO root fetch - main [MainThread]: End processing [hellocash] error
+[2024-05-31 17:10:34] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-31 17:10:34] INFO root fetch - processPackages [zerohertzLib]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-31 17:10:34] INFO root fetch - processPackages [labcomm]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 17:10:34] WARNING root fetch - processPackages [lusid-bundle]: Skipping, unable to determine old version
+[2024-05-31 17:10:34] INFO root fetch - main [MainThread]: End processing [lusid-bundle] error
+[2024-05-31 17:10:34] WARNING root fetch - processPackages [Text-to-Image-GeneratorAnnaMaria]: Skipping, unable to determine old version
+[2024-05-31 17:10:34] INFO root fetch - main [MainThread]: End processing [Text-to-Image-GeneratorAnnaMaria] error
+[2024-05-31 17:10:34] INFO root fetch - processPackages [satip]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-31 17:10:34] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/8b/2c/b5513600be1d57416d670bc2e866570129177a6cdab2a87ab970203606c6/botasaurus2-1.4.8.tar.gz
+[2024-05-31 17:10:35] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-31 17:10:35] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/42/ef/73d151d813340e58f9ff0fe100c80775793ff806a723ad2c5c7704017ae9/zerohertzLib-1.1.0.tar.gz
+[2024-05-31 17:10:35] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/c3/e8/b3c5caf4db2b47fab258763e006a81315f49cf587e12e65aa7025968b03f/satip-2.9.8.tar.gz
+[2024-05-31 17:10:35] INFO root fetch - processPackages [labcomm]: Downloading https://files.pythonhosted.org/packages/be/cd/2dfe271260ecc381b11e40b0256277f88902c66c7afb8ec993954fdafa83/labcomm-0.0.2.tar.gz
+[2024-05-31 17:10:35] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-31 17:10:35] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/46/c4/b5a64bcce59c23973096de75347254b57018a294e0a4c96c51e04728fbbe/botasaurus2-1.4.9.tar.gz
+[2024-05-31 17:10:35] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-31 17:10:35] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240531/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-31 17:10:35] INFO root fetch - processPackages [botasaurus2]: executing diffoscope
+[2024-05-31 17:10:35] INFO root fetch - processPackages [botasaurus2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus2-1.4.8.tar.gz tmp/botasaurus2-1.4.9.tar.gz --markdown 20240531/b/botasaurus2/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-31 17:10:35] INFO root fetch - processPackages [satip]: Downloading https://files.pythonhosted.org/packages/06/5b/8bd6eec7428e98b330d6546e21261944d9361dcedd4e96b25bee4a5ee145/satip-2.9.9.tar.gz
+[2024-05-31 17:10:35] INFO root fetch - processPackages [labcomm]: Downloading https://files.pythonhosted.org/packages/8b/a1/17c50e81092f0477d810547f2f740cac679194343dd78307615fe722a4a2/labcomm-0.0.3.tar.gz
+[2024-05-31 17:10:35] INFO root fetch - processPackages [satip]: executing diffoscope
+[2024-05-31 17:10:35] INFO root fetch - processPackages [satip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satip-2.9.8.tar.gz tmp/satip-2.9.9.tar.gz --markdown 20240531/s/satip/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-31 17:10:35] INFO root fetch - processPackages [labcomm]: executing diffoscope
+[2024-05-31 17:10:35] INFO root fetch - processPackages [labcomm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labcomm-0.0.2.tar.gz tmp/labcomm-0.0.3.tar.gz --markdown 20240531/l/labcomm/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 17:10:35] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/69/0e/31ca65fad77947ff427636c04c720cf6e5d9fa98e9b3bc9388f3570a9869/zerohertzLib-1.1.1.tar.gz
+[2024-05-31 17:10:36] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.4.8.tar.gz]
+[2024-05-31 17:10:36] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.4.9.tar.gz]
+[2024-05-31 17:10:36] INFO root fetch - main [MainThread]: End processing [botasaurus2]: success
+[2024-05-31 17:10:36] INFO root fetch - processPackages [zerohertzLib]: executing diffoscope
+[2024-05-31 17:10:36] INFO root fetch - processPackages [zerohertzLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerohertzLib-1.1.0.tar.gz tmp/zerohertzLib-1.1.1.tar.gz --markdown 20240531/z/zerohertzLib/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-31 17:10:36] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-31 17:10:36] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-31 17:10:36] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-31 17:10:36] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.8.tar.gz]
+[2024-05-31 17:10:36] INFO root fetch - processPackages [satip]: Remove: archive file [/home/abi/fetcher/tmp/satip-2.9.9.tar.gz]
+[2024-05-31 17:10:36] INFO root fetch - main [MainThread]: End processing [satip]: success
+[2024-05-31 17:10:36] INFO root fetch - processPackages [labcomm]: Remove: archive file [/home/abi/fetcher/tmp/labcomm-0.0.2.tar.gz]
+[2024-05-31 17:10:36] INFO root fetch - processPackages [labcomm]: Remove: archive file [/home/abi/fetcher/tmp/labcomm-0.0.3.tar.gz]
+[2024-05-31 17:10:36] INFO root fetch - main [MainThread]: End processing [labcomm]: success
+[2024-05-31 17:10:37] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.1.0.tar.gz]
+[2024-05-31 17:10:37] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.1.1.tar.gz]
+[2024-05-31 17:10:37] INFO root fetch - main [MainThread]: End processing [zerohertzLib]: success
+[2024-05-31 17:10:37] INFO root fetch - main [MainThread]: Store serial: [23467738]
