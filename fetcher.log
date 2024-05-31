@@ -4151,3 +4151,99 @@
 [2024-05-31 03:19:24] INFO root fetch - processPackages [botocore-a-la-carte-launch-wizard]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-launch-wizard-1.34.99.tar.gz]
 [2024-05-31 03:19:24] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-launch-wizard]: success
 [2024-05-31 03:19:24] INFO root fetch - main [MainThread]: Store serial: [23459145]
+[2024-05-31 03:21:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459145]
+[2024-05-31 03:21:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 03:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-a-la-carte-launch-wizard
+[2024-05-31 03:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botocore-a-la-carte-docdb-elastic
+[2024-05-31 03:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-a-la-carte-cloudhsm
+[2024-05-31 03:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-support-app
+[2024-05-31 03:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-controlcatalog
+[2024-05-31 03:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-omics
+[2024-05-31 03:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-arc-zonal-shift
+[2024-05-31 03:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test-program
+[2024-05-31 03:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-dlm
+[2024-05-31 03:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chattts-fork
+[2024-05-31 03:21:33] INFO root fetch - processPackages [chattts-fork]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 03:21:33] INFO root fetch - processPackages [botocore-a-la-carte-launch-wizard]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-31 03:21:33] WARNING root fetch - processPackages [test-program]: Skipping, unable to determine old version
+[2024-05-31 03:21:33] INFO root fetch - processPackages [test-program]: Start processing: botocore-a-la-carte-mgh
+[2024-05-31 03:21:33] INFO root fetch - main [MainThread]: End processing [test-program] error
+[2024-05-31 03:21:33] INFO root fetch - processPackages [botocore-a-la-carte-controlcatalog]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-31 03:21:33] INFO root fetch - processPackages [botocore-a-la-carte-launch-wizard]: Downloading https://files.pythonhosted.org/packages/78/a6/6583971a3212e3fb4d4fc629146b89324ce000e75cfbb543257b0b7f704a/botocore-a-la-carte-launch-wizard-1.34.98.tar.gz
+[2024-05-31 03:21:33] INFO root fetch - processPackages [botocore-a-la-carte-arc-zonal-shift]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-31 03:21:33] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-31 03:21:33] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-31 03:21:33] INFO root fetch - processPackages [botocore-a-la-carte-dlm]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-31 03:21:33] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-31 03:21:33] INFO root fetch - processPackages [botocore-a-la-carte-omics]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-launch-wizard]: Downloading https://files.pythonhosted.org/packages/18/33/38176c72d726b766ebea3a55601474122ab0f0521b4f509b21dda3111462/botocore-a-la-carte-launch-wizard-1.34.99.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Downloading https://files.pythonhosted.org/packages/d8/a2/763bd37e9e7c9afdad576063122c503c01415ce27b3f6506de38d8fa7dae/botocore-a-la-carte-cloudhsm-1.34.98.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-controlcatalog]: Downloading https://files.pythonhosted.org/packages/fa/cf/d87091985a7ced044e8340d1be48394e8960ac32fbf48b8bff4d4793325f/botocore-a-la-carte-controlcatalog-1.34.98.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-arc-zonal-shift]: Downloading https://files.pythonhosted.org/packages/03/77/0e184111dc8c3cef3b1b355de3e102f3dbdf6c814739eeedffe4af74deed/botocore-a-la-carte-arc-zonal-shift-1.34.98.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Downloading https://files.pythonhosted.org/packages/a6/01/792d21f7ca94ba76c86eb36fb9782d64ab1e1b7a2b9f0cb343634f30f6a7/botocore-a-la-carte-support-app-1.34.98.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-dlm]: Downloading https://files.pythonhosted.org/packages/67/fc/98ce623ccd03cf091f5ac645de4689a67f7c91882cbd8994d43f675ec6d0/botocore-a-la-carte-dlm-1.34.98.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: Downloading https://files.pythonhosted.org/packages/2b/ed/f770933305ec250dade495d00a3928efbfd449a2379b3687df1fc3086719/botocore-a-la-carte-docdb-elastic-1.34.98.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-omics]: Downloading https://files.pythonhosted.org/packages/41/e4/0a58ca11a4040da09cf72dffd6594fbe7ad4a4849ed9aab9d7415274a05f/botocore-a-la-carte-omics-1.34.98.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-launch-wizard]: executing diffoscope
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-launch-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-launch-wizard-1.34.98.tar.gz tmp/botocore-a-la-carte-launch-wizard-1.34.99.tar.gz --markdown 20240531/b/botocore-a-la-carte-launch-wizard/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-31 03:21:34] INFO root fetch - processPackages [chattts-fork]: Downloading https://files.pythonhosted.org/packages/e9/8e/0c93194979aadd64196ffd2cc14dd1a11f6150e62044fc8615db0550e98b/chattts_fork-0.0.4.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: Downloading https://files.pythonhosted.org/packages/b4/fd/f9830b4ec46de83457eb20e2687f9dd6eecb4c44adba73a0bf53da6a6990/botocore-a-la-carte-mgh-1.34.98.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Downloading https://files.pythonhosted.org/packages/ae/3a/a91198afd0934d1afa11bb2556e8e4729a49bdb0e05442831d3d0a5e0d06/botocore-a-la-carte-cloudhsm-1.34.99.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-arc-zonal-shift]: Downloading https://files.pythonhosted.org/packages/62/04/0d6e307649ff5853fccdf6c4df213c73f75e7428385d9c04e9856f7ae051/botocore-a-la-carte-arc-zonal-shift-1.34.99.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-dlm]: Downloading https://files.pythonhosted.org/packages/bc/be/80341937aeaa4cb9d330fcffa15763deebaaff372ea9d8a0ed358e556708/botocore-a-la-carte-dlm-1.34.99.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-controlcatalog]: Downloading https://files.pythonhosted.org/packages/41/02/d9df77364523a19a3240e0da45b24916cb2f0d703604b3aeb5c7bd7cf722/botocore-a-la-carte-controlcatalog-1.34.99.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Downloading https://files.pythonhosted.org/packages/b5/f5/585a46cc78b6b748a33865f1807fc32f4dde042add58bdb1620b252badf2/botocore-a-la-carte-support-app-1.34.99.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: Downloading https://files.pythonhosted.org/packages/67/b4/2d48538b7ee178999ff15ce267ca648c8522cd13f75c2bb822c7a645a346/botocore-a-la-carte-docdb-elastic-1.34.99.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [chattts-fork]: Downloading https://files.pythonhosted.org/packages/65/cb/256e9242714670faf9b9777fed4444acf262b8fecdcf87c521c3496e87f9/chattts_fork-0.0.5.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-omics]: Downloading https://files.pythonhosted.org/packages/d2/a0/910faad920315500d1322452da6efd6f08d2edf01d44fd0ec52e15578248/botocore-a-la-carte-omics-1.34.99.tar.gz
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: executing diffoscope
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-cloudhsm-1.34.98.tar.gz tmp/botocore-a-la-carte-cloudhsm-1.34.99.tar.gz --markdown 20240531/b/botocore-a-la-carte-cloudhsm/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-launch-wizard]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-launch-wizard-1.34.98.tar.gz]
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-launch-wizard]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-launch-wizard-1.34.99.tar.gz]
+[2024-05-31 03:21:34] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-launch-wizard]: success
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-controlcatalog]: executing diffoscope
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-controlcatalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-controlcatalog-1.34.98.tar.gz tmp/botocore-a-la-carte-controlcatalog-1.34.99.tar.gz --markdown 20240531/b/botocore-a-la-carte-controlcatalog/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-dlm]: executing diffoscope
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-dlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-dlm-1.34.98.tar.gz tmp/botocore-a-la-carte-dlm-1.34.99.tar.gz --markdown 20240531/b/botocore-a-la-carte-dlm/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-arc-zonal-shift]: executing diffoscope
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-arc-zonal-shift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-arc-zonal-shift-1.34.98.tar.gz tmp/botocore-a-la-carte-arc-zonal-shift-1.34.99.tar.gz --markdown 20240531/b/botocore-a-la-carte-arc-zonal-shift/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: executing diffoscope
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-support-app-1.34.98.tar.gz tmp/botocore-a-la-carte-support-app-1.34.99.tar.gz --markdown 20240531/b/botocore-a-la-carte-support-app/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: executing diffoscope
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-docdb-elastic-1.34.98.tar.gz tmp/botocore-a-la-carte-docdb-elastic-1.34.99.tar.gz --markdown 20240531/b/botocore-a-la-carte-docdb-elastic/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-31 03:21:34] INFO root fetch - processPackages [chattts-fork]: executing diffoscope
+[2024-05-31 03:21:34] INFO root fetch - processPackages [chattts-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chattts_fork-0.0.4.tar.gz tmp/chattts_fork-0.0.5.tar.gz --markdown 20240531/c/chattts-fork/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-omics]: executing diffoscope
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-omics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-omics-1.34.98.tar.gz tmp/botocore-a-la-carte-omics-1.34.99.tar.gz --markdown 20240531/b/botocore-a-la-carte-omics/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-31 03:21:34] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: Downloading https://files.pythonhosted.org/packages/80/27/8110a31cfa42968e1e06f2472082db8484fa7086bf4ff6eb2870e149605e/botocore-a-la-carte-mgh-1.34.99.tar.gz
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: executing diffoscope
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-mgh-1.34.98.tar.gz tmp/botocore-a-la-carte-mgh-1.34.99.tar.gz --markdown 20240531/b/botocore-a-la-carte-mgh/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-dlm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-dlm-1.34.98.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-dlm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-dlm-1.34.99.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-dlm]: success
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-controlcatalog]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-controlcatalog-1.34.98.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-controlcatalog]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-controlcatalog-1.34.99.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-controlcatalog]: success
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cloudhsm-1.34.98.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cloudhsm-1.34.99.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-cloudhsm]: success
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-arc-zonal-shift]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-arc-zonal-shift-1.34.98.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-arc-zonal-shift]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-arc-zonal-shift-1.34.99.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-support-app-1.34.98.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-arc-zonal-shift]: success
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-support-app]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-support-app-1.34.99.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-support-app]: success
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-docdb-elastic-1.34.98.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-docdb-elastic]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-docdb-elastic-1.34.99.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-docdb-elastic]: success
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mgh-1.34.98.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-mgh]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-mgh-1.34.99.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-mgh]: success
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-omics]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-omics-1.34.98.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - processPackages [botocore-a-la-carte-omics]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-omics-1.34.99.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-omics]: success
+[2024-05-31 03:21:35] INFO root fetch - processPackages [chattts-fork]: Remove: archive file [/home/abi/fetcher/tmp/chattts_fork-0.0.4.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - processPackages [chattts-fork]: Remove: archive file [/home/abi/fetcher/tmp/chattts_fork-0.0.5.tar.gz]
+[2024-05-31 03:21:35] INFO root fetch - main [MainThread]: End processing [chattts-fork]: success
+[2024-05-31 03:21:35] INFO root fetch - main [MainThread]: Store serial: [23459172]
