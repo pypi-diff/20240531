@@ -3095,3 +3095,33 @@
 [2024-05-31 02:22:10] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.98.tar.gz]
 [2024-05-31 02:22:10] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
 [2024-05-31 02:22:10] INFO root fetch - main [MainThread]: Store serial: [23458713]
+[2024-05-31 02:24:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458713]
+[2024-05-31 02:24:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 02:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wxhandler
+[2024-05-31 02:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NMODL-nightly
+[2024-05-31 02:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2024-05-31 02:24:18] INFO root fetch - processPackages [wxhandler]: New version: [0.1.1.2] Old Version: [0.1.1.1]
+[2024-05-31 02:24:18] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-31 02:24:18] INFO root fetch - processPackages [wxhandler]: Downloading https://files.pythonhosted.org/packages/b1/b9/9b2aad4f8f05a1d8a1227013ad31a796cb17d57550790a67fe4b9c28008f/wxhandler-0.1.1.1.tar.gz
+[2024-05-31 02:24:18] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.175] Old Version: [0.6.174]
+[2024-05-31 02:24:19] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-31 02:24:19] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/60/16/021b2b2ecca1ebefa26283f63605bce98ed0b9c4ed02891a7f4ddba28a9e/nmodl_nightly-0.6.174-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 02:24:19] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-31 02:24:19] INFO root fetch - processPackages [wxhandler]: Downloading https://files.pythonhosted.org/packages/31/5e/e910768a510c9e1d32c339a6abc13dd3a8edde8b29f39081a48ef3d0d7fe/wxhandler-0.1.1.2.tar.gz
+[2024-05-31 02:24:19] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-31 02:24:19] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240531/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-31 02:24:19] INFO root fetch - processPackages [wxhandler]: executing diffoscope
+[2024-05-31 02:24:19] INFO root fetch - processPackages [wxhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxhandler-0.1.1.1.tar.gz tmp/wxhandler-0.1.1.2.tar.gz --markdown 20240531/w/wxhandler/0.1.1.1-0.1.1.2/README.md --exclude *.pyd
+[2024-05-31 02:24:19] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/06/ad/0b1ef8e7844e76940fe37333f3f1ac50d71f2842b09af1169b3f60fc63c6/nmodl_nightly-0.6.175-cp39-cp39-macosx_10_15_x86_64.whl
+[2024-05-31 02:24:19] INFO root fetch - processPackages [wxhandler]: Remove: archive file [/home/abi/fetcher/tmp/wxhandler-0.1.1.1.tar.gz]
+[2024-05-31 02:24:19] INFO root fetch - processPackages [wxhandler]: Remove: archive file [/home/abi/fetcher/tmp/wxhandler-0.1.1.2.tar.gz]
+[2024-05-31 02:24:19] INFO root fetch - main [MainThread]: End processing [wxhandler]: success
+[2024-05-31 02:24:20] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-31 02:24:20] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-31 02:24:20] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-31 02:24:21] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-05-31 02:24:21] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmodl_nightly-0.6.174-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nmodl_nightly-0.6.175-cp39-cp39-macosx_10_15_x86_64.whl.zip --markdown 20240531/N/NMODL-nightly/0.6.174-0.6.175/README.md --exclude *.pyd
+[2024-05-31 02:24:24] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.174-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 02:24:24] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.175-cp39-cp39-macosx_10_15_x86_64.whl.zip]
+[2024-05-31 02:24:24] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-05-31 02:24:24] INFO root fetch - main [MainThread]: Store serial: [23458726]
