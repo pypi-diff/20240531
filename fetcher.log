@@ -4820,3 +4820,15 @@
 [2024-05-31 03:59:06] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
 [2024-05-31 03:59:06] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
 [2024-05-31 03:59:06] INFO root fetch - main [MainThread]: Store serial: [23459416]
+[2024-05-31 04:01:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459416]
+[2024-05-31 04:01:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-31 04:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: internal-rdbms
+[2024-05-31 04:01:15] INFO root fetch - processPackages [internal-rdbms]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-31 04:01:15] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/4d/1e/11625287d6caec78c1688d389be7275b7334d458d00c313358be768d0f09/internal_rdbms-0.1.7.tar.gz
+[2024-05-31 04:01:15] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/28/d2/952a0b7e935c4cad02b8f225d6c0c32dec64696aecbfa02f8546bca981f1/internal_rdbms-0.1.8.tar.gz
+[2024-05-31 04:01:16] INFO root fetch - processPackages [internal-rdbms]: executing diffoscope
+[2024-05-31 04:01:16] INFO root fetch - processPackages [internal-rdbms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal_rdbms-0.1.7.tar.gz tmp/internal_rdbms-0.1.8.tar.gz --markdown 20240531/i/internal-rdbms/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-31 04:01:16] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.7.tar.gz]
+[2024-05-31 04:01:16] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.8.tar.gz]
+[2024-05-31 04:01:16] INFO root fetch - main [MainThread]: End processing [internal-rdbms]: success
+[2024-05-31 04:01:16] INFO root fetch - main [MainThread]: Store serial: [23459419]
