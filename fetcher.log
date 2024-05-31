@@ -12300,3 +12300,57 @@
 [2024-05-31 10:37:56] INFO root fetch - processPackages [bpkio-cli]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_cli-1.9.1.tar.gz]
 [2024-05-31 10:37:56] INFO root fetch - main [MainThread]: End processing [bpkio-cli]: success
 [2024-05-31 10:37:56] INFO root fetch - main [MainThread]: Store serial: [23462822]
+[2024-05-31 10:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462822]
+[2024-05-31 10:40:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aixhello
+[2024-05-31 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datapools
+[2024-05-31 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hashcommit
+[2024-05-31 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iii-api-helper
+[2024-05-31 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LangRAGEval
+[2024-05-31 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yandexcloud
+[2024-05-31 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kuzu
+[2024-05-31 10:40:05] INFO root fetch - processPackages [hashcommit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 10:40:05] INFO root fetch - processPackages [datapools]: New version: [1.0.65] Old Version: [1.0.64]
+[2024-05-31 10:40:05] WARNING root fetch - processPackages [LangRAGEval]: Skipping, unable to determine old version
+[2024-05-31 10:40:05] INFO root fetch - main [MainThread]: End processing [LangRAGEval] error
+[2024-05-31 10:40:05] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-31 10:40:05] INFO root fetch - processPackages [hashcommit]: Downloading https://files.pythonhosted.org/packages/be/3d/fd55f43c9baf29e78e519ae456edcee06e842df859cfcf837e2a5ebd0805/hashcommit-0.1.0.tar.gz
+[2024-05-31 10:40:05] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/6e/17/ee8ddcfb1e89f82e412babc12bd1de1b50110db90cf2e7b657e0a82c5c78/datapools-1.0.64.tar.gz
+[2024-05-31 10:40:05] WARNING root fetch - processPackages [aixhello]: Skipping, unable to determine old version
+[2024-05-31 10:40:05] INFO root fetch - main [MainThread]: End processing [aixhello] error
+[2024-05-31 10:40:05] INFO root fetch - processPackages [kuzu]: New version: [0.4.3.dev9] Old Version: [0.4.3.dev8]
+[2024-05-31 10:40:05] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-31 10:40:05] INFO root fetch - processPackages [iii-api-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 10:40:05] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/a4/b8/928de4649967fbc3ef5bb11490358c50a6bf089806ca57ddd4f70733e6e6/datapools-1.0.65.tar.gz
+[2024-05-31 10:40:05] INFO root fetch - processPackages [hashcommit]: Downloading https://files.pythonhosted.org/packages/57/b2/97f72275b090afc4a7bda7a1b42dbc2e2ed7180147af555624bf7d883b00/hashcommit-0.1.1.tar.gz
+[2024-05-31 10:40:06] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/8c/65/7162eaa21f2086d35586ac13298c2ee7127cec11827c394a1c4a3a08801e/kuzu-0.4.3.dev8.tar.gz
+[2024-05-31 10:40:06] INFO root fetch - processPackages [datapools]: executing diffoscope
+[2024-05-31 10:40:06] INFO root fetch - processPackages [datapools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapools-1.0.64.tar.gz tmp/datapools-1.0.65.tar.gz --markdown 20240531/d/datapools/1.0.64-1.0.65/README.md --exclude *.pyd
+[2024-05-31 10:40:06] INFO root fetch - processPackages [hashcommit]: executing diffoscope
+[2024-05-31 10:40:06] INFO root fetch - processPackages [hashcommit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hashcommit-0.1.0.tar.gz tmp/hashcommit-0.1.1.tar.gz --markdown 20240531/h/hashcommit/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 10:40:06] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-31 10:40:06] INFO root fetch - processPackages [iii-api-helper]: Downloading https://files.pythonhosted.org/packages/2b/87/3ec24f67ddcf117569f64f40bbe99c9884baf3eadf42eb930622e1c2b35e/iii_api_helper-0.0.8.tar.gz
+[2024-05-31 10:40:06] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-31 10:40:06] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240531/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-31 10:40:06] INFO root fetch - processPackages [iii-api-helper]: Downloading https://files.pythonhosted.org/packages/df/39/db373f60207c61e8415caed9d0d292767f5c23097ed67d6dd7bd7cf9a6f5/iii_api_helper-0.0.9.tar.gz
+[2024-05-31 10:40:06] INFO root fetch - processPackages [iii-api-helper]: executing diffoscope
+[2024-05-31 10:40:06] INFO root fetch - processPackages [iii-api-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iii_api_helper-0.0.8.tar.gz tmp/iii_api_helper-0.0.9.tar.gz --markdown 20240531/i/iii-api-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 10:40:06] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/df/58/55a184ddd23fb47a5a837c33035095e3fcffa62119ae3557cf8e8b4f7f0c/kuzu-0.4.3.dev9.tar.gz
+[2024-05-31 10:40:06] INFO root fetch - processPackages [hashcommit]: Remove: archive file [/home/abi/fetcher/tmp/hashcommit-0.1.0.tar.gz]
+[2024-05-31 10:40:06] INFO root fetch - processPackages [hashcommit]: Remove: archive file [/home/abi/fetcher/tmp/hashcommit-0.1.1.tar.gz]
+[2024-05-31 10:40:06] INFO root fetch - main [MainThread]: End processing [hashcommit]: success
+[2024-05-31 10:40:06] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.64.tar.gz]
+[2024-05-31 10:40:06] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.65.tar.gz]
+[2024-05-31 10:40:06] INFO root fetch - main [MainThread]: End processing [datapools]: success
+[2024-05-31 10:40:07] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-31 10:40:07] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.3.dev8.tar.gz tmp/kuzu-0.4.3.dev9.tar.gz --markdown 20240531/k/kuzu/0.4.3.dev8-0.4.3.dev9/README.md --exclude *.pyd
+[2024-05-31 10:40:07] INFO root fetch - processPackages [iii-api-helper]: Remove: archive file [/home/abi/fetcher/tmp/iii_api_helper-0.0.8.tar.gz]
+[2024-05-31 10:40:07] INFO root fetch - processPackages [iii-api-helper]: Remove: archive file [/home/abi/fetcher/tmp/iii_api_helper-0.0.9.tar.gz]
+[2024-05-31 10:40:07] INFO root fetch - main [MainThread]: End processing [iii-api-helper]: success
+[2024-05-31 10:40:09] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-05-31 10:40:09] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-05-31 10:40:09] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-31 10:40:13] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev8.tar.gz]
+[2024-05-31 10:40:13] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev9.tar.gz]
+[2024-05-31 10:40:13] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-31 10:40:13] INFO root fetch - main [MainThread]: Store serial: [23462876]
