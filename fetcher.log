@@ -6095,3 +6095,27 @@
 [2024-05-31 05:24:22] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024053103.tar.gz]
 [2024-05-31 05:24:22] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-05-31 05:24:22] INFO root fetch - main [MainThread]: Store serial: [23460046]
+[2024-05-31 05:26:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460046]
+[2024-05-31 05:26:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 05:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MoreLayouttedErrors
+[2024-05-31 05:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyphonic
+[2024-05-31 05:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capdata
+[2024-05-31 05:26:30] INFO root fetch - processPackages [capdata]: New version: [1.0.3] Old Version: [1.0.2.1]
+[2024-05-31 05:26:30] INFO root fetch - processPackages [capdata]: Downloading https://files.pythonhosted.org/packages/b9/69/86e8905b2e6fdf4bc5003924b5a599d02bfb9c58d21b8e46f9b242af6696/capdata-1.0.2.1.tar.gz
+[2024-05-31 05:26:30] WARNING root fetch - processPackages [MoreLayouttedErrors]: Skipping, unable to determine old version
+[2024-05-31 05:26:30] INFO root fetch - main [MainThread]: End processing [MoreLayouttedErrors] error
+[2024-05-31 05:26:30] INFO root fetch - processPackages [pyphonic]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-31 05:26:30] INFO root fetch - processPackages [capdata]: Downloading https://files.pythonhosted.org/packages/59/25/3351d6c9468ef37b38fb87da0f97d6ee6322c03055c2dc59ead8bf693ee9/capdata-1.0.3.tar.gz
+[2024-05-31 05:26:31] INFO root fetch - processPackages [pyphonic]: Downloading https://files.pythonhosted.org/packages/bd/20/37e2c2665b1709811559726a494930e29e10dfd1ba62cacc1fdd66da223b/pyphonic-1.0.2.tar.gz
+[2024-05-31 05:26:31] INFO root fetch - processPackages [capdata]: executing diffoscope
+[2024-05-31 05:26:31] INFO root fetch - processPackages [capdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capdata-1.0.2.1.tar.gz tmp/capdata-1.0.3.tar.gz --markdown 20240531/c/capdata/1.0.2.1-1.0.3/README.md --exclude *.pyd
+[2024-05-31 05:26:31] INFO root fetch - processPackages [pyphonic]: Downloading https://files.pythonhosted.org/packages/cc/ed/9a8a17afff790fce76f3a307fbd622183910ff38e2149394a9ff1f725c1f/pyphonic-1.1.0.tar.gz
+[2024-05-31 05:26:31] INFO root fetch - processPackages [pyphonic]: executing diffoscope
+[2024-05-31 05:26:31] INFO root fetch - processPackages [pyphonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphonic-1.0.2.tar.gz tmp/pyphonic-1.1.0.tar.gz --markdown 20240531/p/pyphonic/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-31 05:26:31] INFO root fetch - processPackages [capdata]: Remove: archive file [/home/abi/fetcher/tmp/capdata-1.0.2.1.tar.gz]
+[2024-05-31 05:26:31] INFO root fetch - processPackages [capdata]: Remove: archive file [/home/abi/fetcher/tmp/capdata-1.0.3.tar.gz]
+[2024-05-31 05:26:31] INFO root fetch - main [MainThread]: End processing [capdata]: success
+[2024-05-31 05:26:31] INFO root fetch - processPackages [pyphonic]: Remove: archive file [/home/abi/fetcher/tmp/pyphonic-1.0.2.tar.gz]
+[2024-05-31 05:26:31] INFO root fetch - processPackages [pyphonic]: Remove: archive file [/home/abi/fetcher/tmp/pyphonic-1.1.0.tar.gz]
+[2024-05-31 05:26:31] INFO root fetch - main [MainThread]: End processing [pyphonic]: success
+[2024-05-31 05:26:31] INFO root fetch - main [MainThread]: Store serial: [23460057]
