@@ -24259,3 +24259,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:48:46] INFO root fetch - processPackages [xsuite]: Remove: archive file [/home/abi/fetcher/tmp/xsuite-0.9.4.tar.gz]
 [2024-05-31 17:48:46] INFO root fetch - main [MainThread]: End processing [xsuite]: success
 [2024-05-31 17:48:46] INFO root fetch - main [MainThread]: Store serial: [23468282]
+[2024-05-31 17:50:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23468282]
+[2024-05-31 17:50:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xsuite
+[2024-05-31 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-block-local
+[2024-05-31 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vbinsta
+[2024-05-31 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragstack-ai-langflow-base
+[2024-05-31 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: puffpan
+[2024-05-31 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: space-exploration-common-lib
+[2024-05-31 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: terrawrap
+[2024-05-31 17:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sxs
+[2024-05-31 17:50:56] INFO root fetch - processPackages [xsuite]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-31 17:50:56] INFO root fetch - processPackages [ragstack-ai-langflow-base]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-31 17:50:56] INFO root fetch - processPackages [space-exploration-common-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 17:50:56] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 17:50:56] INFO root fetch - processPackages [vbinsta]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 17:50:56] WARNING root fetch - processPackages [puffpan]: Skipping, unable to determine old version
+[2024-05-31 17:50:56] INFO root fetch - main [MainThread]: End processing [puffpan] error
+[2024-05-31 17:50:56] INFO root fetch - processPackages [terrawrap]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-31 17:50:56] INFO root fetch - processPackages [sxs]: New version: [2023.1.3] Old Version: [2023.1.2]
+[2024-05-31 17:50:56] INFO root fetch - processPackages [xsuite]: Downloading https://files.pythonhosted.org/packages/f0/df/5ebca898443ec7082cc18dc2d146ac831db32a0db9f3eb249f335f586544/xsuite-0.9.3.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [space-exploration-common-lib]: Downloading https://files.pythonhosted.org/packages/7c/27/9c3e17168cee54b0afa84911cee2c4c4923b5b1ddf48dd67a3045005f072/space_exploration_common_lib-0.0.8.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Downloading https://files.pythonhosted.org/packages/98/1c/bb374d82da38216aa031a0f497dd9d492efb3735eb83f0047fa70062021d/ragstack_ai_langflow_base-0.0.6.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [vbinsta]: Downloading https://files.pythonhosted.org/packages/34/1b/a770a0febc1a2d19b7d9a721adfb39152147bce4e087123175de41511c7b/vbinsta-0.1.8.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [terrawrap]: Downloading https://files.pythonhosted.org/packages/a5/7a/cf7be6f013fc806676ec9cceb89f516cbe0d7d30b846ff30a1a6b642295c/terrawrap-0.9.8.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [sxs]: Downloading https://files.pythonhosted.org/packages/a5/a2/a7c498410e6d3380e3b1e4923c6c880ac4246d62ff085e6879b1e3c81686/sxs-2023.1.2.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [space-exploration-common-lib]: Downloading https://files.pythonhosted.org/packages/68/b3/be8588ce6908619fa879f1dedcee4fa0a35f5ae086c7e2ca7239ea6fecf0/space_exploration_common_lib-0.0.9.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [vbinsta]: Downloading https://files.pythonhosted.org/packages/a7/d2/35fbd21f92c75b6742fd430bfeef190dbc05dd8b654cd957f6d558179064/vbinsta-0.1.9.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [space-exploration-common-lib]: executing diffoscope
+[2024-05-31 17:50:56] INFO root fetch - processPackages [space-exploration-common-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_exploration_common_lib-0.0.8.tar.gz tmp/space_exploration_common_lib-0.0.9.tar.gz --markdown 20240531/s/space-exploration-common-lib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 17:50:56] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-31 17:50:56] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240531/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 17:50:56] INFO root fetch - processPackages [terrawrap]: Downloading https://files.pythonhosted.org/packages/26/de/cf764bea6c785615c018def6db708bb642d711c07161f2f5f92a81a80683/terrawrap-0.9.9.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [vbinsta]: executing diffoscope
+[2024-05-31 17:50:56] INFO root fetch - processPackages [vbinsta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbinsta-0.1.8.tar.gz tmp/vbinsta-0.1.9.tar.gz --markdown 20240531/v/vbinsta/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 17:50:56] INFO root fetch - processPackages [xsuite]: Downloading https://files.pythonhosted.org/packages/14/d6/77d70a5f579f2cb19579161cb29bfea0f48d009fcc0a6120dc14f1d09f91/xsuite-0.9.4.tar.gz
+[2024-05-31 17:50:56] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Downloading https://files.pythonhosted.org/packages/25/09/37826028e315dd6c41dc1af761f0d8d61bd1f66dfe07b32435175a757dcf/ragstack_ai_langflow_base-0.0.7.tar.gz
+[2024-05-31 17:50:57] INFO root fetch - processPackages [terrawrap]: executing diffoscope
+[2024-05-31 17:50:57] INFO root fetch - processPackages [terrawrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrawrap-0.9.8.tar.gz tmp/terrawrap-0.9.9.tar.gz --markdown 20240531/t/terrawrap/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-31 17:50:57] INFO root fetch - processPackages [ragstack-ai-langflow-base]: executing diffoscope
+[2024-05-31 17:50:57] INFO root fetch - processPackages [ragstack-ai-langflow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragstack_ai_langflow_base-0.0.6.tar.gz tmp/ragstack_ai_langflow_base-0.0.7.tar.gz --markdown 20240531/r/ragstack-ai-langflow-base/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-31 17:50:57] INFO root fetch - processPackages [xsuite]: executing diffoscope
+[2024-05-31 17:50:57] INFO root fetch - processPackages [xsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsuite-0.9.3.tar.gz tmp/xsuite-0.9.4.tar.gz --markdown 20240531/x/xsuite/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-31 17:50:57] INFO root fetch - processPackages [space-exploration-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/space_exploration_common_lib-0.0.8.tar.gz]
+[2024-05-31 17:50:57] INFO root fetch - processPackages [space-exploration-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/space_exploration_common_lib-0.0.9.tar.gz]
+[2024-05-31 17:50:57] INFO root fetch - main [MainThread]: End processing [space-exploration-common-lib]: success
+[2024-05-31 17:50:57] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-31 17:50:57] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-31 17:50:57] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-31 17:50:57] INFO root fetch - processPackages [sxs]: Downloading https://files.pythonhosted.org/packages/aa/6f/3dbf0ae13d3f6422c367a77468feb9a47602160d7cec134562ccec946841/sxs-2023.1.3.tar.gz
+[2024-05-31 17:50:57] INFO root fetch - processPackages [vbinsta]: Remove: archive file [/home/abi/fetcher/tmp/vbinsta-0.1.8.tar.gz]
+[2024-05-31 17:50:57] INFO root fetch - processPackages [vbinsta]: Remove: archive file [/home/abi/fetcher/tmp/vbinsta-0.1.9.tar.gz]
+[2024-05-31 17:50:57] INFO root fetch - main [MainThread]: End processing [vbinsta]: success
+[2024-05-31 17:50:57] INFO root fetch - processPackages [terrawrap]: Remove: archive file [/home/abi/fetcher/tmp/terrawrap-0.9.8.tar.gz]
+[2024-05-31 17:50:57] INFO root fetch - processPackages [terrawrap]: Remove: archive file [/home/abi/fetcher/tmp/terrawrap-0.9.9.tar.gz]
+[2024-05-31 17:50:57] INFO root fetch - main [MainThread]: End processing [terrawrap]: success
+[2024-05-31 17:50:58] INFO root fetch - processPackages [sxs]: executing diffoscope
+[2024-05-31 17:50:58] INFO root fetch - processPackages [sxs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sxs-2023.1.2.tar.gz tmp/sxs-2023.1.3.tar.gz --markdown 20240531/s/sxs/2023.1.2-2023.1.3/README.md --exclude *.pyd
+[2024-05-31 17:50:58] INFO root fetch - processPackages [xsuite]: Remove: archive file [/home/abi/fetcher/tmp/xsuite-0.9.3.tar.gz]
+[2024-05-31 17:50:58] INFO root fetch - processPackages [xsuite]: Remove: archive file [/home/abi/fetcher/tmp/xsuite-0.9.4.tar.gz]
+[2024-05-31 17:50:58] INFO root fetch - main [MainThread]: End processing [xsuite]: success
+[2024-05-31 17:51:00] INFO root fetch - processPackages [sxs]: Remove: archive file [/home/abi/fetcher/tmp/sxs-2023.1.2.tar.gz]
+[2024-05-31 17:51:00] INFO root fetch - processPackages [sxs]: Remove: archive file [/home/abi/fetcher/tmp/sxs-2023.1.3.tar.gz]
+[2024-05-31 17:51:00] INFO root fetch - main [MainThread]: End processing [sxs]: success
+[2024-05-31 17:51:01] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow_base-0.0.6.tar.gz]
+[2024-05-31 17:51:01] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow_base-0.0.7.tar.gz]
+[2024-05-31 17:51:01] INFO root fetch - main [MainThread]: End processing [ragstack-ai-langflow-base]: success
+[2024-05-31 17:51:01] INFO root fetch - main [MainThread]: Store serial: [23468318]
