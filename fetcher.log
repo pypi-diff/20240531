@@ -22564,3 +22564,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:56:44] INFO root fetch - processPackages [vac-aligner]: Remove: archive file [/home/abi/fetcher/tmp/vac_aligner-0.0.2-py2.py3-none-any.whl.zip]
 [2024-05-31 16:56:44] INFO root fetch - main [MainThread]: End processing [vac-aligner]: success
 [2024-05-31 16:56:44] INFO root fetch - main [MainThread]: Store serial: [23467522]
+[2024-05-31 16:58:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467522]
+[2024-05-31 16:58:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 16:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hishel
+[2024-05-31 16:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socialdataanalysis
+[2024-05-31 16:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whylabs-toolkit
+[2024-05-31 16:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emailcompat32crlf
+[2024-05-31 16:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbsite
+[2024-05-31 16:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: htcondor
+[2024-05-31 16:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langtrace-python-sdk
+[2024-05-31 16:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tasksource
+[2024-05-31 16:58:56] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-31 16:58:56] INFO root fetch - processPackages [hishel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 16:58:56] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-31 16:58:56] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/b1/3e/c4c53e37b2c7818f6c4af41342a813f6726890a04be5fbe9cc25a5fb8004/socialdataanalysis-0.9.2.tar.gz
+[2024-05-31 16:58:56] INFO root fetch - processPackages [whylabs-toolkit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 16:58:56] INFO root fetch - processPackages [htcondor]: New version: [9.0.17] Old Version: [8.8.15]
+[2024-05-31 16:58:56] WARNING root fetch - processPackages [emailcompat32crlf]: Skipping, unable to determine old version
+[2024-05-31 16:58:56] INFO root fetch - main [MainThread]: End processing [emailcompat32crlf] error
+[2024-05-31 16:58:56] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/70/30/746a1d5db3025b3b69995d907fe840d0c840e298f657e36039fdd6d6b553/hishel-0.0.8.tar.gz
+[2024-05-31 16:58:56] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/d9/58/6f95ec348c4e39ab147435a6eaddd38a0e4d197f59b00078671f055c5284/langtrace_python_sdk-2.1.4.tar.gz
+[2024-05-31 16:58:56] INFO root fetch - processPackages [nbsite]: New version: [0.8.6a6] Old Version: [0.8.6a5]
+[2024-05-31 16:58:56] INFO root fetch - processPackages [tasksource]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 16:58:57] INFO root fetch - processPackages [whylabs-toolkit]: Downloading https://files.pythonhosted.org/packages/5b/ba/1213d543975fb0de5b6b5308e7c4206af19d3ccc7d4fed04c63742f1f05e/whylabs_toolkit-0.1.0.tar.gz
+[2024-05-31 16:58:57] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/f9/4c/982269476b22dd1ee3db7d80c61601b1de338a195375c7607be91a8b56b7/nbsite-0.8.6a5.tar.gz
+[2024-05-31 16:58:57] INFO root fetch - processPackages [hishel]: Downloading https://files.pythonhosted.org/packages/b1/8c/d6a0ef32c315189e5c35dbef5f3db303cfed2b4a0b63bce4da44c502e387/hishel-0.0.9.tar.gz
+[2024-05-31 16:58:57] INFO root fetch - processPackages [htcondor]: Downloading https://files.pythonhosted.org/packages/1d/1c/45f3cfdbaafc66adddffee7f6c2fb7a98fb20a53e958ce906f3972cd0241/htcondor-8.8.15-cp37-cp37m-manylinux1_x86_64.whl
+[2024-05-31 16:58:57] INFO root fetch - processPackages [tasksource]: Downloading https://files.pythonhosted.org/packages/c5/5a/577f24b048a52087b4bb9d752d76d480b0018786e5342599cfaa1c3572bc/tasksource-0.0.8.tar.gz
+[2024-05-31 16:58:57] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/87/ee/e69a2b231de392c51179acf5be97f491bf3c36d75457edf1c00b21d48bd1/socialdataanalysis-0.9.3.tar.gz
+[2024-05-31 16:58:57] WARNING root fetch - processPackages [htcondor]: Skipping package: exceeds size limit 26089811>=10485760
+[2024-05-31 16:58:57] INFO root fetch - main [MainThread]: End processing [htcondor] error
+[2024-05-31 16:58:57] INFO root fetch - processPackages [hishel]: executing diffoscope
+[2024-05-31 16:58:57] INFO root fetch - processPackages [hishel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hishel-0.0.8.tar.gz tmp/hishel-0.0.9.tar.gz --markdown 20240531/h/hishel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 16:58:57] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 16:58:57] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.9.2.tar.gz tmp/socialdataanalysis-0.9.3.tar.gz --markdown 20240531/s/socialdataanalysis/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-31 16:58:57] INFO root fetch - processPackages [whylabs-toolkit]: Downloading https://files.pythonhosted.org/packages/f5/db/2e7566c512a20135f0fd710b77fe18b3601cf0fc5f98795fdbd47e83899e/whylabs_toolkit-0.1.1.tar.gz
+[2024-05-31 16:58:57] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/6a/d6a4ac7a22d0cd762e406584723947d88fee46592db52b2b558e923d48f8/langtrace_python_sdk-2.1.5.tar.gz
+[2024-05-31 16:58:57] INFO root fetch - processPackages [nbsite]: Downloading https://files.pythonhosted.org/packages/0e/15/b49923d824def8a6c0064ccd9c964bf38b425eb94971206cd2fb8b3c21fa/nbsite-0.8.6a6.tar.gz
+[2024-05-31 16:58:57] INFO root fetch - processPackages [whylabs-toolkit]: executing diffoscope
+[2024-05-31 16:58:57] INFO root fetch - processPackages [whylabs-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylabs_toolkit-0.1.0.tar.gz tmp/whylabs_toolkit-0.1.1.tar.gz --markdown 20240531/w/whylabs-toolkit/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 16:58:57] INFO root fetch - processPackages [nbsite]: executing diffoscope
+[2024-05-31 16:58:57] INFO root fetch - processPackages [nbsite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbsite-0.8.6a5.tar.gz tmp/nbsite-0.8.6a6.tar.gz --markdown 20240531/n/nbsite/0.8.6a5-0.8.6a6/README.md --exclude *.pyd
+[2024-05-31 16:58:57] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-05-31 16:58:57] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-2.1.4.tar.gz tmp/langtrace_python_sdk-2.1.5.tar.gz --markdown 20240531/l/langtrace-python-sdk/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-31 16:58:57] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.9.2.tar.gz]
+[2024-05-31 16:58:57] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.9.3.tar.gz]
+[2024-05-31 16:58:57] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 16:58:58] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.8.tar.gz]
+[2024-05-31 16:58:58] INFO root fetch - processPackages [hishel]: Remove: archive file [/home/abi/fetcher/tmp/hishel-0.0.9.tar.gz]
+[2024-05-31 16:58:58] INFO root fetch - main [MainThread]: End processing [hishel]: success
+[2024-05-31 16:58:58] INFO root fetch - processPackages [whylabs-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/whylabs_toolkit-0.1.0.tar.gz]
+[2024-05-31 16:58:58] INFO root fetch - processPackages [whylabs-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/whylabs_toolkit-0.1.1.tar.gz]
+[2024-05-31 16:58:58] INFO root fetch - main [MainThread]: End processing [whylabs-toolkit]: success
+[2024-05-31 16:58:58] INFO root fetch - processPackages [tasksource]: Downloading https://files.pythonhosted.org/packages/79/98/5f442144303c3b9aad3c1d81a6dfca8f937304149324559064fb9f84a79f/tasksource-0.0.9.tar.gz
+[2024-05-31 16:58:58] INFO root fetch - processPackages [tasksource]: executing diffoscope
+[2024-05-31 16:58:58] INFO root fetch - processPackages [tasksource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tasksource-0.0.8.tar.gz tmp/tasksource-0.0.9.tar.gz --markdown 20240531/t/tasksource/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 16:58:58] INFO root fetch - processPackages [nbsite]: Remove: archive file [/home/abi/fetcher/tmp/nbsite-0.8.6a5.tar.gz]
+[2024-05-31 16:58:58] INFO root fetch - processPackages [nbsite]: Remove: archive file [/home/abi/fetcher/tmp/nbsite-0.8.6a6.tar.gz]
+[2024-05-31 16:58:58] INFO root fetch - main [MainThread]: End processing [nbsite]: success
+[2024-05-31 16:58:58] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.1.4.tar.gz]
+[2024-05-31 16:58:58] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.1.5.tar.gz]
+[2024-05-31 16:58:58] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-05-31 16:58:58] INFO root fetch - processPackages [tasksource]: Remove: archive file [/home/abi/fetcher/tmp/tasksource-0.0.8.tar.gz]
+[2024-05-31 16:58:58] INFO root fetch - processPackages [tasksource]: Remove: archive file [/home/abi/fetcher/tmp/tasksource-0.0.9.tar.gz]
+[2024-05-31 16:58:58] INFO root fetch - main [MainThread]: End processing [tasksource]: success
+[2024-05-31 16:58:58] INFO root fetch - main [MainThread]: Store serial: [23467559]
