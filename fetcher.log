@@ -19246,3 +19246,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:04:50] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.9.tar.gz]
 [2024-05-31 15:04:50] INFO root fetch - main [MainThread]: End processing [ansys-sphinx-theme]: success
 [2024-05-31 15:04:50] INFO root fetch - main [MainThread]: Store serial: [23465974]
+[2024-05-31 15:06:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465974]
+[2024-05-31 15:06:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 15:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transmission-rpc
+[2024-05-31 15:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grafana-foundation-sdk
+[2024-05-31 15:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dls-dodal
+[2024-05-31 15:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalc
+[2024-05-31 15:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grafana-foundation-sdk
+[2024-05-31 15:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datapools
+[2024-05-31 15:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inoopa_utils
+[2024-05-31 15:06:59] INFO root fetch - processPackages [transmission-rpc]: New version: [7.0.7a2] Old Version: [7.0.7a1]
+[2024-05-31 15:06:59] INFO root fetch - processPackages [datapools]: New version: [1.0.66] Old Version: [1.0.65]
+[2024-05-31 15:06:59] INFO root fetch - processPackages [transmission-rpc]: Downloading https://files.pythonhosted.org/packages/4b/3d/98fcaf9be47977cd0565d615fa4ddb523921b74fafcc27d552fcbc1dc5a7/transmission_rpc-7.0.7a1.tar.gz
+[2024-05-31 15:06:59] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1717160602!10.2.0] Old Version: [1717160592!10.1.0]
+[2024-05-31 15:06:59] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1717160602!10.2.0] Old Version: [1717160592!10.1.0]
+[2024-05-31 15:06:59] INFO root fetch - processPackages [dls-dodal]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-31 15:06:59] INFO root fetch - processPackages [chalc]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-31 15:06:59] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/a4/b8/928de4649967fbc3ef5bb11490358c50a6bf089806ca57ddd4f70733e6e6/datapools-1.0.65.tar.gz
+[2024-05-31 15:06:59] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-31 15:06:59] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/99/ab/91ed60c8571c5c2a816d4b188bd8cf45027596c7de30d1533d4188f9e766/grafana_foundation_sdk-1717160592!10.1.0.tar.gz
+[2024-05-31 15:06:59] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/99/ab/91ed60c8571c5c2a816d4b188bd8cf45027596c7de30d1533d4188f9e766/grafana_foundation_sdk-1717160592!10.1.0.tar.gz
+[2024-05-31 15:06:59] INFO root fetch - processPackages [dls-dodal]: Downloading https://files.pythonhosted.org/packages/7d/05/37c63aa0cd1a6ce2a8a5c2af1a34235ffe8817d51ad11163a3cd85ae12f0/dls-dodal-1.8.0.tar.gz
+[2024-05-31 15:06:59] INFO root fetch - processPackages [chalc]: Downloading https://files.pythonhosted.org/packages/63/51/c644d161db781f6941307b2d2417691b91f6a2688950fe3d6ba0397dccf2/chalc-0.9.0.tar.gz
+[2024-05-31 15:06:59] INFO root fetch - processPackages [transmission-rpc]: Downloading https://files.pythonhosted.org/packages/96/2f/55fa925abcb38f77b1a6a41b5bff088ca26ea41f1c196a9f3d650721a803/transmission_rpc-7.0.7a2.tar.gz
+[2024-05-31 15:06:59] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-31 15:07:00] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/6e/0a/8a5051bc1b084aa41a182a368fad4a6007b26814f6cfabf48fbc91774561/datapools-1.0.66.tar.gz
+[2024-05-31 15:07:00] INFO root fetch - processPackages [transmission-rpc]: executing diffoscope
+[2024-05-31 15:07:00] INFO root fetch - processPackages [transmission-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transmission_rpc-7.0.7a1.tar.gz tmp/transmission_rpc-7.0.7a2.tar.gz --markdown 20240531/t/transmission-rpc/7.0.7a1-7.0.7a2/README.md --exclude *.pyd
+[2024-05-31 15:07:00] INFO root fetch - processPackages [datapools]: executing diffoscope
+[2024-05-31 15:07:00] INFO root fetch - processPackages [datapools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapools-1.0.65.tar.gz tmp/datapools-1.0.66.tar.gz --markdown 20240531/d/datapools/1.0.65-1.0.66/README.md --exclude *.pyd
+[2024-05-31 15:07:00] INFO root fetch - processPackages [dls-dodal]: Downloading https://files.pythonhosted.org/packages/0f/b3/c8af395d46d1c9764756342c7841827c9e0e708aade9b05af36c576f333a/dls-dodal-1.9.0.tar.gz
+[2024-05-31 15:07:00] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/10/ef/1ec3ce2f2e4d5fa51c32c595f02b73f00bba0e6949309a6782297de35e03/grafana_foundation_sdk-1717160602!10.2.0.tar.gz
+[2024-05-31 15:07:00] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/10/ef/1ec3ce2f2e4d5fa51c32c595f02b73f00bba0e6949309a6782297de35e03/grafana_foundation_sdk-1717160602!10.2.0.tar.gz
+[2024-05-31 15:07:00] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-31 15:07:00] INFO root fetch - processPackages [dls-dodal]: executing diffoscope
+[2024-05-31 15:07:00] INFO root fetch - processPackages [dls-dodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-dodal-1.8.0.tar.gz tmp/dls-dodal-1.9.0.tar.gz --markdown 20240531/d/dls-dodal/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-31 15:07:00] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-31 15:07:00] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240531/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-31 15:07:00] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-31 15:07:00] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1717160592!10.1.0.tar.gz tmp/grafana_foundation_sdk-1717160602!10.2.0.tar.gz --markdown 20240531/g/grafana-foundation-sdk/1717160592!10.1.0-1717160602!10.2.0/README.md --exclude *.pyd
+[2024-05-31 15:07:00] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-31 15:07:00] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1717160592!10.1.0.tar.gz tmp/grafana_foundation_sdk-1717160602!10.2.0.tar.gz --markdown 20240531/g/grafana-foundation-sdk/1717160592!10.1.0-1717160602!10.2.0/README.md --exclude *.pyd
+[2024-05-31 15:07:00] INFO root fetch - processPackages [transmission-rpc]: Remove: archive file [/home/abi/fetcher/tmp/transmission_rpc-7.0.7a1.tar.gz]
+[2024-05-31 15:07:00] INFO root fetch - processPackages [transmission-rpc]: Remove: archive file [/home/abi/fetcher/tmp/transmission_rpc-7.0.7a2.tar.gz]
+[2024-05-31 15:07:00] INFO root fetch - main [MainThread]: End processing [transmission-rpc]: success
+[2024-05-31 15:07:00] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.65.tar.gz]
+[2024-05-31 15:07:00] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.66.tar.gz]
+[2024-05-31 15:07:00] INFO root fetch - main [MainThread]: End processing [datapools]: success
+[2024-05-31 15:07:01] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-31 15:07:01] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-31 15:07:01] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-31 15:07:01] INFO root fetch - processPackages [dls-dodal]: Remove: archive file [/home/abi/fetcher/tmp/dls-dodal-1.8.0.tar.gz]
+[2024-05-31 15:07:01] INFO root fetch - processPackages [dls-dodal]: Remove: archive file [/home/abi/fetcher/tmp/dls-dodal-1.9.0.tar.gz]
+[2024-05-31 15:07:01] INFO root fetch - main [MainThread]: End processing [dls-dodal]: success
+[2024-05-31 15:07:01] INFO root fetch - processPackages [chalc]: Downloading https://files.pythonhosted.org/packages/89/ec/2a0281423fa6ecdd9ba173f557cbd915f1b58c0b25cf5f2cb604e93102ba/chalc-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 15:07:01] INFO root fetch - processPackages [chalc]: executing diffoscope
+[2024-05-31 15:07:01] INFO root fetch - processPackages [chalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalc-0.9.0.tar.gz tmp/chalc-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240531/c/chalc/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-31 15:07:02] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1717160592!10.1.0.tar.gz]
+[2024-05-31 15:07:02] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1717160602!10.2.0.tar.gz]
+[2024-05-31 15:07:02] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-31 15:07:02] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-31 15:07:02] INFO root fetch - processPackages [chalc]: Remove: archive file [/home/abi/fetcher/tmp/chalc-0.9.0.tar.gz]
+[2024-05-31 15:07:02] INFO root fetch - processPackages [chalc]: Remove: archive file [/home/abi/fetcher/tmp/chalc-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 15:07:02] INFO root fetch - main [MainThread]: End processing [chalc]: success
+[2024-05-31 15:07:02] INFO root fetch - main [MainThread]: Store serial: [23466010]
