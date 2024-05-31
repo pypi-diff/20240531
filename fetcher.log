@@ -5321,3 +5321,51 @@
 [2024-05-31 04:38:38] INFO root fetch - processPackages [chainlite]: Remove: archive file [/home/abi/fetcher/tmp/chainlite-0.1.9.tar.gz]
 [2024-05-31 04:38:38] INFO root fetch - main [MainThread]: End processing [chainlite]: success
 [2024-05-31 04:38:38] INFO root fetch - main [MainThread]: Store serial: [23459721]
+[2024-05-31 04:40:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459721]
+[2024-05-31 04:40:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 04:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pasync
+[2024-05-31 04:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-dots
+[2024-05-31 04:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-llama
+[2024-05-31 04:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lb-database
+[2024-05-31 04:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myfunctions-AdnanGrifat
+[2024-05-31 04:40:47] INFO root fetch - processPackages [lb-database]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-31 04:40:47] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 04:40:47] INFO root fetch - processPackages [pasync]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-31 04:40:47] INFO root fetch - processPackages [easy-llama]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 04:40:47] INFO root fetch - processPackages [mo-dots]: New version: [9.606.24115] Old Version: [9.605.24115]
+[2024-05-31 04:40:47] INFO root fetch - processPackages [lb-database]: Downloading https://files.pythonhosted.org/packages/b2/4f/2c98c15f1ab95de4194843c10d89ce724aae73da972dd175b4135508b178/lb_database-1.1.1.tar.gz
+[2024-05-31 04:40:47] INFO root fetch - processPackages [pasync]: Downloading https://files.pythonhosted.org/packages/09/16/2c34934650795d65f2e690af1f222b7d698279defd05a8482471d0156ef1/pasync-0.2.0.tar.gz
+[2024-05-31 04:40:47] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Downloading https://files.pythonhosted.org/packages/0a/a4/253c66131c2992e765b49256717a21fdd7df4190c24c618d8004670a77ab/myfunctions_AdnanGrifat-0.0.1.tar.gz
+[2024-05-31 04:40:47] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/ce/e9/39a06b9ce349625a5d6c7da00644a8cc7320112fb3ba2b2e54944d3a6135/easy_llama-0.1.8.tar.gz
+[2024-05-31 04:40:47] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/c1/78/500bc80bd2febc9c1dd08390617553bf8eb583859830968121d99c41760a/mo_dots-9.605.24115.tar.gz
+[2024-05-31 04:40:47] INFO root fetch - processPackages [pasync]: Downloading https://files.pythonhosted.org/packages/b1/80/bf75f7af5954a8c2a2db9e66023d229ab7c847217f61af0f1d48c645729b/pasync-0.3.0.tar.gz
+[2024-05-31 04:40:47] INFO root fetch - processPackages [lb-database]: Downloading https://files.pythonhosted.org/packages/c8/3c/19b6859a52c084e413c540377c709503dd4b7ef710f35d595f48ebb5e95a/lb_database-1.1.2.tar.gz
+[2024-05-31 04:40:48] INFO root fetch - processPackages [pasync]: executing diffoscope
+[2024-05-31 04:40:48] INFO root fetch - processPackages [pasync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasync-0.2.0.tar.gz tmp/pasync-0.3.0.tar.gz --markdown 20240531/p/pasync/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-31 04:40:48] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/98/5d/f5007368104957b81fc41c01c18234178e2875066cca25192bec1d846caf/easy_llama-0.1.9.tar.gz
+[2024-05-31 04:40:48] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/62/60/27b3dbfd973f17e5e448be2a9a9d96cea0e25479810b1ba253056fa3f295/mo_dots-9.606.24115.tar.gz
+[2024-05-31 04:40:48] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Downloading https://files.pythonhosted.org/packages/dd/5b/f4ac100164a93b95f3a84f31dbc7214671b23e1db22116a02cad84445abe/myfunctions_AdnanGrifat-0.0.2.tar.gz
+[2024-05-31 04:40:48] INFO root fetch - processPackages [lb-database]: executing diffoscope
+[2024-05-31 04:40:48] INFO root fetch - processPackages [lb-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lb_database-1.1.1.tar.gz tmp/lb_database-1.1.2.tar.gz --markdown 20240531/l/lb-database/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-31 04:40:48] INFO root fetch - processPackages [easy-llama]: executing diffoscope
+[2024-05-31 04:40:48] INFO root fetch - processPackages [easy-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_llama-0.1.8.tar.gz tmp/easy_llama-0.1.9.tar.gz --markdown 20240531/e/easy-llama/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 04:40:48] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: executing diffoscope
+[2024-05-31 04:40:48] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_AdnanGrifat-0.0.1.tar.gz tmp/myfunctions_AdnanGrifat-0.0.2.tar.gz --markdown 20240531/m/myfunctions-AdnanGrifat/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 04:40:48] INFO root fetch - processPackages [mo-dots]: executing diffoscope
+[2024-05-31 04:40:48] INFO root fetch - processPackages [mo-dots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_dots-9.605.24115.tar.gz tmp/mo_dots-9.606.24115.tar.gz --markdown 20240531/m/mo-dots/9.605.24115-9.606.24115/README.md --exclude *.pyd
+[2024-05-31 04:40:48] INFO root fetch - processPackages [pasync]: Remove: archive file [/home/abi/fetcher/tmp/pasync-0.2.0.tar.gz]
+[2024-05-31 04:40:48] INFO root fetch - processPackages [pasync]: Remove: archive file [/home/abi/fetcher/tmp/pasync-0.3.0.tar.gz]
+[2024-05-31 04:40:48] INFO root fetch - main [MainThread]: End processing [pasync]: success
+[2024-05-31 04:40:48] INFO root fetch - processPackages [lb-database]: Remove: archive file [/home/abi/fetcher/tmp/lb_database-1.1.1.tar.gz]
+[2024-05-31 04:40:48] INFO root fetch - processPackages [lb-database]: Remove: archive file [/home/abi/fetcher/tmp/lb_database-1.1.2.tar.gz]
+[2024-05-31 04:40:48] INFO root fetch - main [MainThread]: End processing [lb-database]: success
+[2024-05-31 04:40:48] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_AdnanGrifat-0.0.1.tar.gz]
+[2024-05-31 04:40:48] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_AdnanGrifat-0.0.2.tar.gz]
+[2024-05-31 04:40:48] INFO root fetch - main [MainThread]: End processing [myfunctions-AdnanGrifat]: success
+[2024-05-31 04:40:48] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.8.tar.gz]
+[2024-05-31 04:40:48] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.9.tar.gz]
+[2024-05-31 04:40:48] INFO root fetch - main [MainThread]: End processing [easy-llama]: success
+[2024-05-31 04:40:48] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.605.24115.tar.gz]
+[2024-05-31 04:40:48] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.606.24115.tar.gz]
+[2024-05-31 04:40:48] INFO root fetch - main [MainThread]: End processing [mo-dots]: success
+[2024-05-31 04:40:48] INFO root fetch - main [MainThread]: Store serial: [23459736]
