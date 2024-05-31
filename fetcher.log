@@ -19438,3 +19438,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:11:35] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
 [2024-05-31 15:11:35] INFO root fetch - main [MainThread]: End processing [gftools]: success
 [2024-05-31 15:11:35] INFO root fetch - main [MainThread]: Store serial: [23466053]
+[2024-05-31 15:13:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466053]
+[2024-05-31 15:13:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 15:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shgpt
+[2024-05-31 15:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litetts
+[2024-05-31 15:13:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlalchemy-declarative-extensions
+[2024-05-31 15:13:44] INFO root fetch - processPackages [shgpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 15:13:44] INFO root fetch - processPackages [litetts]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-31 15:13:44] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: New version: [0.9.1] Old Version: [0.8.3]
+[2024-05-31 15:13:44] INFO root fetch - processPackages [shgpt]: Downloading https://files.pythonhosted.org/packages/c9/f6/4909eafb05dc4ce02f990bb5179e6a8ea317c887a2a60691cf2353721bcf/shgpt-0.1.0.tar.gz
+[2024-05-31 15:13:44] INFO root fetch - processPackages [litetts]: Downloading https://files.pythonhosted.org/packages/dc/ac/fd3f2294fc90425301e6423c5e995e405b220cad6a390091f12c3240c317/litetts-0.1.0.tar.gz
+[2024-05-31 15:13:44] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: Downloading https://files.pythonhosted.org/packages/f3/5f/dfc4813df03490440613ff8ed4a2fff3b70af95d873f1ac6edbb5a073f29/sqlalchemy-declarative-extensions-0.8.3.tar.gz
+[2024-05-31 15:13:45] INFO root fetch - processPackages [shgpt]: Downloading https://files.pythonhosted.org/packages/4e/56/006e982b56e01c5eef75fbec84f17102027c082088bf45299489e53ff36a/shgpt-0.1.1.tar.gz
+[2024-05-31 15:13:45] INFO root fetch - processPackages [litetts]: Downloading https://files.pythonhosted.org/packages/48/c5/79ca5d92935dbb981373ee6e2e845ceeafc51ad7f7045a6b26d95107305a/litetts-0.2.0.tar.gz
+[2024-05-31 15:13:45] INFO root fetch - processPackages [shgpt]: executing diffoscope
+[2024-05-31 15:13:45] INFO root fetch - processPackages [shgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shgpt-0.1.0.tar.gz tmp/shgpt-0.1.1.tar.gz --markdown 20240531/s/shgpt/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 15:13:45] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: Downloading https://files.pythonhosted.org/packages/ea/3d/53077a3e56116d564750df14ec2023de59970111bc75e0d73cc7d84d079d/sqlalchemy-declarative-extensions-0.9.1.tar.gz
+[2024-05-31 15:13:45] INFO root fetch - processPackages [litetts]: executing diffoscope
+[2024-05-31 15:13:45] INFO root fetch - processPackages [litetts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litetts-0.1.0.tar.gz tmp/litetts-0.2.0.tar.gz --markdown 20240531/l/litetts/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-31 15:13:45] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: executing diffoscope
+[2024-05-31 15:13:45] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-declarative-extensions-0.8.3.tar.gz tmp/sqlalchemy-declarative-extensions-0.9.1.tar.gz --markdown 20240531/s/sqlalchemy-declarative-extensions/0.8.3-0.9.1/README.md --exclude *.pyd
+[2024-05-31 15:13:45] INFO root fetch - processPackages [shgpt]: Remove: archive file [/home/abi/fetcher/tmp/shgpt-0.1.0.tar.gz]
+[2024-05-31 15:13:45] INFO root fetch - processPackages [shgpt]: Remove: archive file [/home/abi/fetcher/tmp/shgpt-0.1.1.tar.gz]
+[2024-05-31 15:13:45] INFO root fetch - main [MainThread]: End processing [shgpt]: success
+[2024-05-31 15:13:45] INFO root fetch - processPackages [litetts]: Remove: archive file [/home/abi/fetcher/tmp/litetts-0.1.0.tar.gz]
+[2024-05-31 15:13:45] INFO root fetch - processPackages [litetts]: Remove: archive file [/home/abi/fetcher/tmp/litetts-0.2.0.tar.gz]
+[2024-05-31 15:13:45] INFO root fetch - main [MainThread]: End processing [litetts]: success
+[2024-05-31 15:13:46] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-declarative-extensions-0.8.3.tar.gz]
+[2024-05-31 15:13:46] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-declarative-extensions-0.9.1.tar.gz]
+[2024-05-31 15:13:46] INFO root fetch - main [MainThread]: End processing [sqlalchemy-declarative-extensions]: success
+[2024-05-31 15:13:46] INFO root fetch - main [MainThread]: Store serial: [23466061]
