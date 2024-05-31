@@ -20083,3 +20083,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:34:25] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-31 15:34:25] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-31 15:34:25] INFO root fetch - main [MainThread]: Store serial: [23466299]
+[2024-05-31 15:36:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466299]
+[2024-05-31 15:36:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 15:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simo
+[2024-05-31 15:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws-native
+[2024-05-31 15:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-cloud-spanner
+[2024-05-31 15:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socialdataanalysis
+[2024-05-31 15:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipyweb
+[2024-05-31 15:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fundamentals
+[2024-05-31 15:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ReProv
+[2024-05-31 15:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: boxsers
+[2024-05-31 15:36:34] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-31 15:36:34] INFO root fetch - processPackages [ipyweb]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-31 15:36:34] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.6] Old Version: [0.5]
+[2024-05-31 15:36:34] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-31 15:36:34] WARNING root fetch - processPackages [ReProv]: Skipping, unable to determine old version
+[2024-05-31 15:36:34] INFO root fetch - main [MainThread]: End processing [ReProv] error
+[2024-05-31 15:36:35] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/d5/fd/a4717f843a91dfd39359ba7f25c29d645fdc6ebe17575c8e41c46e4bd2be/socialdataanalysis-0.5.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [boxsers]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-31 15:36:35] INFO root fetch - processPackages [google-cloud-spanner]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-05-31 15:36:35] INFO root fetch - processPackages [fundamentals]: New version: [2.7.0] Old Version: [2.6.4]
+[2024-05-31 15:36:35] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-31 15:36:35] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-31 15:36:35] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-31 15:36:35] INFO root fetch - processPackages [ipyweb]: Downloading https://files.pythonhosted.org/packages/8e/ee/eba3871cc8073224c37e8f2e87ccdad7bd12ec576cb7bf5f14e9226d8ee6/ipyweb-1.0.2.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/c0/2d/9383b183858aaf9f33a19f695d5db62abbd3750f41e5461f5d4dd68d2da2/google-cloud-spanner-3.8.0.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [boxsers]: Downloading https://files.pythonhosted.org/packages/26/f3/c407f57b1dda11440e6f356654bcfb159dfdbb9f3e5b40e998758178eba7/boxsers-1.5.0.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [fundamentals]: Downloading https://files.pythonhosted.org/packages/60/76/5b927acd2cd11dc8e57412d5cae9c9e4ea45cee45d7531b3a44d903ccccb/fundamentals-2.6.4.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [ipyweb]: Downloading https://files.pythonhosted.org/packages/09/81/f50c6a606e584406fe5c90a9f53c1f71d0d1f80aabb4de96d01e9e83bdc6/ipyweb-1.0.3.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/99/ae/8b5508848ec84003194088d986d33666ec2a76b764734d7d28c554979f70/socialdataanalysis-0.6.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [ipyweb]: executing diffoscope
+[2024-05-31 15:36:35] INFO root fetch - processPackages [ipyweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyweb-1.0.2.tar.gz tmp/ipyweb-1.0.3.tar.gz --markdown 20240531/i/ipyweb/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-31 15:36:35] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 15:36:35] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.5.tar.gz tmp/socialdataanalysis-0.6.tar.gz --markdown 20240531/s/socialdataanalysis/0.5-0.6/README.md --exclude *.pyd
+[2024-05-31 15:36:35] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [fundamentals]: Downloading https://files.pythonhosted.org/packages/80/02/de7e5e052490b2ac4ed1a79e76ea11c2195488cc7998ae9d325957389037/fundamentals-2.7.0.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [boxsers]: Downloading https://files.pythonhosted.org/packages/e7/14/1be43655f17c472f11e22d909fe7acccee14281bedc57e93655154f94b19/boxsers-1.5.1.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [google-cloud-spanner]: Downloading https://files.pythonhosted.org/packages/7f/af/852f011a0e2347701621b19205ec8b0037c7a76ce4c0705f0ee8e7788671/google-cloud-spanner-3.9.0.tar.gz
+[2024-05-31 15:36:35] INFO root fetch - processPackages [boxsers]: executing diffoscope
+[2024-05-31 15:36:35] INFO root fetch - processPackages [boxsers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxsers-1.5.0.tar.gz tmp/boxsers-1.5.1.tar.gz --markdown 20240531/b/boxsers/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-31 15:36:35] INFO root fetch - processPackages [fundamentals]: executing diffoscope
+[2024-05-31 15:36:35] INFO root fetch - processPackages [fundamentals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundamentals-2.6.4.tar.gz tmp/fundamentals-2.7.0.tar.gz --markdown 20240531/f/fundamentals/2.6.4-2.7.0/README.md --exclude *.pyd
+[2024-05-31 15:36:35] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-31 15:36:35] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240531/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-31 15:36:36] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.5.tar.gz]
+[2024-05-31 15:36:36] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.6.tar.gz]
+[2024-05-31 15:36:36] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 15:36:36] INFO root fetch - processPackages [google-cloud-spanner]: executing diffoscope
+[2024-05-31 15:36:36] INFO root fetch - processPackages [google-cloud-spanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-spanner-3.8.0.tar.gz tmp/google-cloud-spanner-3.9.0.tar.gz --markdown 20240531/g/google-cloud-spanner/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-05-31 15:36:36] INFO root fetch - processPackages [ipyweb]: Remove: archive file [/home/abi/fetcher/tmp/ipyweb-1.0.2.tar.gz]
+[2024-05-31 15:36:36] INFO root fetch - processPackages [ipyweb]: Remove: archive file [/home/abi/fetcher/tmp/ipyweb-1.0.3.tar.gz]
+[2024-05-31 15:36:36] INFO root fetch - main [MainThread]: End processing [ipyweb]: success
+[2024-05-31 15:36:36] INFO root fetch - processPackages [boxsers]: Remove: archive file [/home/abi/fetcher/tmp/boxsers-1.5.0.tar.gz]
+[2024-05-31 15:36:36] INFO root fetch - processPackages [boxsers]: Remove: archive file [/home/abi/fetcher/tmp/boxsers-1.5.1.tar.gz]
+[2024-05-31 15:36:36] INFO root fetch - main [MainThread]: End processing [boxsers]: success
+[2024-05-31 15:36:36] INFO root fetch - processPackages [fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/fundamentals-2.6.4.tar.gz]
+[2024-05-31 15:36:36] INFO root fetch - processPackages [fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/fundamentals-2.7.0.tar.gz]
+[2024-05-31 15:36:36] INFO root fetch - main [MainThread]: End processing [fundamentals]: success
+[2024-05-31 15:36:37] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.8.0.tar.gz]
+[2024-05-31 15:36:37] INFO root fetch - processPackages [google-cloud-spanner]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-spanner-3.9.0.tar.gz]
+[2024-05-31 15:36:37] INFO root fetch - main [MainThread]: End processing [google-cloud-spanner]: success
+[2024-05-31 15:36:50] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-31 15:36:50] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-31 15:36:50] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-31 15:36:50] INFO root fetch - main [MainThread]: Store serial: [23466327]
