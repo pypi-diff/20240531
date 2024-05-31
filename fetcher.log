@@ -13069,3 +13069,50 @@
 [2024-05-31 11:06:41] INFO root fetch - processPackages [clinvar-this]: Remove: archive file [/home/abi/fetcher/tmp/clinvar-this-0.9.0.tar.gz]
 [2024-05-31 11:06:41] INFO root fetch - main [MainThread]: End processing [clinvar-this]: success
 [2024-05-31 11:06:41] INFO root fetch - main [MainThread]: Store serial: [23463185]
+[2024-05-31 11:08:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463185]
+[2024-05-31 11:08:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 11:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evomip
+[2024-05-31 11:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oebuild
+[2024-05-31 11:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitaleye-msgs
+[2024-05-31 11:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aixhello
+[2024-05-31 11:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-railz
+[2024-05-31 11:08:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyDicomGrouping
+[2024-05-31 11:08:50] WARNING root fetch - processPackages [aixhello]: Skipping, unable to determine old version
+[2024-05-31 11:08:50] INFO root fetch - main [MainThread]: End processing [aixhello] error
+[2024-05-31 11:08:50] INFO root fetch - processPackages [digitaleye-msgs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 11:08:50] INFO root fetch - processPackages [evomip]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-31 11:08:50] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 11:08:50] INFO root fetch - processPackages [digitaleye-msgs]: Downloading https://files.pythonhosted.org/packages/ab/04/923d577583292c3886676e96cd7fb9541c6afa473cb0be482042f9ab4454/digitaleye_msgs-1.0.8.tar.gz
+[2024-05-31 11:08:50] INFO root fetch - processPackages [airbyte-source-railz]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 11:08:50] INFO root fetch - processPackages [PyDicomGrouping]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-31 11:08:50] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-05-31 11:08:50] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/81/5f/d530c44972104f489f1b5c0972bfa4fdcf57562214269f6f8df277309327/evomip-0.1.5.tar.gz
+[2024-05-31 11:08:50] INFO root fetch - processPackages [PyDicomGrouping]: Downloading https://files.pythonhosted.org/packages/1a/4a/5cd277d1caaed32610bb5544be9d3b779c9ab3cd6d457d73f410562a6507/PyDicomGrouping-0.1.7.tar.gz
+[2024-05-31 11:08:50] INFO root fetch - processPackages [digitaleye-msgs]: Downloading https://files.pythonhosted.org/packages/fd/bd/f9fa5a2ff25dac6d57de48b2f128ad07b29d408ba592ffa68080770271d6/digitaleye_msgs-1.0.9.tar.gz
+[2024-05-31 11:08:50] INFO root fetch - processPackages [airbyte-source-railz]: Downloading https://files.pythonhosted.org/packages/d4/be/740caff3954536ec98956b0d8800bd14a92627d543b5cc2ddf95d34b8a82/airbyte-source-railz-0.1.1.tar.gz
+[2024-05-31 11:08:50] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-05-31 11:08:50] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/67/94/a0a743b637190149c30f8bb39c744ad9a18cc7216ec4032f2729bd7bc936/evomip-0.1.6.tar.gz
+[2024-05-31 11:08:50] INFO root fetch - processPackages [digitaleye-msgs]: executing diffoscope
+[2024-05-31 11:08:50] INFO root fetch - processPackages [digitaleye-msgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitaleye_msgs-1.0.8.tar.gz tmp/digitaleye_msgs-1.0.9.tar.gz --markdown 20240531/d/digitaleye-msgs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 11:08:50] INFO root fetch - processPackages [evomip]: executing diffoscope
+[2024-05-31 11:08:50] INFO root fetch - processPackages [evomip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evomip-0.1.5.tar.gz tmp/evomip-0.1.6.tar.gz --markdown 20240531/e/evomip/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-31 11:08:50] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-05-31 11:08:50] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240531/o/oebuild/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 11:08:50] ERROR root fetch - processPackages [airbyte-source-railz]: Unable to fetch info: No such project/version 'airbyte-source-railz' 0.1.2
+[2024-05-31 11:08:50] INFO root fetch - main [MainThread]: End processing [airbyte-source-railz] error
+[2024-05-31 11:08:51] INFO root fetch - processPackages [PyDicomGrouping]: Downloading https://files.pythonhosted.org/packages/f7/67/cc6dee8531ad91a02b8e3b824b0949cf3d855048e116c3fcf6fb794da51d/PyDicomGrouping-0.1.8-py3-none-any.whl
+[2024-05-31 11:08:51] INFO root fetch - processPackages [evomip]: Remove: archive file [/home/abi/fetcher/tmp/evomip-0.1.5.tar.gz]
+[2024-05-31 11:08:51] INFO root fetch - processPackages [evomip]: Remove: archive file [/home/abi/fetcher/tmp/evomip-0.1.6.tar.gz]
+[2024-05-31 11:08:51] INFO root fetch - main [MainThread]: End processing [evomip]: success
+[2024-05-31 11:08:51] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-05-31 11:08:51] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-05-31 11:08:51] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-05-31 11:08:51] INFO root fetch - processPackages [digitaleye-msgs]: Remove: archive file [/home/abi/fetcher/tmp/digitaleye_msgs-1.0.8.tar.gz]
+[2024-05-31 11:08:51] INFO root fetch - processPackages [digitaleye-msgs]: Remove: archive file [/home/abi/fetcher/tmp/digitaleye_msgs-1.0.9.tar.gz]
+[2024-05-31 11:08:51] INFO root fetch - main [MainThread]: End processing [digitaleye-msgs]: success
+[2024-05-31 11:08:55] INFO root fetch - processPackages [PyDicomGrouping]: executing diffoscope
+[2024-05-31 11:08:55] INFO root fetch - processPackages [PyDicomGrouping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDicomGrouping-0.1.7.tar.gz tmp/PyDicomGrouping-0.1.8-py3-none-any.whl.zip --markdown 20240531/P/PyDicomGrouping/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-31 11:09:02] INFO root fetch - processPackages [PyDicomGrouping]: Remove: archive file [/home/abi/fetcher/tmp/PyDicomGrouping-0.1.7.tar.gz]
+[2024-05-31 11:09:02] INFO root fetch - processPackages [PyDicomGrouping]: Remove: archive file [/home/abi/fetcher/tmp/PyDicomGrouping-0.1.8-py3-none-any.whl.zip]
+[2024-05-31 11:09:02] INFO root fetch - main [MainThread]: End processing [PyDicomGrouping]: success
+[2024-05-31 11:09:02] INFO root fetch - main [MainThread]: Store serial: [23463201]
