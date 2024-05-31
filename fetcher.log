@@ -18443,3 +18443,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:30:36] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-6.3.0.tar.gz]
 [2024-05-31 14:30:36] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
 [2024-05-31 14:30:36] INFO root fetch - main [MainThread]: Store serial: [23465577]
+[2024-05-31 14:32:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465577]
+[2024-05-31 14:32:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 14:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metalarchivist
+[2024-05-31 14:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LLM-Toolbox
+[2024-05-31 14:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s1-cns-cli
+[2024-05-31 14:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lambda-genai-util
+[2024-05-31 14:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-jenkins
+[2024-05-31 14:32:45] INFO root fetch - processPackages [lambda-genai-util]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 14:32:45] INFO root fetch - processPackages [metalarchivist]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-31 14:32:46] INFO root fetch - processPackages [LLM-Toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 14:32:46] INFO root fetch - processPackages [lambda-genai-util]: Downloading https://files.pythonhosted.org/packages/3b/91/b04005dbe79f0aaabf4b9e78ba869d56003bfb8ad30016787b898a73df8c/lambda_genai_util-0.0.2.tar.gz
+[2024-05-31 14:32:46] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/af/48/fd36daadf042a36660a1653c2a51c7bf0305caaed7221f9287b508d5bdb8/metalarchivist-0.5.1.tar.gz
+[2024-05-31 14:32:46] INFO root fetch - processPackages [s1-cns-cli]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-31 14:32:46] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 14:32:46] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/31/d3/b4543953079da290fe639f07c370f9d917f7f568a4a58e935a7d853580cb/LLM-Toolbox-0.1.8.tar.gz
+[2024-05-31 14:32:46] INFO root fetch - processPackages [s1-cns-cli]: Downloading https://files.pythonhosted.org/packages/8f/db/69c2f8ab7750c916ed98a0860d0397812c4a88357f47fbf0d2b07cde0699/s1_cns_cli-0.3.7.tar.gz
+[2024-05-31 14:32:46] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/ae/60/8ee8b333d1a4e8ceebbb14ee8acb20ecdaacb80d2ca2ef3e6a7297ade24a/metalarchivist-0.5.2.tar.gz
+[2024-05-31 14:32:46] INFO root fetch - processPackages [lambda-genai-util]: Downloading https://files.pythonhosted.org/packages/03/40/024fe7f9e183082f6a833688ad02b38ee0d0280dcd0664a29deb336f454f/lambda_genai_util-0.0.3.tar.gz
+[2024-05-31 14:32:46] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-05-31 14:32:46] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.5.1.tar.gz tmp/metalarchivist-0.5.2.tar.gz --markdown 20240531/m/metalarchivist/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-31 14:32:46] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2024-05-31 14:32:46] INFO root fetch - processPackages [lambda-genai-util]: executing diffoscope
+[2024-05-31 14:32:46] INFO root fetch - processPackages [lambda-genai-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambda_genai_util-0.0.2.tar.gz tmp/lambda_genai_util-0.0.3.tar.gz --markdown 20240531/l/lambda-genai-util/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 14:32:46] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/4c/b3/d4c091e55aeefa7084789fdeb4decbb417bafdd6bf03521ddb95ad93da87/LLM-Toolbox-0.1.9.tar.gz
+[2024-05-31 14:32:46] INFO root fetch - processPackages [s1-cns-cli]: Downloading https://files.pythonhosted.org/packages/d2/46/e9eb74bd2e75029300a3312a5812f748c2ab2f2633fa800e8f37c85358fa/s1_cns_cli-0.3.8.tar.gz
+[2024-05-31 14:32:46] INFO root fetch - processPackages [LLM-Toolbox]: executing diffoscope
+[2024-05-31 14:32:46] INFO root fetch - processPackages [LLM-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLM-Toolbox-0.1.8.tar.gz tmp/LLM-Toolbox-0.1.9.tar.gz --markdown 20240531/L/LLM-Toolbox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 14:32:46] INFO root fetch - processPackages [s1-cns-cli]: executing diffoscope
+[2024-05-31 14:32:46] INFO root fetch - processPackages [s1-cns-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s1_cns_cli-0.3.7.tar.gz tmp/s1_cns_cli-0.3.8.tar.gz --markdown 20240531/s/s1-cns-cli/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-31 14:32:47] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2024-05-31 14:32:47] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2024-05-31 14:32:47] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20240531/c/cdk8s-jenkins/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 14:32:47] INFO root fetch - processPackages [lambda-genai-util]: Remove: archive file [/home/abi/fetcher/tmp/lambda_genai_util-0.0.2.tar.gz]
+[2024-05-31 14:32:47] INFO root fetch - processPackages [lambda-genai-util]: Remove: archive file [/home/abi/fetcher/tmp/lambda_genai_util-0.0.3.tar.gz]
+[2024-05-31 14:32:47] INFO root fetch - main [MainThread]: End processing [lambda-genai-util]: success
+[2024-05-31 14:32:47] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.5.1.tar.gz]
+[2024-05-31 14:32:47] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.5.2.tar.gz]
+[2024-05-31 14:32:47] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-05-31 14:32:47] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.8.tar.gz]
+[2024-05-31 14:32:47] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.9.tar.gz]
+[2024-05-31 14:32:47] INFO root fetch - main [MainThread]: End processing [LLM-Toolbox]: success
+[2024-05-31 14:32:47] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2024-05-31 14:32:47] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2024-05-31 14:32:47] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2024-05-31 14:32:54] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.7.tar.gz]
+[2024-05-31 14:32:54] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.8.tar.gz]
+[2024-05-31 14:32:54] INFO root fetch - main [MainThread]: End processing [s1-cns-cli]: success
+[2024-05-31 14:32:54] INFO root fetch - main [MainThread]: Store serial: [23465592]
