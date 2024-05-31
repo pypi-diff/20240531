@@ -8547,3 +8547,68 @@
 [2024-05-31 07:55:03] INFO root fetch - processPackages [tradelocker]: Remove: archive file [/home/abi/fetcher/tmp/tradelocker-0.42.0.tar.gz]
 [2024-05-31 07:55:03] INFO root fetch - main [MainThread]: End processing [tradelocker]: success
 [2024-05-31 07:55:03] INFO root fetch - main [MainThread]: Store serial: [23460986]
+[2024-05-31 07:57:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460986]
+[2024-05-31 07:57:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 07:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stereopy
+[2024-05-31 07:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datamart-yhdr
+[2024-05-31 07:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blendedux
+[2024-05-31 07:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyphetools
+[2024-05-31 07:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shgpt
+[2024-05-31 07:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-fastly
+[2024-05-31 07:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: capdata
+[2024-05-31 07:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-datadog
+[2024-05-31 07:57:12] INFO root fetch - processPackages [stereopy]: New version: [1.3.0b1] Old Version: [1.2.0]
+[2024-05-31 07:57:12] INFO root fetch - processPackages [capdata]: New version: [1.0.3.3] Old Version: [1.0.3.2]
+[2024-05-31 07:57:12] INFO root fetch - processPackages [datamart-yhdr]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-31 07:57:12] INFO root fetch - processPackages [stereopy]: Downloading https://files.pythonhosted.org/packages/be/fa/b713c93d0eb9b7d7b75d13b430591c41ba300c6391c9278b3122d6354e92/stereopy-1.2.0.tar.gz
+[2024-05-31 07:57:12] INFO root fetch - processPackages [capdata]: Downloading https://files.pythonhosted.org/packages/75/16/8ae355787489366e3bb17e63bec6939d58e12e41ec23be912ed874e3ac70/capdata-1.0.3.2.tar.gz
+[2024-05-31 07:57:12] WARNING root fetch - processPackages [shgpt]: Skipping, unable to determine old version
+[2024-05-31 07:57:12] INFO root fetch - main [MainThread]: End processing [shgpt] error
+[2024-05-31 07:57:12] INFO root fetch - processPackages [blendedux]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 07:57:12] INFO root fetch - processPackages [pyphetools]: New version: [0.9.9] Old Version: [0.9.89]
+[2024-05-31 07:57:12] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.9.0a1717133835] Old Version: [8.9.0a1716960860]
+[2024-05-31 07:57:13] INFO root fetch - processPackages [datamart-yhdr]: Downloading https://files.pythonhosted.org/packages/81/5b/4bf6b77dd56eb5c3cb5430e946360afe4285df4fc30bf51ce998042fed2e/datamart_yhdr-0.1.2.tar.gz
+[2024-05-31 07:57:13] INFO root fetch - processPackages [pulumi-datadog]: New version: [4.9.0a1653604828] Old Version: [4.9.0a1650908051]
+[2024-05-31 07:57:13] INFO root fetch - processPackages [blendedux]: Downloading https://files.pythonhosted.org/packages/ee/b2/3326556b27dc6d461191a1078d6e8429bb19d032b9f1988ea4c13f1dce50/blendedux-0.1.1.tar.gz
+[2024-05-31 07:57:13] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/99/0e/2703ecc56a4b7f9696db59c44e35e1be9a40ca81dd2b2425034fc065ffe9/pyphetools-0.9.89.tar.gz
+[2024-05-31 07:57:13] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/9f/c5/8ce2d7eeec1dd8fd4f535414160d0b8e328b10743fc0e2349e635e69b723/pulumi_fastly-8.9.0a1716960860.tar.gz
+[2024-05-31 07:57:13] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/d8/b5/8991a5e2174de51c32d71e18a0d3eb5ac2f6bb5fe9f15ca8f908cee6e214/pulumi_datadog-4.9.0a1650908051.tar.gz
+[2024-05-31 07:57:14] ERROR root fetch - processPackages [capdata]: Unable to fetch info: No such project/version 'capdata' 1.0.3.3
+[2024-05-31 07:57:14] INFO root fetch - main [MainThread]: End processing [capdata] error
+[2024-05-31 07:57:14] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/e6/0a/65bb5a62ebe1eb2fd38ed69014ebf30226286474b4091588e69e40b7087d/pulumi_fastly-8.9.0a1717133835.tar.gz
+[2024-05-31 07:57:14] INFO root fetch - processPackages [blendedux]: Downloading https://files.pythonhosted.org/packages/0d/81/e39e6b97947c00fb6bfacc445ace383afeaea8024b83c1d687ecc31ffc84/blendedux-0.1.2.tar.gz
+[2024-05-31 07:57:14] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/21/0f/082981f834d44e19354002ae37884bb9cf87bb330242ae69908f6f893dcf/pyphetools-0.9.9.tar.gz
+[2024-05-31 07:57:14] INFO root fetch - processPackages [pulumi-datadog]: Downloading https://files.pythonhosted.org/packages/de/b3/aee4697d07beb69799f35031c032637a1c998c8ba8a18ace02fb30a3011f/pulumi_datadog-4.9.0a1653604828.tar.gz
+[2024-05-31 07:57:14] INFO root fetch - processPackages [datamart-yhdr]: Downloading https://files.pythonhosted.org/packages/72/69/b292dd590762079f76a4be5a510e1fa2bc253e361eb3a2a0fdeae07d705c/datamart_yhdr-0.1.3.tar.gz
+[2024-05-31 07:57:14] INFO root fetch - processPackages [blendedux]: executing diffoscope
+[2024-05-31 07:57:14] INFO root fetch - processPackages [blendedux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blendedux-0.1.1.tar.gz tmp/blendedux-0.1.2.tar.gz --markdown 20240531/b/blendedux/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 07:57:14] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-05-31 07:57:14] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.9.0a1716960860.tar.gz tmp/pulumi_fastly-8.9.0a1717133835.tar.gz --markdown 20240531/p/pulumi-fastly/8.9.0a1716960860-8.9.0a1717133835/README.md --exclude *.pyd
+[2024-05-31 07:57:14] INFO root fetch - processPackages [stereopy]: Downloading https://files.pythonhosted.org/packages/8e/d9/a0fe1cfdeb5fb1f5b0d29b1d0590fc17b7a9ff05278040c57e4c97b97359/stereopy-1.3.0b1.tar.gz
+[2024-05-31 07:57:14] INFO root fetch - processPackages [pulumi-datadog]: executing diffoscope
+[2024-05-31 07:57:14] INFO root fetch - processPackages [pulumi-datadog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_datadog-4.9.0a1650908051.tar.gz tmp/pulumi_datadog-4.9.0a1653604828.tar.gz --markdown 20240531/p/pulumi-datadog/4.9.0a1650908051-4.9.0a1653604828/README.md --exclude *.pyd
+[2024-05-31 07:57:14] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2024-05-31 07:57:14] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.9.89.tar.gz tmp/pyphetools-0.9.9.tar.gz --markdown 20240531/p/pyphetools/0.9.89-0.9.9/README.md --exclude *.pyd
+[2024-05-31 07:57:14] INFO root fetch - processPackages [datamart-yhdr]: executing diffoscope
+[2024-05-31 07:57:14] INFO root fetch - processPackages [datamart-yhdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamart_yhdr-0.1.2.tar.gz tmp/datamart_yhdr-0.1.3.tar.gz --markdown 20240531/d/datamart-yhdr/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-31 07:57:15] INFO root fetch - processPackages [stereopy]: executing diffoscope
+[2024-05-31 07:57:15] INFO root fetch - processPackages [stereopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stereopy-1.2.0.tar.gz tmp/stereopy-1.3.0b1.tar.gz --markdown 20240531/s/stereopy/1.2.0-1.3.0b1/README.md --exclude *.pyd
+[2024-05-31 07:57:15] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.9.0a1716960860.tar.gz]
+[2024-05-31 07:57:15] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.9.0a1717133835.tar.gz]
+[2024-05-31 07:57:15] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-05-31 07:57:15] INFO root fetch - processPackages [datamart-yhdr]: Remove: archive file [/home/abi/fetcher/tmp/datamart_yhdr-0.1.2.tar.gz]
+[2024-05-31 07:57:15] INFO root fetch - processPackages [datamart-yhdr]: Remove: archive file [/home/abi/fetcher/tmp/datamart_yhdr-0.1.3.tar.gz]
+[2024-05-31 07:57:15] INFO root fetch - main [MainThread]: End processing [datamart-yhdr]: success
+[2024-05-31 07:57:15] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.9.89.tar.gz]
+[2024-05-31 07:57:15] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.9.9.tar.gz]
+[2024-05-31 07:57:15] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2024-05-31 07:57:15] INFO root fetch - processPackages [blendedux]: Remove: archive file [/home/abi/fetcher/tmp/blendedux-0.1.1.tar.gz]
+[2024-05-31 07:57:15] INFO root fetch - processPackages [blendedux]: Remove: archive file [/home/abi/fetcher/tmp/blendedux-0.1.2.tar.gz]
+[2024-05-31 07:57:15] INFO root fetch - main [MainThread]: End processing [blendedux]: success
+[2024-05-31 07:57:17] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1650908051.tar.gz]
+[2024-05-31 07:57:17] INFO root fetch - processPackages [pulumi-datadog]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_datadog-4.9.0a1653604828.tar.gz]
+[2024-05-31 07:57:17] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
+[2024-05-31 07:57:18] INFO root fetch - processPackages [stereopy]: Remove: archive file [/home/abi/fetcher/tmp/stereopy-1.2.0.tar.gz]
+[2024-05-31 07:57:18] INFO root fetch - processPackages [stereopy]: Remove: archive file [/home/abi/fetcher/tmp/stereopy-1.3.0b1.tar.gz]
+[2024-05-31 07:57:18] INFO root fetch - main [MainThread]: End processing [stereopy]: success
+[2024-05-31 07:57:18] INFO root fetch - main [MainThread]: Store serial: [23461020]
