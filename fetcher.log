@@ -14553,3 +14553,122 @@
 [2024-05-31 12:04:32] INFO root fetch - processPackages [mhmzx-little-paimon]: Remove: archive file [/home/abi/fetcher/tmp/mhmzx_little_paimon-3.0.16.tar.gz]
 [2024-05-31 12:04:32] INFO root fetch - main [MainThread]: End processing [mhmzx-little-paimon]: success
 [2024-05-31 12:04:32] INFO root fetch - main [MainThread]: Store serial: [23463885]
+[2024-05-31 12:06:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463885]
+[2024-05-31 12:06:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-31 12:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unittestreport-yami
+[2024-05-31 12:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gchat
+[2024-05-31 12:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loggissimo
+[2024-05-31 12:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CTK-Desert
+[2024-05-31 12:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rdfizer
+[2024-05-31 12:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyedb
+[2024-05-31 12:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-eigen-ingenuity
+[2024-05-31 12:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-eigen-ingenuity
+[2024-05-31 12:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keyring-proxy-stdio
+[2024-05-31 12:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: galv
+[2024-05-31 12:06:41] INFO root fetch - processPackages [keyring-proxy-stdio]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 12:06:41] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 12:06:41] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-31 12:06:41] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-31 12:06:41] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2024-05-31 12:06:41] WARNING root fetch - processPackages [gchat]: Skipping, unable to determine old version
+[2024-05-31 12:06:41] INFO root fetch - processPackages [gchat]: Start processing: rdfizer
+[2024-05-31 12:06:41] INFO root fetch - main [MainThread]: End processing [gchat] error
+[2024-05-31 12:06:41] INFO root fetch - processPackages [loggissimo]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-31 12:06:41] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-05-31 12:06:41] INFO root fetch - processPackages [pyedb]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-31 12:06:41] INFO root fetch - processPackages [unittestreport-yami]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 12:06:41] INFO root fetch - processPackages [galv]: New version: [2.1.9] Old Version: [2.1.34]
+[2024-05-31 12:06:41] INFO root fetch - processPackages [keyring-proxy-stdio]: Downloading https://files.pythonhosted.org/packages/c8/8d/a1c2cc5fc245a4437bdba83d4cee4f3d56130fb3989f86efc5b45c2e148d/keyring_proxy_stdio-0.1.3.tar.gz
+[2024-05-31 12:06:41] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2024-05-31 12:06:42] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/03/05/d50f9f53e67d589ebd88b7f888d55f92d94e461244648bd9e86de22e45d0/unittestreport_yami-0.1.8.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [pyedb]: Downloading https://files.pythonhosted.org/packages/1d/a0/1ca6725ca5f90ba5dfa9bc42e4933336e9d92ff7a8a994a774ac663a5a4b/pyedb-0.8.1.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/09/83/789822071c830b2847e75e20a9f8cd4fd2c8c6baa407887c36c9de537dc1/galv-2.1.34.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [loggissimo]: Downloading https://files.pythonhosted.org/packages/e3/1f/734337051e56709afd5dd4f2cc2bcb9f760adc41b66689affc5a647db0dc/loggissimo-0.1.0.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/d5/46/2554bcc92a089d39a46cc8a215282b82286d0694e45c99808348a0478326/python-eigen-ingenuity-0.4.9.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [keyring-proxy-stdio]: Downloading https://files.pythonhosted.org/packages/38/25/3f59dd381021b8c564b627318ecf3b494d797121c27e128e186ef095d502/keyring_proxy_stdio-0.1.4.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/d5/46/2554bcc92a089d39a46cc8a215282b82286d0694e45c99808348a0478326/python-eigen-ingenuity-0.4.9.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-05-31 12:06:42] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240531/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 12:06:42] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2024-05-31 12:06:42] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.9.tar.gz --markdown 20240531/p/python-eigen-ingenuity/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-31 12:06:42] INFO root fetch - processPackages [keyring-proxy-stdio]: executing diffoscope
+[2024-05-31 12:06:42] INFO root fetch - processPackages [keyring-proxy-stdio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyring_proxy_stdio-0.1.3.tar.gz tmp/keyring_proxy_stdio-0.1.4.tar.gz --markdown 20240531/k/keyring-proxy-stdio/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 12:06:42] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2024-05-31 12:06:42] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.9.tar.gz --markdown 20240531/p/python-eigen-ingenuity/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-31 12:06:42] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/70/f3/c1c12902a2742117218cb479a728be47808958f03b0f06535cb9eb310c62/unittestreport_yami-0.1.9.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2024-05-31 12:06:42] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20240531/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/README.md --exclude *.pyd
+[2024-05-31 12:06:42] INFO root fetch - processPackages [pyedb]: Downloading https://files.pythonhosted.org/packages/94/3b/ad9e0a3052ec38d580c535c66662dd560e159c05d8418fc62c51a04ddc6f/pyedb-0.9.0.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [loggissimo]: Downloading https://files.pythonhosted.org/packages/36/b8/16092fdde1c2156fb3cfb18f14d59693fe44c9d8d75b19e3e4a9d822d607/loggissimo-0.2.0.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2024-05-31 12:06:42] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20240531/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/README.md --exclude *.pyd
+[2024-05-31 12:06:42] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/b8/0b/d4417c37709cf81423d1204af54c886d20a8ea4ffaef0717f4924309ff26/galv-2.1.9.tar.gz
+[2024-05-31 12:06:42] INFO root fetch - processPackages [unittestreport-yami]: executing diffoscope
+[2024-05-31 12:06:42] INFO root fetch - processPackages [unittestreport-yami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittestreport_yami-0.1.8.tar.gz tmp/unittestreport_yami-0.1.9.tar.gz --markdown 20240531/u/unittestreport-yami/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 12:06:42] INFO root fetch - processPackages [loggissimo]: executing diffoscope
+[2024-05-31 12:06:42] INFO root fetch - processPackages [loggissimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggissimo-0.1.0.tar.gz tmp/loggissimo-0.2.0.tar.gz --markdown 20240531/l/loggissimo/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-31 12:06:42] INFO root fetch - processPackages [pyedb]: executing diffoscope
+[2024-05-31 12:06:42] INFO root fetch - processPackages [pyedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedb-0.8.1.tar.gz tmp/pyedb-0.9.0.tar.gz --markdown 20240531/p/pyedb/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-31 12:06:43] INFO root fetch - processPackages [galv]: executing diffoscope
+[2024-05-31 12:06:43] INFO root fetch - processPackages [galv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galv-2.1.34.tar.gz tmp/galv-2.1.9.tar.gz --markdown 20240531/g/galv/2.1.34-2.1.9/README.md --exclude *.pyd
+[2024-05-31 12:06:43] INFO root fetch - processPackages [keyring-proxy-stdio]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy_stdio-0.1.3.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [keyring-proxy-stdio]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy_stdio-0.1.4.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [keyring-proxy-stdio]: Start processing: rdfizer
+[2024-05-31 12:06:43] INFO root fetch - main [MainThread]: End processing [keyring-proxy-stdio]: success
+[2024-05-31 12:06:43] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.9.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [python-eigen-ingenuity]: Start processing: keyring-proxy-socket
+[2024-05-31 12:06:43] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2024-05-31 12:06:43] INFO root fetch - processPackages [keyring-proxy-socket]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603874.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603926.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [rdfizer]: Start processing: starmallow
+[2024-05-31 12:06:43] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2024-05-31 12:06:43] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-05-31 12:06:43] INFO root fetch - processPackages [keyring-proxy-socket]: Downloading https://files.pythonhosted.org/packages/95/7e/8083471ad3ef97d9c7c1d16a210aa4a19467bdc97a6adfb8389529e91300/keyring_proxy_socket-0.1.3.tar.gz
+[2024-05-31 12:06:43] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2024-05-31 12:06:43] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2024-05-31 12:06:43] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2024-05-31 12:06:43] INFO root fetch - processPackages [loggissimo]: Remove: archive file [/home/abi/fetcher/tmp/loggissimo-0.1.0.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [loggissimo]: Remove: archive file [/home/abi/fetcher/tmp/loggissimo-0.2.0.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - main [MainThread]: End processing [loggissimo]: success
+[2024-05-31 12:06:43] INFO root fetch - processPackages [starmallow]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.8.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.9.tar.gz]
+[2024-05-31 12:06:43] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
+[2024-05-31 12:06:43] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2024-05-31 12:06:44] INFO root fetch - processPackages [starmallow]: Downloading https://files.pythonhosted.org/packages/f1/58/f02da3bde912eaca42150749098221353267d308ee47fb072d5d08e59d6a/starmallow-0.3.8.tar.gz
+[2024-05-31 12:06:44] INFO root fetch - processPackages [keyring-proxy-socket]: Downloading https://files.pythonhosted.org/packages/cd/0e/2afa0ec3072e787b3dbe302cc71333dec9ae36b85b42511f7de7adcba042/keyring_proxy_socket-0.1.4.tar.gz
+[2024-05-31 12:06:44] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2024-05-31 12:06:44] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20240531/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/README.md --exclude *.pyd
+[2024-05-31 12:06:44] INFO root fetch - processPackages [keyring-proxy-socket]: executing diffoscope
+[2024-05-31 12:06:44] INFO root fetch - processPackages [keyring-proxy-socket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyring_proxy_socket-0.1.3.tar.gz tmp/keyring_proxy_socket-0.1.4.tar.gz --markdown 20240531/k/keyring-proxy-socket/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 12:06:44] INFO root fetch - processPackages [pyedb]: Remove: archive file [/home/abi/fetcher/tmp/pyedb-0.8.1.tar.gz]
+[2024-05-31 12:06:44] INFO root fetch - processPackages [pyedb]: Remove: archive file [/home/abi/fetcher/tmp/pyedb-0.9.0.tar.gz]
+[2024-05-31 12:06:44] INFO root fetch - main [MainThread]: End processing [pyedb]: success
+[2024-05-31 12:06:44] INFO root fetch - processPackages [starmallow]: Downloading https://files.pythonhosted.org/packages/06/60/8d04016cbd93e749fc701f49382d2665581cb4e22c2479f7b585ce405522/starmallow-0.3.9.tar.gz
+[2024-05-31 12:06:44] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603874.tar.gz]
+[2024-05-31 12:06:44] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603926.tar.gz]
+[2024-05-31 12:06:44] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2024-05-31 12:06:44] INFO root fetch - processPackages [keyring-proxy-socket]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy_socket-0.1.3.tar.gz]
+[2024-05-31 12:06:44] INFO root fetch - processPackages [keyring-proxy-socket]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy_socket-0.1.4.tar.gz]
+[2024-05-31 12:06:44] INFO root fetch - main [MainThread]: End processing [keyring-proxy-socket]: success
+[2024-05-31 12:06:44] INFO root fetch - processPackages [starmallow]: executing diffoscope
+[2024-05-31 12:06:44] INFO root fetch - processPackages [starmallow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmallow-0.3.8.tar.gz tmp/starmallow-0.3.9.tar.gz --markdown 20240531/s/starmallow/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 12:06:47] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.34.tar.gz]
+[2024-05-31 12:06:47] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
+[2024-05-31 12:06:47] INFO root fetch - main [MainThread]: End processing [galv]: success
+[2024-05-31 12:06:48] INFO root fetch - processPackages [starmallow]: Remove: archive file [/home/abi/fetcher/tmp/starmallow-0.3.8.tar.gz]
+[2024-05-31 12:06:48] INFO root fetch - processPackages [starmallow]: Remove: archive file [/home/abi/fetcher/tmp/starmallow-0.3.9.tar.gz]
+[2024-05-31 12:06:48] INFO root fetch - main [MainThread]: End processing [starmallow]: success
+[2024-05-31 12:06:48] INFO root fetch - main [MainThread]: Store serial: [23463934]
