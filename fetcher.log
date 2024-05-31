@@ -5819,3 +5819,33 @@
 [2024-05-31 05:09:05] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
 [2024-05-31 05:09:05] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
 [2024-05-31 05:09:05] INFO root fetch - main [MainThread]: Store serial: [23459917]
+[2024-05-31 05:11:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459917]
+[2024-05-31 05:11:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 05:11:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: besos
+[2024-05-31 05:11:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-iArt
+[2024-05-31 05:11:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SimplesAPI
+[2024-05-31 05:11:13] INFO root fetch - processPackages [python-iArt]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-31 05:11:13] INFO root fetch - processPackages [SimplesAPI]: New version: [0.0.1a0] Old Version: [0.0.0a3]
+[2024-05-31 05:11:14] INFO root fetch - processPackages [python-iArt]: Downloading https://files.pythonhosted.org/packages/1a/b4/9b5ab71eb59bec77f00ff7b0afeb3f93508a1d4ac67473e553089ae39a72/python-iArt-1.1.0.tar.gz
+[2024-05-31 05:11:14] INFO root fetch - processPackages [SimplesAPI]: Downloading https://files.pythonhosted.org/packages/71/37/7e58196371213e04d905876bc7e84d7b5f5337bab6f564ad321b5fd9b07a/simplesapi-0.0.0a3.tar.gz
+[2024-05-31 05:11:14] INFO root fetch - processPackages [python-iArt]: Downloading https://files.pythonhosted.org/packages/65/78/bee99592430ff0da2305803005bb71a923f05785451456935338e265521d/python-iArt-1.1.1.tar.gz
+[2024-05-31 05:11:14] INFO root fetch - processPackages [besos]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-05-31 05:11:14] INFO root fetch - processPackages [python-iArt]: executing diffoscope
+[2024-05-31 05:11:14] INFO root fetch - processPackages [python-iArt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-iArt-1.1.0.tar.gz tmp/python-iArt-1.1.1.tar.gz --markdown 20240531/p/python-iArt/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-31 05:11:14] INFO root fetch - processPackages [SimplesAPI]: Downloading https://files.pythonhosted.org/packages/c2/3f/bbfbbd1de5ec3d70013a08fd1cdfb787dc850894d12ae35b4da24b07efac/simplesapi-0.0.1a0.tar.gz
+[2024-05-31 05:11:14] INFO root fetch - processPackages [besos]: Downloading https://files.pythonhosted.org/packages/3d/d8/89a31151c9456e9a3fb6a9e820d88f33b14571e65d4fd847728e905216a0/besos-2.2.2.tar.gz
+[2024-05-31 05:11:14] INFO root fetch - processPackages [SimplesAPI]: executing diffoscope
+[2024-05-31 05:11:14] INFO root fetch - processPackages [SimplesAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplesapi-0.0.0a3.tar.gz tmp/simplesapi-0.0.1a0.tar.gz --markdown 20240531/S/SimplesAPI/0.0.0a3-0.0.1a0/README.md --exclude *.pyd
+[2024-05-31 05:11:14] INFO root fetch - processPackages [besos]: Downloading https://files.pythonhosted.org/packages/38/bb/08166d2901ee102c418a64336b5ff706c3a44fba2f083eb95d6db14f928c/besos-2.2.3.tar.gz
+[2024-05-31 05:11:14] INFO root fetch - processPackages [python-iArt]: Remove: archive file [/home/abi/fetcher/tmp/python-iArt-1.1.0.tar.gz]
+[2024-05-31 05:11:14] INFO root fetch - processPackages [python-iArt]: Remove: archive file [/home/abi/fetcher/tmp/python-iArt-1.1.1.tar.gz]
+[2024-05-31 05:11:14] INFO root fetch - main [MainThread]: End processing [python-iArt]: success
+[2024-05-31 05:11:15] INFO root fetch - processPackages [SimplesAPI]: Remove: archive file [/home/abi/fetcher/tmp/simplesapi-0.0.0a3.tar.gz]
+[2024-05-31 05:11:15] INFO root fetch - processPackages [SimplesAPI]: Remove: archive file [/home/abi/fetcher/tmp/simplesapi-0.0.1a0.tar.gz]
+[2024-05-31 05:11:15] INFO root fetch - main [MainThread]: End processing [SimplesAPI]: success
+[2024-05-31 05:11:15] INFO root fetch - processPackages [besos]: executing diffoscope
+[2024-05-31 05:11:15] INFO root fetch - processPackages [besos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besos-2.2.2.tar.gz tmp/besos-2.2.3.tar.gz --markdown 20240531/b/besos/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-05-31 05:11:17] INFO root fetch - processPackages [besos]: Remove: archive file [/home/abi/fetcher/tmp/besos-2.2.2.tar.gz]
+[2024-05-31 05:11:17] INFO root fetch - processPackages [besos]: Remove: archive file [/home/abi/fetcher/tmp/besos-2.2.3.tar.gz]
+[2024-05-31 05:11:17] INFO root fetch - main [MainThread]: End processing [besos]: success
+[2024-05-31 05:11:17] INFO root fetch - main [MainThread]: Store serial: [23459927]
