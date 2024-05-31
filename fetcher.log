@@ -7064,3 +7064,51 @@
 [2024-05-31 06:18:46] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
 [2024-05-31 06:18:46] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
 [2024-05-31 06:18:46] INFO root fetch - main [MainThread]: Store serial: [23460359]
+[2024-05-31 06:20:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460359]
+[2024-05-31 06:20:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-nebulagraph
+[2024-05-31 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-cpp-agent
+[2024-05-31 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datonius
+[2024-05-31 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sccross
+[2024-05-31 06:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vision-agent
+[2024-05-31 06:20:55] INFO root fetch - processPackages [datonius]: New version: [1.2.0] Old Version: [0.2.0]
+[2024-05-31 06:20:55] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 06:20:55] INFO root fetch - processPackages [datonius]: Downloading https://files.pythonhosted.org/packages/09/ad/05f409b5e0af3f62c9faf75dfe91063eb0338b1f3e2fef8fdd22dd5ef637/datonius-0.2.0.tar.gz
+[2024-05-31 06:20:55] INFO root fetch - processPackages [sccross]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-31 06:20:55] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-31 06:20:55] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 06:20:55] INFO root fetch - processPackages [jupyter-nebulagraph]: New version: [0.9.1] Old Version: [0.13.1]
+[2024-05-31 06:20:55] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/a0/ba/e28b4ffe7b86f6d15ba5b9672537e66bc8273c02bbb8fa06f1337493886a/llama_cpp_agent-0.2.8.tar.gz
+[2024-05-31 06:20:56] INFO root fetch - processPackages [sccross]: Downloading https://files.pythonhosted.org/packages/e2/02/38271fc5c7532b87b235e6a5414e48d39da67463e32ebcd58a6ca3c608dc/sccross-1.0.4.tar.gz
+[2024-05-31 06:20:56] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/ce/58/dffead3b1329f6f5c63d4100470b766e6c837373b5e9488cbf180bfae923/jupyter_nebulagraph-0.13.1-py3-none-any.whl
+[2024-05-31 06:20:56] INFO root fetch - processPackages [datonius]: Downloading https://files.pythonhosted.org/packages/76/82/480c144d9c79a3e88c9a6cd15a8ee5b3f97cf776ac6daed7bd352824b574/datonius-1.2.0.tar.gz
+[2024-05-31 06:20:56] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-31 06:20:56] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/e5/bb/9a16b289d7453095ab2485d73acf22968e24e78ddee8f364f962860bc7e1/llama_cpp_agent-0.2.9.tar.gz
+[2024-05-31 06:20:56] INFO root fetch - processPackages [datonius]: executing diffoscope
+[2024-05-31 06:20:56] INFO root fetch - processPackages [datonius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datonius-0.2.0.tar.gz tmp/datonius-1.2.0.tar.gz --markdown 20240531/d/datonius/0.2.0-1.2.0/README.md --exclude *.pyd
+[2024-05-31 06:20:56] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-31 06:20:56] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_agent-0.2.8.tar.gz tmp/llama_cpp_agent-0.2.9.tar.gz --markdown 20240531/l/llama-cpp-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 06:20:56] INFO root fetch - processPackages [sccross]: Downloading https://files.pythonhosted.org/packages/bf/73/b34bd419cf543ceddfd943efa4e7d3f065ae2d159491ec37faae61b4a50b/sccross-1.0.5.tar.gz
+[2024-05-31 06:20:56] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-31 06:20:56] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240531/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 06:20:56] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/88/06/2fe02a0f2247e1cb1535a7e370f17dac6a53217d2cf9259b8dde3aa9e34a/jupyter_nebulagraph-0.9.1.tar.gz
+[2024-05-31 06:20:56] INFO root fetch - processPackages [sccross]: executing diffoscope
+[2024-05-31 06:20:56] INFO root fetch - processPackages [sccross]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sccross-1.0.4.tar.gz tmp/sccross-1.0.5.tar.gz --markdown 20240531/s/sccross/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-31 06:20:56] INFO root fetch - processPackages [jupyter-nebulagraph]: executing diffoscope
+[2024-05-31 06:20:56] INFO root fetch - processPackages [jupyter-nebulagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_nebulagraph-0.13.1-py3-none-any.whl.zip tmp/jupyter_nebulagraph-0.9.1.tar.gz --markdown 20240531/j/jupyter-nebulagraph/0.13.1-0.9.1/README.md --exclude *.pyd
+[2024-05-31 06:20:56] INFO root fetch - processPackages [datonius]: Remove: archive file [/home/abi/fetcher/tmp/datonius-0.2.0.tar.gz]
+[2024-05-31 06:20:56] INFO root fetch - processPackages [datonius]: Remove: archive file [/home/abi/fetcher/tmp/datonius-1.2.0.tar.gz]
+[2024-05-31 06:20:56] INFO root fetch - main [MainThread]: End processing [datonius]: success
+[2024-05-31 06:20:57] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.8.tar.gz]
+[2024-05-31 06:20:57] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.9.tar.gz]
+[2024-05-31 06:20:57] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-31 06:20:57] INFO root fetch - processPackages [sccross]: Remove: archive file [/home/abi/fetcher/tmp/sccross-1.0.4.tar.gz]
+[2024-05-31 06:20:57] INFO root fetch - processPackages [sccross]: Remove: archive file [/home/abi/fetcher/tmp/sccross-1.0.5.tar.gz]
+[2024-05-31 06:20:57] INFO root fetch - main [MainThread]: End processing [sccross]: success
+[2024-05-31 06:20:57] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.13.1-py3-none-any.whl.zip]
+[2024-05-31 06:20:57] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.9.1.tar.gz]
+[2024-05-31 06:20:57] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph]: success
+[2024-05-31 06:20:57] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-31 06:20:57] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-31 06:20:57] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-31 06:20:57] INFO root fetch - main [MainThread]: Store serial: [23460373]
