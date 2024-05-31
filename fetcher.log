@@ -12137,3 +12137,40 @@
 [2024-05-31 10:31:25] INFO root fetch - processPackages [imio.news.core]: Remove: archive file [/home/abi/fetcher/tmp/imio_news_core-1.2.9.tar.gz]
 [2024-05-31 10:31:25] INFO root fetch - main [MainThread]: End processing [imio.news.core]: success
 [2024-05-31 10:31:25] INFO root fetch - main [MainThread]: Store serial: [23462769]
+[2024-05-31 10:33:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462769]
+[2024-05-31 10:33:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 10:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-identity-sdk
+[2024-05-31 10:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioselectel-api
+[2024-05-31 10:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-identity-sdk
+[2024-05-31 10:33:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: systemathics.apis
+[2024-05-31 10:33:34] INFO root fetch - processPackages [systemathics.apis]: New version: [2.39.2] Old Version: [2.39.1]
+[2024-05-31 10:33:34] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 10:33:34] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 10:33:34] INFO root fetch - processPackages [aioselectel-api]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-31 10:33:34] INFO root fetch - processPackages [systemathics.apis]: Downloading https://files.pythonhosted.org/packages/fb/be/0b07ca79f16bb55715118a9e941e0cab0f4cc862f27be8cab004b3586d63/systemathics_apis-2.39.1.tar.gz
+[2024-05-31 10:33:34] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-31 10:33:34] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-31 10:33:34] INFO root fetch - processPackages [aioselectel-api]: Downloading https://files.pythonhosted.org/packages/00/4a/682ef00b84f2288b28b5162f3106a2d0f8c13b7a8336026aecf0610f52e6/aioselectel_api-0.1.2.tar.gz
+[2024-05-31 10:33:34] INFO root fetch - processPackages [systemathics.apis]: Downloading https://files.pythonhosted.org/packages/de/13/08e9bd548d7a3bc4ebd7c26cdd036bf67540e431a9b416b26d7074236b3d/systemathics_apis-2.39.2.tar.gz
+[2024-05-31 10:33:34] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-31 10:33:34] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-31 10:33:34] INFO root fetch - processPackages [systemathics.apis]: executing diffoscope
+[2024-05-31 10:33:34] INFO root fetch - processPackages [systemathics.apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemathics_apis-2.39.1.tar.gz tmp/systemathics_apis-2.39.2.tar.gz --markdown 20240531/s/systemathics.apis/2.39.1-2.39.2/README.md --exclude *.pyd
+[2024-05-31 10:33:34] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-31 10:33:34] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240531/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 10:33:34] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-31 10:33:34] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240531/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 10:33:34] INFO root fetch - processPackages [aioselectel-api]: Downloading https://files.pythonhosted.org/packages/02/d0/00631b586a33ca5f3d77329d5d014ca4608f8087fa3957bfc5b9ea63e1eb/aioselectel_api-0.1.4.tar.gz
+[2024-05-31 10:33:35] INFO root fetch - processPackages [aioselectel-api]: executing diffoscope
+[2024-05-31 10:33:35] INFO root fetch - processPackages [aioselectel-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioselectel_api-0.1.2.tar.gz tmp/aioselectel_api-0.1.4.tar.gz --markdown 20240531/a/aioselectel-api/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-31 10:33:35] INFO root fetch - processPackages [aioselectel-api]: Remove: archive file [/home/abi/fetcher/tmp/aioselectel_api-0.1.2.tar.gz]
+[2024-05-31 10:33:35] INFO root fetch - processPackages [aioselectel-api]: Remove: archive file [/home/abi/fetcher/tmp/aioselectel_api-0.1.4.tar.gz]
+[2024-05-31 10:33:35] INFO root fetch - main [MainThread]: End processing [aioselectel-api]: success
+[2024-05-31 10:33:35] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-31 10:33:35] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-31 10:33:35] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-31 10:33:35] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-31 10:33:35] INFO root fetch - processPackages [systemathics.apis]: Remove: archive file [/home/abi/fetcher/tmp/systemathics_apis-2.39.1.tar.gz]
+[2024-05-31 10:33:35] INFO root fetch - processPackages [systemathics.apis]: Remove: archive file [/home/abi/fetcher/tmp/systemathics_apis-2.39.2.tar.gz]
+[2024-05-31 10:33:35] INFO root fetch - main [MainThread]: End processing [systemathics.apis]: success
+[2024-05-31 10:33:35] INFO root fetch - main [MainThread]: Store serial: [23462783]
