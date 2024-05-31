@@ -12778,3 +12778,82 @@
 [2024-05-31 10:55:41] INFO root fetch - processPackages [lxdbapi]: Remove: archive file [/home/abi/fetcher/tmp/lxdbapi-2.3.202405310003.tar.gz]
 [2024-05-31 10:55:41] INFO root fetch - main [MainThread]: End processing [lxdbapi]: success
 [2024-05-31 10:55:41] INFO root fetch - main [MainThread]: Store serial: [23463055]
+[2024-05-31 10:57:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463055]
+[2024-05-31 10:57:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domaintools-api-v2
+[2024-05-31 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lit-ecology-classifier
+[2024-05-31 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-eigen-ingenuity
+[2024-05-31 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evomip
+[2024-05-31 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icrawler
+[2024-05-31 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mocket
+[2024-05-31 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: afeng-py-tools
+[2024-05-31 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumiverse-dynatrace
+[2024-05-31 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: evomip
+[2024-05-31 10:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xklb
+[2024-05-31 10:57:50] INFO root fetch - processPackages [evomip]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 10:57:50] WARNING root fetch - processPackages [domaintools-api-v2]: Skipping, unable to determine old version
+[2024-05-31 10:57:50] INFO root fetch - main [MainThread]: End processing [domaintools-api-v2] error
+[2024-05-31 10:57:50] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-31 10:57:50] INFO root fetch - processPackages [evomip]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 10:57:50] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-31 10:57:50] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/73/e9/f0f58872cf21337fafafcca792e50e644c9b29a80757eda4b972faff84c0/evomip-0.1.1.tar.gz
+[2024-05-31 10:57:50] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/78/3f/a56e6677542726fc9f76d37e62ebdc9a8ccfb1130ffc6b2d71b369e05dd5/lit_ecology_classifier-0.2.3.tar.gz
+[2024-05-31 10:57:50] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/73/e9/f0f58872cf21337fafafcca792e50e644c9b29a80757eda4b972faff84c0/evomip-0.1.1.tar.gz
+[2024-05-31 10:57:50] WARNING root fetch - processPackages [pulumiverse-dynatrace]: Skipping, unable to determine old version
+[2024-05-31 10:57:50] INFO root fetch - main [MainThread]: End processing [pulumiverse-dynatrace] error
+[2024-05-31 10:57:50] INFO root fetch - processPackages [icrawler]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-31 10:57:50] INFO root fetch - processPackages [mocket]: New version: [3.9.44] Old Version: [3.9.42]
+[2024-05-31 10:57:50] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 10:57:50] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2024-05-31 10:57:50] INFO root fetch - processPackages [xklb]: New version: [2.8.9] Old Version: [2.8.7]
+[2024-05-31 10:57:50] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/46/56/b2fb85c7aa348ffd67a716f8486820e5be1001f8162678abeeeb94a8893c/lit_ecology_classifier-0.2.4-py3-none-any.whl
+[2024-05-31 10:57:50] INFO root fetch - processPackages [icrawler]: Downloading https://files.pythonhosted.org/packages/0c/2f/5be81fb20f828000452d3cbbeb881ade3ce13abf70f8eada11fdec2dd39f/icrawler-0.6.8.tar.gz
+[2024-05-31 10:57:50] INFO root fetch - processPackages [mocket]: Downloading https://files.pythonhosted.org/packages/6a/92/beb21fbbcf5558bd5bbb9390523aa3e289bdc7c914f4888b6517604866b0/mocket-3.9.42.tar.gz
+[2024-05-31 10:57:50] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-31 10:57:50] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/27/78/9fbd09c702b7dc3d2211facaeadeb6f80824c98ac89c9810ad9f289b7e1e/evomip-0.1.2.tar.gz
+[2024-05-31 10:57:50] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/27/78/9fbd09c702b7dc3d2211facaeadeb6f80824c98ac89c9810ad9f289b7e1e/evomip-0.1.2.tar.gz
+[2024-05-31 10:57:50] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/d5/46/2554bcc92a089d39a46cc8a215282b82286d0694e45c99808348a0478326/python-eigen-ingenuity-0.4.9.tar.gz
+[2024-05-31 10:57:50] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-05-31 10:57:50] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-0.2.3.tar.gz tmp/lit_ecology_classifier-0.2.4-py3-none-any.whl.zip --markdown 20240531/l/lit-ecology-classifier/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-31 10:57:50] INFO root fetch - processPackages [evomip]: executing diffoscope
+[2024-05-31 10:57:50] INFO root fetch - processPackages [evomip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evomip-0.1.1.tar.gz tmp/evomip-0.1.2.tar.gz --markdown 20240531/e/evomip/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 10:57:50] INFO root fetch - processPackages [evomip]: executing diffoscope
+[2024-05-31 10:57:50] INFO root fetch - processPackages [evomip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evomip-0.1.1.tar.gz tmp/evomip-0.1.2.tar.gz --markdown 20240531/e/evomip/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 10:57:50] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/d0/4c/dd8350e7201f303ad86c28ba6e4c3856a9aebf36175bf2091b4f223b9c8c/xklb-2.8.7.tar.gz
+[2024-05-31 10:57:50] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2024-05-31 10:57:50] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.9.tar.gz --markdown 20240531/p/python-eigen-ingenuity/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-31 10:57:50] INFO root fetch - processPackages [icrawler]: Downloading https://files.pythonhosted.org/packages/57/b5/b8842edc47f620114dad4387fb86ac58713a559c35a6b7bef4fbf2572735/icrawler-0.6.9.tar.gz
+[2024-05-31 10:57:51] INFO root fetch - processPackages [mocket]: Downloading https://files.pythonhosted.org/packages/7c/48/9298bfb1f8104b0e9fccf5cd79aa09c7b4e3ec9514ee5306b1052c826c53/mocket-3.9.44.tar.gz
+[2024-05-31 10:57:51] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-31 10:57:51] INFO root fetch - processPackages [mocket]: executing diffoscope
+[2024-05-31 10:57:51] INFO root fetch - processPackages [mocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocket-3.9.42.tar.gz tmp/mocket-3.9.44.tar.gz --markdown 20240531/m/mocket/3.9.42-3.9.44/README.md --exclude *.pyd
+[2024-05-31 10:57:51] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-31 10:57:51] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240531/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 10:57:51] INFO root fetch - processPackages [icrawler]: executing diffoscope
+[2024-05-31 10:57:51] INFO root fetch - processPackages [icrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icrawler-0.6.8.tar.gz tmp/icrawler-0.6.9.tar.gz --markdown 20240531/i/icrawler/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-31 10:57:51] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/79/9c/400b6a77dca189a0e6b267e0a874e85e6bc388a14703931b845294411c06/xklb-2.8.9.tar.gz
+[2024-05-31 10:57:51] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.2.3.tar.gz]
+[2024-05-31 10:57:51] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.2.4-py3-none-any.whl.zip]
+[2024-05-31 10:57:51] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-05-31 10:57:51] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-05-31 10:57:51] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.8.7.tar.gz tmp/xklb-2.8.9.tar.gz --markdown 20240531/x/xklb/2.8.7-2.8.9/README.md --exclude *.pyd
+[2024-05-31 10:57:51] INFO root fetch - processPackages [evomip]: Remove: archive file [/home/abi/fetcher/tmp/evomip-0.1.1.tar.gz]
+[2024-05-31 10:57:51] INFO root fetch - processPackages [evomip]: Remove: archive file [/home/abi/fetcher/tmp/evomip-0.1.2.tar.gz]
+[2024-05-31 10:57:51] INFO root fetch - main [MainThread]: End processing [evomip]: success
+[2024-05-31 10:57:51] INFO root fetch - main [MainThread]: End processing [evomip]: success
+[2024-05-31 10:57:51] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.tar.gz]
+[2024-05-31 10:57:51] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.9.tar.gz]
+[2024-05-31 10:57:51] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2024-05-31 10:57:51] INFO root fetch - processPackages [mocket]: Remove: archive file [/home/abi/fetcher/tmp/mocket-3.9.42.tar.gz]
+[2024-05-31 10:57:51] INFO root fetch - processPackages [mocket]: Remove: archive file [/home/abi/fetcher/tmp/mocket-3.9.44.tar.gz]
+[2024-05-31 10:57:51] INFO root fetch - main [MainThread]: End processing [mocket]: success
+[2024-05-31 10:57:51] INFO root fetch - processPackages [icrawler]: Remove: archive file [/home/abi/fetcher/tmp/icrawler-0.6.8.tar.gz]
+[2024-05-31 10:57:51] INFO root fetch - processPackages [icrawler]: Remove: archive file [/home/abi/fetcher/tmp/icrawler-0.6.9.tar.gz]
+[2024-05-31 10:57:51] INFO root fetch - main [MainThread]: End processing [icrawler]: success
+[2024-05-31 10:57:52] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-31 10:57:52] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-31 10:57:52] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-31 10:57:52] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.7.tar.gz]
+[2024-05-31 10:57:52] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.9.tar.gz]
+[2024-05-31 10:57:52] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-05-31 10:57:52] INFO root fetch - main [MainThread]: Store serial: [23463085]
