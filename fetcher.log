@@ -19216,3 +19216,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:02:40] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
 [2024-05-31 15:02:40] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2024-05-31 15:02:40] INFO root fetch - main [MainThread]: Store serial: [23465955]
+[2024-05-31 15:04:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465955]
+[2024-05-31 15:04:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 15:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyRANDAPI
+[2024-05-31 15:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brother
+[2024-05-31 15:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-sphinx-theme
+[2024-05-31 15:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyvckit
+[2024-05-31 15:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litetts
+[2024-05-31 15:04:49] INFO root fetch - processPackages [brother]: New version: [4.1.0] Old Version: [4.0.2]
+[2024-05-31 15:04:49] WARNING root fetch - processPackages [pyvckit]: Skipping, unable to determine old version
+[2024-05-31 15:04:49] INFO root fetch - main [MainThread]: End processing [pyvckit] error
+[2024-05-31 15:04:49] WARNING root fetch - processPackages [PyRANDAPI]: Skipping, unable to determine old version
+[2024-05-31 15:04:49] INFO root fetch - main [MainThread]: End processing [PyRANDAPI] error
+[2024-05-31 15:04:49] INFO root fetch - processPackages [ansys-sphinx-theme]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-31 15:04:49] WARNING root fetch - processPackages [litetts]: Skipping, unable to determine old version
+[2024-05-31 15:04:49] INFO root fetch - main [MainThread]: End processing [litetts] error
+[2024-05-31 15:04:49] INFO root fetch - processPackages [brother]: Downloading https://files.pythonhosted.org/packages/6a/ac/66b10dafffaa447ebd268f1904974ad04c729dc174aa8986d60dadbb275c/brother-4.0.2.tar.gz
+[2024-05-31 15:04:49] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/ff/ed/eaba1d94eb6e4d850323103f8bcfc9d37f4b4ca7bc8061fe45c76ddf50a3/ansys-sphinx-theme-0.9.8.tar.gz
+[2024-05-31 15:04:49] INFO root fetch - processPackages [brother]: Downloading https://files.pythonhosted.org/packages/0e/c7/b8b5f74c13d981010b2cafcc5fa72d2d65a2466bd22333642d0660f56c13/brother-4.1.0.tar.gz
+[2024-05-31 15:04:49] INFO root fetch - processPackages [brother]: executing diffoscope
+[2024-05-31 15:04:49] INFO root fetch - processPackages [brother]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brother-4.0.2.tar.gz tmp/brother-4.1.0.tar.gz --markdown 20240531/b/brother/4.0.2-4.1.0/README.md --exclude *.pyd
+[2024-05-31 15:04:49] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/70/5b/157d8b6bf61c537f299e3cf927537b5c17116cd0a7b718eae284558b48e3/ansys-sphinx-theme-0.9.9.tar.gz
+[2024-05-31 15:04:50] INFO root fetch - processPackages [ansys-sphinx-theme]: executing diffoscope
+[2024-05-31 15:04:50] INFO root fetch - processPackages [ansys-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-sphinx-theme-0.9.8.tar.gz tmp/ansys-sphinx-theme-0.9.9.tar.gz --markdown 20240531/a/ansys-sphinx-theme/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-31 15:04:50] INFO root fetch - processPackages [brother]: Remove: archive file [/home/abi/fetcher/tmp/brother-4.0.2.tar.gz]
+[2024-05-31 15:04:50] INFO root fetch - processPackages [brother]: Remove: archive file [/home/abi/fetcher/tmp/brother-4.1.0.tar.gz]
+[2024-05-31 15:04:50] INFO root fetch - main [MainThread]: End processing [brother]: success
+[2024-05-31 15:04:50] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.8.tar.gz]
+[2024-05-31 15:04:50] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.9.tar.gz]
+[2024-05-31 15:04:50] INFO root fetch - main [MainThread]: End processing [ansys-sphinx-theme]: success
+[2024-05-31 15:04:50] INFO root fetch - main [MainThread]: Store serial: [23465974]
