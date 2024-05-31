@@ -22357,3 +22357,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:50:06] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
 [2024-05-31 16:50:06] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
 [2024-05-31 16:50:06] INFO root fetch - main [MainThread]: Store serial: [23467387]
+[2024-05-31 16:52:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467387]
+[2024-05-31 16:52:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 16:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lets-debug-helper
+[2024-05-31 16:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-simple-deploy
+[2024-05-31 16:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: txtai
+[2024-05-31 16:52:15] INFO root fetch - processPackages [django-simple-deploy]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-31 16:52:15] INFO root fetch - processPackages [django-simple-deploy]: Downloading https://files.pythonhosted.org/packages/24/be/2a8e0698dfd005299d462f5516260f107cb0e5086742f30a8b3587644ad3/django_simple_deploy-0.6.3.tar.gz
+[2024-05-31 16:52:15] INFO root fetch - processPackages [lets-debug-helper]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-31 16:52:15] INFO root fetch - processPackages [txtai]: New version: [7.2.0] Old Version: [7.1.0]
+[2024-05-31 16:52:15] INFO root fetch - processPackages [django-simple-deploy]: Downloading https://files.pythonhosted.org/packages/2b/81/f53659b4896ccdc52860374a0313fe471da36542b6a204036b8c7b8d59e9/django_simple_deploy-0.6.4.tar.gz
+[2024-05-31 16:52:15] INFO root fetch - processPackages [lets-debug-helper]: Downloading https://files.pythonhosted.org/packages/df/f2/3e5391deb26d82d0828c083467e3948b396a6d5fd3afb01338b6e7e78628/lets_debug_helper-1.5.8.tar.gz
+[2024-05-31 16:52:15] INFO root fetch - processPackages [txtai]: Downloading https://files.pythonhosted.org/packages/af/2b/e8c13590e4b3b55a9d930c597a52d6d2903330beff785deb2539d7d44290/txtai-7.1.0.tar.gz
+[2024-05-31 16:52:15] INFO root fetch - processPackages [django-simple-deploy]: executing diffoscope
+[2024-05-31 16:52:15] INFO root fetch - processPackages [django-simple-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_simple_deploy-0.6.3.tar.gz tmp/django_simple_deploy-0.6.4.tar.gz --markdown 20240531/d/django-simple-deploy/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-31 16:52:16] INFO root fetch - processPackages [lets-debug-helper]: Downloading https://files.pythonhosted.org/packages/ae/29/d11b1b1bb0eb3f57c76d34d4cac14c050c6c233950a9c2605af8f16c83c4/lets_debug_helper-1.5.9.tar.gz
+[2024-05-31 16:52:16] INFO root fetch - processPackages [txtai]: Downloading https://files.pythonhosted.org/packages/88/e8/fc860b22310143f0e00d725839c8c0aa43b280299908ec21e2958f8a01ae/txtai-7.2.0.tar.gz
+[2024-05-31 16:52:16] INFO root fetch - processPackages [lets-debug-helper]: executing diffoscope
+[2024-05-31 16:52:16] INFO root fetch - processPackages [lets-debug-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lets_debug_helper-1.5.8.tar.gz tmp/lets_debug_helper-1.5.9.tar.gz --markdown 20240531/l/lets-debug-helper/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-31 16:52:16] INFO root fetch - processPackages [txtai]: executing diffoscope
+[2024-05-31 16:52:16] INFO root fetch - processPackages [txtai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txtai-7.1.0.tar.gz tmp/txtai-7.2.0.tar.gz --markdown 20240531/t/txtai/7.1.0-7.2.0/README.md --exclude *.pyd
+[2024-05-31 16:52:16] INFO root fetch - processPackages [django-simple-deploy]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_deploy-0.6.3.tar.gz]
+[2024-05-31 16:52:16] INFO root fetch - processPackages [django-simple-deploy]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_deploy-0.6.4.tar.gz]
+[2024-05-31 16:52:16] INFO root fetch - main [MainThread]: End processing [django-simple-deploy]: success
+[2024-05-31 16:52:16] INFO root fetch - processPackages [lets-debug-helper]: Remove: archive file [/home/abi/fetcher/tmp/lets_debug_helper-1.5.8.tar.gz]
+[2024-05-31 16:52:16] INFO root fetch - processPackages [lets-debug-helper]: Remove: archive file [/home/abi/fetcher/tmp/lets_debug_helper-1.5.9.tar.gz]
+[2024-05-31 16:52:16] INFO root fetch - main [MainThread]: End processing [lets-debug-helper]: success
+[2024-05-31 16:52:17] INFO root fetch - processPackages [txtai]: Remove: archive file [/home/abi/fetcher/tmp/txtai-7.1.0.tar.gz]
+[2024-05-31 16:52:17] INFO root fetch - processPackages [txtai]: Remove: archive file [/home/abi/fetcher/tmp/txtai-7.2.0.tar.gz]
+[2024-05-31 16:52:17] INFO root fetch - main [MainThread]: End processing [txtai]: success
+[2024-05-31 16:52:17] INFO root fetch - main [MainThread]: Store serial: [23467449]
