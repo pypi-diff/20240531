@@ -11572,3 +11572,54 @@
 [2024-05-31 10:07:09] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.3.0.tar.gz]
 [2024-05-31 10:07:09] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
 [2024-05-31 10:07:09] INFO root fetch - main [MainThread]: Store serial: [23462504]
+[2024-05-31 10:09:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462504]
+[2024-05-31 10:09:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: continuedfractions
+[2024-05-31 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2024-05-31 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-aws-cloudtrail
+[2024-05-31 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2024-05-31 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tqmmd
+[2024-05-31 10:09:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funcs-aux
+[2024-05-31 10:09:18] INFO root fetch - processPackages [continuedfractions]: New version: [0.12.8] Old Version: [0.12.7]
+[2024-05-31 10:09:18] INFO root fetch - processPackages [funcs-aux]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-31 10:09:18] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240530] Old Version: [0.4.5.dev20240529]
+[2024-05-31 10:09:18] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-31 10:09:18] WARNING root fetch - processPackages [tqmmd]: Skipping, unable to determine old version
+[2024-05-31 10:09:18] INFO root fetch - main [MainThread]: End processing [tqmmd] error
+[2024-05-31 10:09:18] INFO root fetch - processPackages [airbyte-source-aws-cloudtrail]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-31 10:09:18] INFO root fetch - processPackages [continuedfractions]: Downloading https://files.pythonhosted.org/packages/01/74/6d77347799a52e3e58641bcab1c9a138c9c7fd8fa7ed320bbb9887eba9e6/continuedfractions-0.12.7.tar.gz
+[2024-05-31 10:09:18] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/67/2c/5deb4841d86b2718c025c76fe440d6535671e90357788497083e44431bdd/funcs_aux-0.2.5.tar.gz
+[2024-05-31 10:09:18] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/dd/9e/b0acb469b329236b225d459cb03d9f43adf7ef85dfc9b9a0c94bff657543/pyglove-0.4.5.dev20240529.tar.gz
+[2024-05-31 10:09:18] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-31 10:09:18] INFO root fetch - processPackages [airbyte-source-aws-cloudtrail]: Downloading https://files.pythonhosted.org/packages/1d/ed/7e1a28342404386e5e2c4a796ec532936d84bfd489a7df5642f1b090f857/airbyte_source_aws_cloudtrail-0.1.7.tar.gz
+[2024-05-31 10:09:18] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/7e/d0/81fe2df27064545194617bf917f312b74796f67ecee07385e83b0b0b2656/funcs_aux-0.2.6.tar.gz
+[2024-05-31 10:09:18] INFO root fetch - processPackages [continuedfractions]: Downloading https://files.pythonhosted.org/packages/04/21/bfe2307d61e0da79ada7cb11481c09a6cbf0f308ba256e01def6998a4c4a/continuedfractions-0.12.8.tar.gz
+[2024-05-31 10:09:18] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/51/7d/06009ae754f573d86d3c9d2ed564e4fd3dbe572ba8228add6bc2f9d23afb/pyglove-0.4.5.dev20240530.tar.gz
+[2024-05-31 10:09:18] INFO root fetch - processPackages [funcs-aux]: executing diffoscope
+[2024-05-31 10:09:18] INFO root fetch - processPackages [funcs-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs_aux-0.2.5.tar.gz tmp/funcs_aux-0.2.6.tar.gz --markdown 20240531/f/funcs-aux/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-31 10:09:18] INFO root fetch - processPackages [continuedfractions]: executing diffoscope
+[2024-05-31 10:09:18] INFO root fetch - processPackages [continuedfractions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/continuedfractions-0.12.7.tar.gz tmp/continuedfractions-0.12.8.tar.gz --markdown 20240531/c/continuedfractions/0.12.7-0.12.8/README.md --exclude *.pyd
+[2024-05-31 10:09:18] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-31 10:09:18] INFO root fetch - processPackages [airbyte-source-aws-cloudtrail]: Downloading https://files.pythonhosted.org/packages/7d/1c/7347f40a352a799b44e10142d036b76cf68efa7caaa8be9b8ab35ef2ef97/airbyte_source_aws_cloudtrail-0.1.8.tar.gz
+[2024-05-31 10:09:19] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-31 10:09:19] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240529.tar.gz tmp/pyglove-0.4.5.dev20240530.tar.gz --markdown 20240531/p/pyglove/0.4.5.dev20240529-0.4.5.dev20240530/README.md --exclude *.pyd
+[2024-05-31 10:09:19] INFO root fetch - processPackages [airbyte-source-aws-cloudtrail]: executing diffoscope
+[2024-05-31 10:09:19] INFO root fetch - processPackages [airbyte-source-aws-cloudtrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_aws_cloudtrail-0.1.7.tar.gz tmp/airbyte_source_aws_cloudtrail-0.1.8.tar.gz --markdown 20240531/a/airbyte-source-aws-cloudtrail/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-31 10:09:19] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-31 10:09:19] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240531/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-31 10:09:19] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.2.5.tar.gz]
+[2024-05-31 10:09:19] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.2.6.tar.gz]
+[2024-05-31 10:09:19] INFO root fetch - main [MainThread]: End processing [funcs-aux]: success
+[2024-05-31 10:09:19] INFO root fetch - processPackages [continuedfractions]: Remove: archive file [/home/abi/fetcher/tmp/continuedfractions-0.12.7.tar.gz]
+[2024-05-31 10:09:19] INFO root fetch - processPackages [continuedfractions]: Remove: archive file [/home/abi/fetcher/tmp/continuedfractions-0.12.8.tar.gz]
+[2024-05-31 10:09:19] INFO root fetch - main [MainThread]: End processing [continuedfractions]: success
+[2024-05-31 10:09:19] INFO root fetch - processPackages [airbyte-source-aws-cloudtrail]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_aws_cloudtrail-0.1.7.tar.gz]
+[2024-05-31 10:09:19] INFO root fetch - processPackages [airbyte-source-aws-cloudtrail]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_aws_cloudtrail-0.1.8.tar.gz]
+[2024-05-31 10:09:19] INFO root fetch - main [MainThread]: End processing [airbyte-source-aws-cloudtrail]: success
+[2024-05-31 10:09:20] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240529.tar.gz]
+[2024-05-31 10:09:20] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240530.tar.gz]
+[2024-05-31 10:09:20] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-31 10:09:20] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-31 10:09:20] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-31 10:09:20] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-31 10:09:20] INFO root fetch - main [MainThread]: Store serial: [23462523]
