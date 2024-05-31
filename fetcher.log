@@ -15630,3 +15630,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 12:48:58] INFO root fetch - processPackages [cli-command-parser]: Remove: archive file [/home/abi/fetcher/tmp/cli_command_parser-2024.5.31.tar.gz]
 [2024-05-31 12:48:58] INFO root fetch - main [MainThread]: End processing [cli-command-parser]: success
 [2024-05-31 12:48:58] INFO root fetch - main [MainThread]: Store serial: [23464386]
+[2024-05-31 12:51:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464386]
+[2024-05-31 12:51:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 12:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinybird-cli
+[2024-05-31 12:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gurux-dlms
+[2024-05-31 12:51:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2024-05-31 12:51:07] INFO root fetch - processPackages [tinybird-cli]: New version: [4.0.3.dev0] Old Version: [4.0.2.dev0]
+[2024-05-31 12:51:07] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-31 12:51:07] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-31 12:51:07] INFO root fetch - processPackages [gurux-dlms]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-31 12:51:07] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/82/59/a26d5e9a0979f5232468a02401f7f0af0dd0d177afb071d0e2c383c76946/tinybird-cli-4.0.2.dev0.tar.gz
+[2024-05-31 12:51:07] INFO root fetch - processPackages [gurux-dlms]: Downloading https://files.pythonhosted.org/packages/3a/19/6ba6cf899efdf6f3e7df7b43471459e895a22370aa70ff24b8ec0d37867b/gurux_dlms-1.0.98.tar.gz
+[2024-05-31 12:51:07] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/d5/fc/97b23595a28896363c9fdfae1656b41fa2727ffa27281d78d3c574776bb4/tinybird-cli-4.0.3.dev0.tar.gz
+[2024-05-31 12:51:07] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-31 12:51:07] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-05-31 12:51:07] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-4.0.2.dev0.tar.gz tmp/tinybird-cli-4.0.3.dev0.tar.gz --markdown 20240531/t/tinybird-cli/4.0.2.dev0-4.0.3.dev0/README.md --exclude *.pyd
+[2024-05-31 12:51:07] INFO root fetch - processPackages [gurux-dlms]: Downloading https://files.pythonhosted.org/packages/ea/9f/4151ff3e3361970601669bef12d45c4bd694cfa85f752d9f267ccbc2f78d/gurux_dlms-1.0.99.tar.gz
+[2024-05-31 12:51:08] INFO root fetch - processPackages [gurux-dlms]: executing diffoscope
+[2024-05-31 12:51:08] INFO root fetch - processPackages [gurux-dlms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gurux_dlms-1.0.98.tar.gz tmp/gurux_dlms-1.0.99.tar.gz --markdown 20240531/g/gurux-dlms/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-31 12:51:08] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-31 12:51:08] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240531/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-31 12:51:08] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-4.0.2.dev0.tar.gz]
+[2024-05-31 12:51:08] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-4.0.3.dev0.tar.gz]
+[2024-05-31 12:51:08] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-05-31 12:51:09] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-31 12:51:09] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-31 12:51:09] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-31 12:51:09] INFO root fetch - processPackages [gurux-dlms]: Remove: archive file [/home/abi/fetcher/tmp/gurux_dlms-1.0.98.tar.gz]
+[2024-05-31 12:51:09] INFO root fetch - processPackages [gurux-dlms]: Remove: archive file [/home/abi/fetcher/tmp/gurux_dlms-1.0.99.tar.gz]
+[2024-05-31 12:51:09] INFO root fetch - main [MainThread]: End processing [gurux-dlms]: success
+[2024-05-31 12:51:09] INFO root fetch - main [MainThread]: Store serial: [23464399]
