@@ -6264,3 +6264,33 @@
 [2024-05-31 05:35:16] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.3.1.tar.gz]
 [2024-05-31 05:35:16] INFO root fetch - main [MainThread]: End processing [sdss-hal]: success
 [2024-05-31 05:35:16] INFO root fetch - main [MainThread]: Store serial: [23460113]
+[2024-05-31 05:37:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460113]
+[2024-05-31 05:37:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 05:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myfunctions-edatop
+[2024-05-31 05:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rockai-cli-app
+[2024-05-31 05:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchhydro
+[2024-05-31 05:37:25] INFO root fetch - processPackages [myfunctions-edatop]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 05:37:25] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 05:37:25] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/4f/d5/3f4ea7c123aa20a98fa8d6f00488539302279bcdd3202db8e404940df789/myfunctions_edatop-0.0.2.tar.gz
+[2024-05-31 05:37:25] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-05-31 05:37:25] INFO root fetch - processPackages [torchhydro]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 05:37:25] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-05-31 05:37:25] INFO root fetch - processPackages [torchhydro]: Downloading https://files.pythonhosted.org/packages/57/f5/7eb4f844824ca47c7cb5f97d6a92975fe660cb1d2d2b8eab5153462fb6cb/torchhydro-0.0.4.tar.gz
+[2024-05-31 05:37:25] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/02/c8/f54bf02db53b216612f6959c0571e59374a5ee158f9e99c5f7226b32afbb/myfunctions_edatop-0.0.3.tar.gz
+[2024-05-31 05:37:25] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-31 05:37:25] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240531/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 05:37:25] INFO root fetch - processPackages [myfunctions-edatop]: executing diffoscope
+[2024-05-31 05:37:25] INFO root fetch - processPackages [myfunctions-edatop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_edatop-0.0.2.tar.gz tmp/myfunctions_edatop-0.0.3.tar.gz --markdown 20240531/m/myfunctions-edatop/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 05:37:25] INFO root fetch - processPackages [torchhydro]: Downloading https://files.pythonhosted.org/packages/ce/35/4b248c07f2e5c9765427c1722c7e8987c7f56603b1ffa36b7b0fae5b31d2/torchhydro-0.0.5.tar.gz
+[2024-05-31 05:37:26] INFO root fetch - processPackages [torchhydro]: executing diffoscope
+[2024-05-31 05:37:26] INFO root fetch - processPackages [torchhydro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchhydro-0.0.4.tar.gz tmp/torchhydro-0.0.5.tar.gz --markdown 20240531/t/torchhydro/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-31 05:37:26] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.2.tar.gz]
+[2024-05-31 05:37:26] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.3.tar.gz]
+[2024-05-31 05:37:26] INFO root fetch - main [MainThread]: End processing [myfunctions-edatop]: success
+[2024-05-31 05:37:26] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-05-31 05:37:26] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-05-31 05:37:26] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-31 05:37:26] INFO root fetch - processPackages [torchhydro]: Remove: archive file [/home/abi/fetcher/tmp/torchhydro-0.0.4.tar.gz]
+[2024-05-31 05:37:26] INFO root fetch - processPackages [torchhydro]: Remove: archive file [/home/abi/fetcher/tmp/torchhydro-0.0.5.tar.gz]
+[2024-05-31 05:37:26] INFO root fetch - main [MainThread]: End processing [torchhydro]: success
+[2024-05-31 05:37:26] INFO root fetch - main [MainThread]: Store serial: [23460126]
