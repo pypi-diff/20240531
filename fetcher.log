@@ -4247,3 +4247,36 @@
 [2024-05-31 03:21:35] INFO root fetch - processPackages [chattts-fork]: Remove: archive file [/home/abi/fetcher/tmp/chattts_fork-0.0.5.tar.gz]
 [2024-05-31 03:21:35] INFO root fetch - main [MainThread]: End processing [chattts-fork]: success
 [2024-05-31 03:21:35] INFO root fetch - main [MainThread]: Store serial: [23459172]
+[2024-05-31 03:23:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459172]
+[2024-05-31 03:23:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 03:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sd-parsers
+[2024-05-31 03:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myfunction-vikmin2022
+[2024-05-31 03:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-codeocean-api
+[2024-05-31 03:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-wordpress
+[2024-05-31 03:23:44] WARNING root fetch - processPackages [myfunction-vikmin2022]: Skipping, unable to determine old version
+[2024-05-31 03:23:44] INFO root fetch - main [MainThread]: End processing [myfunction-vikmin2022] error
+[2024-05-31 03:23:44] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 03:23:44] INFO root fetch - processPackages [sd-parsers]: New version: [0.3rc2] Old Version: [0.3rc1]
+[2024-05-31 03:23:44] INFO root fetch - processPackages [aind-codeocean-api]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-31 03:23:44] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2024-05-31 03:23:44] INFO root fetch - processPackages [sd-parsers]: Downloading https://files.pythonhosted.org/packages/be/98/eb33b0a324cdfb7dec8f3f602c22470dd11fe9ba33059529dc6b89e149a2/sd-parsers-0.3rc1.tar.gz
+[2024-05-31 03:23:44] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2024-05-31 03:23:44] INFO root fetch - processPackages [aind-codeocean-api]: Downloading https://files.pythonhosted.org/packages/4c/d3/1f3d2a09f69dfbe3f4788b7233fcee07f67786b7720ef65465f478019817/aind_codeocean_api-0.4.3.tar.gz
+[2024-05-31 03:23:44] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2024-05-31 03:23:44] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20240531/c/cdk-wordpress/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 03:23:44] INFO root fetch - processPackages [sd-parsers]: Downloading https://files.pythonhosted.org/packages/5c/f2/9f8a09aeec0501fcf60d21e0def03b158e0a07b7b5f675d31698c91b3b6c/sd-parsers-0.3rc2.tar.gz
+[2024-05-31 03:23:44] INFO root fetch - processPackages [aind-codeocean-api]: Downloading https://files.pythonhosted.org/packages/ab/d1/e5659827c2c87a047f8273e63ef78ead37a0c69275bca415313c0e6229d1/aind_codeocean_api-0.5.0.tar.gz
+[2024-05-31 03:23:45] INFO root fetch - processPackages [sd-parsers]: executing diffoscope
+[2024-05-31 03:23:45] INFO root fetch - processPackages [sd-parsers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd-parsers-0.3rc1.tar.gz tmp/sd-parsers-0.3rc2.tar.gz --markdown 20240531/s/sd-parsers/0.3rc1-0.3rc2/README.md --exclude *.pyd
+[2024-05-31 03:23:45] INFO root fetch - processPackages [aind-codeocean-api]: executing diffoscope
+[2024-05-31 03:23:45] INFO root fetch - processPackages [aind-codeocean-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_codeocean_api-0.4.3.tar.gz tmp/aind_codeocean_api-0.5.0.tar.gz --markdown 20240531/a/aind-codeocean-api/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-31 03:23:45] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2024-05-31 03:23:45] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2024-05-31 03:23:45] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2024-05-31 03:23:45] INFO root fetch - processPackages [sd-parsers]: Remove: archive file [/home/abi/fetcher/tmp/sd-parsers-0.3rc1.tar.gz]
+[2024-05-31 03:23:45] INFO root fetch - processPackages [sd-parsers]: Remove: archive file [/home/abi/fetcher/tmp/sd-parsers-0.3rc2.tar.gz]
+[2024-05-31 03:23:45] INFO root fetch - main [MainThread]: End processing [sd-parsers]: success
+[2024-05-31 03:23:45] INFO root fetch - processPackages [aind-codeocean-api]: Remove: archive file [/home/abi/fetcher/tmp/aind_codeocean_api-0.4.3.tar.gz]
+[2024-05-31 03:23:45] INFO root fetch - processPackages [aind-codeocean-api]: Remove: archive file [/home/abi/fetcher/tmp/aind_codeocean_api-0.5.0.tar.gz]
+[2024-05-31 03:23:45] INFO root fetch - main [MainThread]: End processing [aind-codeocean-api]: success
+[2024-05-31 03:23:45] INFO root fetch - main [MainThread]: Store serial: [23459185]
