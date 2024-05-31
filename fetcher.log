@@ -21860,3 +21860,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:30:11] INFO root fetch - processPackages [robot-soccer-kit]: Remove: archive file [/home/abi/fetcher/tmp/robot-soccer-kit-2.2.0.tar.gz]
 [2024-05-31 16:30:11] INFO root fetch - main [MainThread]: End processing [robot-soccer-kit]: success
 [2024-05-31 16:30:11] INFO root fetch - main [MainThread]: Store serial: [23467061]
+[2024-05-31 16:32:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467061]
+[2024-05-31 16:32:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 16:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hellocash
+[2024-05-31 16:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etils
+[2024-05-31 16:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HexText
+[2024-05-31 16:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: face-recognition-demo
+[2024-05-31 16:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dev4py-utils
+[2024-05-31 16:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nuon
+[2024-05-31 16:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skillsnetwork-jupyter-extension
+[2024-05-31 16:32:20] INFO root fetch - processPackages [nuon]: New version: [0.19.99] Old Version: [0.19.98]
+[2024-05-31 16:32:20] WARNING root fetch - processPackages [hellocash]: Skipping, unable to determine old version
+[2024-05-31 16:32:20] INFO root fetch - main [MainThread]: End processing [hellocash] error
+[2024-05-31 16:32:20] INFO root fetch - processPackages [etils]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-31 16:32:20] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/8d/82/73a4a9564f53819f1d2ce0052786b8fbaac8797092a6e5b9ad8368807e5a/nuon-0.19.98.tar.gz
+[2024-05-31 16:32:20] WARNING root fetch - processPackages [HexText]: Skipping, unable to determine old version
+[2024-05-31 16:32:20] INFO root fetch - main [MainThread]: End processing [HexText] error
+[2024-05-31 16:32:20] WARNING root fetch - processPackages [face-recognition-demo]: Skipping, unable to determine old version
+[2024-05-31 16:32:20] INFO root fetch - main [MainThread]: End processing [face-recognition-demo] error
+[2024-05-31 16:32:20] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: New version: [2.3.1rc0] Old Version: [2.3.1]
+[2024-05-31 16:32:20] INFO root fetch - processPackages [dev4py-utils]: New version: [3.6.0] Old Version: [3.5.4]
+[2024-05-31 16:32:21] INFO root fetch - processPackages [etils]: Downloading https://files.pythonhosted.org/packages/7f/f5/c93520360736e5ead36a36349a1010d483b64533ffce759e7d1eb443f70d/etils-1.8.0.tar.gz
+[2024-05-31 16:32:21] INFO root fetch - processPackages [dev4py-utils]: Downloading https://files.pythonhosted.org/packages/fb/2f/5c4517e68def6932b517ba63bf6d06ccd455d1807e7df9d7cbbd08188e74/dev4py_utils-3.5.4.tar.gz
+[2024-05-31 16:32:21] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Downloading https://files.pythonhosted.org/packages/26/c7/d40752cc7237ca03c1e2a43168cf51d9af72cbf0406714c65af741878d17/skillsnetwork_jupyter_extension-2.3.1.tar.gz
+[2024-05-31 16:32:21] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/2e/32/73fde17d65f51538c324ffecb418e1d8709cd44e594ad86a351bb39fa67f/nuon-0.19.99.tar.gz
+[2024-05-31 16:32:21] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-05-31 16:32:21] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.98.tar.gz tmp/nuon-0.19.99.tar.gz --markdown 20240531/n/nuon/0.19.98-0.19.99/README.md --exclude *.pyd
+[2024-05-31 16:32:21] INFO root fetch - processPackages [etils]: Downloading https://files.pythonhosted.org/packages/8e/39/314de3ecb4f50f8c131155c537d64e3a5ba06ee66eb42b91a8577bb3360f/etils-1.9.0.tar.gz
+[2024-05-31 16:32:21] INFO root fetch - processPackages [dev4py-utils]: Downloading https://files.pythonhosted.org/packages/ee/cc/0df19275a5194072b16642218a412158ee631c26d9810a7edf7cc4f75a1d/dev4py_utils-3.6.0.tar.gz
+[2024-05-31 16:32:21] INFO root fetch - processPackages [etils]: executing diffoscope
+[2024-05-31 16:32:21] INFO root fetch - processPackages [etils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etils-1.8.0.tar.gz tmp/etils-1.9.0.tar.gz --markdown 20240531/e/etils/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-31 16:32:21] INFO root fetch - processPackages [dev4py-utils]: executing diffoscope
+[2024-05-31 16:32:21] INFO root fetch - processPackages [dev4py-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev4py_utils-3.5.4.tar.gz tmp/dev4py_utils-3.6.0.tar.gz --markdown 20240531/d/dev4py-utils/3.5.4-3.6.0/README.md --exclude *.pyd
+[2024-05-31 16:32:21] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Downloading https://files.pythonhosted.org/packages/fe/47/006d5f176202769b3bf35e4c59905344670a99c81a0807d5b3f20b3b20b4/skillsnetwork_jupyter_extension-2.3.1rc0.tar.gz
+[2024-05-31 16:32:21] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: executing diffoscope
+[2024-05-31 16:32:21] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillsnetwork_jupyter_extension-2.3.1.tar.gz tmp/skillsnetwork_jupyter_extension-2.3.1rc0.tar.gz --markdown 20240531/s/skillsnetwork-jupyter-extension/2.3.1-2.3.1rc0/README.md --exclude *.pyd
+[2024-05-31 16:32:22] INFO root fetch - processPackages [dev4py-utils]: Remove: archive file [/home/abi/fetcher/tmp/dev4py_utils-3.5.4.tar.gz]
+[2024-05-31 16:32:22] INFO root fetch - processPackages [dev4py-utils]: Remove: archive file [/home/abi/fetcher/tmp/dev4py_utils-3.6.0.tar.gz]
+[2024-05-31 16:32:22] INFO root fetch - main [MainThread]: End processing [dev4py-utils]: success
+[2024-05-31 16:32:22] INFO root fetch - processPackages [etils]: Remove: archive file [/home/abi/fetcher/tmp/etils-1.8.0.tar.gz]
+[2024-05-31 16:32:22] INFO root fetch - processPackages [etils]: Remove: archive file [/home/abi/fetcher/tmp/etils-1.9.0.tar.gz]
+[2024-05-31 16:32:22] INFO root fetch - main [MainThread]: End processing [etils]: success
+[2024-05-31 16:32:22] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/skillsnetwork_jupyter_extension-2.3.1.tar.gz]
+[2024-05-31 16:32:22] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/skillsnetwork_jupyter_extension-2.3.1rc0.tar.gz]
+[2024-05-31 16:32:22] INFO root fetch - main [MainThread]: End processing [skillsnetwork-jupyter-extension]: success
+[2024-05-31 16:32:23] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.98.tar.gz]
+[2024-05-31 16:32:23] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
+[2024-05-31 16:32:23] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-05-31 16:32:23] INFO root fetch - main [MainThread]: Store serial: [23467106]
