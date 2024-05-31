@@ -21048,3 +21048,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:05:55] INFO root fetch - processPackages [xpart]: Remove: archive file [/home/abi/fetcher/tmp/xpart-0.9.3.tar.gz]
 [2024-05-31 16:05:55] INFO root fetch - main [MainThread]: End processing [xpart]: success
 [2024-05-31 16:05:55] INFO root fetch - main [MainThread]: Store serial: [23466697]
+[2024-05-31 16:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466697]
+[2024-05-31 16:08:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 16:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-id-python
+[2024-05-31 16:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dve-lumipy-testing
+[2024-05-31 16:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-organization-python
+[2024-05-31 16:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vantage-sdk
+[2024-05-31 16:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rio-ui
+[2024-05-31 16:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alex-ber-utils
+[2024-05-31 16:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-bank-python
+[2024-05-31 16:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-project-base
+[2024-05-31 16:08:04] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-31 16:08:04] INFO root fetch - processPackages [django-project-base]: New version: [0.75.34] Old Version: [0.75.33]
+[2024-05-31 16:08:04] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-31 16:08:04] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-31 16:08:04] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-31 16:08:04] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-31 16:08:04] INFO root fetch - processPackages [vantage-sdk]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-31 16:08:04] INFO root fetch - processPackages [rio-ui]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-31 16:08:04] INFO root fetch - processPackages [alex-ber-utils]: New version: [0.9.1] Old Version: [0.9.0b0]
+[2024-05-31 16:08:04] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-05-31 16:08:04] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-05-31 16:08:04] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-05-31 16:08:04] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/a9/1f/9e013d0e0d21830f0c687a092f53133af86a8f4ee8745bcfaa9d7d8f0094/django-project-base-0.75.33.tar.gz
+[2024-05-31 16:08:04] INFO root fetch - processPackages [vantage-sdk]: Downloading https://files.pythonhosted.org/packages/69/44/48810eb4446bc069fe54e442c1b87246405f5942f7d8a0aa34a088b4af08/vantage_sdk-0.8.2.tar.gz
+[2024-05-31 16:08:04] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/2a/e2/c7cbd258ae9a62d6f738d357bf204405b809eb5ba304b0ee32ff6367b785/rio_ui-0.8.5.tar.gz
+[2024-05-31 16:08:04] INFO root fetch - processPackages [alex-ber-utils]: Downloading https://files.pythonhosted.org/packages/41/9e/8dcb8462d5f32a239c83057844b3ddf8ec0998203d8e82082afe138c4e96/alex_ber_utils-0.9.0b0.tar.gz
+[2024-05-31 16:08:04] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-31 16:08:04] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-05-31 16:08:05] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-05-31 16:08:05] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-05-31 16:08:05] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-31 16:08:05] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240531/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-31 16:08:05] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-05-31 16:08:05] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240531/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-31 16:08:05] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/9d/31/0ace891f9ed0198d29b6bb143aba694bfe72599246479d2d61bcf22e0bd1/django-project-base-0.75.34.tar.gz
+[2024-05-31 16:08:05] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-31 16:08:05] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240531/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-31 16:08:05] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-05-31 16:08:05] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240531/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-31 16:08:05] INFO root fetch - processPackages [vantage-sdk]: Downloading https://files.pythonhosted.org/packages/dd/df/24a151b050a590151dff7178b3d8f0db5b6d9e626f0fd05f3d1db549683e/vantage_sdk-0.8.3-py3-none-any.whl
+[2024-05-31 16:08:05] INFO root fetch - processPackages [alex-ber-utils]: Downloading https://files.pythonhosted.org/packages/8f/d6/3d1a9801ec1a29a008ac9cd1655a6167223ed83be894a401c16d6da95114/alex_ber_utils-0.9.1-py3-none-any.whl
+[2024-05-31 16:08:05] INFO root fetch - processPackages [django-project-base]: executing diffoscope
+[2024-05-31 16:08:05] INFO root fetch - processPackages [django-project-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-base-0.75.33.tar.gz tmp/django-project-base-0.75.34.tar.gz --markdown 20240531/d/django-project-base/0.75.33-0.75.34/README.md --exclude *.pyd
+[2024-05-31 16:08:05] INFO root fetch - processPackages [vantage-sdk]: executing diffoscope
+[2024-05-31 16:08:05] INFO root fetch - processPackages [vantage-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage_sdk-0.8.2.tar.gz tmp/vantage_sdk-0.8.3-py3-none-any.whl.zip --markdown 20240531/v/vantage-sdk/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-31 16:08:05] INFO root fetch - processPackages [alex-ber-utils]: executing diffoscope
+[2024-05-31 16:08:05] INFO root fetch - processPackages [alex-ber-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alex_ber_utils-0.9.0b0.tar.gz tmp/alex_ber_utils-0.9.1-py3-none-any.whl.zip --markdown 20240531/a/alex-ber-utils/0.9.0b0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 16:08:05] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/34/7d/7df245f9650c0c8bbc1041f6190badf80b598d16ba682f0229e33b2a22f0/rio_ui-0.8.6.tar.gz
+[2024-05-31 16:08:06] INFO root fetch - processPackages [rio-ui]: executing diffoscope
+[2024-05-31 16:08:06] INFO root fetch - processPackages [rio-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_ui-0.8.5.tar.gz tmp/rio_ui-0.8.6.tar.gz --markdown 20240531/r/rio-ui/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-31 16:08:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-05-31 16:08:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-05-31 16:08:06] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-05-31 16:08:06] INFO root fetch - processPackages [vantage-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vantage_sdk-0.8.2.tar.gz]
+[2024-05-31 16:08:06] INFO root fetch - processPackages [vantage-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vantage_sdk-0.8.3-py3-none-any.whl.zip]
+[2024-05-31 16:08:06] INFO root fetch - main [MainThread]: End processing [vantage-sdk]: success
+[2024-05-31 16:08:06] INFO root fetch - processPackages [alex-ber-utils]: Remove: archive file [/home/abi/fetcher/tmp/alex_ber_utils-0.9.0b0.tar.gz]
+[2024-05-31 16:08:06] INFO root fetch - processPackages [alex-ber-utils]: Remove: archive file [/home/abi/fetcher/tmp/alex_ber_utils-0.9.1-py3-none-any.whl.zip]
+[2024-05-31 16:08:06] INFO root fetch - main [MainThread]: End processing [alex-ber-utils]: success
+[2024-05-31 16:08:06] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-31 16:08:06] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-31 16:08:06] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-31 16:08:06] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.75.33.tar.gz]
+[2024-05-31 16:08:06] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.75.34.tar.gz]
+[2024-05-31 16:08:06] INFO root fetch - main [MainThread]: End processing [django-project-base]: success
+[2024-05-31 16:08:06] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-05-31 16:08:06] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-05-31 16:08:06] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-31 16:08:07] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-05-31 16:08:07] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-05-31 16:08:07] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-05-31 16:08:10] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.8.5.tar.gz]
+[2024-05-31 16:08:10] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.8.6.tar.gz]
+[2024-05-31 16:08:10] INFO root fetch - main [MainThread]: End processing [rio-ui]: success
+[2024-05-31 16:08:10] INFO root fetch - main [MainThread]: Store serial: [23466728]
