@@ -19468,3 +19468,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:13:46] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-declarative-extensions-0.9.1.tar.gz]
 [2024-05-31 15:13:46] INFO root fetch - main [MainThread]: End processing [sqlalchemy-declarative-extensions]: success
 [2024-05-31 15:13:46] INFO root fetch - main [MainThread]: Store serial: [23466061]
+[2024-05-31 15:15:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466061]
+[2024-05-31 15:15:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 15:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-dash-components
+[2024-05-31 15:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhasura
+[2024-05-31 15:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lit-ecology-classifier
+[2024-05-31 15:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: buildgrid
+[2024-05-31 15:15:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MainServiceManager
+[2024-05-31 15:15:55] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [0.2.7] Old Version: [0.2.5]
+[2024-05-31 15:15:55] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/41/8b/5bec93bb2cb667a03ce7dd27899ef70f2170579fd65bbe17ec6c7e161d5d/lit_ecology_classifier-0.2.5-py3-none-any.whl
+[2024-05-31 15:15:55] INFO root fetch - processPackages [ssb-dash-components]: New version: [0.8.0] Old Version: [0.7.4]
+[2024-05-31 15:15:55] INFO root fetch - processPackages [pyhasura]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 15:15:55] WARNING root fetch - processPackages [MainServiceManager]: Skipping, unable to determine old version
+[2024-05-31 15:15:55] INFO root fetch - processPackages [buildgrid]: New version: [0.0.97] Old Version: [0.0.96]
+[2024-05-31 15:15:55] INFO root fetch - main [MainThread]: End processing [MainServiceManager] error
+[2024-05-31 15:15:55] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/95/74/b4ed4bf242f56b3aed70cb52554c8acf938206faa9687d37ee0841c221a5/pyhasura-1.0.8.tar.gz
+[2024-05-31 15:15:55] INFO root fetch - processPackages [ssb-dash-components]: Downloading https://files.pythonhosted.org/packages/61/3b/3181769ed7435a2ef9a8cf4355b7e9e46b302378ccda448e73cd3691e5e7/ssb_dash_components-0.7.4.tar.gz
+[2024-05-31 15:15:55] INFO root fetch - processPackages [buildgrid]: Downloading https://files.pythonhosted.org/packages/8c/eb/759c23e57f27b16e000705824447bb265d18ad1854029fa6d53f6d25edc4/buildgrid-0.0.96.tar.gz
+[2024-05-31 15:15:55] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/1f/a6/4d0633350753e018580df36d6d028bbdcfb7a799bce3603468574f6d0754/lit_ecology_classifier-0.2.7-py3-none-any.whl
+[2024-05-31 15:15:55] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-05-31 15:15:55] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-0.2.5-py3-none-any.whl.zip tmp/lit_ecology_classifier-0.2.7-py3-none-any.whl.zip --markdown 20240531/l/lit-ecology-classifier/0.2.5-0.2.7/README.md --exclude *.pyd
+[2024-05-31 15:15:55] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/eb/3e/ee576591a7c4ea777ff94996eb0197f5034bade0047be6fcac2596d26e84/pyhasura-1.0.9.tar.gz
+[2024-05-31 15:15:55] INFO root fetch - processPackages [ssb-dash-components]: Downloading https://files.pythonhosted.org/packages/45/bc/044d9a0c9c37e74305bb9d71413f159833df703adc38d8cea697053bcd4b/ssb_dash_components-0.8.0.tar.gz
+[2024-05-31 15:15:55] INFO root fetch - processPackages [pyhasura]: executing diffoscope
+[2024-05-31 15:15:55] INFO root fetch - processPackages [pyhasura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhasura-1.0.8.tar.gz tmp/pyhasura-1.0.9.tar.gz --markdown 20240531/p/pyhasura/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 15:15:55] INFO root fetch - processPackages [buildgrid]: Downloading https://files.pythonhosted.org/packages/da/9e/130d285100f18afd00c94d2efcdb1c45a82f534eca2edb859ebc3db06be5/buildgrid-0.0.97.tar.gz
+[2024-05-31 15:15:55] INFO root fetch - processPackages [ssb-dash-components]: executing diffoscope
+[2024-05-31 15:15:55] INFO root fetch - processPackages [ssb-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_dash_components-0.7.4.tar.gz tmp/ssb_dash_components-0.8.0.tar.gz --markdown 20240531/s/ssb-dash-components/0.7.4-0.8.0/README.md --exclude *.pyd
+[2024-05-31 15:15:55] INFO root fetch - processPackages [buildgrid]: executing diffoscope
+[2024-05-31 15:15:55] INFO root fetch - processPackages [buildgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildgrid-0.0.96.tar.gz tmp/buildgrid-0.0.97.tar.gz --markdown 20240531/b/buildgrid/0.0.96-0.0.97/README.md --exclude *.pyd
+[2024-05-31 15:15:56] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.2.5-py3-none-any.whl.zip]
+[2024-05-31 15:15:56] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.2.7-py3-none-any.whl.zip]
+[2024-05-31 15:15:56] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-05-31 15:15:56] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.8.tar.gz]
+[2024-05-31 15:15:56] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.9.tar.gz]
+[2024-05-31 15:15:56] INFO root fetch - main [MainThread]: End processing [pyhasura]: success
+[2024-05-31 15:15:57] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.7.4.tar.gz]
+[2024-05-31 15:15:57] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.8.0.tar.gz]
+[2024-05-31 15:15:57] INFO root fetch - main [MainThread]: End processing [ssb-dash-components]: success
+[2024-05-31 15:15:57] INFO root fetch - processPackages [buildgrid]: Remove: archive file [/home/abi/fetcher/tmp/buildgrid-0.0.96.tar.gz]
+[2024-05-31 15:15:57] INFO root fetch - processPackages [buildgrid]: Remove: archive file [/home/abi/fetcher/tmp/buildgrid-0.0.97.tar.gz]
+[2024-05-31 15:15:57] INFO root fetch - main [MainThread]: End processing [buildgrid]: success
+[2024-05-31 15:15:57] INFO root fetch - main [MainThread]: Store serial: [23466080]
