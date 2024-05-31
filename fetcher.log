@@ -21443,3 +21443,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:19:08] INFO root fetch - processPackages [telicent-lib]: Remove: archive file [/home/abi/fetcher/tmp/telicent_lib-2.0.3.tar.gz]
 [2024-05-31 16:19:08] INFO root fetch - main [MainThread]: End processing [telicent-lib]: success
 [2024-05-31 16:19:08] INFO root fetch - main [MainThread]: Store serial: [23466853]
+[2024-05-31 16:21:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466853]
+[2024-05-31 16:21:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: terrajinja-deploy
+[2024-05-31 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataiku-api-client
+[2024-05-31 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skoop
+[2024-05-31 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-intel
+[2024-05-31 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jabutiutils
+[2024-05-31 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digimat.mbio
+[2024-05-31 16:21:17] INFO root fetch - processPackages [terrajinja-deploy]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 16:21:17] INFO root fetch - processPackages [digimat.mbio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 16:21:17] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240530] Old Version: [2.17.0.dev20240529]
+[2024-05-31 16:21:17] INFO root fetch - processPackages [terrajinja-deploy]: Downloading https://files.pythonhosted.org/packages/4f/48/c612f0b98744fbaafa9ca25ec52068c9f9e20d8fb9f29da97d649849a74f/terrajinja_deploy-0.3.1-py3-none-any.whl
+[2024-05-31 16:21:17] INFO root fetch - processPackages [dataiku-api-client]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-05-31 16:21:17] WARNING root fetch - processPackages [skoop]: Skipping, unable to determine old version
+[2024-05-31 16:21:17] INFO root fetch - main [MainThread]: End processing [skoop] error
+[2024-05-31 16:21:17] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/71/e2/320c5b884cd4c2ec53c579c63ffa353c0113149d9856b2cbe51c5a7dc258/digimat.mbio-0.1.8.tar.gz
+[2024-05-31 16:21:17] INFO root fetch - processPackages [jabutiutils]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 16:21:17] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/08/04/668adfeebd97e4c0ad1d89edc259303cd2e0c600796b41a772e6a74e11e7/tf_nightly_intel-2.17.0.dev20240529-cp39-cp39-win_amd64.whl
+[2024-05-31 16:21:17] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 218656000>=10485760
+[2024-05-31 16:21:17] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-31 16:21:18] INFO root fetch - processPackages [dataiku-api-client]: Downloading https://files.pythonhosted.org/packages/39/4b/1b9d5ec978c347d135d6de56958db264a0178c72c075523783324589342f/dataiku-api-client-9.0.0.tar.gz
+[2024-05-31 16:21:18] INFO root fetch - processPackages [jabutiutils]: Downloading https://files.pythonhosted.org/packages/34/57/69ddae4c99e60f0c6227aa4af43bf1f17bb1a86b27f296596deef2cc584e/jabutiutils-0.0.5.tar.gz
+[2024-05-31 16:21:18] INFO root fetch - processPackages [digimat.mbio]: Downloading https://files.pythonhosted.org/packages/39/6e/5bdff2534466d804cce6dfcbaca73554b2c423069c02d31759fddbe8406b/digimat.mbio-0.1.9.tar.gz
+[2024-05-31 16:21:18] INFO root fetch - processPackages [terrajinja-deploy]: Downloading https://files.pythonhosted.org/packages/4a/5f/cf5e4ea2187004b642d34eb4562dcab846f4b0331e560b04cf38238a678e/terrajinja-deploy-0.3.2.tar.gz
+[2024-05-31 16:21:18] INFO root fetch - processPackages [digimat.mbio]: executing diffoscope
+[2024-05-31 16:21:18] INFO root fetch - processPackages [digimat.mbio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.mbio-0.1.8.tar.gz tmp/digimat.mbio-0.1.9.tar.gz --markdown 20240531/d/digimat.mbio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 16:21:18] INFO root fetch - processPackages [terrajinja-deploy]: executing diffoscope
+[2024-05-31 16:21:18] INFO root fetch - processPackages [terrajinja-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrajinja_deploy-0.3.1-py3-none-any.whl.zip tmp/terrajinja-deploy-0.3.2.tar.gz --markdown 20240531/t/terrajinja-deploy/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 16:21:18] INFO root fetch - processPackages [jabutiutils]: Downloading https://files.pythonhosted.org/packages/2c/cd/f815cbf357040d195b2f2c579b9ad80fbea720e5348eb36bc83a4689a749/jabutiutils-0.0.6.tar.gz
+[2024-05-31 16:21:18] INFO root fetch - processPackages [dataiku-api-client]: Downloading https://files.pythonhosted.org/packages/d6/5d/204da2f11db80b666b5bab1056e8c38e6d93a70051887d2d321bba06b865/dataiku-api-client-9.0.1.tar.gz
+[2024-05-31 16:21:18] INFO root fetch - processPackages [jabutiutils]: executing diffoscope
+[2024-05-31 16:21:18] INFO root fetch - processPackages [jabutiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jabutiutils-0.0.5.tar.gz tmp/jabutiutils-0.0.6.tar.gz --markdown 20240531/j/jabutiutils/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 16:21:18] INFO root fetch - processPackages [dataiku-api-client]: executing diffoscope
+[2024-05-31 16:21:18] INFO root fetch - processPackages [dataiku-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataiku-api-client-9.0.0.tar.gz tmp/dataiku-api-client-9.0.1.tar.gz --markdown 20240531/d/dataiku-api-client/9.0.0-9.0.1/README.md --exclude *.pyd
+[2024-05-31 16:21:18] INFO root fetch - processPackages [terrajinja-deploy]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja_deploy-0.3.1-py3-none-any.whl.zip]
+[2024-05-31 16:21:18] INFO root fetch - processPackages [terrajinja-deploy]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-deploy-0.3.2.tar.gz]
+[2024-05-31 16:21:18] INFO root fetch - main [MainThread]: End processing [terrajinja-deploy]: success
+[2024-05-31 16:21:18] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.8.tar.gz]
+[2024-05-31 16:21:18] INFO root fetch - processPackages [digimat.mbio]: Remove: archive file [/home/abi/fetcher/tmp/digimat.mbio-0.1.9.tar.gz]
+[2024-05-31 16:21:18] INFO root fetch - main [MainThread]: End processing [digimat.mbio]: success
+[2024-05-31 16:21:19] INFO root fetch - processPackages [jabutiutils]: Remove: archive file [/home/abi/fetcher/tmp/jabutiutils-0.0.5.tar.gz]
+[2024-05-31 16:21:19] INFO root fetch - processPackages [jabutiutils]: Remove: archive file [/home/abi/fetcher/tmp/jabutiutils-0.0.6.tar.gz]
+[2024-05-31 16:21:19] INFO root fetch - main [MainThread]: End processing [jabutiutils]: success
+[2024-05-31 16:21:19] INFO root fetch - processPackages [dataiku-api-client]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-api-client-9.0.0.tar.gz]
+[2024-05-31 16:21:19] INFO root fetch - processPackages [dataiku-api-client]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-api-client-9.0.1.tar.gz]
+[2024-05-31 16:21:19] INFO root fetch - main [MainThread]: End processing [dataiku-api-client]: success
+[2024-05-31 16:21:19] INFO root fetch - main [MainThread]: Store serial: [23466877]
