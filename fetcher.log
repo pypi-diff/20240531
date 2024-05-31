@@ -9488,3 +9488,63 @@
 [2024-05-31 08:43:55] INFO root fetch - processPackages [alibabacloud-eventbridge20200401]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_eventbridge20200401-4.1.1.tar.gz]
 [2024-05-31 08:43:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-eventbridge20200401]: success
 [2024-05-31 08:43:55] INFO root fetch - main [MainThread]: Store serial: [23461506]
+[2024-05-31 08:46:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461506]
+[2024-05-31 08:46:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 08:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-onelogin
+[2024-05-31 08:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-postgresql
+[2024-05-31 08:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-rabbitmq
+[2024-05-31 08:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-okta
+[2024-05-31 08:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keelson
+[2024-05-31 08:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nwa-stdlib
+[2024-05-31 08:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mf-pytorch
+[2024-05-31 08:46:06] INFO root fetch - processPackages [keelson]: New version: [0.3.6rc8] Old Version: [0.3.6rc5]
+[2024-05-31 08:46:06] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/c8/0a/6e374c1191880a58f92709df5ae91914b99d84dc60d3d9ee5c2b4313c996/keelson-0.3.6rc5-py3-none-any.whl
+[2024-05-31 08:46:06] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1717136086] Old Version: [3.4.0a1716962889]
+[2024-05-31 08:46:06] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.7.0a1717135802] Old Version: [0.7.0a1716962486]
+[2024-05-31 08:46:06] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1689896978] Old Version: [3.9.0a1689315090]
+[2024-05-31 08:46:06] INFO root fetch - processPackages [nwa-stdlib]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-31 08:46:06] WARNING root fetch - processPackages [mf-pytorch]: Skipping, unable to determine old version
+[2024-05-31 08:46:06] INFO root fetch - main [MainThread]: End processing [mf-pytorch] error
+[2024-05-31 08:46:06] INFO root fetch - processPackages [pulumi-okta]: New version: [4.9.0a1717135874] Old Version: [4.9.0a1716962572]
+[2024-05-31 08:46:06] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/b6/ec/c72c91d2230096f98ed6949de7a17fb02db994048b4801536b545cba535d/keelson-0.3.6rc8-py3-none-any.whl
+[2024-05-31 08:46:06] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/42/b5/740258de39118fa8dd20c7d894b0d74468d3a380ff544a9c8e41b1f8e32c/pulumi_onelogin-0.7.0a1716962486.tar.gz
+[2024-05-31 08:46:06] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/ed/e0/7fdde90ef74fd102795261322b0ac8625336995854691a442d881f55cb87/pulumi_postgresql-3.9.0a1689315090.tar.gz
+[2024-05-31 08:46:06] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/09/f2/2dd1cd91865ffbfa1fe8ba344f48e62ee297ef6669e3d07d04bdc6a33ed7/pulumi_rabbitmq-3.4.0a1716962889.tar.gz
+[2024-05-31 08:46:06] INFO root fetch - processPackages [nwa-stdlib]: Downloading https://files.pythonhosted.org/packages/6c/6d/3553c3b68541a95ba5c6126f7f6596972c015b3e485e265aa0cb2efca22f/nwa_stdlib-1.7.0.tar.gz
+[2024-05-31 08:46:06] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/fc/71/ab9325cb24e325068001b41c8cabcd85d9c9ee415df7946f5454e811cccf/pulumi_okta-4.9.0a1716962572.tar.gz
+[2024-05-31 08:46:06] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-05-31 08:46:06] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.6rc5-py3-none-any.whl.zip tmp/keelson-0.3.6rc8-py3-none-any.whl.zip --markdown 20240531/k/keelson/0.3.6rc5-0.3.6rc8/README.md --exclude *.pyd
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/a0/1a/f2f5533c09ba86bb4fe03c2d1455a34419a4727f29849e46ddf279b869ca/pulumi_onelogin-0.7.0a1717135802.tar.gz
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/9e/4f/c32cb287f9f3b02bf6f8e4195b74ff1c8b3b8faa77d2641430a1376b6a54/pulumi_rabbitmq-3.4.0a1717136086.tar.gz
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/a0/7c/da57549229c7dc197fea08a82cd8c820b56d0bf8e0ed12fafc5fec8b3eff/pulumi_postgresql-3.9.0a1689896978.tar.gz
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-okta]: Downloading https://files.pythonhosted.org/packages/e7/85/d2f224221aed02851ee921d1b6487003df156e709a76bf8a8e5d3f5f0752/pulumi_okta-4.9.0a1717135874.tar.gz
+[2024-05-31 08:46:07] INFO root fetch - processPackages [nwa-stdlib]: Downloading https://files.pythonhosted.org/packages/e6/96/b7310b9177ab1b85776ae94a89f7386de6ebbdb3af91f3bc1f41ae7792d5/nwa_stdlib-1.7.1-py3-none-any.whl
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.7.0a1716962486.tar.gz tmp/pulumi_onelogin-0.7.0a1717135802.tar.gz --markdown 20240531/p/pulumi-onelogin/0.7.0a1716962486-0.7.0a1717135802/README.md --exclude *.pyd
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz --markdown 20240531/p/pulumi-postgresql/3.9.0a1689315090-3.9.0a1689896978/README.md --exclude *.pyd
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1716962889.tar.gz tmp/pulumi_rabbitmq-3.4.0a1717136086.tar.gz --markdown 20240531/p/pulumi-rabbitmq/3.4.0a1716962889-3.4.0a1717136086/README.md --exclude *.pyd
+[2024-05-31 08:46:07] INFO root fetch - processPackages [nwa-stdlib]: executing diffoscope
+[2024-05-31 08:46:07] INFO root fetch - processPackages [nwa-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwa_stdlib-1.7.0.tar.gz tmp/nwa_stdlib-1.7.1-py3-none-any.whl.zip --markdown 20240531/n/nwa-stdlib/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-4.9.0a1716962572.tar.gz tmp/pulumi_okta-4.9.0a1717135874.tar.gz --markdown 20240531/p/pulumi-okta/4.9.0a1716962572-4.9.0a1717135874/README.md --exclude *.pyd
+[2024-05-31 08:46:07] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.6rc5-py3-none-any.whl.zip]
+[2024-05-31 08:46:07] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.6rc8-py3-none-any.whl.zip]
+[2024-05-31 08:46:07] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-05-31 08:46:07] INFO root fetch - processPackages [nwa-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nwa_stdlib-1.7.0.tar.gz]
+[2024-05-31 08:46:07] INFO root fetch - processPackages [nwa-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nwa_stdlib-1.7.1-py3-none-any.whl.zip]
+[2024-05-31 08:46:07] INFO root fetch - main [MainThread]: End processing [nwa-stdlib]: success
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1716962889.tar.gz]
+[2024-05-31 08:46:07] INFO root fetch - processPackages [pulumi-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_rabbitmq-3.4.0a1717136086.tar.gz]
+[2024-05-31 08:46:07] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2024-05-31 08:46:08] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689315090.tar.gz]
+[2024-05-31 08:46:08] INFO root fetch - processPackages [pulumi-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_postgresql-3.9.0a1689896978.tar.gz]
+[2024-05-31 08:46:08] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2024-05-31 08:46:08] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1716962486.tar.gz]
+[2024-05-31 08:46:08] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.7.0a1717135802.tar.gz]
+[2024-05-31 08:46:08] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2024-05-31 08:46:08] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1716962572.tar.gz]
+[2024-05-31 08:46:08] INFO root fetch - processPackages [pulumi-okta]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_okta-4.9.0a1717135874.tar.gz]
+[2024-05-31 08:46:08] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2024-05-31 08:46:08] INFO root fetch - main [MainThread]: Store serial: [23461522]
