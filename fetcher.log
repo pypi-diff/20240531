@@ -12354,3 +12354,69 @@
 [2024-05-31 10:40:13] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev9.tar.gz]
 [2024-05-31 10:40:13] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-31 10:40:13] INFO root fetch - main [MainThread]: Store serial: [23462876]
+[2024-05-31 10:42:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462876]
+[2024-05-31 10:42:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 10:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: highrise-bot-sdk
+[2024-05-31 10:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphene-django-query-optimizer
+[2024-05-31 10:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rfc9457
+[2024-05-31 10:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-insights-sdk
+[2024-05-31 10:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: physicsml
+[2024-05-31 10:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-fnc
+[2024-05-31 10:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libschrodinger
+[2024-05-31 10:42:22] INFO root fetch - processPackages [physicsml]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-05-31 10:42:22] INFO root fetch - processPackages [rfc9457]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 10:42:22] INFO root fetch - processPackages [easy-fnc]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 10:42:22] INFO root fetch - processPackages [libschrodinger]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-31 10:42:22] INFO root fetch - processPackages [finbourne-insights-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 10:42:22] INFO root fetch - processPackages [libschrodinger]: Downloading https://files.pythonhosted.org/packages/79/63/860a46756c1418e24a386a096606fe4169b6a672317f3dfd91214ffac961/libschrodinger-1.2.0.tar.gz
+[2024-05-31 10:42:22] INFO root fetch - processPackages [highrise-bot-sdk]: New version: [24.1.0] Old Version: [23.3.4]
+[2024-05-31 10:42:22] INFO root fetch - processPackages [graphene-django-query-optimizer]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-05-31 10:42:22] INFO root fetch - processPackages [rfc9457]: Downloading https://files.pythonhosted.org/packages/9a/0f/f2f53321355093c66d24b5c8d38412d2a4a96f2554aeb20edb0502de25a7/rfc9457-0.0.8.tar.gz
+[2024-05-31 10:42:22] INFO root fetch - processPackages [finbourne-insights-sdk]: Downloading https://files.pythonhosted.org/packages/cc/23/6d713e082a8c0f960b5c9a7be70b7d0641b83a63c549f52326816c643c31/finbourne_insights_sdk-2.1.8.tar.gz
+[2024-05-31 10:42:22] INFO root fetch - processPackages [physicsml]: Downloading https://files.pythonhosted.org/packages/94/6a/73758a56fbe87683c55da5cc8678f6e34271b9339b270ea3493628cdd246/physicsml-0.2.4.tar.gz
+[2024-05-31 10:42:22] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/e8/25/c341d61cc35f6c8953b61c0d8889d3da0c1f2d88680fd6ad451e6af22999/easy_fnc-0.1.3.tar.gz
+[2024-05-31 10:42:22] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/8f/12/4e6d28cb30649ae4e1be60d6b7548c18c7dd3abf1ae3e844869f19366293/graphene_django_query_optimizer-0.6.3.tar.gz
+[2024-05-31 10:42:22] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/c0/d0/db586c3dd513cab1ccef45d300e4d4fe12540094c90f9ea800f621a7bd20/highrise_bot_sdk-23.3.4.tar.gz
+[2024-05-31 10:42:23] INFO root fetch - processPackages [rfc9457]: Downloading https://files.pythonhosted.org/packages/2a/d8/cfc9732a369c896d8aa80ba4ebfe8fc239804552049b7ed9660cb2de6029/rfc9457-0.0.9.tar.gz
+[2024-05-31 10:42:23] INFO root fetch - processPackages [finbourne-insights-sdk]: Downloading https://files.pythonhosted.org/packages/47/84/f46a0575381d37e1bdfd501810fd3f946e959fe266bfc726ad03ee399fec/finbourne_insights_sdk-2.1.9.tar.gz
+[2024-05-31 10:42:23] INFO root fetch - processPackages [libschrodinger]: Downloading https://files.pythonhosted.org/packages/ec/4d/e64a0fbb825759ccc891fdec2af3bc119edebbeaa6bf78ddbe40e16a1db9/libschrodinger-1.2.1.tar.gz
+[2024-05-31 10:42:23] INFO root fetch - processPackages [rfc9457]: executing diffoscope
+[2024-05-31 10:42:23] INFO root fetch - processPackages [rfc9457]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfc9457-0.0.8.tar.gz tmp/rfc9457-0.0.9.tar.gz --markdown 20240531/r/rfc9457/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 10:42:23] INFO root fetch - processPackages [finbourne-insights-sdk]: executing diffoscope
+[2024-05-31 10:42:23] INFO root fetch - processPackages [finbourne-insights-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_insights_sdk-2.1.8.tar.gz tmp/finbourne_insights_sdk-2.1.9.tar.gz --markdown 20240531/f/finbourne-insights-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 10:42:23] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/2a/5b/6bed0d6b53a2f6138dcf627dea54ba957608c242f3153a346160838ce485/graphene_django_query_optimizer-0.7.0.tar.gz
+[2024-05-31 10:42:23] INFO root fetch - processPackages [libschrodinger]: executing diffoscope
+[2024-05-31 10:42:23] INFO root fetch - processPackages [libschrodinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libschrodinger-1.2.0.tar.gz tmp/libschrodinger-1.2.1.tar.gz --markdown 20240531/l/libschrodinger/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-31 10:42:23] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/5e/a7/51179953e553e61cec4120aa681a4fae7badd20a5898eadd590a47bfbe5b/easy_fnc-0.1.4.tar.gz
+[2024-05-31 10:42:23] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/f0/2a/a391fda899e625b1da73d317c01243e1249bba4f3f1d49c2ce85777554d2/highrise_bot_sdk-24.1.0.tar.gz
+[2024-05-31 10:42:23] INFO root fetch - processPackages [easy-fnc]: executing diffoscope
+[2024-05-31 10:42:23] INFO root fetch - processPackages [easy-fnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_fnc-0.1.3.tar.gz tmp/easy_fnc-0.1.4.tar.gz --markdown 20240531/e/easy-fnc/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 10:42:23] INFO root fetch - processPackages [physicsml]: Downloading https://files.pythonhosted.org/packages/e6/28/3ad59e4d849300b930afd3bf28d55f8ed5fcfc25caf2ef9ff0ddec7f7dc0/physicsml-0.3.0.tar.gz
+[2024-05-31 10:42:23] INFO root fetch - processPackages [graphene-django-query-optimizer]: executing diffoscope
+[2024-05-31 10:42:23] INFO root fetch - processPackages [graphene-django-query-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_query_optimizer-0.6.3.tar.gz tmp/graphene_django_query_optimizer-0.7.0.tar.gz --markdown 20240531/g/graphene-django-query-optimizer/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-05-31 10:42:23] INFO root fetch - processPackages [highrise-bot-sdk]: executing diffoscope
+[2024-05-31 10:42:23] INFO root fetch - processPackages [highrise-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highrise_bot_sdk-23.3.4.tar.gz tmp/highrise_bot_sdk-24.1.0.tar.gz --markdown 20240531/h/highrise-bot-sdk/23.3.4-24.1.0/README.md --exclude *.pyd
+[2024-05-31 10:42:23] INFO root fetch - processPackages [physicsml]: executing diffoscope
+[2024-05-31 10:42:23] INFO root fetch - processPackages [physicsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physicsml-0.2.4.tar.gz tmp/physicsml-0.3.0.tar.gz --markdown 20240531/p/physicsml/0.2.4-0.3.0/README.md --exclude *.pyd
+[2024-05-31 10:42:23] INFO root fetch - processPackages [rfc9457]: Remove: archive file [/home/abi/fetcher/tmp/rfc9457-0.0.8.tar.gz]
+[2024-05-31 10:42:23] INFO root fetch - processPackages [rfc9457]: Remove: archive file [/home/abi/fetcher/tmp/rfc9457-0.0.9.tar.gz]
+[2024-05-31 10:42:23] INFO root fetch - main [MainThread]: End processing [rfc9457]: success
+[2024-05-31 10:42:24] INFO root fetch - processPackages [libschrodinger]: Remove: archive file [/home/abi/fetcher/tmp/libschrodinger-1.2.0.tar.gz]
+[2024-05-31 10:42:24] INFO root fetch - processPackages [libschrodinger]: Remove: archive file [/home/abi/fetcher/tmp/libschrodinger-1.2.1.tar.gz]
+[2024-05-31 10:42:24] INFO root fetch - main [MainThread]: End processing [libschrodinger]: success
+[2024-05-31 10:42:24] INFO root fetch - processPackages [finbourne-insights-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_insights_sdk-2.1.8.tar.gz]
+[2024-05-31 10:42:24] INFO root fetch - processPackages [finbourne-insights-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_insights_sdk-2.1.9.tar.gz]
+[2024-05-31 10:42:24] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk]: success
+[2024-05-31 10:42:24] INFO root fetch - processPackages [easy-fnc]: Remove: archive file [/home/abi/fetcher/tmp/easy_fnc-0.1.3.tar.gz]
+[2024-05-31 10:42:24] INFO root fetch - processPackages [easy-fnc]: Remove: archive file [/home/abi/fetcher/tmp/easy_fnc-0.1.4.tar.gz]
+[2024-05-31 10:42:24] INFO root fetch - main [MainThread]: End processing [easy-fnc]: success
+[2024-05-31 10:42:24] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.6.3.tar.gz]
+[2024-05-31 10:42:24] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.7.0.tar.gz]
+[2024-05-31 10:42:24] INFO root fetch - main [MainThread]: End processing [graphene-django-query-optimizer]: success
+[2024-05-31 10:42:24] INFO root fetch - processPackages [highrise-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highrise_bot_sdk-23.3.4.tar.gz]
+[2024-05-31 10:42:24] INFO root fetch - processPackages [highrise-bot-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highrise_bot_sdk-24.1.0.tar.gz]
+[2024-05-31 10:42:24] INFO root fetch - main [MainThread]: End processing [highrise-bot-sdk]: success
+[2024-05-31 10:42:25] INFO root fetch - processPackages [physicsml]: Remove: archive file [/home/abi/fetcher/tmp/physicsml-0.2.4.tar.gz]
+[2024-05-31 10:42:25] INFO root fetch - processPackages [physicsml]: Remove: archive file [/home/abi/fetcher/tmp/physicsml-0.3.0.tar.gz]
+[2024-05-31 10:42:25] INFO root fetch - main [MainThread]: End processing [physicsml]: success
+[2024-05-31 10:42:25] INFO root fetch - main [MainThread]: Store serial: [23462903]
