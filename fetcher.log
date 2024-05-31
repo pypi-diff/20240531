@@ -6624,3 +6624,54 @@
 [2024-05-31 05:52:39] INFO root fetch - processPackages [multi-med-image-ml]: Remove: archive file [/home/abi/fetcher/tmp/multi_med_image_ml-0.0.8.tar.gz]
 [2024-05-31 05:52:39] INFO root fetch - main [MainThread]: End processing [multi-med-image-ml]: success
 [2024-05-31 05:52:39] INFO root fetch - main [MainThread]: Store serial: [23460223]
+[2024-05-31 05:54:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460223]
+[2024-05-31 05:54:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-edi-oca
+[2024-05-31 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-core
+[2024-05-31 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-edi-record-metadata-oca
+[2024-05-31 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctrip-helper
+[2024-05-31 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mibanco-auto-web
+[2024-05-31 05:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dokurestapi
+[2024-05-31 05:54:48] INFO root fetch - processPackages [odoo-addon-edi-oca]: New version: [16.0.1.7.0] Old Version: [16.0.1.6.1.2]
+[2024-05-31 05:54:48] INFO root fetch - processPackages [ctrip-helper]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 05:54:48] INFO root fetch - processPackages [odoo-addon-edi-oca]: Downloading https://files.pythonhosted.org/packages/ed/df/be30ff0fcbf7a67e1b155ddf305f377270c4451a102643142bcb94347d39/odoo_addon_edi_oca-16.0.1.6.1.2-py3-none-any.whl
+[2024-05-31 05:54:48] INFO root fetch - processPackages [odoo-addon-edi-record-metadata-oca]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-31 05:54:48] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/9e/e4/560722b76d3218bd6d695d911dcfcbf7900560a4604789741a4b5b780787/ctrip-helper-0.3.1.tar.gz
+[2024-05-31 05:54:48] INFO root fetch - processPackages [mibanco-auto-web]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-31 05:54:48] WARNING root fetch - processPackages [dokurestapi]: Skipping, unable to determine old version
+[2024-05-31 05:54:48] INFO root fetch - main [MainThread]: End processing [dokurestapi] error
+[2024-05-31 05:54:48] INFO root fetch - processPackages [llama-index-core]: New version: [0.9.56] Old Version: [0.9.55]
+[2024-05-31 05:54:48] INFO root fetch - processPackages [odoo-addon-edi-record-metadata-oca]: Downloading https://files.pythonhosted.org/packages/21/77/5b61813a1dc9311930e3a9b8ac3a019e9b9b819f5f616a69b9eda1929df2/odoo_addon_edi_record_metadata_oca-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-31 05:54:49] INFO root fetch - processPackages [odoo-addon-edi-oca]: Downloading https://files.pythonhosted.org/packages/16/c4/a70bf12b57b2214b02a8956b6fa387bf0bf973d0f430e51eae32c01a5c34/odoo_addon_edi_oca-16.0.1.7.0-py3-none-any.whl
+[2024-05-31 05:54:49] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/cb/c2/9d70e1ea21c2760f049ed87f06333bc85bc3afb95daa8f1cc6f9bce744ed/llama_index_core-0.9.55.tar.gz
+[2024-05-31 05:54:49] INFO root fetch - processPackages [mibanco-auto-web]: Downloading https://files.pythonhosted.org/packages/fc/31/44675c9e9b1f255599b4ad1d95453450828a38204c5eb929ff8f9bd1f662/mibanco_auto_web-1.0.3.tar.gz
+[2024-05-31 05:54:49] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/a9/e0/be0dfeec5f5a768d766b13e56c3e3f9526a8ee1aa05bc8f1267a3e25000b/ctrip-helper-0.3.2.tar.gz
+[2024-05-31 05:54:49] INFO root fetch - processPackages [odoo-addon-edi-oca]: executing diffoscope
+[2024-05-31 05:54:49] INFO root fetch - processPackages [odoo-addon-edi-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_edi_oca-16.0.1.6.1.2-py3-none-any.whl.zip tmp/odoo_addon_edi_oca-16.0.1.7.0-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-edi-oca/16.0.1.6.1.2-16.0.1.7.0/README.md --exclude *.pyd
+[2024-05-31 05:54:49] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 05:54:49] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.3.1.tar.gz tmp/ctrip-helper-0.3.2.tar.gz --markdown 20240531/c/ctrip-helper/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 05:54:49] INFO root fetch - processPackages [odoo-addon-edi-record-metadata-oca]: Downloading https://files.pythonhosted.org/packages/21/54/d5400908bd0633ef84998a43ac72d935005a3faf2a905370473083eaacaa/odoo_addon_edi_record_metadata_oca-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-31 05:54:49] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/91/1b/bae52b894555c97848977c73e4a3a778ca388b07a2435d3a33c1133bd678/llama_index_core-0.9.56.tar.gz
+[2024-05-31 05:54:49] INFO root fetch - processPackages [mibanco-auto-web]: Downloading https://files.pythonhosted.org/packages/89/c4/50abc37f5b343915c92482448e9e21611a0bddd25fa2f5693b2d74c6b92d/mibanco_auto_web-1.0.4.tar.gz
+[2024-05-31 05:54:49] INFO root fetch - processPackages [odoo-addon-edi-record-metadata-oca]: executing diffoscope
+[2024-05-31 05:54:49] INFO root fetch - processPackages [odoo-addon-edi-record-metadata-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_edi_record_metadata_oca-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_edi_record_metadata_oca-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-edi-record-metadata-oca/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-31 05:54:49] INFO root fetch - processPackages [llama-index-core]: executing diffoscope
+[2024-05-31 05:54:49] INFO root fetch - processPackages [llama-index-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_core-0.9.55.tar.gz tmp/llama_index_core-0.9.56.tar.gz --markdown 20240531/l/llama-index-core/0.9.55-0.9.56/README.md --exclude *.pyd
+[2024-05-31 05:54:49] INFO root fetch - processPackages [mibanco-auto-web]: executing diffoscope
+[2024-05-31 05:54:49] INFO root fetch - processPackages [mibanco-auto-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mibanco_auto_web-1.0.3.tar.gz tmp/mibanco_auto_web-1.0.4.tar.gz --markdown 20240531/m/mibanco-auto-web/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-31 05:54:49] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.1.tar.gz]
+[2024-05-31 05:54:49] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.2.tar.gz]
+[2024-05-31 05:54:49] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 05:54:50] INFO root fetch - processPackages [odoo-addon-edi-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_oca-16.0.1.6.1.2-py3-none-any.whl.zip]
+[2024-05-31 05:54:50] INFO root fetch - processPackages [odoo-addon-edi-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_oca-16.0.1.7.0-py3-none-any.whl.zip]
+[2024-05-31 05:54:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-edi-oca]: success
+[2024-05-31 05:54:50] INFO root fetch - processPackages [odoo-addon-edi-record-metadata-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_record_metadata_oca-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-31 05:54:50] INFO root fetch - processPackages [odoo-addon-edi-record-metadata-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_record_metadata_oca-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-31 05:54:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-edi-record-metadata-oca]: success
+[2024-05-31 05:54:50] INFO root fetch - processPackages [mibanco-auto-web]: Remove: archive file [/home/abi/fetcher/tmp/mibanco_auto_web-1.0.3.tar.gz]
+[2024-05-31 05:54:50] INFO root fetch - processPackages [mibanco-auto-web]: Remove: archive file [/home/abi/fetcher/tmp/mibanco_auto_web-1.0.4.tar.gz]
+[2024-05-31 05:54:50] INFO root fetch - main [MainThread]: End processing [mibanco-auto-web]: success
+[2024-05-31 05:54:51] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.55.tar.gz]
+[2024-05-31 05:54:51] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
+[2024-05-31 05:54:51] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
+[2024-05-31 05:54:51] INFO root fetch - main [MainThread]: Store serial: [23460243]
