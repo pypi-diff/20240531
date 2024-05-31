@@ -7987,3 +7987,51 @@
 [2024-05-31 07:26:41] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip]
 [2024-05-31 07:26:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-05-31 07:26:41] INFO root fetch - main [MainThread]: Store serial: [23460675]
+[2024-05-31 07:28:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460675]
+[2024-05-31 07:28:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 07:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-auth0
+[2024-05-31 07:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py4web
+[2024-05-31 07:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: immin5
+[2024-05-31 07:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neurocaps
+[2024-05-31 07:28:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: androguard
+[2024-05-31 07:28:49] INFO root fetch - processPackages [neurocaps]: New version: [0.9.5.post1] Old Version: [0.9.5]
+[2024-05-31 07:28:49] INFO root fetch - processPackages [immin5]: New version: [1.0.0] Old Version: [0.0.0]
+[2024-05-31 07:28:49] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/59/5f/b64fa67850a263f3395c909e2f6d09b32555fa13177653f2edae1db11cef/neurocaps-0.9.5.tar.gz
+[2024-05-31 07:28:49] INFO root fetch - processPackages [androguard]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-05-31 07:28:49] INFO root fetch - processPackages [py4web]: New version: [1.20240530.1] Old Version: [1.20240529.2]
+[2024-05-31 07:28:49] INFO root fetch - processPackages [immin5]: Downloading https://files.pythonhosted.org/packages/2a/46/9b44d4b6f59fbda6d531ac42c4bc392025da238cc18adb8af979077c85b6/immin5-0.0.0-py3-none-any.whl
+[2024-05-31 07:28:49] INFO root fetch - processPackages [pulumi-auth0]: New version: [3.4.0a1717132288] Old Version: [3.4.0a1716959542]
+[2024-05-31 07:28:50] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/fa/89/6782ad0b7f8fcc9906c94a5152639632d8a3cc56e015b3b0c7f3c6546a49/pulumi_auth0-3.4.0a1716959542.tar.gz
+[2024-05-31 07:28:50] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/57/2e/35474a05fcfa11055d81b06338e95e4d1cedd0b83c1566c1769a4ee53d61/py4web-1.20240529.2.tar.gz
+[2024-05-31 07:28:50] INFO root fetch - processPackages [androguard]: Downloading https://files.pythonhosted.org/packages/bd/74/b4d5ce146d023ab57ed8392bfab934993d8095ff6ec3e850a48a7dbbb50b/androguard-4.1.1.tar.gz
+[2024-05-31 07:28:50] INFO root fetch - processPackages [immin5]: Downloading https://files.pythonhosted.org/packages/51/1a/dd57d0513989fb33a46dc1936b5761b90a8022f84647c5e35c4a5e285cbb/immin5-1.0.0.tar.gz
+[2024-05-31 07:28:50] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/39/ce/958621b823b4ab4bb99869b7de58570a032dc0ed163e00ca45d891833f2d/neurocaps-0.9.5.post1.tar.gz
+[2024-05-31 07:28:50] INFO root fetch - processPackages [neurocaps]: executing diffoscope
+[2024-05-31 07:28:50] INFO root fetch - processPackages [neurocaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurocaps-0.9.5.tar.gz tmp/neurocaps-0.9.5.post1.tar.gz --markdown 20240531/n/neurocaps/0.9.5-0.9.5.post1/README.md --exclude *.pyd
+[2024-05-31 07:28:50] INFO root fetch - processPackages [immin5]: executing diffoscope
+[2024-05-31 07:28:50] INFO root fetch - processPackages [immin5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immin5-0.0.0-py3-none-any.whl.zip tmp/immin5-1.0.0.tar.gz --markdown 20240531/i/immin5/0.0.0-1.0.0/README.md --exclude *.pyd
+[2024-05-31 07:28:50] INFO root fetch - processPackages [pulumi-auth0]: Downloading https://files.pythonhosted.org/packages/84/06/a3fb45def79988218531b28022c50cabb8230cd04061db4f719e84dab6fa/pulumi_auth0-3.4.0a1717132288-py3-none-any.whl
+[2024-05-31 07:28:50] INFO root fetch - processPackages [androguard]: Downloading https://files.pythonhosted.org/packages/3d/00/f53ff1247c47a9edee6d8537e7092ad20a005665a9e9e007e1eca7825dc6/androguard-4.1.2.tar.gz
+[2024-05-31 07:28:50] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2024-05-31 07:28:50] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-3.4.0a1716959542.tar.gz tmp/pulumi_auth0-3.4.0a1717132288-py3-none-any.whl.zip --markdown 20240531/p/pulumi-auth0/3.4.0a1716959542-3.4.0a1717132288/README.md --exclude *.pyd
+[2024-05-31 07:28:50] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/7d/e3/d1772fff9139f8836fe2ac982ed2393eb73af27e0742e26a02bc385df291/py4web-1.20240530.1.tar.gz
+[2024-05-31 07:28:50] INFO root fetch - processPackages [androguard]: executing diffoscope
+[2024-05-31 07:28:50] INFO root fetch - processPackages [androguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/androguard-4.1.1.tar.gz tmp/androguard-4.1.2.tar.gz --markdown 20240531/a/androguard/4.1.1-4.1.2/README.md --exclude *.pyd
+[2024-05-31 07:28:51] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.5.tar.gz]
+[2024-05-31 07:28:51] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.5.post1.tar.gz]
+[2024-05-31 07:28:51] INFO root fetch - main [MainThread]: End processing [neurocaps]: success
+[2024-05-31 07:28:51] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1716959542.tar.gz]
+[2024-05-31 07:28:51] INFO root fetch - processPackages [pulumi-auth0]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_auth0-3.4.0a1717132288-py3-none-any.whl.zip]
+[2024-05-31 07:28:51] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2024-05-31 07:28:51] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2024-05-31 07:28:51] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20240529.2.tar.gz tmp/py4web-1.20240530.1.tar.gz --markdown 20240531/p/py4web/1.20240529.2-1.20240530.1/README.md --exclude *.pyd
+[2024-05-31 07:28:51] INFO root fetch - processPackages [immin5]: Remove: archive file [/home/abi/fetcher/tmp/immin5-0.0.0-py3-none-any.whl.zip]
+[2024-05-31 07:28:51] INFO root fetch - processPackages [immin5]: Remove: archive file [/home/abi/fetcher/tmp/immin5-1.0.0.tar.gz]
+[2024-05-31 07:28:51] INFO root fetch - main [MainThread]: End processing [immin5]: success
+[2024-05-31 07:28:52] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240529.2.tar.gz]
+[2024-05-31 07:28:52] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240530.1.tar.gz]
+[2024-05-31 07:28:52] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2024-05-31 07:28:52] INFO root fetch - processPackages [androguard]: Remove: archive file [/home/abi/fetcher/tmp/androguard-4.1.1.tar.gz]
+[2024-05-31 07:28:52] INFO root fetch - processPackages [androguard]: Remove: archive file [/home/abi/fetcher/tmp/androguard-4.1.2.tar.gz]
+[2024-05-31 07:28:52] INFO root fetch - main [MainThread]: End processing [androguard]: success
+[2024-05-31 07:28:52] INFO root fetch - main [MainThread]: Store serial: [23460691]
