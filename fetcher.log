@@ -4431,3 +4431,60 @@
 [2024-05-31 03:36:42] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.3.2.tar.gz]
 [2024-05-31 03:36:42] INFO root fetch - main [MainThread]: End processing [lazy-mongo]: success
 [2024-05-31 03:36:42] INFO root fetch - main [MainThread]: Store serial: [23459252]
+[2024-05-31 03:38:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459252]
+[2024-05-31 03:38:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 03:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picoscope
+[2024-05-31 03:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vision-agent
+[2024-05-31 03:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyAgrum-nightly
+[2024-05-31 03:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfilecache
+[2024-05-31 03:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imds
+[2024-05-31 03:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taguchi
+[2024-05-31 03:38:51] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 03:38:51] INFO root fetch - processPackages [pyfilecache]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 03:38:51] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-31 03:38:51] INFO root fetch - processPackages [pyfilecache]: Downloading https://files.pythonhosted.org/packages/8e/9a/425c1e97c3444412d98c12394c1a8491d3c399809d80fe89e0736af7a4d1/pyfilecache-0.1.1.tar.gz
+[2024-05-31 03:38:51] INFO root fetch - processPackages [picoscope]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-31 03:38:51] INFO root fetch - processPackages [imds]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 03:38:51] INFO root fetch - processPackages [taguchi]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-31 03:38:51] INFO root fetch - processPackages [picoscope]: Downloading https://files.pythonhosted.org/packages/bb/ea/1c4375e1d37bc25eecc4cdd346021300a968d90605fd631c763b1fb286ba/picoscope-0.7.8.tar.gz
+[2024-05-31 03:38:51] INFO root fetch - processPackages [imds]: Downloading https://files.pythonhosted.org/packages/63/87/82b737263e6576c21a09f95027fa71fe63fcc24a8bb39d75854d576bea41/imds-0.0.1.tar.gz
+[2024-05-31 03:38:51] INFO root fetch - processPackages [taguchi]: Downloading https://files.pythonhosted.org/packages/39/3b/19f33ebb6e77cad8b527ef34671af974d0656e357732a7eab21acb0f5f57/taguchi-1.0.3.tar.gz
+[2024-05-31 03:38:51] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-31 03:38:51] INFO root fetch - processPackages [pyfilecache]: Downloading https://files.pythonhosted.org/packages/3c/7b/07c5293c749456a65a17f8b999e13c8874ac8cd80752f98d6080af1af54a/pyfilecache-0.1.2-py3-none-any.whl
+[2024-05-31 03:38:51] INFO root fetch - processPackages [pyfilecache]: executing diffoscope
+[2024-05-31 03:38:51] INFO root fetch - processPackages [pyfilecache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilecache-0.1.1.tar.gz tmp/pyfilecache-0.1.2-py3-none-any.whl.zip --markdown 20240531/p/pyfilecache/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 03:38:51] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-31 03:38:51] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240531/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 03:38:51] INFO root fetch - processPackages [imds]: Downloading https://files.pythonhosted.org/packages/e0/4f/a87271565f4f91272d1a591da919d386c10580987b2f84fda00562409c67/imds-0.0.2.tar.gz
+[2024-05-31 03:38:51] INFO root fetch - processPackages [taguchi]: Downloading https://files.pythonhosted.org/packages/0b/c8/774088de9d45feda54af04dc435cf237a75110b0c3ac614ce2084c9ed50a/taguchi-1.0.4.tar.gz
+[2024-05-31 03:38:52] INFO root fetch - processPackages [imds]: executing diffoscope
+[2024-05-31 03:38:52] INFO root fetch - processPackages [imds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imds-0.0.1.tar.gz tmp/imds-0.0.2.tar.gz --markdown 20240531/i/imds/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 03:38:52] INFO root fetch - processPackages [taguchi]: executing diffoscope
+[2024-05-31 03:38:52] INFO root fetch - processPackages [taguchi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taguchi-1.0.3.tar.gz tmp/taguchi-1.0.4.tar.gz --markdown 20240531/t/taguchi/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-31 03:38:52] INFO root fetch - processPackages [picoscope]: Downloading https://files.pythonhosted.org/packages/22/84/f3b04c2a22f6a3b559838cfb6f974165ed7df20cf4ec390d06edd3cf1fe1/picoscope-0.7.9.tar.gz
+[2024-05-31 03:38:52] INFO root fetch - processPackages [pyfilecache]: Remove: archive file [/home/abi/fetcher/tmp/pyfilecache-0.1.1.tar.gz]
+[2024-05-31 03:38:52] INFO root fetch - processPackages [pyfilecache]: Remove: archive file [/home/abi/fetcher/tmp/pyfilecache-0.1.2-py3-none-any.whl.zip]
+[2024-05-31 03:38:52] INFO root fetch - main [MainThread]: End processing [pyfilecache]: success
+[2024-05-31 03:38:52] INFO root fetch - processPackages [imds]: Remove: archive file [/home/abi/fetcher/tmp/imds-0.0.1.tar.gz]
+[2024-05-31 03:38:52] INFO root fetch - processPackages [imds]: Remove: archive file [/home/abi/fetcher/tmp/imds-0.0.2.tar.gz]
+[2024-05-31 03:38:52] INFO root fetch - main [MainThread]: End processing [imds]: success
+[2024-05-31 03:38:52] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-31 03:38:52] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-31 03:38:52] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-31 03:38:52] INFO root fetch - processPackages [picoscope]: executing diffoscope
+[2024-05-31 03:38:52] INFO root fetch - processPackages [picoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picoscope-0.7.8.tar.gz tmp/picoscope-0.7.9.tar.gz --markdown 20240531/p/picoscope/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-31 03:38:53] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-31 03:38:53] INFO root fetch - processPackages [picoscope]: Remove: archive file [/home/abi/fetcher/tmp/picoscope-0.7.8.tar.gz]
+[2024-05-31 03:38:53] INFO root fetch - processPackages [picoscope]: Remove: archive file [/home/abi/fetcher/tmp/picoscope-0.7.9.tar.gz]
+[2024-05-31 03:38:53] INFO root fetch - main [MainThread]: End processing [picoscope]: success
+[2024-05-31 03:38:53] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-31 03:38:54] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-31 03:38:54] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-31 03:38:54] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240531/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-31 03:38:55] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 03:38:55] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 03:38:55] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-31 03:39:33] INFO root fetch - processPackages [taguchi]: Remove: archive file [/home/abi/fetcher/tmp/taguchi-1.0.3.tar.gz]
+[2024-05-31 03:39:33] INFO root fetch - processPackages [taguchi]: Remove: archive file [/home/abi/fetcher/tmp/taguchi-1.0.4.tar.gz]
+[2024-05-31 03:39:33] INFO root fetch - main [MainThread]: End processing [taguchi]: success
+[2024-05-31 03:39:33] INFO root fetch - main [MainThread]: Store serial: [23459280]
