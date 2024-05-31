@@ -4761,3 +4761,33 @@
 [2024-05-31 03:52:35] INFO root fetch - processPackages [aiogram-tonconnect]: Remove: archive file [/home/abi/fetcher/tmp/aiogram-tonconnect-0.13.9.tar.gz]
 [2024-05-31 03:52:35] INFO root fetch - main [MainThread]: End processing [aiogram-tonconnect]: success
 [2024-05-31 03:52:35] INFO root fetch - main [MainThread]: Store serial: [23459396]
+[2024-05-31 03:54:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459396]
+[2024-05-31 03:54:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 03:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redbacktechpy
+[2024-05-31 03:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myfunction-vikmin2022
+[2024-05-31 03:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oebuild
+[2024-05-31 03:54:44] INFO root fetch - processPackages [redbacktechpy]: New version: [0.6.0] Old Version: [0.5.5]
+[2024-05-31 03:54:44] INFO root fetch - processPackages [myfunction-vikmin2022]: New version: [0.3] Old Version: [0.2]
+[2024-05-31 03:54:44] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/c2/0f/e2b899886d8666766b63cfa4e23ad360f247141f783af34aece38659994a/redbacktechpy-0.5.5.tar.gz
+[2024-05-31 03:54:44] INFO root fetch - processPackages [myfunction-vikmin2022]: Downloading https://files.pythonhosted.org/packages/57/0b/e58aaaec27a499fb49f5613a9114e58b5013d2bf6f560d10ceca2720d8a1/myfunction_vikmin2022-0.2.tar.gz
+[2024-05-31 03:54:44] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 03:54:44] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-05-31 03:54:44] INFO root fetch - processPackages [myfunction-vikmin2022]: Downloading https://files.pythonhosted.org/packages/91/c3/5ad6367b3e8bbf72c209436815691898945806519ae0ffd374e5a9c49472/myfunction_vikmin2022-0.3.tar.gz
+[2024-05-31 03:54:44] INFO root fetch - processPackages [redbacktechpy]: Downloading https://files.pythonhosted.org/packages/b9/ef/fdd08f4f1bc2afb294fc657252791eb8401022ef38dc3de07f8abfdaeeaf/redbacktechpy-0.6.0.tar.gz
+[2024-05-31 03:54:44] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-05-31 03:54:44] INFO root fetch - processPackages [myfunction-vikmin2022]: executing diffoscope
+[2024-05-31 03:54:44] INFO root fetch - processPackages [myfunction-vikmin2022]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunction_vikmin2022-0.2.tar.gz tmp/myfunction_vikmin2022-0.3.tar.gz --markdown 20240531/m/myfunction-vikmin2022/0.2-0.3/README.md --exclude *.pyd
+[2024-05-31 03:54:44] INFO root fetch - processPackages [redbacktechpy]: executing diffoscope
+[2024-05-31 03:54:44] INFO root fetch - processPackages [redbacktechpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbacktechpy-0.5.5.tar.gz tmp/redbacktechpy-0.6.0.tar.gz --markdown 20240531/r/redbacktechpy/0.5.5-0.6.0/README.md --exclude *.pyd
+[2024-05-31 03:54:44] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-05-31 03:54:44] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240531/o/oebuild/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 03:54:45] INFO root fetch - processPackages [myfunction-vikmin2022]: Remove: archive file [/home/abi/fetcher/tmp/myfunction_vikmin2022-0.2.tar.gz]
+[2024-05-31 03:54:45] INFO root fetch - processPackages [myfunction-vikmin2022]: Remove: archive file [/home/abi/fetcher/tmp/myfunction_vikmin2022-0.3.tar.gz]
+[2024-05-31 03:54:45] INFO root fetch - main [MainThread]: End processing [myfunction-vikmin2022]: success
+[2024-05-31 03:54:45] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-0.5.5.tar.gz]
+[2024-05-31 03:54:45] INFO root fetch - processPackages [redbacktechpy]: Remove: archive file [/home/abi/fetcher/tmp/redbacktechpy-0.6.0.tar.gz]
+[2024-05-31 03:54:45] INFO root fetch - main [MainThread]: End processing [redbacktechpy]: success
+[2024-05-31 03:54:45] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-05-31 03:54:45] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-05-31 03:54:45] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-05-31 03:54:45] INFO root fetch - main [MainThread]: Store serial: [23459404]
