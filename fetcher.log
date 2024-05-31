@@ -8433,3 +8433,60 @@
 [2024-05-31 07:50:42] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.9.tar.gz]
 [2024-05-31 07:50:42] INFO root fetch - main [MainThread]: End processing [oslili]: success
 [2024-05-31 07:50:42] INFO root fetch - main [MainThread]: Store serial: [23460938]
+[2024-05-31 07:52:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460938]
+[2024-05-31 07:52:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 07:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whotfis-py
+[2024-05-31 07:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: valve-gfx-ci.executor.server
+[2024-05-31 07:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jyhelper
+[2024-05-31 07:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: icx-reward
+[2024-05-31 07:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssb-altinn3-util
+[2024-05-31 07:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-cloudflare
+[2024-05-31 07:52:51] INFO root fetch - processPackages [whotfis-py]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 07:52:51] INFO root fetch - processPackages [icx-reward]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-31 07:52:51] INFO root fetch - processPackages [valve-gfx-ci.executor.server]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 07:52:51] INFO root fetch - processPackages [whotfis-py]: Downloading https://files.pythonhosted.org/packages/c0/40/f3545ec5c68f11f9685ecb5a436efa50dbfab0c2489ec110ea457ef93de6/whotfis_py-0.0.4.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [jyhelper]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-31 07:52:51] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 07:52:51] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-05-31 07:52:51] INFO root fetch - processPackages [valve-gfx-ci.executor.server]: Downloading https://files.pythonhosted.org/packages/f6/79/c9bb2deab083c0d498ddb3ddf0fc3fa7748dbf23d3fe3a57a78fb849d74d/valve_gfx_ci.executor.server-0.0.2.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [icx-reward]: Downloading https://files.pythonhosted.org/packages/f9/e8/01bf34d52f2ead0f09a509e8ad714a258671c3fcbedf173f876d8e4f1aee/icx_reward-0.5.0.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/98/78/6fb1a492856243bff8773cf7bcd2b9604b851b14f267f6dd784cbcf51da6/jyhelper-1.2.6.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/ef/cb/003df3d92e53e6833a38e7c0e143bc4d6f12027d22363d6eaddd6cdfd246/ssb_altinn3_util-0.0.8.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [whotfis-py]: Downloading https://files.pythonhosted.org/packages/95/63/4fc0e593b30c88772863710129f9134b121374136feada254c2b22de30f0/whotfis_py-0.0.5.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [icx-reward]: Downloading https://files.pythonhosted.org/packages/2c/13/a9bbe48b041fa374779b6045a027b05b692fd41927847b9a2ca83d04761c/icx_reward-0.6.0.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/62/f9/17afa8aa44950d24ca994f7b130bab2db7be34a1adc45505a6e96dfa5ac3/jyhelper-1.2.7.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [valve-gfx-ci.executor.server]: Downloading https://files.pythonhosted.org/packages/a2/57/05880b4c50488410a1069a2730530745a9747887a0745e9128db75f4aab5/valve_gfx_ci_executor_server-0.0.3.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [whotfis-py]: executing diffoscope
+[2024-05-31 07:52:51] INFO root fetch - processPackages [whotfis-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whotfis_py-0.0.4.tar.gz tmp/whotfis_py-0.0.5.tar.gz --markdown 20240531/w/whotfis-py/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-31 07:52:51] INFO root fetch - processPackages [icx-reward]: executing diffoscope
+[2024-05-31 07:52:51] INFO root fetch - processPackages [icx-reward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icx_reward-0.5.0.tar.gz tmp/icx_reward-0.6.0.tar.gz --markdown 20240531/i/icx-reward/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-31 07:52:51] INFO root fetch - processPackages [jyhelper]: executing diffoscope
+[2024-05-31 07:52:51] INFO root fetch - processPackages [jyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jyhelper-1.2.6.tar.gz tmp/jyhelper-1.2.7.tar.gz --markdown 20240531/j/jyhelper/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-31 07:52:51] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [valve-gfx-ci.executor.server]: executing diffoscope
+[2024-05-31 07:52:51] INFO root fetch - processPackages [valve-gfx-ci.executor.server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valve_gfx_ci.executor.server-0.0.2.tar.gz tmp/valve_gfx_ci_executor_server-0.0.3.tar.gz --markdown 20240531/v/valve-gfx-ci.executor.server/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 07:52:51] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/94/61/ca19b663821a79f349fe04383c5a68f9cf3f6c75cf20b9b9f2c7a92aa898/ssb_altinn3_util-0.0.9.tar.gz
+[2024-05-31 07:52:51] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2024-05-31 07:52:51] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20240531/s/ssb-altinn3-util/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 07:52:52] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-05-31 07:52:52] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240531/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-05-31 07:52:52] INFO root fetch - processPackages [whotfis-py]: Remove: archive file [/home/abi/fetcher/tmp/whotfis_py-0.0.4.tar.gz]
+[2024-05-31 07:52:52] INFO root fetch - processPackages [whotfis-py]: Remove: archive file [/home/abi/fetcher/tmp/whotfis_py-0.0.5.tar.gz]
+[2024-05-31 07:52:52] INFO root fetch - main [MainThread]: End processing [whotfis-py]: success
+[2024-05-31 07:52:52] INFO root fetch - processPackages [valve-gfx-ci.executor.server]: Remove: archive file [/home/abi/fetcher/tmp/valve_gfx_ci.executor.server-0.0.2.tar.gz]
+[2024-05-31 07:52:52] INFO root fetch - processPackages [valve-gfx-ci.executor.server]: Remove: archive file [/home/abi/fetcher/tmp/valve_gfx_ci_executor_server-0.0.3.tar.gz]
+[2024-05-31 07:52:52] INFO root fetch - main [MainThread]: End processing [valve-gfx-ci.executor.server]: success
+[2024-05-31 07:52:52] INFO root fetch - processPackages [icx-reward]: Remove: archive file [/home/abi/fetcher/tmp/icx_reward-0.5.0.tar.gz]
+[2024-05-31 07:52:52] INFO root fetch - processPackages [icx-reward]: Remove: archive file [/home/abi/fetcher/tmp/icx_reward-0.6.0.tar.gz]
+[2024-05-31 07:52:52] INFO root fetch - main [MainThread]: End processing [icx-reward]: success
+[2024-05-31 07:52:52] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.6.tar.gz]
+[2024-05-31 07:52:52] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.7.tar.gz]
+[2024-05-31 07:52:52] INFO root fetch - main [MainThread]: End processing [jyhelper]: success
+[2024-05-31 07:52:52] INFO root fetch - processPackages [ssb-altinn3-util]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn3_util-0.0.8.tar.gz]
+[2024-05-31 07:52:52] INFO root fetch - processPackages [ssb-altinn3-util]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn3_util-0.0.9.tar.gz]
+[2024-05-31 07:52:52] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2024-05-31 07:52:53] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-05-31 07:52:53] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-05-31 07:52:53] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-05-31 07:52:53] INFO root fetch - main [MainThread]: Store serial: [23460959]
