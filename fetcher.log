@@ -19670,3 +19670,150 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:24:25] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow_base-0.0.6.tar.gz]
 [2024-05-31 15:24:25] INFO root fetch - main [MainThread]: End processing [ragstack-ai-langflow-base]: success
 [2024-05-31 15:24:25] INFO root fetch - main [MainThread]: Store serial: [23466158]
+[2024-05-31 15:26:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466158]
+[2024-05-31 15:26:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logfire
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geovizir
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: woningwaardering
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: retrocookie
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipython
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: consensusGen
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tenzir
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Starco
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: notebook
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xaif-eval
+[2024-05-31 15:26:44] INFO root fetch - processPackages [woningwaardering]: New version: [0.4.0a1] Old Version: [0.4.0a0]
+[2024-05-31 15:26:44] INFO root fetch - processPackages [Starco]: New version: [3.2.5] Old Version: [3.2.4]
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ipython]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-05-31 15:26:44] INFO root fetch - processPackages [consensusGen]: New version: [1.5] Old Version: [1.4]
+[2024-05-31 15:26:44] INFO root fetch - processPackages [notebook]: New version: [7.3.0a0] Old Version: [7.2.0rc1]
+[2024-05-31 15:26:44] INFO root fetch - processPackages [logfire]: New version: [0.38.0] Old Version: [0.37.0]
+[2024-05-31 15:26:44] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/54/12/8863f978f94c0fb27cb10b8ae880734b4db896a651d51ca7c9d35f392a2d/woningwaardering-0.4.0a0.tar.gz
+[2024-05-31 15:26:44] INFO root fetch - processPackages [retrocookie]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-31 15:26:44] INFO root fetch - processPackages [tenzir]: New version: [4.9.0] Old Version: [4.8.2]
+[2024-05-31 15:26:44] INFO root fetch - processPackages [geovizir]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-31 15:26:44] INFO root fetch - processPackages [xaif-eval]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-31 15:26:44] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/91/e8/1dc94f443e96d7914c26065d655de4204fd6d6b3651d727fad7d6f187175/Starco-3.2.4.tar.gz
+[2024-05-31 15:26:44] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/ee/16/645f51a78617c674429c62b244e5c2b923ffccfecb19eaaca80cade024f0/consensusgen-1.4.tar.gz
+[2024-05-31 15:26:44] INFO root fetch - processPackages [ipython]: Downloading https://files.pythonhosted.org/packages/f5/39/89664d8c3e4dfb0a73862cbbff8eb4028a1e3d4305da80ab0a493848ed9b/ipython-8.8.0.tar.gz
+[2024-05-31 15:26:44] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/b2/a4/c43e384b54975d1981628938fc3e2c6c83635ab40f42c10ee110f6c46070/logfire-0.37.0.tar.gz
+[2024-05-31 15:26:44] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/65/85/66b7e91a863a97f1e195d5c646b7513c2e65e4d43b7b3652f1824b7a4efd/notebook-7.2.0rc1.tar.gz
+[2024-05-31 15:26:44] INFO root fetch - processPackages [retrocookie]: Downloading https://files.pythonhosted.org/packages/26/69/900be3f512b5233190871027fbbeeeab27dd7e5530ce3ad696436a55a0f5/retrocookie-0.4.2.tar.gz
+[2024-05-31 15:26:44] INFO root fetch - processPackages [geovizir]: Downloading https://files.pythonhosted.org/packages/e4/be/7305f25e429f0da3cee3530df4e74cb40143049a8650c6127c585691d900/geovizir-1.8.0.tar.gz
+[2024-05-31 15:26:44] INFO root fetch - processPackages [tenzir]: Downloading https://files.pythonhosted.org/packages/ae/b5/3cebea0d71c0842865ba21ba5eb8ba4ec7b81c08c08b6a9b62c03ac88ce5/tenzir-4.8.2.tar.gz
+[2024-05-31 15:26:44] INFO root fetch - processPackages [xaif-eval]: Downloading https://files.pythonhosted.org/packages/c4/11/e2e0c739dddea1a3be5971754929c50b04b756d6c375d191cdf617c52ba4/xaif_eval-0.0.7.tar.gz
+[2024-05-31 15:26:45] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/a5/ff/b9db088995b7d04d16229279c29cdbf2f8e69dc521664b88f39952fe2724/Starco-3.2.5.tar.gz
+[2024-05-31 15:26:45] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/c2/c7/db02d2f06a616c1b51d85279b9beeb0065e3d78841a2d5d6c3b4b522f8f2/consensusgen-1.5.tar.gz
+[2024-05-31 15:26:45] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/f2/86/bb94594de319ae91a173a922d00d18ead788a5e994b5bb0e2248c0eefda5/woningwaardering-0.4.0a1.tar.gz
+[2024-05-31 15:26:45] INFO root fetch - processPackages [consensusGen]: executing diffoscope
+[2024-05-31 15:26:45] INFO root fetch - processPackages [consensusGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consensusgen-1.4.tar.gz tmp/consensusgen-1.5.tar.gz --markdown 20240531/c/consensusGen/1.4-1.5/README.md --exclude *.pyd
+[2024-05-31 15:26:45] INFO root fetch - processPackages [Starco]: executing diffoscope
+[2024-05-31 15:26:45] INFO root fetch - processPackages [Starco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Starco-3.2.4.tar.gz tmp/Starco-3.2.5.tar.gz --markdown 20240531/S/Starco/3.2.4-3.2.5/README.md --exclude *.pyd
+[2024-05-31 15:26:45] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/8d/4d/3df23c2bca7b99134ef30192439e4cfd44630dc2d949dcb1a780259e1c42/logfire-0.38.0.tar.gz
+[2024-05-31 15:26:45] INFO root fetch - processPackages [geovizir]: Downloading https://files.pythonhosted.org/packages/06/9f/eeff51d8be03d91dfb34668db88d6b6fd510b18e3cf6447682f2b3813b01/geovizir-1.9.0.tar.gz
+[2024-05-31 15:26:45] INFO root fetch - processPackages [retrocookie]: Downloading https://files.pythonhosted.org/packages/34/e5/5b8e0b1e1980ec9a314e26fa0525a1f1cd4f0ed438733fd9bb5fbec8809b/retrocookie-0.4.3.tar.gz
+[2024-05-31 15:26:45] INFO root fetch - processPackages [tenzir]: Downloading https://files.pythonhosted.org/packages/e2/0e/a7a8a662547907859021f98b58cfd0ea300495994aa314939c1a0539d06b/tenzir-4.9.0.tar.gz
+[2024-05-31 15:26:45] INFO root fetch - processPackages [woningwaardering]: executing diffoscope
+[2024-05-31 15:26:45] INFO root fetch - processPackages [woningwaardering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woningwaardering-0.4.0a0.tar.gz tmp/woningwaardering-0.4.0a1.tar.gz --markdown 20240531/w/woningwaardering/0.4.0a0-0.4.0a1/README.md --exclude *.pyd
+[2024-05-31 15:26:45] INFO root fetch - processPackages [ipython]: Downloading https://files.pythonhosted.org/packages/2a/48/7a2caa38a3103d18725fc809a379a4c8047b304d0731fde5f7c4bbf6bbe9/ipython-8.9.0.tar.gz
+[2024-05-31 15:26:45] INFO root fetch - processPackages [xaif-eval]: Downloading https://files.pythonhosted.org/packages/4a/39/127e4029115524e36d4010717f759c83a14f4168cefac766a5d8bcaced51/xaif_eval-0.0.8-py3-none-any.whl
+[2024-05-31 15:26:45] INFO root fetch - processPackages [geovizir]: executing diffoscope
+[2024-05-31 15:26:45] INFO root fetch - processPackages [geovizir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovizir-1.8.0.tar.gz tmp/geovizir-1.9.0.tar.gz --markdown 20240531/g/geovizir/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-31 15:26:45] INFO root fetch - processPackages [tenzir]: executing diffoscope
+[2024-05-31 15:26:45] INFO root fetch - processPackages [tenzir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenzir-4.8.2.tar.gz tmp/tenzir-4.9.0.tar.gz --markdown 20240531/t/tenzir/4.8.2-4.9.0/README.md --exclude *.pyd
+[2024-05-31 15:26:45] INFO root fetch - processPackages [logfire]: executing diffoscope
+[2024-05-31 15:26:45] INFO root fetch - processPackages [logfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-0.37.0.tar.gz tmp/logfire-0.38.0.tar.gz --markdown 20240531/l/logfire/0.37.0-0.38.0/README.md --exclude *.pyd
+[2024-05-31 15:26:45] INFO root fetch - processPackages [retrocookie]: executing diffoscope
+[2024-05-31 15:26:45] INFO root fetch - processPackages [retrocookie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retrocookie-0.4.2.tar.gz tmp/retrocookie-0.4.3.tar.gz --markdown 20240531/r/retrocookie/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-31 15:26:45] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/13/61/10e9190dcb46bd15c3b0880205d0d757bd87c9669e8cb1d81871e9836f70/notebook-7.3.0a0.tar.gz
+[2024-05-31 15:26:45] INFO root fetch - processPackages [xaif-eval]: executing diffoscope
+[2024-05-31 15:26:45] INFO root fetch - processPackages [xaif-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xaif_eval-0.0.7.tar.gz tmp/xaif_eval-0.0.8-py3-none-any.whl.zip --markdown 20240531/x/xaif-eval/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-31 15:26:46] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-1.4.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-1.5.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [consensusGen]: Start processing: few-shot-priming
+[2024-05-31 15:26:46] INFO root fetch - main [MainThread]: End processing [consensusGen]: success
+[2024-05-31 15:26:46] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.2.4.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.2.5.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [Starco]: Start processing: alphafold3-pytorch
+[2024-05-31 15:26:46] INFO root fetch - main [MainThread]: End processing [Starco]: success
+[2024-05-31 15:26:46] INFO root fetch - processPackages [geovizir]: Remove: archive file [/home/abi/fetcher/tmp/geovizir-1.8.0.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [geovizir]: Remove: archive file [/home/abi/fetcher/tmp/geovizir-1.9.0.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [geovizir]: Start processing: onyx-extension
+[2024-05-31 15:26:46] INFO root fetch - main [MainThread]: End processing [geovizir]: success
+[2024-05-31 15:26:46] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-31 15:26:46] INFO root fetch - processPackages [alphafold3-pytorch]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [onyx-extension]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [xaif-eval]: Remove: archive file [/home/abi/fetcher/tmp/xaif_eval-0.0.7.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [xaif-eval]: Remove: archive file [/home/abi/fetcher/tmp/xaif_eval-0.0.8-py3-none-any.whl.zip]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [xaif-eval]: Start processing: yoto-api
+[2024-05-31 15:26:46] INFO root fetch - main [MainThread]: End processing [xaif-eval]: success
+[2024-05-31 15:26:46] INFO root fetch - processPackages [tenzir]: Remove: archive file [/home/abi/fetcher/tmp/tenzir-4.8.2.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [tenzir]: Remove: archive file [/home/abi/fetcher/tmp/tenzir-4.9.0.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [tenzir]: Start processing: dve-lumipy-testing
+[2024-05-31 15:26:46] INFO root fetch - main [MainThread]: End processing [tenzir]: success
+[2024-05-31 15:26:46] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/88/2d/8e0ee55f7ae545e24f82825a6883f42a3e23ebb29cd1ece1d21e5cebb2a9/alphafold3_pytorch-0.1.4.tar.gz
+[2024-05-31 15:26:46] INFO root fetch - processPackages [onyx-extension]: Downloading https://files.pythonhosted.org/packages/f1/3f/420f7fc6234f7f04e0f7096f7ddfafca9848a1c1a9671f88900b8be2e558/onyx_extension-0.4.8.tar.gz
+[2024-05-31 15:26:46] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [retrocookie]: Remove: archive file [/home/abi/fetcher/tmp/retrocookie-0.4.2.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [retrocookie]: Remove: archive file [/home/abi/fetcher/tmp/retrocookie-0.4.3.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [retrocookie]: Start processing: libABCD
+[2024-05-31 15:26:46] INFO root fetch - main [MainThread]: End processing [retrocookie]: success
+[2024-05-31 15:26:46] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-31 15:26:46] INFO root fetch - processPackages [notebook]: executing diffoscope
+[2024-05-31 15:26:46] INFO root fetch - processPackages [notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-7.2.0rc1.tar.gz tmp/notebook-7.3.0a0.tar.gz --markdown 20240531/n/notebook/7.2.0rc1-7.3.0a0/README.md --exclude *.pyd
+[2024-05-31 15:26:46] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-05-31 15:26:46] INFO root fetch - processPackages [libABCD]: New version: [2.1.0] Old Version: [0.3.0]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-31 15:26:46] INFO root fetch - processPackages [ipython]: executing diffoscope
+[2024-05-31 15:26:46] INFO root fetch - processPackages [ipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-8.8.0.tar.gz tmp/ipython-8.9.0.tar.gz --markdown 20240531/i/ipython/8.8.0-8.9.0/README.md --exclude *.pyd
+[2024-05-31 15:26:46] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.37.0.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.38.0.tar.gz]
+[2024-05-31 15:26:46] INFO root fetch - main [MainThread]: End processing [logfire]: success
+[2024-05-31 15:26:46] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-31 15:26:46] INFO root fetch - processPackages [libABCD]: Downloading https://files.pythonhosted.org/packages/83/f3/3a013922aced516cc0ebdca9bef4010b8c246ebacc64b55d93ea99f28453/libABCD-0.3.0.tar.gz
+[2024-05-31 15:26:46] INFO root fetch - processPackages [onyx-extension]: Downloading https://files.pythonhosted.org/packages/57/f5/0e37c1457c8b67af0bae950e3eb58f631af6ca40d2693fe0db93ff81a457/onyx_extension-0.4.9.tar.gz
+[2024-05-31 15:26:46] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-05-31 15:26:46] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/3d/72/8f061cdc58195a9840e3995a1cd842045f159203049cae0e4d78e80a2411/alphafold3_pytorch-0.1.5.tar.gz
+[2024-05-31 15:26:47] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-31 15:26:47] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240531/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-31 15:26:47] INFO root fetch - processPackages [onyx-extension]: executing diffoscope
+[2024-05-31 15:26:47] INFO root fetch - processPackages [onyx-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyx_extension-0.4.8.tar.gz tmp/onyx_extension-0.4.9.tar.gz --markdown 20240531/o/onyx-extension/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-31 15:26:47] INFO root fetch - processPackages [alphafold3-pytorch]: executing diffoscope
+[2024-05-31 15:26:47] INFO root fetch - processPackages [alphafold3-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold3_pytorch-0.1.4.tar.gz tmp/alphafold3_pytorch-0.1.5.tar.gz --markdown 20240531/a/alphafold3-pytorch/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-31 15:26:47] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-31 15:26:47] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240531/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-31 15:26:47] INFO root fetch - processPackages [libABCD]: Downloading https://files.pythonhosted.org/packages/c4/38/0a435f34114bf585a626821064f016371d0ded2dee93eb0b2cdf18339eea/libabcd-2.1.0.tar.gz
+[2024-05-31 15:26:47] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-31 15:26:47] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240531/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-31 15:26:47] INFO root fetch - processPackages [libABCD]: executing diffoscope
+[2024-05-31 15:26:47] INFO root fetch - processPackages [libABCD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libABCD-0.3.0.tar.gz tmp/libabcd-2.1.0.tar.gz --markdown 20240531/l/libABCD/0.3.0-2.1.0/README.md --exclude *.pyd
+[2024-05-31 15:26:47] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.4.0a0.tar.gz]
+[2024-05-31 15:26:47] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.4.0a1.tar.gz]
+[2024-05-31 15:26:47] INFO root fetch - main [MainThread]: End processing [woningwaardering]: success
+[2024-05-31 15:26:47] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-31 15:26:47] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-31 15:26:47] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-31 15:26:48] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.1.4.tar.gz]
+[2024-05-31 15:26:48] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.1.5.tar.gz]
+[2024-05-31 15:26:48] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch]: success
+[2024-05-31 15:26:48] INFO root fetch - processPackages [libABCD]: Remove: archive file [/home/abi/fetcher/tmp/libABCD-0.3.0.tar.gz]
+[2024-05-31 15:26:48] INFO root fetch - processPackages [libABCD]: Remove: archive file [/home/abi/fetcher/tmp/libabcd-2.1.0.tar.gz]
+[2024-05-31 15:26:48] INFO root fetch - main [MainThread]: End processing [libABCD]: success
+[2024-05-31 15:26:48] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-31 15:26:48] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-31 15:26:48] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-31 15:26:48] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-05-31 15:26:48] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-05-31 15:26:48] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-31 15:26:49] INFO root fetch - processPackages [ipython]: Remove: archive file [/home/abi/fetcher/tmp/ipython-8.8.0.tar.gz]
+[2024-05-31 15:26:49] INFO root fetch - processPackages [ipython]: Remove: archive file [/home/abi/fetcher/tmp/ipython-8.9.0.tar.gz]
+[2024-05-31 15:26:49] INFO root fetch - main [MainThread]: End processing [ipython]: success
+[2024-05-31 15:26:54] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.4.8.tar.gz]
+[2024-05-31 15:26:54] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.4.9.tar.gz]
+[2024-05-31 15:26:54] INFO root fetch - main [MainThread]: End processing [onyx-extension]: success
+[2024-05-31 15:27:35] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.2.0rc1.tar.gz]
+[2024-05-31 15:27:35] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.3.0a0.tar.gz]
+[2024-05-31 15:27:35] INFO root fetch - main [MainThread]: End processing [notebook]: success
+[2024-05-31 15:27:35] INFO root fetch - main [MainThread]: Store serial: [23466206]
