@@ -8816,3 +8816,42 @@
 [2024-05-31 08:08:11] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-5.1.3.tar.gz]
 [2024-05-31 08:08:11] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2024-05-31 08:08:11] INFO root fetch - main [MainThread]: Store serial: [23461126]
+[2024-05-31 08:10:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461126]
+[2024-05-31 08:10:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 08:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-05-31 08:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyphetools
+[2024-05-31 08:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kafka
+[2024-05-31 08:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kong
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pyphetools]: New version: [0.9.9] Old Version: [0.9.89]
+[2024-05-31 08:10:20] INFO root fetch - processPackages [checkov]: New version: [3.2.99] Old Version: [3.2.98]
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1717134340] Old Version: [4.6.0a1716509390]
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/99/0e/2703ecc56a4b7f9696db59c44e35e1be9a40ca81dd2b2425034fc065ffe9/pyphetools-0.9.89.tar.gz
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.8.0a1717134278] Old Version: [3.8.0a1716509240]
+[2024-05-31 08:10:20] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/a9/34/826b2df19c26007adefb008f273e87b94019bf5e27747efea796070c2da5/checkov-3.2.98.tar.gz
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/96/e4/a3dd95ccec51a6cc834b82a1eb6bcfc5349b0f0e841fec188432d19cba95/pulumi_kafka-3.8.0a1716509240.tar.gz
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/21/0f/082981f834d44e19354002ae37884bb9cf87bb330242ae69908f6f893dcf/pyphetools-0.9.9.tar.gz
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/cc/c9/767eb9e14686e05ecc5271868363957caaae69625f9a3de1bc6e3946ad5e/pulumi_kong-4.6.0a1716509390.tar.gz
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.9.89.tar.gz tmp/pyphetools-0.9.9.tar.gz --markdown 20240531/p/pyphetools/0.9.89-0.9.9/README.md --exclude *.pyd
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/b7/b4/0d692cd1e4c02cf658c53cbc0009fbd3a7e6642c2bb1fea8f58ba4535c3a/pulumi_kafka-3.8.0a1717134278.tar.gz
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/38/cd/75516653b0af828ec20ee4ffeeadfd3fd2a2aa856330f8746576a68d6003/pulumi_kong-4.6.0a1717134340.tar.gz
+[2024-05-31 08:10:20] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/ff/ff/5ccc1f214d2e0bf1a97393d8f14eb1cda0f7675d0fedc54a6e5b09841a02/checkov-3.2.99.tar.gz
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.8.0a1716509240.tar.gz tmp/pulumi_kafka-3.8.0a1717134278.tar.gz --markdown 20240531/p/pulumi-kafka/3.8.0a1716509240-3.8.0a1717134278/README.md --exclude *.pyd
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2024-05-31 08:10:20] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1716509390.tar.gz tmp/pulumi_kong-4.6.0a1717134340.tar.gz --markdown 20240531/p/pulumi-kong/4.6.0a1716509390-4.6.0a1717134340/README.md --exclude *.pyd
+[2024-05-31 08:10:21] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-31 08:10:21] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.98.tar.gz tmp/checkov-3.2.99.tar.gz --markdown 20240531/c/checkov/3.2.98-3.2.99/README.md --exclude *.pyd
+[2024-05-31 08:10:21] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1716509240.tar.gz]
+[2024-05-31 08:10:21] INFO root fetch - processPackages [pulumi-kafka]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kafka-3.8.0a1717134278.tar.gz]
+[2024-05-31 08:10:21] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2024-05-31 08:10:21] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1716509390.tar.gz]
+[2024-05-31 08:10:21] INFO root fetch - processPackages [pulumi-kong]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kong-4.6.0a1717134340.tar.gz]
+[2024-05-31 08:10:21] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2024-05-31 08:10:21] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.9.89.tar.gz]
+[2024-05-31 08:10:21] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.9.9.tar.gz]
+[2024-05-31 08:10:21] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2024-05-31 08:10:28] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.98.tar.gz]
+[2024-05-31 08:10:28] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
+[2024-05-31 08:10:28] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-31 08:10:28] INFO root fetch - main [MainThread]: Store serial: [23461141]
