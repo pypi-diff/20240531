@@ -5531,3 +5531,25 @@
 [2024-05-31 04:49:32] INFO root fetch - processPackages [vital-ai-vitalsigns]: Remove: archive file [/home/abi/fetcher/tmp/vital-ai-vitalsigns-0.1.9.tar.gz]
 [2024-05-31 04:49:32] INFO root fetch - main [MainThread]: End processing [vital-ai-vitalsigns]: success
 [2024-05-31 04:49:32] INFO root fetch - main [MainThread]: Store serial: [23459791]
+[2024-05-31 04:51:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459791]
+[2024-05-31 04:51:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 04:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-account-invoice-reporting
+[2024-05-31 04:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dingosdk
+[2024-05-31 04:51:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourcery-nightly
+[2024-05-31 04:51:40] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc9] Old Version: [0.1rc8.post1]
+[2024-05-31 04:51:40] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/7b/10/2c6bb88645e870b167392150b76711fb4823aa921ee4bc314ba468f0d5dd/dingosdk-0.1rc8.post1.tar.gz
+[2024-05-31 04:51:40] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: New version: [16.0.20240530.0] Old Version: [16.0.20240203.0]
+[2024-05-31 04:51:40] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 63305453>=10485760
+[2024-05-31 04:51:40] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-31 04:51:40] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: Downloading https://files.pythonhosted.org/packages/81/f9/79995ba41c56beed6077888fa9d65aa02aa7e0b8b6eb672113dc7e5bbf75/odoo_addons_oca_account_invoice_reporting-16.0.20240203.0-py3-none-any.whl
+[2024-05-31 04:51:40] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.18.1b20] Old Version: [1.18.0]
+[2024-05-31 04:51:41] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/f5/90/6a0829f501cd9e9a73f8deb028d0f4b3bf56335a6e76fc9d4d624a3c1a00/sourcery_nightly-1.18.0-py2.py3-none-win_amd64.whl
+[2024-05-31 04:51:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: Downloading https://files.pythonhosted.org/packages/4d/13/175488726f97148a81a54792efc8c57bde2eec4c3c5b6b59b8c352494019/odoo_addons_oca_account_invoice_reporting-16.0.20240530.0-py3-none-any.whl
+[2024-05-31 04:51:41] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 76856339>=10485760
+[2024-05-31 04:51:41] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-31 04:51:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: executing diffoscope
+[2024-05-31 04:51:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_invoice_reporting-16.0.20240203.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_invoice_reporting-16.0.20240530.0-py3-none-any.whl.zip --markdown 20240531/o/odoo-addons-oca-account-invoice-reporting/16.0.20240203.0-16.0.20240530.0/README.md --exclude *.pyd
+[2024-05-31 04:51:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoice_reporting-16.0.20240203.0-py3-none-any.whl.zip]
+[2024-05-31 04:51:41] INFO root fetch - processPackages [odoo-addons-oca-account-invoice-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_invoice_reporting-16.0.20240530.0-py3-none-any.whl.zip]
+[2024-05-31 04:51:41] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-invoice-reporting]: success
+[2024-05-31 04:51:41] INFO root fetch - main [MainThread]: Store serial: [23459799]
