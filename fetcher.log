@@ -8720,3 +8720,51 @@
 [2024-05-31 08:03:50] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.9.tar.gz]
 [2024-05-31 08:03:50] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
 [2024-05-31 08:03:50] INFO root fetch - main [MainThread]: Store serial: [23461092]
+[2024-05-31 08:05:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461092]
+[2024-05-31 08:05:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 08:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-template-cli
+[2024-05-31 08:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turing-planet
+[2024-05-31 08:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-ise
+[2024-05-31 08:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: petisco
+[2024-05-31 08:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-keycloak
+[2024-05-31 08:05:58] INFO root fetch - processPackages [petisco]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-05-31 08:05:58] INFO root fetch - processPackages [pulumi-ise]: New version: [0.2.0a1717134106] Old Version: [0.2.0a1716961215]
+[2024-05-31 08:05:58] INFO root fetch - processPackages [flask-template-cli]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-31 08:05:58] INFO root fetch - processPackages [turing-planet]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 08:05:58] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/10/0a/ef52c69fb3099be6d144242674862a4d9ca2418e5542648bf3c4b7d0f12b/petisco-2.1.5.tar.gz
+[2024-05-31 08:05:58] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1717134225] Old Version: [5.4.0a1716509308]
+[2024-05-31 08:05:59] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/73/c0/166c9ff1efbdeb5256066a38c958f40da49a7a0811ef05f1666f021cfd1f/pulumi_ise-0.2.0a1716961215.tar.gz
+[2024-05-31 08:05:59] INFO root fetch - processPackages [turing-planet]: Downloading https://files.pythonhosted.org/packages/94/c6/d433403a01748b97ee6d216df3e4145cc79d62b015c7993e2e46a424a94e/turing-planet-0.1.1.tar.gz
+[2024-05-31 08:05:59] INFO root fetch - processPackages [flask-template-cli]: Downloading https://files.pythonhosted.org/packages/73/36/fa4ee88141301b358ae61efb6064935912778519689635cf93a8ba5220da/flask_template_cli-0.1.1.tar.gz
+[2024-05-31 08:05:59] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/f2/90/acd6dd10d92b9e5beaafcf28e4494eb6125b44d79ab8e5d30d83b721373a/pulumi_keycloak-5.4.0a1716509308.tar.gz
+[2024-05-31 08:05:59] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/7a/3d/f385adbc2e1ce9e814bbba9d42793cb280801c34abed41c9ee6b36294547/petisco-2.1.6.tar.gz
+[2024-05-31 08:05:59] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2024-05-31 08:05:59] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.1.5.tar.gz tmp/petisco-2.1.6.tar.gz --markdown 20240531/p/petisco/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-05-31 08:05:59] INFO root fetch - processPackages [flask-template-cli]: Downloading https://files.pythonhosted.org/packages/41/46/0ce847f191f32ca217d085e0fa0bfd97beac68a87e1c507a7a0975fedc3a/flask_template_cli-0.2.0.tar.gz
+[2024-05-31 08:05:59] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/0e/43/fe018cb9d199f0d1ec09c8099e02c7a63e1ca0e7bbc24f37e9bf738c5e96/pulumi_ise-0.2.0a1717134106.tar.gz
+[2024-05-31 08:05:59] INFO root fetch - processPackages [turing-planet]: Downloading https://files.pythonhosted.org/packages/ac/7a/a50d4333699bee7cc7cff79258afeacce6ddd1bdc59d2390959843e2fd4f/turing-planet-0.1.2.tar.gz
+[2024-05-31 08:05:59] INFO root fetch - processPackages [flask-template-cli]: executing diffoscope
+[2024-05-31 08:05:59] INFO root fetch - processPackages [flask-template-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_template_cli-0.1.1.tar.gz tmp/flask_template_cli-0.2.0.tar.gz --markdown 20240531/f/flask-template-cli/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-31 08:05:59] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/9b/17/5737b105ad250c5be645853e30fceb74f4752ca2b6f8766b370e744086a9/pulumi_keycloak-5.4.0a1717134225.tar.gz
+[2024-05-31 08:05:59] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-31 08:05:59] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.2.0a1716961215.tar.gz tmp/pulumi_ise-0.2.0a1717134106.tar.gz --markdown 20240531/p/pulumi-ise/0.2.0a1716961215-0.2.0a1717134106/README.md --exclude *.pyd
+[2024-05-31 08:05:59] INFO root fetch - processPackages [turing-planet]: executing diffoscope
+[2024-05-31 08:05:59] INFO root fetch - processPackages [turing-planet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turing-planet-0.1.1.tar.gz tmp/turing-planet-0.1.2.tar.gz --markdown 20240531/t/turing-planet/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 08:05:59] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-05-31 08:05:59] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1716509308.tar.gz tmp/pulumi_keycloak-5.4.0a1717134225.tar.gz --markdown 20240531/p/pulumi-keycloak/5.4.0a1716509308-5.4.0a1717134225/README.md --exclude *.pyd
+[2024-05-31 08:06:00] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.1.5.tar.gz]
+[2024-05-31 08:06:00] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.1.6.tar.gz]
+[2024-05-31 08:06:00] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2024-05-31 08:06:00] INFO root fetch - processPackages [turing-planet]: Remove: archive file [/home/abi/fetcher/tmp/turing-planet-0.1.1.tar.gz]
+[2024-05-31 08:06:00] INFO root fetch - processPackages [turing-planet]: Remove: archive file [/home/abi/fetcher/tmp/turing-planet-0.1.2.tar.gz]
+[2024-05-31 08:06:00] INFO root fetch - main [MainThread]: End processing [turing-planet]: success
+[2024-05-31 08:06:00] INFO root fetch - processPackages [flask-template-cli]: Remove: archive file [/home/abi/fetcher/tmp/flask_template_cli-0.1.1.tar.gz]
+[2024-05-31 08:06:00] INFO root fetch - processPackages [flask-template-cli]: Remove: archive file [/home/abi/fetcher/tmp/flask_template_cli-0.2.0.tar.gz]
+[2024-05-31 08:06:00] INFO root fetch - main [MainThread]: End processing [flask-template-cli]: success
+[2024-05-31 08:06:00] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1716961215.tar.gz]
+[2024-05-31 08:06:00] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1717134106.tar.gz]
+[2024-05-31 08:06:00] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-31 08:06:00] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1716509308.tar.gz]
+[2024-05-31 08:06:00] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1717134225.tar.gz]
+[2024-05-31 08:06:00] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-05-31 08:06:00] INFO root fetch - main [MainThread]: Store serial: [23461109]
