@@ -22306,3 +22306,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:47:51] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.16.4-py39-none-any.whl.zip]
 [2024-05-31 16:47:51] INFO root fetch - main [MainThread]: End processing [runningz]: success
 [2024-05-31 16:47:51] INFO root fetch - main [MainThread]: Store serial: [23467361]
+[2024-05-31 16:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467361]
+[2024-05-31 16:50:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 16:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cat-win
+[2024-05-31 16:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yandexcloud
+[2024-05-31 16:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ragger
+[2024-05-31 16:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: termite-toolkit
+[2024-05-31 16:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nakametpy
+[2024-05-31 16:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lb-mail
+[2024-05-31 16:50:02] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-31 16:50:02] INFO root fetch - processPackages [termite-toolkit]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-31 16:50:02] INFO root fetch - processPackages [ragger]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-31 16:50:02] WARNING root fetch - processPackages [lb-mail]: Skipping, unable to determine old version
+[2024-05-31 16:50:02] INFO root fetch - main [MainThread]: End processing [lb-mail] error
+[2024-05-31 16:50:02] INFO root fetch - processPackages [nakametpy]: New version: [2024.5.1] Old Version: [2024.5.0]
+[2024-05-31 16:50:03] INFO root fetch - processPackages [cat-win]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-31 16:50:03] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-05-31 16:50:03] INFO root fetch - processPackages [nakametpy]: Downloading https://files.pythonhosted.org/packages/01/f9/353d8489151f89fe7d6b9a75bd1d425f0a5416d0f9b4d09898a47d2273aa/nakametpy-2024.5.0.tar.gz
+[2024-05-31 16:50:03] INFO root fetch - processPackages [cat-win]: Downloading https://files.pythonhosted.org/packages/a3/9a/485b64a62801e3d47d56bcae04bbd041fd12c36f1b071f96e22fbcf6b4dd/cat_win-1.7.8-py3-none-any.whl
+[2024-05-31 16:50:03] INFO root fetch - processPackages [termite-toolkit]: Downloading https://files.pythonhosted.org/packages/d7/7e/28bab12f8afc8fb8ebce3294b8a3fc20f7ef8a0f9f0640e3d3b246e423da/termite_toolkit-0.6.1.tar.gz
+[2024-05-31 16:50:03] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-05-31 16:50:03] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/82/04/82bc3bf0c47a6f88a45e1b5604b67e6f9d9d9068f3a4713025a7590f00e8/ragger-1.9.1.tar.gz
+[2024-05-31 16:50:03] INFO root fetch - processPackages [nakametpy]: Downloading https://files.pythonhosted.org/packages/e6/1b/7c30597b7cb32076e9c1f0150758e65de7203d24443ad37a35e5932374ca/nakametpy-2024.5.1.tar.gz
+[2024-05-31 16:50:03] INFO root fetch - processPackages [nakametpy]: executing diffoscope
+[2024-05-31 16:50:03] INFO root fetch - processPackages [nakametpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nakametpy-2024.5.0.tar.gz tmp/nakametpy-2024.5.1.tar.gz --markdown 20240531/n/nakametpy/2024.5.0-2024.5.1/README.md --exclude *.pyd
+[2024-05-31 16:50:03] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-05-31 16:50:03] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240531/y/yandexcloud/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-31 16:50:03] INFO root fetch - processPackages [termite-toolkit]: Downloading https://files.pythonhosted.org/packages/b1/73/e1b55b1f9a77612065ebdb6d70d6c6ec201c66cf227493c7ce3635742fc3/termite_toolkit-0.6.2.tar.gz
+[2024-05-31 16:50:03] INFO root fetch - processPackages [cat-win]: Downloading https://files.pythonhosted.org/packages/3c/17/509997327d90ba6f50ed13c2c414538866df9b52f0cbd7a8553198d1337d/cat_win-1.7.9-py3-none-any.whl
+[2024-05-31 16:50:03] INFO root fetch - processPackages [termite-toolkit]: executing diffoscope
+[2024-05-31 16:50:03] INFO root fetch - processPackages [termite-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termite_toolkit-0.6.1.tar.gz tmp/termite_toolkit-0.6.2.tar.gz --markdown 20240531/t/termite-toolkit/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-31 16:50:03] INFO root fetch - processPackages [cat-win]: executing diffoscope
+[2024-05-31 16:50:03] INFO root fetch - processPackages [cat-win]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cat_win-1.7.8-py3-none-any.whl.zip tmp/cat_win-1.7.9-py3-none-any.whl.zip --markdown 20240531/c/cat-win/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-31 16:50:04] INFO root fetch - processPackages [ragger]: Downloading https://files.pythonhosted.org/packages/55/ac/75fc7e94a713ed26019e36497774d89d7eaa377fab2ac4183dd45fc028b5/ragger-1.9.2.tar.gz
+[2024-05-31 16:50:04] INFO root fetch - processPackages [nakametpy]: Remove: archive file [/home/abi/fetcher/tmp/nakametpy-2024.5.0.tar.gz]
+[2024-05-31 16:50:04] INFO root fetch - processPackages [nakametpy]: Remove: archive file [/home/abi/fetcher/tmp/nakametpy-2024.5.1.tar.gz]
+[2024-05-31 16:50:04] INFO root fetch - main [MainThread]: End processing [nakametpy]: success
+[2024-05-31 16:50:04] INFO root fetch - processPackages [ragger]: executing diffoscope
+[2024-05-31 16:50:04] INFO root fetch - processPackages [ragger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragger-1.9.1.tar.gz tmp/ragger-1.9.2.tar.gz --markdown 20240531/r/ragger/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-31 16:50:04] INFO root fetch - processPackages [termite-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/termite_toolkit-0.6.1.tar.gz]
+[2024-05-31 16:50:04] INFO root fetch - processPackages [termite-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/termite_toolkit-0.6.2.tar.gz]
+[2024-05-31 16:50:04] INFO root fetch - main [MainThread]: End processing [termite-toolkit]: success
+[2024-05-31 16:50:04] INFO root fetch - processPackages [cat-win]: Remove: archive file [/home/abi/fetcher/tmp/cat_win-1.7.8-py3-none-any.whl.zip]
+[2024-05-31 16:50:04] INFO root fetch - processPackages [cat-win]: Remove: archive file [/home/abi/fetcher/tmp/cat_win-1.7.9-py3-none-any.whl.zip]
+[2024-05-31 16:50:04] INFO root fetch - main [MainThread]: End processing [cat-win]: success
+[2024-05-31 16:50:05] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.1.tar.gz]
+[2024-05-31 16:50:05] INFO root fetch - processPackages [ragger]: Remove: archive file [/home/abi/fetcher/tmp/ragger-1.9.2.tar.gz]
+[2024-05-31 16:50:05] INFO root fetch - main [MainThread]: End processing [ragger]: success
+[2024-05-31 16:50:06] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-05-31 16:50:06] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-05-31 16:50:06] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-05-31 16:50:06] INFO root fetch - main [MainThread]: Store serial: [23467387]
