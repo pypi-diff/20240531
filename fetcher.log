@@ -17425,3 +17425,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:54:44] INFO root fetch - processPackages [nautilus_trader]: Remove: archive file [/home/abi/fetcher/tmp/nautilus_trader-1.194.0.tar.gz]
 [2024-05-31 13:54:44] INFO root fetch - main [MainThread]: End processing [nautilus_trader]: success
 [2024-05-31 13:54:44] INFO root fetch - main [MainThread]: Store serial: [23465119]
+[2024-05-31 13:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465119]
+[2024-05-31 13:56:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 13:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exploitfarm
+[2024-05-31 13:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lcprogramtools
+[2024-05-31 13:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zinolib
+[2024-05-31 13:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-alist
+[2024-05-31 13:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsz
+[2024-05-31 13:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-gan-metrics
+[2024-05-31 13:56:54] INFO root fetch - processPackages [exploitfarm]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 13:56:54] INFO root fetch - processPackages [lcprogramtools]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-05-31 13:56:54] INFO root fetch - processPackages [pytorch-gan-metrics]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-31 13:56:54] INFO root fetch - processPackages [zinolib]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-31 13:56:54] INFO root fetch - processPackages [jsz]: New version: [2024.5.31] Old Version: [2024.5.19]
+[2024-05-31 13:56:54] INFO root fetch - processPackages [python-alist]: New version: [0.0.9.9] Old Version: [0.0.9.8.1]
+[2024-05-31 13:56:54] INFO root fetch - processPackages [exploitfarm]: Downloading https://files.pythonhosted.org/packages/61/61/dc4c2f7401e7231c607612fbe71b886d9a3648266cdebc740441568c1155/exploitfarm-0.1.3.tar.gz
+[2024-05-31 13:56:54] INFO root fetch - processPackages [lcprogramtools]: Downloading https://files.pythonhosted.org/packages/b3/41/8d90cd7199c14a1eeaac05ff286a6ba4b75571be8744e2cf4579be97b606/lcprogramtools-0.0.3.tar.gz
+[2024-05-31 13:56:54] INFO root fetch - processPackages [zinolib]: Downloading https://files.pythonhosted.org/packages/f7/60/5f26475e69ed35e0f7e0ce7bcb0e43c0f7df5fd64e0f0c15a2a641abdd17/zinolib-1.0.4.tar.gz
+[2024-05-31 13:56:54] INFO root fetch - processPackages [pytorch-gan-metrics]: Downloading https://files.pythonhosted.org/packages/56/1f/92ab220f701a35d7c22c595ad2f280913c10d6316249eed4d8cd93fa6c46/pytorch_gan_metrics-0.5.3.tar.gz
+[2024-05-31 13:56:54] INFO root fetch - processPackages [jsz]: Downloading https://files.pythonhosted.org/packages/3f/a6/09439cb976d577ceb5eafce16488e99110d3ccc05824f5f58b83d467c39e/jsz-2024.5.19.tar.gz
+[2024-05-31 13:56:54] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/16/4c/767ed3dbd217eb3ea1f030c845f5a098d8e656f2fb4ab63c7fa0eadcf367/python_alist-0.0.9.8.1.tar.gz
+[2024-05-31 13:56:54] INFO root fetch - processPackages [lcprogramtools]: Downloading https://files.pythonhosted.org/packages/c8/a2/5d160ededd4a65be574feec5123558dad1aecfdd9df1b4b51c8cdd6b56de/lcprogramtools-1.0.0-py3-none-any.whl
+[2024-05-31 13:56:54] INFO root fetch - processPackages [exploitfarm]: Downloading https://files.pythonhosted.org/packages/15/23/15e11463c89b0f2c83c347b93905f18b75536ec4c6b29ede8d1eddd88261/exploitfarm-0.1.4.tar.gz
+[2024-05-31 13:56:54] INFO root fetch - processPackages [lcprogramtools]: executing diffoscope
+[2024-05-31 13:56:54] INFO root fetch - processPackages [lcprogramtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcprogramtools-0.0.3.tar.gz tmp/lcprogramtools-1.0.0-py3-none-any.whl.zip --markdown 20240531/l/lcprogramtools/0.0.3-1.0.0/README.md --exclude *.pyd
+[2024-05-31 13:56:54] INFO root fetch - processPackages [jsz]: Downloading https://files.pythonhosted.org/packages/db/e3/f2d1392f63ed97fe46a111c94f8e9d7f9cc0f0921dcdb74d2758ccc3be7a/jsz-2024.5.31.tar.gz
+[2024-05-31 13:56:54] INFO root fetch - processPackages [pytorch-gan-metrics]: Downloading https://files.pythonhosted.org/packages/90/47/0bbc7d88128f62f3afef335c60d5acc6facc5d8a9967e8e156ef3ad4e68f/pytorch_gan_metrics-0.5.4.tar.gz
+[2024-05-31 13:56:54] INFO root fetch - processPackages [exploitfarm]: executing diffoscope
+[2024-05-31 13:56:54] INFO root fetch - processPackages [exploitfarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exploitfarm-0.1.3.tar.gz tmp/exploitfarm-0.1.4.tar.gz --markdown 20240531/e/exploitfarm/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 13:56:54] INFO root fetch - processPackages [zinolib]: Downloading https://files.pythonhosted.org/packages/d3/b8/e735c3ab39874e08c071cdab74e87fcfb9f666b0f651f0ab137c650121fa/zinolib-1.1.0.tar.gz
+[2024-05-31 13:56:54] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/a4/c8/c4ceead1bdae1d44cce58995ae016d39c6e4134cefa9b31ef2daf97d4c36/python_alist-0.0.9.9.tar.gz
+[2024-05-31 13:56:54] INFO root fetch - processPackages [zinolib]: executing diffoscope
+[2024-05-31 13:56:54] INFO root fetch - processPackages [zinolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zinolib-1.0.4.tar.gz tmp/zinolib-1.1.0.tar.gz --markdown 20240531/z/zinolib/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-31 13:56:54] INFO root fetch - processPackages [jsz]: executing diffoscope
+[2024-05-31 13:56:54] INFO root fetch - processPackages [jsz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsz-2024.5.19.tar.gz tmp/jsz-2024.5.31.tar.gz --markdown 20240531/j/jsz/2024.5.19-2024.5.31/README.md --exclude *.pyd
+[2024-05-31 13:56:54] INFO root fetch - processPackages [pytorch-gan-metrics]: executing diffoscope
+[2024-05-31 13:56:54] INFO root fetch - processPackages [pytorch-gan-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_gan_metrics-0.5.3.tar.gz tmp/pytorch_gan_metrics-0.5.4.tar.gz --markdown 20240531/p/pytorch-gan-metrics/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-31 13:56:55] INFO root fetch - processPackages [python-alist]: executing diffoscope
+[2024-05-31 13:56:55] INFO root fetch - processPackages [python-alist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_alist-0.0.9.8.1.tar.gz tmp/python_alist-0.0.9.9.tar.gz --markdown 20240531/p/python-alist/0.0.9.8.1-0.0.9.9/README.md --exclude *.pyd
+[2024-05-31 13:56:55] INFO root fetch - processPackages [lcprogramtools]: Remove: archive file [/home/abi/fetcher/tmp/lcprogramtools-0.0.3.tar.gz]
+[2024-05-31 13:56:55] INFO root fetch - processPackages [lcprogramtools]: Remove: archive file [/home/abi/fetcher/tmp/lcprogramtools-1.0.0-py3-none-any.whl.zip]
+[2024-05-31 13:56:55] INFO root fetch - main [MainThread]: End processing [lcprogramtools]: success
+[2024-05-31 13:56:55] INFO root fetch - processPackages [exploitfarm]: Remove: archive file [/home/abi/fetcher/tmp/exploitfarm-0.1.3.tar.gz]
+[2024-05-31 13:56:55] INFO root fetch - processPackages [exploitfarm]: Remove: archive file [/home/abi/fetcher/tmp/exploitfarm-0.1.4.tar.gz]
+[2024-05-31 13:56:55] INFO root fetch - main [MainThread]: End processing [exploitfarm]: success
+[2024-05-31 13:56:55] INFO root fetch - processPackages [pytorch-gan-metrics]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_gan_metrics-0.5.3.tar.gz]
+[2024-05-31 13:56:55] INFO root fetch - processPackages [pytorch-gan-metrics]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_gan_metrics-0.5.4.tar.gz]
+[2024-05-31 13:56:55] INFO root fetch - main [MainThread]: End processing [pytorch-gan-metrics]: success
+[2024-05-31 13:56:55] INFO root fetch - processPackages [jsz]: Remove: archive file [/home/abi/fetcher/tmp/jsz-2024.5.19.tar.gz]
+[2024-05-31 13:56:55] INFO root fetch - processPackages [jsz]: Remove: archive file [/home/abi/fetcher/tmp/jsz-2024.5.31.tar.gz]
+[2024-05-31 13:56:55] INFO root fetch - main [MainThread]: End processing [jsz]: success
+[2024-05-31 13:56:55] INFO root fetch - processPackages [zinolib]: Remove: archive file [/home/abi/fetcher/tmp/zinolib-1.0.4.tar.gz]
+[2024-05-31 13:56:55] INFO root fetch - processPackages [zinolib]: Remove: archive file [/home/abi/fetcher/tmp/zinolib-1.1.0.tar.gz]
+[2024-05-31 13:56:55] INFO root fetch - main [MainThread]: End processing [zinolib]: success
+[2024-05-31 13:56:55] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.8.1.tar.gz]
+[2024-05-31 13:56:55] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.9.tar.gz]
+[2024-05-31 13:56:55] INFO root fetch - main [MainThread]: End processing [python-alist]: success
+[2024-05-31 13:56:55] INFO root fetch - main [MainThread]: Store serial: [23465140]
