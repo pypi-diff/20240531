@@ -17618,3 +17618,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:01:21] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405310929.tar.gz]
 [2024-05-31 14:01:21] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-31 14:01:21] INFO root fetch - main [MainThread]: Store serial: [23465185]
+[2024-05-31 14:03:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465185]
+[2024-05-31 14:03:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 14:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgegap-database
+[2024-05-31 14:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simo
+[2024-05-31 14:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botasaurus-driver
+[2024-05-31 14:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edgegap-cli
+[2024-05-31 14:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-search-input-field
+[2024-05-31 14:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botasaurus-driver
+[2024-05-31 14:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bus-user
+[2024-05-31 14:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: onchainpay-api
+[2024-05-31 14:03:30] INFO root fetch - processPackages [botasaurus-driver]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 14:03:30] INFO root fetch - processPackages [botasaurus-driver]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 14:03:30] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-31 14:03:30] INFO root fetch - processPackages [edgegap-database]: New version: [1.8.0] Old Version: [1.7.2]
+[2024-05-31 14:03:30] INFO root fetch - processPackages [edgegap-cli]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-31 14:03:30] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/fa/7e/4cded5fa90ea0a7190b71e9cff4e212107c073d4621880dcdb18dab7bf09/botasaurus_driver-4.0.8.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [django-search-input-field]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 14:03:30] INFO root fetch - processPackages [onchainpay-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 14:03:30] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/fa/7e/4cded5fa90ea0a7190b71e9cff4e212107c073d4621880dcdb18dab7bf09/botasaurus_driver-4.0.8.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [bus-user]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-31 14:03:30] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-31 14:03:30] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-31 14:03:30] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-31 14:03:30] INFO root fetch - processPackages [edgegap-database]: Downloading https://files.pythonhosted.org/packages/03/d7/82e97edd0426bcfa454beeb0e83790ea7f8f02b3b16a59b1c879e02dbf39/edgegap_database-1.7.2.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [django-search-input-field]: Downloading https://files.pythonhosted.org/packages/63/3b/bf61c55dd8c00c2f247980412f7e083800f6238d832800ba7fe62ea71cf3/django-search-input-field-0.1.8.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [edgegap-cli]: Downloading https://files.pythonhosted.org/packages/5d/a5/e17330c501e88788c1967a1355d57cb906e574c7a394ba91a88ea4eb1b75/edgegap_cli-1.7.0.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/04/be/192cc09f759f5b0f9e9b35f65156d18f71c1fb88a3cfb3e0d15a9b96d9f5/bus_user-0.3.4.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [onchainpay-api]: Downloading https://files.pythonhosted.org/packages/1e/5d/3f6c052088b72e5ea8aca9fa9e334c750d4c3cb20a880ff8dd5ce3ee009e/onchainpay_api-0.0.5-py3-none-any.whl
+[2024-05-31 14:03:30] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/ad/57/c5587eb0a46a39cf90a36835b2e3372614749a4cde08db6baad1ff2eac4e/botasaurus_driver-4.0.9.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/ad/57/c5587eb0a46a39cf90a36835b2e3372614749a4cde08db6baad1ff2eac4e/botasaurus_driver-4.0.9.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [botasaurus-driver]: executing diffoscope
+[2024-05-31 14:03:30] INFO root fetch - processPackages [botasaurus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_driver-4.0.8.tar.gz tmp/botasaurus_driver-4.0.9.tar.gz --markdown 20240531/b/botasaurus-driver/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 14:03:30] INFO root fetch - processPackages [botasaurus-driver]: executing diffoscope
+[2024-05-31 14:03:30] INFO root fetch - processPackages [botasaurus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_driver-4.0.8.tar.gz tmp/botasaurus_driver-4.0.9.tar.gz --markdown 20240531/b/botasaurus-driver/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 14:03:30] INFO root fetch - processPackages [edgegap-database]: Downloading https://files.pythonhosted.org/packages/de/1a/d6682ee2d6a030fa902e679b25c0426241a36acd05bbbecdb18ae250d138/edgegap_database-1.8.0.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [edgegap-cli]: Downloading https://files.pythonhosted.org/packages/8c/2a/2d70c7969bbd62b0cae4508f1d6a6a04dbc70b1f18242ee7f45df46272dd/edgegap_cli-1.8.0.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/c1/b2/64c854cc75d5ceff16061ee7b99fafc6fa8be5f4f0df2be552483f999172/bus_user-0.3.5.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [django-search-input-field]: Downloading https://files.pythonhosted.org/packages/a6/df/f8dbe7b85e0664e79ec390149996ddd9510828b1de9c3f7fd5bf48641a91/django-search-input-field-0.1.9.tar.gz
+[2024-05-31 14:03:30] INFO root fetch - processPackages [onchainpay-api]: Downloading https://files.pythonhosted.org/packages/f0/e7/4a59d993a5c65d531681f57e2fc94419f5b0d93abd5fc3c3c5fc3afb0f0f/onchainpay_api-0.0.6-py3-none-any.whl
+[2024-05-31 14:03:30] INFO root fetch - processPackages [edgegap-database]: executing diffoscope
+[2024-05-31 14:03:30] INFO root fetch - processPackages [edgegap-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_database-1.7.2.tar.gz tmp/edgegap_database-1.8.0.tar.gz --markdown 20240531/e/edgegap-database/1.7.2-1.8.0/README.md --exclude *.pyd
+[2024-05-31 14:03:31] INFO root fetch - processPackages [django-search-input-field]: executing diffoscope
+[2024-05-31 14:03:31] INFO root fetch - processPackages [django-search-input-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-search-input-field-0.1.8.tar.gz tmp/django-search-input-field-0.1.9.tar.gz --markdown 20240531/d/django-search-input-field/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 14:03:31] INFO root fetch - processPackages [edgegap-cli]: executing diffoscope
+[2024-05-31 14:03:31] INFO root fetch - processPackages [edgegap-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_cli-1.7.0.tar.gz tmp/edgegap_cli-1.8.0.tar.gz --markdown 20240531/e/edgegap-cli/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-31 14:03:31] INFO root fetch - processPackages [bus-user]: executing diffoscope
+[2024-05-31 14:03:31] INFO root fetch - processPackages [bus-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_user-0.3.4.tar.gz tmp/bus_user-0.3.5.tar.gz --markdown 20240531/b/bus-user/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-31 14:03:31] INFO root fetch - processPackages [onchainpay-api]: executing diffoscope
+[2024-05-31 14:03:31] INFO root fetch - processPackages [onchainpay-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onchainpay_api-0.0.5-py3-none-any.whl.zip tmp/onchainpay_api-0.0.6-py3-none-any.whl.zip --markdown 20240531/o/onchainpay-api/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 14:03:31] INFO root fetch - processPackages [edgegap-database]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_database-1.7.2.tar.gz]
+[2024-05-31 14:03:31] INFO root fetch - processPackages [edgegap-database]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_database-1.8.0.tar.gz]
+[2024-05-31 14:03:31] INFO root fetch - main [MainThread]: End processing [edgegap-database]: success
+[2024-05-31 14:03:31] INFO root fetch - processPackages [django-search-input-field]: Remove: archive file [/home/abi/fetcher/tmp/django-search-input-field-0.1.8.tar.gz]
+[2024-05-31 14:03:31] INFO root fetch - processPackages [django-search-input-field]: Remove: archive file [/home/abi/fetcher/tmp/django-search-input-field-0.1.9.tar.gz]
+[2024-05-31 14:03:31] INFO root fetch - main [MainThread]: End processing [django-search-input-field]: success
+[2024-05-31 14:03:31] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.8.tar.gz]
+[2024-05-31 14:03:31] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.9.tar.gz]
+[2024-05-31 14:03:31] INFO root fetch - main [MainThread]: End processing [botasaurus-driver]: success
+[2024-05-31 14:03:31] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.4.tar.gz]
+[2024-05-31 14:03:31] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.5.tar.gz]
+[2024-05-31 14:03:31] INFO root fetch - main [MainThread]: End processing [bus-user]: success
+[2024-05-31 14:03:31] INFO root fetch - processPackages [edgegap-cli]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_cli-1.7.0.tar.gz]
+[2024-05-31 14:03:31] INFO root fetch - processPackages [edgegap-cli]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_cli-1.8.0.tar.gz]
+[2024-05-31 14:03:31] INFO root fetch - main [MainThread]: End processing [edgegap-cli]: success
+[2024-05-31 14:03:31] INFO root fetch - main [MainThread]: End processing [botasaurus-driver]: success
+[2024-05-31 14:03:32] INFO root fetch - processPackages [onchainpay-api]: Remove: archive file [/home/abi/fetcher/tmp/onchainpay_api-0.0.5-py3-none-any.whl.zip]
+[2024-05-31 14:03:32] INFO root fetch - processPackages [onchainpay-api]: Remove: archive file [/home/abi/fetcher/tmp/onchainpay_api-0.0.6-py3-none-any.whl.zip]
+[2024-05-31 14:03:32] INFO root fetch - main [MainThread]: End processing [onchainpay-api]: success
+[2024-05-31 14:03:32] INFO root fetch - main [MainThread]: Store serial: [23465211]
