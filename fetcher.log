@@ -7717,3 +7717,33 @@
 [2024-05-31 07:07:05] INFO root fetch - processPackages [julep]: Remove: archive file [/home/abi/fetcher/tmp/julep-0.3.4.tar.gz]
 [2024-05-31 07:07:05] INFO root fetch - main [MainThread]: End processing [julep]: success
 [2024-05-31 07:07:05] INFO root fetch - main [MainThread]: Store serial: [23460585]
+[2024-05-31 07:09:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460585]
+[2024-05-31 07:09:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: janus-core
+[2024-05-31 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdss-drift
+[2024-05-31 07:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: topmost
+[2024-05-31 07:09:13] INFO root fetch - processPackages [topmost]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 07:09:13] INFO root fetch - processPackages [topmost]: Downloading https://files.pythonhosted.org/packages/77/e4/1b061eceecbd4463884f881f173452d80b45a21c4bf8e290c909000423bd/topmost-0.0.2-5-py3-none-any.whl
+[2024-05-31 07:09:13] INFO root fetch - processPackages [janus-core]: New version: [0.5.0b0] Old Version: [0.4.0b0]
+[2024-05-31 07:09:13] INFO root fetch - processPackages [sdss-drift]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-31 07:09:14] INFO root fetch - processPackages [janus-core]: Downloading https://files.pythonhosted.org/packages/27/44/0836248efa3cc9138bc3c8f8076f3e3c656cc43ed1d90a1cfab1f4acbdac/janus_core-0.4.0b0.tar.gz
+[2024-05-31 07:09:14] INFO root fetch - processPackages [topmost]: Downloading https://files.pythonhosted.org/packages/e3/b4/a4b48fab0c34aa5337d45f645a0279f71a8ae6d3d9ae99b94753af96df7a/topmost-0.0.3-1-py3-none-any.whl
+[2024-05-31 07:09:14] INFO root fetch - processPackages [sdss-drift]: Downloading https://files.pythonhosted.org/packages/e8/60/e5a9da536722b2436574cd7184cd3d570a35ba7d7c0f18811975ed679c86/sdss_drift-1.1.0.tar.gz
+[2024-05-31 07:09:14] INFO root fetch - processPackages [topmost]: executing diffoscope
+[2024-05-31 07:09:14] INFO root fetch - processPackages [topmost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topmost-0.0.2-5-py3-none-any.whl.zip tmp/topmost-0.0.3-1-py3-none-any.whl.zip --markdown 20240531/t/topmost/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 07:09:14] INFO root fetch - processPackages [sdss-drift]: Downloading https://files.pythonhosted.org/packages/7d/33/b26df92d114798f618576c4c11797d880465e002738d28920313667d3b63/sdss_drift-1.2.0.tar.gz
+[2024-05-31 07:09:14] INFO root fetch - processPackages [janus-core]: Downloading https://files.pythonhosted.org/packages/d4/62/8564b94de891c039b5708cb273fb9b9025edacc021b107313fae36d7d9a1/janus_core-0.5.0b0.tar.gz
+[2024-05-31 07:09:14] INFO root fetch - processPackages [sdss-drift]: executing diffoscope
+[2024-05-31 07:09:14] INFO root fetch - processPackages [sdss-drift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_drift-1.1.0.tar.gz tmp/sdss_drift-1.2.0.tar.gz --markdown 20240531/s/sdss-drift/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-31 07:09:14] INFO root fetch - processPackages [janus-core]: executing diffoscope
+[2024-05-31 07:09:14] INFO root fetch - processPackages [janus-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus_core-0.4.0b0.tar.gz tmp/janus_core-0.5.0b0.tar.gz --markdown 20240531/j/janus-core/0.4.0b0-0.5.0b0/README.md --exclude *.pyd
+[2024-05-31 07:09:15] INFO root fetch - processPackages [topmost]: Remove: archive file [/home/abi/fetcher/tmp/topmost-0.0.2-5-py3-none-any.whl.zip]
+[2024-05-31 07:09:15] INFO root fetch - processPackages [topmost]: Remove: archive file [/home/abi/fetcher/tmp/topmost-0.0.3-1-py3-none-any.whl.zip]
+[2024-05-31 07:09:15] INFO root fetch - main [MainThread]: End processing [topmost]: success
+[2024-05-31 07:09:15] INFO root fetch - processPackages [sdss-drift]: Remove: archive file [/home/abi/fetcher/tmp/sdss_drift-1.1.0.tar.gz]
+[2024-05-31 07:09:15] INFO root fetch - processPackages [sdss-drift]: Remove: archive file [/home/abi/fetcher/tmp/sdss_drift-1.2.0.tar.gz]
+[2024-05-31 07:09:15] INFO root fetch - main [MainThread]: End processing [sdss-drift]: success
+[2024-05-31 07:09:15] INFO root fetch - processPackages [janus-core]: Remove: archive file [/home/abi/fetcher/tmp/janus_core-0.4.0b0.tar.gz]
+[2024-05-31 07:09:15] INFO root fetch - processPackages [janus-core]: Remove: archive file [/home/abi/fetcher/tmp/janus_core-0.5.0b0.tar.gz]
+[2024-05-31 07:09:15] INFO root fetch - main [MainThread]: End processing [janus-core]: success
+[2024-05-31 07:09:15] INFO root fetch - main [MainThread]: Store serial: [23460594]
