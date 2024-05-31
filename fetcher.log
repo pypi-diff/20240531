@@ -14944,3 +14944,65 @@
 [2024-05-31 12:17:42] INFO root fetch - processPackages [pyNukiBT]: Remove: archive file [/home/abi/fetcher/tmp/pyNukiBT-0.0.9.tar.gz]
 [2024-05-31 12:17:42] INFO root fetch - main [MainThread]: End processing [pyNukiBT]: success
 [2024-05-31 12:17:42] INFO root fetch - main [MainThread]: Store serial: [23464051]
+[2024-05-31 12:19:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464051]
+[2024-05-31 12:19:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 12:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: energy-base
+[2024-05-31 12:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roastery
+[2024-05-31 12:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py3status
+[2024-05-31 12:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ferncrypter
+[2024-05-31 12:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simplemma
+[2024-05-31 12:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crawlee
+[2024-05-31 12:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dialog-workflow-local
+[2024-05-31 12:19:50] INFO root fetch - processPackages [roastery]: New version: [0.20240531.dev0] Old Version: [0.20240530.dev0]
+[2024-05-31 12:19:50] INFO root fetch - processPackages [ferncrypter]: New version: [1.1] Old Version: [1.0]
+[2024-05-31 12:19:50] INFO root fetch - processPackages [energy-base]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-31 12:19:50] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/5d/d4/02b4b68d5562a59bf61eb4338d45bcc69825c00c8c7fc6ef06d2d77a18f1/energy_base-1.7.8.tar.gz
+[2024-05-31 12:19:50] INFO root fetch - processPackages [simplemma]: New version: [1.0.0] Old Version: [0.9.1]
+[2024-05-31 12:19:50] INFO root fetch - processPackages [crawlee]: New version: [0.0.5b1] Old Version: [0.0.4b4]
+[2024-05-31 12:19:50] INFO root fetch - processPackages [py3status]: New version: [3.9] Old Version: [3.8]
+[2024-05-31 12:19:51] INFO root fetch - processPackages [dialog-workflow-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 12:19:51] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/ca/aa/fdbea09af78c7fbe69dcf9c288ed3e23ef3491f06017d329fa7db7433a57/roastery-0.20240530.dev0.tar.gz
+[2024-05-31 12:19:51] INFO root fetch - processPackages [ferncrypter]: Downloading https://files.pythonhosted.org/packages/df/9c/829f68f01a0434b38cbd6b9d67fd4e98340a8d8786dd674ea8fc7aeb62a0/ferncrypter-1.0-py3-none-any.whl
+[2024-05-31 12:19:51] INFO root fetch - processPackages [py3status]: Downloading https://files.pythonhosted.org/packages/19/1b/52fc1b6956db0638a56292ce00537545d19b9a1d30a156a2b416675e4ac3/py3status-3.8.tar.gz
+[2024-05-31 12:19:51] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/48/6f/4e69b9ba247e75e2d06ed0169d3f9ede2ae64af3a5a5f35a84081fe0ed82/crawlee-0.0.4b4.tar.gz
+[2024-05-31 12:19:51] INFO root fetch - processPackages [simplemma]: Downloading https://files.pythonhosted.org/packages/f1/0f/f6cff760d641b0ff5d3a8978d791eafdcfeffd762c2b103b5e7a3a511f16/simplemma-0.9.1.tar.gz
+[2024-05-31 12:19:51] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/12/4e/eb510653c80cc21c727329990789e1de1e3a7800e46d59551ad531280761/energy_base-1.7.9.tar.gz
+[2024-05-31 12:19:51] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/d7/1b/685106e77cf65c8cf8b6d89352922054ce5d7b8980732c303e96ea9deb86/dialog_workflow_local-0.0.98.tar.gz
+[2024-05-31 12:19:51] INFO root fetch - processPackages [roastery]: Downloading https://files.pythonhosted.org/packages/de/c5/9795cb9a24f16d9491ed0d2f09b8503df0887244e1c1223da2417357bcfe/roastery-0.20240531.dev0.tar.gz
+[2024-05-31 12:19:51] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-05-31 12:19:51] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.7.8.tar.gz tmp/energy_base-1.7.9.tar.gz --markdown 20240531/e/energy-base/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-31 12:19:51] INFO root fetch - processPackages [ferncrypter]: Downloading https://files.pythonhosted.org/packages/0c/eb/49f3a468ed5a2e6f8658fcf5f6b49d0fa6e5e667bbdf511c18df2dbc84a8/ferncrypter-1.1-py3-none-any.whl
+[2024-05-31 12:19:51] INFO root fetch - processPackages [roastery]: executing diffoscope
+[2024-05-31 12:19:51] INFO root fetch - processPackages [roastery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roastery-0.20240530.dev0.tar.gz tmp/roastery-0.20240531.dev0.tar.gz --markdown 20240531/r/roastery/0.20240530.dev0-0.20240531.dev0/README.md --exclude *.pyd
+[2024-05-31 12:19:51] INFO root fetch - processPackages [ferncrypter]: executing diffoscope
+[2024-05-31 12:19:51] INFO root fetch - processPackages [ferncrypter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferncrypter-1.0-py3-none-any.whl.zip tmp/ferncrypter-1.1-py3-none-any.whl.zip --markdown 20240531/f/ferncrypter/1.0-1.1/README.md --exclude *.pyd
+[2024-05-31 12:19:51] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/bf/7b/b10c5d26b7d51057a82a0826731a8858505d910d4b938b4e61838fbd6f31/crawlee-0.0.5b1.tar.gz
+[2024-05-31 12:19:51] INFO root fetch - processPackages [dialog-workflow-local]: Downloading https://files.pythonhosted.org/packages/05/c3/6c26db02b10e70c46d216b7b8ce442c6d7069761960f4589837162999b2a/dialog_workflow_local-0.0.99.tar.gz
+[2024-05-31 12:19:51] INFO root fetch - processPackages [py3status]: Downloading https://files.pythonhosted.org/packages/44/e5/b7a7716840f5b564694737b3d09ed01ccbff46f37c60a2ab6f286709463b/py3status-3.9-py3-none-any.whl
+[2024-05-31 12:19:51] WARNING root fetch - processPackages [simplemma]: Skipping package: exceeds size limit 75523297>=10485760
+[2024-05-31 12:19:51] INFO root fetch - main [MainThread]: End processing [simplemma] error
+[2024-05-31 12:19:51] INFO root fetch - processPackages [dialog-workflow-local]: executing diffoscope
+[2024-05-31 12:19:51] INFO root fetch - processPackages [dialog-workflow-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog_workflow_local-0.0.98.tar.gz tmp/dialog_workflow_local-0.0.99.tar.gz --markdown 20240531/d/dialog-workflow-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 12:19:51] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-05-31 12:19:51] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.4b4.tar.gz tmp/crawlee-0.0.5b1.tar.gz --markdown 20240531/c/crawlee/0.0.4b4-0.0.5b1/README.md --exclude *.pyd
+[2024-05-31 12:19:51] INFO root fetch - processPackages [py3status]: executing diffoscope
+[2024-05-31 12:19:51] INFO root fetch - processPackages [py3status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3status-3.8.tar.gz tmp/py3status-3.9-py3-none-any.whl.zip --markdown 20240531/p/py3status/3.8-3.9/README.md --exclude *.pyd
+[2024-05-31 12:19:52] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240530.dev0.tar.gz]
+[2024-05-31 12:19:52] INFO root fetch - processPackages [roastery]: Remove: archive file [/home/abi/fetcher/tmp/roastery-0.20240531.dev0.tar.gz]
+[2024-05-31 12:19:52] INFO root fetch - main [MainThread]: End processing [roastery]: success
+[2024-05-31 12:19:52] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.8.tar.gz]
+[2024-05-31 12:19:52] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.9.tar.gz]
+[2024-05-31 12:19:52] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-05-31 12:19:52] INFO root fetch - processPackages [ferncrypter]: Remove: archive file [/home/abi/fetcher/tmp/ferncrypter-1.0-py3-none-any.whl.zip]
+[2024-05-31 12:19:52] INFO root fetch - processPackages [ferncrypter]: Remove: archive file [/home/abi/fetcher/tmp/ferncrypter-1.1-py3-none-any.whl.zip]
+[2024-05-31 12:19:52] INFO root fetch - main [MainThread]: End processing [ferncrypter]: success
+[2024-05-31 12:19:52] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog_workflow_local-0.0.98.tar.gz]
+[2024-05-31 12:19:52] INFO root fetch - processPackages [dialog-workflow-local]: Remove: archive file [/home/abi/fetcher/tmp/dialog_workflow_local-0.0.99.tar.gz]
+[2024-05-31 12:19:52] INFO root fetch - main [MainThread]: End processing [dialog-workflow-local]: success
+[2024-05-31 12:19:52] INFO root fetch - processPackages [py3status]: Remove: archive file [/home/abi/fetcher/tmp/py3status-3.8.tar.gz]
+[2024-05-31 12:19:52] INFO root fetch - processPackages [py3status]: Remove: archive file [/home/abi/fetcher/tmp/py3status-3.9-py3-none-any.whl.zip]
+[2024-05-31 12:19:52] INFO root fetch - main [MainThread]: End processing [py3status]: success
+[2024-05-31 12:19:52] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.4b4.tar.gz]
+[2024-05-31 12:19:52] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.5b1.tar.gz]
+[2024-05-31 12:19:52] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-05-31 12:19:52] INFO root fetch - main [MainThread]: Store serial: [23464080]
