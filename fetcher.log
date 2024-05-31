@@ -9049,3 +9049,36 @@
 [2024-05-31 08:19:23] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240530.tar.gz]
 [2024-05-31 08:19:23] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-05-31 08:19:23] INFO root fetch - main [MainThread]: Store serial: [23461219]
+[2024-05-31 08:21:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461219]
+[2024-05-31 08:21:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 08:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paradance
+[2024-05-31 08:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-minio
+[2024-05-31 08:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dts-utils
+[2024-05-31 08:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyluba
+[2024-05-31 08:21:32] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 08:21:32] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-31 08:21:32] WARNING root fetch - processPackages [dts-utils]: Skipping, unable to determine old version
+[2024-05-31 08:21:32] INFO root fetch - main [MainThread]: End processing [dts-utils] error
+[2024-05-31 08:21:32] INFO root fetch - processPackages [paradance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-31 08:21:32] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-05-31 08:21:32] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-31 08:21:32] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/8f/4c/6a3c7d4731f17fd3b3e4130274d7bbae13be34f848072567de4b0ab61969/paradance-0.4.8.tar.gz
+[2024-05-31 08:21:32] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-05-31 08:21:32] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-31 08:21:32] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240531/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 08:21:33] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/ab/20/cc427c1600f67ef9036e4f225cc6bcdac42746ca6db329d2d1029be4c84e/paradance-0.4.9.tar.gz
+[2024-05-31 08:21:33] INFO root fetch - processPackages [paradance]: executing diffoscope
+[2024-05-31 08:21:33] INFO root fetch - processPackages [paradance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradance-0.4.8.tar.gz tmp/paradance-0.4.9.tar.gz --markdown 20240531/p/paradance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-31 08:21:33] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-05-31 08:21:33] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-05-31 08:21:33] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240531/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-05-31 08:21:33] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-31 08:21:33] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-31 08:21:33] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-31 08:21:33] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.8.tar.gz]
+[2024-05-31 08:21:33] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.9.tar.gz]
+[2024-05-31 08:21:33] INFO root fetch - main [MainThread]: End processing [paradance]: success
+[2024-05-31 08:21:34] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-05-31 08:21:34] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-05-31 08:21:34] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-05-31 08:21:34] INFO root fetch - main [MainThread]: Store serial: [23461233]
