@@ -13528,3 +13528,54 @@
 [2024-05-31 11:26:45] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
 [2024-05-31 11:26:45] INFO root fetch - main [MainThread]: End processing [irispie]: success
 [2024-05-31 11:26:45] INFO root fetch - main [MainThread]: Store serial: [23463376]
+[2024-05-31 11:28:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463376]
+[2024-05-31 11:28:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 11:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cira
+[2024-05-31 11:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comotion-sdk
+[2024-05-31 11:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DLMS-SPODES
+[2024-05-31 11:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optimum-neuron
+[2024-05-31 11:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pikepdf
+[2024-05-31 11:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: captacity
+[2024-05-31 11:28:54] INFO root fetch - processPackages [cira]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-31 11:28:54] INFO root fetch - processPackages [optimum-neuron]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 11:28:54] WARNING root fetch - processPackages [captacity]: Skipping, unable to determine old version
+[2024-05-31 11:28:54] INFO root fetch - processPackages [comotion-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 11:28:54] INFO root fetch - main [MainThread]: End processing [captacity] error
+[2024-05-31 11:28:54] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-31 11:28:54] INFO root fetch - processPackages [pikepdf]: New version: [9.0.0rc1] Old Version: [9.0.0]
+[2024-05-31 11:28:54] INFO root fetch - processPackages [cira]: Downloading https://files.pythonhosted.org/packages/6f/8d/d29ff3990d40db4503848a94ea9c6c4fc43399cc5406be4349f1dcaabbd2/cira-3.1.0.tar.gz
+[2024-05-31 11:28:54] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2024-05-31 11:28:54] INFO root fetch - processPackages [optimum-neuron]: Downloading https://files.pythonhosted.org/packages/ca/49/fe58fbaeac951df22a50366d5bb2af8e0660c7b1ca87bfbcec2f6d11343e/optimum-neuron-0.0.8.tar.gz
+[2024-05-31 11:28:54] INFO root fetch - processPackages [comotion-sdk]: Downloading https://files.pythonhosted.org/packages/1c/3f/8478a6981eb5950668649d9ff965a392dcc55c80fb93503728f03bc2bdde/comotion-sdk-0.0.8.tar.gz
+[2024-05-31 11:28:54] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/5d/7e/01a789a9b60b0a9f82d69ae53e71c6872c41cc9d90bbb8d0610965218bc6/pikepdf-9.0.0-cp312-cp312-macosx_14_0_arm64.whl
+[2024-05-31 11:28:54] INFO root fetch - processPackages [cira]: Downloading https://files.pythonhosted.org/packages/b2/6d/0dda28b0f8df7583437e55c560b2310e5bad61adcc33abe29c991b4bbd88/cira-3.2.0.tar.gz
+[2024-05-31 11:28:54] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2024-05-31 11:28:54] INFO root fetch - processPackages [optimum-neuron]: Downloading https://files.pythonhosted.org/packages/7a/57/a619a499bef4aada51bfa71b84d7960afbafacb18c52eddfd106497bf233/optimum-neuron-0.0.9.tar.gz
+[2024-05-31 11:28:54] INFO root fetch - processPackages [cira]: executing diffoscope
+[2024-05-31 11:28:54] INFO root fetch - processPackages [cira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cira-3.1.0.tar.gz tmp/cira-3.2.0.tar.gz --markdown 20240531/c/cira/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-31 11:28:54] INFO root fetch - processPackages [comotion-sdk]: Downloading https://files.pythonhosted.org/packages/85/a2/58a225cc74a276d182cd9b45bd798c056ead620c3eb558fbfd363b2210f5/comotion-sdk-0.0.9.tar.gz
+[2024-05-31 11:28:55] INFO root fetch - processPackages [optimum-neuron]: executing diffoscope
+[2024-05-31 11:28:55] INFO root fetch - processPackages [optimum-neuron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-neuron-0.0.8.tar.gz tmp/optimum-neuron-0.0.9.tar.gz --markdown 20240531/o/optimum-neuron/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 11:28:55] INFO root fetch - processPackages [comotion-sdk]: executing diffoscope
+[2024-05-31 11:28:55] INFO root fetch - processPackages [comotion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comotion-sdk-0.0.8.tar.gz tmp/comotion-sdk-0.0.9.tar.gz --markdown 20240531/c/comotion-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 11:28:55] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2024-05-31 11:28:55] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20240531/D/DLMS-SPODES/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-31 11:28:55] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/53/87/6ff6d82e095bb5389b7f658fe5fd9dcf3ecc9bf9312a787c0efdf9cecf48/pikepdf-9.0.0rc1.tar.gz
+[2024-05-31 11:28:55] INFO root fetch - processPackages [cira]: Remove: archive file [/home/abi/fetcher/tmp/cira-3.1.0.tar.gz]
+[2024-05-31 11:28:55] INFO root fetch - processPackages [cira]: Remove: archive file [/home/abi/fetcher/tmp/cira-3.2.0.tar.gz]
+[2024-05-31 11:28:55] INFO root fetch - main [MainThread]: End processing [cira]: success
+[2024-05-31 11:28:55] INFO root fetch - processPackages [comotion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/comotion-sdk-0.0.8.tar.gz]
+[2024-05-31 11:28:55] INFO root fetch - processPackages [comotion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/comotion-sdk-0.0.9.tar.gz]
+[2024-05-31 11:28:55] INFO root fetch - main [MainThread]: End processing [comotion-sdk]: success
+[2024-05-31 11:28:55] INFO root fetch - processPackages [pikepdf]: executing diffoscope
+[2024-05-31 11:28:55] INFO root fetch - processPackages [pikepdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikepdf-9.0.0-cp312-cp312-macosx_14_0_arm64.whl.zip tmp/pikepdf-9.0.0rc1.tar.gz --markdown 20240531/p/pikepdf/9.0.0-9.0.0rc1/README.md --exclude *.pyd
+[2024-05-31 11:28:55] INFO root fetch - processPackages [optimum-neuron]: Remove: archive file [/home/abi/fetcher/tmp/optimum-neuron-0.0.8.tar.gz]
+[2024-05-31 11:28:55] INFO root fetch - processPackages [optimum-neuron]: Remove: archive file [/home/abi/fetcher/tmp/optimum-neuron-0.0.9.tar.gz]
+[2024-05-31 11:28:55] INFO root fetch - main [MainThread]: End processing [optimum-neuron]: success
+[2024-05-31 11:28:56] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2024-05-31 11:28:56] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2024-05-31 11:28:56] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2024-05-31 11:29:00] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-9.0.0-cp312-cp312-macosx_14_0_arm64.whl.zip]
+[2024-05-31 11:29:00] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-9.0.0rc1.tar.gz]
+[2024-05-31 11:29:00] INFO root fetch - main [MainThread]: End processing [pikepdf]: success
+[2024-05-31 11:29:00] INFO root fetch - main [MainThread]: Store serial: [23463437]
