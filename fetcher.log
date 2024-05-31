@@ -18618,3 +18618,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:37:20] INFO root fetch - processPackages [pymc3]: Remove: archive file [/home/abi/fetcher/tmp/pymc3-3.9.3.tar.gz]
 [2024-05-31 14:37:20] INFO root fetch - main [MainThread]: End processing [pymc3]: success
 [2024-05-31 14:37:20] INFO root fetch - main [MainThread]: Store serial: [23465644]
+[2024-05-31 14:39:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465644]
+[2024-05-31 14:39:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 14:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sema4ai-action-server
+[2024-05-31 14:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scraibe
+[2024-05-31 14:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qin
+[2024-05-31 14:39:28] INFO root fetch - processPackages [scraibe]: New version: [0.1.1.dev361] Old Version: [0.1.1]
+[2024-05-31 14:39:29] INFO root fetch - processPackages [scraibe]: Downloading https://files.pythonhosted.org/packages/9e/54/81145ff106120df5e6591df859153e66e8e8e4c85a04998c6438a441f091/scraibe-0.1.1.tar.gz
+[2024-05-31 14:39:29] WARNING root fetch - processPackages [qin]: Skipping, unable to determine old version
+[2024-05-31 14:39:29] INFO root fetch - main [MainThread]: End processing [qin] error
+[2024-05-31 14:39:29] INFO root fetch - processPackages [sema4ai-action-server]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 14:39:29] INFO root fetch - processPackages [sema4ai-action-server]: Downloading https://files.pythonhosted.org/packages/25/a4/6c654819fa3f038fea49700c3462f84a3269ac8aef833c6842db7a5dcb71/sema4ai_action_server-0.9.0.tar.gz
+[2024-05-31 14:39:29] INFO root fetch - processPackages [scraibe]: Downloading https://files.pythonhosted.org/packages/1e/7b/3f010f00b1ef2a6ac3bde979fc01f4b8f1f3501189722e1d9bd16653be50/scraibe-0.1.1.dev361-py3-none-any.whl
+[2024-05-31 14:39:29] INFO root fetch - processPackages [scraibe]: executing diffoscope
+[2024-05-31 14:39:29] INFO root fetch - processPackages [scraibe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scraibe-0.1.1.tar.gz tmp/scraibe-0.1.1.dev361-py3-none-any.whl.zip --markdown 20240531/s/scraibe/0.1.1-0.1.1.dev361/README.md --exclude *.pyd
+[2024-05-31 14:39:29] INFO root fetch - processPackages [sema4ai-action-server]: Downloading https://files.pythonhosted.org/packages/09/4c/35032b76f8fbc81e76a657c88385b759caf70b0a0bbd85a022b73530b805/sema4ai_action_server-0.9.1.tar.gz
+[2024-05-31 14:39:29] INFO root fetch - processPackages [sema4ai-action-server]: executing diffoscope
+[2024-05-31 14:39:29] INFO root fetch - processPackages [sema4ai-action-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sema4ai_action_server-0.9.0.tar.gz tmp/sema4ai_action_server-0.9.1.tar.gz --markdown 20240531/s/sema4ai-action-server/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 14:39:29] INFO root fetch - processPackages [scraibe]: Remove: archive file [/home/abi/fetcher/tmp/scraibe-0.1.1.tar.gz]
+[2024-05-31 14:39:29] INFO root fetch - processPackages [scraibe]: Remove: archive file [/home/abi/fetcher/tmp/scraibe-0.1.1.dev361-py3-none-any.whl.zip]
+[2024-05-31 14:39:29] INFO root fetch - main [MainThread]: End processing [scraibe]: success
+[2024-05-31 14:39:30] INFO root fetch - processPackages [sema4ai-action-server]: Remove: archive file [/home/abi/fetcher/tmp/sema4ai_action_server-0.9.0.tar.gz]
+[2024-05-31 14:39:30] INFO root fetch - processPackages [sema4ai-action-server]: Remove: archive file [/home/abi/fetcher/tmp/sema4ai_action_server-0.9.1.tar.gz]
+[2024-05-31 14:39:30] INFO root fetch - main [MainThread]: End processing [sema4ai-action-server]: success
+[2024-05-31 14:39:30] INFO root fetch - main [MainThread]: Store serial: [23465660]
