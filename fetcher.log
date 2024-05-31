@@ -8490,3 +8490,60 @@
 [2024-05-31 07:52:53] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
 [2024-05-31 07:52:53] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2024-05-31 07:52:53] INFO root fetch - main [MainThread]: Store serial: [23460959]
+[2024-05-31 07:54:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460959]
+[2024-05-31 07:55:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 07:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astro-extras
+[2024-05-31 07:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-external
+[2024-05-31 07:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuropacs
+[2024-05-31 07:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: capdata
+[2024-05-31 07:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tradelocker
+[2024-05-31 07:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyluba
+[2024-05-31 07:55:02] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 07:55:02] INFO root fetch - processPackages [capdata]: New version: [1.0.3.2] Old Version: [1.0.3.1]
+[2024-05-31 07:55:02] INFO root fetch - processPackages [tradelocker]: New version: [0.42.0] Old Version: [0.41.0]
+[2024-05-31 07:55:02] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-31 07:55:02] INFO root fetch - processPackages [neuropacs]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-05-31 07:55:02] INFO root fetch - processPackages [capdata]: Downloading https://files.pythonhosted.org/packages/6c/f0/2f12249920fdd59ce552b3b3f266b818bf4cced7a578ba70f0a76b5d90a0/capdata-1.0.3.1.tar.gz
+[2024-05-31 07:55:02] INFO root fetch - processPackages [astro-extras]: New version: [0.1.6] Old Version: [0.1.5.1]
+[2024-05-31 07:55:02] INFO root fetch - processPackages [pulumi-external]: New version: [0.1.0a1717133568] Old Version: [0.1.0a1716507570]
+[2024-05-31 07:55:02] INFO root fetch - processPackages [tradelocker]: Downloading https://files.pythonhosted.org/packages/08/23/ef1144fc16be1065fb745456b3b129658a3c9da52f96ab9f3626b611d46c/tradelocker-0.41.0.tar.gz
+[2024-05-31 07:55:02] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-31 07:55:02] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/1a/d3/0654047343aa5e23da61a906c0f0f17f6d2568531bd4916b86a768b5005b/astro_extras-0.1.5.1.tar.gz
+[2024-05-31 07:55:02] INFO root fetch - processPackages [neuropacs]: Downloading https://files.pythonhosted.org/packages/ef/4f/61ae5fdeac1536dffe0514f606ed91a46f185ce51f8671219efd6b0a5bc7/neuropacs-1.6.6.tar.gz
+[2024-05-31 07:55:02] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/ce/34/e21b29feaa8defae8c4741f175386813a851a70c3828ffeffeb99e2fd2da/pulumi_external-0.1.0a1716507570.tar.gz
+[2024-05-31 07:55:02] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-31 07:55:02] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240531/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 07:55:02] INFO root fetch - processPackages [capdata]: Downloading https://files.pythonhosted.org/packages/75/16/8ae355787489366e3bb17e63bec6939d58e12e41ec23be912ed874e3ac70/capdata-1.0.3.2.tar.gz
+[2024-05-31 07:55:02] INFO root fetch - processPackages [capdata]: executing diffoscope
+[2024-05-31 07:55:02] INFO root fetch - processPackages [capdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capdata-1.0.3.1.tar.gz tmp/capdata-1.0.3.2.tar.gz --markdown 20240531/c/capdata/1.0.3.1-1.0.3.2/README.md --exclude *.pyd
+[2024-05-31 07:55:02] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/45/63/39c826055167c9f5fc0700de0c68a27e0045228dbede4443fb314519c407/astro_extras-0.1.6.tar.gz
+[2024-05-31 07:55:02] INFO root fetch - processPackages [neuropacs]: Downloading https://files.pythonhosted.org/packages/3e/95/e8f26b324597bd2e5274d5ec1d3b5297d8f990c334c0cdf7cbab346c0652/neuropacs-1.6.7.tar.gz
+[2024-05-31 07:55:02] INFO root fetch - processPackages [tradelocker]: Downloading https://files.pythonhosted.org/packages/aa/db/b03dcdb62cbcf4c0d041f39feb917f211ffd7f44e4a212f96344b2144233/tradelocker-0.42.0.tar.gz
+[2024-05-31 07:55:02] INFO root fetch - processPackages [pulumi-external]: Downloading https://files.pythonhosted.org/packages/e2/c2/b95f3a272065b925b6c9a2c7725842497d922c708492ec7136a929a4cd24/pulumi_external-0.1.0a1717133568.tar.gz
+[2024-05-31 07:55:03] INFO root fetch - processPackages [astro-extras]: executing diffoscope
+[2024-05-31 07:55:03] INFO root fetch - processPackages [astro-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_extras-0.1.5.1.tar.gz tmp/astro_extras-0.1.6.tar.gz --markdown 20240531/a/astro-extras/0.1.5.1-0.1.6/README.md --exclude *.pyd
+[2024-05-31 07:55:03] INFO root fetch - processPackages [pulumi-external]: executing diffoscope
+[2024-05-31 07:55:03] INFO root fetch - processPackages [pulumi-external]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_external-0.1.0a1716507570.tar.gz tmp/pulumi_external-0.1.0a1717133568.tar.gz --markdown 20240531/p/pulumi-external/0.1.0a1716507570-0.1.0a1717133568/README.md --exclude *.pyd
+[2024-05-31 07:55:03] INFO root fetch - processPackages [neuropacs]: executing diffoscope
+[2024-05-31 07:55:03] INFO root fetch - processPackages [neuropacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuropacs-1.6.6.tar.gz tmp/neuropacs-1.6.7.tar.gz --markdown 20240531/n/neuropacs/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-05-31 07:55:03] INFO root fetch - processPackages [tradelocker]: executing diffoscope
+[2024-05-31 07:55:03] INFO root fetch - processPackages [tradelocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradelocker-0.41.0.tar.gz tmp/tradelocker-0.42.0.tar.gz --markdown 20240531/t/tradelocker/0.41.0-0.42.0/README.md --exclude *.pyd
+[2024-05-31 07:55:03] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-31 07:55:03] INFO root fetch - processPackages [capdata]: Remove: archive file [/home/abi/fetcher/tmp/capdata-1.0.3.1.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - processPackages [capdata]: Remove: archive file [/home/abi/fetcher/tmp/capdata-1.0.3.2.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - main [MainThread]: End processing [capdata]: success
+[2024-05-31 07:55:03] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1716507570.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - processPackages [pulumi-external]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_external-0.1.0a1717133568.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - main [MainThread]: End processing [pulumi-external]: success
+[2024-05-31 07:55:03] INFO root fetch - processPackages [neuropacs]: Remove: archive file [/home/abi/fetcher/tmp/neuropacs-1.6.6.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - processPackages [neuropacs]: Remove: archive file [/home/abi/fetcher/tmp/neuropacs-1.6.7.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - main [MainThread]: End processing [neuropacs]: success
+[2024-05-31 07:55:03] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.1.5.1.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.1.6.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - main [MainThread]: End processing [astro-extras]: success
+[2024-05-31 07:55:03] INFO root fetch - processPackages [tradelocker]: Remove: archive file [/home/abi/fetcher/tmp/tradelocker-0.41.0.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - processPackages [tradelocker]: Remove: archive file [/home/abi/fetcher/tmp/tradelocker-0.42.0.tar.gz]
+[2024-05-31 07:55:03] INFO root fetch - main [MainThread]: End processing [tradelocker]: success
+[2024-05-31 07:55:03] INFO root fetch - main [MainThread]: Store serial: [23460986]
