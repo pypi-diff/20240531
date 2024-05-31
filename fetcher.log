@@ -3268,3 +3268,42 @@
 [2024-05-31 02:30:55] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-05-31 02:30:55] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-05-31 02:30:55] INFO root fetch - main [MainThread]: Store serial: [23458808]
+[2024-05-31 02:32:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458808]
+[2024-05-31 02:33:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 02:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeppl-nightly
+[2024-05-31 02:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: price2bq-zfullio
+[2024-05-31 02:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sleipnirgroup-jormungandr
+[2024-05-31 02:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rockai-cli-app
+[2024-05-31 02:33:03] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240530] Old Version: [0.1.5.dev20240529]
+[2024-05-31 02:33:03] INFO root fetch - processPackages [price2bq-zfullio]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-31 02:33:03] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-31 02:33:03] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 02:33:03] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/41/29/678e58b46588fea9631d4d80c0e7beff815c1bc87fd7b530ed83a5025f5f/aeppl_nightly-0.1.5.dev20240529.tar.gz
+[2024-05-31 02:33:03] INFO root fetch - processPackages [price2bq-zfullio]: Downloading https://files.pythonhosted.org/packages/99/e7/0b8bb951becef9d309f9d28b5ffb9045a922024280b7dd4ea18ff3f171b0/price2bq_zfullio-1.2.1.tar.gz
+[2024-05-31 02:33:03] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-31 02:33:03] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-05-31 02:33:04] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/c1/55/eaf73d8aa33200a663b81a7d2a41f1ba5861ae3297a108176a823eef6127/aeppl_nightly-0.1.5.dev20240530.tar.gz
+[2024-05-31 02:33:04] INFO root fetch - processPackages [price2bq-zfullio]: Downloading https://files.pythonhosted.org/packages/31/c8/4ab17f5b1818900c60d63e2fd2f115bd8234d7dee1f6ccbf23942c27a84f/price2bq_zfullio-1.3.0.tar.gz
+[2024-05-31 02:33:04] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-31 02:33:04] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240529.tar.gz tmp/aeppl_nightly-0.1.5.dev20240530.tar.gz --markdown 20240531/a/aeppl-nightly/0.1.5.dev20240529-0.1.5.dev20240530/README.md --exclude *.pyd
+[2024-05-31 02:33:04] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-31 02:33:04] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-05-31 02:33:04] INFO root fetch - processPackages [price2bq-zfullio]: executing diffoscope
+[2024-05-31 02:33:04] INFO root fetch - processPackages [price2bq-zfullio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/price2bq_zfullio-1.2.1.tar.gz tmp/price2bq_zfullio-1.3.0.tar.gz --markdown 20240531/p/price2bq-zfullio/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-31 02:33:04] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-31 02:33:04] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240531/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 02:33:04] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-31 02:33:04] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240531/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-31 02:33:04] INFO root fetch - processPackages [price2bq-zfullio]: Remove: archive file [/home/abi/fetcher/tmp/price2bq_zfullio-1.2.1.tar.gz]
+[2024-05-31 02:33:04] INFO root fetch - processPackages [price2bq-zfullio]: Remove: archive file [/home/abi/fetcher/tmp/price2bq_zfullio-1.3.0.tar.gz]
+[2024-05-31 02:33:04] INFO root fetch - main [MainThread]: End processing [price2bq-zfullio]: success
+[2024-05-31 02:33:05] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240529.tar.gz]
+[2024-05-31 02:33:05] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240530.tar.gz]
+[2024-05-31 02:33:05] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-31 02:33:05] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-05-31 02:33:05] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-05-31 02:33:05] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-31 02:33:05] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-31 02:33:05] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-31 02:33:05] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-31 02:33:05] INFO root fetch - main [MainThread]: Store serial: [23458832]
