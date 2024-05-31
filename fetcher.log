@@ -8074,3 +8074,30 @@
 [2024-05-31 07:31:04] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.9.0a1717132325.tar.gz]
 [2024-05-31 07:31:04] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-31 07:31:04] INFO root fetch - main [MainThread]: Store serial: [23460701]
+[2024-05-31 07:33:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460701]
+[2024-05-31 07:33:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-akamai
+[2024-05-31 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-partner-contact
+[2024-05-31 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stencila
+[2024-05-31 07:33:13] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: New version: [16.0.20240506.0] Old Version: [16.0.20240313.0]
+[2024-05-31 07:33:13] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/55/9f/616ae31431ba11b624530915031340681cef6052bc32991e0cfc90c33dd4/odoo_addons_oca_partner_contact-16.0.20240313.0-py3-none-any.whl
+[2024-05-31 07:33:13] INFO root fetch - processPackages [pulumi-akamai]: New version: [7.2.0a1717132192] Old Version: [7.2.0a1716959416]
+[2024-05-31 07:33:13] INFO root fetch - processPackages [stencila]: New version: [2.0.0a26] Old Version: [2.0.0a23]
+[2024-05-31 07:33:13] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Downloading https://files.pythonhosted.org/packages/43/4e/82e47a53f5cc4b1a9d4c02db5bebd2315d79b9b021a91244d316e689fa7b/odoo_addons_oca_partner_contact-16.0.20240506.0-py3-none-any.whl
+[2024-05-31 07:33:13] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/f5/95/18794a04bd88b6a049178a356f63301e186f006653db18d7ca9bfafd55a0/pulumi_akamai-7.2.0a1716959416.tar.gz
+[2024-05-31 07:33:13] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: executing diffoscope
+[2024-05-31 07:33:13] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_partner_contact-16.0.20240313.0-py3-none-any.whl.zip tmp/odoo_addons_oca_partner_contact-16.0.20240506.0-py3-none-any.whl.zip --markdown 20240531/o/odoo-addons-oca-partner-contact/16.0.20240313.0-16.0.20240506.0/README.md --exclude *.pyd
+[2024-05-31 07:33:13] INFO root fetch - processPackages [stencila]: Downloading https://files.pythonhosted.org/packages/00/05/0ffeb987193cb3a894dd2bd29f9e92d2c9b15536eff428fa11d38e1e8302/stencila-2.0.0a23-cp39-none-win_amd64.whl
+[2024-05-31 07:33:14] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/aa/25/27ef068b5a5b0a433e9a740e83bd50696841069d8e3f738f1e69921e4c9b/pulumi_akamai-7.2.0a1717132192.tar.gz
+[2024-05-31 07:33:14] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20240313.0-py3-none-any.whl.zip]
+[2024-05-31 07:33:14] INFO root fetch - processPackages [odoo-addons-oca-partner-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_partner_contact-16.0.20240506.0-py3-none-any.whl.zip]
+[2024-05-31 07:33:14] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-partner-contact]: success
+[2024-05-31 07:33:14] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2024-05-31 07:33:14] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-7.2.0a1716959416.tar.gz tmp/pulumi_akamai-7.2.0a1717132192.tar.gz --markdown 20240531/p/pulumi-akamai/7.2.0a1716959416-7.2.0a1717132192/README.md --exclude *.pyd
+[2024-05-31 07:33:15] INFO root fetch - processPackages [stencila]: Downloading https://files.pythonhosted.org/packages/b0/eb/bf0e9a75fb0c29d927710c069e6dcb47c189e6e91a662c242e326fee380a/stencila-2.0.0a26-cp311-cp311-manylinux_2_34_x86_64.whl
+[2024-05-31 07:33:16] WARNING root fetch - processPackages [stencila]: Skipping package: exceeds size limit 11140587>=10485760
+[2024-05-31 07:33:16] INFO root fetch - main [MainThread]: End processing [stencila] error
+[2024-05-31 07:33:17] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1716959416.tar.gz]
+[2024-05-31 07:33:17] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-7.2.0a1717132192.tar.gz]
+[2024-05-31 07:33:17] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2024-05-31 07:33:17] INFO root fetch - main [MainThread]: Store serial: [23460752]
