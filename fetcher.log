@@ -22677,3 +22677,112 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:01:16] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.9.0.dev1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-31 17:01:16] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
 [2024-05-31 17:01:16] INFO root fetch - main [MainThread]: Store serial: [23467596]
+[2024-05-31 17:03:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467596]
+[2024-05-31 17:03:29] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-31 17:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hokusai
+[2024-05-31 17:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2024-05-31 17:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: classy-classification
+[2024-05-31 17:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: demetric
+[2024-05-31 17:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: olas-operate-middleware
+[2024-05-31 17:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pioreactor
+[2024-05-31 17:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: socialdataanalysis
+[2024-05-31 17:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: demetric
+[2024-05-31 17:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blockchain-data-subnet-shared-libs
+[2024-05-31 17:03:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-gitlab
+[2024-05-31 17:03:29] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-05-31 17:03:29] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-31 17:03:29] INFO root fetch - processPackages [demetric]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 17:03:29] INFO root fetch - processPackages [demetric]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 17:03:29] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-31 17:03:29] INFO root fetch - processPackages [pioreactor]: New version: [24.5.22rc0] Old Version: [24.5.22]
+[2024-05-31 17:03:29] INFO root fetch - processPackages [pulumi-gitlab]: New version: [8.0.0] Old Version: [7.1.0a1716961064]
+[2024-05-31 17:03:29] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-31 17:03:29] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-31 17:03:29] INFO root fetch - processPackages [classy-classification]: New version: [1.0.0] Old Version: [0.6.7]
+[2024-05-31 17:03:29] INFO root fetch - processPackages [demetric]: Downloading https://files.pythonhosted.org/packages/ea/bb/4d279861eeb683210d4a31263ddb687c704d9b53b29683b63b09af2cd371/demetric-0.1.3-py3-none-any.whl
+[2024-05-31 17:03:29] INFO root fetch - processPackages [hokusai]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-05-31 17:03:29] INFO root fetch - processPackages [demetric]: Downloading https://files.pythonhosted.org/packages/ea/bb/4d279861eeb683210d4a31263ddb687c704d9b53b29683b63b09af2cd371/demetric-0.1.3-py3-none-any.whl
+[2024-05-31 17:03:29] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/7b/a6/89111164ab4b8caf87b7f62c4aca384b85a11cbeba9aa2340d259ca28476/pulumi_gitlab-7.1.0a1716961064.tar.gz
+[2024-05-31 17:03:29] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/87/ee/e69a2b231de392c51179acf5be97f491bf3c36d75457edf1c00b21d48bd1/socialdataanalysis-0.9.3.tar.gz
+[2024-05-31 17:03:29] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-31 17:03:29] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Downloading https://files.pythonhosted.org/packages/7b/18/5dd2ffcaf6bb2e297eec9fcf3b569051e5f4afc99b1367f70bed46253e3e/blockchain_data_subnet_shared_libs-0.0.3.tar.gz
+[2024-05-31 17:03:29] INFO root fetch - processPackages [pioreactor]: Downloading https://files.pythonhosted.org/packages/2e/c4/70726660ed8037c330ff0f0b90ca041ffd46725e668dd5123fe151bd3866/pioreactor-24.5.22-py3-none-any.whl
+[2024-05-31 17:03:29] INFO root fetch - processPackages [classy-classification]: Downloading https://files.pythonhosted.org/packages/0f/be/34cf311d9810acb36f5678a4038ae73b1f621c5ffd98ec9218684828ecef/classy-classification-0.6.7.tar.gz
+[2024-05-31 17:03:29] INFO root fetch - processPackages [hokusai]: Downloading https://files.pythonhosted.org/packages/e8/a0/f722b1677c59726b9c743706eaa4a423ea6cdd81d138bd9380e0b4fff672/hokusai-2.1.1.tar.gz
+[2024-05-31 17:03:29] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-31 17:03:29] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/c5/18/feb2123639c17b7593730f0aa69388e9470afcd027a1e90f823332a38c70/pulumi_gitlab-8.0.0.tar.gz
+[2024-05-31 17:03:30] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-31 17:03:30] INFO root fetch - processPackages [demetric]: Downloading https://files.pythonhosted.org/packages/62/cd/1acdd45654284418eff9dbf140da6012f2ece45f3f9fae0abbd2958886cd/demetric-0.1.4.tar.gz
+[2024-05-31 17:03:30] INFO root fetch - processPackages [demetric]: Downloading https://files.pythonhosted.org/packages/62/cd/1acdd45654284418eff9dbf140da6012f2ece45f3f9fae0abbd2958886cd/demetric-0.1.4.tar.gz
+[2024-05-31 17:03:30] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Downloading https://files.pythonhosted.org/packages/03/c9/86bc6e13af1d5f56a5bfb1e36182ee3e6fd4a0caae01abf35f710817c2ff/blockchain_data_subnet_shared_libs-1.0.0.tar.gz
+[2024-05-31 17:03:30] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-31 17:03:30] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240531/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-31 17:03:30] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/df/16/11e7b4d1e4605168d2f315baa211ed905b5aeecd3cafd3dfa2d9bd5dc9cc/socialdataanalysis-0.9.4.tar.gz
+[2024-05-31 17:03:30] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-05-31 17:03:30] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-7.1.0a1716961064.tar.gz tmp/pulumi_gitlab-8.0.0.tar.gz --markdown 20240531/p/pulumi-gitlab/7.1.0a1716961064-8.0.0/README.md --exclude *.pyd
+[2024-05-31 17:03:30] INFO root fetch - processPackages [demetric]: executing diffoscope
+[2024-05-31 17:03:30] INFO root fetch - processPackages [demetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demetric-0.1.3-py3-none-any.whl.zip tmp/demetric-0.1.4.tar.gz --markdown 20240531/d/demetric/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 17:03:30] INFO root fetch - processPackages [demetric]: executing diffoscope
+[2024-05-31 17:03:30] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: executing diffoscope
+[2024-05-31 17:03:30] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockchain_data_subnet_shared_libs-0.0.3.tar.gz tmp/blockchain_data_subnet_shared_libs-1.0.0.tar.gz --markdown 20240531/b/blockchain-data-subnet-shared-libs/0.0.3-1.0.0/README.md --exclude *.pyd
+[2024-05-31 17:03:30] INFO root fetch - processPackages [demetric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demetric-0.1.3-py3-none-any.whl.zip tmp/demetric-0.1.4.tar.gz --markdown 20240531/d/demetric/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 17:03:30] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-31 17:03:30] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240531/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-31 17:03:30] INFO root fetch - processPackages [hokusai]: Downloading https://files.pythonhosted.org/packages/8f/1b/273e1df20df789a05d49253c6262f76ec1e61033acd61e58f4353a1793ca/hokusai-2.2.0.tar.gz
+[2024-05-31 17:03:30] INFO root fetch - processPackages [classy-classification]: Downloading https://files.pythonhosted.org/packages/82/8d/ed73c91a055ae9869cae50662a746e5bdddf265848f9a9e0eafd4a1e3e2e/classy-classification-1.0.0.tar.gz
+[2024-05-31 17:03:30] INFO root fetch - processPackages [pioreactor]: Downloading https://files.pythonhosted.org/packages/e3/96/b42e05669f047d6fc7299ab35201de8915f76917d8af3cdb2be92cbd4b4f/pioreactor-24.5.22rc0-py3-none-any.whl
+[2024-05-31 17:03:30] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 17:03:30] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.9.3.tar.gz tmp/socialdataanalysis-0.9.4.tar.gz --markdown 20240531/s/socialdataanalysis/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-31 17:03:30] INFO root fetch - processPackages [classy-classification]: executing diffoscope
+[2024-05-31 17:03:30] INFO root fetch - processPackages [classy-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classy-classification-0.6.7.tar.gz tmp/classy-classification-1.0.0.tar.gz --markdown 20240531/c/classy-classification/0.6.7-1.0.0/README.md --exclude *.pyd
+[2024-05-31 17:03:30] INFO root fetch - processPackages [pioreactor]: executing diffoscope
+[2024-05-31 17:03:30] INFO root fetch - processPackages [pioreactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pioreactor-24.5.22-py3-none-any.whl.zip tmp/pioreactor-24.5.22rc0-py3-none-any.whl.zip --markdown 20240531/p/pioreactor/24.5.22-24.5.22rc0/README.md --exclude *.pyd
+[2024-05-31 17:03:30] INFO root fetch - processPackages [hokusai]: executing diffoscope
+[2024-05-31 17:03:30] INFO root fetch - processPackages [hokusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hokusai-2.1.1.tar.gz tmp/hokusai-2.2.0.tar.gz --markdown 20240531/h/hokusai/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-05-31 17:03:31] INFO root fetch - processPackages [demetric]: Remove: archive file [/home/abi/fetcher/tmp/demetric-0.1.3-py3-none-any.whl.zip]
+[2024-05-31 17:03:31] INFO root fetch - processPackages [demetric]: Remove: archive file [/home/abi/fetcher/tmp/demetric-0.1.4.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - processPackages [demetric]: Start processing: e2b
+[2024-05-31 17:03:31] INFO root fetch - main [MainThread]: End processing [demetric]: success
+[2024-05-31 17:03:31] INFO root fetch - processPackages [demetric]: Start processing: kthcloud
+[2024-05-31 17:03:31] INFO root fetch - main [MainThread]: End processing [demetric]: success
+[2024-05-31 17:03:31] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.9.3.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.9.4.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Remove: archive file [/home/abi/fetcher/tmp/blockchain_data_subnet_shared_libs-0.0.3.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 17:03:31] INFO root fetch - processPackages [blockchain-data-subnet-shared-libs]: Remove: archive file [/home/abi/fetcher/tmp/blockchain_data_subnet_shared_libs-1.0.0.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - processPackages [e2b]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-31 17:03:31] INFO root fetch - main [MainThread]: End processing [blockchain-data-subnet-shared-libs]: success
+[2024-05-31 17:03:31] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-31 17:03:31] INFO root fetch - processPackages [classy-classification]: Remove: archive file [/home/abi/fetcher/tmp/classy-classification-0.6.7.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - processPackages [classy-classification]: Remove: archive file [/home/abi/fetcher/tmp/classy-classification-1.0.0.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - main [MainThread]: End processing [classy-classification]: success
+[2024-05-31 17:03:31] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-31 17:03:31] INFO root fetch - processPackages [kthcloud]: New version: [0.6.0a0] Old Version: [0.5.0a0]
+[2024-05-31 17:03:31] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/1a/e1/7d8dabb6aec21fb6f0f2ba8d50e6b15954150f88b9165be6672e515b5743/e2b-0.9.6.tar.gz
+[2024-05-31 17:03:31] INFO root fetch - processPackages [hokusai]: Remove: archive file [/home/abi/fetcher/tmp/hokusai-2.1.1.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - processPackages [hokusai]: Remove: archive file [/home/abi/fetcher/tmp/hokusai-2.2.0.tar.gz]
+[2024-05-31 17:03:31] INFO root fetch - main [MainThread]: End processing [hokusai]: success
+[2024-05-31 17:03:31] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.5.22-py3-none-any.whl.zip]
+[2024-05-31 17:03:31] INFO root fetch - processPackages [pioreactor]: Remove: archive file [/home/abi/fetcher/tmp/pioreactor-24.5.22rc0-py3-none-any.whl.zip]
+[2024-05-31 17:03:31] INFO root fetch - main [MainThread]: End processing [pioreactor]: success
+[2024-05-31 17:03:31] INFO root fetch - processPackages [kthcloud]: Downloading https://files.pythonhosted.org/packages/88/61/ac6b858904db15f3418c0573bbbbdb94466766b925c7d780aebd71ccf2b4/kthcloud-0.5.0a0.tar.gz
+[2024-05-31 17:03:31] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/12/97/8baccc64ce0664cccbd82d6b4190193beb6b7513a26751e9019aa4339c95/e2b-0.9.7.tar.gz
+[2024-05-31 17:03:32] INFO root fetch - processPackages [kthcloud]: Downloading https://files.pythonhosted.org/packages/fa/34/ed995910f20f7e2eb60f1483dd3684d085b94fbdb7a88934e3c76c30d8db/kthcloud-0.6.0a0.tar.gz
+[2024-05-31 17:03:32] INFO root fetch - processPackages [e2b]: executing diffoscope
+[2024-05-31 17:03:32] INFO root fetch - processPackages [e2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b-0.9.6.tar.gz tmp/e2b-0.9.7.tar.gz --markdown 20240531/e/e2b/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-31 17:03:32] INFO root fetch - processPackages [kthcloud]: executing diffoscope
+[2024-05-31 17:03:32] INFO root fetch - processPackages [kthcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kthcloud-0.5.0a0.tar.gz tmp/kthcloud-0.6.0a0.tar.gz --markdown 20240531/k/kthcloud/0.5.0a0-0.6.0a0/README.md --exclude *.pyd
+[2024-05-31 17:03:32] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-7.1.0a1716961064.tar.gz]
+[2024-05-31 17:03:32] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-8.0.0.tar.gz]
+[2024-05-31 17:03:32] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-05-31 17:03:32] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.6.tar.gz]
+[2024-05-31 17:03:32] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.7.tar.gz]
+[2024-05-31 17:03:32] INFO root fetch - main [MainThread]: End processing [e2b]: success
+[2024-05-31 17:03:32] INFO root fetch - processPackages [kthcloud]: Remove: archive file [/home/abi/fetcher/tmp/kthcloud-0.5.0a0.tar.gz]
+[2024-05-31 17:03:32] INFO root fetch - processPackages [kthcloud]: Remove: archive file [/home/abi/fetcher/tmp/kthcloud-0.6.0a0.tar.gz]
+[2024-05-31 17:03:32] INFO root fetch - main [MainThread]: End processing [kthcloud]: success
+[2024-05-31 17:03:32] INFO root fetch - main [MainThread]: Store serial: [23467635]
