@@ -3759,3 +3759,49 @@
 [2024-05-31 03:06:19] INFO root fetch - processPackages [fepops]: Remove: archive file [/home/abi/fetcher/tmp/fepops-1.8.3.tar.gz]
 [2024-05-31 03:06:19] INFO root fetch - main [MainThread]: End processing [fepops]: success
 [2024-05-31 03:06:19] INFO root fetch - main [MainThread]: Store serial: [23459051]
+[2024-05-31 03:08:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459051]
+[2024-05-31 03:08:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 03:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cuopt-thin-client
+[2024-05-31 03:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: platypush
+[2024-05-31 03:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chattts-fork
+[2024-05-31 03:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chattts-fork
+[2024-05-31 03:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyerualjetwork
+[2024-05-31 03:08:27] INFO root fetch - processPackages [chattts-fork]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 03:08:27] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-31 03:08:27] INFO root fetch - processPackages [chattts-fork]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 03:08:27] INFO root fetch - processPackages [cuopt-thin-client]: New version: [24.3.7] Old Version: [24.3.6]
+[2024-05-31 03:08:27] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/87/39/92c3afecc8cf8078da39dcdafa71a1c0b50d154d6524e36f10bd48d3e9cc/pyerualjetwork-1.3.6.tar.gz
+[2024-05-31 03:08:27] INFO root fetch - processPackages [chattts-fork]: Downloading https://files.pythonhosted.org/packages/86/ce/256cd030806ed5afc21fec26b8ee24c02328a429a1edd83e8c5c8193ed40/chattts_fork-0.0.2.tar.gz
+[2024-05-31 03:08:27] INFO root fetch - processPackages [chattts-fork]: Downloading https://files.pythonhosted.org/packages/86/ce/256cd030806ed5afc21fec26b8ee24c02328a429a1edd83e8c5c8193ed40/chattts_fork-0.0.2.tar.gz
+[2024-05-31 03:08:27] INFO root fetch - processPackages [platypush]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-31 03:08:27] INFO root fetch - processPackages [cuopt-thin-client]: Downloading https://files.pythonhosted.org/packages/75/af/498aaef68ff3d77bb4722fe7558eff9b4bec7b983cad768dd90b04638cf4/cuopt_thin_client-24.3.6.tar.gz
+[2024-05-31 03:08:27] INFO root fetch - processPackages [platypush]: Downloading https://files.pythonhosted.org/packages/0a/18/80736dfde7ea29fa44943da492ecc8e465bb8e74c8a928d0ab92a608e696/platypush-1.0.2.tar.gz
+[2024-05-31 03:08:27] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/a5/92/de035b8dc001843f0ba1976546c440aa3a130e0f015a1ca9aaf96b1a48fd/pyerualjetwork-1.3.7.tar.gz
+[2024-05-31 03:08:27] INFO root fetch - processPackages [chattts-fork]: Downloading https://files.pythonhosted.org/packages/12/18/ec8ad0942102341ea321aee5951538ecb39080cbd76c5323a75eb62d15a8/chattts_fork-0.0.3.tar.gz
+[2024-05-31 03:08:27] INFO root fetch - processPackages [chattts-fork]: Downloading https://files.pythonhosted.org/packages/12/18/ec8ad0942102341ea321aee5951538ecb39080cbd76c5323a75eb62d15a8/chattts_fork-0.0.3.tar.gz
+[2024-05-31 03:08:27] INFO root fetch - processPackages [cuopt-thin-client]: Downloading https://files.pythonhosted.org/packages/b2/02/00da6c840f5b129f1d305a4e6f6748cb11208b4d13f935de09e5c3875ef3/cuopt_thin_client-24.3.7.tar.gz
+[2024-05-31 03:08:27] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-31 03:08:27] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.3.6.tar.gz tmp/pyerualjetwork-1.3.7.tar.gz --markdown 20240531/p/pyerualjetwork/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-31 03:08:27] INFO root fetch - processPackages [chattts-fork]: executing diffoscope
+[2024-05-31 03:08:27] INFO root fetch - processPackages [chattts-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chattts_fork-0.0.2.tar.gz tmp/chattts_fork-0.0.3.tar.gz --markdown 20240531/c/chattts-fork/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 03:08:28] INFO root fetch - processPackages [chattts-fork]: executing diffoscope
+[2024-05-31 03:08:28] INFO root fetch - processPackages [chattts-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chattts_fork-0.0.2.tar.gz tmp/chattts_fork-0.0.3.tar.gz --markdown 20240531/c/chattts-fork/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 03:08:28] INFO root fetch - processPackages [cuopt-thin-client]: executing diffoscope
+[2024-05-31 03:08:28] INFO root fetch - processPackages [cuopt-thin-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuopt_thin_client-24.3.6.tar.gz tmp/cuopt_thin_client-24.3.7.tar.gz --markdown 20240531/c/cuopt-thin-client/24.3.6-24.3.7/README.md --exclude *.pyd
+[2024-05-31 03:08:28] INFO root fetch - processPackages [platypush]: Downloading https://files.pythonhosted.org/packages/6b/51/029c387bb238fc58c4c10d9383cde03fe6751260fa6e9812a368ed3fa962/platypush-1.0.3.tar.gz
+[2024-05-31 03:08:28] INFO root fetch - processPackages [cuopt-thin-client]: Remove: archive file [/home/abi/fetcher/tmp/cuopt_thin_client-24.3.6.tar.gz]
+[2024-05-31 03:08:28] INFO root fetch - processPackages [cuopt-thin-client]: Remove: archive file [/home/abi/fetcher/tmp/cuopt_thin_client-24.3.7.tar.gz]
+[2024-05-31 03:08:28] INFO root fetch - main [MainThread]: End processing [cuopt-thin-client]: success
+[2024-05-31 03:08:28] INFO root fetch - processPackages [chattts-fork]: Remove: archive file [/home/abi/fetcher/tmp/chattts_fork-0.0.2.tar.gz]
+[2024-05-31 03:08:28] INFO root fetch - processPackages [chattts-fork]: Remove: archive file [/home/abi/fetcher/tmp/chattts_fork-0.0.3.tar.gz]
+[2024-05-31 03:08:28] INFO root fetch - main [MainThread]: End processing [chattts-fork]: success
+[2024-05-31 03:08:28] INFO root fetch - processPackages [platypush]: executing diffoscope
+[2024-05-31 03:08:28] INFO root fetch - processPackages [platypush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platypush-1.0.2.tar.gz tmp/platypush-1.0.3.tar.gz --markdown 20240531/p/platypush/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-31 03:08:28] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.3.6.tar.gz]
+[2024-05-31 03:08:28] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.3.7.tar.gz]
+[2024-05-31 03:08:28] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-31 03:08:28] INFO root fetch - main [MainThread]: End processing [chattts-fork]: success
+[2024-05-31 03:08:36] INFO root fetch - processPackages [platypush]: Remove: archive file [/home/abi/fetcher/tmp/platypush-1.0.2.tar.gz]
+[2024-05-31 03:08:36] INFO root fetch - processPackages [platypush]: Remove: archive file [/home/abi/fetcher/tmp/platypush-1.0.3.tar.gz]
+[2024-05-31 03:08:36] INFO root fetch - main [MainThread]: End processing [platypush]: success
+[2024-05-31 03:08:36] INFO root fetch - main [MainThread]: Store serial: [23459064]
