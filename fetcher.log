@@ -22045,3 +22045,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:36:46] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
 [2024-05-31 16:36:46] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-05-31 16:36:46] INFO root fetch - main [MainThread]: Store serial: [23467177]
+[2024-05-31 16:38:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467177]
+[2024-05-31 16:38:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 16:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: direct-neural-biasing
+[2024-05-31 16:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-pydantic-form
+[2024-05-31 16:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-re2
+[2024-05-31 16:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypomes-db
+[2024-05-31 16:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apricot-server
+[2024-05-31 16:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-adx
+[2024-05-31 16:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dve-lumipy-testing
+[2024-05-31 16:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: socialdataanalysis
+[2024-05-31 16:38:55] INFO root fetch - processPackages [pypomes-db]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-31 16:38:55] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-31 16:38:55] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-31 16:38:55] INFO root fetch - processPackages [direct-neural-biasing]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-31 16:38:55] INFO root fetch - processPackages [google-re2]: New version: [1.1.20240601] Old Version: [1.1.20240501]
+[2024-05-31 16:38:55] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/4f/32/502efa7407fca2cfa06002901e31d663c2d14aa314ef2d7d29e512149a0c/pypomes_db-0.9.3.tar.gz
+[2024-05-31 16:38:55] INFO root fetch - processPackages [apricot-server]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-31 16:38:55] INFO root fetch - processPackages [dash-pydantic-form]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 16:38:55] INFO root fetch - processPackages [django-adx]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-31 16:38:55] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/9d/4f/cf754ce507003a06e30fa338194d62a539abda03b5d85763966c817027c6/socialdataanalysis-0.9.1.tar.gz
+[2024-05-31 16:38:55] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/f6/43/86dcb4da81326489678da6f99f6df57926118d10937b18fb6d5c8455cec4/direct_neural_biasing-0.7.2-cp311-none-win_amd64.whl
+[2024-05-31 16:38:55] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-05-31 16:38:55] INFO root fetch - processPackages [google-re2]: Downloading https://files.pythonhosted.org/packages/e5/7d/e009b9cfc415753cdb147518aee3c93612b95a8d491668d097a7695f741d/google_re2-1.1.20240501.tar.gz
+[2024-05-31 16:38:55] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/5d/79/f2446a74a0647d97f1ed631fb51aac1114a2235ba75271a8e7912a8c0ae8/dash_pydantic_form-0.1.8.tar.gz
+[2024-05-31 16:38:55] INFO root fetch - processPackages [django-adx]: Downloading https://files.pythonhosted.org/packages/4f/f0/d2f8986200aaf6e9e23a095e257360d3f31d990a1009f034dffdd8c689e1/django_adx-1.0.2.tar.gz
+[2024-05-31 16:38:55] INFO root fetch - processPackages [apricot-server]: Downloading https://files.pythonhosted.org/packages/ec/c8/5d6cb5b3b3c7cb203a14a6092e6c4bbd805d593ace6e79b73518775e9e03/apricot_server-0.0.4.tar.gz
+[2024-05-31 16:38:55] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-05-31 16:38:55] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/74/73/910ebe41c9dd4d31b65f45325650b4746eedccf671cfb048e961558e5032/pypomes_db-0.9.4.tar.gz
+[2024-05-31 16:38:55] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/0b/dd/1239de8ee635a57cf153b26cba8516b0ce5da4381c0e5ada1a18e0baedea/direct_neural_biasing-0.7.3-cp311-none-win_amd64.whl
+[2024-05-31 16:38:55] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/b1/3e/c4c53e37b2c7818f6c4af41342a813f6726890a04be5fbe9cc25a5fb8004/socialdataanalysis-0.9.2.tar.gz
+[2024-05-31 16:38:55] INFO root fetch - processPackages [google-re2]: Downloading https://files.pythonhosted.org/packages/aa/d3/9fb09b284854116b78ddb731ea142d62648eb6aa78b53823c0207ccdf473/google_re2-1.1.20240601-1-cp311-cp311-macosx_12_0_x86_64.whl
+[2024-05-31 16:38:55] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-31 16:38:55] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.9.3.tar.gz tmp/pypomes_db-0.9.4.tar.gz --markdown 20240531/p/pypomes-db/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-31 16:38:55] INFO root fetch - processPackages [django-adx]: Downloading https://files.pythonhosted.org/packages/4f/a1/c6e3598b5630e9b87cf379947fcbd7f240da8e25dd44047ef59781fa7b99/django_adx-1.0.3.tar.gz
+[2024-05-31 16:38:55] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/27/6d/ebcc7cd94582252583d5ed56864691c7d23afa009ca5100c21ab9f8bb15d/dash_pydantic_form-0.1.9.tar.gz
+[2024-05-31 16:38:55] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 16:38:55] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.9.1.tar.gz tmp/socialdataanalysis-0.9.2.tar.gz --markdown 20240531/s/socialdataanalysis/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-31 16:38:55] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-31 16:38:55] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240531/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-31 16:38:55] INFO root fetch - processPackages [apricot-server]: Downloading https://files.pythonhosted.org/packages/93/e5/4782333d7814962ce6e639018f63bfd186c875555b154ebf7de8c7359f95/apricot_server-0.0.6.tar.gz
+[2024-05-31 16:38:55] INFO root fetch - processPackages [direct-neural-biasing]: executing diffoscope
+[2024-05-31 16:38:55] INFO root fetch - processPackages [direct-neural-biasing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direct_neural_biasing-0.7.2-cp311-none-win_amd64.whl.zip tmp/direct_neural_biasing-0.7.3-cp311-none-win_amd64.whl.zip --markdown 20240531/d/direct-neural-biasing/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-31 16:38:56] INFO root fetch - processPackages [apricot-server]: executing diffoscope
+[2024-05-31 16:38:56] INFO root fetch - processPackages [apricot-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apricot_server-0.0.4.tar.gz tmp/apricot_server-0.0.6.tar.gz --markdown 20240531/a/apricot-server/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-31 16:38:56] INFO root fetch - processPackages [dash-pydantic-form]: executing diffoscope
+[2024-05-31 16:38:56] INFO root fetch - processPackages [dash-pydantic-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_pydantic_form-0.1.8.tar.gz tmp/dash_pydantic_form-0.1.9.tar.gz --markdown 20240531/d/dash-pydantic-form/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 16:38:56] INFO root fetch - processPackages [google-re2]: executing diffoscope
+[2024-05-31 16:38:56] INFO root fetch - processPackages [google-re2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_re2-1.1.20240501.tar.gz tmp/google_re2-1.1.20240601-1-cp311-cp311-macosx_12_0_x86_64.whl.zip --markdown 20240531/g/google-re2/1.1.20240501-1.1.20240601/README.md --exclude *.pyd
+[2024-05-31 16:38:56] INFO root fetch - processPackages [django-adx]: executing diffoscope
+[2024-05-31 16:38:56] INFO root fetch - processPackages [django-adx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_adx-1.0.2.tar.gz tmp/django_adx-1.0.3.tar.gz --markdown 20240531/d/django-adx/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-31 16:38:56] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.3.tar.gz]
+[2024-05-31 16:38:56] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.9.4.tar.gz]
+[2024-05-31 16:38:56] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-31 16:38:56] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.9.1.tar.gz]
+[2024-05-31 16:38:56] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.9.2.tar.gz]
+[2024-05-31 16:38:56] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 16:38:56] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.7.2-cp311-none-win_amd64.whl.zip]
+[2024-05-31 16:38:56] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.7.3-cp311-none-win_amd64.whl.zip]
+[2024-05-31 16:38:56] INFO root fetch - main [MainThread]: End processing [direct-neural-biasing]: success
+[2024-05-31 16:38:56] INFO root fetch - processPackages [apricot-server]: Remove: archive file [/home/abi/fetcher/tmp/apricot_server-0.0.4.tar.gz]
+[2024-05-31 16:38:56] INFO root fetch - processPackages [apricot-server]: Remove: archive file [/home/abi/fetcher/tmp/apricot_server-0.0.6.tar.gz]
+[2024-05-31 16:38:56] INFO root fetch - main [MainThread]: End processing [apricot-server]: success
+[2024-05-31 16:38:56] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.8.tar.gz]
+[2024-05-31 16:38:56] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.9.tar.gz]
+[2024-05-31 16:38:56] INFO root fetch - main [MainThread]: End processing [dash-pydantic-form]: success
+[2024-05-31 16:38:57] INFO root fetch - processPackages [django-adx]: Remove: archive file [/home/abi/fetcher/tmp/django_adx-1.0.2.tar.gz]
+[2024-05-31 16:38:57] INFO root fetch - processPackages [django-adx]: Remove: archive file [/home/abi/fetcher/tmp/django_adx-1.0.3.tar.gz]
+[2024-05-31 16:38:57] INFO root fetch - main [MainThread]: End processing [django-adx]: success
+[2024-05-31 16:38:57] INFO root fetch - processPackages [google-re2]: Remove: archive file [/home/abi/fetcher/tmp/google_re2-1.1.20240501.tar.gz]
+[2024-05-31 16:38:57] INFO root fetch - processPackages [google-re2]: Remove: archive file [/home/abi/fetcher/tmp/google_re2-1.1.20240601-1-cp311-cp311-macosx_12_0_x86_64.whl.zip]
+[2024-05-31 16:38:57] INFO root fetch - main [MainThread]: End processing [google-re2]: success
+[2024-05-31 16:38:57] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-05-31 16:38:57] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-05-31 16:38:57] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-31 16:38:57] INFO root fetch - main [MainThread]: Store serial: [23467228]
