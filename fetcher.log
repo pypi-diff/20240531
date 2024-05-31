@@ -4309,3 +4309,32 @@
 [2024-05-31 03:28:00] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.9.tar.gz]
 [2024-05-31 03:28:00] INFO root fetch - main [MainThread]: End processing [hj-proj-module]: success
 [2024-05-31 03:28:00] INFO root fetch - main [MainThread]: Store serial: [23459204]
+[2024-05-31 03:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459204]
+[2024-05-31 03:30:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 03:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miracle-langchain-helper
+[2024-05-31 03:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-intel
+[2024-05-31 03:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onediff
+[2024-05-31 03:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peptdeep
+[2024-05-31 03:30:08] INFO root fetch - processPackages [onediff]: New version: [1.1.0.dev202405300128] Old Version: [1.1.0.dev202405290129]
+[2024-05-31 03:30:08] WARNING root fetch - processPackages [miracle-langchain-helper]: Skipping, unable to determine old version
+[2024-05-31 03:30:08] INFO root fetch - main [MainThread]: End processing [miracle-langchain-helper] error
+[2024-05-31 03:30:08] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/6b/07/e4a4534ae99e8842336b08815f50812e67741be5dd45094b48c1cf40b9ce/onediff-1.1.0.dev202405290129.tar.gz
+[2024-05-31 03:30:08] INFO root fetch - processPackages [peptdeep]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-31 03:30:09] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240530] Old Version: [2.17.0.dev20240529]
+[2024-05-31 03:30:09] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/08/04/668adfeebd97e4c0ad1d89edc259303cd2e0c600796b41a772e6a74e11e7/tf_nightly_intel-2.17.0.dev20240529-cp39-cp39-win_amd64.whl
+[2024-05-31 03:30:09] INFO root fetch - processPackages [peptdeep]: Downloading https://files.pythonhosted.org/packages/57/98/56b9bf2aa35d50c8646749e0c83b6b133c70750db1215e812370ca9f844b/peptdeep-1.2.0.tar.gz
+[2024-05-31 03:30:09] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 218656000>=10485760
+[2024-05-31 03:30:09] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-31 03:30:09] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/4d/23/5662ee7e2d568060e6ca43dd4bb976323391421bbe7b198c9f99a57a06b4/onediff-1.1.0.dev202405300128.tar.gz
+[2024-05-31 03:30:09] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-31 03:30:09] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.1.0.dev202405290129.tar.gz tmp/onediff-1.1.0.dev202405300128.tar.gz --markdown 20240531/o/onediff/1.1.0.dev202405290129-1.1.0.dev202405300128/README.md --exclude *.pyd
+[2024-05-31 03:30:09] INFO root fetch - processPackages [peptdeep]: Downloading https://files.pythonhosted.org/packages/94/30/c493ab8bf878098b3daa8fea42f21a4c231efb251f60132ea6aacc00aee2/peptdeep-1.2.1.tar.gz
+[2024-05-31 03:30:09] INFO root fetch - processPackages [peptdeep]: executing diffoscope
+[2024-05-31 03:30:09] INFO root fetch - processPackages [peptdeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peptdeep-1.2.0.tar.gz tmp/peptdeep-1.2.1.tar.gz --markdown 20240531/p/peptdeep/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-31 03:30:10] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405290129.tar.gz]
+[2024-05-31 03:30:10] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405300128.tar.gz]
+[2024-05-31 03:30:10] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-31 03:30:10] INFO root fetch - processPackages [peptdeep]: Remove: archive file [/home/abi/fetcher/tmp/peptdeep-1.2.0.tar.gz]
+[2024-05-31 03:30:10] INFO root fetch - processPackages [peptdeep]: Remove: archive file [/home/abi/fetcher/tmp/peptdeep-1.2.1.tar.gz]
+[2024-05-31 03:30:10] INFO root fetch - main [MainThread]: End processing [peptdeep]: success
+[2024-05-31 03:30:10] INFO root fetch - main [MainThread]: Store serial: [23459224]
