@@ -13647,3 +13647,45 @@
 [2024-05-31 11:33:37] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.6.tar.gz]
 [2024-05-31 11:33:37] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
 [2024-05-31 11:33:37] INFO root fetch - main [MainThread]: Store serial: [23463463]
+[2024-05-31 11:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463463]
+[2024-05-31 11:35:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resage
+[2024-05-31 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: m3-spyne-smev
+[2024-05-31 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvfuser-cu121
+[2024-05-31 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datarobot-model-metrics
+[2024-05-31 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formance-sdk-python
+[2024-05-31 11:35:46] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.5.dev20240530] Old Version: [0.2.5.dev20240529]
+[2024-05-31 11:35:46] WARNING root fetch - processPackages [resage]: Skipping, unable to determine old version
+[2024-05-31 11:35:46] INFO root fetch - main [MainThread]: End processing [resage] error
+[2024-05-31 11:35:46] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/a6/95/4b7c5974413974432a34fefe19746171742833fd8a69b141f3bfb0fc30fa/nvfuser_cu121-0.2.5.dev20240529.tar.gz
+[2024-05-31 11:35:46] INFO root fetch - processPackages [datarobot-model-metrics]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-31 11:35:46] INFO root fetch - processPackages [m3-spyne-smev]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-31 11:35:46] INFO root fetch - processPackages [formance-sdk-python]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-05-31 11:35:46] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/24/ea/86d79e5edf556b84309472e0fe87727c37e1291dd2c704c10492611ede90/nvfuser_cu121-0.2.5.dev20240530.tar.gz
+[2024-05-31 11:35:46] INFO root fetch - processPackages [m3-spyne-smev]: Downloading https://files.pythonhosted.org/packages/68/55/d3a40b1951d6a814daff6c1afe5dbc81c6832e392393d7a9792ba5b1a484/m3-spyne-smev-1.0.0.tar.gz
+[2024-05-31 11:35:46] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/49/20/8c8989dcb764c893abc4143cdb72a047a9e436fb9358071f8bbd43cb532d/datarobot_model_metrics-0.5.6-py2.py3-none-any.whl
+[2024-05-31 11:35:46] INFO root fetch - processPackages [formance-sdk-python]: Downloading https://files.pythonhosted.org/packages/a0/f5/40cf13586ae163f7ba73fc38d3a0af34f935ba4946c1f86f418ccdc70511/formance-sdk-python-2.2.3.tar.gz
+[2024-05-31 11:35:46] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-31 11:35:46] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.5.dev20240529.tar.gz tmp/nvfuser_cu121-0.2.5.dev20240530.tar.gz --markdown 20240531/n/nvfuser-cu121/0.2.5.dev20240529-0.2.5.dev20240530/README.md --exclude *.pyd
+[2024-05-31 11:35:46] INFO root fetch - processPackages [m3-spyne-smev]: Downloading https://files.pythonhosted.org/packages/2f/09/8097dabf010c570702b158c786ee0e423e60fc6cb56d605eb8e5fa1b3b60/m3-spyne-smev-1.0.1.tar.gz
+[2024-05-31 11:35:46] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/73/8b/950678290fe452d7c4129332f5bdee8177b93448a660b7472ef62e0ecede/datarobot_model_metrics-0.5.7-py3-none-any.whl
+[2024-05-31 11:35:46] INFO root fetch - processPackages [formance-sdk-python]: Downloading https://files.pythonhosted.org/packages/68/7c/7dae6796f7c7c96c97473ebd8d38df9aa37411ecf5a159c39ec63d2d07d3/formance-sdk-python-2.3.0.tar.gz
+[2024-05-31 11:35:46] INFO root fetch - processPackages [m3-spyne-smev]: executing diffoscope
+[2024-05-31 11:35:46] INFO root fetch - processPackages [m3-spyne-smev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-spyne-smev-1.0.0.tar.gz tmp/m3-spyne-smev-1.0.1.tar.gz --markdown 20240531/m/m3-spyne-smev/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-31 11:35:47] INFO root fetch - processPackages [datarobot-model-metrics]: executing diffoscope
+[2024-05-31 11:35:47] INFO root fetch - processPackages [datarobot-model-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_model_metrics-0.5.6-py2.py3-none-any.whl.zip tmp/datarobot_model_metrics-0.5.7-py3-none-any.whl.zip --markdown 20240531/d/datarobot-model-metrics/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-31 11:35:47] INFO root fetch - processPackages [formance-sdk-python]: executing diffoscope
+[2024-05-31 11:35:47] INFO root fetch - processPackages [formance-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formance-sdk-python-2.2.3.tar.gz tmp/formance-sdk-python-2.3.0.tar.gz --markdown 20240531/f/formance-sdk-python/2.2.3-2.3.0/README.md --exclude *.pyd
+[2024-05-31 11:35:47] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240529.tar.gz]
+[2024-05-31 11:35:47] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240530.tar.gz]
+[2024-05-31 11:35:47] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-31 11:35:47] INFO root fetch - processPackages [m3-spyne-smev]: Remove: archive file [/home/abi/fetcher/tmp/m3-spyne-smev-1.0.0.tar.gz]
+[2024-05-31 11:35:47] INFO root fetch - processPackages [m3-spyne-smev]: Remove: archive file [/home/abi/fetcher/tmp/m3-spyne-smev-1.0.1.tar.gz]
+[2024-05-31 11:35:47] INFO root fetch - main [MainThread]: End processing [m3-spyne-smev]: success
+[2024-05-31 11:35:47] INFO root fetch - processPackages [datarobot-model-metrics]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_model_metrics-0.5.6-py2.py3-none-any.whl.zip]
+[2024-05-31 11:35:47] INFO root fetch - processPackages [datarobot-model-metrics]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_model_metrics-0.5.7-py3-none-any.whl.zip]
+[2024-05-31 11:35:47] INFO root fetch - main [MainThread]: End processing [datarobot-model-metrics]: success
+[2024-05-31 11:35:48] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-2.2.3.tar.gz]
+[2024-05-31 11:35:48] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-2.3.0.tar.gz]
+[2024-05-31 11:35:49] INFO root fetch - main [MainThread]: End processing [formance-sdk-python]: success
+[2024-05-31 11:35:49] INFO root fetch - main [MainThread]: Store serial: [23463478]
