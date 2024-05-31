@@ -13874,3 +13874,66 @@
 [2024-05-31 11:42:29] INFO root fetch - processPackages [rapid-router]: Remove: archive file [/home/abi/fetcher/tmp/rapid-router-5.9.3.tar.gz]
 [2024-05-31 11:42:29] INFO root fetch - main [MainThread]: End processing [rapid-router]: success
 [2024-05-31 11:42:29] INFO root fetch - main [MainThread]: Store serial: [23463542]
+[2024-05-31 11:44:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463542]
+[2024-05-31 11:44:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 11:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: earningscall
+[2024-05-31 11:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wiederverwendbar
+[2024-05-31 11:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: youqu-mousekey
+[2024-05-31 11:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-unfold
+[2024-05-31 11:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keyring-proxy
+[2024-05-31 11:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roastery
+[2024-05-31 11:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xinference-client
+[2024-05-31 11:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botasaurus-server
+[2024-05-31 11:44:38] INFO root fetch - processPackages [botasaurus-server]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 11:44:38] INFO root fetch - processPackages [keyring-proxy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 11:44:38] INFO root fetch - processPackages [wiederverwendbar]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 11:44:38] WARNING root fetch - processPackages [roastery]: Skipping, unable to determine old version
+[2024-05-31 11:44:38] INFO root fetch - main [MainThread]: End processing [roastery] error
+[2024-05-31 11:44:38] INFO root fetch - processPackages [earningscall]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 11:44:38] WARNING root fetch - processPackages [youqu-mousekey]: Skipping, unable to determine old version
+[2024-05-31 11:44:38] INFO root fetch - main [MainThread]: End processing [youqu-mousekey] error
+[2024-05-31 11:44:38] INFO root fetch - processPackages [xinference-client]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-31 11:44:38] INFO root fetch - processPackages [jupyterlab-unfold]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 11:44:38] INFO root fetch - processPackages [wiederverwendbar]: Downloading https://files.pythonhosted.org/packages/ec/12/9abd5ea23bd41e776ccdd8c893a592797bf22e36c303a72373821f7cf77a/wiederverwendbar-0.2.8.tar.gz
+[2024-05-31 11:44:38] INFO root fetch - processPackages [keyring-proxy]: Downloading https://files.pythonhosted.org/packages/72/07/8d70fa450845d7b10744bc71ac4a725cd9a0da134a4d84c5624b1eaca5b3/keyring_proxy-0.1.8.tar.gz
+[2024-05-31 11:44:38] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/f0/29/6236cf00c97e9e74fa0c4e7fb1f7ef957e52111b705e85e89defe4ec7de6/botasaurus_server-4.0.8.tar.gz
+[2024-05-31 11:44:38] INFO root fetch - processPackages [earningscall]: Downloading https://files.pythonhosted.org/packages/03/a0/8653bcc30469658164bb6fbdc4e26c67b104d935cf347daadafc1cf24c68/earningscall-0.0.8.tar.gz
+[2024-05-31 11:44:38] INFO root fetch - processPackages [keyring-proxy]: Downloading https://files.pythonhosted.org/packages/82/b6/24a5c29560a54fef1167ad51a7ba2954f45141979790f0d6b00754d8b512/keyring_proxy-0.1.9.tar.gz
+[2024-05-31 11:44:38] INFO root fetch - processPackages [xinference-client]: Downloading https://files.pythonhosted.org/packages/6d/b8/345520866b2a4eb03a3d6c561cf46ac494e6acf0df5c25ed27d73a37d6c4/xinference-client-0.9.3.tar.gz
+[2024-05-31 11:44:38] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/03/11/ef707a7fce8129a4d151622283f54a8d7ab9c844defd6f5f294b0bac1632/botasaurus_server-4.0.9.tar.gz
+[2024-05-31 11:44:38] INFO root fetch - processPackages [jupyterlab-unfold]: Downloading https://files.pythonhosted.org/packages/c9/b9/298ccb278877c50b52a9f4b243f9d2e5795db197a41602c09d4a5d6894af/jupyterlab_unfold-0.3.1.tar.gz
+[2024-05-31 11:44:38] INFO root fetch - processPackages [keyring-proxy]: executing diffoscope
+[2024-05-31 11:44:38] INFO root fetch - processPackages [keyring-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyring_proxy-0.1.8.tar.gz tmp/keyring_proxy-0.1.9.tar.gz --markdown 20240531/k/keyring-proxy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 11:44:38] INFO root fetch - processPackages [wiederverwendbar]: Downloading https://files.pythonhosted.org/packages/88/d5/426d244d068ecdd35fbfee19792e2493d58cfa92548231b1a496e6d6fa78/wiederverwendbar-0.2.9.tar.gz
+[2024-05-31 11:44:38] INFO root fetch - processPackages [botasaurus-server]: executing diffoscope
+[2024-05-31 11:44:38] INFO root fetch - processPackages [botasaurus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_server-4.0.8.tar.gz tmp/botasaurus_server-4.0.9.tar.gz --markdown 20240531/b/botasaurus-server/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 11:44:38] INFO root fetch - processPackages [wiederverwendbar]: executing diffoscope
+[2024-05-31 11:44:38] INFO root fetch - processPackages [wiederverwendbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiederverwendbar-0.2.8.tar.gz tmp/wiederverwendbar-0.2.9.tar.gz --markdown 20240531/w/wiederverwendbar/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 11:44:38] INFO root fetch - processPackages [xinference-client]: Downloading https://files.pythonhosted.org/packages/d9/51/a0c540e0cc12db8debdfbcd787c091fe47401f5b510b3dced4113987d99c/xinference-client-0.9.4.tar.gz
+[2024-05-31 11:44:38] INFO root fetch - processPackages [earningscall]: Downloading https://files.pythonhosted.org/packages/e5/3d/58609374fdb76716c9d6429b6e1f3312e864c292311b923b61bc204be50e/earningscall-0.0.9.tar.gz
+[2024-05-31 11:44:39] INFO root fetch - processPackages [jupyterlab-unfold]: Downloading https://files.pythonhosted.org/packages/c2/76/b5b007573fb4a99044df41298d7203ffdff06dd5ec30e7c7f1a7212fb7d9/jupyterlab_unfold-0.3.2.tar.gz
+[2024-05-31 11:44:39] INFO root fetch - processPackages [xinference-client]: executing diffoscope
+[2024-05-31 11:44:39] INFO root fetch - processPackages [xinference-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xinference-client-0.9.3.tar.gz tmp/xinference-client-0.9.4.tar.gz --markdown 20240531/x/xinference-client/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-31 11:44:39] INFO root fetch - processPackages [earningscall]: executing diffoscope
+[2024-05-31 11:44:39] INFO root fetch - processPackages [earningscall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earningscall-0.0.8.tar.gz tmp/earningscall-0.0.9.tar.gz --markdown 20240531/e/earningscall/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 11:44:39] INFO root fetch - processPackages [jupyterlab-unfold]: executing diffoscope
+[2024-05-31 11:44:39] INFO root fetch - processPackages [jupyterlab-unfold]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_unfold-0.3.1.tar.gz tmp/jupyterlab_unfold-0.3.2.tar.gz --markdown 20240531/j/jupyterlab-unfold/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 11:44:39] INFO root fetch - processPackages [keyring-proxy]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy-0.1.8.tar.gz]
+[2024-05-31 11:44:39] INFO root fetch - processPackages [keyring-proxy]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy-0.1.9.tar.gz]
+[2024-05-31 11:44:39] INFO root fetch - main [MainThread]: End processing [keyring-proxy]: success
+[2024-05-31 11:44:39] INFO root fetch - processPackages [wiederverwendbar]: Remove: archive file [/home/abi/fetcher/tmp/wiederverwendbar-0.2.8.tar.gz]
+[2024-05-31 11:44:39] INFO root fetch - processPackages [wiederverwendbar]: Remove: archive file [/home/abi/fetcher/tmp/wiederverwendbar-0.2.9.tar.gz]
+[2024-05-31 11:44:39] INFO root fetch - main [MainThread]: End processing [wiederverwendbar]: success
+[2024-05-31 11:44:39] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.8.tar.gz]
+[2024-05-31 11:44:39] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.9.tar.gz]
+[2024-05-31 11:44:39] INFO root fetch - main [MainThread]: End processing [botasaurus-server]: success
+[2024-05-31 11:44:39] INFO root fetch - processPackages [xinference-client]: Remove: archive file [/home/abi/fetcher/tmp/xinference-client-0.9.3.tar.gz]
+[2024-05-31 11:44:39] INFO root fetch - processPackages [xinference-client]: Remove: archive file [/home/abi/fetcher/tmp/xinference-client-0.9.4.tar.gz]
+[2024-05-31 11:44:39] INFO root fetch - main [MainThread]: End processing [xinference-client]: success
+[2024-05-31 11:44:39] INFO root fetch - processPackages [earningscall]: Remove: archive file [/home/abi/fetcher/tmp/earningscall-0.0.8.tar.gz]
+[2024-05-31 11:44:39] INFO root fetch - processPackages [earningscall]: Remove: archive file [/home/abi/fetcher/tmp/earningscall-0.0.9.tar.gz]
+[2024-05-31 11:44:39] INFO root fetch - main [MainThread]: End processing [earningscall]: success
+[2024-05-31 11:44:40] INFO root fetch - processPackages [jupyterlab-unfold]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unfold-0.3.1.tar.gz]
+[2024-05-31 11:44:40] INFO root fetch - processPackages [jupyterlab-unfold]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unfold-0.3.2.tar.gz]
+[2024-05-31 11:44:40] INFO root fetch - main [MainThread]: End processing [jupyterlab-unfold]: success
+[2024-05-31 11:44:40] INFO root fetch - main [MainThread]: Store serial: [23463571]
