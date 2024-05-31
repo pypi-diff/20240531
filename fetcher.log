@@ -21419,3 +21419,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:16:58] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-05-31 16:16:58] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-05-31 16:16:58] INFO root fetch - main [MainThread]: Store serial: [23466837]
+[2024-05-31 16:19:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466837]
+[2024-05-31 16:19:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 16:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: topacademy-api
+[2024-05-31 16:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torrey
+[2024-05-31 16:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telicent-lib
+[2024-05-31 16:19:07] INFO root fetch - processPackages [torrey]: New version: [3.2.2.dev20240531141750] Old Version: [3.2.2.dev20240529142438]
+[2024-05-31 16:19:07] WARNING root fetch - processPackages [topacademy-api]: Skipping, unable to determine old version
+[2024-05-31 16:19:07] INFO root fetch - main [MainThread]: End processing [topacademy-api] error
+[2024-05-31 16:19:07] INFO root fetch - processPackages [telicent-lib]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-31 16:19:07] INFO root fetch - processPackages [torrey]: Downloading https://files.pythonhosted.org/packages/53/48/bff61643745648156587df9a1588ea90c4cd9cb6bff0cf39412f09d75f57/torrey-3.2.2.dev20240529142438.tar.gz
+[2024-05-31 16:19:07] INFO root fetch - processPackages [telicent-lib]: Downloading https://files.pythonhosted.org/packages/29/ad/0610b4a9a5d1189e52d8c8dd8f26245fc7f1d8d101b197e563879e1578b7/telicent_lib-2.0.2.tar.gz
+[2024-05-31 16:19:07] INFO root fetch - processPackages [torrey]: Downloading https://files.pythonhosted.org/packages/73/cd/b6c93666a1041e917997660ac8a2c681f2dc5de878beff82c0df2559ecf6/torrey-3.2.2.dev20240531141750.tar.gz
+[2024-05-31 16:19:07] INFO root fetch - processPackages [telicent-lib]: Downloading https://files.pythonhosted.org/packages/2c/34/aee7e3aa51075d8771a58f503174463acb0cb131f63767611cf600a5e9ad/telicent_lib-2.0.3.tar.gz
+[2024-05-31 16:19:07] INFO root fetch - processPackages [torrey]: executing diffoscope
+[2024-05-31 16:19:07] INFO root fetch - processPackages [torrey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torrey-3.2.2.dev20240529142438.tar.gz tmp/torrey-3.2.2.dev20240531141750.tar.gz --markdown 20240531/t/torrey/3.2.2.dev20240529142438-3.2.2.dev20240531141750/README.md --exclude *.pyd
+[2024-05-31 16:19:08] INFO root fetch - processPackages [telicent-lib]: executing diffoscope
+[2024-05-31 16:19:08] INFO root fetch - processPackages [telicent-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telicent_lib-2.0.2.tar.gz tmp/telicent_lib-2.0.3.tar.gz --markdown 20240531/t/telicent-lib/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-31 16:19:08] INFO root fetch - processPackages [torrey]: Remove: archive file [/home/abi/fetcher/tmp/torrey-3.2.2.dev20240529142438.tar.gz]
+[2024-05-31 16:19:08] INFO root fetch - processPackages [torrey]: Remove: archive file [/home/abi/fetcher/tmp/torrey-3.2.2.dev20240531141750.tar.gz]
+[2024-05-31 16:19:08] INFO root fetch - main [MainThread]: End processing [torrey]: success
+[2024-05-31 16:19:08] INFO root fetch - processPackages [telicent-lib]: Remove: archive file [/home/abi/fetcher/tmp/telicent_lib-2.0.2.tar.gz]
+[2024-05-31 16:19:08] INFO root fetch - processPackages [telicent-lib]: Remove: archive file [/home/abi/fetcher/tmp/telicent_lib-2.0.3.tar.gz]
+[2024-05-31 16:19:08] INFO root fetch - main [MainThread]: End processing [telicent-lib]: success
+[2024-05-31 16:19:08] INFO root fetch - main [MainThread]: Store serial: [23466853]
