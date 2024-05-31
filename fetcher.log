@@ -7423,3 +7423,27 @@
 [2024-05-31 06:42:55] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-9.46.1.tar.gz]
 [2024-05-31 06:42:55] INFO root fetch - main [MainThread]: End processing [abcli]: success
 [2024-05-31 06:42:55] INFO root fetch - main [MainThread]: Store serial: [23460474]
+[2024-05-31 06:44:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460474]
+[2024-05-31 06:45:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 06:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-llama
+[2024-05-31 06:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iac-init
+[2024-05-31 06:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epub-text-extractor
+[2024-05-31 06:45:03] INFO root fetch - processPackages [easy-llama]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 06:45:03] INFO root fetch - processPackages [iac-init]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 06:45:03] WARNING root fetch - processPackages [epub-text-extractor]: Skipping, unable to determine old version
+[2024-05-31 06:45:03] INFO root fetch - main [MainThread]: End processing [epub-text-extractor] error
+[2024-05-31 06:45:03] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/ed/56/78092ddba398c9d2ef783a1cfbc12c4b6d3b323cc7a1f3fe6f3abe2792f4/iac_init-0.9.0.tar.gz
+[2024-05-31 06:45:03] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/ce/e9/39a06b9ce349625a5d6c7da00644a8cc7320112fb3ba2b2e54944d3a6135/easy_llama-0.1.8.tar.gz
+[2024-05-31 06:45:03] INFO root fetch - processPackages [easy-llama]: Downloading https://files.pythonhosted.org/packages/98/5d/f5007368104957b81fc41c01c18234178e2875066cca25192bec1d846caf/easy_llama-0.1.9.tar.gz
+[2024-05-31 06:45:03] INFO root fetch - processPackages [iac-init]: Downloading https://files.pythonhosted.org/packages/1e/87/25cfb85cbecfb61be13d8905d9e7259d9d2ec5052e1cccfc56d76afd5e7b/iac_init-0.9.1.tar.gz
+[2024-05-31 06:45:04] INFO root fetch - processPackages [easy-llama]: executing diffoscope
+[2024-05-31 06:45:04] INFO root fetch - processPackages [easy-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_llama-0.1.8.tar.gz tmp/easy_llama-0.1.9.tar.gz --markdown 20240531/e/easy-llama/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 06:45:04] INFO root fetch - processPackages [iac-init]: executing diffoscope
+[2024-05-31 06:45:04] INFO root fetch - processPackages [iac-init]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac_init-0.9.0.tar.gz tmp/iac_init-0.9.1.tar.gz --markdown 20240531/i/iac-init/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 06:45:04] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.8.tar.gz]
+[2024-05-31 06:45:04] INFO root fetch - processPackages [easy-llama]: Remove: archive file [/home/abi/fetcher/tmp/easy_llama-0.1.9.tar.gz]
+[2024-05-31 06:45:04] INFO root fetch - main [MainThread]: End processing [easy-llama]: success
+[2024-05-31 06:45:04] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.0.tar.gz]
+[2024-05-31 06:45:04] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.1.tar.gz]
+[2024-05-31 06:45:04] INFO root fetch - main [MainThread]: End processing [iac-init]: success
+[2024-05-31 06:45:04] INFO root fetch - main [MainThread]: Store serial: [23460485]
