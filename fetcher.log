@@ -10574,3 +10574,123 @@
 [2024-05-31 09:29:53] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.9.tar.gz]
 [2024-05-31 09:29:53] INFO root fetch - main [MainThread]: End processing [figaro]: success
 [2024-05-31 09:29:53] INFO root fetch - main [MainThread]: Store serial: [23462060]
+[2024-05-31 09:31:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462060]
+[2024-05-31 09:32:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-31 09:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lavue
+[2024-05-31 09:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiakid-simulation
+[2024-05-31 09:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databutton
+[2024-05-31 09:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: UnityPredict
+[2024-05-31 09:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: UnityPredict
+[2024-05-31 09:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UnityPredict
+[2024-05-31 09:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aioli-sdk
+[2024-05-31 09:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-gcp
+[2024-05-31 09:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wlogging
+[2024-05-31 09:32:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-base
+[2024-05-31 09:32:02] INFO root fetch - processPackages [spiakid-simulation]: New version: [1.25a0] Old Version: [1.24a0]
+[2024-05-31 09:32:02] INFO root fetch - processPackages [aioli-sdk]: New version: [0.2.4rc0] Old Version: [0.2.4.dev9]
+[2024-05-31 09:32:02] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2405.0] Old Version: [1.2404.0]
+[2024-05-31 09:32:02] INFO root fetch - processPackages [pulumi-gcp]: New version: [7.9.0a1707934510] Old Version: [7.9.0a1707891532]
+[2024-05-31 09:32:02] INFO root fetch - processPackages [wlogging]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-31 09:32:02] INFO root fetch - processPackages [spiakid-simulation]: Downloading https://files.pythonhosted.org/packages/fd/cf/603a1fb110135455d29ba87e22dee41d2f2123c333af0c5a2256d444110a/spiakid_simulation-1.24a0.tar.gz
+[2024-05-31 09:32:02] INFO root fetch - processPackages [lavue]: New version: [2.87.0] Old Version: [2.86.1]
+[2024-05-31 09:32:02] INFO root fetch - processPackages [UnityPredict]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 09:32:02] INFO root fetch - processPackages [UnityPredict]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 09:32:02] INFO root fetch - processPackages [UnityPredict]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 09:32:02] INFO root fetch - processPackages [databutton]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-31 09:32:02] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/cd/25/d9848a3a017be39218d1ccb6f4e8007a0c7781325b6e49f176c030e37d80/aioli_sdk-0.2.4.dev9.tar.gz
+[2024-05-31 09:32:02] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/5a/34/236a84eb8b8121137be058fcd82faa66c33ff6c2c1771f82692614c0055c/gardener_cicd_base-1.2404.0-py3-none-any.whl
+[2024-05-31 09:32:02] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/f0/b4/677e3618cc42a30dd41030c6dee1b6b9d52e956632b9a1eeb84c0c2d8e3c/pulumi_gcp-7.9.0a1707891532.tar.gz
+[2024-05-31 09:32:02] INFO root fetch - processPackages [wlogging]: Downloading https://files.pythonhosted.org/packages/6d/5e/98f9f07a89967ce630ec7b479690279bb807597afbc880ac43f502b0df0d/wlogging-0.2.0.tar.gz
+[2024-05-31 09:32:02] INFO root fetch - processPackages [UnityPredict]: Downloading https://files.pythonhosted.org/packages/e4/fb/fa13d9cecb91051a37ecd0f49612db726454ff3283fff7f3fb86f84c87a5/UnityPredict-0.1.8.tar.gz
+[2024-05-31 09:32:02] INFO root fetch - processPackages [UnityPredict]: Downloading https://files.pythonhosted.org/packages/e4/fb/fa13d9cecb91051a37ecd0f49612db726454ff3283fff7f3fb86f84c87a5/UnityPredict-0.1.8.tar.gz
+[2024-05-31 09:32:02] INFO root fetch - processPackages [UnityPredict]: Downloading https://files.pythonhosted.org/packages/e4/fb/fa13d9cecb91051a37ecd0f49612db726454ff3283fff7f3fb86f84c87a5/UnityPredict-0.1.8.tar.gz
+[2024-05-31 09:32:02] INFO root fetch - processPackages [lavue]: Downloading https://files.pythonhosted.org/packages/94/b8/79112e1298432f99ea6401f0c1ca118da4fdbb3f753b4e4df2780ca0d4a7/lavue-2.86.1.tar.gz
+[2024-05-31 09:32:02] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/97/e4/e81aa45e6614cc27e77afdc05bda0df053f47af67b7f10dd3fa7e90977bf/databutton-0.9.1.tar.gz
+[2024-05-31 09:32:03] WARNING root fetch - processPackages [lavue]: Skipping package: exceeds size limit 32687742>=10485760
+[2024-05-31 09:32:03] INFO root fetch - processPackages [lavue]: Start processing: gardener-cicd-cli
+[2024-05-31 09:32:03] INFO root fetch - main [MainThread]: End processing [lavue] error
+[2024-05-31 09:32:03] INFO root fetch - processPackages [spiakid-simulation]: Downloading https://files.pythonhosted.org/packages/b5/11/4994a1fead468ee69bee665fef438fbe11acf47483a12aea3c9bff6fbfaa/spiakid_simulation-1.25a0.tar.gz
+[2024-05-31 09:32:03] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2405.0] Old Version: [1.2404.0]
+[2024-05-31 09:32:03] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/8e/a0/114d45e7124ed6010c5f0746fda59551c0e20c73c6de89203ee36ac91e15/aioli_sdk-0.2.4rc0.tar.gz
+[2024-05-31 09:32:03] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/51/4b/cb0ba0af625f4b17b18b449088843bfa43e5a0675e40d00bf7450dc954e0/gardener_cicd_base-1.2405.0.tar.gz
+[2024-05-31 09:32:03] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/27/b1/c8a9e7ddae46adeedc13f0c88257777e2fc98a5177ceae6ea17b740bd368/gardener_cicd_cli-1.2404.0-py3-none-any.whl
+[2024-05-31 09:32:03] INFO root fetch - processPackages [wlogging]: Downloading https://files.pythonhosted.org/packages/42/4c/4065bb337c36e5b8c5846615d1bef7def3df87584b82682e21d50437ae2c/wlogging-0.3.0.tar.gz
+[2024-05-31 09:32:03] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/e8/4f/d6c8ded38a6c81689a5fb00b6aea9daeef82f4686f3ad6c74eba94b37d8b/pulumi_gcp-7.9.0a1707934510.tar.gz
+[2024-05-31 09:32:03] INFO root fetch - processPackages [aioli-sdk]: executing diffoscope
+[2024-05-31 09:32:03] INFO root fetch - processPackages [aioli-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioli_sdk-0.2.4.dev9.tar.gz tmp/aioli_sdk-0.2.4rc0.tar.gz --markdown 20240531/a/aioli-sdk/0.2.4.dev9-0.2.4rc0/README.md --exclude *.pyd
+[2024-05-31 09:32:03] INFO root fetch - processPackages [spiakid-simulation]: executing diffoscope
+[2024-05-31 09:32:03] INFO root fetch - processPackages [spiakid-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiakid_simulation-1.24a0.tar.gz tmp/spiakid_simulation-1.25a0.tar.gz --markdown 20240531/s/spiakid-simulation/1.24a0-1.25a0/README.md --exclude *.pyd
+[2024-05-31 09:32:03] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-31 09:32:03] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2404.0-py3-none-any.whl.zip tmp/gardener_cicd_base-1.2405.0.tar.gz --markdown 20240531/g/gardener-cicd-base/1.2404.0-1.2405.0/README.md --exclude *.pyd
+[2024-05-31 09:32:03] INFO root fetch - processPackages [databutton]: Downloading https://files.pythonhosted.org/packages/5c/59/3ecc3881c8c0088b35a444d0208f992442d429068966d08be417ede43a72/databutton-0.9.2.tar.gz
+[2024-05-31 09:32:03] INFO root fetch - processPackages [UnityPredict]: Downloading https://files.pythonhosted.org/packages/f9/4f/4f365832e2efaf7c0d14b2c9c6ad80c83e6ac6d064864913aaf7768c9094/UnityPredict-0.1.9.tar.gz
+[2024-05-31 09:32:03] INFO root fetch - processPackages [UnityPredict]: Downloading https://files.pythonhosted.org/packages/f9/4f/4f365832e2efaf7c0d14b2c9c6ad80c83e6ac6d064864913aaf7768c9094/UnityPredict-0.1.9.tar.gz
+[2024-05-31 09:32:03] INFO root fetch - processPackages [UnityPredict]: Downloading https://files.pythonhosted.org/packages/f9/4f/4f365832e2efaf7c0d14b2c9c6ad80c83e6ac6d064864913aaf7768c9094/UnityPredict-0.1.9.tar.gz
+[2024-05-31 09:32:03] INFO root fetch - processPackages [wlogging]: executing diffoscope
+[2024-05-31 09:32:03] INFO root fetch - processPackages [wlogging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlogging-0.2.0.tar.gz tmp/wlogging-0.3.0.tar.gz --markdown 20240531/w/wlogging/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-31 09:32:03] INFO root fetch - processPackages [databutton]: executing diffoscope
+[2024-05-31 09:32:03] INFO root fetch - processPackages [databutton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databutton-0.9.1.tar.gz tmp/databutton-0.9.2.tar.gz --markdown 20240531/d/databutton/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-31 09:32:03] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/c6/50/89c90376d7f75e556be733b354ce756e02e67bb4e70653f7c221c8887662/gardener_cicd_cli-1.2405.0.tar.gz
+[2024-05-31 09:32:03] INFO root fetch - processPackages [UnityPredict]: executing diffoscope
+[2024-05-31 09:32:03] INFO root fetch - processPackages [UnityPredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnityPredict-0.1.8.tar.gz tmp/UnityPredict-0.1.9.tar.gz --markdown 20240531/U/UnityPredict/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 09:32:03] INFO root fetch - processPackages [UnityPredict]: executing diffoscope
+[2024-05-31 09:32:03] INFO root fetch - processPackages [UnityPredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnityPredict-0.1.8.tar.gz tmp/UnityPredict-0.1.9.tar.gz --markdown 20240531/U/UnityPredict/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 09:32:03] INFO root fetch - processPackages [UnityPredict]: executing diffoscope
+[2024-05-31 09:32:03] INFO root fetch - processPackages [UnityPredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnityPredict-0.1.8.tar.gz tmp/UnityPredict-0.1.9.tar.gz --markdown 20240531/U/UnityPredict/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 09:32:03] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2024-05-31 09:32:03] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-7.9.0a1707891532.tar.gz tmp/pulumi_gcp-7.9.0a1707934510.tar.gz --markdown 20240531/p/pulumi-gcp/7.9.0a1707891532-7.9.0a1707934510/README.md --exclude *.pyd
+[2024-05-31 09:32:03] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-31 09:32:03] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2404.0-py3-none-any.whl.zip tmp/gardener_cicd_cli-1.2405.0.tar.gz --markdown 20240531/g/gardener-cicd-cli/1.2404.0-1.2405.0/README.md --exclude *.pyd
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2404.0-py3-none-any.whl.zip]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2405.0.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: gardener-cicd-dso
+[2024-05-31 09:32:04] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2405.0] Old Version: [1.2404.0]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [wlogging]: Remove: archive file [/home/abi/fetcher/tmp/wlogging-0.2.0.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [wlogging]: Remove: archive file [/home/abi/fetcher/tmp/wlogging-0.3.0.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [wlogging]: Start processing: intersight
+[2024-05-31 09:32:04] INFO root fetch - main [MainThread]: End processing [wlogging]: success
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/7f/b9/c2ee7661a1826196b8530735b8096efc07a558d30113ee38e5449f2f8a72/gardener_cicd_dso-1.2404.0-py3-none-any.whl
+[2024-05-31 09:32:04] INFO root fetch - processPackages [intersight]: New version: [1.0.9.6484] Old Version: [1.0.9.6207]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.1.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [databutton]: Remove: archive file [/home/abi/fetcher/tmp/databutton-0.9.2.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [databutton]: Start processing: gardener-cicd-libs
+[2024-05-31 09:32:04] INFO root fetch - main [MainThread]: End processing [databutton]: success
+[2024-05-31 09:32:04] INFO root fetch - processPackages [spiakid-simulation]: Remove: archive file [/home/abi/fetcher/tmp/spiakid_simulation-1.24a0.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [spiakid-simulation]: Remove: archive file [/home/abi/fetcher/tmp/spiakid_simulation-1.25a0.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [spiakid-simulation]: Start processing: django-crew
+[2024-05-31 09:32:04] INFO root fetch - main [MainThread]: End processing [spiakid-simulation]: success
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2405.0] Old Version: [1.2403.0]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [UnityPredict]: Remove: archive file [/home/abi/fetcher/tmp/UnityPredict-0.1.8.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [UnityPredict]: Remove: archive file [/home/abi/fetcher/tmp/UnityPredict-0.1.9.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - main [MainThread]: End processing [UnityPredict]: success
+[2024-05-31 09:32:04] INFO root fetch - processPackages [intersight]: Downloading https://files.pythonhosted.org/packages/ff/40/daaa754993e7cb8462afdc89a9772328cc5717951e766da83fa93944e043/intersight-1.0.9.6207.tar.gz
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2404.0-py3-none-any.whl.zip]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2405.0.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/fa/6a/159684f0db6e9642c4f23d9aa55cbea9d068024a64be0d578bce2308a888/gardener_cicd_libs-1.2403.0.tar.gz
+[2024-05-31 09:32:04] INFO root fetch - main [MainThread]: End processing [UnityPredict]: success
+[2024-05-31 09:32:04] WARNING root fetch - processPackages [django-crew]: Skipping, unable to determine old version
+[2024-05-31 09:32:04] INFO root fetch - main [MainThread]: End processing [django-crew] error
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/69/3e/63078defa114084befc5b7699436fa440237a53b57c6e7774f8a0e71b215/gardener_cicd_dso-1.2405.0.tar.gz
+[2024-05-31 09:32:04] INFO root fetch - main [MainThread]: End processing [UnityPredict]: success
+[2024-05-31 09:32:04] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev9.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4rc0.tar.gz]
+[2024-05-31 09:32:04] INFO root fetch - main [MainThread]: End processing [aioli-sdk]: success
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-31 09:32:04] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2404.0-py3-none-any.whl.zip tmp/gardener_cicd_dso-1.2405.0.tar.gz --markdown 20240531/g/gardener-cicd-dso/1.2404.0-1.2405.0/README.md --exclude *.pyd
+[2024-05-31 09:32:05] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/8c/51/16e3dfccd56ed2c6f8d876dd875c83a426129f203d3d8157a5d278b53444/gardener_cicd_libs-1.2405.0-py3-none-any.whl
+[2024-05-31 09:32:05] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-05-31 09:32:05] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2403.0.tar.gz tmp/gardener_cicd_libs-1.2405.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-libs/1.2403.0-1.2405.0/README.md --exclude *.pyd
+[2024-05-31 09:32:05] WARNING root fetch - processPackages [intersight]: Skipping package: exceeds size limit 16195201>=10485760
+[2024-05-31 09:32:05] INFO root fetch - main [MainThread]: End processing [intersight] error
+[2024-05-31 09:32:05] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2404.0-py3-none-any.whl.zip]
+[2024-05-31 09:32:05] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2405.0.tar.gz]
+[2024-05-31 09:32:05] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-31 09:32:05] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2403.0.tar.gz]
+[2024-05-31 09:32:05] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2405.0-py3-none-any.whl.zip]
+[2024-05-31 09:32:05] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-05-31 09:32:14] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707891532.tar.gz]
+[2024-05-31 09:32:14] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-7.9.0a1707934510.tar.gz]
+[2024-05-31 09:32:14] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2024-05-31 09:32:14] INFO root fetch - main [MainThread]: Store serial: [23462098]
