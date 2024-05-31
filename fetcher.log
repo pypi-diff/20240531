@@ -18036,3 +18036,132 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:15:11] INFO root fetch - processPackages [zenml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/zenml_nightly-0.58.0.dev20240531.tar.gz]
 [2024-05-31 14:15:11] INFO root fetch - main [MainThread]: End processing [zenml-nightly]: success
 [2024-05-31 14:15:11] INFO root fetch - main [MainThread]: Store serial: [23465395]
+[2024-05-31 14:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465395]
+[2024-05-31 14:17:20] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-31 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onchainpay-api
+[2024-05-31 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apollopayment-api
+[2024-05-31 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fortiedr
+[2024-05-31 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-customer-io
+[2024-05-31 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghga-transpiler
+[2024-05-31 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-cdktf-resolver
+[2024-05-31 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-29
+[2024-05-31 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airbyte-source-mailersend
+[2024-05-31 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airbyte-source-plaid
+[2024-05-31 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lokzzpylib
+[2024-05-31 14:17:20] INFO root fetch - processPackages [onchainpay-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 14:17:20] INFO root fetch - processPackages [fortiedr]: New version: [3.7] Old Version: [3.6.9]
+[2024-05-31 14:17:20] INFO root fetch - processPackages [apollopayment-api]: New version: [0.0.7] Old Version: [0.0.5]
+[2024-05-31 14:17:20] INFO root fetch - processPackages [airbyte-source-mailersend]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 14:17:20] INFO root fetch - processPackages [onchainpay-api]: Downloading https://files.pythonhosted.org/packages/1e/5d/3f6c052088b72e5ea8aca9fa9e334c750d4c3cb20a880ff8dd5ce3ee009e/onchainpay_api-0.0.5-py3-none-any.whl
+[2024-05-31 14:17:20] INFO root fetch - processPackages [airbyte-source-plaid]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-31 14:17:20] INFO root fetch - processPackages [airbyte-source-customer-io]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-31 14:17:20] INFO root fetch - processPackages [cdk8s-plus-29]: New version: [2.3.6] Old Version: [2.3.5]
+[2024-05-31 14:17:20] INFO root fetch - processPackages [ghga-transpiler]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-31 14:17:20] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev92] Old Version: [0.2.dev90]
+[2024-05-31 14:17:20] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: New version: [0.0.9] Old Version: [0.0.82]
+[2024-05-31 14:17:20] INFO root fetch - processPackages [fortiedr]: Downloading https://files.pythonhosted.org/packages/d3/41/464bfda21b933534b1444278f1df22983a42684b64483ce21c2fa4955e25/fortiedr-3.6.9.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [apollopayment-api]: Downloading https://files.pythonhosted.org/packages/5a/59/1a1682ff45d79bd5e51ec566956b0a0376a516637724dcf7bac672684d89/apollopayment_api-0.0.5-py3-none-any.whl
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-mailersend]: Downloading https://files.pythonhosted.org/packages/06/80/c8bae2499a909ab8d81f38756a01123f5605a3d10e73dcee2509b5740233/airbyte-source-mailersend-0.1.0.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/27/36/5f0e9b20487dff3edba115a6a557bd3f0ce8408ddbc90052b9e62a20287c/cdk8s-cdktf-resolver-0.0.82.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [onchainpay-api]: Downloading https://files.pythonhosted.org/packages/f0/e7/4a59d993a5c65d531681f57e2fc94419f5b0d93abd5fc3c3c5fc3afb0f0f/onchainpay_api-0.0.6-py3-none-any.whl
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-customer-io]: Downloading https://files.pythonhosted.org/packages/50/ea/3a475fe24c0a59cc09197f6d853d455c47a8efa499afaa9bf446fc6eb0e8/airbyte-source-customer-io-0.2.0.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [ghga-transpiler]: Downloading https://files.pythonhosted.org/packages/74/8f/7a9b0e3f0350b4f2e271d4e472008105b19a579957ca0c333af55b0d55f6/ghga_transpiler-2.0.0.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/60/70/ec675d5d3bf56f9eabfd139067eb350b4a467a6cf6b82f175af8dda9e19c/cdk8s-plus-29-2.3.5.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/a2/8f/932015856154d69caa80f91c6cd4f3de898e1dad6fa8374e2480ad1e96ea/lokzzpylib-0.2.dev90.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-plaid]: Downloading https://files.pythonhosted.org/packages/7c/74/60d20ac043db20af24b7c9d19d74c899eb63fba24412ace8ae5213c3f81a/airbyte-source-plaid-0.4.0.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [fortiedr]: Downloading https://files.pythonhosted.org/packages/4f/60/a47a6c5e0acdc683b2c9ebe02ded17449d34e31c7dfd067cd08e0581fa72/fortiedr-3.7.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [onchainpay-api]: executing diffoscope
+[2024-05-31 14:17:21] INFO root fetch - processPackages [onchainpay-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onchainpay_api-0.0.5-py3-none-any.whl.zip tmp/onchainpay_api-0.0.6-py3-none-any.whl.zip --markdown 20240531/o/onchainpay-api/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 14:17:21] INFO root fetch - processPackages [apollopayment-api]: Downloading https://files.pythonhosted.org/packages/56/fc/fa120c6e4921b565c799e16e43fb0c9dadc8ecde79cfb43e4c68e09256b9/apollopayment_api-0.0.7-py3-none-any.whl
+[2024-05-31 14:17:21] INFO root fetch - processPackages [fortiedr]: executing diffoscope
+[2024-05-31 14:17:21] INFO root fetch - processPackages [fortiedr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortiedr-3.6.9.tar.gz tmp/fortiedr-3.7.tar.gz --markdown 20240531/f/fortiedr/3.6.9-3.7/README.md --exclude *.pyd
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-mailersend]: Downloading https://files.pythonhosted.org/packages/49/3f/e2e7be3837ea53b580dc0c0bd67fe358a44847eb8f3b9157e66e21142717/airbyte_source_mailersend-0.1.1.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [apollopayment-api]: executing diffoscope
+[2024-05-31 14:17:21] INFO root fetch - processPackages [apollopayment-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollopayment_api-0.0.5-py3-none-any.whl.zip tmp/apollopayment_api-0.0.7-py3-none-any.whl.zip --markdown 20240531/a/apollopayment-api/0.0.5-0.0.7/README.md --exclude *.pyd
+[2024-05-31 14:17:21] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/17/4d/78b8350a2cb674183d85f673cae768cba8891cc6c1031b4c61aa54af2f42/cdk8s-cdktf-resolver-0.0.9.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/cd/90/53d36375038c2bade718b9537cabedacb739eef255ea73603e0fd5b0c19c/lokzzpylib-0.2.dev92-py3-none-any.whl
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-customer-io]: Downloading https://files.pythonhosted.org/packages/95/d6/4d59515a03d425657233c0c2380c2406987672437b125b675839ff90bfbb/airbyte_source_customer_io-0.2.1.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [ghga-transpiler]: Downloading https://files.pythonhosted.org/packages/1f/21/9abfad61aa852fd9b504558a85a3c6571b8a060e57cd631b0170225a7b65/ghga_transpiler-2.1.0.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-plaid]: Downloading https://files.pythonhosted.org/packages/66/7b/811e634db613d2108bcb9c821880ec110e8d98a1636b2cf81167973f6472/airbyte_source_plaid-0.4.1.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-mailersend]: executing diffoscope
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-mailersend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-mailersend-0.1.0.tar.gz tmp/airbyte_source_mailersend-0.1.1.tar.gz --markdown 20240531/a/airbyte-source-mailersend/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 14:17:21] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: executing diffoscope
+[2024-05-31 14:17:21] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-cdktf-resolver-0.0.82.tar.gz tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz --markdown 20240531/c/cdk8s-cdktf-resolver/0.0.82-0.0.9/README.md --exclude *.pyd
+[2024-05-31 14:17:21] INFO root fetch - processPackages [cdk8s-plus-29]: Downloading https://files.pythonhosted.org/packages/6d/f2/f3197a70169f51d22a3143c7f6c036ce768089871a2ed995075bc0c418e4/cdk8s-plus-29-2.3.6.tar.gz
+[2024-05-31 14:17:21] INFO root fetch - processPackages [ghga-transpiler]: executing diffoscope
+[2024-05-31 14:17:21] INFO root fetch - processPackages [ghga-transpiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_transpiler-2.0.0.tar.gz tmp/ghga_transpiler-2.1.0.tar.gz --markdown 20240531/g/ghga-transpiler/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-31 14:17:21] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2024-05-31 14:17:21] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev90.tar.gz tmp/lokzzpylib-0.2.dev92-py3-none-any.whl.zip --markdown 20240531/l/lokzzpylib/0.2.dev90-0.2.dev92/README.md --exclude *.pyd
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-customer-io]: executing diffoscope
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-customer-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-customer-io-0.2.0.tar.gz tmp/airbyte_source_customer_io-0.2.1.tar.gz --markdown 20240531/a/airbyte-source-customer-io/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-plaid]: executing diffoscope
+[2024-05-31 14:17:21] INFO root fetch - processPackages [airbyte-source-plaid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-plaid-0.4.0.tar.gz tmp/airbyte_source_plaid-0.4.1.tar.gz --markdown 20240531/a/airbyte-source-plaid/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-31 14:17:22] INFO root fetch - processPackages [onchainpay-api]: Remove: archive file [/home/abi/fetcher/tmp/onchainpay_api-0.0.5-py3-none-any.whl.zip]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [onchainpay-api]: Remove: archive file [/home/abi/fetcher/tmp/onchainpay_api-0.0.6-py3-none-any.whl.zip]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [onchainpay-api]: Start processing: airbyte-source-everhour
+[2024-05-31 14:17:22] INFO root fetch - main [MainThread]: End processing [onchainpay-api]: success
+[2024-05-31 14:17:22] INFO root fetch - processPackages [cdk8s-plus-29]: executing diffoscope
+[2024-05-31 14:17:22] INFO root fetch - processPackages [cdk8s-plus-29]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-29-2.3.5.tar.gz tmp/cdk8s-plus-29-2.3.6.tar.gz --markdown 20240531/c/cdk8s-plus-29/2.3.5-2.3.6/README.md --exclude *.pyd
+[2024-05-31 14:17:22] INFO root fetch - processPackages [airbyte-source-everhour]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [apollopayment-api]: Remove: archive file [/home/abi/fetcher/tmp/apollopayment_api-0.0.5-py3-none-any.whl.zip]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [apollopayment-api]: Remove: archive file [/home/abi/fetcher/tmp/apollopayment_api-0.0.7-py3-none-any.whl.zip]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [apollopayment-api]: Start processing: flatpack
+[2024-05-31 14:17:22] INFO root fetch - main [MainThread]: End processing [apollopayment-api]: success
+[2024-05-31 14:17:22] INFO root fetch - processPackages [fortiedr]: Remove: archive file [/home/abi/fetcher/tmp/fortiedr-3.6.9.tar.gz]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [fortiedr]: Remove: archive file [/home/abi/fetcher/tmp/fortiedr-3.7.tar.gz]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [fortiedr]: Start processing: WaveyMcWaveFace
+[2024-05-31 14:17:22] INFO root fetch - main [MainThread]: End processing [fortiedr]: success
+[2024-05-31 14:17:22] INFO root fetch - processPackages [flatpack]: New version: [3.5.9] Old Version: [3.5.8]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [WaveyMcWaveFace]: New version: [1.3] Old Version: [1.1]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [airbyte-source-everhour]: Downloading https://files.pythonhosted.org/packages/71/77/d7e6703635c78ba7c0c396faf74d8d8e113ac4dd345aab257658447fac2a/airbyte-source-everhour-0.1.0.tar.gz
+[2024-05-31 14:17:22] INFO root fetch - processPackages [WaveyMcWaveFace]: Downloading https://files.pythonhosted.org/packages/e6/c1/2877a6efd5bed092e017619337e6f9f94e8aff4eb33bec461b849c3f97f3/waveymcwaveface-1.1.tar.gz
+[2024-05-31 14:17:22] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/0d/a9/8502480e2c2eb0cf1d5c96124b696b315ecaac8fbeabcea4683232791237/flatpack-3.5.8.tar.gz
+[2024-05-31 14:17:22] INFO root fetch - processPackages [airbyte-source-mailersend]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-mailersend-0.1.0.tar.gz]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [airbyte-source-mailersend]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_mailersend-0.1.1.tar.gz]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [airbyte-source-mailersend]: Start processing: swh.search
+[2024-05-31 14:17:22] INFO root fetch - main [MainThread]: End processing [airbyte-source-mailersend]: success
+[2024-05-31 14:17:22] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev90.tar.gz]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev92-py3-none-any.whl.zip]
+[2024-05-31 14:17:22] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2024-05-31 14:17:22] INFO root fetch - processPackages [airbyte-source-customer-io]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-customer-io-0.2.0.tar.gz]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [airbyte-source-customer-io]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_customer_io-0.2.1.tar.gz]
+[2024-05-31 14:17:22] INFO root fetch - main [MainThread]: End processing [airbyte-source-customer-io]: success
+[2024-05-31 14:17:22] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.82.tar.gz]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz]
+[2024-05-31 14:17:22] INFO root fetch - main [MainThread]: End processing [cdk8s-cdktf-resolver]: success
+[2024-05-31 14:17:22] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/d8/91/c9da419dc0b7492b44a9d95f36b27829ce600621fa73894b210c81dadbcd/flatpack-3.5.9.tar.gz
+[2024-05-31 14:17:22] INFO root fetch - processPackages [swh.search]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [ghga-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/ghga_transpiler-2.0.0.tar.gz]
+[2024-05-31 14:17:22] INFO root fetch - processPackages [ghga-transpiler]: Remove: archive file [/home/abi/fetcher/tmp/ghga_transpiler-2.1.0.tar.gz]
+[2024-05-31 14:17:22] INFO root fetch - main [MainThread]: End processing [ghga-transpiler]: success
+[2024-05-31 14:17:22] INFO root fetch - processPackages [airbyte-source-everhour]: Downloading https://files.pythonhosted.org/packages/58/2f/fdde7b0bd5b681892199665df9a165acee6020d03afc982383b5dc3aec75/airbyte_source_everhour-0.1.1.tar.gz
+[2024-05-31 14:17:23] INFO root fetch - processPackages [airbyte-source-plaid]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-plaid-0.4.0.tar.gz]
+[2024-05-31 14:17:23] INFO root fetch - processPackages [airbyte-source-plaid]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_plaid-0.4.1.tar.gz]
+[2024-05-31 14:17:23] INFO root fetch - main [MainThread]: End processing [airbyte-source-plaid]: success
+[2024-05-31 14:17:23] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-31 14:17:23] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.5.8.tar.gz tmp/flatpack-3.5.9.tar.gz --markdown 20240531/f/flatpack/3.5.8-3.5.9/README.md --exclude *.pyd
+[2024-05-31 14:17:23] INFO root fetch - processPackages [WaveyMcWaveFace]: Downloading https://files.pythonhosted.org/packages/c7/4e/193ba48816c36757c03c8f52de278837e9f17270cab7ef90b0d3d52c1488/WaveyMcWaveFace-1.3.tar.gz
+[2024-05-31 14:17:23] INFO root fetch - processPackages [swh.search]: Downloading https://files.pythonhosted.org/packages/11/9f/1ba9024a927e8159037ccb5608a43619ae5c793be0969a74573907f98c35/swh.search-0.8.1.tar.gz
+[2024-05-31 14:17:23] INFO root fetch - processPackages [WaveyMcWaveFace]: executing diffoscope
+[2024-05-31 14:17:23] INFO root fetch - processPackages [WaveyMcWaveFace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveymcwaveface-1.1.tar.gz tmp/WaveyMcWaveFace-1.3.tar.gz --markdown 20240531/W/WaveyMcWaveFace/1.1-1.3/README.md --exclude *.pyd
+[2024-05-31 14:17:23] INFO root fetch - processPackages [airbyte-source-everhour]: executing diffoscope
+[2024-05-31 14:17:23] INFO root fetch - processPackages [airbyte-source-everhour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-everhour-0.1.0.tar.gz tmp/airbyte_source_everhour-0.1.1.tar.gz --markdown 20240531/a/airbyte-source-everhour/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 14:17:23] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.3.5.tar.gz]
+[2024-05-31 14:17:23] INFO root fetch - processPackages [cdk8s-plus-29]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-29-2.3.6.tar.gz]
+[2024-05-31 14:17:23] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-29]: success
+[2024-05-31 14:17:23] INFO root fetch - processPackages [swh.search]: Downloading https://files.pythonhosted.org/packages/74/39/aa9656b3a538a173caa9e615c8afcf0b46fb269af79074e720033ac269e4/swh.search-0.9.0.tar.gz
+[2024-05-31 14:17:23] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.8.tar.gz]
+[2024-05-31 14:17:23] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.5.9.tar.gz]
+[2024-05-31 14:17:23] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-31 14:17:23] INFO root fetch - processPackages [swh.search]: executing diffoscope
+[2024-05-31 14:17:23] INFO root fetch - processPackages [swh.search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.search-0.8.1.tar.gz tmp/swh.search-0.9.0.tar.gz --markdown 20240531/s/swh.search/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-31 14:17:23] INFO root fetch - processPackages [airbyte-source-everhour]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-everhour-0.1.0.tar.gz]
+[2024-05-31 14:17:23] INFO root fetch - processPackages [airbyte-source-everhour]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_everhour-0.1.1.tar.gz]
+[2024-05-31 14:17:23] INFO root fetch - main [MainThread]: End processing [airbyte-source-everhour]: success
+[2024-05-31 14:17:23] INFO root fetch - processPackages [WaveyMcWaveFace]: Remove: archive file [/home/abi/fetcher/tmp/waveymcwaveface-1.1.tar.gz]
+[2024-05-31 14:17:23] INFO root fetch - processPackages [WaveyMcWaveFace]: Remove: archive file [/home/abi/fetcher/tmp/WaveyMcWaveFace-1.3.tar.gz]
+[2024-05-31 14:17:23] INFO root fetch - main [MainThread]: End processing [WaveyMcWaveFace]: success
+[2024-05-31 14:17:24] INFO root fetch - processPackages [swh.search]: Remove: archive file [/home/abi/fetcher/tmp/swh.search-0.8.1.tar.gz]
+[2024-05-31 14:17:24] INFO root fetch - processPackages [swh.search]: Remove: archive file [/home/abi/fetcher/tmp/swh.search-0.9.0.tar.gz]
+[2024-05-31 14:17:24] INFO root fetch - main [MainThread]: End processing [swh.search]: success
+[2024-05-31 14:17:24] INFO root fetch - main [MainThread]: Store serial: [23465438]
