@@ -8903,3 +8903,51 @@
 [2024-05-31 08:12:47] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2024-05-31 08:12:47] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2024-05-31 08:12:47] INFO root fetch - main [MainThread]: Store serial: [23461155]
+[2024-05-31 08:14:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461155]
+[2024-05-31 08:14:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 08:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smol_k8s_lab
+[2024-05-31 08:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-libvirt
+[2024-05-31 08:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EDAeasy
+[2024-05-31 08:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-awscdk-resolver
+[2024-05-31 08:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superseeker
+[2024-05-31 08:14:56] INFO root fetch - processPackages [EDAeasy]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-31 08:14:56] INFO root fetch - processPackages [superseeker]: New version: [0.1.dev2] Old Version: [0.1.dev1]
+[2024-05-31 08:14:56] INFO root fetch - processPackages [EDAeasy]: Downloading https://files.pythonhosted.org/packages/ca/11/4bc9c7df999253cecc13a940a6ff3abe5c32491c885ab3cb1affcd4502b8/edaeasy-1.0.1.tar.gz
+[2024-05-31 08:14:56] INFO root fetch - processPackages [superseeker]: Downloading https://files.pythonhosted.org/packages/3a/b2/e3e392d575545188d87340658a6d8e7417f027e2ecef30c965f8d421a19a/superseeker-0.1.dev1.tar.gz
+[2024-05-31 08:14:56] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 08:14:56] INFO root fetch - processPackages [smol_k8s_lab]: New version: [5.3.1] Old Version: [5.3.0]
+[2024-05-31 08:14:56] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.5.0a1717134411] Old Version: [0.5.0a1716961499]
+[2024-05-31 08:14:57] INFO root fetch - processPackages [EDAeasy]: Downloading https://files.pythonhosted.org/packages/6a/20/5590c7f18070b3477021f744d5be3bca55f1e901bbcff083cab03b622385/edaeasy-1.1.0.tar.gz
+[2024-05-31 08:14:57] INFO root fetch - processPackages [superseeker]: Downloading https://files.pythonhosted.org/packages/30/22/3cf61e64c088f66b753997ae2b44d56628de3aae32a245c3ee9465ce6afb/superseeker-0.1.dev2.tar.gz
+[2024-05-31 08:14:57] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/07/20/19ec9266389742d2a3c04ab3687b33ce4fbc2bbb57bfcec31da1a9bcbd23/cdk8s-awscdk-resolver-0.0.98.tar.gz
+[2024-05-31 08:14:57] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/5e/cd/7dc45c0ccdc5deabaa35aedb83634c8b29c59659d3a48faabe4e323e3edf/pulumi_libvirt-0.5.0a1716961499.tar.gz
+[2024-05-31 08:14:57] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/a8/75/b7bff7c1f7c011d97819514c575d83ed1e0d51646e3b0876f77154547aec/smol_k8s_lab-5.3.0.tar.gz
+[2024-05-31 08:14:57] INFO root fetch - processPackages [superseeker]: executing diffoscope
+[2024-05-31 08:14:57] INFO root fetch - processPackages [superseeker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superseeker-0.1.dev1.tar.gz tmp/superseeker-0.1.dev2.tar.gz --markdown 20240531/s/superseeker/0.1.dev1-0.1.dev2/README.md --exclude *.pyd
+[2024-05-31 08:14:57] INFO root fetch - processPackages [EDAeasy]: executing diffoscope
+[2024-05-31 08:14:57] INFO root fetch - processPackages [EDAeasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edaeasy-1.0.1.tar.gz tmp/edaeasy-1.1.0.tar.gz --markdown 20240531/E/EDAeasy/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-31 08:14:57] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/3d/cd/4710b76a9a8ce399ab3ed51caf561ccb5b6b6081dc429a0a0b3e522ef060/pulumi_libvirt-0.5.0a1717134411.tar.gz
+[2024-05-31 08:14:57] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/c7/b2/54a44e3f76d560a3b27d6d369382450e19f3b34970ec7c2ee462c06c50c0/cdk8s-awscdk-resolver-0.0.99.tar.gz
+[2024-05-31 08:14:57] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2024-05-31 08:14:57] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.5.0a1716961499.tar.gz tmp/pulumi_libvirt-0.5.0a1717134411.tar.gz --markdown 20240531/p/pulumi-libvirt/0.5.0a1716961499-0.5.0a1717134411/README.md --exclude *.pyd
+[2024-05-31 08:14:57] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-05-31 08:14:57] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz --markdown 20240531/c/cdk8s-awscdk-resolver/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 08:14:57] INFO root fetch - processPackages [superseeker]: Remove: archive file [/home/abi/fetcher/tmp/superseeker-0.1.dev1.tar.gz]
+[2024-05-31 08:14:57] INFO root fetch - processPackages [superseeker]: Remove: archive file [/home/abi/fetcher/tmp/superseeker-0.1.dev2.tar.gz]
+[2024-05-31 08:14:57] INFO root fetch - main [MainThread]: End processing [superseeker]: success
+[2024-05-31 08:14:57] INFO root fetch - processPackages [smol_k8s_lab]: Downloading https://files.pythonhosted.org/packages/01/11/920a1b8a4e7958611eeee03c4eefd4b37b940295ba402b3c1bb187032ad5/smol_k8s_lab-5.3.1.tar.gz
+[2024-05-31 08:14:57] INFO root fetch - processPackages [EDAeasy]: Remove: archive file [/home/abi/fetcher/tmp/edaeasy-1.0.1.tar.gz]
+[2024-05-31 08:14:57] INFO root fetch - processPackages [EDAeasy]: Remove: archive file [/home/abi/fetcher/tmp/edaeasy-1.1.0.tar.gz]
+[2024-05-31 08:14:57] INFO root fetch - main [MainThread]: End processing [EDAeasy]: success
+[2024-05-31 08:14:58] INFO root fetch - processPackages [smol_k8s_lab]: executing diffoscope
+[2024-05-31 08:14:58] INFO root fetch - processPackages [smol_k8s_lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol_k8s_lab-5.3.0.tar.gz tmp/smol_k8s_lab-5.3.1.tar.gz --markdown 20240531/s/smol_k8s_lab/5.3.0-5.3.1/README.md --exclude *.pyd
+[2024-05-31 08:14:58] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1716961499.tar.gz]
+[2024-05-31 08:14:58] INFO root fetch - processPackages [pulumi-libvirt]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_libvirt-0.5.0a1717134411.tar.gz]
+[2024-05-31 08:14:58] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2024-05-31 08:14:58] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz]
+[2024-05-31 08:14:58] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz]
+[2024-05-31 08:14:58] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-05-31 08:14:59] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.3.0.tar.gz]
+[2024-05-31 08:14:59] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.3.1.tar.gz]
+[2024-05-31 08:14:59] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
+[2024-05-31 08:14:59] INFO root fetch - main [MainThread]: Store serial: [23461173]
