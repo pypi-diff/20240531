@@ -9286,3 +9286,58 @@
 [2024-05-31 08:32:30] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
 [2024-05-31 08:32:30] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
 [2024-05-31 08:32:30] INFO root fetch - main [MainThread]: Store serial: [23461369]
+[2024-05-31 08:34:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461369]
+[2024-05-31 08:34:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 08:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stereopy
+[2024-05-31 08:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqqq
+[2024-05-31 08:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dwh-oppfolging
+[2024-05-31 08:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GameWorldNavigator
+[2024-05-31 08:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqqq
+[2024-05-31 08:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: websc-client
+[2024-05-31 08:34:40] INFO root fetch - processPackages [GameWorldNavigator]: New version: [0.0.7.1] Old Version: [0.0.7]
+[2024-05-31 08:34:40] INFO root fetch - processPackages [stereopy]: New version: [1.3.0b2] Old Version: [1.3.0b1]
+[2024-05-31 08:34:40] INFO root fetch - processPackages [GameWorldNavigator]: Downloading https://files.pythonhosted.org/packages/48/8c/67f42d0ab6497e18938c4fcb3e2af59c624f25297ddc45a08a6de1e0b65a/GameWorldNavigator-0.0.7.tar.gz
+[2024-05-31 08:34:40] INFO root fetch - processPackages [websc-client]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-31 08:34:40] INFO root fetch - processPackages [stereopy]: Downloading https://files.pythonhosted.org/packages/8e/d9/a0fe1cfdeb5fb1f5b0d29b1d0590fc17b7a9ff05278040c57e4c97b97359/stereopy-1.3.0b1.tar.gz
+[2024-05-31 08:34:40] INFO root fetch - processPackages [pyqqq]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-31 08:34:40] INFO root fetch - processPackages [pyqqq]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-31 08:34:40] INFO root fetch - processPackages [dwh-oppfolging]: New version: [0.0.94] Old Version: [0.0.93]
+[2024-05-31 08:34:40] INFO root fetch - processPackages [websc-client]: Downloading https://files.pythonhosted.org/packages/cf/b4/04d341c4d5dfed546698655ed3a02726cf057d483059f5a0742f73b26a2f/websc_client-1.0.1.tar.gz
+[2024-05-31 08:34:40] INFO root fetch - processPackages [GameWorldNavigator]: Downloading https://files.pythonhosted.org/packages/0c/de/77e6b91711e9553207a2a9e747f6718e23bb3505a1f95fb8d1cc3dc4002d/GameWorldNavigator-0.0.7.1.tar.gz
+[2024-05-31 08:34:40] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/cb/a9/c553ef188a9d6b38efbee82bdf140a23177f3cbe7f4cab5f78b61ec9deb0/dwh_oppfolging-0.0.93.tar.gz
+[2024-05-31 08:34:40] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/96/27/924b59eac85aad2fc913e1a6e57ddfe954ff8d3a73d8370259e26751340c/pyqqq-0.9.8.tar.gz
+[2024-05-31 08:34:40] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/96/27/924b59eac85aad2fc913e1a6e57ddfe954ff8d3a73d8370259e26751340c/pyqqq-0.9.8.tar.gz
+[2024-05-31 08:34:40] INFO root fetch - processPackages [GameWorldNavigator]: executing diffoscope
+[2024-05-31 08:34:40] INFO root fetch - processPackages [GameWorldNavigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GameWorldNavigator-0.0.7.tar.gz tmp/GameWorldNavigator-0.0.7.1.tar.gz --markdown 20240531/G/GameWorldNavigator/0.0.7-0.0.7.1/README.md --exclude *.pyd
+[2024-05-31 08:34:40] INFO root fetch - processPackages [websc-client]: Downloading https://files.pythonhosted.org/packages/29/1f/c4ee1cc41942044b94dbe46816aba1ef9e983f073afb2c5d1e3e775f581e/websc_client-1.0.2.tar.gz
+[2024-05-31 08:34:40] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/c1/6e/0c629bceaf475a5c0abb2f3328b106fb986b5109056ad9bd874ab02bb45a/dwh_oppfolging-0.0.94.tar.gz
+[2024-05-31 08:34:41] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/55/e3/5119cecbdcf7969a494d1d075a49d3c9451653fd110f7a4d7b25d1fb4c48/pyqqq-0.9.9.tar.gz
+[2024-05-31 08:34:41] INFO root fetch - processPackages [stereopy]: Downloading https://files.pythonhosted.org/packages/03/73/5dbd3a07b765f259206eaec2923ecc3a6cb7313f3ff1a4171a1f33949927/stereopy-1.3.0b2.tar.gz
+[2024-05-31 08:34:41] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/55/e3/5119cecbdcf7969a494d1d075a49d3c9451653fd110f7a4d7b25d1fb4c48/pyqqq-0.9.9.tar.gz
+[2024-05-31 08:34:41] INFO root fetch - processPackages [websc-client]: executing diffoscope
+[2024-05-31 08:34:41] INFO root fetch - processPackages [websc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/websc_client-1.0.1.tar.gz tmp/websc_client-1.0.2.tar.gz --markdown 20240531/w/websc-client/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-31 08:34:41] INFO root fetch - processPackages [dwh-oppfolging]: executing diffoscope
+[2024-05-31 08:34:41] INFO root fetch - processPackages [dwh-oppfolging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwh_oppfolging-0.0.93.tar.gz tmp/dwh_oppfolging-0.0.94.tar.gz --markdown 20240531/d/dwh-oppfolging/0.0.93-0.0.94/README.md --exclude *.pyd
+[2024-05-31 08:34:41] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-31 08:34:41] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.9.8.tar.gz tmp/pyqqq-0.9.9.tar.gz --markdown 20240531/p/pyqqq/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-31 08:34:41] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-31 08:34:41] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.9.8.tar.gz tmp/pyqqq-0.9.9.tar.gz --markdown 20240531/p/pyqqq/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-31 08:34:41] INFO root fetch - processPackages [GameWorldNavigator]: Remove: archive file [/home/abi/fetcher/tmp/GameWorldNavigator-0.0.7.tar.gz]
+[2024-05-31 08:34:41] INFO root fetch - processPackages [GameWorldNavigator]: Remove: archive file [/home/abi/fetcher/tmp/GameWorldNavigator-0.0.7.1.tar.gz]
+[2024-05-31 08:34:41] INFO root fetch - main [MainThread]: End processing [GameWorldNavigator]: success
+[2024-05-31 08:34:41] INFO root fetch - processPackages [stereopy]: executing diffoscope
+[2024-05-31 08:34:41] INFO root fetch - processPackages [stereopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stereopy-1.3.0b1.tar.gz tmp/stereopy-1.3.0b2.tar.gz --markdown 20240531/s/stereopy/1.3.0b1-1.3.0b2/README.md --exclude *.pyd
+[2024-05-31 08:34:41] INFO root fetch - processPackages [websc-client]: Remove: archive file [/home/abi/fetcher/tmp/websc_client-1.0.1.tar.gz]
+[2024-05-31 08:34:41] INFO root fetch - processPackages [websc-client]: Remove: archive file [/home/abi/fetcher/tmp/websc_client-1.0.2.tar.gz]
+[2024-05-31 08:34:41] INFO root fetch - main [MainThread]: End processing [websc-client]: success
+[2024-05-31 08:34:41] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.8.tar.gz]
+[2024-05-31 08:34:41] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.9.tar.gz]
+[2024-05-31 08:34:41] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-31 08:34:41] INFO root fetch - processPackages [dwh-oppfolging]: Remove: archive file [/home/abi/fetcher/tmp/dwh_oppfolging-0.0.93.tar.gz]
+[2024-05-31 08:34:41] INFO root fetch - processPackages [dwh-oppfolging]: Remove: archive file [/home/abi/fetcher/tmp/dwh_oppfolging-0.0.94.tar.gz]
+[2024-05-31 08:34:41] INFO root fetch - main [MainThread]: End processing [dwh-oppfolging]: success
+[2024-05-31 08:34:42] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-31 08:34:44] INFO root fetch - processPackages [stereopy]: Remove: archive file [/home/abi/fetcher/tmp/stereopy-1.3.0b1.tar.gz]
+[2024-05-31 08:34:44] INFO root fetch - processPackages [stereopy]: Remove: archive file [/home/abi/fetcher/tmp/stereopy-1.3.0b2.tar.gz]
+[2024-05-31 08:34:44] INFO root fetch - main [MainThread]: End processing [stereopy]: success
+[2024-05-31 08:34:44] INFO root fetch - main [MainThread]: Store serial: [23461405]
