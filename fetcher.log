@@ -3125,3 +3125,32 @@
 [2024-05-31 02:24:24] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.175-cp39-cp39-macosx_10_15_x86_64.whl.zip]
 [2024-05-31 02:24:24] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-05-31 02:24:24] INFO root fetch - main [MainThread]: Store serial: [23458726]
+[2024-05-31 02:26:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458726]
+[2024-05-31 02:26:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 02:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-05-31 02:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xeedchatbot
+[2024-05-31 02:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langroid
+[2024-05-31 02:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenGeode-core
+[2024-05-31 02:26:33] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-31 02:26:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-31 02:26:33] WARNING root fetch - processPackages [xeedchatbot]: Skipping, unable to determine old version
+[2024-05-31 02:26:33] INFO root fetch - main [MainThread]: End processing [xeedchatbot] error
+[2024-05-31 02:26:33] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-05-31 02:26:33] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.21.2rc1]
+[2024-05-31 02:26:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-31 02:26:33] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/31/b1/205fdbdc5fbd56bc21708abede5232cd5a5ae036acab71ac06ff9597a3c2/OpenGeode_core-14.21.2rc1-cp39-cp39-win_amd64.whl
+[2024-05-31 02:26:33] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11773627>=10485760
+[2024-05-31 02:26:33] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-05-31 02:26:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-31 02:26:33] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-05-31 02:26:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-31 02:26:33] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240531/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-31 02:26:33] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-05-31 02:26:33] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240531/l/langroid/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-31 02:26:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-31 02:26:34] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-31 02:26:34] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-31 02:26:34] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-05-31 02:26:34] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-05-31 02:26:34] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-05-31 02:26:34] INFO root fetch - main [MainThread]: Store serial: [23458759]
