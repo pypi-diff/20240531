@@ -11484,3 +11484,47 @@
 [2024-05-31 10:02:45] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.9.0.tar.gz]
 [2024-05-31 10:02:45] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
 [2024-05-31 10:02:45] INFO root fetch - main [MainThread]: Store serial: [23462463]
+[2024-05-31 10:04:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462463]
+[2024-05-31 10:04:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 10:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emotion-model
+[2024-05-31 10:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentiment-analysis-package
+[2024-05-31 10:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibm-watsonx-ai
+[2024-05-31 10:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mecord-cli
+[2024-05-31 10:04:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langfun
+[2024-05-31 10:04:54] INFO root fetch - processPackages [sentiment-analysis-package]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-31 10:04:54] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-31 10:04:54] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240530] Old Version: [0.0.2.dev20240529]
+[2024-05-31 10:04:54] INFO root fetch - processPackages [ibm-watsonx-ai]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-31 10:04:54] INFO root fetch - processPackages [emotion-model]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 10:04:54] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/ed/7c/068def2497fa9ae76fc8099e64086a823d7a4db1d2ea691bae9c2744f825/sentiment_analysis_package-0.6.0.tar.gz
+[2024-05-31 10:04:54] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-05-31 10:04:54] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/1f/a9/3363071d063c138e13fa8bf48ae69014be5b59cbe7f4647fd64be07c0851/langfun-0.0.2.dev20240529.tar.gz
+[2024-05-31 10:04:54] INFO root fetch - processPackages [ibm-watsonx-ai]: Downloading https://files.pythonhosted.org/packages/4b/0f/04240e28200e334a3797bdd96764b08add814078b1a4195ac78971810a1b/ibm_watsonx_ai-1.0.4.tar.gz
+[2024-05-31 10:04:54] INFO root fetch - processPackages [emotion-model]: Downloading https://files.pythonhosted.org/packages/22/23/a8ec3c9ed8b98470352697522625943cac99c6b7ac33532b5ed09d32c4bf/emotion_model-0.0.4.tar.gz
+[2024-05-31 10:04:54] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-05-31 10:04:54] WARNING root fetch - processPackages [emotion-model]: Skipping package: exceeds size limit 79192689>=10485760
+[2024-05-31 10:04:54] INFO root fetch - main [MainThread]: End processing [emotion-model] error
+[2024-05-31 10:04:55] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-05-31 10:04:55] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240531/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-31 10:04:55] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/2e/e7/3afad4b2c789cd6de5b4ca94dd0c042310d7cfe7f129f858cd4beaf12a01/langfun-0.0.2.dev20240530.tar.gz
+[2024-05-31 10:04:55] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/4c/6d/619895215b0322024fa113b35d75f3580cc51197c127c6efc5c1b0a227e2/sentiment_analysis_package-0.7.0.tar.gz
+[2024-05-31 10:04:55] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-31 10:04:55] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240529.tar.gz tmp/langfun-0.0.2.dev20240530.tar.gz --markdown 20240531/l/langfun/0.0.2.dev20240529-0.0.2.dev20240530/README.md --exclude *.pyd
+[2024-05-31 10:04:55] INFO root fetch - processPackages [ibm-watsonx-ai]: Downloading https://files.pythonhosted.org/packages/b1/e6/ae42562841cf8c2bcea89e2e45293dafda98a9f0e29ea6c883cbcf4650e8/ibm_watsonx_ai-1.0.5.tar.gz
+[2024-05-31 10:04:55] INFO root fetch - processPackages [sentiment-analysis-package]: executing diffoscope
+[2024-05-31 10:04:55] INFO root fetch - processPackages [sentiment-analysis-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_package-0.6.0.tar.gz tmp/sentiment_analysis_package-0.7.0.tar.gz --markdown 20240531/s/sentiment-analysis-package/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-31 10:04:55] INFO root fetch - processPackages [ibm-watsonx-ai]: executing diffoscope
+[2024-05-31 10:04:55] INFO root fetch - processPackages [ibm-watsonx-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watsonx_ai-1.0.4.tar.gz tmp/ibm_watsonx_ai-1.0.5.tar.gz --markdown 20240531/i/ibm-watsonx-ai/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-31 10:04:55] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-05-31 10:04:55] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-05-31 10:04:55] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-05-31 10:04:56] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240529.tar.gz]
+[2024-05-31 10:04:56] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240530.tar.gz]
+[2024-05-31 10:04:56] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-31 10:04:56] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.6.0.tar.gz]
+[2024-05-31 10:04:56] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.7.0.tar.gz]
+[2024-05-31 10:04:56] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package]: success
+[2024-05-31 10:04:58] INFO root fetch - processPackages [ibm-watsonx-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watsonx_ai-1.0.4.tar.gz]
+[2024-05-31 10:04:58] INFO root fetch - processPackages [ibm-watsonx-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watsonx_ai-1.0.5.tar.gz]
+[2024-05-31 10:04:58] INFO root fetch - main [MainThread]: End processing [ibm-watsonx-ai]: success
+[2024-05-31 10:04:58] INFO root fetch - main [MainThread]: Store serial: [23462479]
