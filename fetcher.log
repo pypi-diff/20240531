@@ -8855,3 +8855,51 @@
 [2024-05-31 08:10:28] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
 [2024-05-31 08:10:28] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-31 08:10:28] INFO root fetch - main [MainThread]: Store serial: [23461141]
+[2024-05-31 08:12:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461141]
+[2024-05-31 08:12:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 08:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cubecoders-amp-api-wrapper
+[2024-05-31 08:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-mailgun
+[2024-05-31 08:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-alicloud
+[2024-05-31 08:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-identity
+[2024-05-31 08:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentiment-analysis-package
+[2024-05-31 08:12:37] INFO root fetch - processPackages [sentiment-analysis-package]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-31 08:12:37] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-31 08:12:37] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/29/5f/6252ffa7c428fe4349a52953e29b6af192706bf958af1e6fbf8589dd7d3d/sentiment_analysis_package-0.2.0.tar.gz
+[2024-05-31 08:12:37] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1717134402] Old Version: [3.6.0a1716961562]
+[2024-05-31 08:12:37] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-05-31 08:12:37] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: New version: [0.1.0.post0] Old Version: [0.0.42b0]
+[2024-05-31 08:12:37] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-05-31 08:12:38] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-05-31 08:12:38] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/cf/da/7283f199546c5d7076a0e87f1034ae972f5547d322b07353b7ffdc746afc/pulumi_mailgun-3.6.0a1716961562.tar.gz
+[2024-05-31 08:12:38] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Downloading https://files.pythonhosted.org/packages/56/b5/f98ecbd35cdf9258d3a3d429d27edc0db9679b375f38d1784f5462676f66/cubecoders_amp_api_wrapper-0.0.42b0.tar.gz
+[2024-05-31 08:12:38] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-05-31 08:12:38] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-05-31 08:12:38] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240531/s/spaceone-identity/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-31 08:12:38] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Downloading https://files.pythonhosted.org/packages/d1/3b/68c5a43ec9c3a1c7085d5cc8f5e4324a7153a6d27a2b202e79c515c9b8a6/cubecoders_amp_api_wrapper-0.1.0.post0.tar.gz
+[2024-05-31 08:12:38] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/10/c2/3fc37b687734285771d4e090e28f17a0778808c0dbd7c45d6ab4047353c6/pulumi_mailgun-3.6.0a1717134402.tar.gz
+[2024-05-31 08:12:38] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/ec/98/cd21216b258524bdfbac9104a5d184766f588a747332335f85ef7335f48a/sentiment_analysis_package-0.3.0.tar.gz
+[2024-05-31 08:12:38] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: executing diffoscope
+[2024-05-31 08:12:38] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubecoders_amp_api_wrapper-0.0.42b0.tar.gz tmp/cubecoders_amp_api_wrapper-0.1.0.post0.tar.gz --markdown 20240531/c/cubecoders-amp-api-wrapper/0.0.42b0-0.1.0.post0/README.md --exclude *.pyd
+[2024-05-31 08:12:38] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-05-31 08:12:38] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1716961562.tar.gz tmp/pulumi_mailgun-3.6.0a1717134402.tar.gz --markdown 20240531/p/pulumi-mailgun/3.6.0a1716961562-3.6.0a1717134402/README.md --exclude *.pyd
+[2024-05-31 08:12:38] INFO root fetch - processPackages [sentiment-analysis-package]: executing diffoscope
+[2024-05-31 08:12:38] INFO root fetch - processPackages [sentiment-analysis-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_package-0.2.0.tar.gz tmp/sentiment_analysis_package-0.3.0.tar.gz --markdown 20240531/s/sentiment-analysis-package/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-31 08:12:39] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1716961562.tar.gz]
+[2024-05-31 08:12:39] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1717134402.tar.gz]
+[2024-05-31 08:12:39] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-05-31 08:12:39] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-05-31 08:12:39] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-05-31 08:12:39] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-05-31 08:12:39] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/cubecoders_amp_api_wrapper-0.0.42b0.tar.gz]
+[2024-05-31 08:12:39] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/cubecoders_amp_api_wrapper-0.1.0.post0.tar.gz]
+[2024-05-31 08:12:39] INFO root fetch - main [MainThread]: End processing [cubecoders-amp-api-wrapper]: success
+[2024-05-31 08:12:39] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-05-31 08:12:40] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-05-31 08:12:40] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240531/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/README.md --exclude *.pyd
+[2024-05-31 08:12:43] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.2.0.tar.gz]
+[2024-05-31 08:12:43] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.3.0.tar.gz]
+[2024-05-31 08:12:43] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package]: success
+[2024-05-31 08:12:47] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-05-31 08:12:47] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-05-31 08:12:47] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-05-31 08:12:47] INFO root fetch - main [MainThread]: Store serial: [23461155]
