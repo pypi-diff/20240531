@@ -6504,3 +6504,40 @@
 [2024-05-31 05:48:18] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.9.tar.gz]
 [2024-05-31 05:48:18] INFO root fetch - main [MainThread]: End processing [gentccode]: success
 [2024-05-31 05:48:18] INFO root fetch - main [MainThread]: Store serial: [23460188]
+[2024-05-31 05:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460188]
+[2024-05-31 05:50:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 05:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2024-05-31 05:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsdb
+[2024-05-31 05:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myfunctions-edatop
+[2024-05-31 05:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myfunctions-edatop
+[2024-05-31 05:50:27] INFO root fetch - processPackages [myfunctions-edatop]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-31 05:50:27] INFO root fetch - processPackages [myfunctions-edatop]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-31 05:50:27] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/f5/96/1043ffd4af7527257ce36b4c14f592c95cc0a66a3027d927656e669daa99/myfunctions_edatop-0.0.7.tar.gz
+[2024-05-31 05:50:27] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/f5/96/1043ffd4af7527257ce36b4c14f592c95cc0a66a3027d927656e669daa99/myfunctions_edatop-0.0.7.tar.gz
+[2024-05-31 05:50:27] INFO root fetch - processPackages [tsdb]: New version: [0.4] Old Version: [0.3.1]
+[2024-05-31 05:50:27] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.84]
+[2024-05-31 05:50:27] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/1b/77/39d80106d7e3cfbdbf1c44553779cbbcb1a4c5ff6d48bc124c36ad931076/quantplay-1.5.84.tar.gz
+[2024-05-31 05:50:27] INFO root fetch - processPackages [tsdb]: Downloading https://files.pythonhosted.org/packages/f2/34/1566d61cfa2be0c258a29cbb04c6e8e70cd19637fe858fa73aad327f978d/tsdb-0.3.1.tar.gz
+[2024-05-31 05:50:27] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/73/70/c59bd5d782aa1bc31d6412edde4b7d3680e262872192e1f3832db7c3390e/myfunctions_edatop-0.0.8.tar.gz
+[2024-05-31 05:50:27] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/73/70/c59bd5d782aa1bc31d6412edde4b7d3680e262872192e1f3832db7c3390e/myfunctions_edatop-0.0.8.tar.gz
+[2024-05-31 05:50:27] INFO root fetch - processPackages [myfunctions-edatop]: executing diffoscope
+[2024-05-31 05:50:27] INFO root fetch - processPackages [myfunctions-edatop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_edatop-0.0.7.tar.gz tmp/myfunctions_edatop-0.0.8.tar.gz --markdown 20240531/m/myfunctions-edatop/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-31 05:50:27] INFO root fetch - processPackages [myfunctions-edatop]: executing diffoscope
+[2024-05-31 05:50:27] INFO root fetch - processPackages [myfunctions-edatop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_edatop-0.0.7.tar.gz tmp/myfunctions_edatop-0.0.8.tar.gz --markdown 20240531/m/myfunctions-edatop/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-31 05:50:28] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-31 05:50:28] INFO root fetch - processPackages [tsdb]: Downloading https://files.pythonhosted.org/packages/e5/b2/096ff61a8297c4bcc91c0faa96717401c947fd98ff2cce4431b2289acc12/tsdb-0.4.tar.gz
+[2024-05-31 05:50:28] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-31 05:50:28] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.84.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240531/q/quantplay/1.5.84-1.5.9/README.md --exclude *.pyd
+[2024-05-31 05:50:28] INFO root fetch - processPackages [tsdb]: executing diffoscope
+[2024-05-31 05:50:28] INFO root fetch - processPackages [tsdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsdb-0.3.1.tar.gz tmp/tsdb-0.4.tar.gz --markdown 20240531/t/tsdb/0.3.1-0.4/README.md --exclude *.pyd
+[2024-05-31 05:50:28] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.7.tar.gz]
+[2024-05-31 05:50:28] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.8.tar.gz]
+[2024-05-31 05:50:28] INFO root fetch - main [MainThread]: End processing [myfunctions-edatop]: success
+[2024-05-31 05:50:28] INFO root fetch - main [MainThread]: End processing [myfunctions-edatop]: success
+[2024-05-31 05:50:28] INFO root fetch - processPackages [tsdb]: Remove: archive file [/home/abi/fetcher/tmp/tsdb-0.3.1.tar.gz]
+[2024-05-31 05:50:28] INFO root fetch - processPackages [tsdb]: Remove: archive file [/home/abi/fetcher/tmp/tsdb-0.4.tar.gz]
+[2024-05-31 05:50:28] INFO root fetch - main [MainThread]: End processing [tsdb]: success
+[2024-05-31 05:50:29] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.84.tar.gz]
+[2024-05-31 05:50:29] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-31 05:50:29] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-31 05:50:29] INFO root fetch - main [MainThread]: Store serial: [23460200]
