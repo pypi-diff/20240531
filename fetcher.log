@@ -13302,3 +13302,66 @@
 [2024-05-31 11:17:53] INFO root fetch - processPackages [wirepas-mqtt-library]: Remove: archive file [/home/abi/fetcher/tmp/wirepas_mqtt_library-1.2rc2.tar.gz]
 [2024-05-31 11:17:53] INFO root fetch - main [MainThread]: End processing [wirepas-mqtt-library]: success
 [2024-05-31 11:17:53] INFO root fetch - main [MainThread]: Store serial: [23463286]
+[2024-05-31 11:19:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463286]
+[2024-05-31 11:20:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylammpsmpi
+[2024-05-31 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colorcall
+[2024-05-31 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-inventory
+[2024-05-31 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eralibpy
+[2024-05-31 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hooks-toolkit
+[2024-05-31 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AmferModel
+[2024-05-31 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oebuild
+[2024-05-31 11:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: secml-malware
+[2024-05-31 11:20:02] INFO root fetch - processPackages [colorcall]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-31 11:20:02] WARNING root fetch - processPackages [AmferModel]: Skipping, unable to determine old version
+[2024-05-31 11:20:02] INFO root fetch - main [MainThread]: End processing [AmferModel] error
+[2024-05-31 11:20:02] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 11:20:02] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-31 11:20:02] INFO root fetch - processPackages [hooks-toolkit]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-31 11:20:02] INFO root fetch - processPackages [colorcall]: Downloading https://files.pythonhosted.org/packages/d8/fe/55043decbee4e1934f674c51f6db58288df48bcb73312fc47d384356f1be/colorcall-0.1.1.tar.gz
+[2024-05-31 11:20:02] INFO root fetch - processPackages [pylammpsmpi]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 11:20:02] WARNING root fetch - processPackages [eralibpy]: Skipping, unable to determine old version
+[2024-05-31 11:20:02] INFO root fetch - main [MainThread]: End processing [eralibpy] error
+[2024-05-31 11:20:02] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-05-31 11:20:02] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-31 11:20:02] INFO root fetch - processPackages [secml-malware]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 11:20:03] INFO root fetch - processPackages [pylammpsmpi]: Downloading https://files.pythonhosted.org/packages/6b/d8/048364c4269c319b2ce84829a0a33e223ee7913c87d337e6ca7869cefbdf/pylammpsmpi-0.2.8.tar.gz
+[2024-05-31 11:20:03] INFO root fetch - processPackages [hooks-toolkit]: Downloading https://files.pythonhosted.org/packages/9c/c9/8a2e50dc46824020b67ab80a2e5a3e550b03e5cc4f9f95b57cba4f407c34/hooks_toolkit-1.0.4.tar.gz
+[2024-05-31 11:20:03] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-05-31 11:20:03] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-31 11:20:03] INFO root fetch - processPackages [secml-malware]: Downloading https://files.pythonhosted.org/packages/f0/5d/eff58992106169db559aa5bcc1c78d3dd9e27c6b9efa9c5b6fbdd378f84f/secml_malware-0.2.8.tar.gz
+[2024-05-31 11:20:03] INFO root fetch - processPackages [colorcall]: Downloading https://files.pythonhosted.org/packages/40/73/f13e108590f6ba52aecd8220a3033c120408217de56d94d3ba13148bce35/colorcall-0.2.0.tar.gz
+[2024-05-31 11:20:03] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-05-31 11:20:03] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240531/o/oebuild/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 11:20:03] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-31 11:20:03] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240531/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-31 11:20:03] INFO root fetch - processPackages [colorcall]: executing diffoscope
+[2024-05-31 11:20:03] INFO root fetch - processPackages [colorcall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorcall-0.1.1.tar.gz tmp/colorcall-0.2.0.tar.gz --markdown 20240531/c/colorcall/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-31 11:20:03] INFO root fetch - processPackages [hooks-toolkit]: Downloading https://files.pythonhosted.org/packages/9c/85/015add10a7adc5a956c8f8ee8c5bf0a6cb8a944f8d4e5dc23bbb6e097a1d/hooks_toolkit-1.0.5.tar.gz
+[2024-05-31 11:20:03] INFO root fetch - processPackages [pylammpsmpi]: Downloading https://files.pythonhosted.org/packages/f0/45/6333dbb3fcfbe5d5b3882949362b75013c948ca67ce73a6694f716845d50/pylammpsmpi-0.2.9.tar.gz
+[2024-05-31 11:20:03] INFO root fetch - processPackages [pylammpsmpi]: executing diffoscope
+[2024-05-31 11:20:03] INFO root fetch - processPackages [pylammpsmpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylammpsmpi-0.2.8.tar.gz tmp/pylammpsmpi-0.2.9.tar.gz --markdown 20240531/p/pylammpsmpi/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 11:20:03] INFO root fetch - processPackages [hooks-toolkit]: executing diffoscope
+[2024-05-31 11:20:03] INFO root fetch - processPackages [hooks-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hooks_toolkit-1.0.4.tar.gz tmp/hooks_toolkit-1.0.5.tar.gz --markdown 20240531/h/hooks-toolkit/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-31 11:20:04] INFO root fetch - processPackages [colorcall]: Remove: archive file [/home/abi/fetcher/tmp/colorcall-0.1.1.tar.gz]
+[2024-05-31 11:20:04] INFO root fetch - processPackages [colorcall]: Remove: archive file [/home/abi/fetcher/tmp/colorcall-0.2.0.tar.gz]
+[2024-05-31 11:20:04] INFO root fetch - main [MainThread]: End processing [colorcall]: success
+[2024-05-31 11:20:04] INFO root fetch - processPackages [secml-malware]: Downloading https://files.pythonhosted.org/packages/2f/70/3122cdc5319d35096cad0f70e8aa5679d117a4ced562cb23cde951faf9a5/secml_malware-0.2.9.tar.gz
+[2024-05-31 11:20:04] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-05-31 11:20:04] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-05-31 11:20:04] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-05-31 11:20:04] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-31 11:20:04] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-31 11:20:04] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-31 11:20:04] INFO root fetch - processPackages [pylammpsmpi]: Remove: archive file [/home/abi/fetcher/tmp/pylammpsmpi-0.2.8.tar.gz]
+[2024-05-31 11:20:04] INFO root fetch - processPackages [pylammpsmpi]: Remove: archive file [/home/abi/fetcher/tmp/pylammpsmpi-0.2.9.tar.gz]
+[2024-05-31 11:20:04] INFO root fetch - main [MainThread]: End processing [pylammpsmpi]: success
+[2024-05-31 11:20:04] INFO root fetch - processPackages [hooks-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/hooks_toolkit-1.0.4.tar.gz]
+[2024-05-31 11:20:04] INFO root fetch - processPackages [hooks-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/hooks_toolkit-1.0.5.tar.gz]
+[2024-05-31 11:20:04] INFO root fetch - main [MainThread]: End processing [hooks-toolkit]: success
+[2024-05-31 11:20:04] INFO root fetch - processPackages [secml-malware]: executing diffoscope
+[2024-05-31 11:20:04] INFO root fetch - processPackages [secml-malware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secml_malware-0.2.8.tar.gz tmp/secml_malware-0.2.9.tar.gz --markdown 20240531/s/secml-malware/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 11:20:05] INFO root fetch - processPackages [secml-malware]: Remove: archive file [/home/abi/fetcher/tmp/secml_malware-0.2.8.tar.gz]
+[2024-05-31 11:20:05] INFO root fetch - processPackages [secml-malware]: Remove: archive file [/home/abi/fetcher/tmp/secml_malware-0.2.9.tar.gz]
+[2024-05-31 11:20:05] INFO root fetch - main [MainThread]: End processing [secml-malware]: success
+[2024-05-31 11:20:05] INFO root fetch - main [MainThread]: Store serial: [23463310]
