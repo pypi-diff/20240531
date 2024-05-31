@@ -16154,3 +16154,77 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 13:12:51] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.6.0b2-py3-none-any.whl.zip]
 [2024-05-31 13:12:51] INFO root fetch - main [MainThread]: End processing [aos-prov]: success
 [2024-05-31 13:12:51] INFO root fetch - main [MainThread]: Store serial: [23464597]
+[2024-05-31 13:14:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464597]
+[2024-05-31 13:14:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 13:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-core
+[2024-05-31 13:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-helper
+[2024-05-31 13:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mindgard
+[2024-05-31 13:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-base
+[2024-05-31 13:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-cpp
+[2024-05-31 13:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agiflow-sdk
+[2024-05-31 13:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycti
+[2024-05-31 13:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-cli
+[2024-05-31 13:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-dso
+[2024-05-31 13:14:59] WARNING root fetch - processPackages [agiflow-sdk]: Skipping, unable to determine old version
+[2024-05-31 13:14:59] INFO root fetch - main [MainThread]: End processing [agiflow-sdk] error
+[2024-05-31 13:14:59] INFO root fetch - processPackages [ctrip-helper]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-31 13:14:59] INFO root fetch - processPackages [mindgard]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 13:14:59] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2408.0] Old Version: [1.2407.0]
+[2024-05-31 13:14:59] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2408.0] Old Version: [1.2407.0]
+[2024-05-31 13:14:59] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2409.0] Old Version: [1.2408.0]
+[2024-05-31 13:14:59] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240531] Old Version: [2.5.0b20240530]
+[2024-05-31 13:14:59] INFO root fetch - processPackages [policyengine-core]: New version: [2.9.0] Old Version: [2.8.2]
+[2024-05-31 13:14:59] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/d8/d2/47a1fe42ff713e453432531eb462361ee04b256c2833aea021657e1486a1/ctrip-helper-0.3.9.tar.gz
+[2024-05-31 13:14:59] INFO root fetch - processPackages [pycti]: New version: [6.1.7] Old Version: [6.1.6]
+[2024-05-31 13:14:59] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/79/7a/e98e99603287699f1e2bbe635fe0f8f97092b93ac77ce43787532d069d6d/gardener_cicd_cli-1.2407.0-py3-none-any.whl
+[2024-05-31 13:15:00] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/7a/d3/87eec672bd4502bda524f409c767f5ab8e819bfefbb76cbab01e26cef097/gardener_cicd_base-1.2408.0-py3-none-any.whl
+[2024-05-31 13:15:00] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/4f/45/b15d8ad0f920ddd259dc618f7aa2276f663dc02f61bde25a00292864a501/gardener_cicd_dso-1.2407.0-py3-none-any.whl
+[2024-05-31 13:15:00] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/07/97/2bc82753b761563058e4b2a2d1fdfa98561d4e4c738445057c8cab7cc095/policyengine-core-2.8.2.tar.gz
+[2024-05-31 13:15:00] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/b8/18/dc81899342cdef1e44bb0b889cc7cbb687b09ab4ffc102888d30747e8112/bigdl_core_cpp-2.5.0b20240530-py3-none-win_amd64.whl
+[2024-05-31 13:15:00] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/65/2a/c9a9eddad04b08acf644f7c191c07074d31dc74c6d3c5ec5c38eb17daab8/pycti-6.1.6.tar.gz
+[2024-05-31 13:15:00] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 33964890>=10485760
+[2024-05-31 13:15:00] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-31 13:15:00] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/33/b6/955cc5606c7154ce0cadf8e843243b5c9f5d49ed041857b54a5fd13938bd/ctrip-helper-0.4.0.tar.gz
+[2024-05-31 13:15:00] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/bb/c5/9e92dd3f87263e4b64aeb389a4b92b41a8e13eef09985c82f9b318b0a46a/gardener_cicd_cli-1.2408.0-py3-none-any.whl
+[2024-05-31 13:15:00] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 13:15:00] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.3.9.tar.gz tmp/ctrip-helper-0.4.0.tar.gz --markdown 20240531/c/ctrip-helper/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-31 13:15:00] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/94/13/0e3da2de7cbcb857f6edc25500ce2458a65694e38713391813b487784ec4/gardener_cicd_base-1.2409.0-py3-none-any.whl
+[2024-05-31 13:15:00] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/e3/54/e0116bb47066204b6eef5b50dfaaa9c35897b223b9282326495c247859d2/gardener_cicd_dso-1.2408.0-py3-none-any.whl
+[2024-05-31 13:15:00] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-31 13:15:00] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2407.0-py3-none-any.whl.zip tmp/gardener_cicd_cli-1.2408.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-cli/1.2407.0-1.2408.0/README.md --exclude *.pyd
+[2024-05-31 13:15:00] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/26/a2/83d36d4b568d37e6724b68831dc58b4b0c74c437e7537f296c45353a7986/policyengine-core-2.9.0.tar.gz
+[2024-05-31 13:15:00] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-31 13:15:00] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2408.0-py3-none-any.whl.zip tmp/gardener_cicd_base-1.2409.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-base/1.2408.0-1.2409.0/README.md --exclude *.pyd
+[2024-05-31 13:15:00] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/08/2c/ee457b8c22bf6f0299298b84f11aa7d57df957add509c07bf4670ea01944/pycti-6.1.7.tar.gz
+[2024-05-31 13:15:00] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-31 13:15:00] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2407.0-py3-none-any.whl.zip tmp/gardener_cicd_dso-1.2408.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-dso/1.2407.0-1.2408.0/README.md --exclude *.pyd
+[2024-05-31 13:15:00] INFO root fetch - processPackages [policyengine-core]: executing diffoscope
+[2024-05-31 13:15:00] INFO root fetch - processPackages [policyengine-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-core-2.8.2.tar.gz tmp/policyengine-core-2.9.0.tar.gz --markdown 20240531/p/policyengine-core/2.8.2-2.9.0/README.md --exclude *.pyd
+[2024-05-31 13:15:00] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2024-05-31 13:15:00] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-6.1.6.tar.gz tmp/pycti-6.1.7.tar.gz --markdown 20240531/p/pycti/6.1.6-6.1.7/README.md --exclude *.pyd
+[2024-05-31 13:15:01] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.9.tar.gz]
+[2024-05-31 13:15:01] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.4.0.tar.gz]
+[2024-05-31 13:15:01] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 13:15:01] INFO root fetch - processPackages [mindgard]: Downloading https://files.pythonhosted.org/packages/9c/b1/49266284532823bcff62b68da03adcba0ce12145cfedf619217e68b90784/mindgard-0.8.0.tar.gz
+[2024-05-31 13:15:01] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2407.0-py3-none-any.whl.zip]
+[2024-05-31 13:15:01] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2408.0-py3-none-any.whl.zip]
+[2024-05-31 13:15:01] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-31 13:15:01] INFO root fetch - processPackages [mindgard]: Downloading https://files.pythonhosted.org/packages/3d/46/43c1e357331fd69e429226f32578c8023c748ab62ec8721f3c7388d325b1/mindgard-0.9.0.tar.gz
+[2024-05-31 13:15:01] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2408.0-py3-none-any.whl.zip]
+[2024-05-31 13:15:01] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2409.0-py3-none-any.whl.zip]
+[2024-05-31 13:15:01] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-31 13:15:01] INFO root fetch - processPackages [mindgard]: executing diffoscope
+[2024-05-31 13:15:01] INFO root fetch - processPackages [mindgard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindgard-0.8.0.tar.gz tmp/mindgard-0.9.0.tar.gz --markdown 20240531/m/mindgard/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 13:15:01] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-6.1.6.tar.gz]
+[2024-05-31 13:15:01] INFO root fetch - processPackages [pycti]: Remove: archive file [/home/abi/fetcher/tmp/pycti-6.1.7.tar.gz]
+[2024-05-31 13:15:01] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2024-05-31 13:15:01] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.8.2.tar.gz]
+[2024-05-31 13:15:01] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.9.0.tar.gz]
+[2024-05-31 13:15:01] INFO root fetch - main [MainThread]: End processing [policyengine-core]: success
+[2024-05-31 13:15:02] INFO root fetch - processPackages [mindgard]: Remove: archive file [/home/abi/fetcher/tmp/mindgard-0.8.0.tar.gz]
+[2024-05-31 13:15:02] INFO root fetch - processPackages [mindgard]: Remove: archive file [/home/abi/fetcher/tmp/mindgard-0.9.0.tar.gz]
+[2024-05-31 13:15:02] INFO root fetch - main [MainThread]: End processing [mindgard]: success
+[2024-05-31 13:15:02] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2407.0-py3-none-any.whl.zip]
+[2024-05-31 13:15:02] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2408.0-py3-none-any.whl.zip]
+[2024-05-31 13:15:02] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-31 13:15:02] INFO root fetch - main [MainThread]: Store serial: [23464619]
