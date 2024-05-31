@@ -11623,3 +11623,54 @@
 [2024-05-31 10:09:20] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-31 10:09:20] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-31 10:09:20] INFO root fetch - main [MainThread]: Store serial: [23462523]
+[2024-05-31 10:11:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462523]
+[2024-05-31 10:11:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 10:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlrun
+[2024-05-31 10:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: juice-nbutils
+[2024-05-31 10:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numberpy
+[2024-05-31 10:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BlightStalker
+[2024-05-31 10:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: su2guitest
+[2024-05-31 10:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-content-editor
+[2024-05-31 10:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digitaleye-msgs
+[2024-05-31 10:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: th2-grpc-read-db
+[2024-05-31 10:11:29] WARNING root fetch - processPackages [BlightStalker]: Skipping, unable to determine old version
+[2024-05-31 10:11:29] INFO root fetch - main [MainThread]: End processing [BlightStalker] error
+[2024-05-31 10:11:29] INFO root fetch - processPackages [mlrun]: New version: [1.7.0rc9] Old Version: [1.7.0rc8]
+[2024-05-31 10:11:29] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.9rc1] Old Version: [0.0.9.dev9127420636]
+[2024-05-31 10:11:29] WARNING root fetch - processPackages [su2guitest]: Skipping, unable to determine old version
+[2024-05-31 10:11:29] INFO root fetch - main [MainThread]: End processing [su2guitest] error
+[2024-05-31 10:11:29] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/3e/de/bbc90293e3757cb8179dc320aa3df99845445ecfbc16972510c5e80415c3/mlrun-1.7.0rc8-py3-none-any.whl
+[2024-05-31 10:11:29] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/09/a4/a78d7a3f7916a7d0586869da82550a74b8527b42c6e64bd96fd3cd1ecb35/th2_grpc_read_db-0.0.9.dev9127420636.tar.gz
+[2024-05-31 10:11:29] WARNING root fetch - processPackages [numberpy]: Skipping, unable to determine old version
+[2024-05-31 10:11:29] INFO root fetch - main [MainThread]: End processing [numberpy] error
+[2024-05-31 10:11:29] WARNING root fetch - processPackages [juice-nbutils]: Skipping, unable to determine old version
+[2024-05-31 10:11:29] INFO root fetch - main [MainThread]: End processing [juice-nbutils] error
+[2024-05-31 10:11:29] INFO root fetch - processPackages [digitaleye-msgs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 10:11:29] INFO root fetch - processPackages [django-content-editor]: New version: [7.0a1] Old Version: [6.5.1]
+[2024-05-31 10:11:30] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/a0/bd/c35ed7f4a1663e55187839b85dbae6beddb4258813a2af293cd2d0c53bea/th2_grpc_read_db-0.0.9rc1.tar.gz
+[2024-05-31 10:11:30] INFO root fetch - processPackages [digitaleye-msgs]: Downloading https://files.pythonhosted.org/packages/ab/04/923d577583292c3886676e96cd7fb9541c6afa473cb0be482042f9ab4454/digitaleye_msgs-1.0.8.tar.gz
+[2024-05-31 10:11:30] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/e2/5b/1591e1f7caae0db872be0bf644f7a3d9613961cbdf6550c5afc0bd1e3ce0/django_content_editor-6.5.1.tar.gz
+[2024-05-31 10:11:30] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/05/f2/d80ba0edb70be9434bf5fb1badcfad0aef24823e8363d78fc935429023ad/mlrun-1.7.0rc9-py3-none-any.whl
+[2024-05-31 10:11:30] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-05-31 10:11:30] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.9.dev9127420636.tar.gz tmp/th2_grpc_read_db-0.0.9rc1.tar.gz --markdown 20240531/t/th2-grpc-read-db/0.0.9.dev9127420636-0.0.9rc1/README.md --exclude *.pyd
+[2024-05-31 10:11:30] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2024-05-31 10:11:30] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip --markdown 20240531/m/mlrun/1.7.0rc8-1.7.0rc9/README.md --exclude *.pyd
+[2024-05-31 10:11:30] INFO root fetch - processPackages [django-content-editor]: Downloading https://files.pythonhosted.org/packages/5c/73/6f322889a984bbfc7ab4f27d30522be92ba1114dc191740dfdc582eb2548/django_content_editor-7.0a1.tar.gz
+[2024-05-31 10:11:30] INFO root fetch - processPackages [digitaleye-msgs]: Downloading https://files.pythonhosted.org/packages/fd/bd/f9fa5a2ff25dac6d57de48b2f128ad07b29d408ba592ffa68080770271d6/digitaleye_msgs-1.0.9.tar.gz
+[2024-05-31 10:11:30] INFO root fetch - processPackages [django-content-editor]: executing diffoscope
+[2024-05-31 10:11:30] INFO root fetch - processPackages [django-content-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_content_editor-6.5.1.tar.gz tmp/django_content_editor-7.0a1.tar.gz --markdown 20240531/d/django-content-editor/6.5.1-7.0a1/README.md --exclude *.pyd
+[2024-05-31 10:11:30] INFO root fetch - processPackages [digitaleye-msgs]: executing diffoscope
+[2024-05-31 10:11:30] INFO root fetch - processPackages [digitaleye-msgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitaleye_msgs-1.0.8.tar.gz tmp/digitaleye_msgs-1.0.9.tar.gz --markdown 20240531/d/digitaleye-msgs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 10:11:30] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.9.dev9127420636.tar.gz]
+[2024-05-31 10:11:30] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.9rc1.tar.gz]
+[2024-05-31 10:11:30] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-05-31 10:11:31] INFO root fetch - processPackages [digitaleye-msgs]: Remove: archive file [/home/abi/fetcher/tmp/digitaleye_msgs-1.0.8.tar.gz]
+[2024-05-31 10:11:31] INFO root fetch - processPackages [digitaleye-msgs]: Remove: archive file [/home/abi/fetcher/tmp/digitaleye_msgs-1.0.9.tar.gz]
+[2024-05-31 10:11:31] INFO root fetch - main [MainThread]: End processing [digitaleye-msgs]: success
+[2024-05-31 10:11:31] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-6.5.1.tar.gz]
+[2024-05-31 10:11:31] INFO root fetch - processPackages [django-content-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_content_editor-7.0a1.tar.gz]
+[2024-05-31 10:11:31] INFO root fetch - main [MainThread]: End processing [django-content-editor]: success
+[2024-05-31 10:11:32] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip]
+[2024-05-31 10:11:32] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
+[2024-05-31 10:11:32] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2024-05-31 10:11:32] INFO root fetch - main [MainThread]: Store serial: [23462552]
