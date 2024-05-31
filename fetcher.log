@@ -21219,3 +21219,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:10:21] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
 [2024-05-31 16:10:21] INFO root fetch - main [MainThread]: End processing [ok-script]: success
 [2024-05-31 16:10:21] INFO root fetch - main [MainThread]: Store serial: [23466763]
+[2024-05-31 16:12:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466763]
+[2024-05-31 16:12:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 16:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2024-05-31 16:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2024-05-31 16:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aqlm
+[2024-05-31 16:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jdAppStreamEdit
+[2024-05-31 16:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botasaurus2
+[2024-05-31 16:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentry-auth-gitlab-v2
+[2024-05-31 16:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: delphi-epidata
+[2024-05-31 16:12:30] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-31 16:12:30] INFO root fetch - processPackages [delphi-epidata]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-05-31 16:12:30] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240530.23.54.641825] Old Version: [20240529.8.41.310622]
+[2024-05-31 16:12:30] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-31 16:12:30] INFO root fetch - processPackages [aqlm]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-31 16:12:30] INFO root fetch - processPackages [sentry-auth-gitlab-v2]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-31 16:12:30] INFO root fetch - processPackages [jdAppStreamEdit]: New version: [9.1] Old Version: [9.0]
+[2024-05-31 16:12:30] INFO root fetch - processPackages [botasaurus2]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-31 16:12:30] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/bf/c0/d5ba6e69b278bc26c2093ad5b995a3f34a85b835139b6181627e14550386/certora-cli-alpha-master-20240529.8.41.310622.tar.gz
+[2024-05-31 16:12:30] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14609100>=10485760
+[2024-05-31 16:12:30] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-31 16:12:30] INFO root fetch - processPackages [delphi-epidata]: Downloading https://files.pythonhosted.org/packages/2e/2b/92f36399b9e6d4593791628c2125fd025db2a93d41e8e31d9ab8aeffc49e/delphi_epidata-4.1.8.tar.gz
+[2024-05-31 16:12:30] INFO root fetch - processPackages [aqlm]: Downloading https://files.pythonhosted.org/packages/fc/84/5a95d6f878bff93ed17411984a87163ad03893133d4f01bdac89d5b70e49/aqlm-1.1.5.tar.gz
+[2024-05-31 16:12:30] INFO root fetch - processPackages [jdAppStreamEdit]: Downloading https://files.pythonhosted.org/packages/56/33/6232045cc7de67396118bf6114004299510807d232bbeb50d1bf6550e67a/jdAppStreamEdit-9.0.tar.gz
+[2024-05-31 16:12:30] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/8b/2c/b5513600be1d57416d670bc2e866570129177a6cdab2a87ab970203606c6/botasaurus2-1.4.8.tar.gz
+[2024-05-31 16:12:30] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-31 16:12:30] INFO root fetch - processPackages [sentry-auth-gitlab-v2]: Downloading https://files.pythonhosted.org/packages/ac/04/7d05b11574fb9f411deb1e8cb858fc84071b79d8c020e42232cdae55b5fa/sentry-auth-gitlab-v2-0.3.1.tar.gz
+[2024-05-31 16:12:30] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-31 16:12:30] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240531/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-31 16:12:30] INFO root fetch - processPackages [delphi-epidata]: Downloading https://files.pythonhosted.org/packages/71/be/f83f9efb201ade0dd611f4d1cd6d33f7ec3f91010a24b74c13812dab9f36/delphi_epidata-4.1.9.tar.gz
+[2024-05-31 16:12:31] INFO root fetch - processPackages [aqlm]: Downloading https://files.pythonhosted.org/packages/9d/00/a58b2702e85e42f2049fa722b721d8597195581f057b4914dd0214ad0be0/aqlm-1.1.6.tar.gz
+[2024-05-31 16:12:31] INFO root fetch - processPackages [sentry-auth-gitlab-v2]: Downloading https://files.pythonhosted.org/packages/07/5c/7f5d8893217ff08cfa8e1c4ce77ac525acc4c47f2f6a2c75613b072b467c/sentry-auth-gitlab-v2-0.4.0.tar.gz
+[2024-05-31 16:12:31] INFO root fetch - processPackages [jdAppStreamEdit]: Downloading https://files.pythonhosted.org/packages/40/d5/5739b9aac46808576da6f5f99b84a2ed590ffd9a9192a67e2b5fddfa8a02/jdappstreamedit-9.1.tar.gz
+[2024-05-31 16:12:31] INFO root fetch - processPackages [delphi-epidata]: executing diffoscope
+[2024-05-31 16:12:31] INFO root fetch - processPackages [delphi-epidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphi_epidata-4.1.8.tar.gz tmp/delphi_epidata-4.1.9.tar.gz --markdown 20240531/d/delphi-epidata/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-05-31 16:12:31] INFO root fetch - processPackages [aqlm]: executing diffoscope
+[2024-05-31 16:12:31] INFO root fetch - processPackages [aqlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqlm-1.1.5.tar.gz tmp/aqlm-1.1.6.tar.gz --markdown 20240531/a/aqlm/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-31 16:12:31] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/46/c4/b5a64bcce59c23973096de75347254b57018a294e0a4c96c51e04728fbbe/botasaurus2-1.4.9.tar.gz
+[2024-05-31 16:12:31] INFO root fetch - processPackages [sentry-auth-gitlab-v2]: executing diffoscope
+[2024-05-31 16:12:31] INFO root fetch - processPackages [sentry-auth-gitlab-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-auth-gitlab-v2-0.3.1.tar.gz tmp/sentry-auth-gitlab-v2-0.4.0.tar.gz --markdown 20240531/s/sentry-auth-gitlab-v2/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-31 16:12:31] INFO root fetch - processPackages [jdAppStreamEdit]: executing diffoscope
+[2024-05-31 16:12:31] INFO root fetch - processPackages [jdAppStreamEdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdAppStreamEdit-9.0.tar.gz tmp/jdappstreamedit-9.1.tar.gz --markdown 20240531/j/jdAppStreamEdit/9.0-9.1/README.md --exclude *.pyd
+[2024-05-31 16:12:31] INFO root fetch - processPackages [botasaurus2]: executing diffoscope
+[2024-05-31 16:12:31] INFO root fetch - processPackages [botasaurus2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus2-1.4.8.tar.gz tmp/botasaurus2-1.4.9.tar.gz --markdown 20240531/b/botasaurus2/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-31 16:12:31] INFO root fetch - processPackages [delphi-epidata]: Remove: archive file [/home/abi/fetcher/tmp/delphi_epidata-4.1.8.tar.gz]
+[2024-05-31 16:12:31] INFO root fetch - processPackages [delphi-epidata]: Remove: archive file [/home/abi/fetcher/tmp/delphi_epidata-4.1.9.tar.gz]
+[2024-05-31 16:12:31] INFO root fetch - main [MainThread]: End processing [delphi-epidata]: success
+[2024-05-31 16:12:31] INFO root fetch - processPackages [aqlm]: Remove: archive file [/home/abi/fetcher/tmp/aqlm-1.1.5.tar.gz]
+[2024-05-31 16:12:31] INFO root fetch - processPackages [aqlm]: Remove: archive file [/home/abi/fetcher/tmp/aqlm-1.1.6.tar.gz]
+[2024-05-31 16:12:31] INFO root fetch - main [MainThread]: End processing [aqlm]: success
+[2024-05-31 16:12:31] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-31 16:12:31] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-31 16:12:31] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-31 16:12:31] INFO root fetch - processPackages [sentry-auth-gitlab-v2]: Remove: archive file [/home/abi/fetcher/tmp/sentry-auth-gitlab-v2-0.3.1.tar.gz]
+[2024-05-31 16:12:31] INFO root fetch - processPackages [sentry-auth-gitlab-v2]: Remove: archive file [/home/abi/fetcher/tmp/sentry-auth-gitlab-v2-0.4.0.tar.gz]
+[2024-05-31 16:12:31] INFO root fetch - main [MainThread]: End processing [sentry-auth-gitlab-v2]: success
+[2024-05-31 16:12:32] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.4.8.tar.gz]
+[2024-05-31 16:12:32] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.4.9.tar.gz]
+[2024-05-31 16:12:32] INFO root fetch - main [MainThread]: End processing [botasaurus2]: success
+[2024-05-31 16:12:32] INFO root fetch - processPackages [jdAppStreamEdit]: Remove: archive file [/home/abi/fetcher/tmp/jdAppStreamEdit-9.0.tar.gz]
+[2024-05-31 16:12:32] INFO root fetch - processPackages [jdAppStreamEdit]: Remove: archive file [/home/abi/fetcher/tmp/jdappstreamedit-9.1.tar.gz]
+[2024-05-31 16:12:32] INFO root fetch - main [MainThread]: End processing [jdAppStreamEdit]: success
+[2024-05-31 16:12:32] INFO root fetch - main [MainThread]: Store serial: [23466786]
