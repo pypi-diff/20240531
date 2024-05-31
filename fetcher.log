@@ -19510,3 +19510,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:15:57] INFO root fetch - processPackages [buildgrid]: Remove: archive file [/home/abi/fetcher/tmp/buildgrid-0.0.97.tar.gz]
 [2024-05-31 15:15:57] INFO root fetch - main [MainThread]: End processing [buildgrid]: success
 [2024-05-31 15:15:57] INFO root fetch - main [MainThread]: Store serial: [23466080]
+[2024-05-31 15:18:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466080]
+[2024-05-31 15:18:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 15:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lenlp
+[2024-05-31 15:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datupapi
+[2024-05-31 15:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atpdataset
+[2024-05-31 15:18:06] INFO root fetch - processPackages [datupapi]: New version: [1.97.1] Old Version: [1.97.0]
+[2024-05-31 15:18:07] INFO root fetch - processPackages [datupapi]: Downloading https://files.pythonhosted.org/packages/3c/b2/0b9185ba3b149c8e3e4b7159bc81bcbffe6d21e60b26d377cfcda0291ee6/datupapi-1.97.0.tar.gz
+[2024-05-31 15:18:07] WARNING root fetch - processPackages [atpdataset]: Skipping, unable to determine old version
+[2024-05-31 15:18:07] INFO root fetch - main [MainThread]: End processing [atpdataset] error
+[2024-05-31 15:18:07] INFO root fetch - processPackages [lenlp]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-31 15:18:07] INFO root fetch - processPackages [lenlp]: Downloading https://files.pythonhosted.org/packages/0c/38/152b9999be976281443527a148757bed3d2a56bbc858c4de060ba3eb1393/lenlp-1.0.3.tar.gz
+[2024-05-31 15:18:07] INFO root fetch - processPackages [datupapi]: Downloading https://files.pythonhosted.org/packages/19/0d/9fbbb25d2e07e7f622e22d50962f77162556928f3475c71ed8e25c344589/datupapi-1.97.1.tar.gz
+[2024-05-31 15:18:07] INFO root fetch - processPackages [datupapi]: executing diffoscope
+[2024-05-31 15:18:07] INFO root fetch - processPackages [datupapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datupapi-1.97.0.tar.gz tmp/datupapi-1.97.1.tar.gz --markdown 20240531/d/datupapi/1.97.0-1.97.1/README.md --exclude *.pyd
+[2024-05-31 15:18:07] INFO root fetch - processPackages [lenlp]: Downloading https://files.pythonhosted.org/packages/cf/7e/e585a6e5932e4236d8e75f15e4c14a3e253c95118229a8b73ec5c082429b/lenlp-1.0.4.tar.gz
+[2024-05-31 15:18:07] INFO root fetch - processPackages [lenlp]: executing diffoscope
+[2024-05-31 15:18:07] INFO root fetch - processPackages [lenlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lenlp-1.0.3.tar.gz tmp/lenlp-1.0.4.tar.gz --markdown 20240531/l/lenlp/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-31 15:18:08] INFO root fetch - processPackages [datupapi]: Remove: archive file [/home/abi/fetcher/tmp/datupapi-1.97.0.tar.gz]
+[2024-05-31 15:18:08] INFO root fetch - processPackages [datupapi]: Remove: archive file [/home/abi/fetcher/tmp/datupapi-1.97.1.tar.gz]
+[2024-05-31 15:18:08] INFO root fetch - main [MainThread]: End processing [datupapi]: success
+[2024-05-31 15:18:08] INFO root fetch - processPackages [lenlp]: Remove: archive file [/home/abi/fetcher/tmp/lenlp-1.0.3.tar.gz]
+[2024-05-31 15:18:08] INFO root fetch - processPackages [lenlp]: Remove: archive file [/home/abi/fetcher/tmp/lenlp-1.0.4.tar.gz]
+[2024-05-31 15:18:08] INFO root fetch - main [MainThread]: End processing [lenlp]: success
+[2024-05-31 15:18:08] INFO root fetch - main [MainThread]: Store serial: [23466102]
