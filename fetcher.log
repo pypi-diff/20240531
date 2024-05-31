@@ -6846,3 +6846,36 @@
 [2024-05-31 06:05:46] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.3.2.tar.gz]
 [2024-05-31 06:05:46] INFO root fetch - main [MainThread]: End processing [relationalai]: success
 [2024-05-31 06:05:46] INFO root fetch - main [MainThread]: Store serial: [23460293]
+[2024-05-31 06:07:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460293]
+[2024-05-31 06:07:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 06:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-helpdesk-motive
+[2024-05-31 06:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-hr-holidays-credit
+[2024-05-31 06:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-hr-employee-service
+[2024-05-31 06:07:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypitests
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo12-addon-hr-holidays-credit]: New version: [12.0.1.1.0] Old Version: [12.0.1.0.0.99.dev8]
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo12-addon-hr-holidays-credit]: Downloading https://files.pythonhosted.org/packages/57/36/38b3aa6239cccffc0b484af34538e49ae83ff25e19338d1bee90f7b3c0d9/odoo12_addon_hr_holidays_credit-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo12-addon-hr-employee-service]: New version: [12.0.1.0.1.99.dev8] Old Version: [12.0.1.0.1.99.dev7]
+[2024-05-31 06:07:55] WARNING root fetch - processPackages [pypitests]: Skipping, unable to determine old version
+[2024-05-31 06:07:55] INFO root fetch - main [MainThread]: End processing [pypitests] error
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: Downloading https://files.pythonhosted.org/packages/ec/db/1b9a05cbed9389c22325f69c182ef6b9d443ebaac2a61e2cef3ef58406b7/odoo_addon_helpdesk_motive-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo12-addon-hr-employee-service]: Downloading https://files.pythonhosted.org/packages/7a/4a/927a3b41fae2870e7e83367e005e1ec3269c02cc155af35876d57b1f1ddc/odoo12_addon_hr_employee_service-12.0.1.0.1.99.dev7-py3-none-any.whl
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo12-addon-hr-holidays-credit]: Downloading https://files.pythonhosted.org/packages/f4/87/fd0a0ce1aff9fe206f5252a55f059ff5b8bf3152f2e442315a94aca17fba/odoo12_addon_hr_holidays_credit-12.0.1.1.0-py3-none-any.whl
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo12-addon-hr-holidays-credit]: executing diffoscope
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo12-addon-hr-holidays-credit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_holidays_credit-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_hr_holidays_credit-12.0.1.1.0-py3-none-any.whl.zip --markdown 20240531/o/odoo12-addon-hr-holidays-credit/12.0.1.0.0.99.dev8-12.0.1.1.0/README.md --exclude *.pyd
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: Downloading https://files.pythonhosted.org/packages/98/fe/333e2a0383eacf1210e65297986ee8c96332561d9c77aa09db47e9bcd49e/odoo_addon_helpdesk_motive-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo12-addon-hr-employee-service]: Downloading https://files.pythonhosted.org/packages/6c/e4/1f939f5ae2f87bfb7c03c4efcb012f3bd25cc6bf290cbf4477f7c1d4ff6e/odoo12_addon_hr_employee_service-12.0.1.0.1.99.dev8-py3-none-any.whl
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: executing diffoscope
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_motive-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_motive-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-helpdesk-motive/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo12-addon-hr-employee-service]: executing diffoscope
+[2024-05-31 06:07:55] INFO root fetch - processPackages [odoo12-addon-hr-employee-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_employee_service-12.0.1.0.1.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_hr_employee_service-12.0.1.0.1.99.dev8-py3-none-any.whl.zip --markdown 20240531/o/odoo12-addon-hr-employee-service/12.0.1.0.1.99.dev7-12.0.1.0.1.99.dev8/README.md --exclude *.pyd
+[2024-05-31 06:07:56] INFO root fetch - processPackages [odoo12-addon-hr-holidays-credit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_holidays_credit-12.0.1.0.0.99.dev8-py3-none-any.whl.zip]
+[2024-05-31 06:07:56] INFO root fetch - processPackages [odoo12-addon-hr-holidays-credit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_holidays_credit-12.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-31 06:07:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-holidays-credit]: success
+[2024-05-31 06:07:56] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_motive-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-31 06:07:56] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_motive-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-31 06:07:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-motive]: success
+[2024-05-31 06:07:56] INFO root fetch - processPackages [odoo12-addon-hr-employee-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_employee_service-12.0.1.0.1.99.dev7-py3-none-any.whl.zip]
+[2024-05-31 06:07:56] INFO root fetch - processPackages [odoo12-addon-hr-employee-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_hr_employee_service-12.0.1.0.1.99.dev8-py3-none-any.whl.zip]
+[2024-05-31 06:07:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-employee-service]: success
+[2024-05-31 06:07:56] INFO root fetch - main [MainThread]: Store serial: [23460305]
