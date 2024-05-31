@@ -10953,3 +10953,85 @@
 [2024-05-31 09:41:18] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.4.0.tar.gz]
 [2024-05-31 09:41:18] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package]: success
 [2024-05-31 09:41:18] INFO root fetch - main [MainThread]: Store serial: [23462235]
+[2024-05-31 09:43:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462235]
+[2024-05-31 09:43:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lavague-core
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botasaurus-server
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytximport
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Common
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seria-library
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-dali-nightly-cuda120
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-qqshell
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hanja
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ctrip-helper
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: picsellia-annotations
+[2024-05-31 09:43:27] WARNING root fetch - processPackages [seria-library]: Skipping, unable to determine old version
+[2024-05-31 09:43:27] INFO root fetch - main [MainThread]: End processing [seria-library] error
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ctrip-helper]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-31 09:43:27] INFO root fetch - processPackages [picsellia-annotations]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-31 09:43:27] INFO root fetch - processPackages [pytximport]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 09:43:27] INFO root fetch - processPackages [botasaurus-server]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 09:43:27] INFO root fetch - processPackages [nonebot-plugin-qqshell]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-05-31 09:43:27] INFO root fetch - processPackages [lavague-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-31 09:43:27] INFO root fetch - processPackages [hanja]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 09:43:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.39.0.dev20240529] Old Version: [1.39.0.dev20240528]
+[2024-05-31 09:43:27] INFO root fetch - processPackages [Geode-Common]: New version: [31.2.0rc2] Old Version: [31.2.0rc1]
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/7c/b0/5207f7e5361f253006c3460da2169361430a9ba1d589885718ad23623402/ctrip-helper-0.3.3.tar.gz
+[2024-05-31 09:43:27] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/f0/29/6236cf00c97e9e74fa0c4e7fb1f7ef957e52111b705e85e89defe4ec7de6/botasaurus_server-4.0.8.tar.gz
+[2024-05-31 09:43:27] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/22/ba/a9c8a8a17c904c919ce3f9ff55ce8a16fb0623bab5c44c7e0de8f70616ff/lavague_core-0.2.0.tar.gz
+[2024-05-31 09:43:27] WARNING root fetch - processPackages [hanja]: fallback to get urls: [0.8.0]
+[2024-05-31 09:43:27] INFO root fetch - processPackages [nonebot-plugin-qqshell]: Downloading https://files.pythonhosted.org/packages/ed/d7/fda03f49bb70251c36d1543897e0c4d96a4cf58672473f2939882db65222/nonebot_plugin_qqshell-0.1.0a1.tar.gz
+[2024-05-31 09:43:27] INFO root fetch - processPackages [picsellia-annotations]: Downloading https://files.pythonhosted.org/packages/b6/87/b5abb993dd1efe40f1431497d777017f70e8028becff5894c786bd516df7/picsellia_annotations-0.7.0.tar.gz
+[2024-05-31 09:43:27] INFO root fetch - processPackages [pytximport]: Downloading https://files.pythonhosted.org/packages/23/ba/0474b86203d60f9696a8a1061017f8047e006d40755f151b414ba0b97ef2/pytximport-0.1.0.tar.gz
+[2024-05-31 09:43:27] WARNING root fetch - processPackages [hanja]: None
+[2024-05-31 09:43:27] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/e1/9d/dd3ef7495c34ba3d2371320b1b8fbf2ec835fc1b44a677925750dc1593e9/Geode_Common-31.2.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-31 09:43:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/38/82/6c465b5be54334d7fb4ae75679f09e4cccd6ede8a27608092bd75580c773/nvidia_dali_nightly_cuda120-1.39.0.dev20240528.tar.gz
+[2024-05-31 09:43:27] WARNING root fetch - processPackages [pytximport]: Skipping package: exceeds size limit 30799142>=10485760
+[2024-05-31 09:43:27] INFO root fetch - main [MainThread]: End processing [pytximport] error
+[2024-05-31 09:43:27] WARNING root fetch - processPackages [hanja]: None
+[2024-05-31 09:43:27] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/03/11/ef707a7fce8129a4d151622283f54a8d7ab9c844defd6f5f294b0bac1632/botasaurus_server-4.0.9.tar.gz
+[2024-05-31 09:43:27] WARNING root fetch - processPackages [hanja]: unable to get url for both version [0.8.0]
+[2024-05-31 09:43:27] WARNING root fetch - processPackages [hanja]: None
+[2024-05-31 09:43:27] INFO root fetch - main [MainThread]: End processing [hanja] error
+[2024-05-31 09:43:27] INFO root fetch - processPackages [lavague-core]: Downloading https://files.pythonhosted.org/packages/3c/0a/f8a27d43c3b705f09c3a349deb94e81615a76147a38deebc6de36e4d6336/lavague_core-0.2.1.tar.gz
+[2024-05-31 09:43:27] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/f2/d6/9ac4787266bf61061b4920c6885295a10f5993b9a0f1d973616bd9a5d46f/ctrip-helper-0.3.4.tar.gz
+[2024-05-31 09:43:27] INFO root fetch - processPackages [botasaurus-server]: executing diffoscope
+[2024-05-31 09:43:27] INFO root fetch - processPackages [botasaurus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_server-4.0.8.tar.gz tmp/botasaurus_server-4.0.9.tar.gz --markdown 20240531/b/botasaurus-server/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 09:43:28] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 09:43:28] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.3.3.tar.gz tmp/ctrip-helper-0.3.4.tar.gz --markdown 20240531/c/ctrip-helper/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-31 09:43:28] INFO root fetch - processPackages [picsellia-annotations]: Downloading https://files.pythonhosted.org/packages/87/05/b0a584c327da8e1008966435c610c269babb67f422974af84fc80a2954ce/picsellia_annotations-0.8.0.tar.gz
+[2024-05-31 09:43:28] INFO root fetch - processPackages [nonebot-plugin-qqshell]: Downloading https://files.pythonhosted.org/packages/69/b1/286ae951bfa8d03550988215e420da1d2f2a5b34455eddb6b44d0cd150c3/nonebot_plugin_qqshell-0.1.0a2.tar.gz
+[2024-05-31 09:43:28] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/02/99/445ec74c4b9e4048c7697c2a00dd6f2c91e53c2f3750c690dc225d00603b/nvidia_dali_nightly_cuda120-1.39.0.dev20240529.tar.gz
+[2024-05-31 09:43:28] INFO root fetch - processPackages [lavague-core]: executing diffoscope
+[2024-05-31 09:43:28] INFO root fetch - processPackages [lavague-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavague_core-0.2.0.tar.gz tmp/lavague_core-0.2.1.tar.gz --markdown 20240531/l/lavague-core/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-31 09:43:28] INFO root fetch - processPackages [picsellia-annotations]: executing diffoscope
+[2024-05-31 09:43:28] INFO root fetch - processPackages [picsellia-annotations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picsellia_annotations-0.7.0.tar.gz tmp/picsellia_annotations-0.8.0.tar.gz --markdown 20240531/p/picsellia-annotations/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-31 09:43:28] INFO root fetch - processPackages [nonebot-plugin-qqshell]: executing diffoscope
+[2024-05-31 09:43:28] INFO root fetch - processPackages [nonebot-plugin-qqshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_qqshell-0.1.0a1.tar.gz tmp/nonebot_plugin_qqshell-0.1.0a2.tar.gz --markdown 20240531/n/nonebot-plugin-qqshell/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-05-31 09:43:28] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/75/e0/b4837e7f5c9a06b77f8c3c1c46cc571d52e8c23f6f793e00e0969e543faa/Geode_Common-31.2.0rc2-cp39-cp39-win_amd64.whl
+[2024-05-31 09:43:28] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2024-05-31 09:43:28] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240528.tar.gz tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240529.tar.gz --markdown 20240531/n/nvidia-dali-nightly-cuda120/1.39.0.dev20240528-1.39.0.dev20240529/README.md --exclude *.pyd
+[2024-05-31 09:43:28] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.8.tar.gz]
+[2024-05-31 09:43:28] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.9.tar.gz]
+[2024-05-31 09:43:28] INFO root fetch - main [MainThread]: End processing [botasaurus-server]: success
+[2024-05-31 09:43:28] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.3.tar.gz]
+[2024-05-31 09:43:28] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.4.tar.gz]
+[2024-05-31 09:43:28] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 09:43:28] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2024-05-31 09:43:28] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-31.2.0rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-31.2.0rc2-cp39-cp39-win_amd64.whl.zip --markdown 20240531/G/Geode-Common/31.2.0rc1-31.2.0rc2/README.md --exclude *.pyd
+[2024-05-31 09:43:28] INFO root fetch - processPackages [nonebot-plugin-qqshell]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_qqshell-0.1.0a1.tar.gz]
+[2024-05-31 09:43:28] INFO root fetch - processPackages [picsellia-annotations]: Remove: archive file [/home/abi/fetcher/tmp/picsellia_annotations-0.7.0.tar.gz]
+[2024-05-31 09:43:28] INFO root fetch - processPackages [picsellia-annotations]: Remove: archive file [/home/abi/fetcher/tmp/picsellia_annotations-0.8.0.tar.gz]
+[2024-05-31 09:43:28] INFO root fetch - processPackages [nonebot-plugin-qqshell]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_qqshell-0.1.0a2.tar.gz]
+[2024-05-31 09:43:28] INFO root fetch - main [MainThread]: End processing [picsellia-annotations]: success
+[2024-05-31 09:43:28] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-qqshell]: success
+[2024-05-31 09:43:28] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.2.0.tar.gz]
+[2024-05-31 09:43:28] INFO root fetch - processPackages [lavague-core]: Remove: archive file [/home/abi/fetcher/tmp/lavague_core-0.2.1.tar.gz]
+[2024-05-31 09:43:28] INFO root fetch - main [MainThread]: End processing [lavague-core]: success
+[2024-05-31 09:43:29] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240528.tar.gz]
+[2024-05-31 09:43:29] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240529.tar.gz]
+[2024-05-31 09:43:29] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2024-05-31 09:43:44] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.2.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 09:43:44] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.2.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 09:43:44] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2024-05-31 09:43:44] INFO root fetch - main [MainThread]: Store serial: [23462263]
