@@ -7957,3 +7957,33 @@
 [2024-05-31 07:24:28] INFO root fetch - processPackages [VizAble]: Remove: archive file [/home/abi/fetcher/tmp/vizable-0.9.0.tar.gz]
 [2024-05-31 07:24:28] INFO root fetch - main [MainThread]: End processing [VizAble]: success
 [2024-05-31 07:24:28] INFO root fetch - main [MainThread]: Store serial: [23460665]
+[2024-05-31 07:26:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460665]
+[2024-05-31 07:26:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 07:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unittestreport-yami
+[2024-05-31 07:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-openupgrade-scripts
+[2024-05-31 07:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudtoken
+[2024-05-31 07:26:37] INFO root fetch - processPackages [unittestreport-yami]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 07:26:37] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/03/05/d50f9f53e67d589ebd88b7f888d55f92d94e461244648bd9e86de22e45d0/unittestreport_yami-0.1.8.tar.gz
+[2024-05-31 07:26:37] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.3] Old Version: [17.0.1.0.1.2]
+[2024-05-31 07:26:37] INFO root fetch - processPackages [cloudtoken]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 07:26:37] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/2e/07/cd2a4ed7796c54648aaa9877e518fbf9fbf32efb82f079e0a29a9bc2c6a8/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-31 07:26:38] INFO root fetch - processPackages [cloudtoken]: Downloading https://files.pythonhosted.org/packages/33/9c/bbe97835f69f89856a0b4db5539891f5d4e30c20e0cd0b4b1f02b42e8dca/cloudtoken-2.1.8-py3-none-any.whl
+[2024-05-31 07:26:38] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/70/f3/c1c12902a2742117218cb479a728be47808958f03b0f06535cb9eb310c62/unittestreport_yami-0.1.9.tar.gz
+[2024-05-31 07:26:38] INFO root fetch - processPackages [unittestreport-yami]: executing diffoscope
+[2024-05-31 07:26:38] INFO root fetch - processPackages [unittestreport-yami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittestreport_yami-0.1.8.tar.gz tmp/unittestreport_yami-0.1.9.tar.gz --markdown 20240531/u/unittestreport-yami/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 07:26:38] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/f2/91/02310927fe11638961035a9674b0da49957cf5a36fe9d4f8296940bc73b9/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl
+[2024-05-31 07:26:38] INFO root fetch - processPackages [cloudtoken]: Downloading https://files.pythonhosted.org/packages/34/fc/6bc460ae68387b62d25a0ff84166adfaa2fe5304b6c6cba8379692b2dbde/cloudtoken-2.1.9-py3-none-any.whl
+[2024-05-31 07:26:38] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-05-31 07:26:38] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-openupgrade-scripts/17.0.1.0.1.2-17.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-31 07:26:38] INFO root fetch - processPackages [cloudtoken]: executing diffoscope
+[2024-05-31 07:26:38] INFO root fetch - processPackages [cloudtoken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudtoken-2.1.8-py3-none-any.whl.zip tmp/cloudtoken-2.1.9-py3-none-any.whl.zip --markdown 20240531/c/cloudtoken/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 07:26:38] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.8.tar.gz]
+[2024-05-31 07:26:38] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.9.tar.gz]
+[2024-05-31 07:26:38] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
+[2024-05-31 07:26:39] INFO root fetch - processPackages [cloudtoken]: Remove: archive file [/home/abi/fetcher/tmp/cloudtoken-2.1.8-py3-none-any.whl.zip]
+[2024-05-31 07:26:39] INFO root fetch - processPackages [cloudtoken]: Remove: archive file [/home/abi/fetcher/tmp/cloudtoken-2.1.9-py3-none-any.whl.zip]
+[2024-05-31 07:26:39] INFO root fetch - main [MainThread]: End processing [cloudtoken]: success
+[2024-05-31 07:26:41] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-31 07:26:41] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-31 07:26:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-05-31 07:26:41] INFO root fetch - main [MainThread]: Store serial: [23460675]
