@@ -11760,3 +11760,33 @@
 [2024-05-31 10:13:49] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
 [2024-05-31 10:13:49] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
 [2024-05-31 10:13:49] INFO root fetch - main [MainThread]: Store serial: [23462587]
+[2024-05-31 10:15:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462587]
+[2024-05-31 10:15:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 10:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: youqu-dogtail
+[2024-05-31 10:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: performica-prs
+[2024-05-31 10:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jmock
+[2024-05-31 10:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: punkweb-bb
+[2024-05-31 10:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: voxelworldapi
+[2024-05-31 10:15:58] INFO root fetch - processPackages [jmock]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-31 10:15:58] INFO root fetch - processPackages [punkweb-bb]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-31 10:15:58] WARNING root fetch - processPackages [voxelworldapi]: Skipping, unable to determine old version
+[2024-05-31 10:15:58] INFO root fetch - main [MainThread]: End processing [voxelworldapi] error
+[2024-05-31 10:15:58] WARNING root fetch - processPackages [youqu-dogtail]: Skipping, unable to determine old version
+[2024-05-31 10:15:58] WARNING root fetch - processPackages [performica-prs]: Skipping, unable to determine old version
+[2024-05-31 10:15:58] INFO root fetch - main [MainThread]: End processing [youqu-dogtail] error
+[2024-05-31 10:15:58] INFO root fetch - main [MainThread]: End processing [performica-prs] error
+[2024-05-31 10:15:58] INFO root fetch - processPackages [jmock]: Downloading https://files.pythonhosted.org/packages/34/fd/eef6eb0075c305414e17a16aee90d015a2e5c84f7c54a9e7965cf05d83f7/jmock-0.0.3.tar.gz
+[2024-05-31 10:15:58] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/1a/a5/61a20900fdf25aaf86c6df88e3f379151ff377dd781c8d5d596984353b72/punkweb_bb-0.3.0.tar.gz
+[2024-05-31 10:15:58] INFO root fetch - processPackages [jmock]: Downloading https://files.pythonhosted.org/packages/80/41/b84176fd5346e035b33ac2c06a6618c718c9a23715d450f05fe1ec49cca2/jmock-0.0.4.tar.gz
+[2024-05-31 10:15:58] INFO root fetch - processPackages [jmock]: executing diffoscope
+[2024-05-31 10:15:58] INFO root fetch - processPackages [jmock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmock-0.0.3.tar.gz tmp/jmock-0.0.4.tar.gz --markdown 20240531/j/jmock/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-31 10:15:58] INFO root fetch - processPackages [punkweb-bb]: Downloading https://files.pythonhosted.org/packages/5b/79/68ea7f445dcaa9b1ee5b0d584ad80cb42028fbf2768d82213235c8ea1f98/punkweb_bb-0.4.0.tar.gz
+[2024-05-31 10:15:59] INFO root fetch - processPackages [punkweb-bb]: executing diffoscope
+[2024-05-31 10:15:59] INFO root fetch - processPackages [punkweb-bb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punkweb_bb-0.3.0.tar.gz tmp/punkweb_bb-0.4.0.tar.gz --markdown 20240531/p/punkweb-bb/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-31 10:15:59] INFO root fetch - processPackages [jmock]: Remove: archive file [/home/abi/fetcher/tmp/jmock-0.0.3.tar.gz]
+[2024-05-31 10:15:59] INFO root fetch - processPackages [jmock]: Remove: archive file [/home/abi/fetcher/tmp/jmock-0.0.4.tar.gz]
+[2024-05-31 10:15:59] INFO root fetch - main [MainThread]: End processing [jmock]: success
+[2024-05-31 10:16:00] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.3.0.tar.gz]
+[2024-05-31 10:16:00] INFO root fetch - processPackages [punkweb-bb]: Remove: archive file [/home/abi/fetcher/tmp/punkweb_bb-0.4.0.tar.gz]
+[2024-05-31 10:16:00] INFO root fetch - main [MainThread]: End processing [punkweb-bb]: success
+[2024-05-31 10:16:00] INFO root fetch - main [MainThread]: Store serial: [23462614]
