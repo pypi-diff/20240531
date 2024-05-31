@@ -3424,3 +3424,24 @@
 [2024-05-31 02:44:06] INFO root fetch - processPackages [yt-libyt]: Remove: archive file [/home/abi/fetcher/tmp/yt_libyt-0.0.8.tar.gz]
 [2024-05-31 02:44:06] INFO root fetch - main [MainThread]: End processing [yt-libyt]: success
 [2024-05-31 02:44:06] INFO root fetch - main [MainThread]: Store serial: [23458922]
+[2024-05-31 02:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458922]
+[2024-05-31 02:46:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 02:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ComfyUI-EasyNodes
+[2024-05-31 02:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2024-05-31 02:46:15] INFO root fetch - processPackages [ComfyUI-EasyNodes]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-31 02:46:15] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405300044] Old Version: [4.9.4.dev202405291539]
+[2024-05-31 02:46:15] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/f9/99/b3b54b0a026b619b37b2bb9dd80b1c4936b5fa29466b0bef59b9850b1fcc/tfds-nightly-4.9.4.dev202405291539.tar.gz
+[2024-05-31 02:46:15] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Downloading https://files.pythonhosted.org/packages/6b/f8/6091885e52fe2c08586a6c3669fce42fbceb649058c9c99920c7dc726485/comfyui_easynodes-1.0.0.tar.gz
+[2024-05-31 02:46:15] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Downloading https://files.pythonhosted.org/packages/e0/39/1a4527bc3bc99ffa27554fccaea85d67a6ee9cf03572f50fd8d13a1bb0f7/comfyui_easynodes-1.0.1.tar.gz
+[2024-05-31 02:46:16] INFO root fetch - processPackages [ComfyUI-EasyNodes]: executing diffoscope
+[2024-05-31 02:46:16] INFO root fetch - processPackages [ComfyUI-EasyNodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfyui_easynodes-1.0.0.tar.gz tmp/comfyui_easynodes-1.0.1.tar.gz --markdown 20240531/C/ComfyUI-EasyNodes/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-31 02:46:16] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/1d/6d/7e0162cec593c7ca18d6ba991b0d0b437ae4697aaccacb827c655090f88e/tfds-nightly-4.9.4.dev202405300044.tar.gz
+[2024-05-31 02:46:16] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-31 02:46:16] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405291539.tar.gz tmp/tfds-nightly-4.9.4.dev202405300044.tar.gz --markdown 20240531/t/tfds-nightly/4.9.4.dev202405291539-4.9.4.dev202405300044/README.md --exclude *.pyd
+[2024-05-31 02:46:16] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Remove: archive file [/home/abi/fetcher/tmp/comfyui_easynodes-1.0.0.tar.gz]
+[2024-05-31 02:46:16] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Remove: archive file [/home/abi/fetcher/tmp/comfyui_easynodes-1.0.1.tar.gz]
+[2024-05-31 02:46:16] INFO root fetch - main [MainThread]: End processing [ComfyUI-EasyNodes]: success
+[2024-05-31 02:46:25] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405291539.tar.gz]
+[2024-05-31 02:46:25] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405300044.tar.gz]
+[2024-05-31 02:46:25] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-31 02:46:25] INFO root fetch - main [MainThread]: Store serial: [23458928]
