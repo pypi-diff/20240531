@@ -23995,3 +23995,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:39:27] INFO root fetch - processPackages [drawlib]: Remove: archive file [/home/abi/fetcher/tmp/drawlib-0.1.9.tar.gz]
 [2024-05-31 17:39:27] INFO root fetch - main [MainThread]: End processing [drawlib]: success
 [2024-05-31 17:39:27] INFO root fetch - main [MainThread]: Store serial: [23468173]
+[2024-05-31 17:41:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23468173]
+[2024-05-31 17:41:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 17:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-05-31 17:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-cicd-wrapper
+[2024-05-31 17:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myfunctions-AdnanGrifat
+[2024-05-31 17:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yoto-api
+[2024-05-31 17:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gaiah-toolkit
+[2024-05-31 17:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jewcal
+[2024-05-31 17:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: todd-ai
+[2024-05-31 17:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jabutiutils
+[2024-05-31 17:41:37] INFO root fetch - processPackages [jewcal]: New version: [0.5.1a3] Old Version: [0.5.0]
+[2024-05-31 17:41:37] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-31 17:41:37] INFO root fetch - processPackages [jabutiutils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-31 17:41:37] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-31 17:41:37] INFO root fetch - processPackages [kcli]: New version: [99.0.202405311200] Old Version: [99.0.202405310929]
+[2024-05-31 17:41:37] INFO root fetch - processPackages [gaiah-toolkit]: New version: [0.5.1] Old Version: [0.4.0]
+[2024-05-31 17:41:37] INFO root fetch - processPackages [jewcal]: Downloading https://files.pythonhosted.org/packages/eb/2a/aee8402ee54119b81ad9b331fa985d4d30e5f14e3419f5645cc44df3bf33/jewcal-0.5.0.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [cdklabs.cdk-cicd-wrapper]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 17:41:37] INFO root fetch - processPackages [jabutiutils]: Downloading https://files.pythonhosted.org/packages/d8/4e/c7ef1f7af22d756aa3dc1c4d4bb7101a891c47dfe03a38af5e63d79d3ca7/jabutiutils-0.0.7.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [todd-ai]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-31 17:41:37] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/83/e4/3b1a400831a24da7e222ae85a5a2975818113d6050f44351a5449b0b0192/kcli-99.0.202405310929.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Downloading https://files.pythonhosted.org/packages/b4/bb/e8dff88b850c8f9ed7babcbfcf1c52c7963a117be3ac6eb6b2d9166f13ec/myfunctions_AdnanGrifat-0.0.6.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [cdklabs.cdk-cicd-wrapper]: Downloading https://files.pythonhosted.org/packages/b4/f1/99fa12e3728f2fe4df507b88f200a00a02f00982666eb053a92f43a752c4/cdklabs.cdk-cicd-wrapper-0.1.0.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [gaiah-toolkit]: Downloading https://files.pythonhosted.org/packages/60/18/e4a917268d207acd431d0d60b8aa2e915dd0ac42d5cda17a151e6a67fb55/gaiah_toolkit-0.4.0.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [jewcal]: Downloading https://files.pythonhosted.org/packages/5b/08/cc0656f5dd453a9a7a00db5b216c4407ef9ba9cc25b5bb7019c6e7e43cfe/jewcal-0.5.1a3.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [todd-ai]: Downloading https://files.pythonhosted.org/packages/b3/48/d83fe0b420a9f30bd89b2005fc51ada1b50affb68bc695e0c8b1871c7f3c/todd_ai-0.4.0.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Downloading https://files.pythonhosted.org/packages/07/8f/11e6780a99caa77d1abaa9727fe0266f3156c3be0c918473b61dae9d07ea/myfunctions_AdnanGrifat-0.0.7.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [jabutiutils]: Downloading https://files.pythonhosted.org/packages/13/40/59a95798df6445fb37ae4d1730409482e307ca3236157922c540d64b80c7/jabutiutils-0.0.8.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [jewcal]: executing diffoscope
+[2024-05-31 17:41:37] INFO root fetch - processPackages [jewcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jewcal-0.5.0.tar.gz tmp/jewcal-0.5.1a3.tar.gz --markdown 20240531/j/jewcal/0.5.0-0.5.1a3/README.md --exclude *.pyd
+[2024-05-31 17:41:37] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-31 17:41:37] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240531/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-31 17:41:37] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: executing diffoscope
+[2024-05-31 17:41:37] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_AdnanGrifat-0.0.6.tar.gz tmp/myfunctions_AdnanGrifat-0.0.7.tar.gz --markdown 20240531/m/myfunctions-AdnanGrifat/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-31 17:41:37] INFO root fetch - processPackages [jabutiutils]: executing diffoscope
+[2024-05-31 17:41:37] INFO root fetch - processPackages [jabutiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jabutiutils-0.0.7.tar.gz tmp/jabutiutils-0.0.8.tar.gz --markdown 20240531/j/jabutiutils/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-31 17:41:37] INFO root fetch - processPackages [gaiah-toolkit]: Downloading https://files.pythonhosted.org/packages/cf/96/11f2f49b10d6d5359a99b089b4d271d0e96db0ad37cdab8c9dc673868048/gaiah_toolkit-0.5.1.tar.gz
+[2024-05-31 17:41:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/be/40/69519b5cc4094c37caba3fb88e50a2e2751d6591df077afd1fbc7f07b264/kcli-99.0.202405311200.tar.gz
+[2024-05-31 17:41:38] INFO root fetch - processPackages [gaiah-toolkit]: executing diffoscope
+[2024-05-31 17:41:38] INFO root fetch - processPackages [gaiah-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiah_toolkit-0.4.0.tar.gz tmp/gaiah_toolkit-0.5.1.tar.gz --markdown 20240531/g/gaiah-toolkit/0.4.0-0.5.1/README.md --exclude *.pyd
+[2024-05-31 17:41:38] INFO root fetch - processPackages [todd-ai]: Downloading https://files.pythonhosted.org/packages/63/85/8fdfa40de353f1b7140b13c991648240e49930ebf858809dd98afd24a1dd/todd_ai-0.5.0.tar.gz
+[2024-05-31 17:41:38] INFO root fetch - processPackages [cdklabs.cdk-cicd-wrapper]: Downloading https://files.pythonhosted.org/packages/6b/5c/1de2018cece7ec7d1f9076e5868839ed37016975afdce5370c17ee339e6b/cdklabs.cdk-cicd-wrapper-0.1.1.tar.gz
+[2024-05-31 17:41:38] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-31 17:41:38] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405310929.tar.gz tmp/kcli-99.0.202405311200.tar.gz --markdown 20240531/k/kcli/99.0.202405310929-99.0.202405311200/README.md --exclude *.pyd
+[2024-05-31 17:41:38] INFO root fetch - processPackages [todd-ai]: executing diffoscope
+[2024-05-31 17:41:38] INFO root fetch - processPackages [todd-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todd_ai-0.4.0.tar.gz tmp/todd_ai-0.5.0.tar.gz --markdown 20240531/t/todd-ai/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-31 17:41:38] INFO root fetch - processPackages [cdklabs.cdk-cicd-wrapper]: executing diffoscope
+[2024-05-31 17:41:38] INFO root fetch - processPackages [cdklabs.cdk-cicd-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-cicd-wrapper-0.1.0.tar.gz tmp/cdklabs.cdk-cicd-wrapper-0.1.1.tar.gz --markdown 20240531/c/cdklabs.cdk-cicd-wrapper/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 17:41:38] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-31 17:41:38] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-31 17:41:38] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-31 17:41:38] INFO root fetch - processPackages [jabutiutils]: Remove: archive file [/home/abi/fetcher/tmp/jabutiutils-0.0.7.tar.gz]
+[2024-05-31 17:41:38] INFO root fetch - processPackages [jabutiutils]: Remove: archive file [/home/abi/fetcher/tmp/jabutiutils-0.0.8.tar.gz]
+[2024-05-31 17:41:38] INFO root fetch - main [MainThread]: End processing [jabutiutils]: success
+[2024-05-31 17:41:38] INFO root fetch - processPackages [jewcal]: Remove: archive file [/home/abi/fetcher/tmp/jewcal-0.5.0.tar.gz]
+[2024-05-31 17:41:38] INFO root fetch - processPackages [jewcal]: Remove: archive file [/home/abi/fetcher/tmp/jewcal-0.5.1a3.tar.gz]
+[2024-05-31 17:41:38] INFO root fetch - main [MainThread]: End processing [jewcal]: success
+[2024-05-31 17:41:38] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_AdnanGrifat-0.0.6.tar.gz]
+[2024-05-31 17:41:38] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_AdnanGrifat-0.0.7.tar.gz]
+[2024-05-31 17:41:38] INFO root fetch - main [MainThread]: End processing [myfunctions-AdnanGrifat]: success
+[2024-05-31 17:41:38] INFO root fetch - processPackages [gaiah-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/gaiah_toolkit-0.4.0.tar.gz]
+[2024-05-31 17:41:38] INFO root fetch - processPackages [gaiah-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/gaiah_toolkit-0.5.1.tar.gz]
+[2024-05-31 17:41:38] INFO root fetch - main [MainThread]: End processing [gaiah-toolkit]: success
+[2024-05-31 17:41:39] INFO root fetch - processPackages [todd-ai]: Remove: archive file [/home/abi/fetcher/tmp/todd_ai-0.4.0.tar.gz]
+[2024-05-31 17:41:39] INFO root fetch - processPackages [todd-ai]: Remove: archive file [/home/abi/fetcher/tmp/todd_ai-0.5.0.tar.gz]
+[2024-05-31 17:41:39] INFO root fetch - main [MainThread]: End processing [todd-ai]: success
+[2024-05-31 17:41:39] INFO root fetch - processPackages [cdklabs.cdk-cicd-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-cicd-wrapper-0.1.0.tar.gz]
+[2024-05-31 17:41:39] INFO root fetch - processPackages [cdklabs.cdk-cicd-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-cicd-wrapper-0.1.1.tar.gz]
+[2024-05-31 17:41:39] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-cicd-wrapper]: success
+[2024-05-31 17:41:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405310929.tar.gz]
+[2024-05-31 17:41:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405311200.tar.gz]
+[2024-05-31 17:41:40] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-31 17:41:40] INFO root fetch - main [MainThread]: Store serial: [23468196]
