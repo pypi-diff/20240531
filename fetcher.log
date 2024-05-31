@@ -8266,3 +8266,20 @@
 [2024-05-31 07:41:58] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.2.0.tar.gz]
 [2024-05-31 07:41:58] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package]: success
 [2024-05-31 07:41:58] INFO root fetch - main [MainThread]: Store serial: [23460806]
+[2024-05-31 07:44:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460806]
+[2024-05-31 07:44:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gidapptools
+[2024-05-31 07:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duckdb
+[2024-05-31 07:44:07] INFO root fetch - processPackages [gidapptools]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-31 07:44:07] INFO root fetch - processPackages [gidapptools]: Downloading https://files.pythonhosted.org/packages/5e/15/1850644a505f2e04b3e133ad8a8839ac3b155e549cce156a3364225e5d04/gidapptools-0.5.1.tar.gz
+[2024-05-31 07:44:07] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-31 07:44:07] INFO root fetch - processPackages [gidapptools]: Downloading https://files.pythonhosted.org/packages/e8/de/e11e61677ad85cc8ab81afd7523daa410371248af56a92801c92a6381b5d/gidapptools-0.5.2.tar.gz
+[2024-05-31 07:44:07] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-31 07:44:07] INFO root fetch - processPackages [gidapptools]: executing diffoscope
+[2024-05-31 07:44:07] INFO root fetch - processPackages [gidapptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gidapptools-0.5.1.tar.gz tmp/gidapptools-0.5.2.tar.gz --markdown 20240531/g/gidapptools/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-31 07:44:07] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-31 07:44:07] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-31 07:44:08] INFO root fetch - processPackages [gidapptools]: Remove: archive file [/home/abi/fetcher/tmp/gidapptools-0.5.1.tar.gz]
+[2024-05-31 07:44:08] INFO root fetch - processPackages [gidapptools]: Remove: archive file [/home/abi/fetcher/tmp/gidapptools-0.5.2.tar.gz]
+[2024-05-31 07:44:08] INFO root fetch - main [MainThread]: End processing [gidapptools]: success
+[2024-05-31 07:44:08] INFO root fetch - main [MainThread]: Store serial: [23460842]
