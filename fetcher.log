@@ -12857,3 +12857,86 @@
 [2024-05-31 10:57:52] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.9.tar.gz]
 [2024-05-31 10:57:52] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2024-05-31 10:57:52] INFO root fetch - main [MainThread]: Store serial: [23463085]
+[2024-05-31 10:59:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463085]
+[2024-05-31 11:00:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 11:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcnum
+[2024-05-31 11:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evomip
+[2024-05-31 11:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-tabler-icons
+[2024-05-31 11:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-aiven
+[2024-05-31 11:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-tabler-icons
+[2024-05-31 11:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: youqu3
+[2024-05-31 11:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evomip
+[2024-05-31 11:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-archive
+[2024-05-31 11:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: afeng-py-tools
+[2024-05-31 11:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BiLLM
+[2024-05-31 11:00:01] INFO root fetch - processPackages [evomip]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 11:00:01] INFO root fetch - processPackages [evomip]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 11:00:01] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.9.0a1704274395] Old Version: [6.9.0a1704258951]
+[2024-05-31 11:00:01] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 11:00:01] INFO root fetch - processPackages [dcnum]: New version: [0.20.4] Old Version: [0.20.3]
+[2024-05-31 11:00:01] INFO root fetch - processPackages [flask-tabler-icons]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-05-31 11:00:01] INFO root fetch - processPackages [flask-tabler-icons]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-05-31 11:00:01] WARNING root fetch - processPackages [youqu3]: Skipping, unable to determine old version
+[2024-05-31 11:00:01] INFO root fetch - main [MainThread]: End processing [youqu3] error
+[2024-05-31 11:00:01] INFO root fetch - processPackages [BiLLM]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-31 11:00:01] INFO root fetch - processPackages [pulumi-archive]: New version: [0.1.0a1717132168] Old Version: [0.1.0a1716959382]
+[2024-05-31 11:00:01] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/89/fb/adacc179c277b4328f00f1483cac3f1c2227c33318802c8f88e0ee8e93c3/pulumi_aiven-6.9.0a1704258951.tar.gz
+[2024-05-31 11:00:01] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/b9/0f/010d1b76ec562694c2e14ab2b45fea6047db146b4690404e700326abe076/evomip-0.1.3.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/b9/0f/010d1b76ec562694c2e14ab2b45fea6047db146b4690404e700326abe076/evomip-0.1.3.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [flask-tabler-icons]: Downloading https://files.pythonhosted.org/packages/38/40/13b3f7f12322e78e460e6e39e597059585795ff51c5209a93d0a9d8e5546/flask_tabler_icons-3.4.0.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [flask-tabler-icons]: Downloading https://files.pythonhosted.org/packages/38/40/13b3f7f12322e78e460e6e39e597059585795ff51c5209a93d0a9d8e5546/flask_tabler_icons-3.4.0.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/8a/94/dff579c9c1bd4a2f29760a438b27010f618050b5ef1c8ab4940e2406ed31/dcnum-0.20.3.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/79/29/9157c2e5e6987617e851d36d64bc6a38aa3447ae5617dae4143386cc93b1/pulumi_archive-0.1.0a1716959382.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [BiLLM]: Downloading https://files.pythonhosted.org/packages/55/59/0afa87b15ecc11275099d48a286e0e62099f0d501b4296fb924034fad7c7/billm-0.1.4.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/58/4d/df63cee14469cb3bb5ff7e2a4af56d19adf0cd17ce9192b84188dc240736/pulumi_aiven-6.9.0a1704274395.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/63/72/4af99f82e58ddb6bcf22c7df9b5bedef98010ee6210eb0726838bcf48e96/evomip-0.1.4.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [evomip]: Downloading https://files.pythonhosted.org/packages/63/72/4af99f82e58ddb6bcf22c7df9b5bedef98010ee6210eb0726838bcf48e96/evomip-0.1.4.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [flask-tabler-icons]: Downloading https://files.pythonhosted.org/packages/68/af/234396a99778de5a497cb29e8ba073cb99f51d09493025dc975af8af9ff6/flask_tabler_icons-3.5.0.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [flask-tabler-icons]: Downloading https://files.pythonhosted.org/packages/68/af/234396a99778de5a497cb29e8ba073cb99f51d09493025dc975af8af9ff6/flask_tabler_icons-3.5.0.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-31 11:00:02] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240531/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 11:00:02] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2024-05-31 11:00:02] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.9.0a1704258951.tar.gz tmp/pulumi_aiven-6.9.0a1704274395.tar.gz --markdown 20240531/p/pulumi-aiven/6.9.0a1704258951-6.9.0a1704274395/README.md --exclude *.pyd
+[2024-05-31 11:00:02] INFO root fetch - processPackages [evomip]: executing diffoscope
+[2024-05-31 11:00:02] INFO root fetch - processPackages [evomip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evomip-0.1.3.tar.gz tmp/evomip-0.1.4.tar.gz --markdown 20240531/e/evomip/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 11:00:02] INFO root fetch - processPackages [evomip]: executing diffoscope
+[2024-05-31 11:00:02] INFO root fetch - processPackages [evomip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evomip-0.1.3.tar.gz tmp/evomip-0.1.4.tar.gz --markdown 20240531/e/evomip/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 11:00:02] INFO root fetch - processPackages [pulumi-archive]: Downloading https://files.pythonhosted.org/packages/5d/32/bc8a3fb18f7aab5549a19660fb93a338354963b1c08e4100efc7f645ee58/pulumi_archive-0.1.0a1717132168.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [flask-tabler-icons]: executing diffoscope
+[2024-05-31 11:00:02] INFO root fetch - processPackages [flask-tabler-icons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_tabler_icons-3.4.0.tar.gz tmp/flask_tabler_icons-3.5.0.tar.gz --markdown 20240531/f/flask-tabler-icons/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-05-31 11:00:02] INFO root fetch - processPackages [flask-tabler-icons]: executing diffoscope
+[2024-05-31 11:00:02] INFO root fetch - processPackages [flask-tabler-icons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_tabler_icons-3.4.0.tar.gz tmp/flask_tabler_icons-3.5.0.tar.gz --markdown 20240531/f/flask-tabler-icons/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-05-31 11:00:02] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/b6/b2/e4bfa17db64a1b7434e62d6e27e93117ccca74ba468bf255b4b4b2ba1622/dcnum-0.20.4.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [BiLLM]: Downloading https://files.pythonhosted.org/packages/d0/82/bb8951593baa535e52042fb662ec390a58f3333057a47e47baab56c467bc/billm-0.1.5.tar.gz
+[2024-05-31 11:00:02] INFO root fetch - processPackages [pulumi-archive]: executing diffoscope
+[2024-05-31 11:00:02] INFO root fetch - processPackages [pulumi-archive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_archive-0.1.0a1716959382.tar.gz tmp/pulumi_archive-0.1.0a1717132168.tar.gz --markdown 20240531/p/pulumi-archive/0.1.0a1716959382-0.1.0a1717132168/README.md --exclude *.pyd
+[2024-05-31 11:00:02] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2024-05-31 11:00:02] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.20.3.tar.gz tmp/dcnum-0.20.4.tar.gz --markdown 20240531/d/dcnum/0.20.3-0.20.4/README.md --exclude *.pyd
+[2024-05-31 11:00:02] INFO root fetch - processPackages [BiLLM]: executing diffoscope
+[2024-05-31 11:00:02] INFO root fetch - processPackages [BiLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/billm-0.1.4.tar.gz tmp/billm-0.1.5.tar.gz --markdown 20240531/B/BiLLM/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-31 11:00:03] INFO root fetch - processPackages [evomip]: Remove: archive file [/home/abi/fetcher/tmp/evomip-0.1.3.tar.gz]
+[2024-05-31 11:00:03] INFO root fetch - processPackages [evomip]: Remove: archive file [/home/abi/fetcher/tmp/evomip-0.1.4.tar.gz]
+[2024-05-31 11:00:03] INFO root fetch - main [MainThread]: End processing [evomip]: success
+[2024-05-31 11:00:03] INFO root fetch - main [MainThread]: End processing [evomip]: success
+[2024-05-31 11:00:03] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1716959382.tar.gz]
+[2024-05-31 11:00:03] INFO root fetch - processPackages [pulumi-archive]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_archive-0.1.0a1717132168.tar.gz]
+[2024-05-31 11:00:03] INFO root fetch - main [MainThread]: End processing [pulumi-archive]: success
+[2024-05-31 11:00:03] INFO root fetch - processPackages [BiLLM]: Remove: archive file [/home/abi/fetcher/tmp/billm-0.1.4.tar.gz]
+[2024-05-31 11:00:03] INFO root fetch - processPackages [BiLLM]: Remove: archive file [/home/abi/fetcher/tmp/billm-0.1.5.tar.gz]
+[2024-05-31 11:00:03] INFO root fetch - main [MainThread]: End processing [BiLLM]: success
+[2024-05-31 11:00:04] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.20.3.tar.gz]
+[2024-05-31 11:00:04] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.20.4.tar.gz]
+[2024-05-31 11:00:04] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2024-05-31 11:00:04] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-31 11:00:04] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-31 11:00:04] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-31 11:00:04] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704258951.tar.gz]
+[2024-05-31 11:00:04] INFO root fetch - processPackages [pulumi-aiven]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aiven-6.9.0a1704274395.tar.gz]
+[2024-05-31 11:00:04] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2024-05-31 11:00:05] INFO root fetch - processPackages [flask-tabler-icons]: Remove: archive file [/home/abi/fetcher/tmp/flask_tabler_icons-3.4.0.tar.gz]
+[2024-05-31 11:00:05] INFO root fetch - processPackages [flask-tabler-icons]: Remove: archive file [/home/abi/fetcher/tmp/flask_tabler_icons-3.5.0.tar.gz]
+[2024-05-31 11:00:05] INFO root fetch - main [MainThread]: End processing [flask-tabler-icons]: success
+[2024-05-31 11:00:05] INFO root fetch - main [MainThread]: End processing [flask-tabler-icons]: success
+[2024-05-31 11:00:05] INFO root fetch - main [MainThread]: Store serial: [23463118]
