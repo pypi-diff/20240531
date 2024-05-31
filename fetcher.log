@@ -2643,3 +2643,60 @@
 [2024-05-31 02:04:41] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.30.4-cp38-abi3-win_amd64.whl.zip]
 [2024-05-31 02:04:41] INFO root fetch - main [MainThread]: End processing [baml-py]: success
 [2024-05-31 02:04:41] INFO root fetch - main [MainThread]: Store serial: [23458522]
+[2024-05-31 02:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458522]
+[2024-05-31 02:06:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 02:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxkern-nightly
+[2024-05-31 02:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: turntable-cli
+[2024-05-31 02:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: social-auth-gsis
+[2024-05-31 02:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embykeeper
+[2024-05-31 02:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wxhandler
+[2024-05-31 02:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-05-31 02:06:50] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-31 02:06:50] INFO root fetch - processPackages [social-auth-gsis]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-31 02:06:50] INFO root fetch - processPackages [embykeeper]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-31 02:06:50] INFO root fetch - processPackages [wxhandler]: New version: [0.1.1.1] Old Version: [0.1.1]
+[2024-05-31 02:06:50] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-05-31 02:06:50] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/52/aa/184ed7029dd25769a55a12c10b0d6be85868511551e1953b2148b70858fc/social_auth_gsis-0.5.5.tar.gz
+[2024-05-31 02:06:50] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/d0/e6/4bb1ee3290f4aba08e9d6751566f039db27dba7d51553fc0681095c6a015/embykeeper-3.2.8.tar.gz
+[2024-05-31 02:06:50] INFO root fetch - processPackages [turntable-cli]: New version: [0.4.5] Old Version: [0.4.3]
+[2024-05-31 02:06:50] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-31 02:06:50] INFO root fetch - processPackages [wxhandler]: Downloading https://files.pythonhosted.org/packages/06/0f/0ca8b50ff81475d1c4bf937585c79fe0353457123a2df1553daaa09a343a/wxhandler-0.1.1.tar.gz
+[2024-05-31 02:06:50] INFO root fetch - processPackages [turntable-cli]: Downloading https://files.pythonhosted.org/packages/e6/79/1ee424984847df09767d08231f9ba095219be3ecbd68f63bba5943b02988/turntable_cli-0.4.3-cp39-cp39-win_amd64.whl
+[2024-05-31 02:06:50] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-31 02:06:50] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/02/85/cffd52bc872be074110305f46303d258fa7478eab3eae08d86465d0653a8/embykeeper-3.2.9.tar.gz
+[2024-05-31 02:06:50] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-05-31 02:06:50] INFO root fetch - processPackages [social-auth-gsis]: Downloading https://files.pythonhosted.org/packages/f6/cf/ef9f6a4c585055bff3579025282c4750a519307930bc343a3c2dd6fc3a99/social_auth_gsis-0.5.6.tar.gz
+[2024-05-31 02:06:50] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2024-05-31 02:06:50] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-3.2.8.tar.gz tmp/embykeeper-3.2.9.tar.gz --markdown 20240531/e/embykeeper/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-05-31 02:06:50] INFO root fetch - processPackages [social-auth-gsis]: executing diffoscope
+[2024-05-31 02:06:50] INFO root fetch - processPackages [social-auth-gsis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_auth_gsis-0.5.5.tar.gz tmp/social_auth_gsis-0.5.6.tar.gz --markdown 20240531/s/social-auth-gsis/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-31 02:06:50] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-31 02:06:50] INFO root fetch - processPackages [wxhandler]: Downloading https://files.pythonhosted.org/packages/b1/b9/9b2aad4f8f05a1d8a1227013ad31a796cb17d57550790a67fe4b9c28008f/wxhandler-0.1.1.1.tar.gz
+[2024-05-31 02:06:50] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-05-31 02:06:50] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240531/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-31 02:06:50] INFO root fetch - processPackages [turntable-cli]: Downloading https://files.pythonhosted.org/packages/bb/d4/91136676724029d1a0610293eaf0728c05770c5b93051cb97af1d3ced557/turntable_cli-0.4.5-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-31 02:06:51] INFO root fetch - processPackages [wxhandler]: executing diffoscope
+[2024-05-31 02:06:51] INFO root fetch - processPackages [wxhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxhandler-0.1.1.tar.gz tmp/wxhandler-0.1.1.1.tar.gz --markdown 20240531/w/wxhandler/0.1.1-0.1.1.1/README.md --exclude *.pyd
+[2024-05-31 02:06:51] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-31 02:06:51] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240531/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-31 02:06:51] INFO root fetch - processPackages [turntable-cli]: executing diffoscope
+[2024-05-31 02:06:51] INFO root fetch - processPackages [turntable-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turntable_cli-0.4.3-cp39-cp39-win_amd64.whl.zip tmp/turntable_cli-0.4.5-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240531/t/turntable-cli/0.4.3-0.4.5/README.md --exclude *.pyd
+[2024-05-31 02:06:51] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.5.tar.gz]
+[2024-05-31 02:06:51] INFO root fetch - processPackages [social-auth-gsis]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_gsis-0.5.6.tar.gz]
+[2024-05-31 02:06:51] INFO root fetch - main [MainThread]: End processing [social-auth-gsis]: success
+[2024-05-31 02:06:51] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-05-31 02:06:51] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-05-31 02:06:51] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-05-31 02:06:51] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.8.tar.gz]
+[2024-05-31 02:06:51] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-3.2.9.tar.gz]
+[2024-05-31 02:06:51] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2024-05-31 02:06:51] INFO root fetch - processPackages [wxhandler]: Remove: archive file [/home/abi/fetcher/tmp/wxhandler-0.1.1.tar.gz]
+[2024-05-31 02:06:51] INFO root fetch - processPackages [wxhandler]: Remove: archive file [/home/abi/fetcher/tmp/wxhandler-0.1.1.1.tar.gz]
+[2024-05-31 02:06:51] INFO root fetch - main [MainThread]: End processing [wxhandler]: success
+[2024-05-31 02:06:51] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-31 02:06:51] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-31 02:06:51] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-31 02:06:52] INFO root fetch - processPackages [turntable-cli]: Remove: archive file [/home/abi/fetcher/tmp/turntable_cli-0.4.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 02:06:52] INFO root fetch - processPackages [turntable-cli]: Remove: archive file [/home/abi/fetcher/tmp/turntable_cli-0.4.5-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-31 02:06:52] INFO root fetch - main [MainThread]: End processing [turntable-cli]: success
+[2024-05-31 02:06:52] INFO root fetch - main [MainThread]: Store serial: [23458557]
