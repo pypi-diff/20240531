@@ -6474,3 +6474,33 @@
 [2024-05-31 05:46:08] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.2.1-126-py3-none-any.whl.zip]
 [2024-05-31 05:46:08] INFO root fetch - main [MainThread]: End processing [lamini]: success
 [2024-05-31 05:46:08] INFO root fetch - main [MainThread]: Store serial: [23460179]
+[2024-05-31 05:48:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460179]
+[2024-05-31 05:48:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 05:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdb-connect-pkg
+[2024-05-31 05:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gentccode
+[2024-05-31 05:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myfunctions-edatop
+[2024-05-31 05:48:17] INFO root fetch - processPackages [myfunctions-edatop]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-31 05:48:17] INFO root fetch - processPackages [mdb-connect-pkg]: New version: [1.0.0] Old Version: [0.0.6]
+[2024-05-31 05:48:17] INFO root fetch - processPackages [mdb-connect-pkg]: Downloading https://files.pythonhosted.org/packages/1f/86/cb98303fed60b79ca0a8fa6193ee909916da6c0fc3a259977aec7e30e6ab/mdb_connect_pkg-0.0.6.tar.gz
+[2024-05-31 05:48:17] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/51/6c/06b4c41a11d78851647c5f11a015b0873104bf32832e8adb4f1211febff0/myfunctions_edatop-0.0.6.tar.gz
+[2024-05-31 05:48:17] INFO root fetch - processPackages [gentccode]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 05:48:17] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/3c/13/2226588658de89ff262e7dd00715ac8562f24ae44522c5abda9a9859e7d7/gentccode-0.2.8.tar.gz
+[2024-05-31 05:48:17] INFO root fetch - processPackages [mdb-connect-pkg]: Downloading https://files.pythonhosted.org/packages/4e/00/dd8f23d5b3765934bf13609cdbf41e301ffd1709a7634c226cbde57fa230/mdb_connect_pkg-1.0.0.tar.gz
+[2024-05-31 05:48:17] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/f5/96/1043ffd4af7527257ce36b4c14f592c95cc0a66a3027d927656e669daa99/myfunctions_edatop-0.0.7.tar.gz
+[2024-05-31 05:48:17] INFO root fetch - processPackages [mdb-connect-pkg]: executing diffoscope
+[2024-05-31 05:48:17] INFO root fetch - processPackages [mdb-connect-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdb_connect_pkg-0.0.6.tar.gz tmp/mdb_connect_pkg-1.0.0.tar.gz --markdown 20240531/m/mdb-connect-pkg/0.0.6-1.0.0/README.md --exclude *.pyd
+[2024-05-31 05:48:17] INFO root fetch - processPackages [myfunctions-edatop]: executing diffoscope
+[2024-05-31 05:48:17] INFO root fetch - processPackages [myfunctions-edatop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_edatop-0.0.6.tar.gz tmp/myfunctions_edatop-0.0.7.tar.gz --markdown 20240531/m/myfunctions-edatop/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-31 05:48:18] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/f7/d1/5c17a5c4500f9e17ea50ca48d92414e2937dbc16b71848c2f9db82eadcaf/gentccode-0.2.9.tar.gz
+[2024-05-31 05:48:18] INFO root fetch - processPackages [gentccode]: executing diffoscope
+[2024-05-31 05:48:18] INFO root fetch - processPackages [gentccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentccode-0.2.8.tar.gz tmp/gentccode-0.2.9.tar.gz --markdown 20240531/g/gentccode/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 05:48:18] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.6.tar.gz]
+[2024-05-31 05:48:18] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.7.tar.gz]
+[2024-05-31 05:48:18] INFO root fetch - main [MainThread]: End processing [myfunctions-edatop]: success
+[2024-05-31 05:48:18] INFO root fetch - processPackages [mdb-connect-pkg]: Remove: archive file [/home/abi/fetcher/tmp/mdb_connect_pkg-0.0.6.tar.gz]
+[2024-05-31 05:48:18] INFO root fetch - processPackages [mdb-connect-pkg]: Remove: archive file [/home/abi/fetcher/tmp/mdb_connect_pkg-1.0.0.tar.gz]
+[2024-05-31 05:48:18] INFO root fetch - main [MainThread]: End processing [mdb-connect-pkg]: success
+[2024-05-31 05:48:18] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.8.tar.gz]
+[2024-05-31 05:48:18] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.9.tar.gz]
+[2024-05-31 05:48:18] INFO root fetch - main [MainThread]: End processing [gentccode]: success
+[2024-05-31 05:48:18] INFO root fetch - main [MainThread]: Store serial: [23460188]
