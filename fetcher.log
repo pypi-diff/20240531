@@ -13689,3 +13689,86 @@
 [2024-05-31 11:35:48] INFO root fetch - processPackages [formance-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/formance-sdk-python-2.3.0.tar.gz]
 [2024-05-31 11:35:49] INFO root fetch - main [MainThread]: End processing [formance-sdk-python]: success
 [2024-05-31 11:35:49] INFO root fetch - main [MainThread]: Store serial: [23463478]
+[2024-05-31 11:37:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463478]
+[2024-05-31 11:37:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 11:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphene-django-query-optimizer
+[2024-05-31 11:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ussl
+[2024-05-31 11:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvfuser-cu118
+[2024-05-31 11:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OGU
+[2024-05-31 11:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DLMS-SPODES-client
+[2024-05-31 11:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: patho-pix
+[2024-05-31 11:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scipion-em-facilities
+[2024-05-31 11:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mrx-link-core
+[2024-05-31 11:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: extractable
+[2024-05-31 11:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-ise
+[2024-05-31 11:37:58] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.5.dev20240530] Old Version: [0.2.5.dev20240529]
+[2024-05-31 11:37:58] INFO root fetch - processPackages [graphene-django-query-optimizer]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-05-31 11:37:58] WARNING root fetch - processPackages [patho-pix]: Skipping, unable to determine old version
+[2024-05-31 11:37:58] INFO root fetch - main [MainThread]: End processing [patho-pix] error
+[2024-05-31 11:37:58] INFO root fetch - processPackages [pulumi-ise]: New version: [0.2.0a1717134106] Old Version: [0.2.0a1716961215]
+[2024-05-31 11:37:58] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-31 11:37:58] INFO root fetch - processPackages [OGU]: New version: [1.54] Old Version: [1.52]
+[2024-05-31 11:37:58] INFO root fetch - processPackages [ussl]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-31 11:37:58] INFO root fetch - processPackages [scipion-em-facilities]: New version: [3.1.0] Old Version: [3.0.5]
+[2024-05-31 11:37:58] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/8f/12/4e6d28cb30649ae4e1be60d6b7548c18c7dd3abf1ae3e844869f19366293/graphene_django_query_optimizer-0.6.3.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/6c/e2/9019bc8e7d14292b8390bc366ed8331344d3ba01cfae95eec17aa2b8abd2/nvfuser_cu118-0.2.5.dev20240529.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [extractable]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-31 11:37:58] INFO root fetch - processPackages [mrx-link-core]: New version: [1.4.0.dev4] Old Version: [1.4.0.dev3]
+[2024-05-31 11:37:58] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/28/f9/a71d203b558a8f4dfca3e0b587dcffd1d25bdeb22215d058afbd23fe5938/DLMS_SPODES_client-0.8.8.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/73/c0/166c9ff1efbdeb5256066a38c958f40da49a7a0811ef05f1666f021cfd1f/pulumi_ise-0.2.0a1716961215.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [OGU]: Downloading https://files.pythonhosted.org/packages/1b/ee/5b50002c05886bbccb03bb552b25c86e37dba6ff52f9c56bedf046c95602/ogu-1.52.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/52/f1/bf7cc58bffa6f510d2f1588c94cc5f055d691f78d30202337290c54f78a3/ussl-1.2.1.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/c1/4b/25d2578a11ff8910dd1305c313c1d3ea0e35b7ac7d54501d615d1ff0a782/nvfuser_cu118-0.2.5.dev20240530.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [scipion-em-facilities]: Downloading https://files.pythonhosted.org/packages/1e/5d/1b18843873096f1651b4417840f3b492d2784138861c270f8251315dcb18/scipion-em-facilities-3.0.5.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [extractable]: Downloading https://files.pythonhosted.org/packages/12/49/071bb7991b595d38758512295ac63f866c8875861867f5b90766bfb4f341/extractable-1.0.1.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/97/b2/16eb4d03b2a5437b1e13bce52aaca59e7e83452c8ec75d61807896a41ef9/mrx_link_core-1.4.0.dev3-cp39-cp39-win_amd64.whl
+[2024-05-31 11:37:58] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-31 11:37:58] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.5.dev20240529.tar.gz tmp/nvfuser_cu118-0.2.5.dev20240530.tar.gz --markdown 20240531/n/nvfuser-cu118/0.2.5.dev20240529-0.2.5.dev20240530/README.md --exclude *.pyd
+[2024-05-31 11:37:58] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/7d/4f/472aa1bb34fcd9b88d1e6b5a48a4b6785f2c83c28e2f5d199233c734da4a/DLMS_SPODES_client-0.8.9.tar.gz
+[2024-05-31 11:37:58] WARNING root fetch - processPackages [extractable]: Skipping package: exceeds size limit 12755660>=10485760
+[2024-05-31 11:37:58] INFO root fetch - main [MainThread]: End processing [extractable] error
+[2024-05-31 11:37:58] INFO root fetch - processPackages [pulumi-ise]: Downloading https://files.pythonhosted.org/packages/0e/43/fe018cb9d199f0d1ec09c8099e02c7a63e1ca0e7bbc24f37e9bf738c5e96/pulumi_ise-0.2.0a1717134106.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [OGU]: Downloading https://files.pythonhosted.org/packages/db/63/6a5be6967838c14e248639843fd586bdea84115e2990b71a203acb3579a3/ogu-1.54.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/2a/5b/6bed0d6b53a2f6138dcf627dea54ba957608c242f3153a346160838ce485/graphene_django_query_optimizer-0.7.0.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-05-31 11:37:58] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.8.8.tar.gz tmp/DLMS_SPODES_client-0.8.9.tar.gz --markdown 20240531/D/DLMS-SPODES-client/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-31 11:37:58] INFO root fetch - processPackages [ussl]: Downloading https://files.pythonhosted.org/packages/c9/2e/dbe915b1dad960e8460da4e0672563c9d441b5fefb328b52a71c39ddcf26/ussl-1.2.2.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [OGU]: executing diffoscope
+[2024-05-31 11:37:58] INFO root fetch - processPackages [OGU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogu-1.52.tar.gz tmp/ogu-1.54.tar.gz --markdown 20240531/O/OGU/1.52-1.54/README.md --exclude *.pyd
+[2024-05-31 11:37:58] INFO root fetch - processPackages [pulumi-ise]: executing diffoscope
+[2024-05-31 11:37:58] INFO root fetch - processPackages [pulumi-ise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ise-0.2.0a1716961215.tar.gz tmp/pulumi_ise-0.2.0a1717134106.tar.gz --markdown 20240531/p/pulumi-ise/0.2.0a1716961215-0.2.0a1717134106/README.md --exclude *.pyd
+[2024-05-31 11:37:58] INFO root fetch - processPackages [graphene-django-query-optimizer]: executing diffoscope
+[2024-05-31 11:37:58] INFO root fetch - processPackages [graphene-django-query-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_query_optimizer-0.6.3.tar.gz tmp/graphene_django_query_optimizer-0.7.0.tar.gz --markdown 20240531/g/graphene-django-query-optimizer/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-05-31 11:37:58] INFO root fetch - processPackages [scipion-em-facilities]: Downloading https://files.pythonhosted.org/packages/2e/d1/ed9eddded3800d13b66c0324df99170079c52aa6496ce08a65bebc3655d8/scipion-em-facilities-3.1.0.tar.gz
+[2024-05-31 11:37:58] INFO root fetch - processPackages [ussl]: executing diffoscope
+[2024-05-31 11:37:58] INFO root fetch - processPackages [ussl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ussl-1.2.1.tar.gz tmp/ussl-1.2.2.tar.gz --markdown 20240531/u/ussl/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-31 11:37:59] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/34/32/ee45b86750398c1c073b5beacac53a20b58de648d8eebf02fd972820674e/mrx_link_core-1.4.0.dev4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-31 11:37:59] INFO root fetch - processPackages [scipion-em-facilities]: executing diffoscope
+[2024-05-31 11:37:59] INFO root fetch - processPackages [scipion-em-facilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-facilities-3.0.5.tar.gz tmp/scipion-em-facilities-3.1.0.tar.gz --markdown 20240531/s/scipion-em-facilities/3.0.5-3.1.0/README.md --exclude *.pyd
+[2024-05-31 11:37:59] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240529.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240530.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-31 11:37:59] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.6.3.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.7.0.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - main [MainThread]: End processing [graphene-django-query-optimizer]: success
+[2024-05-31 11:37:59] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.8.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.9.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-05-31 11:37:59] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.2.1.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - processPackages [ussl]: Remove: archive file [/home/abi/fetcher/tmp/ussl-1.2.2.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - main [MainThread]: End processing [ussl]: success
+[2024-05-31 11:37:59] INFO root fetch - processPackages [OGU]: Remove: archive file [/home/abi/fetcher/tmp/ogu-1.52.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - processPackages [OGU]: Remove: archive file [/home/abi/fetcher/tmp/ogu-1.54.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - main [MainThread]: End processing [OGU]: success
+[2024-05-31 11:37:59] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1716961215.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - processPackages [pulumi-ise]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ise-0.2.0a1717134106.tar.gz]
+[2024-05-31 11:37:59] INFO root fetch - main [MainThread]: End processing [pulumi-ise]: success
+[2024-05-31 11:38:00] INFO root fetch - processPackages [scipion-em-facilities]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-facilities-3.0.5.tar.gz]
+[2024-05-31 11:38:00] INFO root fetch - processPackages [scipion-em-facilities]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-facilities-3.1.0.tar.gz]
+[2024-05-31 11:38:00] INFO root fetch - main [MainThread]: End processing [scipion-em-facilities]: success
+[2024-05-31 11:38:00] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2024-05-31 11:38:00] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.4.0.dev3-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.4.0.dev4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240531/m/mrx-link-core/1.4.0.dev3-1.4.0.dev4/README.md --exclude *.pyd
+[2024-05-31 11:38:01] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 11:38:01] INFO root fetch - processPackages [mrx-link-core]: Remove: archive file [/home/abi/fetcher/tmp/mrx_link_core-1.4.0.dev4-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-31 11:38:01] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2024-05-31 11:38:01] INFO root fetch - main [MainThread]: Store serial: [23463508]
