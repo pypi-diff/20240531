@@ -20324,3 +20324,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:41:14] INFO root fetch - processPackages [fabric_fim]: Remove: archive file [/home/abi/fetcher/tmp/fabric_fim-1.7.0b4.tar.gz]
 [2024-05-31 15:41:14] INFO root fetch - main [MainThread]: End processing [fabric_fim]: success
 [2024-05-31 15:41:14] INFO root fetch - main [MainThread]: Store serial: [23466402]
+[2024-05-31 15:43:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466402]
+[2024-05-31 15:43:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 15:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fabric-orchestrator-client
+[2024-05-31 15:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-sumologic
+[2024-05-31 15:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bionumpy
+[2024-05-31 15:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fabrictestbed
+[2024-05-31 15:43:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metalarchivist
+[2024-05-31 15:43:22] INFO root fetch - processPackages [metalarchivist]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-31 15:43:22] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.7.0b7] Old Version: [1.7.0b6]
+[2024-05-31 15:43:22] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/62/d3/54bac840111f393915929cb70e986793933230c41642fb324d2a5e791fcc/metalarchivist-0.5.3.tar.gz
+[2024-05-31 15:43:23] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2024-05-31 15:43:23] INFO root fetch - processPackages [fabrictestbed]: New version: [1.7.0b7] Old Version: [1.7.0b6]
+[2024-05-31 15:43:23] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/65/94/cf340faf7edddceeed8e75d321d1b5730de0b389c2385d47e973ab138d78/fabric-orchestrator-client-1.7.0b6.tar.gz
+[2024-05-31 15:43:23] INFO root fetch - processPackages [bionumpy]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-31 15:43:23] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2024-05-31 15:43:23] INFO root fetch - processPackages [bionumpy]: Downloading https://files.pythonhosted.org/packages/7f/03/de4c9a94d5bba9236ae5762a0ffd14d3dee00a39bcd3fb85512ed2f52ed6/bionumpy-1.0.7.tar.gz
+[2024-05-31 15:43:23] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/6a/ff/631ce3c4dfb286e20eccc685520e52f8076bad65bdeb27a92d4d88d966ae/fabric-orchestrator-client-1.7.0b7.tar.gz
+[2024-05-31 15:43:23] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/c2/10/b007020689363bb70028d877b916ce071b4494985d9667b0f7d22e386b26/fabrictestbed-1.7.0b6.tar.gz
+[2024-05-31 15:43:23] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2024-05-31 15:43:23] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.7.0b6.tar.gz tmp/fabric-orchestrator-client-1.7.0b7.tar.gz --markdown 20240531/f/fabric-orchestrator-client/1.7.0b6-1.7.0b7/README.md --exclude *.pyd
+[2024-05-31 15:43:23] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/17/66/2f4d8ff0469fd6d41f60d21f537f38c6ed82afbe6d4552fcc40cb78a5e7a/metalarchivist-0.5.4.tar.gz
+[2024-05-31 15:43:23] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2024-05-31 15:43:23] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-05-31 15:43:23] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.5.3.tar.gz tmp/metalarchivist-0.5.4.tar.gz --markdown 20240531/m/metalarchivist/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-31 15:43:23] INFO root fetch - processPackages [bionumpy]: Downloading https://files.pythonhosted.org/packages/bc/b7/825ebd685d5c8119dc1ac912a86f11b5cb4b50688a6448bd07e2ff382823/bionumpy-1.0.8.tar.gz
+[2024-05-31 15:43:23] INFO root fetch - processPackages [fabrictestbed]: Downloading https://files.pythonhosted.org/packages/9b/99/cba4edf7ff2da626961db325056c2181d8e48cb22a89711c275d432648f0/fabrictestbed-1.7.0b7.tar.gz
+[2024-05-31 15:43:23] INFO root fetch - processPackages [fabrictestbed]: executing diffoscope
+[2024-05-31 15:43:23] INFO root fetch - processPackages [fabrictestbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrictestbed-1.7.0b6.tar.gz tmp/fabrictestbed-1.7.0b7.tar.gz --markdown 20240531/f/fabrictestbed/1.7.0b6-1.7.0b7/README.md --exclude *.pyd
+[2024-05-31 15:43:23] INFO root fetch - processPackages [bionumpy]: executing diffoscope
+[2024-05-31 15:43:23] INFO root fetch - processPackages [bionumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionumpy-1.0.7.tar.gz tmp/bionumpy-1.0.8.tar.gz --markdown 20240531/b/bionumpy/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-31 15:43:23] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2024-05-31 15:43:23] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20240531/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/README.md --exclude *.pyd
+[2024-05-31 15:43:24] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.7.0b6.tar.gz]
+[2024-05-31 15:43:24] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.7.0b7.tar.gz]
+[2024-05-31 15:43:24] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2024-05-31 15:43:24] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.5.3.tar.gz]
+[2024-05-31 15:43:24] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.5.4.tar.gz]
+[2024-05-31 15:43:24] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-05-31 15:43:24] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.7.0b6.tar.gz]
+[2024-05-31 15:43:24] INFO root fetch - processPackages [fabrictestbed]: Remove: archive file [/home/abi/fetcher/tmp/fabrictestbed-1.7.0b7.tar.gz]
+[2024-05-31 15:43:24] INFO root fetch - main [MainThread]: End processing [fabrictestbed]: success
+[2024-05-31 15:43:24] INFO root fetch - processPackages [bionumpy]: Remove: archive file [/home/abi/fetcher/tmp/bionumpy-1.0.7.tar.gz]
+[2024-05-31 15:43:24] INFO root fetch - processPackages [bionumpy]: Remove: archive file [/home/abi/fetcher/tmp/bionumpy-1.0.8.tar.gz]
+[2024-05-31 15:43:24] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2024-05-31 15:43:24] INFO root fetch - main [MainThread]: End processing [bionumpy]: success
+[2024-05-31 15:43:24] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2024-05-31 15:43:24] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2024-05-31 15:43:24] INFO root fetch - main [MainThread]: Store serial: [23466417]
