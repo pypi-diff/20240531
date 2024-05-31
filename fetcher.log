@@ -10197,3 +10197,33 @@
 [2024-05-31 09:14:34] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1717138704.tar.gz]
 [2024-05-31 09:14:34] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
 [2024-05-31 09:14:34] INFO root fetch - main [MainThread]: Store serial: [23461872]
+[2024-05-31 09:16:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461872]
+[2024-05-31 09:16:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 09:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-vsphere
+[2024-05-31 09:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-opsgenie
+[2024-05-31 09:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chaostoolkit-google-cloud-platform
+[2024-05-31 09:16:43] INFO root fetch - processPackages [pulumi-vsphere]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-05-31 09:16:43] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.4.0a1717138909] Old Version: [1.4.0a1716511843]
+[2024-05-31 09:16:43] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: New version: [0.9.2] Old Version: [0.9.0]
+[2024-05-31 09:16:43] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/ac/66/d08512606fc4afcbaec3e2c3d748ed9305f2f189538b915e98c7a62b2ce1/pulumi_opsgenie-1.4.0a1716511843.tar.gz
+[2024-05-31 09:16:43] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/2c/b7/9b9215ee833910abd7a86275fdf600ed12fb1777b5fed56078b15cabaa70/pulumi_vsphere-4.9.1.tar.gz
+[2024-05-31 09:16:43] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Downloading https://files.pythonhosted.org/packages/12/07/4d1110a4d4b7d4991abc2505c4e18770bf058568bd5132c229c29711bb5e/chaostoolkit-google-cloud-platform-0.9.0.tar.gz
+[2024-05-31 09:16:43] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/0d/32/2989e15fb6674b42d8ae4b5dbc893352d407bccc6d67272d4703b59fc91d/pulumi_opsgenie-1.4.0a1717138909.tar.gz
+[2024-05-31 09:16:43] INFO root fetch - processPackages [pulumi-vsphere]: Downloading https://files.pythonhosted.org/packages/11/0f/d6e12dc0f0f87ffbedada279d30f59cf591dde549b68503412913fd87d8b/pulumi_vsphere-4.9.2.tar.gz
+[2024-05-31 09:16:43] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Downloading https://files.pythonhosted.org/packages/37/3d/14b7a4021c6fcdb294d892739505d505baca7cdba954a40c2b9a5b5da456/chaostoolkit-google-cloud-platform-0.9.2.tar.gz
+[2024-05-31 09:16:43] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2024-05-31 09:16:43] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.4.0a1716511843.tar.gz tmp/pulumi_opsgenie-1.4.0a1717138909.tar.gz --markdown 20240531/p/pulumi-opsgenie/1.4.0a1716511843-1.4.0a1717138909/README.md --exclude *.pyd
+[2024-05-31 09:16:43] INFO root fetch - processPackages [pulumi-vsphere]: executing diffoscope
+[2024-05-31 09:16:43] INFO root fetch - processPackages [pulumi-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vsphere-4.9.1.tar.gz tmp/pulumi_vsphere-4.9.2.tar.gz --markdown 20240531/p/pulumi-vsphere/4.9.1-4.9.2/README.md --exclude *.pyd
+[2024-05-31 09:16:43] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: executing diffoscope
+[2024-05-31 09:16:43] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-google-cloud-platform-0.9.0.tar.gz tmp/chaostoolkit-google-cloud-platform-0.9.2.tar.gz --markdown 20240531/c/chaostoolkit-google-cloud-platform/0.9.0-0.9.2/README.md --exclude *.pyd
+[2024-05-31 09:16:44] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1716511843.tar.gz]
+[2024-05-31 09:16:44] INFO root fetch - processPackages [pulumi-opsgenie]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opsgenie-1.4.0a1717138909.tar.gz]
+[2024-05-31 09:16:44] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2024-05-31 09:16:44] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-google-cloud-platform-0.9.0.tar.gz]
+[2024-05-31 09:16:44] INFO root fetch - processPackages [chaostoolkit-google-cloud-platform]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-google-cloud-platform-0.9.2.tar.gz]
+[2024-05-31 09:16:44] INFO root fetch - main [MainThread]: End processing [chaostoolkit-google-cloud-platform]: success
+[2024-05-31 09:16:44] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.1.tar.gz]
+[2024-05-31 09:16:44] INFO root fetch - processPackages [pulumi-vsphere]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vsphere-4.9.2.tar.gz]
+[2024-05-31 09:16:44] INFO root fetch - main [MainThread]: End processing [pulumi-vsphere]: success
+[2024-05-31 09:16:44] INFO root fetch - main [MainThread]: Store serial: [23461914]
