@@ -4280,3 +4280,32 @@
 [2024-05-31 03:23:45] INFO root fetch - processPackages [aind-codeocean-api]: Remove: archive file [/home/abi/fetcher/tmp/aind_codeocean_api-0.5.0.tar.gz]
 [2024-05-31 03:23:45] INFO root fetch - main [MainThread]: End processing [aind-codeocean-api]: success
 [2024-05-31 03:23:45] INFO root fetch - main [MainThread]: Store serial: [23459185]
+[2024-05-31 03:25:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459185]
+[2024-05-31 03:25:54] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-31 03:27:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459185]
+[2024-05-31 03:27:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 03:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hj-proj-module
+[2024-05-31 03:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-helper
+[2024-05-31 03:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spot-llm
+[2024-05-31 03:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lb-logger
+[2024-05-31 03:27:59] INFO root fetch - processPackages [ctrip-helper]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 03:27:59] WARNING root fetch - processPackages [lb-logger]: Skipping, unable to determine old version
+[2024-05-31 03:27:59] INFO root fetch - processPackages [hj-proj-module]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-31 03:27:59] INFO root fetch - main [MainThread]: End processing [lb-logger] error
+[2024-05-31 03:27:59] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/24/7d/179f6691d17f7c7a6f257d5328248ee88f784a9856416e5cb5477a7ee4b7/ctrip-helper-0.2.7.tar.gz
+[2024-05-31 03:27:59] WARNING root fetch - processPackages [spot-llm]: Skipping, unable to determine old version
+[2024-05-31 03:27:59] INFO root fetch - main [MainThread]: End processing [spot-llm] error
+[2024-05-31 03:27:59] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/db/12/7bb0e640457f3bbbbc0b77439e6b03839642728f5b9676f3a6cdbf41672e/hj_proj_module-0.1.7.tar.gz
+[2024-05-31 03:27:59] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/d3/06/0fac2aec1286a6b8a9bab43d6ad46775cd050be1806876cf2341d8a738e6/ctrip-helper-0.2.8.tar.gz
+[2024-05-31 03:27:59] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 03:27:59] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.2.7.tar.gz tmp/ctrip-helper-0.2.8.tar.gz --markdown 20240531/c/ctrip-helper/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 03:28:00] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/94/49/69693d7a64f73d84255649b427048581401581af1b2733dd7b132cd4a620/hj_proj_module-0.1.9.tar.gz
+[2024-05-31 03:28:00] INFO root fetch - processPackages [hj-proj-module]: executing diffoscope
+[2024-05-31 03:28:00] INFO root fetch - processPackages [hj-proj-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj_proj_module-0.1.7.tar.gz tmp/hj_proj_module-0.1.9.tar.gz --markdown 20240531/h/hj-proj-module/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-31 03:28:00] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.2.7.tar.gz]
+[2024-05-31 03:28:00] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.2.8.tar.gz]
+[2024-05-31 03:28:00] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 03:28:00] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.7.tar.gz]
+[2024-05-31 03:28:00] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.9.tar.gz]
+[2024-05-31 03:28:00] INFO root fetch - main [MainThread]: End processing [hj-proj-module]: success
+[2024-05-31 03:28:00] INFO root fetch - main [MainThread]: Store serial: [23459204]
