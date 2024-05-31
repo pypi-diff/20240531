@@ -5052,3 +5052,33 @@
 [2024-05-31 04:14:18] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.7.9.tar.gz]
 [2024-05-31 04:14:18] INFO root fetch - main [MainThread]: End processing [fudstop]: success
 [2024-05-31 04:14:18] INFO root fetch - main [MainThread]: Store serial: [23459547]
+[2024-05-31 04:16:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459547]
+[2024-05-31 04:16:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 04:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: responses-validator
+[2024-05-31 04:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sosap
+[2024-05-31 04:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trustregion
+[2024-05-31 04:16:27] INFO root fetch - processPackages [responses-validator]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 04:16:27] INFO root fetch - processPackages [sosap]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-31 04:16:27] INFO root fetch - processPackages [trustregion]: New version: [1.2.1] Old Version: [1.2]
+[2024-05-31 04:16:27] INFO root fetch - processPackages [responses-validator]: Downloading https://files.pythonhosted.org/packages/6c/0d/a00d0e0ec2f8f72e74f341e3dc378f970e4af3bc5fc775252028c9cc4284/responses_validator-0.1.3-cp312-cp312-win_amd64.whl
+[2024-05-31 04:16:27] INFO root fetch - processPackages [sosap]: Downloading https://files.pythonhosted.org/packages/49/17/a67aa8eb9097c5baa063cba627258ea442cd8f4835c61842d6ed16ddef65/sosap-0.2.1.tar.gz
+[2024-05-31 04:16:27] INFO root fetch - processPackages [trustregion]: Downloading https://files.pythonhosted.org/packages/d7/2d/41dc6aa247920adb397612d5c8ced2659e10c97477d923e72fcc0445ddcf/trustregion-1.2.tar.gz
+[2024-05-31 04:16:27] INFO root fetch - processPackages [responses-validator]: Downloading https://files.pythonhosted.org/packages/84/a0/fe82954465371e6bf318bd7eddb5cb62d2e3a439eedb07473300416ff055/responses_validator-0.1.4-cp312-cp312-win_amd64.whl
+[2024-05-31 04:16:27] INFO root fetch - processPackages [sosap]: Downloading https://files.pythonhosted.org/packages/64/4d/053147aa034d4339525d5e1a8dabaa17844b077536c546ae9c92cc36b54f/sosap-0.2.2.tar.gz
+[2024-05-31 04:16:27] INFO root fetch - processPackages [responses-validator]: executing diffoscope
+[2024-05-31 04:16:27] INFO root fetch - processPackages [responses-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responses_validator-0.1.3-cp312-cp312-win_amd64.whl.zip tmp/responses_validator-0.1.4-cp312-cp312-win_amd64.whl.zip --markdown 20240531/r/responses-validator/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 04:16:27] INFO root fetch - processPackages [trustregion]: Downloading https://files.pythonhosted.org/packages/1c/0e/dfa2fe9d1bf50636b1d0066b211af038d3fc0634961ed3996b75fda40e6c/trustregion-1.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 04:16:28] INFO root fetch - processPackages [sosap]: executing diffoscope
+[2024-05-31 04:16:28] INFO root fetch - processPackages [sosap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosap-0.2.1.tar.gz tmp/sosap-0.2.2.tar.gz --markdown 20240531/s/sosap/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-31 04:16:28] INFO root fetch - processPackages [responses-validator]: Remove: archive file [/home/abi/fetcher/tmp/responses_validator-0.1.3-cp312-cp312-win_amd64.whl.zip]
+[2024-05-31 04:16:28] INFO root fetch - processPackages [responses-validator]: Remove: archive file [/home/abi/fetcher/tmp/responses_validator-0.1.4-cp312-cp312-win_amd64.whl.zip]
+[2024-05-31 04:16:28] INFO root fetch - main [MainThread]: End processing [responses-validator]: success
+[2024-05-31 04:16:28] INFO root fetch - processPackages [sosap]: Remove: archive file [/home/abi/fetcher/tmp/sosap-0.2.1.tar.gz]
+[2024-05-31 04:16:28] INFO root fetch - processPackages [sosap]: Remove: archive file [/home/abi/fetcher/tmp/sosap-0.2.2.tar.gz]
+[2024-05-31 04:16:28] INFO root fetch - main [MainThread]: End processing [sosap]: success
+[2024-05-31 04:16:29] INFO root fetch - processPackages [trustregion]: executing diffoscope
+[2024-05-31 04:16:29] INFO root fetch - processPackages [trustregion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustregion-1.2.tar.gz tmp/trustregion-1.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240531/t/trustregion/1.2-1.2.1/README.md --exclude *.pyd
+[2024-05-31 04:16:29] INFO root fetch - processPackages [trustregion]: Remove: archive file [/home/abi/fetcher/tmp/trustregion-1.2.tar.gz]
+[2024-05-31 04:16:29] INFO root fetch - processPackages [trustregion]: Remove: archive file [/home/abi/fetcher/tmp/trustregion-1.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 04:16:29] INFO root fetch - main [MainThread]: End processing [trustregion]: success
+[2024-05-31 04:16:29] INFO root fetch - main [MainThread]: Store serial: [23459568]
