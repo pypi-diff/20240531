@@ -5870,3 +5870,24 @@
 [2024-05-31 05:13:28] INFO root fetch - processPackages [sssm]: Remove: archive file [/home/abi/fetcher/tmp/sssm-0.0.5-py3-none-any.whl.zip]
 [2024-05-31 05:13:28] INFO root fetch - main [MainThread]: End processing [sssm]: success
 [2024-05-31 05:13:28] INFO root fetch - main [MainThread]: Store serial: [23459932]
+[2024-05-31 05:15:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459932]
+[2024-05-31 05:15:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 05:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-31 05:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-cv-nightly
+[2024-05-31 05:15:36] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-31 05:15:36] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-31 05:15:36] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/23/cb/b88129120d3973e39ede25293c5a5621ea56b0ff07993f8d1608afb55426/duwi_smarthome_sdk_dev-0.1.6.tar.gz
+[2024-05-31 05:15:36] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-31 05:15:37] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/ff/b0/4fd4c45cb94bd3f2101b36e14e4b5198242b561aeeca675b73e8203649f4/duwi_smarthome_sdk_dev-0.1.7.tar.gz
+[2024-05-31 05:15:37] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-31 05:15:37] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-31 05:15:37] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.1.6.tar.gz tmp/duwi_smarthome_sdk_dev-0.1.7.tar.gz --markdown 20240531/d/duwi-smarthome-sdk-dev/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-31 05:15:37] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-31 05:15:37] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240531/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-31 05:15:37] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.6.tar.gz]
+[2024-05-31 05:15:37] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.7.tar.gz]
+[2024-05-31 05:15:37] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-31 05:15:38] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-31 05:15:38] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-31 05:15:38] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-31 05:15:38] INFO root fetch - main [MainThread]: Store serial: [23459967]
