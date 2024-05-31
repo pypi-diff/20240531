@@ -16957,3 +16957,156 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:39:16] INFO root fetch - processPackages [scenariogeneration]: Remove: archive file [/home/abi/fetcher/tmp/scenariogeneration-0.9.3.tar.gz]
 [2024-05-31 13:39:16] INFO root fetch - main [MainThread]: End processing [scenariogeneration]: success
 [2024-05-31 13:39:16] INFO root fetch - main [MainThread]: Store serial: [23464956]
+[2024-05-31 13:41:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464956]
+[2024-05-31 13:41:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 13:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botasaurus-driver
+[2024-05-31 13:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-batch-21
+[2024-05-31 13:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-platform-helper
+[2024-05-31 13:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dingodb
+[2024-05-31 13:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botasaurus-driver
+[2024-05-31 13:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: colossalai
+[2024-05-31 13:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-bitvavo-api
+[2024-05-31 13:41:26] INFO root fetch - processPackages [botasaurus-driver]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 13:41:26] INFO root fetch - processPackages [dingodb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 13:41:26] INFO root fetch - processPackages [botasaurus-driver]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 13:41:26] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: New version: [2.5.0b20240531] Old Version: [2.5.0b20240530]
+[2024-05-31 13:41:26] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/fa/7e/4cded5fa90ea0a7190b71e9cff4e212107c073d4621880dcdb18dab7bf09/botasaurus_driver-4.0.8.tar.gz
+[2024-05-31 13:41:26] INFO root fetch - processPackages [colossalai]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-31 13:41:26] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/fd/67/a310b9a572631d0e4a94dcdc0dcb431716f7f40b19d3f1a54bf09bda260d/dingodb-0.0.8.tar.gz
+[2024-05-31 13:41:26] INFO root fetch - processPackages [dbt-platform-helper]: New version: [8.5.0] Old Version: [8.4.1]
+[2024-05-31 13:41:26] INFO root fetch - processPackages [python-bitvavo-api]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-31 13:41:26] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/fa/7e/4cded5fa90ea0a7190b71e9cff4e212107c073d4621880dcdb18dab7bf09/botasaurus_driver-4.0.8.tar.gz
+[2024-05-31 13:41:26] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: Downloading https://files.pythonhosted.org/packages/87/09/ead5d684ad39d905b3511197c1dd01f9ccf82c88c075d8d5c9a7f277405a/bigdl_core_xe_batch_21-2.5.0b20240530-cp39-cp39-win_amd64.whl
+[2024-05-31 13:41:26] INFO root fetch - processPackages [colossalai]: Downloading https://files.pythonhosted.org/packages/3e/64/9bae1e3713511878aa0810d6638b7dfcf3b561e9dac832f03ff0dda8df9a/colossalai-0.3.7.tar.gz
+[2024-05-31 13:41:26] INFO root fetch - processPackages [dbt-platform-helper]: Downloading https://files.pythonhosted.org/packages/9d/dd/7da545bdf29409517288d9b52ed79469f27f2ffe7ad9ac8ebece1240f122/dbt_platform_helper-8.4.1.tar.gz
+[2024-05-31 13:41:26] INFO root fetch - processPackages [dingodb]: Downloading https://files.pythonhosted.org/packages/06/6f/82ec6e6f7f768612dc9ef020e2dd42524a3971b282fea6b746ddd2f7aef0/dingodb-0.0.9.tar.gz
+[2024-05-31 13:41:26] INFO root fetch - processPackages [python-bitvavo-api]: Downloading https://files.pythonhosted.org/packages/48/41/e0ab93a0aa1c796ca2814762ddcea3141815dbc2430e5800c3cc0f8e25b5/python_bitvavo_api-1.4.1.tar.gz
+[2024-05-31 13:41:26] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/ad/57/c5587eb0a46a39cf90a36835b2e3372614749a4cde08db6baad1ff2eac4e/botasaurus_driver-4.0.9.tar.gz
+[2024-05-31 13:41:26] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/ad/57/c5587eb0a46a39cf90a36835b2e3372614749a4cde08db6baad1ff2eac4e/botasaurus_driver-4.0.9.tar.gz
+[2024-05-31 13:41:26] INFO root fetch - processPackages [dingodb]: executing diffoscope
+[2024-05-31 13:41:26] INFO root fetch - processPackages [dingodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingodb-0.0.8.tar.gz tmp/dingodb-0.0.9.tar.gz --markdown 20240531/d/dingodb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 13:41:26] INFO root fetch - processPackages [botasaurus-driver]: executing diffoscope
+[2024-05-31 13:41:26] INFO root fetch - processPackages [botasaurus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_driver-4.0.8.tar.gz tmp/botasaurus_driver-4.0.9.tar.gz --markdown 20240531/b/botasaurus-driver/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 13:41:26] INFO root fetch - processPackages [botasaurus-driver]: executing diffoscope
+[2024-05-31 13:41:26] INFO root fetch - processPackages [botasaurus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_driver-4.0.8.tar.gz tmp/botasaurus_driver-4.0.9.tar.gz --markdown 20240531/b/botasaurus-driver/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 13:41:27] INFO root fetch - processPackages [dbt-platform-helper]: Downloading https://files.pythonhosted.org/packages/29/21/07ec2a56833e379b1402aedbf3193af9787466db90fc52f8ebbe9e97a047/dbt_platform_helper-8.5.0.tar.gz
+[2024-05-31 13:41:27] INFO root fetch - processPackages [colossalai]: Downloading https://files.pythonhosted.org/packages/36/e3/60f8db0b6f013e790fce5f2cc0b177e828aadc0ba1dd462802618387191d/colossalai-0.3.8.tar.gz
+[2024-05-31 13:41:27] INFO root fetch - processPackages [python-bitvavo-api]: Downloading https://files.pythonhosted.org/packages/b0/51/e10ae7cba0a3c11353fb8326139e188530ed910633a9d3cacaf8210c16b4/python_bitvavo_api-1.4.2.tar.gz
+[2024-05-31 13:41:27] INFO root fetch - processPackages [dbt-platform-helper]: executing diffoscope
+[2024-05-31 13:41:27] INFO root fetch - processPackages [dbt-platform-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_platform_helper-8.4.1.tar.gz tmp/dbt_platform_helper-8.5.0.tar.gz --markdown 20240531/d/dbt-platform-helper/8.4.1-8.5.0/README.md --exclude *.pyd
+[2024-05-31 13:41:27] INFO root fetch - processPackages [python-bitvavo-api]: executing diffoscope
+[2024-05-31 13:41:27] INFO root fetch - processPackages [python-bitvavo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_bitvavo_api-1.4.1.tar.gz tmp/python_bitvavo_api-1.4.2.tar.gz --markdown 20240531/p/python-bitvavo-api/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-31 13:41:27] INFO root fetch - processPackages [colossalai]: executing diffoscope
+[2024-05-31 13:41:27] INFO root fetch - processPackages [colossalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colossalai-0.3.7.tar.gz tmp/colossalai-0.3.8.tar.gz --markdown 20240531/c/colossalai/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-31 13:41:27] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.8.tar.gz]
+[2024-05-31 13:41:27] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
+[2024-05-31 13:41:27] INFO root fetch - main [MainThread]: End processing [dingodb]: success
+[2024-05-31 13:41:27] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.8.tar.gz]
+[2024-05-31 13:41:27] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.9.tar.gz]
+[2024-05-31 13:41:27] INFO root fetch - main [MainThread]: End processing [botasaurus-driver]: success
+[2024-05-31 13:41:27] INFO root fetch - processPackages [python-bitvavo-api]: Remove: archive file [/home/abi/fetcher/tmp/python_bitvavo_api-1.4.1.tar.gz]
+[2024-05-31 13:41:27] INFO root fetch - processPackages [python-bitvavo-api]: Remove: archive file [/home/abi/fetcher/tmp/python_bitvavo_api-1.4.2.tar.gz]
+[2024-05-31 13:41:27] INFO root fetch - main [MainThread]: End processing [python-bitvavo-api]: success
+[2024-05-31 13:41:27] INFO root fetch - main [MainThread]: End processing [botasaurus-driver]: success
+[2024-05-31 13:41:28] INFO root fetch - processPackages [dbt-platform-helper]: Remove: archive file [/home/abi/fetcher/tmp/dbt_platform_helper-8.4.1.tar.gz]
+[2024-05-31 13:41:28] INFO root fetch - processPackages [dbt-platform-helper]: Remove: archive file [/home/abi/fetcher/tmp/dbt_platform_helper-8.5.0.tar.gz]
+[2024-05-31 13:41:28] INFO root fetch - main [MainThread]: End processing [dbt-platform-helper]: success
+[2024-05-31 13:41:28] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: Downloading https://files.pythonhosted.org/packages/e0/b1/7fbcc3a18ea78cb5ec08b6d5acd8f70d427c4b09e6a7189bcd0155fde7e2/bigdl_core_xe_batch_21-2.5.0b20240531-cp310-cp310-win_amd64.whl
+[2024-05-31 13:41:29] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: executing diffoscope
+[2024-05-31 13:41:29] INFO root fetch - processPackages [bigdl-core-xe-batch-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_batch_21-2.5.0b20240530-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_batch_21-2.5.0b20240531-cp310-cp310-win_amd64.whl.zip --markdown 20240531/b/bigdl-core-xe-batch-21/2.5.0b20240530-2.5.0b20240531/README.md --exclude *.pyd
+[2024-05-31 13:41:30] ERROR root fetch - processPackages [bigdl-core-xe-batch-21]: Diffoscope failed: time="2024-05-31T13:41:29+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140077204250000)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140077338467840)
+
+[2024-05-31 13:41:30] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-batch-21] error
+[2024-05-31 13:41:32] INFO root fetch - processPackages [colossalai]: Remove: archive file [/home/abi/fetcher/tmp/colossalai-0.3.7.tar.gz]
+[2024-05-31 13:41:32] INFO root fetch - processPackages [colossalai]: Remove: archive file [/home/abi/fetcher/tmp/colossalai-0.3.8.tar.gz]
+[2024-05-31 13:41:32] INFO root fetch - main [MainThread]: End processing [colossalai]: success
+[2024-05-31 13:41:32] INFO root fetch - main [MainThread]: Store serial: [23464973]
