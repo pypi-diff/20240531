@@ -7447,3 +7447,22 @@
 [2024-05-31 06:45:04] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.9.1.tar.gz]
 [2024-05-31 06:45:04] INFO root fetch - main [MainThread]: End processing [iac-init]: success
 [2024-05-31 06:45:04] INFO root fetch - main [MainThread]: Store serial: [23460485]
+[2024-05-31 06:47:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460485]
+[2024-05-31 06:47:12] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-31 06:49:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460485]
+[2024-05-31 06:49:18] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-31 06:51:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460485]
+[2024-05-31 06:51:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 06:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: epub-to-text
+[2024-05-31 06:51:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yipao
+[2024-05-31 06:51:23] INFO root fetch - processPackages [yipao]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-31 06:51:23] WARNING root fetch - processPackages [epub-to-text]: Skipping, unable to determine old version
+[2024-05-31 06:51:23] INFO root fetch - main [MainThread]: End processing [epub-to-text] error
+[2024-05-31 06:51:24] INFO root fetch - processPackages [yipao]: Downloading https://files.pythonhosted.org/packages/6e/f3/df263eb222b19f8156093d3fa5d6e602c809a300e07046482493ff3833c2/yipao-0.0.3.tar.gz
+[2024-05-31 06:51:24] INFO root fetch - processPackages [yipao]: Downloading https://files.pythonhosted.org/packages/aa/82/555ee743e78d56938e7ad646fe9cf91b84ba205162d62dc17ec22669bade/yipao-0.0.4.tar.gz
+[2024-05-31 06:51:24] INFO root fetch - processPackages [yipao]: executing diffoscope
+[2024-05-31 06:51:24] INFO root fetch - processPackages [yipao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yipao-0.0.3.tar.gz tmp/yipao-0.0.4.tar.gz --markdown 20240531/y/yipao/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-31 06:51:25] INFO root fetch - processPackages [yipao]: Remove: archive file [/home/abi/fetcher/tmp/yipao-0.0.3.tar.gz]
+[2024-05-31 06:51:25] INFO root fetch - processPackages [yipao]: Remove: archive file [/home/abi/fetcher/tmp/yipao-0.0.4.tar.gz]
+[2024-05-31 06:51:25] INFO root fetch - main [MainThread]: End processing [yipao]: success
+[2024-05-31 06:51:25] INFO root fetch - main [MainThread]: Store serial: [23460493]
