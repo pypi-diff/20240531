@@ -9666,3 +9666,60 @@
 [2024-05-31 08:54:51] INFO root fetch - processPackages [group-profile-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-profile-remote-0.0.9.tar.gz]
 [2024-05-31 08:54:51] INFO root fetch - main [MainThread]: End processing [group-profile-remote]: success
 [2024-05-31 08:54:51] INFO root fetch - main [MainThread]: Store serial: [23461584]
+[2024-05-31 08:56:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461584]
+[2024-05-31 08:56:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jetson-examples
+[2024-05-31 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exobject
+[2024-05-31 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2024-05-31 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GPTPlugins4All
+[2024-05-31 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-aux
+[2024-05-31 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unittestreport-yami
+[2024-05-31 08:56:59] INFO root fetch - processPackages [pytest-aux]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 08:56:59] INFO root fetch - processPackages [unittestreport-yami]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 08:56:59] INFO root fetch - processPackages [GPTPlugins4All]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 08:56:59] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.35.1.dev20240529] Old Version: [1.35.1.dev20240528]
+[2024-05-31 08:56:59] INFO root fetch - processPackages [jetson-examples]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 08:56:59] INFO root fetch - processPackages [exobject]: New version: [0.9] Old Version: [0.7]
+[2024-05-31 08:56:59] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/03/05/d50f9f53e67d589ebd88b7f888d55f92d94e461244648bd9e86de22e45d0/unittestreport_yami-0.1.8.tar.gz
+[2024-05-31 08:56:59] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/5a/b5/97b0775cb4c951d2872d6c4e33db266a0dba4dc2207a3dbac7ed55f6b995/GPTPlugins4All-1.0.8.tar.gz
+[2024-05-31 08:56:59] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/7b/00/cfe7ffd624d3c06e902b088c2aa61b10bb941e93427d52146fd133dd2e43/streamlit_nightly-1.35.1.dev20240528.tar.gz
+[2024-05-31 08:56:59] INFO root fetch - processPackages [pytest-aux]: Downloading https://files.pythonhosted.org/packages/c4/16/6f8b96bc54d3714044972e2b876681fc1dfe42bd24354c4acab7bd2c0290/pytest_aux-0.0.1.tar.gz
+[2024-05-31 08:57:00] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/68/d3/3784c24eb99b32e3b657e5a7b1e557ef4398fa8772ad5a9b6416fada4697/jetson_examples-0.1.1.tar.gz
+[2024-05-31 08:57:00] INFO root fetch - processPackages [exobject]: Downloading https://files.pythonhosted.org/packages/4d/63/f22febd1a265d9a862455eb0481817a5afbd72db8743ff6d9d8ac0193c3a/exobject-0.7.tar.gz
+[2024-05-31 08:57:00] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/70/f3/c1c12902a2742117218cb479a728be47808958f03b0f06535cb9eb310c62/unittestreport_yami-0.1.9.tar.gz
+[2024-05-31 08:57:00] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/fb/16/af06befd4a411c5c48cd6f713bca08893d0e33bde8c93250203608d1ef03/GPTPlugins4All-1.0.9.tar.gz
+[2024-05-31 08:57:00] INFO root fetch - processPackages [pytest-aux]: Downloading https://files.pythonhosted.org/packages/e3/d4/ef9b4e08001859321f087a8605a205cfc83d935a4db5f6cf6dfb71c9f9f9/pytest_aux-0.0.2.tar.gz
+[2024-05-31 08:57:00] INFO root fetch - processPackages [unittestreport-yami]: executing diffoscope
+[2024-05-31 08:57:00] INFO root fetch - processPackages [unittestreport-yami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittestreport_yami-0.1.8.tar.gz tmp/unittestreport_yami-0.1.9.tar.gz --markdown 20240531/u/unittestreport-yami/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 08:57:00] INFO root fetch - processPackages [GPTPlugins4All]: executing diffoscope
+[2024-05-31 08:57:00] INFO root fetch - processPackages [GPTPlugins4All]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTPlugins4All-1.0.8.tar.gz tmp/GPTPlugins4All-1.0.9.tar.gz --markdown 20240531/G/GPTPlugins4All/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 08:57:00] INFO root fetch - processPackages [pytest-aux]: executing diffoscope
+[2024-05-31 08:57:00] INFO root fetch - processPackages [pytest-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_aux-0.0.1.tar.gz tmp/pytest_aux-0.0.2.tar.gz --markdown 20240531/p/pytest-aux/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 08:57:00] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/50/97/63612a63aceb54e5bd5cdb0ba1f1c9bdca3fad241762b4fa4e48bed488c6/jetson_examples-0.1.2.tar.gz
+[2024-05-31 08:57:00] INFO root fetch - processPackages [exobject]: Downloading https://files.pythonhosted.org/packages/75/28/7a78ac37756248c6264b0b9c63315caf09cc802195f698bc737e8e11ca82/exobject-0.9.tar.gz
+[2024-05-31 08:57:00] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/98/45/c70d3de8ca9b4245bfce311ca76b5e10f0cda6e2e3d58b715ad219df7e7c/streamlit_nightly-1.35.1.dev20240529.tar.gz
+[2024-05-31 08:57:00] INFO root fetch - processPackages [exobject]: executing diffoscope
+[2024-05-31 08:57:00] INFO root fetch - processPackages [exobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exobject-0.7.tar.gz tmp/exobject-0.9.tar.gz --markdown 20240531/e/exobject/0.7-0.9/README.md --exclude *.pyd
+[2024-05-31 08:57:00] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-31 08:57:00] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.35.1.dev20240528.tar.gz tmp/streamlit_nightly-1.35.1.dev20240529.tar.gz --markdown 20240531/s/streamlit-nightly/1.35.1.dev20240528-1.35.1.dev20240529/README.md --exclude *.pyd
+[2024-05-31 08:57:00] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.8.tar.gz]
+[2024-05-31 08:57:00] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.9.tar.gz]
+[2024-05-31 08:57:00] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
+[2024-05-31 08:57:01] INFO root fetch - processPackages [pytest-aux]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aux-0.0.1.tar.gz]
+[2024-05-31 08:57:01] INFO root fetch - processPackages [pytest-aux]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aux-0.0.2.tar.gz]
+[2024-05-31 08:57:01] INFO root fetch - main [MainThread]: End processing [pytest-aux]: success
+[2024-05-31 08:57:01] INFO root fetch - processPackages [jetson-examples]: executing diffoscope
+[2024-05-31 08:57:01] INFO root fetch - processPackages [jetson-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetson_examples-0.1.1.tar.gz tmp/jetson_examples-0.1.2.tar.gz --markdown 20240531/j/jetson-examples/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 08:57:01] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.8.tar.gz]
+[2024-05-31 08:57:01] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
+[2024-05-31 08:57:01] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
+[2024-05-31 08:57:01] INFO root fetch - processPackages [exobject]: Remove: archive file [/home/abi/fetcher/tmp/exobject-0.7.tar.gz]
+[2024-05-31 08:57:01] INFO root fetch - processPackages [exobject]: Remove: archive file [/home/abi/fetcher/tmp/exobject-0.9.tar.gz]
+[2024-05-31 08:57:01] INFO root fetch - main [MainThread]: End processing [exobject]: success
+[2024-05-31 08:57:01] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson_examples-0.1.1.tar.gz]
+[2024-05-31 08:57:01] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson_examples-0.1.2.tar.gz]
+[2024-05-31 08:57:01] INFO root fetch - main [MainThread]: End processing [jetson-examples]: success
+[2024-05-31 08:57:04] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240528.tar.gz]
+[2024-05-31 08:57:04] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240529.tar.gz]
+[2024-05-31 08:57:04] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-31 08:57:04] INFO root fetch - main [MainThread]: Store serial: [23461601]
