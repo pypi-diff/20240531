@@ -23442,3 +23442,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:23:51] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/langchain_nvidia_ai_endpoints-0.1.0.tar.gz]
 [2024-05-31 17:23:51] INFO root fetch - main [MainThread]: End processing [langchain-nvidia-ai-endpoints]: success
 [2024-05-31 17:23:51] INFO root fetch - main [MainThread]: Store serial: [23467912]
+[2024-05-31 17:25:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467912]
+[2024-05-31 17:26:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-31 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kiran
+[2024-05-31 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: network-diffusion
+[2024-05-31 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: portkey-ai
+[2024-05-31 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-julep
+[2024-05-31 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dlqhandler
+[2024-05-31 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nuclia
+[2024-05-31 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stac-fastapi.types
+[2024-05-31 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stac-fastapi.extensions
+[2024-05-31 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: experimaestro
+[2024-05-31 17:26:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stac-fastapi.api
+[2024-05-31 17:26:00] INFO root fetch - processPackages [composio-julep]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 17:26:00] INFO root fetch - processPackages [network-diffusion]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 17:26:00] INFO root fetch - processPackages [dlqhandler]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-31 17:26:00] INFO root fetch - processPackages [nuclia]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-31 17:26:00] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/37/2f/4b5d8b788cf5223dd52742326ab070c7d17159c655397db32beefb9fb3e6/composio_julep-0.3.1.tar.gz
+[2024-05-31 17:26:00] INFO root fetch - processPackages [network-diffusion]: Downloading https://files.pythonhosted.org/packages/31/07/8b415bbd0cce5d8c54f10ca2e9441fdbff6d9e3ce91e58f44843f41d2335/network_diffusion-0.8.0.tar.gz
+[2024-05-31 17:26:00] WARNING root fetch - processPackages [kiran]: Skipping, unable to determine old version
+[2024-05-31 17:26:00] INFO root fetch - processPackages [kiran]: Start processing: pqm
+[2024-05-31 17:26:00] INFO root fetch - main [MainThread]: End processing [kiran] error
+[2024-05-31 17:26:00] INFO root fetch - processPackages [stac-fastapi.types]: New version: [3.0.0a2] Old Version: [3.0.0a1]
+[2024-05-31 17:26:00] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/ed/e0/a80f2239ed7e2b5674c1d662dab313cb92de41823b5f7f5900e419a46d88/dlqhandler-0.2.6.tar.gz
+[2024-05-31 17:26:00] INFO root fetch - processPackages [stac-fastapi.api]: New version: [3.0.0a2] Old Version: [3.0.0a1]
+[2024-05-31 17:26:00] INFO root fetch - processPackages [portkey-ai]: New version: [1.3.0] Old Version: [1.2.4]
+[2024-05-31 17:26:00] INFO root fetch - processPackages [stac-fastapi.extensions]: New version: [3.0.0a2] Old Version: [3.0.0a1]
+[2024-05-31 17:26:00] INFO root fetch - processPackages [experimaestro]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-05-31 17:26:00] INFO root fetch - processPackages [pqm]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-31 17:26:00] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/8b/ad/0dedffda68a5ddfebc878ea31539449de1cc104b2921b0f71242086114b5/nuclia-3.0.0.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/75/90/4b6d082017311acc486430dd2ab052179f31e29e2018ef5aafe878efdb33/stac_fastapi_types-3.0.0a1.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [portkey-ai]: Downloading https://files.pythonhosted.org/packages/a1/7c/cc79bc9a59316e7c2c45dd5c6032fe40d12f5c92d6a7f07fca3acd9fcadd/portkey_ai-1.2.4.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/54/9f/bf00630786ffbbdbd7414c788e72ddeddc543d579a8254f0389a7da9bf9e/composio_julep-0.3.2.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/66/68/ae6a50797ad7eaec074702fd8461de77f9a374cbb9cb7abc91b9a0eb82e7/stac_fastapi_api-3.0.0a1.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/07/39/9d907a660f9d57ba11bac950d0749a18182ebcef32da49ad9a24cd19e438/stac_fastapi_extensions-3.0.0a1.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/02/00/d980d58663cf1f3ac95141f9aaaf406fc7fbed25792dcc051f27d72debd5/experimaestro-1.5.6.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [network-diffusion]: Downloading https://files.pythonhosted.org/packages/81/1a/b6692ce2d9c366a1672e75b7adbd512df91035714fadccd1a9f35515bd8e/network_diffusion-0.9.0.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [pqm]: Downloading https://files.pythonhosted.org/packages/c9/00/7a9b2d89b5387ad9258ba64b775e76840c9d5582d4b73171b72b8e282278/pqm-0.1.2.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/46/9c/7acdcb29d900fdf4c13d11fabfe6cd54dbea114d87f44637cffbf7dbb727/dlqhandler-0.2.7.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [composio-julep]: executing diffoscope
+[2024-05-31 17:26:01] INFO root fetch - processPackages [composio-julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_julep-0.3.1.tar.gz tmp/composio_julep-0.3.2.tar.gz --markdown 20240531/c/composio-julep/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 17:26:01] INFO root fetch - processPackages [nuclia]: Downloading https://files.pythonhosted.org/packages/11/1f/e052694242882abe377809338718f949e310b2c4bce6f4713852cb844b51/nuclia-3.1.0.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [network-diffusion]: executing diffoscope
+[2024-05-31 17:26:01] INFO root fetch - processPackages [network-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_diffusion-0.8.0.tar.gz tmp/network_diffusion-0.9.0.tar.gz --markdown 20240531/n/network-diffusion/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 17:26:01] INFO root fetch - processPackages [dlqhandler]: executing diffoscope
+[2024-05-31 17:26:01] INFO root fetch - processPackages [dlqhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlqhandler-0.2.6.tar.gz tmp/dlqhandler-0.2.7.tar.gz --markdown 20240531/d/dlqhandler/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/63/87/c6f6b035b06cbe0de42ff3369c90e5d64bcedff853e5d78cbb5860f4d23e/stac_fastapi_types-3.0.0a2.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [portkey-ai]: Downloading https://files.pythonhosted.org/packages/c7/96/448210e1c24f067758f23643be8b25f5101da9ed7290bfd9079a6a4d884d/portkey_ai-1.3.0.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/ed/6e/b327aac52e7fbf2b8674e6b32407f209083661d7f21480466810a7b5d403/stac_fastapi_extensions-3.0.0a2.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/d1/db/ddbe7f56b453220d02f68b3f825e7691b48dcd424345bd54caf0df67eb19/stac_fastapi_api-3.0.0a2.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [nuclia]: executing diffoscope
+[2024-05-31 17:26:01] INFO root fetch - processPackages [nuclia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclia-3.0.0.tar.gz tmp/nuclia-3.1.0.tar.gz --markdown 20240531/n/nuclia/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-31 17:26:01] INFO root fetch - processPackages [portkey-ai]: executing diffoscope
+[2024-05-31 17:26:01] INFO root fetch - processPackages [portkey-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portkey_ai-1.2.4.tar.gz tmp/portkey_ai-1.3.0.tar.gz --markdown 20240531/p/portkey-ai/1.2.4-1.3.0/README.md --exclude *.pyd
+[2024-05-31 17:26:01] INFO root fetch - processPackages [pqm]: Downloading https://files.pythonhosted.org/packages/ad/26/bde8c5fbf2032f8ffc7890f1315a06a9396de2600536e7a7cb17432e513e/pqm-0.2.0.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.types]: executing diffoscope
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_types-3.0.0a1.tar.gz tmp/stac_fastapi_types-3.0.0a2.tar.gz --markdown 20240531/s/stac-fastapi.types/3.0.0a1-3.0.0a2/README.md --exclude *.pyd
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.extensions]: executing diffoscope
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_extensions-3.0.0a1.tar.gz tmp/stac_fastapi_extensions-3.0.0a2.tar.gz --markdown 20240531/s/stac-fastapi.extensions/3.0.0a1-3.0.0a2/README.md --exclude *.pyd
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.api]: executing diffoscope
+[2024-05-31 17:26:01] INFO root fetch - processPackages [stac-fastapi.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_api-3.0.0a1.tar.gz tmp/stac_fastapi_api-3.0.0a2.tar.gz --markdown 20240531/s/stac-fastapi.api/3.0.0a1-3.0.0a2/README.md --exclude *.pyd
+[2024-05-31 17:26:01] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/2a/b9/992561c0ede6318a82a903362225a2570967bf2c10a3d7ce7aaaba8bae4e/experimaestro-1.5.7.tar.gz
+[2024-05-31 17:26:01] INFO root fetch - processPackages [pqm]: executing diffoscope
+[2024-05-31 17:26:01] INFO root fetch - processPackages [pqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqm-0.1.2.tar.gz tmp/pqm-0.2.0.tar.gz --markdown 20240531/p/pqm/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-31 17:26:02] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.3.1.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.3.2.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [composio-julep]: Start processing: composio-langchain
+[2024-05-31 17:26:02] INFO root fetch - main [MainThread]: End processing [composio-julep]: success
+[2024-05-31 17:26:02] INFO root fetch - processPackages [composio-langchain]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/2d/75/80eb345aa8e9ebfaee5929e60fc45c88cb3fdc9c1ae155f239b61da13e03/composio_langchain-0.3.1.tar.gz
+[2024-05-31 17:26:02] INFO root fetch - processPackages [network-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/network_diffusion-0.8.0.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [network-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/network_diffusion-0.9.0.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [network-diffusion]: Start processing: nvidia-ml-py
+[2024-05-31 17:26:02] INFO root fetch - main [MainThread]: End processing [network-diffusion]: success
+[2024-05-31 17:26:02] INFO root fetch - processPackages [nvidia-ml-py]: New version: [7.352.0] Old Version: [7.346.0]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.6.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.7.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [dlqhandler]: Start processing: pflows
+[2024-05-31 17:26:02] INFO root fetch - main [MainThread]: End processing [dlqhandler]: success
+[2024-05-31 17:26:02] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/bc/b7/97cba50bba1efa838672acc97a292d9e766925dcccf222d5bf466dbce074/composio_langchain-0.3.2.tar.gz
+[2024-05-31 17:26:02] INFO root fetch - processPackages [pflows]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_types-3.0.0a1.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_types-3.0.0a2.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - main [MainThread]: End processing [stac-fastapi.types]: success
+[2024-05-31 17:26:02] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-31 17:26:02] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.3.1.tar.gz tmp/composio_langchain-0.3.2.tar.gz --markdown 20240531/c/composio-langchain/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 17:26:02] INFO root fetch - processPackages [nvidia-ml-py]: Downloading https://files.pythonhosted.org/packages/3d/c2/72aaf55adbf953904332934d234686880d4765c0f9ee83d5de1995e825ac/nvidia-ml-py-7.346.0.tar.gz
+[2024-05-31 17:26:02] INFO root fetch - processPackages [experimaestro]: executing diffoscope
+[2024-05-31 17:26:02] INFO root fetch - processPackages [experimaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-1.5.6.tar.gz tmp/experimaestro-1.5.7.tar.gz --markdown 20240531/e/experimaestro/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-05-31 17:26:02] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_api-3.0.0a1.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_api-3.0.0a2.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - main [MainThread]: End processing [stac-fastapi.api]: success
+[2024-05-31 17:26:02] INFO root fetch - processPackages [pflows]: Downloading https://files.pythonhosted.org/packages/cd/6e/4db39cff37bc224c51ea11ba1ee56755fe4e4a464a4e46de7c0b05ad32dc/pflows-0.1.0.tar.gz
+[2024-05-31 17:26:02] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-3.0.0.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [nuclia]: Remove: archive file [/home/abi/fetcher/tmp/nuclia-3.1.0.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - main [MainThread]: End processing [nuclia]: success
+[2024-05-31 17:26:02] INFO root fetch - processPackages [portkey-ai]: Remove: archive file [/home/abi/fetcher/tmp/portkey_ai-1.2.4.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [portkey-ai]: Remove: archive file [/home/abi/fetcher/tmp/portkey_ai-1.3.0.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - main [MainThread]: End processing [portkey-ai]: success
+[2024-05-31 17:26:02] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_extensions-3.0.0a1.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_extensions-3.0.0a2.tar.gz]
+[2024-05-31 17:26:02] INFO root fetch - main [MainThread]: End processing [stac-fastapi.extensions]: success
+[2024-05-31 17:26:02] INFO root fetch - processPackages [nvidia-ml-py]: Downloading https://files.pythonhosted.org/packages/72/31/378ca145e919ca415641a0f17f2669fa98c482a81f1f8fdfb72b1f9dbb37/nvidia-ml-py-7.352.0.tar.gz
+[2024-05-31 17:26:03] INFO root fetch - processPackages [pflows]: Downloading https://files.pythonhosted.org/packages/49/89/6b51594cda5c1be22da0ab0c7fae9d5a441442c568b9a48cec98d14bb693/pflows-0.1.1.tar.gz
+[2024-05-31 17:26:03] INFO root fetch - processPackages [nvidia-ml-py]: executing diffoscope
+[2024-05-31 17:26:03] INFO root fetch - processPackages [nvidia-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-ml-py-7.346.0.tar.gz tmp/nvidia-ml-py-7.352.0.tar.gz --markdown 20240531/n/nvidia-ml-py/7.346.0-7.352.0/README.md --exclude *.pyd
+[2024-05-31 17:26:03] INFO root fetch - processPackages [pqm]: Remove: archive file [/home/abi/fetcher/tmp/pqm-0.1.2.tar.gz]
+[2024-05-31 17:26:03] INFO root fetch - processPackages [pqm]: Remove: archive file [/home/abi/fetcher/tmp/pqm-0.2.0.tar.gz]
+[2024-05-31 17:26:03] INFO root fetch - main [MainThread]: End processing [pqm]: success
+[2024-05-31 17:26:03] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.3.1.tar.gz]
+[2024-05-31 17:26:03] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.3.2.tar.gz]
+[2024-05-31 17:26:03] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-31 17:26:03] INFO root fetch - processPackages [pflows]: executing diffoscope
+[2024-05-31 17:26:03] INFO root fetch - processPackages [pflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pflows-0.1.0.tar.gz tmp/pflows-0.1.1.tar.gz --markdown 20240531/p/pflows/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 17:26:03] INFO root fetch - processPackages [nvidia-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-ml-py-7.346.0.tar.gz]
+[2024-05-31 17:26:03] INFO root fetch - processPackages [nvidia-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-ml-py-7.352.0.tar.gz]
+[2024-05-31 17:26:03] INFO root fetch - main [MainThread]: End processing [nvidia-ml-py]: success
+[2024-05-31 17:26:03] INFO root fetch - processPackages [pflows]: Remove: archive file [/home/abi/fetcher/tmp/pflows-0.1.0.tar.gz]
+[2024-05-31 17:26:03] INFO root fetch - processPackages [pflows]: Remove: archive file [/home/abi/fetcher/tmp/pflows-0.1.1.tar.gz]
+[2024-05-31 17:26:03] INFO root fetch - main [MainThread]: End processing [pflows]: success
+[2024-05-31 17:26:04] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-1.5.6.tar.gz]
+[2024-05-31 17:26:04] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-1.5.7.tar.gz]
+[2024-05-31 17:26:04] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
+[2024-05-31 17:26:04] INFO root fetch - main [MainThread]: Store serial: [23468009]
