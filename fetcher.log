@@ -10129,3 +10129,71 @@
 [2024-05-31 09:12:23] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
 [2024-05-31 09:12:23] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
 [2024-05-31 09:12:23] INFO root fetch - main [MainThread]: Store serial: [23461770]
+[2024-05-31 09:14:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461770]
+[2024-05-31 09:14:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 09:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: treasurbox
+[2024-05-31 09:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tradelocker
+[2024-05-31 09:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsv2py
+[2024-05-31 09:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyseg2
+[2024-05-31 09:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MQTC
+[2024-05-31 09:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: first-breaks-picking
+[2024-05-31 09:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libecalc
+[2024-05-31 09:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-release-channel
+[2024-05-31 09:14:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-wavefront
+[2024-05-31 09:14:32] INFO root fetch - processPackages [tradelocker]: New version: [0.42.0] Old Version: [0.41.0]
+[2024-05-31 09:14:32] WARNING root fetch - processPackages [MQTC]: Skipping, unable to determine old version
+[2024-05-31 09:14:32] INFO root fetch - main [MainThread]: End processing [MQTC] error
+[2024-05-31 09:14:32] INFO root fetch - processPackages [pyseg2]: New version: [1.4] Old Version: [1.3]
+[2024-05-31 09:14:32] INFO root fetch - processPackages [tradelocker]: Downloading https://files.pythonhosted.org/packages/08/23/ef1144fc16be1065fb745456b3b129658a3c9da52f96ab9f3626b611d46c/tradelocker-0.41.0.tar.gz
+[2024-05-31 09:14:32] WARNING root fetch - processPackages [treasurbox]: Skipping, unable to determine old version
+[2024-05-31 09:14:32] INFO root fetch - main [MainThread]: End processing [treasurbox] error
+[2024-05-31 09:14:32] INFO root fetch - processPackages [pyseg2]: Downloading https://files.pythonhosted.org/packages/a5/45/ce95580f23da2e479e83a791bf1d2758d215f24448cc16c952f7dc45a87d/pyseg2-1.3.tar.gz
+[2024-05-31 09:14:32] INFO root fetch - processPackages [libecalc]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-05-31 09:14:32] INFO root fetch - processPackages [first-breaks-picking]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-31 09:14:32] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: New version: [16.0.2.9.0] Old Version: [16.0.2.8.0]
+[2024-05-31 09:14:32] INFO root fetch - processPackages [tsv2py]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-31 09:14:32] INFO root fetch - processPackages [pulumi-wavefront]: New version: [3.2.0a1717138704] Old Version: [3.2.0a1716964492]
+[2024-05-31 09:14:32] INFO root fetch - processPackages [tradelocker]: Downloading https://files.pythonhosted.org/packages/aa/db/b03dcdb62cbcf4c0d041f39feb917f211ffd7f44e4a212f96344b2144233/tradelocker-0.42.0.tar.gz
+[2024-05-31 09:14:32] INFO root fetch - processPackages [pyseg2]: Downloading https://files.pythonhosted.org/packages/f2/aa/04bd3a01ad8cc7ab6c55a4e3aa2c10b9367c32ed674ebdc583eaf5a9d657/pyseg2-1.4-py3-none-any.whl
+[2024-05-31 09:14:32] INFO root fetch - processPackages [libecalc]: Downloading https://files.pythonhosted.org/packages/51/a2/8520612a4baf1a899fba5e8b0ee63b32bd73c2ba905fa5d3ae5fe2a1ed90/libecalc-8.8.0.tar.gz
+[2024-05-31 09:14:32] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/52/92/1be60c2efa4c10575b7009ede41d26825460eb5beff77911075273d79984/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl
+[2024-05-31 09:14:32] INFO root fetch - processPackages [tsv2py]: Downloading https://files.pythonhosted.org/packages/bb/8b/f68d96772cded2b5f513e125e99cd51c38106597aef82f9d4769082b9d37/tsv2py-0.6.2.tar.gz
+[2024-05-31 09:14:32] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/e0/57/f139e55b347b6b28904693e4a895f6143e84b539b98dafe834039204291a/first_breaks_picking-0.7.1.tar.gz
+[2024-05-31 09:14:32] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/de/7b/1460380c6d1a19bf74454bdf5c43922d866904ffc0ff226c7abd12aa6712/pulumi_wavefront-3.2.0a1716964492.tar.gz
+[2024-05-31 09:14:32] INFO root fetch - processPackages [tradelocker]: executing diffoscope
+[2024-05-31 09:14:32] INFO root fetch - processPackages [tradelocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradelocker-0.41.0.tar.gz tmp/tradelocker-0.42.0.tar.gz --markdown 20240531/t/tradelocker/0.41.0-0.42.0/README.md --exclude *.pyd
+[2024-05-31 09:14:32] INFO root fetch - processPackages [pyseg2]: executing diffoscope
+[2024-05-31 09:14:32] INFO root fetch - processPackages [pyseg2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyseg2-1.3.tar.gz tmp/pyseg2-1.4-py3-none-any.whl.zip --markdown 20240531/p/pyseg2/1.3-1.4/README.md --exclude *.pyd
+[2024-05-31 09:14:32] WARNING root fetch - processPackages [libecalc]: Skipping package: exceeds size limit 28339411>=10485760
+[2024-05-31 09:14:32] INFO root fetch - main [MainThread]: End processing [libecalc] error
+[2024-05-31 09:14:33] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Downloading https://files.pythonhosted.org/packages/72/34/26d64f89ea9154c50e7429fb00f1b20a5649bfdcd36647026241b8137389/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl
+[2024-05-31 09:14:33] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/c7/7f/5b83a39faea882430987bcad54afad5d944ceffe97251ecb109b95e9c7d8/first_breaks_picking-0.7.2.tar.gz
+[2024-05-31 09:14:33] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/dc/73/76149e37d2efeed25e3de48d78a1b2382bc28725f93de63a0726ecdf9ab9/pulumi_wavefront-3.2.0a1717138704.tar.gz
+[2024-05-31 09:14:33] INFO root fetch - processPackages [tsv2py]: Downloading https://files.pythonhosted.org/packages/c9/17/cb672535c8ea72188459052a7252f0e7fc3865be7f27bf887256677ebe18/tsv2py-0.6.3.tar.gz
+[2024-05-31 09:14:33] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: executing diffoscope
+[2024-05-31 09:14:33] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-stock-release-channel/16.0.2.8.0-16.0.2.9.0/README.md --exclude *.pyd
+[2024-05-31 09:14:33] INFO root fetch - processPackages [pyseg2]: Remove: archive file [/home/abi/fetcher/tmp/pyseg2-1.3.tar.gz]
+[2024-05-31 09:14:33] INFO root fetch - processPackages [pyseg2]: Remove: archive file [/home/abi/fetcher/tmp/pyseg2-1.4-py3-none-any.whl.zip]
+[2024-05-31 09:14:33] INFO root fetch - main [MainThread]: End processing [pyseg2]: success
+[2024-05-31 09:14:33] INFO root fetch - processPackages [first-breaks-picking]: executing diffoscope
+[2024-05-31 09:14:33] INFO root fetch - processPackages [first-breaks-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/first_breaks_picking-0.7.1.tar.gz tmp/first_breaks_picking-0.7.2.tar.gz --markdown 20240531/f/first-breaks-picking/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-31 09:14:33] INFO root fetch - processPackages [tsv2py]: executing diffoscope
+[2024-05-31 09:14:33] INFO root fetch - processPackages [tsv2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsv2py-0.6.2.tar.gz tmp/tsv2py-0.6.3.tar.gz --markdown 20240531/t/tsv2py/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-31 09:14:33] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2024-05-31 09:14:33] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-3.2.0a1716964492.tar.gz tmp/pulumi_wavefront-3.2.0a1717138704.tar.gz --markdown 20240531/p/pulumi-wavefront/3.2.0a1716964492-3.2.0a1717138704/README.md --exclude *.pyd
+[2024-05-31 09:14:33] INFO root fetch - processPackages [tradelocker]: Remove: archive file [/home/abi/fetcher/tmp/tradelocker-0.41.0.tar.gz]
+[2024-05-31 09:14:33] INFO root fetch - processPackages [tradelocker]: Remove: archive file [/home/abi/fetcher/tmp/tradelocker-0.42.0.tar.gz]
+[2024-05-31 09:14:33] INFO root fetch - main [MainThread]: End processing [tradelocker]: success
+[2024-05-31 09:14:33] INFO root fetch - processPackages [tsv2py]: Remove: archive file [/home/abi/fetcher/tmp/tsv2py-0.6.2.tar.gz]
+[2024-05-31 09:14:33] INFO root fetch - processPackages [tsv2py]: Remove: archive file [/home/abi/fetcher/tmp/tsv2py-0.6.3.tar.gz]
+[2024-05-31 09:14:33] INFO root fetch - main [MainThread]: End processing [tsv2py]: success
+[2024-05-31 09:14:33] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.8.0-py3-none-any.whl.zip]
+[2024-05-31 09:14:33] INFO root fetch - processPackages [odoo-addon-stock-release-channel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel-16.0.2.9.0-py3-none-any.whl.zip]
+[2024-05-31 09:14:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel]: success
+[2024-05-31 09:14:33] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first_breaks_picking-0.7.1.tar.gz]
+[2024-05-31 09:14:33] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first_breaks_picking-0.7.2.tar.gz]
+[2024-05-31 09:14:33] INFO root fetch - main [MainThread]: End processing [first-breaks-picking]: success
+[2024-05-31 09:14:34] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1716964492.tar.gz]
+[2024-05-31 09:14:34] INFO root fetch - processPackages [pulumi-wavefront]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_wavefront-3.2.0a1717138704.tar.gz]
+[2024-05-31 09:14:34] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2024-05-31 09:14:34] INFO root fetch - main [MainThread]: Store serial: [23461872]
