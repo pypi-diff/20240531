@@ -18186,3 +18186,14 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:19:34] INFO root fetch - processPackages [erp-apis]: Remove: archive file [/home/abi/fetcher/tmp/erp_apis-1.2.11-py3-none-any.whl.zip]
 [2024-05-31 14:19:34] INFO root fetch - main [MainThread]: End processing [erp-apis]: success
 [2024-05-31 14:19:34] INFO root fetch - main [MainThread]: Store serial: [23465443]
+[2024-05-31 14:21:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465443]
+[2024-05-31 14:21:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 14:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PySimultan
+[2024-05-31 14:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LMterminal
+[2024-05-31 14:21:44] INFO root fetch - processPackages [PySimultan]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 14:21:44] WARNING root fetch - processPackages [LMterminal]: Skipping, unable to determine old version
+[2024-05-31 14:21:44] INFO root fetch - main [MainThread]: End processing [LMterminal] error
+[2024-05-31 14:21:44] INFO root fetch - processPackages [PySimultan]: Downloading https://files.pythonhosted.org/packages/b8/90/3fa648a6f3998fba53d54451e6e144d67e1629787936fa8a91c1d0b517de/pysimultan-0.2.8.tar.gz
+[2024-05-31 14:21:44] WARNING root fetch - processPackages [PySimultan]: Skipping package: exceeds size limit 12483804>=10485760
+[2024-05-31 14:21:44] INFO root fetch - main [MainThread]: End processing [PySimultan] error
+[2024-05-31 14:21:44] INFO root fetch - main [MainThread]: Store serial: [23465452]
