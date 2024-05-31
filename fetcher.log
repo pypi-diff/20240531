@@ -13937,3 +13937,45 @@
 [2024-05-31 11:44:40] INFO root fetch - processPackages [jupyterlab-unfold]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_unfold-0.3.2.tar.gz]
 [2024-05-31 11:44:40] INFO root fetch - main [MainThread]: End processing [jupyterlab-unfold]: success
 [2024-05-31 11:44:40] INFO root fetch - main [MainThread]: Store serial: [23463571]
+[2024-05-31 11:46:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463571]
+[2024-05-31 11:46:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 11:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keyring-proxy-cli
+[2024-05-31 11:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exobject
+[2024-05-31 11:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parallel-pandas
+[2024-05-31 11:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-integration-and-transformation-library
+[2024-05-31 11:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chess-transformer
+[2024-05-31 11:46:49] INFO root fetch - processPackages [exobject]: New version: [0.9] Old Version: [0.7]
+[2024-05-31 11:46:49] INFO root fetch - processPackages [parallel-pandas]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-31 11:46:49] INFO root fetch - processPackages [keyring-proxy-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-31 11:46:49] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 11:46:49] INFO root fetch - processPackages [keyring-proxy-cli]: Downloading https://files.pythonhosted.org/packages/4c/a5/45b0243e174abec196b424bc738a16ebde41bfcfcdbb9cd52d582a53fbc6/keyring_proxy_cli-0.1.2.tar.gz
+[2024-05-31 11:46:49] INFO root fetch - processPackages [exobject]: Downloading https://files.pythonhosted.org/packages/4d/63/f22febd1a265d9a862455eb0481817a5afbd72db8743ff6d9d8ac0193c3a/exobject-0.7.tar.gz
+[2024-05-31 11:46:49] WARNING root fetch - processPackages [data-integration-and-transformation-library]: Skipping, unable to determine old version
+[2024-05-31 11:46:49] INFO root fetch - main [MainThread]: End processing [data-integration-and-transformation-library] error
+[2024-05-31 11:46:49] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/17/9a/4eaffd0a6a3b549dde852c3725d047241701c2bfbd76111bc2bccccb0658/chess_transformer-0.1.8.tar.gz
+[2024-05-31 11:46:49] INFO root fetch - processPackages [parallel-pandas]: Downloading https://files.pythonhosted.org/packages/22/a9/4a0126f78b1bd955ca4143f2654503d282af2abec13632058fe3934315e4/parallel-pandas-0.6.1.tar.gz
+[2024-05-31 11:46:49] INFO root fetch - processPackages [exobject]: Downloading https://files.pythonhosted.org/packages/75/28/7a78ac37756248c6264b0b9c63315caf09cc802195f698bc737e8e11ca82/exobject-0.9.tar.gz
+[2024-05-31 11:46:49] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/ee/65/ac93cfdac6866e37c13a65533e65710bf7f19f73880bfb7a9eaeb907f8e0/chess_transformer-0.1.9.tar.gz
+[2024-05-31 11:46:49] INFO root fetch - processPackages [exobject]: executing diffoscope
+[2024-05-31 11:46:49] INFO root fetch - processPackages [exobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exobject-0.7.tar.gz tmp/exobject-0.9.tar.gz --markdown 20240531/e/exobject/0.7-0.9/README.md --exclude *.pyd
+[2024-05-31 11:46:49] INFO root fetch - processPackages [keyring-proxy-cli]: Downloading https://files.pythonhosted.org/packages/72/d9/7a9bd9278ffc0ed073a0ba01e929b1f36f833f310aca5bfff2d4ae711436/keyring_proxy_cli-0.1.3.tar.gz
+[2024-05-31 11:46:49] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-31 11:46:49] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.8.tar.gz tmp/chess_transformer-0.1.9.tar.gz --markdown 20240531/c/chess-transformer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 11:46:49] INFO root fetch - processPackages [parallel-pandas]: Downloading https://files.pythonhosted.org/packages/71/0b/48d18af4ecaec8d15f82231d6164c2ea8a17dd9b4fbd064dab77f2f20144/parallel-pandas-0.6.2.tar.gz
+[2024-05-31 11:46:49] INFO root fetch - processPackages [keyring-proxy-cli]: executing diffoscope
+[2024-05-31 11:46:49] INFO root fetch - processPackages [keyring-proxy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyring_proxy_cli-0.1.2.tar.gz tmp/keyring_proxy_cli-0.1.3.tar.gz --markdown 20240531/k/keyring-proxy-cli/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-31 11:46:49] INFO root fetch - processPackages [parallel-pandas]: executing diffoscope
+[2024-05-31 11:46:49] INFO root fetch - processPackages [parallel-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallel-pandas-0.6.1.tar.gz tmp/parallel-pandas-0.6.2.tar.gz --markdown 20240531/p/parallel-pandas/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-31 11:46:50] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.8.tar.gz]
+[2024-05-31 11:46:50] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.9.tar.gz]
+[2024-05-31 11:46:50] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-31 11:46:50] INFO root fetch - processPackages [exobject]: Remove: archive file [/home/abi/fetcher/tmp/exobject-0.7.tar.gz]
+[2024-05-31 11:46:50] INFO root fetch - processPackages [exobject]: Remove: archive file [/home/abi/fetcher/tmp/exobject-0.9.tar.gz]
+[2024-05-31 11:46:50] INFO root fetch - main [MainThread]: End processing [exobject]: success
+[2024-05-31 11:46:50] INFO root fetch - processPackages [parallel-pandas]: Remove: archive file [/home/abi/fetcher/tmp/parallel-pandas-0.6.1.tar.gz]
+[2024-05-31 11:46:50] INFO root fetch - processPackages [parallel-pandas]: Remove: archive file [/home/abi/fetcher/tmp/parallel-pandas-0.6.2.tar.gz]
+[2024-05-31 11:46:50] INFO root fetch - main [MainThread]: End processing [parallel-pandas]: success
+[2024-05-31 11:46:51] INFO root fetch - processPackages [keyring-proxy-cli]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy_cli-0.1.2.tar.gz]
+[2024-05-31 11:46:51] INFO root fetch - processPackages [keyring-proxy-cli]: Remove: archive file [/home/abi/fetcher/tmp/keyring_proxy_cli-0.1.3.tar.gz]
+[2024-05-31 11:46:51] INFO root fetch - main [MainThread]: End processing [keyring-proxy-cli]: success
+[2024-05-31 11:46:51] INFO root fetch - main [MainThread]: Store serial: [23463590]
