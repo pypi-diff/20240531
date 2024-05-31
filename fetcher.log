@@ -4945,3 +4945,33 @@
 [2024-05-31 04:07:46] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.9.tar.gz]
 [2024-05-31 04:07:46] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
 [2024-05-31 04:07:46] INFO root fetch - main [MainThread]: Store serial: [23459484]
+[2024-05-31 04:09:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459484]
+[2024-05-31 04:09:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 04:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecuapassdocs
+[2024-05-31 04:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xurpas-data-quality
+[2024-05-31 04:09:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: taguchi
+[2024-05-31 04:09:55] INFO root fetch - processPackages [xurpas-data-quality]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-31 04:09:55] INFO root fetch - processPackages [taguchi]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-31 04:09:55] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/1a/6c/ee247d8f1987bf5139e3d3c9e0e0dc901ebc7d186c982b0617aab326c68f/xurpas_data_quality-1.0.1.tar.gz
+[2024-05-31 04:09:55] INFO root fetch - processPackages [taguchi]: Downloading https://files.pythonhosted.org/packages/0b/c8/774088de9d45feda54af04dc435cf237a75110b0c3ac614ce2084c9ed50a/taguchi-1.0.4.tar.gz
+[2024-05-31 04:09:55] INFO root fetch - processPackages [ecuapassdocs]: New version: [0.802] Old Version: [0.801]
+[2024-05-31 04:09:55] INFO root fetch - processPackages [ecuapassdocs]: Downloading https://files.pythonhosted.org/packages/91/ec/2ba646a5c1f746838ed69ca7b5ce4531bee4afb84756d8eab9f2d48c6261/ecuapassdocs-0.801.tar.gz
+[2024-05-31 04:09:55] INFO root fetch - processPackages [taguchi]: Downloading https://files.pythonhosted.org/packages/b6/18/441b45018c7980f54ee1eec439f40ae1117ff99e2d13759b2f7be82439bc/taguchi-1.1.0.tar.gz
+[2024-05-31 04:09:55] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/42/03/c6a786111101a9618883e759b90dbf89f3e651453e30351246674161b34a/xurpas_data_quality-1.0.2.tar.gz
+[2024-05-31 04:09:55] INFO root fetch - processPackages [taguchi]: executing diffoscope
+[2024-05-31 04:09:55] INFO root fetch - processPackages [taguchi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taguchi-1.0.4.tar.gz tmp/taguchi-1.1.0.tar.gz --markdown 20240531/t/taguchi/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-31 04:09:55] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-31 04:09:55] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-1.0.1.tar.gz tmp/xurpas_data_quality-1.0.2.tar.gz --markdown 20240531/x/xurpas-data-quality/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-31 04:09:56] INFO root fetch - processPackages [ecuapassdocs]: Downloading https://files.pythonhosted.org/packages/54/25/53a40b3412a19bc9853be17c165344d61318f591d714dc397c2a544aea7b/ecuapassdocs-0.802.tar.gz
+[2024-05-31 04:09:56] INFO root fetch - processPackages [taguchi]: Remove: archive file [/home/abi/fetcher/tmp/taguchi-1.0.4.tar.gz]
+[2024-05-31 04:09:56] INFO root fetch - processPackages [taguchi]: Remove: archive file [/home/abi/fetcher/tmp/taguchi-1.1.0.tar.gz]
+[2024-05-31 04:09:56] INFO root fetch - main [MainThread]: End processing [taguchi]: success
+[2024-05-31 04:09:56] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-1.0.1.tar.gz]
+[2024-05-31 04:09:56] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-1.0.2.tar.gz]
+[2024-05-31 04:09:56] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-31 04:09:56] INFO root fetch - processPackages [ecuapassdocs]: executing diffoscope
+[2024-05-31 04:09:56] INFO root fetch - processPackages [ecuapassdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecuapassdocs-0.801.tar.gz tmp/ecuapassdocs-0.802.tar.gz --markdown 20240531/e/ecuapassdocs/0.801-0.802/README.md --exclude *.pyd
+[2024-05-31 04:09:57] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.801.tar.gz]
+[2024-05-31 04:09:57] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.802.tar.gz]
+[2024-05-31 04:09:57] INFO root fetch - main [MainThread]: End processing [ecuapassdocs]: success
+[2024-05-31 04:09:57] INFO root fetch - main [MainThread]: Store serial: [23459493]
