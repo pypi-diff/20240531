@@ -22243,3 +22243,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:45:38] INFO root fetch - processPackages [onyx-extension]: Remove: archive file [/home/abi/fetcher/tmp/onyx_extension-0.4.9.tar.gz]
 [2024-05-31 16:45:38] INFO root fetch - main [MainThread]: End processing [onyx-extension]: success
 [2024-05-31 16:45:38] INFO root fetch - main [MainThread]: Store serial: [23467336]
+[2024-05-31 16:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467336]
+[2024-05-31 16:47:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 16:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scraibe
+[2024-05-31 16:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phi-3-vision-mlx
+[2024-05-31 16:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfish
+[2024-05-31 16:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runningz
+[2024-05-31 16:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stability-ai-api
+[2024-05-31 16:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vht
+[2024-05-31 16:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataengine
+[2024-05-31 16:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tmlt-analytics
+[2024-05-31 16:47:48] INFO root fetch - processPackages [scraibe]: New version: [0.2.0] Old Version: [0.1.1.dev362]
+[2024-05-31 16:47:48] INFO root fetch - processPackages [kfish]: New version: [99.0.202405310932] Old Version: [99.0.202405292032]
+[2024-05-31 16:47:48] INFO root fetch - processPackages [runningz]: New version: [0.16.4] Old Version: [0.16.3.post10]
+[2024-05-31 16:47:48] INFO root fetch - processPackages [scraibe]: Downloading https://files.pythonhosted.org/packages/26/fc/cb84315c42bc754ee8dcdf873c558d02aacf57c647864bfdfdd36775d893/scraibe-0.1.1.dev362.tar.gz
+[2024-05-31 16:47:48] WARNING root fetch - processPackages [stability-ai-api]: Skipping, unable to determine old version
+[2024-05-31 16:47:48] INFO root fetch - main [MainThread]: End processing [stability-ai-api] error
+[2024-05-31 16:47:48] INFO root fetch - processPackages [vht]: New version: [0.3.97] Old Version: [0.3.96]
+[2024-05-31 16:47:48] WARNING root fetch - processPackages [phi-3-vision-mlx]: Skipping, unable to determine old version
+[2024-05-31 16:47:48] INFO root fetch - processPackages [dataengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 16:47:48] INFO root fetch - main [MainThread]: End processing [phi-3-vision-mlx] error
+[2024-05-31 16:47:48] INFO root fetch - processPackages [tmlt-analytics]: New version: [0.9.0rc6] Old Version: [0.9.0rc5]
+[2024-05-31 16:47:48] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/09/51/04a8f939cb9b9147979b73f412148bd6c4e109f1c761aa0641ccb7147ac3/kfish-99.0.202405292032-py3-none-any.whl
+[2024-05-31 16:47:48] INFO root fetch - processPackages [vht]: Downloading https://files.pythonhosted.org/packages/be/96/6fdfcf9da1244bf392fe77ec8c8822f2e6e871b1b6740cd44ea3ce0202c8/vht-0.3.96.tar.gz
+[2024-05-31 16:47:48] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d8/4a/e64c69202da108537a755cb7df1ff8c9e3b8ee26cff011011cfa90eff42e/kfish-99.0.202405310932-py3-none-any.whl
+[2024-05-31 16:47:48] INFO root fetch - processPackages [dataengine]: Downloading https://files.pythonhosted.org/packages/7f/81/fc6b67971e8784e7530090dc45b1797d47287c29de48fe1353cec4ae78dd/dataengine-0.0.8.tar.gz
+[2024-05-31 16:47:48] INFO root fetch - processPackages [tmlt-analytics]: Downloading https://files.pythonhosted.org/packages/00/4d/d6a65e54d3e290917d00f52bf8e1a3a2682a16b8eeb901113fb4cc07b81d/tmlt_analytics-0.9.0rc5.tar.gz
+[2024-05-31 16:47:48] INFO root fetch - processPackages [scraibe]: Downloading https://files.pythonhosted.org/packages/57/a3/095209c25d9259f458e3f3dad0fad34bf3f34a59d6fa7dad98747aa0bb51/scraibe-0.2.0-py3-none-any.whl
+[2024-05-31 16:47:48] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-31 16:47:48] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405292032-py3-none-any.whl.zip tmp/kfish-99.0.202405310932-py3-none-any.whl.zip --markdown 20240531/k/kfish/99.0.202405292032-99.0.202405310932/README.md --exclude *.pyd
+[2024-05-31 16:47:48] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/f1/57/126779b7f0ecda6eca2dec661b0f2a85fdd5741868436f0555d748b21edf/runningz-0.16.3.post10-py310-none-any.whl
+[2024-05-31 16:47:48] INFO root fetch - processPackages [scraibe]: executing diffoscope
+[2024-05-31 16:47:48] INFO root fetch - processPackages [scraibe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scraibe-0.1.1.dev362.tar.gz tmp/scraibe-0.2.0-py3-none-any.whl.zip --markdown 20240531/s/scraibe/0.1.1.dev362-0.2.0/README.md --exclude *.pyd
+[2024-05-31 16:47:48] INFO root fetch - processPackages [vht]: Downloading https://files.pythonhosted.org/packages/3f/e0/aedab3f070660a22418bf8f69ff9a7115fd18bccc4a7d5e3d2d20e8a4271/vht-0.3.97.tar.gz
+[2024-05-31 16:47:49] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/29/52/39bd09f5dae18157112be8a4157f352e58064fd1314fe42700c8a0aea3ba/runningz-0.16.4-py39-none-any.whl
+[2024-05-31 16:47:49] INFO root fetch - processPackages [vht]: executing diffoscope
+[2024-05-31 16:47:49] INFO root fetch - processPackages [vht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vht-0.3.96.tar.gz tmp/vht-0.3.97.tar.gz --markdown 20240531/v/vht/0.3.96-0.3.97/README.md --exclude *.pyd
+[2024-05-31 16:47:49] INFO root fetch - processPackages [dataengine]: Downloading https://files.pythonhosted.org/packages/b4/d2/f8322f7f0b775b98c3631998815ac41d87d55acb0a6661e0037b0c37f1b0/dataengine-0.0.9.tar.gz
+[2024-05-31 16:47:49] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405292032-py3-none-any.whl.zip]
+[2024-05-31 16:47:49] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405310932-py3-none-any.whl.zip]
+[2024-05-31 16:47:49] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-31 16:47:49] INFO root fetch - processPackages [dataengine]: executing diffoscope
+[2024-05-31 16:47:49] INFO root fetch - processPackages [dataengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataengine-0.0.8.tar.gz tmp/dataengine-0.0.9.tar.gz --markdown 20240531/d/dataengine/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 16:47:49] INFO root fetch - processPackages [scraibe]: Remove: archive file [/home/abi/fetcher/tmp/scraibe-0.1.1.dev362.tar.gz]
+[2024-05-31 16:47:49] INFO root fetch - processPackages [scraibe]: Remove: archive file [/home/abi/fetcher/tmp/scraibe-0.2.0-py3-none-any.whl.zip]
+[2024-05-31 16:47:49] INFO root fetch - main [MainThread]: End processing [scraibe]: success
+[2024-05-31 16:47:49] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2024-05-31 16:47:49] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.16.3.post10-py310-none-any.whl.zip tmp/runningz-0.16.4-py39-none-any.whl.zip --markdown 20240531/r/runningz/0.16.3.post10-0.16.4/README.md --exclude *.pyd
+[2024-05-31 16:47:49] INFO root fetch - processPackages [tmlt-analytics]: Downloading https://files.pythonhosted.org/packages/d0/a0/3a27f75d9841243c4e007697a303c6d85f8bc02a7951d6141540296e261e/tmlt_analytics-0.9.0rc6.tar.gz
+[2024-05-31 16:47:49] INFO root fetch - processPackages [tmlt-analytics]: executing diffoscope
+[2024-05-31 16:47:49] INFO root fetch - processPackages [tmlt-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmlt_analytics-0.9.0rc5.tar.gz tmp/tmlt_analytics-0.9.0rc6.tar.gz --markdown 20240531/t/tmlt-analytics/0.9.0rc5-0.9.0rc6/README.md --exclude *.pyd
+[2024-05-31 16:47:49] INFO root fetch - processPackages [dataengine]: Remove: archive file [/home/abi/fetcher/tmp/dataengine-0.0.8.tar.gz]
+[2024-05-31 16:47:49] INFO root fetch - processPackages [dataengine]: Remove: archive file [/home/abi/fetcher/tmp/dataengine-0.0.9.tar.gz]
+[2024-05-31 16:47:49] INFO root fetch - main [MainThread]: End processing [dataengine]: success
+[2024-05-31 16:47:50] INFO root fetch - processPackages [vht]: Remove: archive file [/home/abi/fetcher/tmp/vht-0.3.96.tar.gz]
+[2024-05-31 16:47:50] INFO root fetch - processPackages [vht]: Remove: archive file [/home/abi/fetcher/tmp/vht-0.3.97.tar.gz]
+[2024-05-31 16:47:50] INFO root fetch - main [MainThread]: End processing [vht]: success
+[2024-05-31 16:47:51] INFO root fetch - processPackages [tmlt-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tmlt_analytics-0.9.0rc5.tar.gz]
+[2024-05-31 16:47:51] INFO root fetch - processPackages [tmlt-analytics]: Remove: archive file [/home/abi/fetcher/tmp/tmlt_analytics-0.9.0rc6.tar.gz]
+[2024-05-31 16:47:51] INFO root fetch - main [MainThread]: End processing [tmlt-analytics]: success
+[2024-05-31 16:47:51] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.16.3.post10-py310-none-any.whl.zip]
+[2024-05-31 16:47:51] INFO root fetch - processPackages [runningz]: Remove: archive file [/home/abi/fetcher/tmp/runningz-0.16.4-py39-none-any.whl.zip]
+[2024-05-31 16:47:51] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2024-05-31 16:47:51] INFO root fetch - main [MainThread]: Store serial: [23467361]
