@@ -5759,3 +5759,42 @@
 [2024-05-31 05:04:45] INFO root fetch - processPackages [lptlib]: Remove: archive file [/home/abi/fetcher/tmp/lptlib-0.0.1a9.tar.gz]
 [2024-05-31 05:04:45] INFO root fetch - main [MainThread]: End processing [lptlib]: success
 [2024-05-31 05:04:45] INFO root fetch - main [MainThread]: Store serial: [23459899]
+[2024-05-31 05:06:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459899]
+[2024-05-31 05:06:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 05:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctrip-helper
+[2024-05-31 05:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hashtag-utils
+[2024-05-31 05:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asqlorm
+[2024-05-31 05:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daml
+[2024-05-31 05:06:54] INFO root fetch - processPackages [ctrip-helper]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-31 05:06:54] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/95/40/1e64c98741019100fab9d4c2d3f3e29db25b6c2e9bf06607cf22013cc9e0/ctrip-helper-0.2.9.tar.gz
+[2024-05-31 05:06:54] INFO root fetch - processPackages [hashtag-utils]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-31 05:06:54] INFO root fetch - processPackages [daml]: New version: [0.53.0] Old Version: [0.52.0]
+[2024-05-31 05:06:54] INFO root fetch - processPackages [asqlorm]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-31 05:06:54] INFO root fetch - processPackages [hashtag-utils]: Downloading https://files.pythonhosted.org/packages/5f/4c/29372e518424179c36c151236d441a9a58224e36878ce7577dd6ceaaeb6b/hashtag_utils-0.5.5.tar.gz
+[2024-05-31 05:06:54] INFO root fetch - processPackages [asqlorm]: Downloading https://files.pythonhosted.org/packages/f7/e9/871eca5ec9784a7fdb6682efeab41745160a1e13faddc5c00963fc6a1335/asqlorm-0.7.3.tar.gz
+[2024-05-31 05:06:54] INFO root fetch - processPackages [daml]: Downloading https://files.pythonhosted.org/packages/05/75/21c5dce6854b27173dc65af9ed1cf09dfa7cfbec1b55e79ff73b058dbe6e/daml-0.52.0.tar.gz
+[2024-05-31 05:06:54] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/01/02/e21b968eaf955a631e3c958ed19f8075e4893e6d9e3525e79d58334db0db/ctrip-helper-0.3.0.tar.gz
+[2024-05-31 05:06:54] INFO root fetch - processPackages [hashtag-utils]: Downloading https://files.pythonhosted.org/packages/4e/f6/dbfe4903d84380d83adefc2245c64db7db67d0b8ed89ed16615d25e6c87d/hashtag_utils-0.5.6.tar.gz
+[2024-05-31 05:06:54] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 05:06:54] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.2.9.tar.gz tmp/ctrip-helper-0.3.0.tar.gz --markdown 20240531/c/ctrip-helper/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-31 05:06:55] INFO root fetch - processPackages [asqlorm]: Downloading https://files.pythonhosted.org/packages/cb/1d/90687ceb1c07a812686d580e8a2558ef8d9a7ba7c713e3f1e863fd21aaa5/asqlorm-0.7.4.tar.gz
+[2024-05-31 05:06:55] INFO root fetch - processPackages [hashtag-utils]: executing diffoscope
+[2024-05-31 05:06:55] INFO root fetch - processPackages [hashtag-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hashtag_utils-0.5.5.tar.gz tmp/hashtag_utils-0.5.6.tar.gz --markdown 20240531/h/hashtag-utils/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-31 05:06:55] INFO root fetch - processPackages [daml]: Downloading https://files.pythonhosted.org/packages/7e/6b/37dc2e97153a4b99dd3cfe098c5f400c0275d4940960e135f02521457663/daml-0.53.0.tar.gz
+[2024-05-31 05:06:55] INFO root fetch - processPackages [asqlorm]: executing diffoscope
+[2024-05-31 05:06:55] INFO root fetch - processPackages [asqlorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asqlorm-0.7.3.tar.gz tmp/asqlorm-0.7.4.tar.gz --markdown 20240531/a/asqlorm/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-31 05:06:55] INFO root fetch - processPackages [daml]: executing diffoscope
+[2024-05-31 05:06:55] INFO root fetch - processPackages [daml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daml-0.52.0.tar.gz tmp/daml-0.53.0.tar.gz --markdown 20240531/d/daml/0.52.0-0.53.0/README.md --exclude *.pyd
+[2024-05-31 05:06:55] INFO root fetch - processPackages [hashtag-utils]: Remove: archive file [/home/abi/fetcher/tmp/hashtag_utils-0.5.5.tar.gz]
+[2024-05-31 05:06:55] INFO root fetch - processPackages [hashtag-utils]: Remove: archive file [/home/abi/fetcher/tmp/hashtag_utils-0.5.6.tar.gz]
+[2024-05-31 05:06:55] INFO root fetch - main [MainThread]: End processing [hashtag-utils]: success
+[2024-05-31 05:06:55] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.2.9.tar.gz]
+[2024-05-31 05:06:55] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.0.tar.gz]
+[2024-05-31 05:06:55] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 05:06:55] INFO root fetch - processPackages [asqlorm]: Remove: archive file [/home/abi/fetcher/tmp/asqlorm-0.7.3.tar.gz]
+[2024-05-31 05:06:55] INFO root fetch - processPackages [asqlorm]: Remove: archive file [/home/abi/fetcher/tmp/asqlorm-0.7.4.tar.gz]
+[2024-05-31 05:06:55] INFO root fetch - main [MainThread]: End processing [asqlorm]: success
+[2024-05-31 05:06:55] INFO root fetch - processPackages [daml]: Remove: archive file [/home/abi/fetcher/tmp/daml-0.52.0.tar.gz]
+[2024-05-31 05:06:55] INFO root fetch - processPackages [daml]: Remove: archive file [/home/abi/fetcher/tmp/daml-0.53.0.tar.gz]
+[2024-05-31 05:06:55] INFO root fetch - main [MainThread]: End processing [daml]: success
+[2024-05-31 05:06:55] INFO root fetch - main [MainThread]: Store serial: [23459911]
