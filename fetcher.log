@@ -24403,3 +24403,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:53:13] INFO root fetch - processPackages [anomalib]: Remove: archive file [/home/abi/fetcher/tmp/anomalib-1.1.0.tar.gz]
 [2024-05-31 17:53:13] INFO root fetch - main [MainThread]: End processing [anomalib]: success
 [2024-05-31 17:53:13] INFO root fetch - main [MainThread]: Store serial: [23468342]
+[2024-05-31 17:55:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23468342]
+[2024-05-31 17:55:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 17:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NREL-reVX
+[2024-05-31 17:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myfunctions-namazsari
+[2024-05-31 17:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dtvr
+[2024-05-31 17:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modifiable-items-dictionary
+[2024-05-31 17:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-awsx
+[2024-05-31 17:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hashcommit
+[2024-05-31 17:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csp-examples
+[2024-05-31 17:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognite-sdk
+[2024-05-31 17:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gaiah-toolkit
+[2024-05-31 17:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: invenio-rdm-records
+[2024-05-31 17:55:22] INFO root fetch - processPackages [NREL-reVX]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 17:55:22] WARNING root fetch - processPackages [myfunctions-namazsari]: Skipping, unable to determine old version
+[2024-05-31 17:55:22] INFO root fetch - processPackages [hashcommit]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-31 17:55:22] INFO root fetch - main [MainThread]: End processing [myfunctions-namazsari] error
+[2024-05-31 17:55:22] INFO root fetch - processPackages [gaiah-toolkit]: New version: [0.5.1] Old Version: [0.4.0]
+[2024-05-31 17:55:22] INFO root fetch - processPackages [pulumi-awsx]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-31 17:55:22] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-05-31 17:55:22] INFO root fetch - processPackages [modifiable-items-dictionary]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-31 17:55:22] INFO root fetch - processPackages [NREL-reVX]: Downloading https://files.pythonhosted.org/packages/4e/91/c437159d7dbb8dd9f3825ae0ac69e98172d4bf66a7fb4f53739e021df0ed/NREL-reVX-0.3.8.tar.gz
+[2024-05-31 17:55:22] WARNING root fetch - processPackages [csp-examples]: Skipping, unable to determine old version
+[2024-05-31 17:55:22] WARNING root fetch - processPackages [dtvr]: Skipping, unable to determine old version
+[2024-05-31 17:55:22] INFO root fetch - main [MainThread]: End processing [csp-examples] error
+[2024-05-31 17:55:22] INFO root fetch - main [MainThread]: End processing [dtvr] error
+[2024-05-31 17:55:22] INFO root fetch - processPackages [hashcommit]: Downloading https://files.pythonhosted.org/packages/71/92/39550629a6624f2b78fe9c004ba2c98b148c2ce3bf1b50e3b9cecfd6af8f/hashcommit-0.1.3.tar.gz
+[2024-05-31 17:55:22] INFO root fetch - processPackages [gaiah-toolkit]: Downloading https://files.pythonhosted.org/packages/60/18/e4a917268d207acd431d0d60b8aa2e915dd0ac42d5cda17a151e6a67fb55/gaiah_toolkit-0.4.0.tar.gz
+[2024-05-31 17:55:22] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/6b/5e/e31a330b971722a3f5990a97b8aba2709ff5b0752e314d861fc58a3efb95/pulumi_awsx-2.8.0.tar.gz
+[2024-05-31 17:55:22] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-05-31 17:55:23] INFO root fetch - processPackages [modifiable-items-dictionary]: Downloading https://files.pythonhosted.org/packages/b3/32/d0a96e09032d3611d2f61f3572288a8d836f0139e4540d7b27e46743b444/modifiable_items_dictionary-3.0.0.tar.gz
+[2024-05-31 17:55:23] INFO root fetch - processPackages [NREL-reVX]: Downloading https://files.pythonhosted.org/packages/f1/4d/406ebd6af5cc79375a13dc0589e96ce2cbbf171873a6bb7aef762ec55401/NREL-reVX-0.3.9.tar.gz
+[2024-05-31 17:55:23] INFO root fetch - processPackages [gaiah-toolkit]: Downloading https://files.pythonhosted.org/packages/cf/96/11f2f49b10d6d5359a99b089b4d271d0e96db0ad37cdab8c9dc673868048/gaiah_toolkit-0.5.1.tar.gz
+[2024-05-31 17:55:23] INFO root fetch - processPackages [invenio-rdm-records]: New version: [9.1.0] Old Version: [9.0.1]
+[2024-05-31 17:55:23] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/43/ef/a4bf998f4e10d3b222a7898d012ee0efc1377889489f5ae47a60e1873788/pulumi_awsx-2.9.0.tar.gz
+[2024-05-31 17:55:23] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-05-31 17:55:23] INFO root fetch - processPackages [hashcommit]: Downloading https://files.pythonhosted.org/packages/d1/8a/627e311ce4351b9cbf81055159803b9acb160b98fcfcb5ceb385c8b52d78/hashcommit-0.1.4.tar.gz
+[2024-05-31 17:55:23] INFO root fetch - processPackages [gaiah-toolkit]: executing diffoscope
+[2024-05-31 17:55:23] INFO root fetch - processPackages [gaiah-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiah_toolkit-0.4.0.tar.gz tmp/gaiah_toolkit-0.5.1.tar.gz --markdown 20240531/g/gaiah-toolkit/0.4.0-0.5.1/README.md --exclude *.pyd
+[2024-05-31 17:55:23] INFO root fetch - processPackages [NREL-reVX]: executing diffoscope
+[2024-05-31 17:55:23] INFO root fetch - processPackages [NREL-reVX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NREL-reVX-0.3.8.tar.gz tmp/NREL-reVX-0.3.9.tar.gz --markdown 20240531/N/NREL-reVX/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 17:55:23] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2024-05-31 17:55:23] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-2.8.0.tar.gz tmp/pulumi_awsx-2.9.0.tar.gz --markdown 20240531/p/pulumi-awsx/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-31 17:55:23] INFO root fetch - processPackages [hashcommit]: executing diffoscope
+[2024-05-31 17:55:23] INFO root fetch - processPackages [hashcommit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hashcommit-0.1.3.tar.gz tmp/hashcommit-0.1.4.tar.gz --markdown 20240531/h/hashcommit/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-31 17:55:23] INFO root fetch - processPackages [modifiable-items-dictionary]: Downloading https://files.pythonhosted.org/packages/d4/64/9bca56caff42edb1af421bdc13a425a371210bb49be058cb6389b0d67d6b/modifiable_items_dictionary-3.0.1.tar.gz
+[2024-05-31 17:55:23] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-05-31 17:55:23] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240531/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-05-31 17:55:23] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/18/fd/64e00ec4c048a386747c1bef38aee5bea63914ced22c4011af61c18c7617/invenio-rdm-records-9.0.1.tar.gz
+[2024-05-31 17:55:23] INFO root fetch - processPackages [modifiable-items-dictionary]: executing diffoscope
+[2024-05-31 17:55:23] INFO root fetch - processPackages [modifiable-items-dictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modifiable_items_dictionary-3.0.0.tar.gz tmp/modifiable_items_dictionary-3.0.1.tar.gz --markdown 20240531/m/modifiable-items-dictionary/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-05-31 17:55:23] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/ff/b3/da0e80b7a9fddba227a118921bf77e45d687a1dfb9f61cc030022dd8500e/invenio-rdm-records-9.1.0.tar.gz
+[2024-05-31 17:55:24] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2024-05-31 17:55:24] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-9.0.1.tar.gz tmp/invenio-rdm-records-9.1.0.tar.gz --markdown 20240531/i/invenio-rdm-records/9.0.1-9.1.0/README.md --exclude *.pyd
+[2024-05-31 17:55:24] INFO root fetch - processPackages [gaiah-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/gaiah_toolkit-0.4.0.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - processPackages [gaiah-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/gaiah_toolkit-0.5.1.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - main [MainThread]: End processing [gaiah-toolkit]: success
+[2024-05-31 17:55:24] INFO root fetch - processPackages [hashcommit]: Remove: archive file [/home/abi/fetcher/tmp/hashcommit-0.1.3.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - processPackages [hashcommit]: Remove: archive file [/home/abi/fetcher/tmp/hashcommit-0.1.4.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - main [MainThread]: End processing [hashcommit]: success
+[2024-05-31 17:55:24] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-2.8.0.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-2.9.0.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2024-05-31 17:55:24] INFO root fetch - processPackages [NREL-reVX]: Remove: archive file [/home/abi/fetcher/tmp/NREL-reVX-0.3.8.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - processPackages [NREL-reVX]: Remove: archive file [/home/abi/fetcher/tmp/NREL-reVX-0.3.9.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - main [MainThread]: End processing [NREL-reVX]: success
+[2024-05-31 17:55:24] INFO root fetch - processPackages [modifiable-items-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/modifiable_items_dictionary-3.0.0.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - processPackages [modifiable-items-dictionary]: Remove: archive file [/home/abi/fetcher/tmp/modifiable_items_dictionary-3.0.1.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - main [MainThread]: End processing [modifiable-items-dictionary]: success
+[2024-05-31 17:55:24] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-05-31 17:55:24] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-05-31 17:55:27] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.0.1.tar.gz]
+[2024-05-31 17:55:27] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
+[2024-05-31 17:55:27] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2024-05-31 17:55:27] INFO root fetch - main [MainThread]: Store serial: [23468373]
