@@ -15105,3 +15105,49 @@
 [2024-05-31 12:24:38] INFO root fetch - processPackages [libreflow.extensions.anpo.import-files]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_extensions_anpo_import_files-1.0.2.tar.gz]
 [2024-05-31 12:24:38] INFO root fetch - main [MainThread]: End processing [libreflow.extensions.anpo.import-files]: success
 [2024-05-31 12:24:38] INFO root fetch - main [MainThread]: Store serial: [23464137]
+[2024-05-31 12:26:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464137]
+[2024-05-31 12:26:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 12:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myrtle
+[2024-05-31 12:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nortech
+[2024-05-31 12:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfy-mlflow-client
+[2024-05-31 12:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rpmfluff
+[2024-05-31 12:26:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myrtle
+[2024-05-31 12:26:46] INFO root fetch - processPackages [rpmfluff]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-31 12:26:47] INFO root fetch - processPackages [tfy-mlflow-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 12:26:47] INFO root fetch - processPackages [rpmfluff]: Downloading https://files.pythonhosted.org/packages/a7/17/f105f3935d593aac086e38e412ae40ec8443d9e39efaaa7fcd8c3dc40444/rpmfluff-0.6.3.tar.gz
+[2024-05-31 12:26:47] INFO root fetch - processPackages [myrtle]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 12:26:47] INFO root fetch - processPackages [myrtle]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 12:26:47] INFO root fetch - processPackages [nortech]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-31 12:26:47] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/43/f0/45be21abdff732bb8de13f178413b52bd098bb8395e239c8721423f39e0e/tfy-mlflow-client-0.0.8.tar.gz
+[2024-05-31 12:26:47] INFO root fetch - processPackages [myrtle]: Downloading https://files.pythonhosted.org/packages/bf/53/c7d7293256ba1c114111e9652cdec9af5550cde1cc83f8b8a1118a8b21f2/myrtle-0.0.1-py3-none-any.whl
+[2024-05-31 12:26:47] INFO root fetch - processPackages [myrtle]: Downloading https://files.pythonhosted.org/packages/bf/53/c7d7293256ba1c114111e9652cdec9af5550cde1cc83f8b8a1118a8b21f2/myrtle-0.0.1-py3-none-any.whl
+[2024-05-31 12:26:47] INFO root fetch - processPackages [nortech]: Downloading https://files.pythonhosted.org/packages/54/d5/54a11a7a1a91aa166def367d72a44b6b5b96b5289294d2043a8488099690/nortech-0.2.1.tar.gz
+[2024-05-31 12:26:47] INFO root fetch - processPackages [rpmfluff]: Downloading https://files.pythonhosted.org/packages/46/2a/ac1e266520809bf6c43f382d89d9c2543cdc29ebf2ec047e890b80586885/rpmfluff-0.6.4.tar.gz
+[2024-05-31 12:26:47] INFO root fetch - processPackages [rpmfluff]: executing diffoscope
+[2024-05-31 12:26:47] INFO root fetch - processPackages [rpmfluff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpmfluff-0.6.3.tar.gz tmp/rpmfluff-0.6.4.tar.gz --markdown 20240531/r/rpmfluff/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-31 12:26:47] INFO root fetch - processPackages [myrtle]: Downloading https://files.pythonhosted.org/packages/f7/22/49ab88e91043c042a6b598e3b6588043b416008c3a21c7d95e6a1b094c1c/myrtle-0.0.2.tar.gz
+[2024-05-31 12:26:47] INFO root fetch - processPackages [myrtle]: Downloading https://files.pythonhosted.org/packages/f7/22/49ab88e91043c042a6b598e3b6588043b416008c3a21c7d95e6a1b094c1c/myrtle-0.0.2.tar.gz
+[2024-05-31 12:26:47] INFO root fetch - processPackages [nortech]: Downloading https://files.pythonhosted.org/packages/9c/ff/acc46dbbf0a210e9f94abf0bbb6c718beb0fe97e4d5eecd2716f7914a705/nortech-0.2.2.tar.gz
+[2024-05-31 12:26:47] INFO root fetch - processPackages [nortech]: executing diffoscope
+[2024-05-31 12:26:47] INFO root fetch - processPackages [nortech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nortech-0.2.1.tar.gz tmp/nortech-0.2.2.tar.gz --markdown 20240531/n/nortech/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-31 12:26:47] INFO root fetch - processPackages [myrtle]: executing diffoscope
+[2024-05-31 12:26:47] INFO root fetch - processPackages [myrtle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myrtle-0.0.1-py3-none-any.whl.zip tmp/myrtle-0.0.2.tar.gz --markdown 20240531/m/myrtle/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 12:26:47] INFO root fetch - processPackages [myrtle]: executing diffoscope
+[2024-05-31 12:26:47] INFO root fetch - processPackages [myrtle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myrtle-0.0.1-py3-none-any.whl.zip tmp/myrtle-0.0.2.tar.gz --markdown 20240531/m/myrtle/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 12:26:47] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/99/46/ec87ff507a911f7eb4550bd758513440cf543ba1d9701b042b5caf64682a/tfy-mlflow-client-0.0.9.tar.gz
+[2024-05-31 12:26:48] INFO root fetch - processPackages [rpmfluff]: Remove: archive file [/home/abi/fetcher/tmp/rpmfluff-0.6.3.tar.gz]
+[2024-05-31 12:26:48] INFO root fetch - processPackages [rpmfluff]: Remove: archive file [/home/abi/fetcher/tmp/rpmfluff-0.6.4.tar.gz]
+[2024-05-31 12:26:48] INFO root fetch - main [MainThread]: End processing [rpmfluff]: success
+[2024-05-31 12:26:48] INFO root fetch - processPackages [myrtle]: Remove: archive file [/home/abi/fetcher/tmp/myrtle-0.0.1-py3-none-any.whl.zip]
+[2024-05-31 12:26:48] INFO root fetch - processPackages [myrtle]: Remove: archive file [/home/abi/fetcher/tmp/myrtle-0.0.2.tar.gz]
+[2024-05-31 12:26:48] INFO root fetch - main [MainThread]: End processing [myrtle]: success
+[2024-05-31 12:26:48] INFO root fetch - processPackages [nortech]: Remove: archive file [/home/abi/fetcher/tmp/nortech-0.2.1.tar.gz]
+[2024-05-31 12:26:48] INFO root fetch - processPackages [nortech]: Remove: archive file [/home/abi/fetcher/tmp/nortech-0.2.2.tar.gz]
+[2024-05-31 12:26:48] INFO root fetch - main [MainThread]: End processing [nortech]: success
+[2024-05-31 12:26:48] INFO root fetch - main [MainThread]: End processing [myrtle]: success
+[2024-05-31 12:26:48] INFO root fetch - processPackages [tfy-mlflow-client]: executing diffoscope
+[2024-05-31 12:26:48] INFO root fetch - processPackages [tfy-mlflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfy-mlflow-client-0.0.8.tar.gz tmp/tfy-mlflow-client-0.0.9.tar.gz --markdown 20240531/t/tfy-mlflow-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 12:26:50] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.8.tar.gz]
+[2024-05-31 12:26:50] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.9.tar.gz]
+[2024-05-31 12:26:50] INFO root fetch - main [MainThread]: End processing [tfy-mlflow-client]: success
+[2024-05-31 12:26:50] INFO root fetch - main [MainThread]: Store serial: [23464155]
