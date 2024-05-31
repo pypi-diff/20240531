@@ -5696,3 +5696,42 @@
 [2024-05-31 05:00:25] INFO root fetch - processPackages [stereopy]: Remove: archive file [/home/abi/fetcher/tmp/stereopy-1.3.0b1.tar.gz]
 [2024-05-31 05:00:25] INFO root fetch - main [MainThread]: End processing [stereopy]: success
 [2024-05-31 05:00:25] INFO root fetch - main [MainThread]: Store serial: [23459876]
+[2024-05-31 05:02:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459876]
+[2024-05-31 05:02:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 05:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-agreement
+[2024-05-31 05:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rockai-cli-app
+[2024-05-31 05:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ComfyUI-EasyNodes
+[2024-05-31 05:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myfunctions-AdnanGrifat
+[2024-05-31 05:02:34] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 05:02:34] INFO root fetch - processPackages [ComfyUI-EasyNodes]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-31 05:02:34] INFO root fetch - processPackages [odoo-addon-agreement]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2024-05-31 05:02:34] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 05:02:34] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Downloading https://files.pythonhosted.org/packages/39/3e/7f1e117cca1c5bfc49bae6f678d155093d6dc6f157ed1d6f7d9636a67a43/myfunctions_AdnanGrifat-0.0.5.tar.gz
+[2024-05-31 05:02:34] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Downloading https://files.pythonhosted.org/packages/e0/39/1a4527bc3bc99ffa27554fccaea85d67a6ee9cf03572f50fd8d13a1bb0f7/comfyui_easynodes-1.0.1.tar.gz
+[2024-05-31 05:02:34] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/88/44/377d3c34aa8c83a8e79c1e902e586f78c71f3228bb620cd0fb800da63c5a/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-31 05:02:34] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-05-31 05:02:34] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-05-31 05:02:34] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/e2/70/58ed0e6fd2d57997457605948de290282d1dfa3ed761518f7ceeba345e72/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-31 05:02:34] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Downloading https://files.pythonhosted.org/packages/b4/bb/e8dff88b850c8f9ed7babcbfcf1c52c7963a117be3ac6eb6b2d9166f13ec/myfunctions_AdnanGrifat-0.0.6.tar.gz
+[2024-05-31 05:02:34] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Downloading https://files.pythonhosted.org/packages/50/f5/41ec6592eae34c6264c502de6dc11ad8c629a9727c6ba0c9c8514945957c/comfyui_easynodes-1.0.2.tar.gz
+[2024-05-31 05:02:34] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-31 05:02:34] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240531/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 05:02:34] INFO root fetch - processPackages [odoo-addon-agreement]: executing diffoscope
+[2024-05-31 05:02:34] INFO root fetch - processPackages [odoo-addon-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-agreement/16.0.1.0.0.6-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-31 05:02:35] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: executing diffoscope
+[2024-05-31 05:02:35] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_AdnanGrifat-0.0.5.tar.gz tmp/myfunctions_AdnanGrifat-0.0.6.tar.gz --markdown 20240531/m/myfunctions-AdnanGrifat/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 05:02:35] INFO root fetch - processPackages [ComfyUI-EasyNodes]: executing diffoscope
+[2024-05-31 05:02:35] INFO root fetch - processPackages [ComfyUI-EasyNodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comfyui_easynodes-1.0.1.tar.gz tmp/comfyui_easynodes-1.0.2.tar.gz --markdown 20240531/C/ComfyUI-EasyNodes/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-31 05:02:35] INFO root fetch - processPackages [odoo-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-31 05:02:35] INFO root fetch - processPackages [odoo-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-31 05:02:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement]: success
+[2024-05-31 05:02:35] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_AdnanGrifat-0.0.5.tar.gz]
+[2024-05-31 05:02:35] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_AdnanGrifat-0.0.6.tar.gz]
+[2024-05-31 05:02:35] INFO root fetch - main [MainThread]: End processing [myfunctions-AdnanGrifat]: success
+[2024-05-31 05:02:35] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-05-31 05:02:35] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-05-31 05:02:35] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-31 05:02:35] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Remove: archive file [/home/abi/fetcher/tmp/comfyui_easynodes-1.0.1.tar.gz]
+[2024-05-31 05:02:35] INFO root fetch - processPackages [ComfyUI-EasyNodes]: Remove: archive file [/home/abi/fetcher/tmp/comfyui_easynodes-1.0.2.tar.gz]
+[2024-05-31 05:02:35] INFO root fetch - main [MainThread]: End processing [ComfyUI-EasyNodes]: success
+[2024-05-31 05:02:35] INFO root fetch - main [MainThread]: Store serial: [23459888]
