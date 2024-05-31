@@ -12075,3 +12075,65 @@
 [2024-05-31 10:29:14] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.5.1.tar.gz]
 [2024-05-31 10:29:14] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
 [2024-05-31 10:29:14] INFO root fetch - main [MainThread]: Store serial: [23462745]
+[2024-05-31 10:31:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462745]
+[2024-05-31 10:31:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 10:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-fnc
+[2024-05-31 10:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-fnc
+[2024-05-31 10:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mozci
+[2024-05-31 10:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-coder
+[2024-05-31 10:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-fnc
+[2024-05-31 10:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mns-common
+[2024-05-31 10:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imio.news.core
+[2024-05-31 10:31:23] INFO root fetch - processPackages [easy-fnc]: New version: [0.1.2.2] Old Version: [0.1.2.1]
+[2024-05-31 10:31:23] INFO root fetch - processPackages [easy-fnc]: New version: [0.1.2.2] Old Version: [0.1.2.1]
+[2024-05-31 10:31:23] INFO root fetch - processPackages [easy-fnc]: New version: [0.1.2.2] Old Version: [0.1.2.1]
+[2024-05-31 10:31:23] INFO root fetch - processPackages [mozci]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-31 10:31:23] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 10:31:23] INFO root fetch - processPackages [imio.news.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-31 10:31:23] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/66/a1/293dea8744e5a72cadc2ecc9fbadf44fd3dea6dec85608ac95e8696c6500/easy_fnc-0.1.2.1.tar.gz
+[2024-05-31 10:31:23] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/66/a1/293dea8744e5a72cadc2ecc9fbadf44fd3dea6dec85608ac95e8696c6500/easy_fnc-0.1.2.1.tar.gz
+[2024-05-31 10:31:23] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/66/a1/293dea8744e5a72cadc2ecc9fbadf44fd3dea6dec85608ac95e8696c6500/easy_fnc-0.1.2.1.tar.gz
+[2024-05-31 10:31:23] INFO root fetch - processPackages [mns-common]: New version: [1.1.3.4] Old Version: [1.1.3.3]
+[2024-05-31 10:31:23] INFO root fetch - processPackages [mozci]: Downloading https://files.pythonhosted.org/packages/84/72/b336bbb79b0f1e3c64c0966d75218da30b19e37fe68387355b5d98531504/mozci-2.4.0.tar.gz
+[2024-05-31 10:31:23] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-05-31 10:31:24] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/54/56/6d94f0500ba31230423eb1c753c0ee3c792687cc298c32b664c752392a51/mns_common-1.1.3.3.tar.gz
+[2024-05-31 10:31:24] INFO root fetch - processPackages [imio.news.core]: Downloading https://files.pythonhosted.org/packages/53/6b/3a658bd0a066190696f1237344ddcf0e0f24a9cd651e7a88ca5d2d59cede/imio.news.core-1.2.8.tar.gz
+[2024-05-31 10:31:24] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/cb/f4/c29d5bdc0de22fb1253f70fe716ad4e84536617a04445be1f218d179315f/easy_fnc-0.1.2.2.tar.gz
+[2024-05-31 10:31:24] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/cb/f4/c29d5bdc0de22fb1253f70fe716ad4e84536617a04445be1f218d179315f/easy_fnc-0.1.2.2.tar.gz
+[2024-05-31 10:31:24] INFO root fetch - processPackages [easy-fnc]: Downloading https://files.pythonhosted.org/packages/cb/f4/c29d5bdc0de22fb1253f70fe716ad4e84536617a04445be1f218d179315f/easy_fnc-0.1.2.2.tar.gz
+[2024-05-31 10:31:24] INFO root fetch - processPackages [easy-fnc]: executing diffoscope
+[2024-05-31 10:31:24] INFO root fetch - processPackages [easy-fnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_fnc-0.1.2.1.tar.gz tmp/easy_fnc-0.1.2.2.tar.gz --markdown 20240531/e/easy-fnc/0.1.2.1-0.1.2.2/README.md --exclude *.pyd
+[2024-05-31 10:31:24] INFO root fetch - processPackages [easy-fnc]: executing diffoscope
+[2024-05-31 10:31:24] INFO root fetch - processPackages [easy-fnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_fnc-0.1.2.1.tar.gz tmp/easy_fnc-0.1.2.2.tar.gz --markdown 20240531/e/easy-fnc/0.1.2.1-0.1.2.2/README.md --exclude *.pyd
+[2024-05-31 10:31:24] INFO root fetch - processPackages [mozci]: Downloading https://files.pythonhosted.org/packages/2e/5a/8d7a218d56ba75b0d9906b9cc6ba9f4d38616a6020d2e9fad5135ba0e31c/mozci-2.4.1.tar.gz
+[2024-05-31 10:31:24] INFO root fetch - processPackages [easy-fnc]: executing diffoscope
+[2024-05-31 10:31:24] INFO root fetch - processPackages [easy-fnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_fnc-0.1.2.1.tar.gz tmp/easy_fnc-0.1.2.2.tar.gz --markdown 20240531/e/easy-fnc/0.1.2.1-0.1.2.2/README.md --exclude *.pyd
+[2024-05-31 10:31:24] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-05-31 10:31:24] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/8e/9d/5cf0c9835024cd2ab637f7f121371db496fe37c7a390fd0c69549afabbef/mns_common-1.1.3.4.tar.gz
+[2024-05-31 10:31:24] INFO root fetch - processPackages [mozci]: executing diffoscope
+[2024-05-31 10:31:24] INFO root fetch - processPackages [mozci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozci-2.4.0.tar.gz tmp/mozci-2.4.1.tar.gz --markdown 20240531/m/mozci/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-31 10:31:24] INFO root fetch - processPackages [imio.news.core]: Downloading https://files.pythonhosted.org/packages/08/f9/f1b4b1836d54e43566b6671ea2ec623c0c113d5930905c930cb51123f841/imio_news_core-1.2.9.tar.gz
+[2024-05-31 10:31:24] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-05-31 10:31:24] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240531/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 10:31:24] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-31 10:31:24] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.3.3.tar.gz tmp/mns_common-1.1.3.4.tar.gz --markdown 20240531/m/mns-common/1.1.3.3-1.1.3.4/README.md --exclude *.pyd
+[2024-05-31 10:31:24] INFO root fetch - processPackages [imio.news.core]: executing diffoscope
+[2024-05-31 10:31:24] INFO root fetch - processPackages [imio.news.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.news.core-1.2.8.tar.gz tmp/imio_news_core-1.2.9.tar.gz --markdown 20240531/i/imio.news.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-31 10:31:24] INFO root fetch - processPackages [easy-fnc]: Remove: archive file [/home/abi/fetcher/tmp/easy_fnc-0.1.2.1.tar.gz]
+[2024-05-31 10:31:24] INFO root fetch - processPackages [easy-fnc]: Remove: archive file [/home/abi/fetcher/tmp/easy_fnc-0.1.2.2.tar.gz]
+[2024-05-31 10:31:24] INFO root fetch - main [MainThread]: End processing [easy-fnc]: success
+[2024-05-31 10:31:25] INFO root fetch - main [MainThread]: End processing [easy-fnc]: success
+[2024-05-31 10:31:25] INFO root fetch - main [MainThread]: End processing [easy-fnc]: success
+[2024-05-31 10:31:25] INFO root fetch - processPackages [mozci]: Remove: archive file [/home/abi/fetcher/tmp/mozci-2.4.0.tar.gz]
+[2024-05-31 10:31:25] INFO root fetch - processPackages [mozci]: Remove: archive file [/home/abi/fetcher/tmp/mozci-2.4.1.tar.gz]
+[2024-05-31 10:31:25] INFO root fetch - main [MainThread]: End processing [mozci]: success
+[2024-05-31 10:31:25] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-05-31 10:31:25] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-05-31 10:31:25] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-05-31 10:31:25] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.3.3.tar.gz]
+[2024-05-31 10:31:25] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.3.4.tar.gz]
+[2024-05-31 10:31:25] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-31 10:31:25] INFO root fetch - processPackages [imio.news.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.news.core-1.2.8.tar.gz]
+[2024-05-31 10:31:25] INFO root fetch - processPackages [imio.news.core]: Remove: archive file [/home/abi/fetcher/tmp/imio_news_core-1.2.9.tar.gz]
+[2024-05-31 10:31:25] INFO root fetch - main [MainThread]: End processing [imio.news.core]: success
+[2024-05-31 10:31:25] INFO root fetch - main [MainThread]: Store serial: [23462769]
