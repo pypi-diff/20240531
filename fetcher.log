@@ -6294,3 +6294,27 @@
 [2024-05-31 05:37:26] INFO root fetch - processPackages [torchhydro]: Remove: archive file [/home/abi/fetcher/tmp/torchhydro-0.0.5.tar.gz]
 [2024-05-31 05:37:26] INFO root fetch - main [MainThread]: End processing [torchhydro]: success
 [2024-05-31 05:37:26] INFO root fetch - main [MainThread]: Store serial: [23460126]
+[2024-05-31 05:39:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460126]
+[2024-05-31 05:39:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 05:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wikes-toolkit
+[2024-05-31 05:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FineCache
+[2024-05-31 05:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zlai
+[2024-05-31 05:39:35] WARNING root fetch - processPackages [wikes-toolkit]: Skipping, unable to determine old version
+[2024-05-31 05:39:35] INFO root fetch - main [MainThread]: End processing [wikes-toolkit] error
+[2024-05-31 05:39:35] INFO root fetch - processPackages [zlai]: New version: [0.3.76] Old Version: [0.3.75]
+[2024-05-31 05:39:35] INFO root fetch - processPackages [FineCache]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-05-31 05:39:35] INFO root fetch - processPackages [FineCache]: Downloading https://files.pythonhosted.org/packages/c1/72/e00e8e426982a32f06b78a8ee20665598f345cb633dd5d3666e6aaa35764/finecache-0.1.1.tar.gz
+[2024-05-31 05:39:35] INFO root fetch - processPackages [zlai]: Downloading https://files.pythonhosted.org/packages/b4/1f/348301e8a8443c501389b6eb80afd8900292e8da5c1189b16e30229fdd83/zlai-0.3.75.tar.gz
+[2024-05-31 05:39:36] INFO root fetch - processPackages [FineCache]: Downloading https://files.pythonhosted.org/packages/31/dd/930912960eae4fd9224914730a5e6a2a3a45f11f5406a20474e82a4004fb/finecache-0.1.3.tar.gz
+[2024-05-31 05:39:36] INFO root fetch - processPackages [zlai]: Downloading https://files.pythonhosted.org/packages/7f/45/dfce43c902683c515547730770f9c00cf6c13221947eca1aec2199385a9f/zlai-0.3.76.tar.gz
+[2024-05-31 05:39:36] INFO root fetch - processPackages [FineCache]: executing diffoscope
+[2024-05-31 05:39:36] INFO root fetch - processPackages [FineCache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finecache-0.1.1.tar.gz tmp/finecache-0.1.3.tar.gz --markdown 20240531/F/FineCache/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-05-31 05:39:36] INFO root fetch - processPackages [zlai]: executing diffoscope
+[2024-05-31 05:39:36] INFO root fetch - processPackages [zlai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlai-0.3.75.tar.gz tmp/zlai-0.3.76.tar.gz --markdown 20240531/z/zlai/0.3.75-0.3.76/README.md --exclude *.pyd
+[2024-05-31 05:39:36] INFO root fetch - processPackages [FineCache]: Remove: archive file [/home/abi/fetcher/tmp/finecache-0.1.1.tar.gz]
+[2024-05-31 05:39:36] INFO root fetch - processPackages [FineCache]: Remove: archive file [/home/abi/fetcher/tmp/finecache-0.1.3.tar.gz]
+[2024-05-31 05:39:36] INFO root fetch - main [MainThread]: End processing [FineCache]: success
+[2024-05-31 05:39:37] INFO root fetch - processPackages [zlai]: Remove: archive file [/home/abi/fetcher/tmp/zlai-0.3.75.tar.gz]
+[2024-05-31 05:39:37] INFO root fetch - processPackages [zlai]: Remove: archive file [/home/abi/fetcher/tmp/zlai-0.3.76.tar.gz]
+[2024-05-31 05:39:37] INFO root fetch - main [MainThread]: End processing [zlai]: success
+[2024-05-31 05:39:37] INFO root fetch - main [MainThread]: Store serial: [23460137]
