@@ -7112,3 +7112,20 @@
 [2024-05-31 06:20:57] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
 [2024-05-31 06:20:57] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
 [2024-05-31 06:20:57] INFO root fetch - main [MainThread]: Store serial: [23460373]
+[2024-05-31 06:23:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460373]
+[2024-05-31 06:23:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 06:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esp-docs
+[2024-05-31 06:23:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thirdai
+[2024-05-31 06:23:05] INFO root fetch - processPackages [esp-docs]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-31 06:23:05] INFO root fetch - processPackages [thirdai]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-31 06:23:06] INFO root fetch - processPackages [esp-docs]: Downloading https://files.pythonhosted.org/packages/3c/fb/cb6e69947f57318a2e1ab55aae6553ea8418fbc37deffb9cece92a73a9aa/esp_docs-1.9.1.tar.gz
+[2024-05-31 06:23:06] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/b7/dd/10158fd07a9cf782550fece76df467c72c4fc260685e9945eb8694864e70/thirdai-0.8.5-cp39-cp39-win_amd64.whl
+[2024-05-31 06:23:06] WARNING root fetch - processPackages [esp-docs]: Skipping package: exceeds size limit 16031353>=10485760
+[2024-05-31 06:23:06] INFO root fetch - main [MainThread]: End processing [esp-docs] error
+[2024-05-31 06:23:08] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/1c/58/ce794166e2c1e29232592a3de45662690788d8e83150001a3b884cb20f43/thirdai-0.8.6-cp39-cp39-macosx_11_0_arm64.whl
+[2024-05-31 06:23:09] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2024-05-31 06:23:09] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.8.5-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.8.6-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240531/t/thirdai/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-31 06:23:11] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.8.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 06:23:11] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.8.6-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-05-31 06:23:11] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2024-05-31 06:23:11] INFO root fetch - main [MainThread]: Store serial: [23460383]
