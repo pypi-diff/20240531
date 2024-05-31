@@ -10829,3 +10829,38 @@
 [2024-05-31 09:36:52] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-05-31 09:36:52] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-05-31 09:36:52] INFO root fetch - main [MainThread]: Store serial: [23462176]
+[2024-05-31 09:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462176]
+[2024-05-31 09:39:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 09:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cijoe
+[2024-05-31 09:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odbc2deltalake
+[2024-05-31 09:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lalsuite
+[2024-05-31 09:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-aux
+[2024-05-31 09:39:01] INFO root fetch - processPackages [pytest-aux]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 09:39:01] INFO root fetch - processPackages [pytest-aux]: Downloading https://files.pythonhosted.org/packages/e3/d4/ef9b4e08001859321f087a8605a205cfc83d935a4db5f6cf6dfb71c9f9f9/pytest_aux-0.0.2.tar.gz
+[2024-05-31 09:39:01] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 09:39:01] INFO root fetch - processPackages [cijoe]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-31 09:39:01] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-31 09:39:01] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-05-31 09:39:01] INFO root fetch - processPackages [cijoe]: Downloading https://files.pythonhosted.org/packages/ff/e5/24cca9ceda44409f1453f273bcb51b6c426aab692430e5e07fd742564630/cijoe-0.9.8.tar.gz
+[2024-05-31 09:39:01] INFO root fetch - processPackages [pytest-aux]: Downloading https://files.pythonhosted.org/packages/98/8b/a63844d658074a1a98163750046e46515280c81d801e1f040086968fe9ec/pytest_aux-0.0.3.tar.gz
+[2024-05-31 09:39:01] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 09:39:01] INFO root fetch - processPackages [pytest-aux]: executing diffoscope
+[2024-05-31 09:39:01] INFO root fetch - processPackages [pytest-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_aux-0.0.2.tar.gz tmp/pytest_aux-0.0.3.tar.gz --markdown 20240531/p/pytest-aux/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 09:39:01] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-05-31 09:39:01] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-31 09:39:01] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-31 09:39:02] INFO root fetch - processPackages [cijoe]: Downloading https://files.pythonhosted.org/packages/32/e8/52676e4dee5f913accc70782d7591988450337b3a2366942814342f121ae/cijoe-0.9.9.tar.gz
+[2024-05-31 09:39:02] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-05-31 09:39:02] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240531/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 09:39:02] INFO root fetch - processPackages [cijoe]: executing diffoscope
+[2024-05-31 09:39:02] INFO root fetch - processPackages [cijoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cijoe-0.9.8.tar.gz tmp/cijoe-0.9.9.tar.gz --markdown 20240531/c/cijoe/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-31 09:39:02] INFO root fetch - processPackages [pytest-aux]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aux-0.0.2.tar.gz]
+[2024-05-31 09:39:02] INFO root fetch - processPackages [pytest-aux]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aux-0.0.3.tar.gz]
+[2024-05-31 09:39:02] INFO root fetch - main [MainThread]: End processing [pytest-aux]: success
+[2024-05-31 09:39:02] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-05-31 09:39:02] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-05-31 09:39:02] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-05-31 09:39:02] INFO root fetch - processPackages [cijoe]: Remove: archive file [/home/abi/fetcher/tmp/cijoe-0.9.8.tar.gz]
+[2024-05-31 09:39:02] INFO root fetch - processPackages [cijoe]: Remove: archive file [/home/abi/fetcher/tmp/cijoe-0.9.9.tar.gz]
+[2024-05-31 09:39:02] INFO root fetch - main [MainThread]: End processing [cijoe]: success
+[2024-05-31 09:39:02] INFO root fetch - main [MainThread]: Store serial: [23462200]
