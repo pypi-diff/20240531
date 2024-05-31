@@ -9401,3 +9401,27 @@
 [2024-05-31 08:37:16] INFO root fetch - processPackages [SQLamarr]: Remove: archive file [/home/abi/fetcher/tmp/SQLamarr-0.0rc7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-31 08:37:16] INFO root fetch - main [MainThread]: End processing [SQLamarr]: success
 [2024-05-31 08:37:17] INFO root fetch - main [MainThread]: Store serial: [23461442]
+[2024-05-31 08:39:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461442]
+[2024-05-31 08:39:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bdpy
+[2024-05-31 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylc-cli
+[2024-05-31 08:39:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ez-zarr
+[2024-05-31 08:39:31] WARNING root fetch - processPackages [pylc-cli]: Skipping, unable to determine old version
+[2024-05-31 08:39:31] INFO root fetch - main [MainThread]: End processing [pylc-cli] error
+[2024-05-31 08:39:31] INFO root fetch - processPackages [bdpy]: New version: [0.22.1] Old Version: [0.22]
+[2024-05-31 08:39:31] INFO root fetch - processPackages [ez-zarr]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-31 08:39:31] INFO root fetch - processPackages [bdpy]: Downloading https://files.pythonhosted.org/packages/b4/62/874131566696512a3caa6b66f69a5d89bd67898170fecbdb3f4515da2022/bdpy-0.22.tar.gz
+[2024-05-31 08:39:31] INFO root fetch - processPackages [ez-zarr]: Downloading https://files.pythonhosted.org/packages/f7/54/ae0eb3f60ac8d1515de665edc1d989633136212c841c34c72ed49c280995/ez_zarr-0.1.5.tar.gz
+[2024-05-31 08:39:31] INFO root fetch - processPackages [bdpy]: Downloading https://files.pythonhosted.org/packages/b4/1c/777a23e61768d0513fc9e5cd00399d0b97d900c15a905893659d941ffa1c/bdpy-0.22.1.tar.gz
+[2024-05-31 08:39:32] INFO root fetch - processPackages [ez-zarr]: Downloading https://files.pythonhosted.org/packages/a8/e6/89ed8ab5d38cd0b17c39a2b7a66f2ac653395d51dfa8e7c7c193d7e55d45/ez_zarr-0.2.0.tar.gz
+[2024-05-31 08:39:32] INFO root fetch - processPackages [bdpy]: executing diffoscope
+[2024-05-31 08:39:32] INFO root fetch - processPackages [bdpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdpy-0.22.tar.gz tmp/bdpy-0.22.1.tar.gz --markdown 20240531/b/bdpy/0.22-0.22.1/README.md --exclude *.pyd
+[2024-05-31 08:39:32] INFO root fetch - processPackages [ez-zarr]: executing diffoscope
+[2024-05-31 08:39:32] INFO root fetch - processPackages [ez-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_zarr-0.1.5.tar.gz tmp/ez_zarr-0.2.0.tar.gz --markdown 20240531/e/ez-zarr/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-31 08:39:32] INFO root fetch - processPackages [bdpy]: Remove: archive file [/home/abi/fetcher/tmp/bdpy-0.22.tar.gz]
+[2024-05-31 08:39:32] INFO root fetch - processPackages [bdpy]: Remove: archive file [/home/abi/fetcher/tmp/bdpy-0.22.1.tar.gz]
+[2024-05-31 08:39:32] INFO root fetch - main [MainThread]: End processing [bdpy]: success
+[2024-05-31 08:39:33] INFO root fetch - processPackages [ez-zarr]: Remove: archive file [/home/abi/fetcher/tmp/ez_zarr-0.1.5.tar.gz]
+[2024-05-31 08:39:33] INFO root fetch - processPackages [ez-zarr]: Remove: archive file [/home/abi/fetcher/tmp/ez_zarr-0.2.0.tar.gz]
+[2024-05-31 08:39:33] INFO root fetch - main [MainThread]: End processing [ez-zarr]: success
+[2024-05-31 08:39:33] INFO root fetch - main [MainThread]: Store serial: [23461477]
