@@ -18491,3 +18491,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:32:54] INFO root fetch - processPackages [s1-cns-cli]: Remove: archive file [/home/abi/fetcher/tmp/s1_cns_cli-0.3.8.tar.gz]
 [2024-05-31 14:32:54] INFO root fetch - main [MainThread]: End processing [s1-cns-cli]: success
 [2024-05-31 14:32:54] INFO root fetch - main [MainThread]: Store serial: [23465592]
+[2024-05-31 14:34:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465592]
+[2024-05-31 14:35:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boosty
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymetasnap
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socialdataanalysis
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edwh-auth-rbac
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ragstack-ai-langflow-base
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ldeep
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-browser-tray
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LLM-Toolbox
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ragstack-ai-langflow-base]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-05-31 14:35:03] INFO root fetch - processPackages [edwh-auth-rbac]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-31 14:35:03] INFO root fetch - processPackages [LLM-Toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 14:35:03] INFO root fetch - processPackages [pymetasnap]: New version: [0.32.0] Old Version: [0.31.0]
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Downloading https://files.pythonhosted.org/packages/eb/31/85a4f979d1d9aa60de05d2c9c1e5ff761fa180f9d64e720b897602619ca1/ragstack_ai_langflow_base-0.0.3.tar.gz
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ldeep]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 14:35:03] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/96/48/1c5b146a47c8a8255e5aec0fd631f11f63d8da833b05312d69d40674fa07/edwh_auth_rbac-0.4.0.tar.gz
+[2024-05-31 14:35:03] INFO root fetch - processPackages [robotframework-browser-tray]: New version: [1.3.0] Old Version: [1.2.2]
+[2024-05-31 14:35:03] INFO root fetch - processPackages [boosty]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 14:35:03] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.5] Old Version: [0.4]
+[2024-05-31 14:35:03] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/31/d3/b4543953079da290fe639f07c370f9d917f7f568a4a58e935a7d853580cb/LLM-Toolbox-0.1.8.tar.gz
+[2024-05-31 14:35:03] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/4c/b3/d4c091e55aeefa7084789fdeb4decbb417bafdd6bf03521ddb95ad93da87/LLM-Toolbox-0.1.9.tar.gz
+[2024-05-31 14:35:03] INFO root fetch - processPackages [pymetasnap]: Downloading https://files.pythonhosted.org/packages/c7/b8/8f50b10a365db52ef5fa24ca3fb35bc6a91414346d171fb62de5c8edbae1/pymetasnap-0.31.0.tar.gz
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/24/e2/09c2ff64528ba7e556d1f75dec902fee07b80fdde1f9ffcf6dd1e182bfcf/ldeep-1.0.8.tar.gz
+[2024-05-31 14:35:03] INFO root fetch - processPackages [robotframework-browser-tray]: Downloading https://files.pythonhosted.org/packages/45/9a/1c0e990ff3156c5d41163d025dd5e83d2ab77acfb144d62bd5a4e567ea72/robotframework_browser_tray-1.2.2.tar.gz
+[2024-05-31 14:35:03] INFO root fetch - processPackages [boosty]: Downloading https://files.pythonhosted.org/packages/07/3e/cdaa67102010d3fbf84414fa8d2c76e4c9a852657ff25ba1b56d46186b10/boosty-0.0.8.tar.gz
+[2024-05-31 14:35:03] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/b4/1f/b777e19133d20041ded32791c739abcfd8458bdbb9a2b92d1133b256345d/socialdataanalysis-0.4.tar.gz
+[2024-05-31 14:35:03] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/ec/ee/91827df4d94d5d4b2d73137b4e13d36c74d10b300bcaf03e18a87b70f049/edwh_auth_rbac-0.4.1.tar.gz
+[2024-05-31 14:35:03] INFO root fetch - processPackages [LLM-Toolbox]: executing diffoscope
+[2024-05-31 14:35:03] INFO root fetch - processPackages [LLM-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLM-Toolbox-0.1.8.tar.gz tmp/LLM-Toolbox-0.1.9.tar.gz --markdown 20240531/L/LLM-Toolbox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 14:35:03] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Downloading https://files.pythonhosted.org/packages/c3/c8/a3f2bce1764dd4c43e174a7450ef2999ffbcb9b55d1d058be438262e4b28/ragstack_ai_langflow_base-0.0.5.tar.gz
+[2024-05-31 14:35:03] INFO root fetch - processPackages [edwh-auth-rbac]: executing diffoscope
+[2024-05-31 14:35:03] INFO root fetch - processPackages [edwh-auth-rbac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_auth_rbac-0.4.0.tar.gz tmp/edwh_auth_rbac-0.4.1.tar.gz --markdown 20240531/e/edwh-auth-rbac/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-31 14:35:04] INFO root fetch - processPackages [pymetasnap]: Downloading https://files.pythonhosted.org/packages/19/f4/f11e0120bbbc96851311730796611a7a3fc9ff802e3c806fb71bb28fa240/pymetasnap-0.32.0.tar.gz
+[2024-05-31 14:35:04] INFO root fetch - processPackages [boosty]: Downloading https://files.pythonhosted.org/packages/c8/b4/791d6c39f97f0a7fa7068f8f3130f7731d53a3d5b16c1e4c20c01daffb33/boosty-0.0.9.tar.gz
+[2024-05-31 14:35:04] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/d5/fd/a4717f843a91dfd39359ba7f25c29d645fdc6ebe17575c8e41c46e4bd2be/socialdataanalysis-0.5.tar.gz
+[2024-05-31 14:35:04] INFO root fetch - processPackages [pymetasnap]: executing diffoscope
+[2024-05-31 14:35:04] INFO root fetch - processPackages [pymetasnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetasnap-0.31.0.tar.gz tmp/pymetasnap-0.32.0.tar.gz --markdown 20240531/p/pymetasnap/0.31.0-0.32.0/README.md --exclude *.pyd
+[2024-05-31 14:35:04] INFO root fetch - processPackages [ragstack-ai-langflow-base]: executing diffoscope
+[2024-05-31 14:35:04] INFO root fetch - processPackages [ragstack-ai-langflow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragstack_ai_langflow_base-0.0.3.tar.gz tmp/ragstack_ai_langflow_base-0.0.5.tar.gz --markdown 20240531/r/ragstack-ai-langflow-base/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-05-31 14:35:04] INFO root fetch - processPackages [boosty]: executing diffoscope
+[2024-05-31 14:35:04] INFO root fetch - processPackages [boosty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boosty-0.0.8.tar.gz tmp/boosty-0.0.9.tar.gz --markdown 20240531/b/boosty/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 14:35:04] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 14:35:04] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.4.tar.gz tmp/socialdataanalysis-0.5.tar.gz --markdown 20240531/s/socialdataanalysis/0.4-0.5/README.md --exclude *.pyd
+[2024-05-31 14:35:04] INFO root fetch - processPackages [robotframework-browser-tray]: Downloading https://files.pythonhosted.org/packages/a6/49/fca7e68c0966132e3ceb47f8ddf996a310fb4f59bc480dcc1f831480ff7f/robotframework_browser_tray-1.3.0.tar.gz
+[2024-05-31 14:35:04] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.8.tar.gz]
+[2024-05-31 14:35:04] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.9.tar.gz]
+[2024-05-31 14:35:04] INFO root fetch - main [MainThread]: End processing [LLM-Toolbox]: success
+[2024-05-31 14:35:04] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.4.0.tar.gz]
+[2024-05-31 14:35:04] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.4.1.tar.gz]
+[2024-05-31 14:35:04] INFO root fetch - main [MainThread]: End processing [edwh-auth-rbac]: success
+[2024-05-31 14:35:04] INFO root fetch - processPackages [robotframework-browser-tray]: executing diffoscope
+[2024-05-31 14:35:04] INFO root fetch - processPackages [robotframework-browser-tray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_browser_tray-1.2.2.tar.gz tmp/robotframework_browser_tray-1.3.0.tar.gz --markdown 20240531/r/robotframework-browser-tray/1.2.2-1.3.0/README.md --exclude *.pyd
+[2024-05-31 14:35:04] INFO root fetch - processPackages [pymetasnap]: Remove: archive file [/home/abi/fetcher/tmp/pymetasnap-0.31.0.tar.gz]
+[2024-05-31 14:35:04] INFO root fetch - processPackages [pymetasnap]: Remove: archive file [/home/abi/fetcher/tmp/pymetasnap-0.32.0.tar.gz]
+[2024-05-31 14:35:04] INFO root fetch - main [MainThread]: End processing [pymetasnap]: success
+[2024-05-31 14:35:05] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.4.tar.gz]
+[2024-05-31 14:35:05] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.5.tar.gz]
+[2024-05-31 14:35:05] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 14:35:05] INFO root fetch - processPackages [boosty]: Remove: archive file [/home/abi/fetcher/tmp/boosty-0.0.8.tar.gz]
+[2024-05-31 14:35:05] INFO root fetch - processPackages [boosty]: Remove: archive file [/home/abi/fetcher/tmp/boosty-0.0.9.tar.gz]
+[2024-05-31 14:35:05] INFO root fetch - main [MainThread]: End processing [boosty]: success
+[2024-05-31 14:35:05] INFO root fetch - processPackages [robotframework-browser-tray]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_browser_tray-1.2.2.tar.gz]
+[2024-05-31 14:35:05] INFO root fetch - processPackages [robotframework-browser-tray]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_browser_tray-1.3.0.tar.gz]
+[2024-05-31 14:35:05] INFO root fetch - main [MainThread]: End processing [robotframework-browser-tray]: success
+[2024-05-31 14:35:05] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/e2/b0/645c2fce50d34f47b9f5b8fb9be8a6c2e716ddb3573e379f4221970560bc/ldeep-1.0.9.tar.gz
+[2024-05-31 14:35:05] INFO root fetch - processPackages [ldeep]: executing diffoscope
+[2024-05-31 14:35:05] INFO root fetch - processPackages [ldeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldeep-1.0.8.tar.gz tmp/ldeep-1.0.9.tar.gz --markdown 20240531/l/ldeep/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 14:35:06] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.8.tar.gz]
+[2024-05-31 14:35:06] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.9.tar.gz]
+[2024-05-31 14:35:06] INFO root fetch - main [MainThread]: End processing [ldeep]: success
+[2024-05-31 14:35:08] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow_base-0.0.3.tar.gz]
+[2024-05-31 14:35:08] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow_base-0.0.5.tar.gz]
+[2024-05-31 14:35:08] INFO root fetch - main [MainThread]: End processing [ragstack-ai-langflow-base]: success
+[2024-05-31 14:35:08] INFO root fetch - main [MainThread]: Store serial: [23465623]
