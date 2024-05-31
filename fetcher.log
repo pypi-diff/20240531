@@ -12547,3 +12547,69 @@
 [2024-05-31 10:46:48] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-31 10:46:48] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-31 10:46:48] INFO root fetch - main [MainThread]: Store serial: [23462951]
+[2024-05-31 10:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462951]
+[2024-05-31 10:48:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 10:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spleaf
+[2024-05-31 10:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colorchecker2cielab
+[2024-05-31 10:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moonss
+[2024-05-31 10:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kaiko-eva
+[2024-05-31 10:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aimodelshare
+[2024-05-31 10:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mate-cxinsys
+[2024-05-31 10:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nanomotif
+[2024-05-31 10:48:58] INFO root fetch - processPackages [spleaf]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-31 10:48:58] INFO root fetch - processPackages [colorchecker2cielab]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 10:48:58] INFO root fetch - processPackages [moonss]: New version: [0.99] Old Version: [0.98]
+[2024-05-31 10:48:58] INFO root fetch - processPackages [mate-cxinsys]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-31 10:48:58] INFO root fetch - processPackages [kaiko-eva]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 10:48:58] INFO root fetch - processPackages [nanomotif]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-31 10:48:58] INFO root fetch - processPackages [aimodelshare]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 10:48:58] INFO root fetch - processPackages [spleaf]: Downloading https://files.pythonhosted.org/packages/ce/b4/a2a684ab4536df0593f4c98b21e11250fa8528327b3a0c2e5da2ef77d59f/spleaf-2.1.8.tar.gz
+[2024-05-31 10:48:58] INFO root fetch - processPackages [colorchecker2cielab]: Downloading https://files.pythonhosted.org/packages/93/57/91758878850960c053bc6aa542f78a65271ec628aafcb9402abb3e0171a7/colorchecker2cielab-0.0.1.tar.gz
+[2024-05-31 10:48:58] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/df/9c/efa77e88d08939cec835de0cc183c1e3218af6175697e55b7bbffa3d0270/moonss-0.98.tar.gz
+[2024-05-31 10:48:58] INFO root fetch - processPackages [kaiko-eva]: Downloading https://files.pythonhosted.org/packages/71/2a/39fe4d4300a3298ed2f9a1af924198b99109bc83a2d00db4b794a075d2c9/kaiko_eva-0.0.1.tar.gz
+[2024-05-31 10:48:58] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/c0/89/8d5c1ec1f29fb33b0fe43c98e3f08f65c921359d526635068eef7a186e2c/aimodelshare-0.1.8.tar.gz
+[2024-05-31 10:48:58] INFO root fetch - processPackages [mate-cxinsys]: Downloading https://files.pythonhosted.org/packages/a4/35/172e22aaacf0976893bf42e0f137cbd9c606a309bce8a969b2a306969414/mate_cxinsys-1.0.4.tar.gz
+[2024-05-31 10:48:58] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/fc/7e/53212727744550b75f5141d640e23f5ad28d7a224402f84ee30074aa008e/nanomotif-0.4.5.tar.gz
+[2024-05-31 10:48:59] INFO root fetch - processPackages [spleaf]: Downloading https://files.pythonhosted.org/packages/dd/12/92717f66926745e5737936575fc5aadd0aec4c00efc740ad1079ead24547/spleaf-2.1.9.tar.gz
+[2024-05-31 10:48:59] INFO root fetch - processPackages [colorchecker2cielab]: Downloading https://files.pythonhosted.org/packages/47/aa/3638f609869e76685a1f93836d007d7e154e959e96c958cfd91f3882ee98/colorchecker2cielab-0.0.2-py3-none-any.whl
+[2024-05-31 10:48:59] INFO root fetch - processPackages [moonss]: Downloading https://files.pythonhosted.org/packages/35/3c/cb62485dde83e7c097a307c0189c884a946fec5e6c16c9fca526b4d99511/moonss-0.99.tar.gz
+[2024-05-31 10:48:59] INFO root fetch - processPackages [kaiko-eva]: Downloading https://files.pythonhosted.org/packages/6b/a2/603bbe5d225467712d964434a867d7d52ac3e20c128ec21261182ca59a83/kaiko_eva-0.0.2.tar.gz
+[2024-05-31 10:48:59] INFO root fetch - processPackages [mate-cxinsys]: Downloading https://files.pythonhosted.org/packages/f1/66/2aefe3acad11c874e4d7d1ed04bb5076158b2afa8ab5c37fc82636611f4d/mate_cxinsys-1.0.5.tar.gz
+[2024-05-31 10:48:59] INFO root fetch - processPackages [colorchecker2cielab]: executing diffoscope
+[2024-05-31 10:48:59] INFO root fetch - processPackages [colorchecker2cielab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorchecker2cielab-0.0.1.tar.gz tmp/colorchecker2cielab-0.0.2-py3-none-any.whl.zip --markdown 20240531/c/colorchecker2cielab/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 10:48:59] INFO root fetch - processPackages [spleaf]: executing diffoscope
+[2024-05-31 10:48:59] INFO root fetch - processPackages [spleaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spleaf-2.1.8.tar.gz tmp/spleaf-2.1.9.tar.gz --markdown 20240531/s/spleaf/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-31 10:48:59] INFO root fetch - processPackages [moonss]: executing diffoscope
+[2024-05-31 10:48:59] INFO root fetch - processPackages [moonss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonss-0.98.tar.gz tmp/moonss-0.99.tar.gz --markdown 20240531/m/moonss/0.98-0.99/README.md --exclude *.pyd
+[2024-05-31 10:48:59] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/92/1b/5990f7c62044a2ad0776737091765068646eecee14dd251c5ea3732caeb0/aimodelshare-0.1.9.tar.gz
+[2024-05-31 10:48:59] INFO root fetch - processPackages [mate-cxinsys]: executing diffoscope
+[2024-05-31 10:48:59] INFO root fetch - processPackages [mate-cxinsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mate_cxinsys-1.0.4.tar.gz tmp/mate_cxinsys-1.0.5.tar.gz --markdown 20240531/m/mate-cxinsys/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-31 10:48:59] INFO root fetch - processPackages [kaiko-eva]: executing diffoscope
+[2024-05-31 10:48:59] INFO root fetch - processPackages [kaiko-eva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiko_eva-0.0.1.tar.gz tmp/kaiko_eva-0.0.2.tar.gz --markdown 20240531/k/kaiko-eva/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 10:48:59] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/70/f4/1830ec1412258e531d59a9605c3a12c0455ec074f8557f89c2661a2ef109/nanomotif-0.4.6.tar.gz
+[2024-05-31 10:48:59] INFO root fetch - processPackages [aimodelshare]: executing diffoscope
+[2024-05-31 10:48:59] INFO root fetch - processPackages [aimodelshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimodelshare-0.1.8.tar.gz tmp/aimodelshare-0.1.9.tar.gz --markdown 20240531/a/aimodelshare/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 10:48:59] INFO root fetch - processPackages [colorchecker2cielab]: Remove: archive file [/home/abi/fetcher/tmp/colorchecker2cielab-0.0.1.tar.gz]
+[2024-05-31 10:48:59] INFO root fetch - processPackages [colorchecker2cielab]: Remove: archive file [/home/abi/fetcher/tmp/colorchecker2cielab-0.0.2-py3-none-any.whl.zip]
+[2024-05-31 10:48:59] INFO root fetch - main [MainThread]: End processing [colorchecker2cielab]: success
+[2024-05-31 10:48:59] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.98.tar.gz]
+[2024-05-31 10:48:59] INFO root fetch - processPackages [moonss]: Remove: archive file [/home/abi/fetcher/tmp/moonss-0.99.tar.gz]
+[2024-05-31 10:48:59] INFO root fetch - main [MainThread]: End processing [moonss]: success
+[2024-05-31 10:49:00] INFO root fetch - processPackages [mate-cxinsys]: Remove: archive file [/home/abi/fetcher/tmp/mate_cxinsys-1.0.4.tar.gz]
+[2024-05-31 10:49:00] INFO root fetch - processPackages [mate-cxinsys]: Remove: archive file [/home/abi/fetcher/tmp/mate_cxinsys-1.0.5.tar.gz]
+[2024-05-31 10:49:00] INFO root fetch - main [MainThread]: End processing [mate-cxinsys]: success
+[2024-05-31 10:49:00] INFO root fetch - processPackages [spleaf]: Remove: archive file [/home/abi/fetcher/tmp/spleaf-2.1.8.tar.gz]
+[2024-05-31 10:49:00] INFO root fetch - processPackages [spleaf]: Remove: archive file [/home/abi/fetcher/tmp/spleaf-2.1.9.tar.gz]
+[2024-05-31 10:49:00] INFO root fetch - main [MainThread]: End processing [spleaf]: success
+[2024-05-31 10:49:00] INFO root fetch - processPackages [nanomotif]: executing diffoscope
+[2024-05-31 10:49:00] INFO root fetch - processPackages [nanomotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomotif-0.4.5.tar.gz tmp/nanomotif-0.4.6.tar.gz --markdown 20240531/n/nanomotif/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-31 10:49:00] INFO root fetch - processPackages [kaiko-eva]: Remove: archive file [/home/abi/fetcher/tmp/kaiko_eva-0.0.1.tar.gz]
+[2024-05-31 10:49:00] INFO root fetch - processPackages [kaiko-eva]: Remove: archive file [/home/abi/fetcher/tmp/kaiko_eva-0.0.2.tar.gz]
+[2024-05-31 10:49:00] INFO root fetch - main [MainThread]: End processing [kaiko-eva]: success
+[2024-05-31 10:49:00] INFO root fetch - processPackages [aimodelshare]: Remove: archive file [/home/abi/fetcher/tmp/aimodelshare-0.1.8.tar.gz]
+[2024-05-31 10:49:00] INFO root fetch - processPackages [aimodelshare]: Remove: archive file [/home/abi/fetcher/tmp/aimodelshare-0.1.9.tar.gz]
+[2024-05-31 10:49:00] INFO root fetch - main [MainThread]: End processing [aimodelshare]: success
+[2024-05-31 10:49:02] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.5.tar.gz]
+[2024-05-31 10:49:02] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.6.tar.gz]
+[2024-05-31 10:49:02] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
+[2024-05-31 10:49:02] INFO root fetch - main [MainThread]: Store serial: [23462987]
