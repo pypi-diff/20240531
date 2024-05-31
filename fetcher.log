@@ -12045,3 +12045,33 @@
 [2024-05-31 10:27:04] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.6rc9-py3-none-any.whl.zip]
 [2024-05-31 10:27:04] INFO root fetch - main [MainThread]: End processing [keelson]: success
 [2024-05-31 10:27:04] INFO root fetch - main [MainThread]: Store serial: [23462733]
+[2024-05-31 10:29:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462733]
+[2024-05-31 10:29:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 10:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fyle-integrations-platform-connector
+[2024-05-31 10:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-pipedrive
+[2024-05-31 10:29:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nostr-dvm
+[2024-05-31 10:29:13] INFO root fetch - processPackages [nostr-dvm]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-31 10:29:13] INFO root fetch - processPackages [airbyte-source-pipedrive]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-05-31 10:29:13] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/b9/c0/4d02674f067b9f8478b4bb008008238368f6ebb8fc1af77075f7d5c833cd/nostr_dvm-0.5.0.tar.gz
+[2024-05-31 10:29:13] INFO root fetch - processPackages [fyle-integrations-platform-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-31 10:29:13] INFO root fetch - processPackages [airbyte-source-pipedrive]: Downloading https://files.pythonhosted.org/packages/5a/a4/22ceed15f1c3100f79f70b5a020854b067e6105da9bf471b1fe84605d7e6/airbyte-source-pipedrive-2.2.2.tar.gz
+[2024-05-31 10:29:13] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/52/45/e5e38ed24c1622734daa77b91cc350bf11c44695b7aaaf9671f084870c76/fyle-integrations-platform-connector-1.8.0.tar.gz
+[2024-05-31 10:29:14] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/74/f3/a7619e60ca859e0c2aa25e5ef4fa9cfdcc666d993a327bedb3aeb5fac677/nostr_dvm-0.5.1.tar.gz
+[2024-05-31 10:29:14] INFO root fetch - processPackages [airbyte-source-pipedrive]: Downloading https://files.pythonhosted.org/packages/1e/56/54b0bac98d0239b7f7222ecbb19a058df21690c0e7f29f347ae8ee045667/airbyte_source_pipedrive-2.2.3.tar.gz
+[2024-05-31 10:29:14] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/f3/0e/46ba46fd9bd58f328ec9642711a0147d790cb1af6dc1c7e9f72f99a87249/fyle-integrations-platform-connector-1.9.0.tar.gz
+[2024-05-31 10:29:14] INFO root fetch - processPackages [nostr-dvm]: executing diffoscope
+[2024-05-31 10:29:14] INFO root fetch - processPackages [nostr-dvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_dvm-0.5.0.tar.gz tmp/nostr_dvm-0.5.1.tar.gz --markdown 20240531/n/nostr-dvm/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-31 10:29:14] INFO root fetch - processPackages [fyle-integrations-platform-connector]: executing diffoscope
+[2024-05-31 10:29:14] INFO root fetch - processPackages [fyle-integrations-platform-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyle-integrations-platform-connector-1.8.0.tar.gz tmp/fyle-integrations-platform-connector-1.9.0.tar.gz --markdown 20240531/f/fyle-integrations-platform-connector/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-31 10:29:14] INFO root fetch - processPackages [airbyte-source-pipedrive]: executing diffoscope
+[2024-05-31 10:29:14] INFO root fetch - processPackages [airbyte-source-pipedrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-pipedrive-2.2.2.tar.gz tmp/airbyte_source_pipedrive-2.2.3.tar.gz --markdown 20240531/a/airbyte-source-pipedrive/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-05-31 10:29:14] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.8.0.tar.gz]
+[2024-05-31 10:29:14] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.9.0.tar.gz]
+[2024-05-31 10:29:14] INFO root fetch - main [MainThread]: End processing [fyle-integrations-platform-connector]: success
+[2024-05-31 10:29:14] INFO root fetch - processPackages [airbyte-source-pipedrive]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-pipedrive-2.2.2.tar.gz]
+[2024-05-31 10:29:14] INFO root fetch - processPackages [airbyte-source-pipedrive]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pipedrive-2.2.3.tar.gz]
+[2024-05-31 10:29:14] INFO root fetch - main [MainThread]: End processing [airbyte-source-pipedrive]: success
+[2024-05-31 10:29:14] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.5.0.tar.gz]
+[2024-05-31 10:29:14] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.5.1.tar.gz]
+[2024-05-31 10:29:14] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
+[2024-05-31 10:29:14] INFO root fetch - main [MainThread]: Store serial: [23462745]
