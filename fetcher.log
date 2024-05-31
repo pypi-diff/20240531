@@ -23075,3 +23075,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:15:01] INFO root fetch - processPackages [tcex]: Remove: archive file [/home/abi/fetcher/tmp/tcex-4.0.5.tar.gz]
 [2024-05-31 17:15:01] INFO root fetch - main [MainThread]: End processing [tcex]: success
 [2024-05-31 17:15:01] INFO root fetch - main [MainThread]: Store serial: [23467781]
+[2024-05-31 17:17:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467781]
+[2024-05-31 17:17:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 17:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: network-diffusion
+[2024-05-31 17:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-sdk-remote
+[2024-05-31 17:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-trench-reboot
+[2024-05-31 17:17:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-id-python
+[2024-05-31 17:17:11] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 17:17:11] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-31 17:17:11] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/b2/73/ff727800d332ba3412e3135ded7fed3d1b78930e48ab4f978b5038b41b5f/python_sdk_remote-0.0.98.tar.gz
+[2024-05-31 17:17:11] INFO root fetch - processPackages [django-trench-reboot]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-31 17:17:11] INFO root fetch - processPackages [network-diffusion]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 17:17:11] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-31 17:17:11] INFO root fetch - processPackages [django-trench-reboot]: Downloading https://files.pythonhosted.org/packages/05/d6/53fe59bb556efe724a9c17e5b126f604f4529bb5236c07112e3bfd1aef1c/django_trench_reboot-0.3.2.tar.gz
+[2024-05-31 17:17:11] INFO root fetch - processPackages [network-diffusion]: Downloading https://files.pythonhosted.org/packages/31/07/8b415bbd0cce5d8c54f10ca2e9441fdbff6d9e3ce91e58f44843f41d2335/network_diffusion-0.8.0.tar.gz
+[2024-05-31 17:17:11] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/c6/6c/d232e7e91dcb30944e7eee0abdeb4922803eca620e93ce6940350682eaeb/python_sdk_remote-0.0.99.tar.gz
+[2024-05-31 17:17:11] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-31 17:17:11] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-05-31 17:17:11] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_remote-0.0.98.tar.gz tmp/python_sdk_remote-0.0.99.tar.gz --markdown 20240531/p/python-sdk-remote/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 17:17:11] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-31 17:17:11] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240531/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-31 17:17:11] INFO root fetch - processPackages [django-trench-reboot]: Downloading https://files.pythonhosted.org/packages/bc/78/7ecdd38fab0fc0e032ceff32613bb11f8ea1f6582c534916a94eb6e3281e/django_trench_reboot-0.3.3.tar.gz
+[2024-05-31 17:17:11] INFO root fetch - processPackages [network-diffusion]: Downloading https://files.pythonhosted.org/packages/81/1a/b6692ce2d9c366a1672e75b7adbd512df91035714fadccd1a9f35515bd8e/network_diffusion-0.9.0.tar.gz
+[2024-05-31 17:17:11] INFO root fetch - processPackages [django-trench-reboot]: executing diffoscope
+[2024-05-31 17:17:11] INFO root fetch - processPackages [django-trench-reboot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_trench_reboot-0.3.2.tar.gz tmp/django_trench_reboot-0.3.3.tar.gz --markdown 20240531/d/django-trench-reboot/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-31 17:17:11] INFO root fetch - processPackages [network-diffusion]: executing diffoscope
+[2024-05-31 17:17:11] INFO root fetch - processPackages [network-diffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_diffusion-0.8.0.tar.gz tmp/network_diffusion-0.9.0.tar.gz --markdown 20240531/n/network-diffusion/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 17:17:12] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.98.tar.gz]
+[2024-05-31 17:17:12] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.99.tar.gz]
+[2024-05-31 17:17:12] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-05-31 17:17:12] INFO root fetch - processPackages [network-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/network_diffusion-0.8.0.tar.gz]
+[2024-05-31 17:17:12] INFO root fetch - processPackages [network-diffusion]: Remove: archive file [/home/abi/fetcher/tmp/network_diffusion-0.9.0.tar.gz]
+[2024-05-31 17:17:12] INFO root fetch - main [MainThread]: End processing [network-diffusion]: success
+[2024-05-31 17:17:12] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-31 17:17:12] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-31 17:17:12] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-31 17:17:12] INFO root fetch - processPackages [django-trench-reboot]: Remove: archive file [/home/abi/fetcher/tmp/django_trench_reboot-0.3.2.tar.gz]
+[2024-05-31 17:17:12] INFO root fetch - processPackages [django-trench-reboot]: Remove: archive file [/home/abi/fetcher/tmp/django_trench_reboot-0.3.3.tar.gz]
+[2024-05-31 17:17:12] INFO root fetch - main [MainThread]: End processing [django-trench-reboot]: success
+[2024-05-31 17:17:12] INFO root fetch - main [MainThread]: Store serial: [23467792]
