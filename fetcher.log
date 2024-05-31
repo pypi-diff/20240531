@@ -9723,3 +9723,99 @@
 [2024-05-31 08:57:04] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240529.tar.gz]
 [2024-05-31 08:57:04] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-05-31 08:57:04] INFO root fetch - main [MainThread]: Store serial: [23461601]
+[2024-05-31 08:59:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461601]
+[2024-05-31 08:59:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 08:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-timesheet-sheet-policy-department-manager
+[2024-05-31 08:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-timesheet
+[2024-05-31 08:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmauri
+[2024-05-31 08:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: patchwork-cli
+[2024-05-31 08:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-random
+[2024-05-31 08:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhinst
+[2024-05-31 08:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cyclicpeptide
+[2024-05-31 08:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ecmind-blue-client
+[2024-05-31 08:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-base
+[2024-05-31 08:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-cicd-cli
+[2024-05-31 08:59:12] WARNING root fetch - processPackages [odoo-addon-hr-timesheet-sheet-policy-department-manager]: Skipping, unable to determine old version
+[2024-05-31 08:59:12] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet-policy-department-manager]: Start processing: gardener-cicd-dso
+[2024-05-31 08:59:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet-policy-department-manager] error
+[2024-05-31 08:59:12] INFO root fetch - processPackages [cyclicpeptide]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-31 08:59:13] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: New version: [16.0.20240530.0] Old Version: [16.0.20240510.1]
+[2024-05-31 08:59:13] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/37/d1/b2e4c8200390c96a178fd16b57c922e444c68a395c804793fb0611c83217/cyclicpeptide-1.0.1.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [ecmind-blue-client]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-31 08:59:13] INFO root fetch - processPackages [patchwork-cli]: New version: [0.0.9] Old Version: [0.0.87]
+[2024-05-31 08:59:13] INFO root fetch - processPackages [swarmauri]: New version: [0.2.9] Old Version: [0.2.8.dev2]
+[2024-05-31 08:59:13] INFO root fetch - processPackages [zhinst]: New version: [24.4.1] Old Version: [24.4.0]
+[2024-05-31 08:59:13] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2024-05-31 08:59:13] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2404.0] Old Version: [1.2403.0]
+[2024-05-31 08:59:13] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2404.0] Old Version: [1.2403.0]
+[2024-05-31 08:59:13] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/0a/06/f4cfb7cc454e5a3cea802c60fe2197bb63da0ea9eaf9d01d6435e4122ca9/odoo_addons_oca_timesheet-16.0.20240510.1-py3-none-any.whl
+[2024-05-31 08:59:13] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/ca/ec/4694e3e7b94101c305804486e96714ef11b44bb1cde3bd96731d3ccf2f18/patchwork_cli-0.0.87.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [ecmind-blue-client]: Downloading https://files.pythonhosted.org/packages/42/fb/e924248003eca1a7ef2e0a41de80f05a42c124a1bb12a999f4a771dbce14/ecmind_blue_client-0.6.1.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/b9/ac/f59e8db05e6c6b728fe9b5130ed3e0f122d8a69a071a5c75cc1cdc49436c/gardener_cicd_base-1.2403.0.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/88/d0/ad9c953cb2d9fa74ac9b379b86ea908cb2ddf6d9b6abb15f51e7fc196b80/swarmauri-0.2.8.dev2.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [zhinst]: Downloading https://files.pythonhosted.org/packages/17/72/6b4a3ff38689d22681622391fac99a9b8c302105f974ad73d38f9b556d4a/zhinst-24.4.0.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/e3/37/2cc13bf17f327e646e4b225d9a662c398da5ae064fbaaf071b5093d9200d/pulumi_random-4.9.0a1673556316.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2404.0] Old Version: [1.2403.0]
+[2024-05-31 08:59:13] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/b5/37/b928480800b6038404813d877cdff7dfea91191d61c82529d105477ce3ea/gardener_cicd_cli-1.2403.0.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/5d/dc/a6e3e66d5adfbc80703410e0ad72424b77b88eeb3093dacb9414a691baaa/cyclicpeptide-1.0.2.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/3a/92/be5114762ad7136f9c06accdb3c733299c52d7782f3c16d5000677a98c1f/odoo_addons_oca_timesheet-16.0.20240530.0-py3-none-any.whl
+[2024-05-31 08:59:13] INFO root fetch - processPackages [cyclicpeptide]: executing diffoscope
+[2024-05-31 08:59:13] INFO root fetch - processPackages [cyclicpeptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclicpeptide-1.0.1.tar.gz tmp/cyclicpeptide-1.0.2.tar.gz --markdown 20240531/c/cyclicpeptide/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-31 08:59:13] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/c5/3d/cd8a11060822b3659b189c59a88cb725c0cf19a3ac6c479c68dd37cede92/gardener_cicd_dso-1.2403.0.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: executing diffoscope
+[2024-05-31 08:59:13] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_timesheet-16.0.20240510.1-py3-none-any.whl.zip tmp/odoo_addons_oca_timesheet-16.0.20240530.0-py3-none-any.whl.zip --markdown 20240531/o/odoo-addons-oca-timesheet/16.0.20240510.1-16.0.20240530.0/README.md --exclude *.pyd
+[2024-05-31 08:59:13] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/03/6a/782494b4f0f2f910cbd71d8216970c8d8cc2abdaba82d795bf606a63de61/patchwork_cli-0.0.9.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [ecmind-blue-client]: Downloading https://files.pythonhosted.org/packages/c4/b8/2a8b4df110b3b219b1cb493f65a094dfbf6010a17da6289111cbc42e906a/ecmind_blue_client-0.7.0.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/80/f3/5247432592ad2e68795cb926171ae7f1ec3d20bf08958e10bcab36e50e6b/swarmauri-0.2.9.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/5a/34/236a84eb8b8121137be058fcd82faa66c33ff6c2c1771f82692614c0055c/gardener_cicd_base-1.2404.0-py3-none-any.whl
+[2024-05-31 08:59:13] INFO root fetch - processPackages [pulumi-random]: Downloading https://files.pythonhosted.org/packages/60/4b/3fbb36b8ea6ee761180821419350808d93a817d302404b35a787b0e12917/pulumi_random-4.9.0a1674773801.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [patchwork-cli]: executing diffoscope
+[2024-05-31 08:59:13] INFO root fetch - processPackages [patchwork-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork_cli-0.0.87.tar.gz tmp/patchwork_cli-0.0.9.tar.gz --markdown 20240531/p/patchwork-cli/0.0.87-0.0.9/README.md --exclude *.pyd
+[2024-05-31 08:59:13] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/27/b1/c8a9e7ddae46adeedc13f0c88257777e2fc98a5177ceae6ea17b740bd368/gardener_cicd_cli-1.2404.0-py3-none-any.whl
+[2024-05-31 08:59:13] INFO root fetch - processPackages [ecmind-blue-client]: executing diffoscope
+[2024-05-31 08:59:13] INFO root fetch - processPackages [ecmind-blue-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecmind_blue_client-0.6.1.tar.gz tmp/ecmind_blue_client-0.7.0.tar.gz --markdown 20240531/e/ecmind-blue-client/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-31 08:59:13] INFO root fetch - processPackages [zhinst]: Downloading https://files.pythonhosted.org/packages/ce/2b/722910322db50263fc141353688d1e6ca9d6c2da50419f1bcc456a54da00/zhinst-24.4.1.tar.gz
+[2024-05-31 08:59:13] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-31 08:59:13] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.8.dev2.tar.gz tmp/swarmauri-0.2.9.tar.gz --markdown 20240531/s/swarmauri/0.2.8.dev2-0.2.9/README.md --exclude *.pyd
+[2024-05-31 08:59:13] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2024-05-31 08:59:13] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20240531/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/README.md --exclude *.pyd
+[2024-05-31 08:59:14] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-31 08:59:14] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2403.0.tar.gz tmp/gardener_cicd_base-1.2404.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-base/1.2403.0-1.2404.0/README.md --exclude *.pyd
+[2024-05-31 08:59:14] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/7f/b9/c2ee7661a1826196b8530735b8096efc07a558d30113ee38e5449f2f8a72/gardener_cicd_dso-1.2404.0-py3-none-any.whl
+[2024-05-31 08:59:14] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-31 08:59:14] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2403.0.tar.gz tmp/gardener_cicd_cli-1.2404.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-cli/1.2403.0-1.2404.0/README.md --exclude *.pyd
+[2024-05-31 08:59:14] INFO root fetch - processPackages [zhinst]: executing diffoscope
+[2024-05-31 08:59:14] INFO root fetch - processPackages [zhinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhinst-24.4.0.tar.gz tmp/zhinst-24.4.1.tar.gz --markdown 20240531/z/zhinst/24.4.0-24.4.1/README.md --exclude *.pyd
+[2024-05-31 08:59:14] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20240510.1-py3-none-any.whl.zip]
+[2024-05-31 08:59:14] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20240530.0-py3-none-any.whl.zip]
+[2024-05-31 08:59:14] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-timesheet]: success
+[2024-05-31 08:59:14] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.1.tar.gz]
+[2024-05-31 08:59:14] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.2.tar.gz]
+[2024-05-31 08:59:14] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
+[2024-05-31 08:59:14] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-31 08:59:14] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2403.0.tar.gz tmp/gardener_cicd_dso-1.2404.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-dso/1.2403.0-1.2404.0/README.md --exclude *.pyd
+[2024-05-31 08:59:14] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2403.0.tar.gz]
+[2024-05-31 08:59:14] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2404.0-py3-none-any.whl.zip]
+[2024-05-31 08:59:14] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-31 08:59:14] INFO root fetch - processPackages [ecmind-blue-client]: Remove: archive file [/home/abi/fetcher/tmp/ecmind_blue_client-0.6.1.tar.gz]
+[2024-05-31 08:59:14] INFO root fetch - processPackages [ecmind-blue-client]: Remove: archive file [/home/abi/fetcher/tmp/ecmind_blue_client-0.7.0.tar.gz]
+[2024-05-31 08:59:14] INFO root fetch - main [MainThread]: End processing [ecmind-blue-client]: success
+[2024-05-31 08:59:14] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1673556316.tar.gz]
+[2024-05-31 08:59:14] INFO root fetch - processPackages [pulumi-random]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_random-4.9.0a1674773801.tar.gz]
+[2024-05-31 08:59:14] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2024-05-31 08:59:14] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2403.0.tar.gz]
+[2024-05-31 08:59:14] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2404.0-py3-none-any.whl.zip]
+[2024-05-31 08:59:14] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-31 08:59:15] INFO root fetch - processPackages [zhinst]: Remove: archive file [/home/abi/fetcher/tmp/zhinst-24.4.0.tar.gz]
+[2024-05-31 08:59:15] INFO root fetch - processPackages [zhinst]: Remove: archive file [/home/abi/fetcher/tmp/zhinst-24.4.1.tar.gz]
+[2024-05-31 08:59:15] INFO root fetch - main [MainThread]: End processing [zhinst]: success
+[2024-05-31 08:59:15] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.87.tar.gz]
+[2024-05-31 08:59:15] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.9.tar.gz]
+[2024-05-31 08:59:15] INFO root fetch - main [MainThread]: End processing [patchwork-cli]: success
+[2024-05-31 08:59:15] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2403.0.tar.gz]
+[2024-05-31 08:59:15] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2404.0-py3-none-any.whl.zip]
+[2024-05-31 08:59:15] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-31 08:59:15] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.8.dev2.tar.gz]
+[2024-05-31 08:59:15] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.9.tar.gz]
+[2024-05-31 08:59:15] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-31 08:59:15] INFO root fetch - main [MainThread]: Store serial: [23461627]
