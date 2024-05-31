@@ -16406,3 +16406,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:17:13] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2408.0-py3-none-any.whl.zip]
 [2024-05-31 13:17:13] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
 [2024-05-31 13:17:13] INFO root fetch - main [MainThread]: Store serial: [23464652]
+[2024-05-31 13:19:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464652]
+[2024-05-31 13:19:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tb-nightly
+[2024-05-31 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kerykeion
+[2024-05-31 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Starco
+[2024-05-31 13:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: changy
+[2024-05-31 13:19:24] INFO root fetch - processPackages [Starco]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-05-31 13:19:24] INFO root fetch - processPackages [kerykeion]: New version: [4.7.0] Old Version: [4.6.2]
+[2024-05-31 13:19:24] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-31 13:19:24] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/11/7c/1cc3c9ef69c9c56b280f7ff0278e571fc5e920d4c40a92aed0c2cf0f1bbc/Starco-3.2.1.tar.gz
+[2024-05-31 13:19:24] INFO root fetch - processPackages [kerykeion]: Downloading https://files.pythonhosted.org/packages/6d/7b/55f6863a2e16f911f19b104b278d6ccc01a8bc093c24fc76b5ae2d027eca/kerykeion-4.6.2.tar.gz
+[2024-05-31 13:19:24] INFO root fetch - processPackages [changy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 13:19:24] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-31 13:19:24] INFO root fetch - processPackages [changy]: Downloading https://files.pythonhosted.org/packages/12/4c/780fc4e77d7385b44952066801ebab6a73fe0b00d691d334dd3993685a17/changy-0.1.1.tar.gz
+[2024-05-31 13:19:24] INFO root fetch - processPackages [kerykeion]: Downloading https://files.pythonhosted.org/packages/87/70/64cdf93b06e4633349bbc65b36f35a5742f51ac70825d605de1a9bdb0c11/kerykeion-4.7.0.tar.gz
+[2024-05-31 13:19:25] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/64/14/b8c6b556fe57166cd22c8209e45e49e4ece235a1009e3ad90aa9528f81c6/Starco-3.2.2.tar.gz
+[2024-05-31 13:19:25] INFO root fetch - processPackages [kerykeion]: executing diffoscope
+[2024-05-31 13:19:25] INFO root fetch - processPackages [kerykeion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kerykeion-4.6.2.tar.gz tmp/kerykeion-4.7.0.tar.gz --markdown 20240531/k/kerykeion/4.6.2-4.7.0/README.md --exclude *.pyd
+[2024-05-31 13:19:25] INFO root fetch - processPackages [Starco]: executing diffoscope
+[2024-05-31 13:19:25] INFO root fetch - processPackages [Starco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Starco-3.2.1.tar.gz tmp/Starco-3.2.2.tar.gz --markdown 20240531/S/Starco/3.2.1-3.2.2/README.md --exclude *.pyd
+[2024-05-31 13:19:25] INFO root fetch - processPackages [changy]: Downloading https://files.pythonhosted.org/packages/69/e8/8529341e209d4a9d405d2680d6e53113a38dc6cabbadb4b399d4747e2a7a/changy-0.1.2.tar.gz
+[2024-05-31 13:19:25] INFO root fetch - processPackages [changy]: executing diffoscope
+[2024-05-31 13:19:25] INFO root fetch - processPackages [changy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changy-0.1.1.tar.gz tmp/changy-0.1.2.tar.gz --markdown 20240531/c/changy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 13:19:25] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.2.1.tar.gz]
+[2024-05-31 13:19:25] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.2.2.tar.gz]
+[2024-05-31 13:19:25] INFO root fetch - main [MainThread]: End processing [Starco]: success
+[2024-05-31 13:19:25] INFO root fetch - processPackages [kerykeion]: Remove: archive file [/home/abi/fetcher/tmp/kerykeion-4.6.2.tar.gz]
+[2024-05-31 13:19:25] INFO root fetch - processPackages [kerykeion]: Remove: archive file [/home/abi/fetcher/tmp/kerykeion-4.7.0.tar.gz]
+[2024-05-31 13:19:25] INFO root fetch - main [MainThread]: End processing [kerykeion]: success
+[2024-05-31 13:19:25] INFO root fetch - processPackages [changy]: Remove: archive file [/home/abi/fetcher/tmp/changy-0.1.1.tar.gz]
+[2024-05-31 13:19:25] INFO root fetch - processPackages [changy]: Remove: archive file [/home/abi/fetcher/tmp/changy-0.1.2.tar.gz]
+[2024-05-31 13:19:25] INFO root fetch - main [MainThread]: End processing [changy]: success
+[2024-05-31 13:19:27] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-31 13:19:27] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-31 13:19:27] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240531/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-31 13:19:29] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-31 13:19:29] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-31 13:19:29] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-31 13:19:29] INFO root fetch - main [MainThread]: Store serial: [23464710]
