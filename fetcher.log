@@ -15006,3 +15006,39 @@
 [2024-05-31 12:19:52] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.5b1.tar.gz]
 [2024-05-31 12:19:52] INFO root fetch - main [MainThread]: End processing [crawlee]: success
 [2024-05-31 12:19:52] INFO root fetch - main [MainThread]: Store serial: [23464080]
+[2024-05-31 12:21:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464080]
+[2024-05-31 12:22:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 12:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaz-pyotp
+[2024-05-31 12:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resages
+[2024-05-31 12:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voxelworldapi
+[2024-05-31 12:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brianmechanisms
+[2024-05-31 12:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-customvueadmin
+[2024-05-31 12:22:01] WARNING root fetch - processPackages [voxelworldapi]: Skipping, unable to determine old version
+[2024-05-31 12:22:01] INFO root fetch - main [MainThread]: End processing [voxelworldapi] error
+[2024-05-31 12:22:01] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 12:22:01] INFO root fetch - processPackages [resages]: New version: [0.2] Old Version: [0.11]
+[2024-05-31 12:22:01] WARNING root fetch - processPackages [yaz-pyotp]: Skipping, unable to determine old version
+[2024-05-31 12:22:01] INFO root fetch - main [MainThread]: End processing [yaz-pyotp] error
+[2024-05-31 12:22:01] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/cd/76/d69f3bcfb225da8b2c3acdf5292ed6ab47bd462797def9763470369a4ccc/django_customvueadmin-0.2.8.tar.gz
+[2024-05-31 12:22:01] INFO root fetch - processPackages [brianmechanisms]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-31 12:22:01] INFO root fetch - processPackages [resages]: Downloading https://files.pythonhosted.org/packages/e5/3d/63f54d1c2e578ec298a55042c2aa308dfd1b479621ad13743b516da2468a/resages-0.11.tar.gz
+[2024-05-31 12:22:01] INFO root fetch - processPackages [brianmechanisms]: Downloading https://files.pythonhosted.org/packages/63/93/c6f64278ccd7c74a173850b99abff6ee1528c10af37d6324c0d27829705a/brianmechanisms-0.1.6.tar.gz
+[2024-05-31 12:22:01] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/ee/7b/bc29ddb1585425e8738f7c46f715bf2633c8fc923eff807dcc4289a75f62/django_customvueadmin-0.2.9.tar.gz
+[2024-05-31 12:22:01] INFO root fetch - processPackages [resages]: Downloading https://files.pythonhosted.org/packages/c0/49/a30ab3215a812998e25716b3c4088094ab9fb8ffa338f3bc1f5a2f43b4d3/resages-0.2.tar.gz
+[2024-05-31 12:22:01] INFO root fetch - processPackages [brianmechanisms]: Downloading https://files.pythonhosted.org/packages/8d/a7/8345507853c1a58a0b07d22fc35de8414a9aaab055dde995102e9c454df6/brianmechanisms-0.1.7.tar.gz
+[2024-05-31 12:22:02] INFO root fetch - processPackages [resages]: executing diffoscope
+[2024-05-31 12:22:02] INFO root fetch - processPackages [resages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resages-0.11.tar.gz tmp/resages-0.2.tar.gz --markdown 20240531/r/resages/0.11-0.2/README.md --exclude *.pyd
+[2024-05-31 12:22:02] INFO root fetch - processPackages [brianmechanisms]: executing diffoscope
+[2024-05-31 12:22:02] INFO root fetch - processPackages [brianmechanisms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brianmechanisms-0.1.6.tar.gz tmp/brianmechanisms-0.1.7.tar.gz --markdown 20240531/b/brianmechanisms/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-31 12:22:02] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-05-31 12:22:02] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_customvueadmin-0.2.8.tar.gz tmp/django_customvueadmin-0.2.9.tar.gz --markdown 20240531/d/django-customvueadmin/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 12:22:02] INFO root fetch - processPackages [resages]: Remove: archive file [/home/abi/fetcher/tmp/resages-0.11.tar.gz]
+[2024-05-31 12:22:02] INFO root fetch - processPackages [resages]: Remove: archive file [/home/abi/fetcher/tmp/resages-0.2.tar.gz]
+[2024-05-31 12:22:02] INFO root fetch - main [MainThread]: End processing [resages]: success
+[2024-05-31 12:22:02] INFO root fetch - processPackages [brianmechanisms]: Remove: archive file [/home/abi/fetcher/tmp/brianmechanisms-0.1.6.tar.gz]
+[2024-05-31 12:22:02] INFO root fetch - processPackages [brianmechanisms]: Remove: archive file [/home/abi/fetcher/tmp/brianmechanisms-0.1.7.tar.gz]
+[2024-05-31 12:22:02] INFO root fetch - main [MainThread]: End processing [brianmechanisms]: success
+[2024-05-31 12:22:26] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.8.tar.gz]
+[2024-05-31 12:22:26] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.9.tar.gz]
+[2024-05-31 12:22:26] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-05-31 12:22:26] INFO root fetch - main [MainThread]: Store serial: [23464106]
