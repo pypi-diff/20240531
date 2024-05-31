@@ -13612,3 +13612,38 @@
 [2024-05-31 11:31:24] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405310929.tar.gz]
 [2024-05-31 11:31:24] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-31 11:31:24] INFO root fetch - main [MainThread]: Store serial: [23463453]
+[2024-05-31 11:33:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463453]
+[2024-05-31 11:33:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 11:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctrip-helper
+[2024-05-31 11:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aily-code-sdk
+[2024-05-31 11:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xinference
+[2024-05-31 11:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2024-05-31 11:33:33] INFO root fetch - processPackages [ctrip-helper]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-31 11:33:33] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/6e/eb/bd7cda5dc23d19fc1a7fd7f2b70409ad194877f5f5553bd11989d8ac0051/ctrip-helper-0.3.5.tar.gz
+[2024-05-31 11:33:33] INFO root fetch - processPackages [aily-code-sdk]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2024-05-31 11:33:33] INFO root fetch - processPackages [xinference]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-31 11:33:33] INFO root fetch - processPackages [kfish]: New version: [99.0.202405310932] Old Version: [99.0.202405292032]
+[2024-05-31 11:33:33] INFO root fetch - processPackages [aily-code-sdk]: Downloading https://files.pythonhosted.org/packages/20/bb/a31babd0b10494383fc31715c5cef7cb53861109f8a4aed1b2cf9972096a/aily_code_sdk-0.1.0b2.tar.gz
+[2024-05-31 11:33:33] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/4f/20/18ca8f4fdf1042e2a6f62625da7822eea401a90019e36e7b0d66b5b83d99/xinference-0.9.3.tar.gz
+[2024-05-31 11:33:33] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/09/51/04a8f939cb9b9147979b73f412148bd6c4e109f1c761aa0641ccb7147ac3/kfish-99.0.202405292032-py3-none-any.whl
+[2024-05-31 11:33:33] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/cf/46/d97e8832052044458d2b6a2f473f6b663fa1595f3a0277f03abec84c1512/ctrip-helper-0.3.6.tar.gz
+[2024-05-31 11:33:33] WARNING root fetch - processPackages [xinference]: Skipping package: exceeds size limit 12053117>=10485760
+[2024-05-31 11:33:33] INFO root fetch - main [MainThread]: End processing [xinference] error
+[2024-05-31 11:33:34] INFO root fetch - processPackages [aily-code-sdk]: Downloading https://files.pythonhosted.org/packages/0c/5c/494d24c10fb27e92f515485f4031bb6a00cfbe937bff1dc3723879a80f01/aily_code_sdk-0.1.0b3.tar.gz
+[2024-05-31 11:33:34] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d8/4a/e64c69202da108537a755cb7df1ff8c9e3b8ee26cff011011cfa90eff42e/kfish-99.0.202405310932-py3-none-any.whl
+[2024-05-31 11:33:34] INFO root fetch - processPackages [aily-code-sdk]: executing diffoscope
+[2024-05-31 11:33:34] INFO root fetch - processPackages [aily-code-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_code_sdk-0.1.0b2.tar.gz tmp/aily_code_sdk-0.1.0b3.tar.gz --markdown 20240531/a/aily-code-sdk/0.1.0b2-0.1.0b3/README.md --exclude *.pyd
+[2024-05-31 11:33:34] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-31 11:33:34] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405292032-py3-none-any.whl.zip tmp/kfish-99.0.202405310932-py3-none-any.whl.zip --markdown 20240531/k/kfish/99.0.202405292032-99.0.202405310932/README.md --exclude *.pyd
+[2024-05-31 11:33:34] INFO root fetch - processPackages [aily-code-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk-0.1.0b2.tar.gz]
+[2024-05-31 11:33:34] INFO root fetch - processPackages [aily-code-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_code_sdk-0.1.0b3.tar.gz]
+[2024-05-31 11:33:34] INFO root fetch - main [MainThread]: End processing [aily-code-sdk]: success
+[2024-05-31 11:33:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405292032-py3-none-any.whl.zip]
+[2024-05-31 11:33:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405310932-py3-none-any.whl.zip]
+[2024-05-31 11:33:34] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-31 11:33:37] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 11:33:37] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.3.5.tar.gz tmp/ctrip-helper-0.3.6.tar.gz --markdown 20240531/c/ctrip-helper/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-31 11:33:37] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.5.tar.gz]
+[2024-05-31 11:33:37] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.6.tar.gz]
+[2024-05-31 11:33:37] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 11:33:37] INFO root fetch - main [MainThread]: Store serial: [23463463]
