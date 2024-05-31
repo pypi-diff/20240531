@@ -14836,3 +14836,66 @@
 [2024-05-31 12:13:20] INFO root fetch - processPackages [hydromt]: Remove: archive file [/home/abi/fetcher/tmp/hydromt-0.9.4.tar.gz]
 [2024-05-31 12:13:20] INFO root fetch - main [MainThread]: End processing [hydromt]: success
 [2024-05-31 12:13:20] INFO root fetch - main [MainThread]: Store serial: [23463996]
+[2024-05-31 12:15:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463996]
+[2024-05-31 12:15:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-05-31 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scipion-em-motioncorr
+[2024-05-31 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lindi
+[2024-05-31 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: youqu-imagecenter-rpc
+[2024-05-31 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-edge-torch-nightly
+[2024-05-31 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dxsp
+[2024-05-31 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atomic-bomb-engine
+[2024-05-31 12:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eqlm
+[2024-05-31 12:15:29] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-31 12:15:29] WARNING root fetch - processPackages [eqlm]: Skipping, unable to determine old version
+[2024-05-31 12:15:29] INFO root fetch - main [MainThread]: End processing [eqlm] error
+[2024-05-31 12:15:29] INFO root fetch - processPackages [ai-edge-torch-nightly]: New version: [0.2.0.dev20240531] Old Version: [0.2.0.dev20240527]
+[2024-05-31 12:15:29] INFO root fetch - processPackages [scipion-em-motioncorr]: New version: [3.9] Old Version: [3.8]
+[2024-05-31 12:15:29] WARNING root fetch - processPackages [youqu-imagecenter-rpc]: Skipping, unable to determine old version
+[2024-05-31 12:15:29] INFO root fetch - main [MainThread]: End processing [youqu-imagecenter-rpc] error
+[2024-05-31 12:15:29] INFO root fetch - processPackages [lindi]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 12:15:29] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-31 12:15:29] INFO root fetch - processPackages [dxsp]: New version: [9.0.7] Old Version: [9.0.6]
+[2024-05-31 12:15:29] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 12:15:29] INFO root fetch - processPackages [ai-edge-torch-nightly]: Downloading https://files.pythonhosted.org/packages/07/b3/c784e76f31cf285a953ace44a6f56f284d2f71f9e16dd117a5e96177e3a7/ai_edge_torch_nightly-0.2.0.dev20240527-py3-none-any.whl
+[2024-05-31 12:15:29] INFO root fetch - processPackages [scipion-em-motioncorr]: Downloading https://files.pythonhosted.org/packages/4e/5e/1524e55cbb1d407a41968009612ef702dfb3225c519d25ec69ae059974ec/scipion-em-motioncorr-3.8.tar.gz
+[2024-05-31 12:15:29] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/01/3a/2b3894eb3ba10c7212a2b34f66a761bbf55511c5406da6cc9671343148b1/lindi-0.3.8.tar.gz
+[2024-05-31 12:15:29] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a1/1f/4b20f69e5b75066726b10760e4d553170d395263325ba26fe170c2978d0b/dxsp-9.0.6.tar.gz
+[2024-05-31 12:15:29] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-05-31 12:15:29] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-31 12:15:29] INFO root fetch - processPackages [ai-edge-torch-nightly]: Downloading https://files.pythonhosted.org/packages/7c/22/2555f54e062a268c8f8b6b37241bb5fc34377efd288fbe99ce29c6b89112/ai_edge_torch_nightly-0.2.0.dev20240531-py3-none-any.whl
+[2024-05-31 12:15:29] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/26/a9/ffb8586375c995f9f33314da1c95c7fdd72eca33c29c1fa3bc77eff4757a/lindi-0.3.9.tar.gz
+[2024-05-31 12:15:29] INFO root fetch - processPackages [scipion-em-motioncorr]: Downloading https://files.pythonhosted.org/packages/8f/7b/78b9b5e37ac9d4f03364a6e6070b17eed8ebdbfa541b94fba26721d3845b/scipion-em-motioncorr-3.9.tar.gz
+[2024-05-31 12:15:29] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/c1/02/3119800c1eceb087f71694d8f6d21bce46ec401d2511bf92ed3ee83d9db4/dxsp-9.0.7.tar.gz
+[2024-05-31 12:15:29] INFO root fetch - processPackages [lindi]: executing diffoscope
+[2024-05-31 12:15:29] INFO root fetch - processPackages [lindi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lindi-0.3.8.tar.gz tmp/lindi-0.3.9.tar.gz --markdown 20240531/l/lindi/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 12:15:29] INFO root fetch - processPackages [scipion-em-motioncorr]: executing diffoscope
+[2024-05-31 12:15:29] INFO root fetch - processPackages [scipion-em-motioncorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-motioncorr-3.8.tar.gz tmp/scipion-em-motioncorr-3.9.tar.gz --markdown 20240531/s/scipion-em-motioncorr/3.8-3.9/README.md --exclude *.pyd
+[2024-05-31 12:15:30] INFO root fetch - processPackages [ai-edge-torch-nightly]: executing diffoscope
+[2024-05-31 12:15:30] INFO root fetch - processPackages [ai-edge-torch-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_edge_torch_nightly-0.2.0.dev20240527-py3-none-any.whl.zip tmp/ai_edge_torch_nightly-0.2.0.dev20240531-py3-none-any.whl.zip --markdown 20240531/a/ai-edge-torch-nightly/0.2.0.dev20240527-0.2.0.dev20240531/README.md --exclude *.pyd
+[2024-05-31 12:15:30] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2024-05-31 12:15:30] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-9.0.6.tar.gz tmp/dxsp-9.0.7.tar.gz --markdown 20240531/d/dxsp/9.0.6-9.0.7/README.md --exclude *.pyd
+[2024-05-31 12:15:30] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-31 12:15:30] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240531/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-31 12:15:30] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.8.tar.gz]
+[2024-05-31 12:15:30] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.9.tar.gz]
+[2024-05-31 12:15:30] INFO root fetch - main [MainThread]: End processing [lindi]: success
+[2024-05-31 12:15:30] INFO root fetch - processPackages [scipion-em-motioncorr]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-motioncorr-3.8.tar.gz]
+[2024-05-31 12:15:30] INFO root fetch - processPackages [scipion-em-motioncorr]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-motioncorr-3.9.tar.gz]
+[2024-05-31 12:15:30] INFO root fetch - main [MainThread]: End processing [scipion-em-motioncorr]: success
+[2024-05-31 12:15:30] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.6.tar.gz]
+[2024-05-31 12:15:30] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.7.tar.gz]
+[2024-05-31 12:15:30] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2024-05-31 12:15:30] INFO root fetch - processPackages [ai-edge-torch-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch_nightly-0.2.0.dev20240527-py3-none-any.whl.zip]
+[2024-05-31 12:15:30] INFO root fetch - processPackages [ai-edge-torch-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch_nightly-0.2.0.dev20240531-py3-none-any.whl.zip]
+[2024-05-31 12:15:30] INFO root fetch - main [MainThread]: End processing [ai-edge-torch-nightly]: success
+[2024-05-31 12:15:31] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-05-31 12:15:31] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-31 12:15:31] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-31 12:15:31] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-31 12:15:31] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-05-31 12:15:31] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240531/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 12:15:32] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-05-31 12:15:32] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-05-31 12:15:32] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-05-31 12:15:32] INFO root fetch - main [MainThread]: Store serial: [23464030]
