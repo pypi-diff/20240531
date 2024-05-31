@@ -9205,3 +9205,55 @@
 [2024-05-31 08:28:05] INFO root fetch - processPackages [pulumi-nomad]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_nomad-2.3.0a1717135346.tar.gz]
 [2024-05-31 08:28:05] INFO root fetch - main [MainThread]: End processing [pulumi-nomad]: success
 [2024-05-31 08:28:05] INFO root fetch - main [MainThread]: Store serial: [23461308]
+[2024-05-31 08:30:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461308]
+[2024-05-31 08:30:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rockai-cli-app
+[2024-05-31 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bundestag-api
+[2024-05-31 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rockai-cli-app
+[2024-05-31 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: colorcall
+[2024-05-31 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fundamend
+[2024-05-31 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oslili
+[2024-05-31 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shgpt
+[2024-05-31 08:30:13] INFO root fetch - processPackages [fundamend]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-31 08:30:13] WARNING root fetch - processPackages [shgpt]: Skipping, unable to determine old version
+[2024-05-31 08:30:13] INFO root fetch - main [MainThread]: End processing [shgpt] error
+[2024-05-31 08:30:13] INFO root fetch - processPackages [bundestag-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-31 08:30:13] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 08:30:13] INFO root fetch - processPackages [oslili]: New version: [0.9] Old Version: [0.8]
+[2024-05-31 08:30:13] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 08:30:13] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-05-31 08:30:13] INFO root fetch - processPackages [fundamend]: Downloading https://files.pythonhosted.org/packages/e8/5d/a0415165544f34bd4369ad5a1eb05fd8e686cf98de7c30944f66f7318aaa/fundamend-0.1.1.tar.gz
+[2024-05-31 08:30:13] INFO root fetch - processPackages [bundestag-api]: Downloading https://files.pythonhosted.org/packages/20/76/2a95f8b7c01b2ec2717c090fc151d4c7b3813cfc33be70e5f3a4260c6406/bundestag_api-1.0.4.tar.gz
+[2024-05-31 08:30:13] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-05-31 08:30:14] WARNING root fetch - processPackages [colorcall]: Skipping, unable to determine old version
+[2024-05-31 08:30:14] INFO root fetch - main [MainThread]: End processing [colorcall] error
+[2024-05-31 08:30:14] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/d6/16/83bff826f4da072f185d73330a5c376a0184abffaf881f9cd0fe3cf99c9d/oslili-0.8.tar.gz
+[2024-05-31 08:30:14] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-05-31 08:30:14] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-05-31 08:30:14] INFO root fetch - processPackages [fundamend]: Downloading https://files.pythonhosted.org/packages/35/b1/c0e9bbe12551e778f0da51014b36204a0c62e6d62c2c072bdc2df8ec8cbd/fundamend-0.2.0.tar.gz
+[2024-05-31 08:30:14] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/16/35/75451c56b958f6d6563938b387adf36fd45d4211a37705096e1c5a7c8065/oslili-0.9.tar.gz
+[2024-05-31 08:30:14] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-31 08:30:14] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240531/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 08:30:14] INFO root fetch - processPackages [bundestag-api]: Downloading https://files.pythonhosted.org/packages/a1/13/9bcf88333f934993583c65397e82efc07c69a22a0ecc74a4c6e6adf4e8b8/bundestag_api-1.0.5.tar.gz
+[2024-05-31 08:30:14] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-31 08:30:14] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240531/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 08:30:14] INFO root fetch - processPackages [fundamend]: executing diffoscope
+[2024-05-31 08:30:14] INFO root fetch - processPackages [fundamend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundamend-0.1.1.tar.gz tmp/fundamend-0.2.0.tar.gz --markdown 20240531/f/fundamend/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-31 08:30:14] INFO root fetch - processPackages [bundestag-api]: executing diffoscope
+[2024-05-31 08:30:14] INFO root fetch - processPackages [bundestag-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bundestag_api-1.0.4.tar.gz tmp/bundestag_api-1.0.5.tar.gz --markdown 20240531/b/bundestag-api/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-31 08:30:14] INFO root fetch - processPackages [oslili]: executing diffoscope
+[2024-05-31 08:30:14] INFO root fetch - processPackages [oslili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslili-0.8.tar.gz tmp/oslili-0.9.tar.gz --markdown 20240531/o/oslili/0.8-0.9/README.md --exclude *.pyd
+[2024-05-31 08:30:14] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-05-31 08:30:14] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-05-31 08:30:14] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-31 08:30:14] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-31 08:30:15] INFO root fetch - processPackages [fundamend]: Remove: archive file [/home/abi/fetcher/tmp/fundamend-0.1.1.tar.gz]
+[2024-05-31 08:30:15] INFO root fetch - processPackages [fundamend]: Remove: archive file [/home/abi/fetcher/tmp/fundamend-0.2.0.tar.gz]
+[2024-05-31 08:30:15] INFO root fetch - main [MainThread]: End processing [fundamend]: success
+[2024-05-31 08:30:15] INFO root fetch - processPackages [bundestag-api]: Remove: archive file [/home/abi/fetcher/tmp/bundestag_api-1.0.4.tar.gz]
+[2024-05-31 08:30:15] INFO root fetch - processPackages [bundestag-api]: Remove: archive file [/home/abi/fetcher/tmp/bundestag_api-1.0.5.tar.gz]
+[2024-05-31 08:30:15] INFO root fetch - main [MainThread]: End processing [bundestag-api]: success
+[2024-05-31 08:30:17] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.8.tar.gz]
+[2024-05-31 08:30:17] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.9.tar.gz]
+[2024-05-31 08:30:17] INFO root fetch - main [MainThread]: End processing [oslili]: success
+[2024-05-31 08:30:17] INFO root fetch - main [MainThread]: Store serial: [23461347]
