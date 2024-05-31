@@ -3717,3 +3717,15 @@
 [2024-05-31 03:01:57] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
 [2024-05-31 03:01:57] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-05-31 03:01:57] INFO root fetch - main [MainThread]: Store serial: [23459037]
+[2024-05-31 03:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459037]
+[2024-05-31 03:04:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-31 03:04:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtlib
+[2024-05-31 03:04:05] INFO root fetch - processPackages [xtlib]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2024-05-31 03:04:05] INFO root fetch - processPackages [xtlib]: Downloading https://files.pythonhosted.org/packages/ef/88/6f35605035024352f94de86919c8fb01a5172145653a1f3dd1f7638fe591/xtlib-1.0.0rc1.tar.gz
+[2024-05-31 03:04:07] INFO root fetch - processPackages [xtlib]: Downloading https://files.pythonhosted.org/packages/a0/01/df0f30261ee9fe10bb00ddc29344ae6aa0d8582eb47a23769c06bc782080/xtlib-1.0.0rc2.tar.gz
+[2024-05-31 03:04:07] INFO root fetch - processPackages [xtlib]: executing diffoscope
+[2024-05-31 03:04:07] INFO root fetch - processPackages [xtlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtlib-1.0.0rc1.tar.gz tmp/xtlib-1.0.0rc2.tar.gz --markdown 20240531/x/xtlib/1.0.0rc1-1.0.0rc2/README.md --exclude *.pyd
+[2024-05-31 03:04:08] INFO root fetch - processPackages [xtlib]: Remove: archive file [/home/abi/fetcher/tmp/xtlib-1.0.0rc1.tar.gz]
+[2024-05-31 03:04:08] INFO root fetch - processPackages [xtlib]: Remove: archive file [/home/abi/fetcher/tmp/xtlib-1.0.0rc2.tar.gz]
+[2024-05-31 03:04:08] INFO root fetch - main [MainThread]: End processing [xtlib]: success
+[2024-05-31 03:04:08] INFO root fetch - main [MainThread]: Store serial: [23459040]
