@@ -3391,3 +3391,36 @@
 [2024-05-31 02:41:57] INFO root fetch - processPackages [pinnacle-cli]: Remove: archive file [/home/abi/fetcher/tmp/pinnacle_cli-0.0.2a2.tar.gz]
 [2024-05-31 02:41:57] INFO root fetch - main [MainThread]: End processing [pinnacle-cli]: success
 [2024-05-31 02:41:57] INFO root fetch - main [MainThread]: Store serial: [23458908]
+[2024-05-31 02:44:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458908]
+[2024-05-31 02:44:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 02:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandas2redshift
+[2024-05-31 02:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rockai-cli-app
+[2024-05-31 02:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdss-cherno
+[2024-05-31 02:44:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yt-libyt
+[2024-05-31 02:44:05] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 02:44:05] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-05-31 02:44:05] INFO root fetch - processPackages [sdss-cherno]: New version: [1.0.0] Old Version: [0.6.9]
+[2024-05-31 02:44:05] INFO root fetch - processPackages [yt-libyt]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-31 02:44:05] WARNING root fetch - processPackages [pandas2redshift]: Skipping, unable to determine old version
+[2024-05-31 02:44:05] INFO root fetch - main [MainThread]: End processing [pandas2redshift] error
+[2024-05-31 02:44:05] INFO root fetch - processPackages [sdss-cherno]: Downloading https://files.pythonhosted.org/packages/32/41/be8c28ae2e6905ca415ee27c349bbffe847a8a3fb751dc44d03e2d5f2095/sdss_cherno-0.6.9.tar.gz
+[2024-05-31 02:44:05] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-05-31 02:44:05] INFO root fetch - processPackages [yt-libyt]: Downloading https://files.pythonhosted.org/packages/7f/40/cbc6ec88a79e91fb0f7d90a2fee9f50c89eb08df9a2b09c73fc2b304ab77/yt_libyt-0.0.7.tar.gz
+[2024-05-31 02:44:05] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-31 02:44:05] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240531/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 02:44:06] INFO root fetch - processPackages [sdss-cherno]: Downloading https://files.pythonhosted.org/packages/88/95/dadf5487e7516acf5b3baae5ff07a896b98a00d781d7bbdd40f82b3730b5/sdss_cherno-1.0.0.tar.gz
+[2024-05-31 02:44:06] INFO root fetch - processPackages [yt-libyt]: Downloading https://files.pythonhosted.org/packages/a6/00/1d6be3869ce7fea3cbc6f39954cbe5cdc73f4313e74b861ece51aeb6a4f3/yt_libyt-0.0.8.tar.gz
+[2024-05-31 02:44:06] INFO root fetch - processPackages [sdss-cherno]: executing diffoscope
+[2024-05-31 02:44:06] INFO root fetch - processPackages [sdss-cherno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_cherno-0.6.9.tar.gz tmp/sdss_cherno-1.0.0.tar.gz --markdown 20240531/s/sdss-cherno/0.6.9-1.0.0/README.md --exclude *.pyd
+[2024-05-31 02:44:06] INFO root fetch - processPackages [yt-libyt]: executing diffoscope
+[2024-05-31 02:44:06] INFO root fetch - processPackages [yt-libyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_libyt-0.0.7.tar.gz tmp/yt_libyt-0.0.8.tar.gz --markdown 20240531/y/yt-libyt/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-31 02:44:06] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-05-31 02:44:06] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-05-31 02:44:06] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-31 02:44:06] INFO root fetch - processPackages [sdss-cherno]: Remove: archive file [/home/abi/fetcher/tmp/sdss_cherno-0.6.9.tar.gz]
+[2024-05-31 02:44:06] INFO root fetch - processPackages [sdss-cherno]: Remove: archive file [/home/abi/fetcher/tmp/sdss_cherno-1.0.0.tar.gz]
+[2024-05-31 02:44:06] INFO root fetch - main [MainThread]: End processing [sdss-cherno]: success
+[2024-05-31 02:44:06] INFO root fetch - processPackages [yt-libyt]: Remove: archive file [/home/abi/fetcher/tmp/yt_libyt-0.0.7.tar.gz]
+[2024-05-31 02:44:06] INFO root fetch - processPackages [yt-libyt]: Remove: archive file [/home/abi/fetcher/tmp/yt_libyt-0.0.8.tar.gz]
+[2024-05-31 02:44:06] INFO root fetch - main [MainThread]: End processing [yt-libyt]: success
+[2024-05-31 02:44:06] INFO root fetch - main [MainThread]: Store serial: [23458922]
