@@ -3210,3 +3210,61 @@
 [2024-05-31 02:28:44] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.4.tar.gz]
 [2024-05-31 02:28:44] INFO root fetch - main [MainThread]: End processing [ladybug-grasshopper]: success
 [2024-05-31 02:28:44] INFO root fetch - main [MainThread]: Store serial: [23458784]
+[2024-05-31 02:30:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23458784]
+[2024-05-31 02:30:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 02:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2024-05-31 02:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-grasshopper
+[2024-05-31 02:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-31 02:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anne
+[2024-05-31 02:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-31 02:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lb-user
+[2024-05-31 02:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandas2redshift
+[2024-05-31 02:30:53] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-31 02:30:53] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-31 02:30:53] INFO root fetch - processPackages [pandas2redshift]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 02:30:53] INFO root fetch - processPackages [anne]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-31 02:30:53] WARNING root fetch - processPackages [lb-user]: Skipping, unable to determine old version
+[2024-05-31 02:30:53] INFO root fetch - main [MainThread]: End processing [lb-user] error
+[2024-05-31 02:30:53] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.30a1717109630] Old Version: [0.0.30a1717109610]
+[2024-05-31 02:30:53] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.30a1717109630] Old Version: [0.0.30a1717109610]
+[2024-05-31 02:30:53] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/85/4b/b7b2a31765980f121c7dca9cd1353afc8fd947ace9f87b8f902620819061/lbt-grasshopper-1.8.8.tar.gz
+[2024-05-31 02:30:53] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-31 02:30:53] INFO root fetch - processPackages [pandas2redshift]: Downloading https://files.pythonhosted.org/packages/23/29/9ce8602ed98d06521b4cbbb4d4d496355aaa7311e4e0882f350042eb57dc/pandas2redshift-0.0.1.tar.gz
+[2024-05-31 02:30:53] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/3e/12/01d2ccf284c8f5ef54b3c08d3908176c8059b33afd33ba70d5681ed9bc58/pulumi_kubernetes_the_hard_way-0.0.30a1717109610.tar.gz
+[2024-05-31 02:30:53] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/3e/12/01d2ccf284c8f5ef54b3c08d3908176c8059b33afd33ba70d5681ed9bc58/pulumi_kubernetes_the_hard_way-0.0.30a1717109610.tar.gz
+[2024-05-31 02:30:53] INFO root fetch - processPackages [anne]: Downloading https://files.pythonhosted.org/packages/c0/ad/c0d620ebd5e8698fb3b8bab7a075f2030d2cef86ac52f6512dabc94fce5b/anne-1.0.0.tar.gz
+[2024-05-31 02:30:53] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/8f/43/14eede1d5162f900e97c330a2f83ad3cef64b06f36216364f0012886cf75/lbt-grasshopper-1.8.9.tar.gz
+[2024-05-31 02:30:53] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-31 02:30:53] INFO root fetch - processPackages [pandas2redshift]: Downloading https://files.pythonhosted.org/packages/cf/db/a370ef670bf83e8b9a7e910f8b28e2e6925a4d5f1368fbc8f5ef9e42d683/pandas2redshift-0.0.2.tar.gz
+[2024-05-31 02:30:53] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2024-05-31 02:30:53] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.8.8.tar.gz tmp/lbt-grasshopper-1.8.9.tar.gz --markdown 20240531/l/lbt-grasshopper/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-31 02:30:53] INFO root fetch - processPackages [anne]: Downloading https://files.pythonhosted.org/packages/95/8e/bc4c27e6452b98d74fd32dfba4224fdf66bacdbd73b50114e8b6d30193b2/anne-1.0.1.tar.gz
+[2024-05-31 02:30:53] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-31 02:30:53] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240531/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-31 02:30:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/10/98/29c1ef2bd7c6c3c909f8c6c327a80737a6fb246a47a0b4bcfee29ebd9ab3/pulumi_kubernetes_the_hard_way-0.0.30a1717109630.tar.gz
+[2024-05-31 02:30:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/10/98/29c1ef2bd7c6c3c909f8c6c327a80737a6fb246a47a0b4bcfee29ebd9ab3/pulumi_kubernetes_the_hard_way-0.0.30a1717109630.tar.gz
+[2024-05-31 02:30:54] INFO root fetch - processPackages [anne]: executing diffoscope
+[2024-05-31 02:30:54] INFO root fetch - processPackages [anne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anne-1.0.0.tar.gz tmp/anne-1.0.1.tar.gz --markdown 20240531/a/anne/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-31 02:30:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-31 02:30:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.30a1717109610.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.30a1717109630.tar.gz --markdown 20240531/p/pulumi-kubernetes-the-hard-way/0.0.30a1717109610-0.0.30a1717109630/README.md --exclude *.pyd
+[2024-05-31 02:30:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-31 02:30:54] INFO root fetch - processPackages [pandas2redshift]: executing diffoscope
+[2024-05-31 02:30:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.30a1717109610.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.30a1717109630.tar.gz --markdown 20240531/p/pulumi-kubernetes-the-hard-way/0.0.30a1717109610-0.0.30a1717109630/README.md --exclude *.pyd
+[2024-05-31 02:30:54] INFO root fetch - processPackages [pandas2redshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas2redshift-0.0.1.tar.gz tmp/pandas2redshift-0.0.2.tar.gz --markdown 20240531/p/pandas2redshift/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 02:30:54] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.8.tar.gz]
+[2024-05-31 02:30:54] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.9.tar.gz]
+[2024-05-31 02:30:54] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2024-05-31 02:30:54] INFO root fetch - processPackages [anne]: Remove: archive file [/home/abi/fetcher/tmp/anne-1.0.0.tar.gz]
+[2024-05-31 02:30:54] INFO root fetch - processPackages [anne]: Remove: archive file [/home/abi/fetcher/tmp/anne-1.0.1.tar.gz]
+[2024-05-31 02:30:54] INFO root fetch - main [MainThread]: End processing [anne]: success
+[2024-05-31 02:30:54] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-31 02:30:54] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-31 02:30:54] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-31 02:30:54] INFO root fetch - processPackages [pandas2redshift]: Remove: archive file [/home/abi/fetcher/tmp/pandas2redshift-0.0.1.tar.gz]
+[2024-05-31 02:30:54] INFO root fetch - processPackages [pandas2redshift]: Remove: archive file [/home/abi/fetcher/tmp/pandas2redshift-0.0.2.tar.gz]
+[2024-05-31 02:30:54] INFO root fetch - main [MainThread]: End processing [pandas2redshift]: success
+[2024-05-31 02:30:55] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.30a1717109610.tar.gz]
+[2024-05-31 02:30:55] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.30a1717109630.tar.gz]
+[2024-05-31 02:30:55] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-31 02:30:55] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-31 02:30:55] INFO root fetch - main [MainThread]: Store serial: [23458808]
