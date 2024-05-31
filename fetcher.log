@@ -11937,3 +11937,33 @@
 [2024-05-31 10:20:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-31 10:20:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-31 10:20:23] INFO root fetch - main [MainThread]: Store serial: [23462686]
+[2024-05-31 10:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462686]
+[2024-05-31 10:22:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgcooldown
+[2024-05-31 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluecast
+[2024-05-31 10:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyiArduinoI2Cbumper
+[2024-05-31 10:22:32] INFO root fetch - processPackages [pgcooldown]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-31 10:22:32] INFO root fetch - processPackages [pyiArduinoI2Cbumper]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-31 10:22:32] INFO root fetch - processPackages [bluecast]: New version: [1.3.6] Old Version: [1.2.4]
+[2024-05-31 10:22:32] INFO root fetch - processPackages [pgcooldown]: Downloading https://files.pythonhosted.org/packages/9a/68/a27ea748d80b497c5f0a2fe4f8302afa2dfee10a677df67a6c309fe15200/pgcooldown-0.2.8.tar.gz
+[2024-05-31 10:22:33] INFO root fetch - processPackages [pyiArduinoI2Cbumper]: Downloading https://files.pythonhosted.org/packages/a4/4f/02a3ce738da872c065a41663cb280b401a9d41df8ee767bdd47d773a7b1c/pyiArduinoI2Cbumper-1.0.0.tar.gz
+[2024-05-31 10:22:33] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/89/2f/e7086c436931558ba61660f6fe0e74836903f42ff438abd31d907f534c58/bluecast-1.2.4.tar.gz
+[2024-05-31 10:22:33] INFO root fetch - processPackages [pgcooldown]: Downloading https://files.pythonhosted.org/packages/03/79/8636956687f54fadc3691d50632d16527dda859d0f4c6a14da13b50c1048/pgcooldown-0.2.9.tar.gz
+[2024-05-31 10:22:33] INFO root fetch - processPackages [pgcooldown]: executing diffoscope
+[2024-05-31 10:22:33] INFO root fetch - processPackages [pgcooldown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgcooldown-0.2.8.tar.gz tmp/pgcooldown-0.2.9.tar.gz --markdown 20240531/p/pgcooldown/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-31 10:22:33] INFO root fetch - processPackages [pyiArduinoI2Cbumper]: Downloading https://files.pythonhosted.org/packages/a9/19/aac6983f05b8c8382d8d24192f9e1a9e2d649b30dcf76c3ab5c3b72d489e/pyiArduinoI2Cbumper-1.0.1.tar.gz
+[2024-05-31 10:22:33] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/33/bb/e42bfba16fc2531f578bad4b3982a08244898fe4fbf09b22ce73e76b8695/bluecast-1.3.6.tar.gz
+[2024-05-31 10:22:33] INFO root fetch - processPackages [bluecast]: executing diffoscope
+[2024-05-31 10:22:33] INFO root fetch - processPackages [bluecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecast-1.2.4.tar.gz tmp/bluecast-1.3.6.tar.gz --markdown 20240531/b/bluecast/1.2.4-1.3.6/README.md --exclude *.pyd
+[2024-05-31 10:22:33] INFO root fetch - processPackages [pyiArduinoI2Cbumper]: executing diffoscope
+[2024-05-31 10:22:33] INFO root fetch - processPackages [pyiArduinoI2Cbumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiArduinoI2Cbumper-1.0.0.tar.gz tmp/pyiArduinoI2Cbumper-1.0.1.tar.gz --markdown 20240531/p/pyiArduinoI2Cbumper/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-31 10:22:33] INFO root fetch - processPackages [pgcooldown]: Remove: archive file [/home/abi/fetcher/tmp/pgcooldown-0.2.8.tar.gz]
+[2024-05-31 10:22:33] INFO root fetch - processPackages [pgcooldown]: Remove: archive file [/home/abi/fetcher/tmp/pgcooldown-0.2.9.tar.gz]
+[2024-05-31 10:22:33] INFO root fetch - main [MainThread]: End processing [pgcooldown]: success
+[2024-05-31 10:22:34] INFO root fetch - processPackages [pyiArduinoI2Cbumper]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cbumper-1.0.0.tar.gz]
+[2024-05-31 10:22:34] INFO root fetch - processPackages [pyiArduinoI2Cbumper]: Remove: archive file [/home/abi/fetcher/tmp/pyiArduinoI2Cbumper-1.0.1.tar.gz]
+[2024-05-31 10:22:34] INFO root fetch - main [MainThread]: End processing [pyiArduinoI2Cbumper]: success
+[2024-05-31 10:22:34] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-1.2.4.tar.gz]
+[2024-05-31 10:22:34] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-1.3.6.tar.gz]
+[2024-05-31 10:22:34] INFO root fetch - main [MainThread]: End processing [bluecast]: success
+[2024-05-31 10:22:34] INFO root fetch - main [MainThread]: Store serial: [23462695]
