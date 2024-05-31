@@ -8951,3 +8951,59 @@
 [2024-05-31 08:14:59] INFO root fetch - processPackages [smol_k8s_lab]: Remove: archive file [/home/abi/fetcher/tmp/smol_k8s_lab-5.3.1.tar.gz]
 [2024-05-31 08:14:59] INFO root fetch - main [MainThread]: End processing [smol_k8s_lab]: success
 [2024-05-31 08:14:59] INFO root fetch - main [MainThread]: Store serial: [23461173]
+[2024-05-31 08:17:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461173]
+[2024-05-31 08:17:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 08:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slackblocks
+[2024-05-31 08:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyerualjetwork
+[2024-05-31 08:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-linode
+[2024-05-31 08:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PySimultan
+[2024-05-31 08:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slizaiupload
+[2024-05-31 08:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyg-nightly
+[2024-05-31 08:17:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-f5bigip
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-31 08:17:08] INFO root fetch - processPackages [PySimultan]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240530] Old Version: [2.6.0.dev20240529]
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pulumi-f5bigip]: New version: [3.9.0a1661535806] Old Version: [3.9.0a1654086391]
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/a5/92/de035b8dc001843f0ba1976546c440aa3a130e0f015a1ca9aaf96b1a48fd/pyerualjetwork-1.3.7.tar.gz
+[2024-05-31 08:17:08] WARNING root fetch - processPackages [slizaiupload]: Skipping, unable to determine old version
+[2024-05-31 08:17:08] INFO root fetch - main [MainThread]: End processing [slizaiupload] error
+[2024-05-31 08:17:08] INFO root fetch - processPackages [slackblocks]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pulumi-linode]: New version: [4.9.1] Old Version: [4.9.0a1700248892]
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/18/06/ca121b6f3212022ebd7cc8f48ee020bdaa8668ecd0f9ba4c4c903024adde/pyg_nightly-2.6.0.dev20240529.tar.gz
+[2024-05-31 08:17:08] INFO root fetch - processPackages [PySimultan]: Downloading https://files.pythonhosted.org/packages/29/f4/1a8d261e9d862afd0bcce6fb6f5f67710bd9bd79827a8ce207b3b560e793/pysimultan-0.2.7.tar.gz
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/80/30/a8f0c17436ad6bc5580473fb6cbaf5a135b8828a6bdaacc76510bfd52499/pulumi_f5bigip-3.9.0a1654086391.tar.gz
+[2024-05-31 08:17:08] INFO root fetch - processPackages [slackblocks]: Downloading https://files.pythonhosted.org/packages/5f/e8/207b465a6dfcd7cdbbd81bf42e88457e9f23ed9fbaf67343c1e017fc82bf/slackblocks-1.0.8.tar.gz
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/df/eb/e8d27e31574126cebb3db17960087d6e1cf94c88143b981d26b7b94fef71/pulumi_linode-4.9.0a1700248892.tar.gz
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/d7/11/9ce610ea171ee66ecd75e5ff96ca87d4f1bb7ff19eecce6ec9f3cf5c13b7/pyerualjetwork-1.3.8.tar.gz
+[2024-05-31 08:17:08] WARNING root fetch - processPackages [PySimultan]: Skipping package: exceeds size limit 12483792>=10485760
+[2024-05-31 08:17:08] INFO root fetch - main [MainThread]: End processing [PySimultan] error
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e9/f7/895ecf14984a184486f39a3b5c4b78c3e5477a7157d526701134ddbcc472/pyg_nightly-2.6.0.dev20240530.tar.gz
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-31 08:17:08] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.3.7.tar.gz tmp/pyerualjetwork-1.3.8.tar.gz --markdown 20240531/p/pyerualjetwork/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-31 08:17:09] INFO root fetch - processPackages [pulumi-f5bigip]: Downloading https://files.pythonhosted.org/packages/d9/48/9b104ca1340b985069c84fa75b1acc149cc375561d0e98bee7b09b74cb7f/pulumi_f5bigip-3.9.0a1661535806.tar.gz
+[2024-05-31 08:17:09] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-31 08:17:09] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240529.tar.gz tmp/pyg_nightly-2.6.0.dev20240530.tar.gz --markdown 20240531/p/pyg-nightly/2.6.0.dev20240529-2.6.0.dev20240530/README.md --exclude *.pyd
+[2024-05-31 08:17:09] INFO root fetch - processPackages [slackblocks]: Downloading https://files.pythonhosted.org/packages/8c/f9/ac2e35bf3d910416b3624fbea6918b727d5b7b3b430baf2413101254f4d5/slackblocks-1.0.9-py3-none-any.whl
+[2024-05-31 08:17:09] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/1d/8f/908b3d1b357dcb4b00198e9afd3e1c31b7f20023adddd41e8a53a4577ee0/pulumi_linode-4.9.1.tar.gz
+[2024-05-31 08:17:09] INFO root fetch - processPackages [slackblocks]: executing diffoscope
+[2024-05-31 08:17:09] INFO root fetch - processPackages [slackblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slackblocks-1.0.8.tar.gz tmp/slackblocks-1.0.9-py3-none-any.whl.zip --markdown 20240531/s/slackblocks/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 08:17:09] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2024-05-31 08:17:09] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.9.0a1700248892.tar.gz tmp/pulumi_linode-4.9.1.tar.gz --markdown 20240531/p/pulumi-linode/4.9.0a1700248892-4.9.1/README.md --exclude *.pyd
+[2024-05-31 08:17:09] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.3.7.tar.gz]
+[2024-05-31 08:17:09] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.3.8.tar.gz]
+[2024-05-31 08:17:09] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-31 08:17:09] INFO root fetch - processPackages [pulumi-f5bigip]: executing diffoscope
+[2024-05-31 08:17:09] INFO root fetch - processPackages [pulumi-f5bigip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz --markdown 20240531/p/pulumi-f5bigip/3.9.0a1654086391-3.9.0a1661535806/README.md --exclude *.pyd
+[2024-05-31 08:17:09] INFO root fetch - processPackages [slackblocks]: Remove: archive file [/home/abi/fetcher/tmp/slackblocks-1.0.8.tar.gz]
+[2024-05-31 08:17:09] INFO root fetch - processPackages [slackblocks]: Remove: archive file [/home/abi/fetcher/tmp/slackblocks-1.0.9-py3-none-any.whl.zip]
+[2024-05-31 08:17:09] INFO root fetch - main [MainThread]: End processing [slackblocks]: success
+[2024-05-31 08:17:10] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.0a1700248892.tar.gz]
+[2024-05-31 08:17:10] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.9.1.tar.gz]
+[2024-05-31 08:17:10] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2024-05-31 08:17:11] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1654086391.tar.gz]
+[2024-05-31 08:17:11] INFO root fetch - processPackages [pulumi-f5bigip]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_f5bigip-3.9.0a1661535806.tar.gz]
+[2024-05-31 08:17:11] INFO root fetch - main [MainThread]: End processing [pulumi-f5bigip]: success
+[2024-05-31 08:17:11] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240529.tar.gz]
+[2024-05-31 08:17:11] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240530.tar.gz]
+[2024-05-31 08:17:11] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-31 08:17:11] INFO root fetch - main [MainThread]: Store serial: [23461194]
