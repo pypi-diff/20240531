@@ -15393,3 +15393,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 12:37:44] INFO root fetch - processPackages [tn-observer]: Remove: archive file [/home/abi/fetcher/tmp/tn_observer-0.5.1.tar.gz]
 [2024-05-31 12:37:44] INFO root fetch - main [MainThread]: End processing [tn-observer]: success
 [2024-05-31 12:37:44] INFO root fetch - main [MainThread]: Store serial: [23464266]
+[2024-05-31 12:39:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464266]
+[2024-05-31 12:39:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-31 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nessai-bilby
+[2024-05-31 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: woningwaardering
+[2024-05-31 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roboto-ingestion-utils
+[2024-05-31 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gbrl
+[2024-05-31 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chgksuite
+[2024-05-31 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skypilot-nightly
+[2024-05-31 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chgksuite-qt
+[2024-05-31 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drisk-api
+[2024-05-31 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: port-ocean
+[2024-05-31 12:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-l10n-it-delivery-note
+[2024-05-31 12:39:53] WARNING root fetch - processPackages [nessai-bilby]: Skipping, unable to determine old version
+[2024-05-31 12:39:53] INFO root fetch - processPackages [nessai-bilby]: Start processing: pyGuardPoint
+[2024-05-31 12:39:53] INFO root fetch - main [MainThread]: End processing [nessai-bilby] error
+[2024-05-31 12:39:53] INFO root fetch - processPackages [chgksuite]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 12:39:53] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240530] Old Version: [1.0.0.dev20240529]
+[2024-05-31 12:39:53] INFO root fetch - processPackages [roboto-ingestion-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 12:39:53] INFO root fetch - processPackages [gbrl]: New version: [1.0.0.dev7] Old Version: [1.0.0.dev6]
+[2024-05-31 12:39:53] WARNING root fetch - processPackages [chgksuite-qt]: Skipping, unable to determine old version
+[2024-05-31 12:39:53] INFO root fetch - main [MainThread]: End processing [chgksuite-qt] error
+[2024-05-31 12:39:53] INFO root fetch - processPackages [woningwaardering]: New version: [0.4.0a0] Old Version: [0.3.0a7]
+[2024-05-31 12:39:53] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: New version: [14.0.3.4.2.dev1] Old Version: [14.0.3.4.2]
+[2024-05-31 12:39:53] INFO root fetch - processPackages [chgksuite]: Downloading https://files.pythonhosted.org/packages/08/2b/0f75e642fcf6761c9237515450091e8f2eada4286e45f82cc52053558c7b/chgksuite-0.9.0.tar.gz
+[2024-05-31 12:39:53] INFO root fetch - processPackages [drisk-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 12:39:53] INFO root fetch - processPackages [port-ocean]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-31 12:39:53] INFO root fetch - processPackages [pyGuardPoint]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-05-31 12:39:53] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/fa/97/44622f3946f6e38cdfee6e2bca2ca7708c59471bd8715fc6cff86dae6d6b/skypilot_nightly-1.0.0.dev20240529.tar.gz
+[2024-05-31 12:39:53] INFO root fetch - processPackages [roboto-ingestion-utils]: Downloading https://files.pythonhosted.org/packages/d2/c3/a80300609c6c2f463fde8ba9898b779475564f0466bb683963e1b9bc941e/roboto_ingestion_utils-0.0.8.tar.gz
+[2024-05-31 12:39:53] INFO root fetch - processPackages [gbrl]: Downloading https://files.pythonhosted.org/packages/9a/c2/44c9c8f39cd64df4eb7449875a43e9e63ab8ba35612779d3855b79631033/gbrl-1.0.0.dev6.tar.gz
+[2024-05-31 12:39:53] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/58/28/b6cef48bfe79903b86eb5021331fd725b633418d1b547592f18f3755dcf9/woningwaardering-0.3.0a7.tar.gz
+[2024-05-31 12:39:53] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/da/cb/8c0154802ca7a6a68512abf8055ca70d25ced6e3d94af036887e15800f18/odoo14_addon_l10n_it_delivery_note-14.0.3.4.2-py3-none-any.whl
+[2024-05-31 12:39:53] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/78/bc/7cc9e8e2e79075a3c79c00273aaeb13f895d17585c027c53b61f77bdaba4/port_ocean-0.5.8.tar.gz
+[2024-05-31 12:39:53] INFO root fetch - processPackages [drisk-api]: Downloading https://files.pythonhosted.org/packages/00/3d/5919d7d30d0fb2065c46163c5a5c4bf29d6fdad0043f07ea44d0737d6b4c/drisk_api-0.0.4-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-05-31 12:39:53] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/58/98/b95f0968ed03268db8c8e70cbf4963cb4dd009a5936ff020e2171d93bcdf/pyguardpoint-1.3.9.tar.gz
+[2024-05-31 12:39:53] INFO root fetch - processPackages [chgksuite]: Downloading https://files.pythonhosted.org/packages/cd/f6/800bb5f46eb8b4639b4c81f8c7ad31a582abdb353fd822359c239ec699fd/chgksuite-0.9.1.tar.gz
+[2024-05-31 12:39:54] INFO root fetch - processPackages [chgksuite]: executing diffoscope
+[2024-05-31 12:39:54] INFO root fetch - processPackages [chgksuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chgksuite-0.9.0.tar.gz tmp/chgksuite-0.9.1.tar.gz --markdown 20240531/c/chgksuite/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-31 12:39:54] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/27/9d/a1204f0b29cb7146975cb05d9734bf87d3b7b53090c2ecaa7b9211c3e2b2/skypilot_nightly-1.0.0.dev20240530.tar.gz
+[2024-05-31 12:39:54] INFO root fetch - processPackages [roboto-ingestion-utils]: Downloading https://files.pythonhosted.org/packages/ee/df/fa04c2857761d93336c6d780c80867d0973c82e584c7eede506d3de23f10/roboto_ingestion_utils-0.0.9.tar.gz
+[2024-05-31 12:39:54] INFO root fetch - processPackages [gbrl]: Downloading https://files.pythonhosted.org/packages/b5/7f/81ad6b107b9f1e0d6494aad1d7949cd975c16af417acc725c79a931a0d5b/gbrl-1.0.0.dev7.tar.gz
+[2024-05-31 12:39:54] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/9a/b8/b4b21f5c3d509271ff988cb9644c8429ce3f2eb23c44e309e16fc3f2c3d6/port_ocean-0.5.9.tar.gz
+[2024-05-31 12:39:54] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/b6/90/663ed18c02bdde1707207b33bb89b22feb401d6e3528f0d281ab50b22d41/pyguardpoint-1.4.0.tar.gz
+[2024-05-31 12:39:54] INFO root fetch - processPackages [woningwaardering]: Downloading https://files.pythonhosted.org/packages/54/12/8863f978f94c0fb27cb10b8ae880734b4db896a651d51ca7c9d35f392a2d/woningwaardering-0.4.0a0.tar.gz
+[2024-05-31 12:39:54] INFO root fetch - processPackages [roboto-ingestion-utils]: executing diffoscope
+[2024-05-31 12:39:54] INFO root fetch - processPackages [roboto-ingestion-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_ingestion_utils-0.0.8.tar.gz tmp/roboto_ingestion_utils-0.0.9.tar.gz --markdown 20240531/r/roboto-ingestion-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 12:39:54] INFO root fetch - processPackages [gbrl]: executing diffoscope
+[2024-05-31 12:39:54] INFO root fetch - processPackages [gbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbrl-1.0.0.dev6.tar.gz tmp/gbrl-1.0.0.dev7.tar.gz --markdown 20240531/g/gbrl/1.0.0.dev6-1.0.0.dev7/README.md --exclude *.pyd
+[2024-05-31 12:39:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/9a/90/9d10304fd2c5d1c872b25e4abec3416e9d37b65af4a9c780ff9238cbd9c3/odoo14_addon_l10n_it_delivery_note-14.0.3.4.2.dev1-py3-none-any.whl
+[2024-05-31 12:39:54] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-31 12:39:54] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240529.tar.gz tmp/skypilot_nightly-1.0.0.dev20240530.tar.gz --markdown 20240531/s/skypilot-nightly/1.0.0.dev20240529-1.0.0.dev20240530/README.md --exclude *.pyd
+[2024-05-31 12:39:54] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2024-05-31 12:39:54] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.5.8.tar.gz tmp/port_ocean-0.5.9.tar.gz --markdown 20240531/p/port-ocean/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-31 12:39:54] INFO root fetch - processPackages [woningwaardering]: executing diffoscope
+[2024-05-31 12:39:54] INFO root fetch - processPackages [woningwaardering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/woningwaardering-0.3.0a7.tar.gz tmp/woningwaardering-0.4.0a0.tar.gz --markdown 20240531/w/woningwaardering/0.3.0a7-0.4.0a0/README.md --exclude *.pyd
+[2024-05-31 12:39:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: executing diffoscope
+[2024-05-31 12:39:54] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.2.dev1-py3-none-any.whl.zip --markdown 20240531/o/odoo14-addon-l10n-it-delivery-note/14.0.3.4.2-14.0.3.4.2.dev1/README.md --exclude *.pyd
+[2024-05-31 12:39:54] INFO root fetch - processPackages [pyGuardPoint]: executing diffoscope
+[2024-05-31 12:39:54] INFO root fetch - processPackages [pyGuardPoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguardpoint-1.3.9.tar.gz tmp/pyguardpoint-1.4.0.tar.gz --markdown 20240531/p/pyGuardPoint/1.3.9-1.4.0/README.md --exclude *.pyd
+[2024-05-31 12:39:54] INFO root fetch - processPackages [drisk-api]: Downloading https://files.pythonhosted.org/packages/9f/4b/9a3053162c65092c5e7ba7d32714ceea5d1172f83f76748ad58ef7a3adfa/drisk_api-0.0.5-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-31 12:39:54] INFO root fetch - processPackages [chgksuite]: Remove: archive file [/home/abi/fetcher/tmp/chgksuite-0.9.0.tar.gz]
+[2024-05-31 12:39:54] INFO root fetch - processPackages [chgksuite]: Remove: archive file [/home/abi/fetcher/tmp/chgksuite-0.9.1.tar.gz]
+[2024-05-31 12:39:54] INFO root fetch - main [MainThread]: End processing [chgksuite]: success
+[2024-05-31 12:39:54] INFO root fetch - processPackages [drisk-api]: executing diffoscope
+[2024-05-31 12:39:54] INFO root fetch - processPackages [drisk-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drisk_api-0.0.4-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip tmp/drisk_api-0.0.5-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240531/d/drisk-api/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-31 12:39:55] INFO root fetch - processPackages [roboto-ingestion-utils]: Remove: archive file [/home/abi/fetcher/tmp/roboto_ingestion_utils-0.0.8.tar.gz]
+[2024-05-31 12:39:55] INFO root fetch - processPackages [roboto-ingestion-utils]: Remove: archive file [/home/abi/fetcher/tmp/roboto_ingestion_utils-0.0.9.tar.gz]
+[2024-05-31 12:39:55] INFO root fetch - main [MainThread]: End processing [roboto-ingestion-utils]: success
+[2024-05-31 12:39:55] INFO root fetch - processPackages [gbrl]: Remove: archive file [/home/abi/fetcher/tmp/gbrl-1.0.0.dev6.tar.gz]
+[2024-05-31 12:39:55] INFO root fetch - processPackages [gbrl]: Remove: archive file [/home/abi/fetcher/tmp/gbrl-1.0.0.dev7.tar.gz]
+[2024-05-31 12:39:55] INFO root fetch - main [MainThread]: End processing [gbrl]: success
+[2024-05-31 12:39:55] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyguardpoint-1.3.9.tar.gz]
+[2024-05-31 12:39:55] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyguardpoint-1.4.0.tar.gz]
+[2024-05-31 12:39:55] INFO root fetch - main [MainThread]: End processing [pyGuardPoint]: success
+[2024-05-31 12:39:55] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.8.tar.gz]
+[2024-05-31 12:39:55] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.9.tar.gz]
+[2024-05-31 12:39:55] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2024-05-31 12:39:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.2-py3-none-any.whl.zip]
+[2024-05-31 12:39:55] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.2.dev1-py3-none-any.whl.zip]
+[2024-05-31 12:39:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-delivery-note]: success
+[2024-05-31 12:39:56] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240529.tar.gz]
+[2024-05-31 12:39:56] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240530.tar.gz]
+[2024-05-31 12:39:56] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-31 12:39:56] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.3.0a7.tar.gz]
+[2024-05-31 12:39:56] INFO root fetch - processPackages [woningwaardering]: Remove: archive file [/home/abi/fetcher/tmp/woningwaardering-0.4.0a0.tar.gz]
+[2024-05-31 12:39:56] INFO root fetch - main [MainThread]: End processing [woningwaardering]: success
+[2024-05-31 12:40:09] INFO root fetch - processPackages [drisk-api]: Remove: archive file [/home/abi/fetcher/tmp/drisk_api-0.0.4-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
+[2024-05-31 12:40:09] INFO root fetch - processPackages [drisk-api]: Remove: archive file [/home/abi/fetcher/tmp/drisk_api-0.0.5-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-31 12:40:09] INFO root fetch - main [MainThread]: End processing [drisk-api]: success
+[2024-05-31 12:40:09] INFO root fetch - main [MainThread]: Store serial: [23464304]
