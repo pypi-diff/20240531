@@ -10266,3 +10266,60 @@
 [2024-05-31 09:18:57] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.4.0.tar.gz]
 [2024-05-31 09:18:57] INFO root fetch - main [MainThread]: End processing [jupyterlab-amphi]: success
 [2024-05-31 09:18:57] INFO root fetch - main [MainThread]: Store serial: [23461926]
+[2024-05-31 09:21:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461926]
+[2024-05-31 09:21:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 09:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rockai-cli-app
+[2024-05-31 09:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: first-breaks-picking-gpu
+[2024-05-31 09:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sql-server-lineage
+[2024-05-31 09:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: first-breaks-picking
+[2024-05-31 09:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-oscarbot
+[2024-05-31 09:21:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-fs-image-thumbnail
+[2024-05-31 09:21:06] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-31 09:21:06] INFO root fetch - processPackages [django-oscarbot]: New version: [0.9] Old Version: [0.8]
+[2024-05-31 09:21:06] INFO root fetch - processPackages [first-breaks-picking]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-31 09:21:06] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/7f/a9/cfbe194eb00b392f8c27dcca495de16dab129d6ee40ff4c7439c1cbb7d42/rockai_cli_app-0.2.7.tar.gz
+[2024-05-31 09:21:06] INFO root fetch - processPackages [first-breaks-picking-gpu]: New version: [0.7.3] Old Version: [0.7.1]
+[2024-05-31 09:21:06] INFO root fetch - processPackages [django-oscarbot]: Downloading https://files.pythonhosted.org/packages/66/60/55dca842d844f992f166b6041a9e2bcf01cdb4ec256aa0a184f2d88b7dc4/django-oscarbot-0.8.tar.gz
+[2024-05-31 09:21:06] INFO root fetch - processPackages [sql-server-lineage]: New version: [1.13.0] Old Version: [1.12.0]
+[2024-05-31 09:21:06] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/e0/57/f139e55b347b6b28904693e4a895f6143e84b539b98dafe834039204291a/first_breaks_picking-0.7.1.tar.gz
+[2024-05-31 09:21:06] INFO root fetch - processPackages [odoo-addon-fs-image-thumbnail]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.2]
+[2024-05-31 09:21:07] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/4f/78/5efee53c62dd6c940dd8a56dfdda2217e352a5eac6dff0aab800c7c52c5b/rockai_cli_app-0.2.8.tar.gz
+[2024-05-31 09:21:07] INFO root fetch - processPackages [django-oscarbot]: Downloading https://files.pythonhosted.org/packages/27/0e/11bce9aad03924b01f6cbdcd1ec3d9d21ce62ce8f3d3ed63bf039ef1e454/django-oscarbot-0.9.tar.gz
+[2024-05-31 09:21:07] INFO root fetch - processPackages [sql-server-lineage]: Downloading https://files.pythonhosted.org/packages/07/cb/ba080e8d5b5f720e1fd3807d8c4b97f4be21839b921155a0da30f6801bbd/sql_server_lineage-1.12.0-cp39-cp39-win_amd64.whl
+[2024-05-31 09:21:07] INFO root fetch - processPackages [first-breaks-picking-gpu]: Downloading https://files.pythonhosted.org/packages/f0/b2/c384b8f3f72393a97e931f3b2457ed5f9d3ba8baa554dc001d1316bd19c0/first_breaks_picking_gpu-0.7.1.tar.gz
+[2024-05-31 09:21:07] INFO root fetch - processPackages [first-breaks-picking]: Downloading https://files.pythonhosted.org/packages/c7/7f/5b83a39faea882430987bcad54afad5d944ceffe97251ecb109b95e9c7d8/first_breaks_picking-0.7.2.tar.gz
+[2024-05-31 09:21:07] INFO root fetch - processPackages [odoo-addon-fs-image-thumbnail]: Downloading https://files.pythonhosted.org/packages/2e/fd/9af8711175cfb0a1e80908035badb4e22054e1ead221e005d1146d147b18/odoo_addon_fs_image_thumbnail-16.0.1.0.2-py3-none-any.whl
+[2024-05-31 09:21:07] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-05-31 09:21:07] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.2.7.tar.gz tmp/rockai_cli_app-0.2.8.tar.gz --markdown 20240531/r/rockai-cli-app/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-31 09:21:07] INFO root fetch - processPackages [django-oscarbot]: executing diffoscope
+[2024-05-31 09:21:07] INFO root fetch - processPackages [django-oscarbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oscarbot-0.8.tar.gz tmp/django-oscarbot-0.9.tar.gz --markdown 20240531/d/django-oscarbot/0.8-0.9/README.md --exclude *.pyd
+[2024-05-31 09:21:07] INFO root fetch - processPackages [first-breaks-picking]: executing diffoscope
+[2024-05-31 09:21:07] INFO root fetch - processPackages [first-breaks-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/first_breaks_picking-0.7.1.tar.gz tmp/first_breaks_picking-0.7.2.tar.gz --markdown 20240531/f/first-breaks-picking/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-31 09:21:07] INFO root fetch - processPackages [first-breaks-picking-gpu]: Downloading https://files.pythonhosted.org/packages/44/8e/4de2d2f0dfe5e1f6bd08c1d55cf0fa47decc074c065e23c37bcde85b644f/first_breaks_picking_gpu-0.7.3.tar.gz
+[2024-05-31 09:21:07] INFO root fetch - processPackages [odoo-addon-fs-image-thumbnail]: Downloading https://files.pythonhosted.org/packages/fa/b2/4748b3f11a96cf4488dfc071d93808512b1defd3b89c26b0a92e3371dbbc/odoo_addon_fs_image_thumbnail-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-31 09:21:07] INFO root fetch - processPackages [first-breaks-picking-gpu]: executing diffoscope
+[2024-05-31 09:21:07] INFO root fetch - processPackages [first-breaks-picking-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/first_breaks_picking_gpu-0.7.1.tar.gz tmp/first_breaks_picking_gpu-0.7.3.tar.gz --markdown 20240531/f/first-breaks-picking-gpu/0.7.1-0.7.3/README.md --exclude *.pyd
+[2024-05-31 09:21:07] INFO root fetch - processPackages [odoo-addon-fs-image-thumbnail]: executing diffoscope
+[2024-05-31 09:21:07] INFO root fetch - processPackages [odoo-addon-fs-image-thumbnail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fs_image_thumbnail-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_fs_image_thumbnail-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-fs-image-thumbnail/16.0.1.0.2-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-31 09:21:07] INFO root fetch - processPackages [sql-server-lineage]: Downloading https://files.pythonhosted.org/packages/17/34/377506a1a6ca8ebb6ea6a9354043979857f9320ef0906b34d206a141f890/sql_server_lineage-1.13.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-31 09:21:07] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.7.tar.gz]
+[2024-05-31 09:21:07] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.2.8.tar.gz]
+[2024-05-31 09:21:07] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-05-31 09:21:08] INFO root fetch - processPackages [django-oscarbot]: Remove: archive file [/home/abi/fetcher/tmp/django-oscarbot-0.8.tar.gz]
+[2024-05-31 09:21:08] INFO root fetch - processPackages [django-oscarbot]: Remove: archive file [/home/abi/fetcher/tmp/django-oscarbot-0.9.tar.gz]
+[2024-05-31 09:21:08] INFO root fetch - main [MainThread]: End processing [django-oscarbot]: success
+[2024-05-31 09:21:08] INFO root fetch - processPackages [sql-server-lineage]: executing diffoscope
+[2024-05-31 09:21:08] INFO root fetch - processPackages [sql-server-lineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_server_lineage-1.12.0-cp39-cp39-win_amd64.whl.zip tmp/sql_server_lineage-1.13.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240531/s/sql-server-lineage/1.12.0-1.13.0/README.md --exclude *.pyd
+[2024-05-31 09:21:08] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first_breaks_picking-0.7.1.tar.gz]
+[2024-05-31 09:21:08] INFO root fetch - processPackages [first-breaks-picking]: Remove: archive file [/home/abi/fetcher/tmp/first_breaks_picking-0.7.2.tar.gz]
+[2024-05-31 09:21:08] INFO root fetch - main [MainThread]: End processing [first-breaks-picking]: success
+[2024-05-31 09:21:08] INFO root fetch - processPackages [odoo-addon-fs-image-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_image_thumbnail-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-31 09:21:08] INFO root fetch - processPackages [odoo-addon-fs-image-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fs_image_thumbnail-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-31 09:21:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-fs-image-thumbnail]: success
+[2024-05-31 09:21:08] INFO root fetch - processPackages [first-breaks-picking-gpu]: Remove: archive file [/home/abi/fetcher/tmp/first_breaks_picking_gpu-0.7.1.tar.gz]
+[2024-05-31 09:21:08] INFO root fetch - processPackages [first-breaks-picking-gpu]: Remove: archive file [/home/abi/fetcher/tmp/first_breaks_picking_gpu-0.7.3.tar.gz]
+[2024-05-31 09:21:08] INFO root fetch - main [MainThread]: End processing [first-breaks-picking-gpu]: success
+[2024-05-31 09:21:08] INFO root fetch - processPackages [sql-server-lineage]: Remove: archive file [/home/abi/fetcher/tmp/sql_server_lineage-1.12.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 09:21:08] INFO root fetch - processPackages [sql-server-lineage]: Remove: archive file [/home/abi/fetcher/tmp/sql_server_lineage-1.13.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-31 09:21:08] INFO root fetch - main [MainThread]: End processing [sql-server-lineage]: success
+[2024-05-31 09:21:08] INFO root fetch - main [MainThread]: Store serial: [23461945]
