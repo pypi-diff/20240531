@@ -4416,3 +4416,18 @@
 [2024-05-31 03:34:32] INFO root fetch - processPackages [gidapptools]: Remove: archive file [/home/abi/fetcher/tmp/gidapptools-0.5.2.tar.gz]
 [2024-05-31 03:34:32] INFO root fetch - main [MainThread]: End processing [gidapptools]: success
 [2024-05-31 03:34:32] INFO root fetch - main [MainThread]: Store serial: [23459246]
+[2024-05-31 03:36:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459246]
+[2024-05-31 03:36:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 03:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miracle-langchain-helper
+[2024-05-31 03:36:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazy-mongo
+[2024-05-31 03:36:41] WARNING root fetch - processPackages [miracle-langchain-helper]: Skipping, unable to determine old version
+[2024-05-31 03:36:41] INFO root fetch - main [MainThread]: End processing [miracle-langchain-helper] error
+[2024-05-31 03:36:41] INFO root fetch - processPackages [lazy-mongo]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 03:36:41] INFO root fetch - processPackages [lazy-mongo]: Downloading https://files.pythonhosted.org/packages/fa/cd/ce9f694fe0068373c3aa916087bbb95e52faa131ff95d3bcdcb1ea1e1d17/lazy_mongo-0.3.1.tar.gz
+[2024-05-31 03:36:42] INFO root fetch - processPackages [lazy-mongo]: Downloading https://files.pythonhosted.org/packages/d1/85/13a769fc772f512491662844838fcd02183561833f1591accb3219724b85/lazy_mongo-0.3.2.tar.gz
+[2024-05-31 03:36:42] INFO root fetch - processPackages [lazy-mongo]: executing diffoscope
+[2024-05-31 03:36:42] INFO root fetch - processPackages [lazy-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_mongo-0.3.1.tar.gz tmp/lazy_mongo-0.3.2.tar.gz --markdown 20240531/l/lazy-mongo/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 03:36:42] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.3.1.tar.gz]
+[2024-05-31 03:36:42] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.3.2.tar.gz]
+[2024-05-31 03:36:42] INFO root fetch - main [MainThread]: End processing [lazy-mongo]: success
+[2024-05-31 03:36:42] INFO root fetch - main [MainThread]: Store serial: [23459252]
