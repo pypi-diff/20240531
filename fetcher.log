@@ -4975,3 +4975,59 @@
 [2024-05-31 04:09:57] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.802.tar.gz]
 [2024-05-31 04:09:57] INFO root fetch - main [MainThread]: End processing [ecuapassdocs]: success
 [2024-05-31 04:09:57] INFO root fetch - main [MainThread]: Store serial: [23459493]
+[2024-05-31 04:12:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459493]
+[2024-05-31 04:12:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 04:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-project-roach7
+[2024-05-31 04:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecuapassdocs
+[2024-05-31 04:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QtMDi
+[2024-05-31 04:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fudstop
+[2024-05-31 04:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-seal
+[2024-05-31 04:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal
+[2024-05-31 04:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nextcaptcha-python
+[2024-05-31 04:12:06] INFO root fetch - processPackages [ecuapassdocs]: New version: [0.802] Old Version: [0.801]
+[2024-05-31 04:12:06] INFO root fetch - processPackages [fudstop]: New version: [2.7.8] Old Version: [2.7.7]
+[2024-05-31 04:12:06] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-31 04:12:06] INFO root fetch - processPackages [py-seal]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-31 04:12:06] INFO root fetch - processPackages [ecuapassdocs]: Downloading https://files.pythonhosted.org/packages/91/ec/2ba646a5c1f746838ed69ca7b5ce4531bee4afb84756d8eab9f2d48c6261/ecuapassdocs-0.801.tar.gz
+[2024-05-31 04:12:06] INFO root fetch - processPackages [nextcaptcha-python]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-31 04:12:06] WARNING root fetch - processPackages [example-project-roach7]: Skipping, unable to determine old version
+[2024-05-31 04:12:06] INFO root fetch - main [MainThread]: End processing [example-project-roach7] error
+[2024-05-31 04:12:06] INFO root fetch - processPackages [QtMDi]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-31 04:12:06] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/30/fb/16c9dadbcd8a36ba87ec2a7e1b7fbb0f09c9811a3f6c50f2321f52287cbd/fudstop-2.7.7.tar.gz
+[2024-05-31 04:12:06] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-31 04:12:06] INFO root fetch - processPackages [py-seal]: Downloading https://files.pythonhosted.org/packages/23/17/fbca37fabed0ec6628beecefc7d607ed6b3cf740e308be4e40a7b23d46ca/py-seal-0.0.7.tar.gz
+[2024-05-31 04:12:06] INFO root fetch - processPackages [QtMDi]: Downloading https://files.pythonhosted.org/packages/98/57/71d4d051a7c8618ccee73a34338e30c1be6a674b0053904f67260261180b/QtMDi-1.1.8.tar.gz
+[2024-05-31 04:12:06] INFO root fetch - processPackages [nextcaptcha-python]: Downloading https://files.pythonhosted.org/packages/86/ac/20e0caef913a4a90bdccc86f7539c07fa6e025f6b4f686078430c741da12/nextcaptcha_python-1.0.4.tar.gz
+[2024-05-31 04:12:06] WARNING root fetch - processPackages [QtMDi]: Skipping package: exceeds size limit 25247034>=10485760
+[2024-05-31 04:12:06] INFO root fetch - main [MainThread]: End processing [QtMDi] error
+[2024-05-31 04:12:06] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-31 04:12:06] INFO root fetch - processPackages [ecuapassdocs]: Downloading https://files.pythonhosted.org/packages/54/25/53a40b3412a19bc9853be17c165344d61318f591d714dc397c2a544aea7b/ecuapassdocs-0.802.tar.gz
+[2024-05-31 04:12:06] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/77/cb/03cb06b2abf5194d3a2521514405b57752f24248c386eace110f317bd38b/fudstop-2.7.8.tar.gz
+[2024-05-31 04:12:06] INFO root fetch - processPackages [py-seal]: Downloading https://files.pythonhosted.org/packages/f6/7c/4e9ead42e86551a5c426ea48f5d5b3eab6010de4948d3e63757276a25b93/py-seal-0.0.8.tar.gz
+[2024-05-31 04:12:06] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-31 04:12:06] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240531/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-31 04:12:06] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-31 04:12:06] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.7.7.tar.gz tmp/fudstop-2.7.8.tar.gz --markdown 20240531/f/fudstop/2.7.7-2.7.8/README.md --exclude *.pyd
+[2024-05-31 04:12:06] INFO root fetch - processPackages [nextcaptcha-python]: Downloading https://files.pythonhosted.org/packages/5a/a6/1f8c7b2d39acde54911cdb89d80982c5a9d42892a73a087b8b1063025d92/nextcaptcha_python-1.0.5.tar.gz
+[2024-05-31 04:12:06] INFO root fetch - processPackages [ecuapassdocs]: executing diffoscope
+[2024-05-31 04:12:06] INFO root fetch - processPackages [ecuapassdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecuapassdocs-0.801.tar.gz tmp/ecuapassdocs-0.802.tar.gz --markdown 20240531/e/ecuapassdocs/0.801-0.802/README.md --exclude *.pyd
+[2024-05-31 04:12:06] INFO root fetch - processPackages [py-seal]: executing diffoscope
+[2024-05-31 04:12:06] INFO root fetch - processPackages [py-seal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-seal-0.0.7.tar.gz tmp/py-seal-0.0.8.tar.gz --markdown 20240531/p/py-seal/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-31 04:12:06] INFO root fetch - processPackages [nextcaptcha-python]: executing diffoscope
+[2024-05-31 04:12:06] INFO root fetch - processPackages [nextcaptcha-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcaptcha_python-1.0.4.tar.gz tmp/nextcaptcha_python-1.0.5.tar.gz --markdown 20240531/n/nextcaptcha-python/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-31 04:12:07] INFO root fetch - processPackages [py-seal]: Remove: archive file [/home/abi/fetcher/tmp/py-seal-0.0.7.tar.gz]
+[2024-05-31 04:12:07] INFO root fetch - processPackages [py-seal]: Remove: archive file [/home/abi/fetcher/tmp/py-seal-0.0.8.tar.gz]
+[2024-05-31 04:12:07] INFO root fetch - main [MainThread]: End processing [py-seal]: success
+[2024-05-31 04:12:07] INFO root fetch - processPackages [nextcaptcha-python]: Remove: archive file [/home/abi/fetcher/tmp/nextcaptcha_python-1.0.4.tar.gz]
+[2024-05-31 04:12:07] INFO root fetch - processPackages [nextcaptcha-python]: Remove: archive file [/home/abi/fetcher/tmp/nextcaptcha_python-1.0.5.tar.gz]
+[2024-05-31 04:12:07] INFO root fetch - main [MainThread]: End processing [nextcaptcha-python]: success
+[2024-05-31 04:12:07] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.801.tar.gz]
+[2024-05-31 04:12:07] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.802.tar.gz]
+[2024-05-31 04:12:07] INFO root fetch - main [MainThread]: End processing [ecuapassdocs]: success
+[2024-05-31 04:12:08] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-31 04:12:08] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-31 04:12:08] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-31 04:12:08] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.7.7.tar.gz]
+[2024-05-31 04:12:08] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.7.8.tar.gz]
+[2024-05-31 04:12:08] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-31 04:12:08] INFO root fetch - main [MainThread]: Store serial: [23459540]
