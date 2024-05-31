@@ -6417,3 +6417,60 @@
 [2024-05-31 05:43:58] INFO root fetch - processPackages [blastengine]: Remove: archive file [/home/abi/fetcher/tmp/blastengine-0.0.9.tar.gz]
 [2024-05-31 05:43:58] INFO root fetch - main [MainThread]: End processing [blastengine]: success
 [2024-05-31 05:43:58] INFO root fetch - main [MainThread]: Store serial: [23460163]
+[2024-05-31 05:46:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460163]
+[2024-05-31 05:46:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 05:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbfaker
+[2024-05-31 05:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai2-kit
+[2024-05-31 05:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lamini
+[2024-05-31 05:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bees-challenge
+[2024-05-31 05:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hhdm-apiclient-wrapper
+[2024-05-31 05:46:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myfunctions-edatop
+[2024-05-31 05:46:06] INFO root fetch - processPackages [bees-challenge]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 05:46:06] INFO root fetch - processPackages [myfunctions-edatop]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 05:46:06] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/92/c9/eb04840a84191b4bb14a9aa79041b78ebc7207c9114d44295909ce6c2dc3/bees-challenge-0.8.0.tar.gz
+[2024-05-31 05:46:06] INFO root fetch - processPackages [dbfaker]: New version: [1.2.3] Old Version: [1.2.2.post1]
+[2024-05-31 05:46:06] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/98/f7/ad5dfd6d4297e119ae22f1c03844765cc9add9572917ac3a26ff804d74c5/myfunctions_edatop-0.0.5.tar.gz
+[2024-05-31 05:46:06] INFO root fetch - processPackages [lamini]: New version: [2.2.1] Old Version: [2.2.0a1]
+[2024-05-31 05:46:06] INFO root fetch - processPackages [hhdm-apiclient-wrapper]: New version: [24.1.25.dev1] Old Version: [24.1.0.dev1]
+[2024-05-31 05:46:06] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-31 05:46:07] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/28/72/cc2b8108370aaac7a06035d93e54cf90b509f9abcaee5a76c14eb7466dd4/lamini-2.2.0a1-124-py3-none-any.whl
+[2024-05-31 05:46:07] INFO root fetch - processPackages [dbfaker]: Downloading https://files.pythonhosted.org/packages/ba/4d/312a8d14426e1b1298117539cd3d32830eb8d662e1f6b04a7242fe9dbecb/dbfaker-1.2.2.post1.tar.gz
+[2024-05-31 05:46:07] INFO root fetch - processPackages [bees-challenge]: Downloading https://files.pythonhosted.org/packages/07/b0/8273979b766f0002142714ccac087661ca119069cca66ab3540321ebc94e/bees-challenge-0.9.0.tar.gz
+[2024-05-31 05:46:07] INFO root fetch - processPackages [hhdm-apiclient-wrapper]: Downloading https://files.pythonhosted.org/packages/d1/4e/4ccf8b36208d78baca104fc1759be8273fbb7c36f12bb865637307bec2e9/hhdm_apiclient_wrapper-24.1.0.dev1.tar.gz
+[2024-05-31 05:46:07] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-05-31 05:46:07] INFO root fetch - processPackages [bees-challenge]: executing diffoscope
+[2024-05-31 05:46:07] INFO root fetch - processPackages [bees-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bees-challenge-0.8.0.tar.gz tmp/bees-challenge-0.9.0.tar.gz --markdown 20240531/b/bees-challenge/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 05:46:07] INFO root fetch - processPackages [myfunctions-edatop]: Downloading https://files.pythonhosted.org/packages/51/6c/06b4c41a11d78851647c5f11a015b0873104bf32832e8adb4f1211febff0/myfunctions_edatop-0.0.6.tar.gz
+[2024-05-31 05:46:07] INFO root fetch - processPackages [myfunctions-edatop]: executing diffoscope
+[2024-05-31 05:46:07] INFO root fetch - processPackages [myfunctions-edatop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_edatop-0.0.5.tar.gz tmp/myfunctions_edatop-0.0.6.tar.gz --markdown 20240531/m/myfunctions-edatop/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 05:46:07] INFO root fetch - processPackages [dbfaker]: Downloading https://files.pythonhosted.org/packages/b7/ea/c1db48f87e8e8839509fe144e5885f9d0c47d062a0fae024a16d616027b9/dbfaker-1.2.3.tar.gz
+[2024-05-31 05:46:07] INFO root fetch - processPackages [hhdm-apiclient-wrapper]: Downloading https://files.pythonhosted.org/packages/ca/de/0186a4a76ddf2cb81c6e3c9226a966ea159856fc81753bef33affde3493f/hhdm_apiclient_wrapper-24.1.25.dev1.tar.gz
+[2024-05-31 05:46:07] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-05-31 05:46:07] INFO root fetch - processPackages [lamini]: Downloading https://files.pythonhosted.org/packages/f5/d7/55d134d3cfc5d6a70de6c97c14b248c988ad5792dc4c679ec23ed131803c/lamini-2.2.1-126-py3-none-any.whl
+[2024-05-31 05:46:07] INFO root fetch - processPackages [dbfaker]: executing diffoscope
+[2024-05-31 05:46:07] INFO root fetch - processPackages [dbfaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbfaker-1.2.2.post1.tar.gz tmp/dbfaker-1.2.3.tar.gz --markdown 20240531/d/dbfaker/1.2.2.post1-1.2.3/README.md --exclude *.pyd
+[2024-05-31 05:46:07] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-05-31 05:46:07] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240531/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-31 05:46:07] INFO root fetch - processPackages [hhdm-apiclient-wrapper]: executing diffoscope
+[2024-05-31 05:46:07] INFO root fetch - processPackages [hhdm-apiclient-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhdm_apiclient_wrapper-24.1.0.dev1.tar.gz tmp/hhdm_apiclient_wrapper-24.1.25.dev1.tar.gz --markdown 20240531/h/hhdm-apiclient-wrapper/24.1.0.dev1-24.1.25.dev1/README.md --exclude *.pyd
+[2024-05-31 05:46:07] INFO root fetch - processPackages [lamini]: executing diffoscope
+[2024-05-31 05:46:07] INFO root fetch - processPackages [lamini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamini-2.2.0a1-124-py3-none-any.whl.zip tmp/lamini-2.2.1-126-py3-none-any.whl.zip --markdown 20240531/l/lamini/2.2.0a1-2.2.1/README.md --exclude *.pyd
+[2024-05-31 05:46:07] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.8.0.tar.gz]
+[2024-05-31 05:46:07] INFO root fetch - processPackages [bees-challenge]: Remove: archive file [/home/abi/fetcher/tmp/bees-challenge-0.9.0.tar.gz]
+[2024-05-31 05:46:07] INFO root fetch - main [MainThread]: End processing [bees-challenge]: success
+[2024-05-31 05:46:08] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.5.tar.gz]
+[2024-05-31 05:46:08] INFO root fetch - processPackages [myfunctions-edatop]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_edatop-0.0.6.tar.gz]
+[2024-05-31 05:46:08] INFO root fetch - main [MainThread]: End processing [myfunctions-edatop]: success
+[2024-05-31 05:46:08] INFO root fetch - processPackages [dbfaker]: Remove: archive file [/home/abi/fetcher/tmp/dbfaker-1.2.2.post1.tar.gz]
+[2024-05-31 05:46:08] INFO root fetch - processPackages [dbfaker]: Remove: archive file [/home/abi/fetcher/tmp/dbfaker-1.2.3.tar.gz]
+[2024-05-31 05:46:08] INFO root fetch - main [MainThread]: End processing [dbfaker]: success
+[2024-05-31 05:46:08] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-05-31 05:46:08] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-05-31 05:46:08] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-05-31 05:46:08] INFO root fetch - processPackages [hhdm-apiclient-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hhdm_apiclient_wrapper-24.1.0.dev1.tar.gz]
+[2024-05-31 05:46:08] INFO root fetch - processPackages [hhdm-apiclient-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hhdm_apiclient_wrapper-24.1.25.dev1.tar.gz]
+[2024-05-31 05:46:08] INFO root fetch - main [MainThread]: End processing [hhdm-apiclient-wrapper]: success
+[2024-05-31 05:46:08] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.2.0a1-124-py3-none-any.whl.zip]
+[2024-05-31 05:46:08] INFO root fetch - processPackages [lamini]: Remove: archive file [/home/abi/fetcher/tmp/lamini-2.2.1-126-py3-none-any.whl.zip]
+[2024-05-31 05:46:08] INFO root fetch - main [MainThread]: End processing [lamini]: success
+[2024-05-31 05:46:08] INFO root fetch - main [MainThread]: Store serial: [23460179]
