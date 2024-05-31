@@ -5177,3 +5177,45 @@
 [2024-05-31 04:25:17] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240530195100.tar.gz]
 [2024-05-31 04:25:17] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-31 04:25:17] INFO root fetch - main [MainThread]: Store serial: [23459664]
+[2024-05-31 04:27:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459664]
+[2024-05-31 04:27:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 04:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zuspec-parser
+[2024-05-31 04:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myfunctions-AdnanGrifat
+[2024-05-31 04:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iam-actions
+[2024-05-31 04:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2024-05-31 04:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FineCache
+[2024-05-31 04:27:26] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240530] Old Version: [1.2.20240529]
+[2024-05-31 04:27:26] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.5.30] Old Version: [2024.5.29]
+[2024-05-31 04:27:26] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/65/f5/5d00351a9e68ff5a720c252b489191c91b30cc4b95f66ff232f9d19ab6e4/iam_actions-1.2.20240529.tar.gz
+[2024-05-31 04:27:26] INFO root fetch - processPackages [FineCache]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 04:27:26] WARNING root fetch - processPackages [myfunctions-AdnanGrifat]: Skipping, unable to determine old version
+[2024-05-31 04:27:26] INFO root fetch - main [MainThread]: End processing [myfunctions-AdnanGrifat] error
+[2024-05-31 04:27:26] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/75/3c/f7e14086cce0da00c3f0b2ae686f65680ebc0adb19c47ccd68250b2e877e/naif_eop_high_prec-2024.5.29.tar.gz
+[2024-05-31 04:27:26] INFO root fetch - processPackages [zuspec-parser]: New version: [0.0.1.9311969471] Old Version: [0.0.1.9263293579]
+[2024-05-31 04:27:26] INFO root fetch - processPackages [FineCache]: Downloading https://files.pythonhosted.org/packages/c1/72/e00e8e426982a32f06b78a8ee20665598f345cb633dd5d3666e6aaa35764/finecache-0.1.1.tar.gz
+[2024-05-31 04:27:26] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/1c/ad/51f9a960fab54b7cdc54a64b138967c6e2eefbfad48d084456f08b7dd375/zuspec_parser-0.0.1.9263293579-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 04:27:26] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/45/bf/cc2814fea74b3a0c95b355a17876dd6381d9332d81f92f20dafafe7b604f/iam_actions-1.2.20240530.tar.gz
+[2024-05-31 04:27:27] INFO root fetch - processPackages [FineCache]: Downloading https://files.pythonhosted.org/packages/75/bd/324be44f6afea8c23e3fa3bf7fe29396fa160536437eef2502f1f977fe2e/finecache-0.1.2.tar.gz
+[2024-05-31 04:27:27] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-31 04:27:27] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240529.tar.gz tmp/iam_actions-1.2.20240530.tar.gz --markdown 20240531/i/iam-actions/1.2.20240529-1.2.20240530/README.md --exclude *.pyd
+[2024-05-31 04:27:27] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/59/0a/a48aaf5beb1cc12d702cc9056f9bc0574bca57b3b7e5840867620a761b12/naif_eop_high_prec-2024.5.30.tar.gz
+[2024-05-31 04:27:27] INFO root fetch - processPackages [FineCache]: executing diffoscope
+[2024-05-31 04:27:27] INFO root fetch - processPackages [FineCache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finecache-0.1.1.tar.gz tmp/finecache-0.1.2.tar.gz --markdown 20240531/F/FineCache/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 04:27:27] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/23/37/218f80770deac7e55e1efec5e6b242d5fcfd6e5579ab8ec5141f5c1ecd5d/zuspec_parser-0.0.1.9311969471-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 04:27:27] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-05-31 04:27:27] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.5.29.tar.gz tmp/naif_eop_high_prec-2024.5.30.tar.gz --markdown 20240531/n/naif-eop-high-prec/2024.5.29-2024.5.30/README.md --exclude *.pyd
+[2024-05-31 04:27:27] INFO root fetch - processPackages [FineCache]: Remove: archive file [/home/abi/fetcher/tmp/finecache-0.1.1.tar.gz]
+[2024-05-31 04:27:27] INFO root fetch - processPackages [FineCache]: Remove: archive file [/home/abi/fetcher/tmp/finecache-0.1.2.tar.gz]
+[2024-05-31 04:27:27] INFO root fetch - main [MainThread]: End processing [FineCache]: success
+[2024-05-31 04:27:28] INFO root fetch - processPackages [zuspec-parser]: executing diffoscope
+[2024-05-31 04:27:28] INFO root fetch - processPackages [zuspec-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_parser-0.0.1.9263293579-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_parser-0.0.1.9311969471-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240531/z/zuspec-parser/0.0.1.9263293579-0.0.1.9311969471/README.md --exclude *.pyd
+[2024-05-31 04:27:31] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.29.tar.gz]
+[2024-05-31 04:27:31] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.30.tar.gz]
+[2024-05-31 04:27:31] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-05-31 04:27:32] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240529.tar.gz]
+[2024-05-31 04:27:32] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240530.tar.gz]
+[2024-05-31 04:27:32] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-31 04:27:41] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9263293579-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 04:27:41] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9311969471-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 04:27:41] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
+[2024-05-31 04:27:41] INFO root fetch - main [MainThread]: Store serial: [23459685]
