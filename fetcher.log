@@ -7246,3 +7246,24 @@
 [2024-05-31 06:27:33] INFO root fetch - processPackages [vanar-safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/vanar-safe-eth-py-1.1.0.tar.gz]
 [2024-05-31 06:27:33] INFO root fetch - main [MainThread]: End processing [vanar-safe-eth-py]: success
 [2024-05-31 06:27:33] INFO root fetch - main [MainThread]: Store serial: [23460418]
+[2024-05-31 06:29:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460418]
+[2024-05-31 06:29:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 06:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecs_service_discovery
+[2024-05-31 06:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pmdsky-debug-py
+[2024-05-31 06:29:42] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-31 06:29:42] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/33/eb/4fec645489c62e47f76637800291fdb912026058b33adb6b93856fb83b80/pmdsky_debug_py-9.0.8-py3-none-any.whl
+[2024-05-31 06:29:42] INFO root fetch - processPackages [ecs_service_discovery]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-31 06:29:42] INFO root fetch - processPackages [ecs_service_discovery]: Downloading https://files.pythonhosted.org/packages/d0/c3/d5c4d4a7115927f23e334899528c39d057650bb4113b9b07c619695d6cf8/ecs_service_discovery-0.1.2.tar.gz
+[2024-05-31 06:29:42] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/78/90/3ae42c4f8e39ed28cfa302c2db60b1605399688c48f721f7261802bd8a29/pmdsky_debug_py-9.0.9-py3-none-any.whl
+[2024-05-31 06:29:42] INFO root fetch - processPackages [ecs_service_discovery]: Downloading https://files.pythonhosted.org/packages/09/56/134cf3db71544ff7bd446ce6a3ffe74760bd6c11a0b00cb069605be03aa4/ecs_service_discovery-0.1.4.tar.gz
+[2024-05-31 06:29:42] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2024-05-31 06:29:42] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip --markdown 20240531/p/pmdsky-debug-py/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-31 06:29:42] INFO root fetch - processPackages [ecs_service_discovery]: executing diffoscope
+[2024-05-31 06:29:42] INFO root fetch - processPackages [ecs_service_discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecs_service_discovery-0.1.2.tar.gz tmp/ecs_service_discovery-0.1.4.tar.gz --markdown 20240531/e/ecs_service_discovery/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-31 06:29:43] INFO root fetch - processPackages [ecs_service_discovery]: Remove: archive file [/home/abi/fetcher/tmp/ecs_service_discovery-0.1.2.tar.gz]
+[2024-05-31 06:29:43] INFO root fetch - processPackages [ecs_service_discovery]: Remove: archive file [/home/abi/fetcher/tmp/ecs_service_discovery-0.1.4.tar.gz]
+[2024-05-31 06:29:43] INFO root fetch - main [MainThread]: End processing [ecs_service_discovery]: success
+[2024-05-31 06:29:45] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip]
+[2024-05-31 06:29:45] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip]
+[2024-05-31 06:29:45] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2024-05-31 06:29:45] INFO root fetch - main [MainThread]: Store serial: [23460424]
