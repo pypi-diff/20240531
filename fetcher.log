@@ -21965,3 +21965,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:34:34] INFO root fetch - processPackages [ffsim]: Remove: archive file [/home/abi/fetcher/tmp/ffsim-0.0.9.tar.gz]
 [2024-05-31 16:34:34] INFO root fetch - main [MainThread]: End processing [ffsim]: success
 [2024-05-31 16:34:34] INFO root fetch - main [MainThread]: Store serial: [23467130]
+[2024-05-31 16:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467130]
+[2024-05-31 16:36:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-core
+[2024-05-31 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sparecores-runner
+[2024-05-31 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dve-lumipy-testing
+[2024-05-31 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jabutiutils
+[2024-05-31 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ReqFlow
+[2024-05-31 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: expressmoney
+[2024-05-31 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composabl-dev
+[2024-05-31 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-api-dev
+[2024-05-31 16:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: biobear
+[2024-05-31 16:36:44] INFO root fetch - processPackages [pypomes-core]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-05-31 16:36:44] INFO root fetch - processPackages [jabutiutils]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 16:36:44] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-31 16:36:44] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/7f/6f/c1c7bc44ef3fdb2484a945cbad94be5107133f0508cc0a9c1fc09b571eac/pypomes_core-1.1.4.tar.gz
+[2024-05-31 16:36:44] INFO root fetch - processPackages [jabutiutils]: Downloading https://files.pythonhosted.org/packages/34/57/69ddae4c99e60f0c6227aa4af43bf1f17bb1a86b27f296596deef2cc584e/jabutiutils-0.0.5.tar.gz
+[2024-05-31 16:36:44] INFO root fetch - processPackages [sparecores-runner]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 16:36:44] INFO root fetch - processPackages [ReqFlow]: New version: [1.0.5a0] Old Version: [1.0.4a0]
+[2024-05-31 16:36:44] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-05-31 16:36:44] INFO root fetch - processPackages [composabl-dev]: New version: [0.9.0.dev1] Old Version: [0.8.0.dev98]
+[2024-05-31 16:36:44] INFO root fetch - processPackages [composabl-api-dev]: New version: [0.9.0.dev1] Old Version: [0.8.0.dev98]
+[2024-05-31 16:36:44] INFO root fetch - processPackages [expressmoney]: New version: [9.9.1] Old Version: [9.9.0]
+[2024-05-31 16:36:44] INFO root fetch - processPackages [biobear]: New version: [0.21.2] Old Version: [0.21.1]
+[2024-05-31 16:36:44] INFO root fetch - processPackages [ReqFlow]: Downloading https://files.pythonhosted.org/packages/bf/3b/dc5cd4f42d7dfe5f88e480a5ac2325eaaac6a7b74f28d9ebfdc1428fee7d/ReqFlow-1.0.4a0.tar.gz
+[2024-05-31 16:36:44] INFO root fetch - processPackages [sparecores-runner]: Downloading https://files.pythonhosted.org/packages/ba/b7/dce9999941bc26ad5d7af20a2d2ee806b7b06e6c3b5fda831abccb1a9a3d/sparecores_runner-0.0.4.tar.gz
+[2024-05-31 16:36:44] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/42/eb/63f073415e0f788fd74bd4739fbd9f89fb8d411a7e94c932b7f7b58f6a74/composabl_dev-0.8.0.dev98-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 16:36:44] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/fe/51/d8fdf4c3e9228a27486d76c7191d40e2f38f02c7a975f64176307fa4f1d5/composabl_api_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 16:36:44] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/3c/6c/f7ed4e9c2fb398463790339358c664419468da4530d28596229d58eadb60/biobear-0.21.1-pp39-pypy39_pp73-manylinux_2_28_aarch64.whl
+[2024-05-31 16:36:44] INFO root fetch - processPackages [expressmoney]: Downloading https://files.pythonhosted.org/packages/66/33/8e08f8dddb0b22a27da61c435f93c7d8f5ea098532ef8a9e21aba17fd4e9/expressmoney-9.9.0.tar.gz
+[2024-05-31 16:36:44] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-05-31 16:36:44] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/d5/b7/42623598a74d2ac7eb7e18ac45f750289cbe6d891e50d33f200eb2acc0b1/pypomes_core-1.1.5.tar.gz
+[2024-05-31 16:36:44] INFO root fetch - processPackages [jabutiutils]: Downloading https://files.pythonhosted.org/packages/2c/cd/f815cbf357040d195b2f2c579b9ad80fbea720e5348eb36bc83a4689a749/jabutiutils-0.0.6.tar.gz
+[2024-05-31 16:36:44] WARNING root fetch - processPackages [biobear]: Skipping package: exceeds size limit 19815792>=10485760
+[2024-05-31 16:36:44] INFO root fetch - main [MainThread]: End processing [biobear] error
+[2024-05-31 16:36:44] INFO root fetch - processPackages [ReqFlow]: Downloading https://files.pythonhosted.org/packages/1a/f3/34201a3c4546ccb61b4a2e91ef3976f9565d0eed442ff4a3f2ddda8fc6d3/ReqFlow-1.0.5a0.tar.gz
+[2024-05-31 16:36:44] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-05-31 16:36:44] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-1.1.4.tar.gz tmp/pypomes_core-1.1.5.tar.gz --markdown 20240531/p/pypomes-core/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-05-31 16:36:44] INFO root fetch - processPackages [sparecores-runner]: Downloading https://files.pythonhosted.org/packages/d2/1a/973798a2926ba91a40573ef219c9d6c46242676f37dbc5b5296b0e80261a/sparecores_runner-0.0.5.tar.gz
+[2024-05-31 16:36:44] INFO root fetch - processPackages [jabutiutils]: executing diffoscope
+[2024-05-31 16:36:44] INFO root fetch - processPackages [jabutiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jabutiutils-0.0.5.tar.gz tmp/jabutiutils-0.0.6.tar.gz --markdown 20240531/j/jabutiutils/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 16:36:44] INFO root fetch - processPackages [ReqFlow]: executing diffoscope
+[2024-05-31 16:36:44] INFO root fetch - processPackages [ReqFlow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReqFlow-1.0.4a0.tar.gz tmp/ReqFlow-1.0.5a0.tar.gz --markdown 20240531/R/ReqFlow/1.0.4a0-1.0.5a0/README.md --exclude *.pyd
+[2024-05-31 16:36:44] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/56/cc/32e2c3160c60096f0308ca571ec57769737f14983fed75cc8a0b0ec7f5d3/composabl_dev-0.9.0.dev1-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-05-31 16:36:44] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-31 16:36:44] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240531/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-31 16:36:44] INFO root fetch - processPackages [sparecores-runner]: executing diffoscope
+[2024-05-31 16:36:44] INFO root fetch - processPackages [sparecores-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparecores_runner-0.0.4.tar.gz tmp/sparecores_runner-0.0.5.tar.gz --markdown 20240531/s/sparecores-runner/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-31 16:36:45] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/94/db/d85ff383e3be16f391f3bf2078aa2241807b2930e03c9760c052a3088e22/composabl_api_dev-0.9.0.dev1-cp310-cp310-macosx_11_0_arm64.whl
+[2024-05-31 16:36:45] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-05-31 16:36:45] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev98-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.9.0.dev1-cp310-cp310-macosx_10_9_x86_64.whl.zip --markdown 20240531/c/composabl-dev/0.8.0.dev98-0.9.0.dev1/README.md --exclude *.pyd
+[2024-05-31 16:36:45] INFO root fetch - processPackages [expressmoney]: Downloading https://files.pythonhosted.org/packages/68/85/baf2ff28a5cd675870802f90fab795c8d2bf16c7e6137edf5b738fc98d54/expressmoney-9.9.1.tar.gz
+[2024-05-31 16:36:45] INFO root fetch - processPackages [composabl-api-dev]: executing diffoscope
+[2024-05-31 16:36:45] INFO root fetch - processPackages [composabl-api-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_api_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_api_dev-0.9.0.dev1-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240531/c/composabl-api-dev/0.8.0.dev98-0.9.0.dev1/README.md --exclude *.pyd
+[2024-05-31 16:36:45] INFO root fetch - processPackages [expressmoney]: executing diffoscope
+[2024-05-31 16:36:45] INFO root fetch - processPackages [expressmoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expressmoney-9.9.0.tar.gz tmp/expressmoney-9.9.1.tar.gz --markdown 20240531/e/expressmoney/9.9.0-9.9.1/README.md --exclude *.pyd
+[2024-05-31 16:36:45] INFO root fetch - processPackages [jabutiutils]: Remove: archive file [/home/abi/fetcher/tmp/jabutiutils-0.0.5.tar.gz]
+[2024-05-31 16:36:45] INFO root fetch - processPackages [jabutiutils]: Remove: archive file [/home/abi/fetcher/tmp/jabutiutils-0.0.6.tar.gz]
+[2024-05-31 16:36:45] INFO root fetch - main [MainThread]: End processing [jabutiutils]: success
+[2024-05-31 16:36:45] INFO root fetch - processPackages [sparecores-runner]: Remove: archive file [/home/abi/fetcher/tmp/sparecores_runner-0.0.4.tar.gz]
+[2024-05-31 16:36:45] INFO root fetch - processPackages [sparecores-runner]: Remove: archive file [/home/abi/fetcher/tmp/sparecores_runner-0.0.5.tar.gz]
+[2024-05-31 16:36:45] INFO root fetch - main [MainThread]: End processing [sparecores-runner]: success
+[2024-05-31 16:36:45] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.1.4.tar.gz]
+[2024-05-31 16:36:45] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.1.5.tar.gz]
+[2024-05-31 16:36:45] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-05-31 16:36:45] INFO root fetch - processPackages [ReqFlow]: Remove: archive file [/home/abi/fetcher/tmp/ReqFlow-1.0.4a0.tar.gz]
+[2024-05-31 16:36:45] INFO root fetch - processPackages [ReqFlow]: Remove: archive file [/home/abi/fetcher/tmp/ReqFlow-1.0.5a0.tar.gz]
+[2024-05-31 16:36:45] INFO root fetch - main [MainThread]: End processing [ReqFlow]: success
+[2024-05-31 16:36:45] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev98-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 16:36:45] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.9.0.dev1-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-05-31 16:36:45] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-05-31 16:36:46] INFO root fetch - processPackages [expressmoney]: Remove: archive file [/home/abi/fetcher/tmp/expressmoney-9.9.0.tar.gz]
+[2024-05-31 16:36:46] INFO root fetch - processPackages [expressmoney]: Remove: archive file [/home/abi/fetcher/tmp/expressmoney-9.9.1.tar.gz]
+[2024-05-31 16:36:46] INFO root fetch - main [MainThread]: End processing [expressmoney]: success
+[2024-05-31 16:36:46] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 16:36:46] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.9.0.dev1-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-05-31 16:36:46] INFO root fetch - main [MainThread]: End processing [composabl-api-dev]: success
+[2024-05-31 16:36:46] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-05-31 16:36:46] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-05-31 16:36:46] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-31 16:36:46] INFO root fetch - main [MainThread]: Store serial: [23467177]
