@@ -15582,3 +15582,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 12:46:47] INFO root fetch - processPackages [WebInspectra]: Remove: archive file [/home/abi/fetcher/tmp/webinspectra-1.0.2.tar.gz]
 [2024-05-31 12:46:47] INFO root fetch - main [MainThread]: End processing [WebInspectra]: success
 [2024-05-31 12:46:47] INFO root fetch - main [MainThread]: Store serial: [23464366]
+[2024-05-31 12:48:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464366]
+[2024-05-31 12:48:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 12:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dqc-toolkit
+[2024-05-31 12:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cli-command-parser
+[2024-05-31 12:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ok-script
+[2024-05-31 12:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LLMSmith
+[2024-05-31 12:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roboto-ingestion-utils
+[2024-05-31 12:48:57] INFO root fetch - processPackages [dqc-toolkit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 12:48:57] INFO root fetch - processPackages [roboto-ingestion-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 12:48:57] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 12:48:57] INFO root fetch - processPackages [LLMSmith]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-31 12:48:57] INFO root fetch - processPackages [dqc-toolkit]: Downloading https://files.pythonhosted.org/packages/90/ad/b60b1121afc658d94cbeced904e6adcac82bea87ddd2b0828a3ece1abd34/dqc_toolkit-0.1.1.tar.gz
+[2024-05-31 12:48:57] INFO root fetch - processPackages [roboto-ingestion-utils]: Downloading https://files.pythonhosted.org/packages/d2/c3/a80300609c6c2f463fde8ba9898b779475564f0466bb683963e1b9bc941e/roboto_ingestion_utils-0.0.8.tar.gz
+[2024-05-31 12:48:57] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-05-31 12:48:57] INFO root fetch - processPackages [cli-command-parser]: New version: [2024.5.31] Old Version: [2024.5.19]
+[2024-05-31 12:48:57] INFO root fetch - processPackages [LLMSmith]: Downloading https://files.pythonhosted.org/packages/38/d8/16fd363d398d03e5937002256b26c0017db4a1e25a01d6ea92052d4d7221/llmsmith-0.7.0.tar.gz
+[2024-05-31 12:48:57] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/92/50/a8ff06aa007f2596b3304e89ac4f298f5029f0c10a7cd54f52f0b51cf06c/cli_command_parser-2024.5.19.tar.gz
+[2024-05-31 12:48:57] INFO root fetch - processPackages [dqc-toolkit]: Downloading https://files.pythonhosted.org/packages/c0/e9/331ee29ddd34630f0ea5ae6648c5d2ab744d6e4caf49fa3b0386ac9292a8/dqc_toolkit-0.1.2-py3-none-any.whl
+[2024-05-31 12:48:57] INFO root fetch - processPackages [roboto-ingestion-utils]: Downloading https://files.pythonhosted.org/packages/ee/df/fa04c2857761d93336c6d780c80867d0973c82e584c7eede506d3de23f10/roboto_ingestion_utils-0.0.9.tar.gz
+[2024-05-31 12:48:57] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-05-31 12:48:57] INFO root fetch - processPackages [roboto-ingestion-utils]: executing diffoscope
+[2024-05-31 12:48:57] INFO root fetch - processPackages [roboto-ingestion-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_ingestion_utils-0.0.8.tar.gz tmp/roboto_ingestion_utils-0.0.9.tar.gz --markdown 20240531/r/roboto-ingestion-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 12:48:57] INFO root fetch - processPackages [dqc-toolkit]: executing diffoscope
+[2024-05-31 12:48:57] INFO root fetch - processPackages [dqc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqc_toolkit-0.1.1.tar.gz tmp/dqc_toolkit-0.1.2-py3-none-any.whl.zip --markdown 20240531/d/dqc-toolkit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 12:48:57] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-05-31 12:48:57] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240531/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 12:48:57] INFO root fetch - processPackages [LLMSmith]: Downloading https://files.pythonhosted.org/packages/4b/e0/e12b1a5072db2428963cc2600df789d992830fcccbb3fe1163fb6cb96185/llmsmith-0.8.0.tar.gz
+[2024-05-31 12:48:57] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/3f/13/076e5d1c33fbb6db08b7f63d5973a5c3327409bfbaafdc8db41741301b27/cli_command_parser-2024.5.31.tar.gz
+[2024-05-31 12:48:58] INFO root fetch - processPackages [cli-command-parser]: executing diffoscope
+[2024-05-31 12:48:58] INFO root fetch - processPackages [cli-command-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_command_parser-2024.5.19.tar.gz tmp/cli_command_parser-2024.5.31.tar.gz --markdown 20240531/c/cli-command-parser/2024.5.19-2024.5.31/README.md --exclude *.pyd
+[2024-05-31 12:48:58] INFO root fetch - processPackages [LLMSmith]: executing diffoscope
+[2024-05-31 12:48:58] INFO root fetch - processPackages [LLMSmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmsmith-0.7.0.tar.gz tmp/llmsmith-0.8.0.tar.gz --markdown 20240531/L/LLMSmith/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-31 12:48:58] INFO root fetch - processPackages [dqc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dqc_toolkit-0.1.1.tar.gz]
+[2024-05-31 12:48:58] INFO root fetch - processPackages [dqc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dqc_toolkit-0.1.2-py3-none-any.whl.zip]
+[2024-05-31 12:48:58] INFO root fetch - main [MainThread]: End processing [dqc-toolkit]: success
+[2024-05-31 12:48:58] INFO root fetch - processPackages [roboto-ingestion-utils]: Remove: archive file [/home/abi/fetcher/tmp/roboto_ingestion_utils-0.0.8.tar.gz]
+[2024-05-31 12:48:58] INFO root fetch - processPackages [roboto-ingestion-utils]: Remove: archive file [/home/abi/fetcher/tmp/roboto_ingestion_utils-0.0.9.tar.gz]
+[2024-05-31 12:48:58] INFO root fetch - main [MainThread]: End processing [roboto-ingestion-utils]: success
+[2024-05-31 12:48:58] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-05-31 12:48:58] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-05-31 12:48:58] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-05-31 12:48:58] INFO root fetch - processPackages [LLMSmith]: Remove: archive file [/home/abi/fetcher/tmp/llmsmith-0.7.0.tar.gz]
+[2024-05-31 12:48:58] INFO root fetch - processPackages [LLMSmith]: Remove: archive file [/home/abi/fetcher/tmp/llmsmith-0.8.0.tar.gz]
+[2024-05-31 12:48:58] INFO root fetch - main [MainThread]: End processing [LLMSmith]: success
+[2024-05-31 12:48:58] INFO root fetch - processPackages [cli-command-parser]: Remove: archive file [/home/abi/fetcher/tmp/cli_command_parser-2024.5.19.tar.gz]
+[2024-05-31 12:48:58] INFO root fetch - processPackages [cli-command-parser]: Remove: archive file [/home/abi/fetcher/tmp/cli_command_parser-2024.5.31.tar.gz]
+[2024-05-31 12:48:58] INFO root fetch - main [MainThread]: End processing [cli-command-parser]: success
+[2024-05-31 12:48:58] INFO root fetch - main [MainThread]: Store serial: [23464386]
