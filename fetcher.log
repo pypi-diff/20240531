@@ -5284,3 +5284,22 @@
 [2024-05-31 04:32:15] INFO root fetch - processPackages [stldim]: Remove: archive file [/home/abi/fetcher/tmp/stldim-0.4.0.tar.gz]
 [2024-05-31 04:32:15] INFO root fetch - main [MainThread]: End processing [stldim]: success
 [2024-05-31 04:32:15] INFO root fetch - main [MainThread]: Store serial: [23459704]
+[2024-05-31 04:34:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459704]
+[2024-05-31 04:34:23] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-31 04:36:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459704]
+[2024-05-31 04:36:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 04:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pasync
+[2024-05-31 04:36:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant
+[2024-05-31 04:36:28] INFO root fetch - processPackages [pasync]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-31 04:36:28] INFO root fetch - processPackages [homeassistant]: New version: [2024.6.0b3] Old Version: [2024.6.0b2]
+[2024-05-31 04:36:28] INFO root fetch - processPackages [pasync]: Downloading https://files.pythonhosted.org/packages/9f/15/0a62bf8a33cd8c1c027ab9d0797d0876e1fc4b536b09da8cdae285bbb406/pasync-0.1.0.tar.gz
+[2024-05-31 04:36:28] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/a1/81/e9864ff299a66fb674f1743400c7fb5dfe2f65069b0286a4fdcdd4d16dd4/homeassistant-2024.6.0b2.tar.gz
+[2024-05-31 04:36:28] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 21188512>=10485760
+[2024-05-31 04:36:28] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2024-05-31 04:36:28] INFO root fetch - processPackages [pasync]: Downloading https://files.pythonhosted.org/packages/09/16/2c34934650795d65f2e690af1f222b7d698279defd05a8482471d0156ef1/pasync-0.2.0.tar.gz
+[2024-05-31 04:36:28] INFO root fetch - processPackages [pasync]: executing diffoscope
+[2024-05-31 04:36:28] INFO root fetch - processPackages [pasync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasync-0.1.0.tar.gz tmp/pasync-0.2.0.tar.gz --markdown 20240531/p/pasync/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-31 04:36:29] INFO root fetch - processPackages [pasync]: Remove: archive file [/home/abi/fetcher/tmp/pasync-0.1.0.tar.gz]
+[2024-05-31 04:36:29] INFO root fetch - processPackages [pasync]: Remove: archive file [/home/abi/fetcher/tmp/pasync-0.2.0.tar.gz]
+[2024-05-31 04:36:29] INFO root fetch - main [MainThread]: End processing [pasync]: success
+[2024-05-31 04:36:29] INFO root fetch - main [MainThread]: Store serial: [23459710]
