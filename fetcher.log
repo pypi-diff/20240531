@@ -15749,3 +15749,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 12:53:21] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.9.tar.gz]
 [2024-05-31 12:53:21] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
 [2024-05-31 12:53:21] INFO root fetch - main [MainThread]: Store serial: [23464434]
+[2024-05-31 12:55:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464434]
+[2024-05-31 12:55:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: olas-operate-middleware
+[2024-05-31 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pan-os-python
+[2024-05-31 12:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Starco
+[2024-05-31 12:55:30] INFO root fetch - processPackages [pan-os-python]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-31 12:55:30] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-31 12:55:30] INFO root fetch - processPackages [Starco]: New version: [3.2.1] Old Version: [3.1.9]
+[2024-05-31 12:55:30] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-31 12:55:30] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/ab/a5/be5c43def593b7c7fbecda4eb933c08a7bd77789f45fa087f912a0afbadc/Starco-3.1.9.tar.gz
+[2024-05-31 12:55:30] INFO root fetch - processPackages [pan-os-python]: Downloading https://files.pythonhosted.org/packages/b8/d5/059e04e20bb9d8f33f8b4d6eeb1a87858f573ad1d569f03b5fe1947dcde0/pan_os_python-1.8.1.tar.gz
+[2024-05-31 12:55:30] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-31 12:55:30] INFO root fetch - processPackages [Starco]: Downloading https://files.pythonhosted.org/packages/11/7c/1cc3c9ef69c9c56b280f7ff0278e571fc5e920d4c40a92aed0c2cf0f1bbc/Starco-3.2.1.tar.gz
+[2024-05-31 12:55:30] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-31 12:55:30] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240531/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-31 12:55:30] INFO root fetch - processPackages [pan-os-python]: Downloading https://files.pythonhosted.org/packages/67/63/ab2b1fa7f20311aba8aff24ab90b5b95cba470a9e9319c200772e00bb36a/pan_os_python-1.9.0.tar.gz
+[2024-05-31 12:55:30] INFO root fetch - processPackages [Starco]: executing diffoscope
+[2024-05-31 12:55:30] INFO root fetch - processPackages [pan-os-python]: executing diffoscope
+[2024-05-31 12:55:30] INFO root fetch - processPackages [pan-os-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pan_os_python-1.8.1.tar.gz tmp/pan_os_python-1.9.0.tar.gz --markdown 20240531/p/pan-os-python/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-31 12:55:30] INFO root fetch - processPackages [Starco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Starco-3.1.9.tar.gz tmp/Starco-3.2.1.tar.gz --markdown 20240531/S/Starco/3.1.9-3.2.1/README.md --exclude *.pyd
+[2024-05-31 12:55:31] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-31 12:55:31] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-31 12:55:31] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-31 12:55:31] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.1.9.tar.gz]
+[2024-05-31 12:55:31] INFO root fetch - processPackages [Starco]: Remove: archive file [/home/abi/fetcher/tmp/Starco-3.2.1.tar.gz]
+[2024-05-31 12:55:31] INFO root fetch - main [MainThread]: End processing [Starco]: success
+[2024-05-31 12:55:31] INFO root fetch - processPackages [pan-os-python]: Remove: archive file [/home/abi/fetcher/tmp/pan_os_python-1.8.1.tar.gz]
+[2024-05-31 12:55:31] INFO root fetch - processPackages [pan-os-python]: Remove: archive file [/home/abi/fetcher/tmp/pan_os_python-1.9.0.tar.gz]
+[2024-05-31 12:55:31] INFO root fetch - main [MainThread]: End processing [pan-os-python]: success
+[2024-05-31 12:55:31] INFO root fetch - main [MainThread]: Store serial: [23464445]
