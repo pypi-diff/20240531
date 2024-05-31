@@ -10081,3 +10081,51 @@
 [2024-05-31 09:10:11] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
 [2024-05-31 09:10:11] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
 [2024-05-31 09:10:11] INFO root fetch - main [MainThread]: Store serial: [23461755]
+[2024-05-31 09:12:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461755]
+[2024-05-31 09:12:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 09:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trust-plutus-namematch
+[2024-05-31 09:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grid2fp
+[2024-05-31 09:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-venafi
+[2024-05-31 09:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyclicpeptide
+[2024-05-31 09:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jyhelper
+[2024-05-31 09:12:21] INFO root fetch - processPackages [cyclicpeptide]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-31 09:12:21] INFO root fetch - processPackages [trust-plutus-namematch]: New version: [2.2] Old Version: [2.1]
+[2024-05-31 09:12:21] INFO root fetch - processPackages [jyhelper]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-31 09:12:22] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/4b/e2/c6323281364cdac8a313ef8052e6c85ecdb13684160bcdfa2d2056f6cc41/cyclicpeptide-1.0.3.tar.gz
+[2024-05-31 09:12:22] INFO root fetch - processPackages [grid2fp]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 09:12:22] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/dd/cf/f9ad1b1a41e0571bc26869ad2e4a2d35514789991a01a018f7add853b74e/trust_plutus_namematch-2.1.tar.gz
+[2024-05-31 09:12:22] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.9.0a1713292049] Old Version: [1.9.0a1712991486]
+[2024-05-31 09:12:22] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/98/78/6fb1a492856243bff8773cf7bcd2b9604b851b14f267f6dd784cbcf51da6/jyhelper-1.2.6.tar.gz
+[2024-05-31 09:12:22] INFO root fetch - processPackages [grid2fp]: Downloading https://files.pythonhosted.org/packages/71/e7/9ea06db143680fa4660bc55bf1178cd21e6117023934b665f4bf29e08957/grid2fp-0.0.8.tar.gz
+[2024-05-31 09:12:22] INFO root fetch - processPackages [jyhelper]: Downloading https://files.pythonhosted.org/packages/62/f9/17afa8aa44950d24ca994f7b130bab2db7be34a1adc45505a6e96dfa5ac3/jyhelper-1.2.7.tar.gz
+[2024-05-31 09:12:22] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/d4/ba/b7bda1ab1fe8291faacca84d278acd6abaf9f99bfd9ed88965e8fcc7d6af/pulumi_venafi-1.9.0a1712991486.tar.gz
+[2024-05-31 09:12:22] INFO root fetch - processPackages [grid2fp]: Downloading https://files.pythonhosted.org/packages/cc/ee/a52857521e3b118cae7903ccc2686266af9621492a19b8cb9ab9f829e946/grid2fp-0.0.9.tar.gz
+[2024-05-31 09:12:22] INFO root fetch - processPackages [jyhelper]: executing diffoscope
+[2024-05-31 09:12:22] INFO root fetch - processPackages [jyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jyhelper-1.2.6.tar.gz tmp/jyhelper-1.2.7.tar.gz --markdown 20240531/j/jyhelper/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-31 09:12:22] INFO root fetch - processPackages [trust-plutus-namematch]: Downloading https://files.pythonhosted.org/packages/3a/84/33cb5471bf7247b9eeb4ffab7442dd6df5a867e31158d9e102419f8cad57/trust_plutus_namematch-2.2.tar.gz
+[2024-05-31 09:12:22] INFO root fetch - processPackages [cyclicpeptide]: Downloading https://files.pythonhosted.org/packages/45/91/06852030d145e3aee861911bcbe7bf1846e0bd86cc8042614a89b9eae9b7/cyclicpeptide-1.0.4.tar.gz
+[2024-05-31 09:12:22] INFO root fetch - processPackages [grid2fp]: executing diffoscope
+[2024-05-31 09:12:22] INFO root fetch - processPackages [grid2fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grid2fp-0.0.8.tar.gz tmp/grid2fp-0.0.9.tar.gz --markdown 20240531/g/grid2fp/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 09:12:22] INFO root fetch - processPackages [trust-plutus-namematch]: executing diffoscope
+[2024-05-31 09:12:22] INFO root fetch - processPackages [trust-plutus-namematch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trust_plutus_namematch-2.1.tar.gz tmp/trust_plutus_namematch-2.2.tar.gz --markdown 20240531/t/trust-plutus-namematch/2.1-2.2/README.md --exclude *.pyd
+[2024-05-31 09:12:22] INFO root fetch - processPackages [cyclicpeptide]: executing diffoscope
+[2024-05-31 09:12:22] INFO root fetch - processPackages [cyclicpeptide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclicpeptide-1.0.3.tar.gz tmp/cyclicpeptide-1.0.4.tar.gz --markdown 20240531/c/cyclicpeptide/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-31 09:12:22] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/db/01/dcb11920f0787807e87c2c697ce7f79b7068f63cdc9de29171958916432b/pulumi_venafi-1.9.0a1713292049.tar.gz
+[2024-05-31 09:12:22] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2024-05-31 09:12:22] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.9.0a1712991486.tar.gz tmp/pulumi_venafi-1.9.0a1713292049.tar.gz --markdown 20240531/p/pulumi-venafi/1.9.0a1712991486-1.9.0a1713292049/README.md --exclude *.pyd
+[2024-05-31 09:12:23] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.6.tar.gz]
+[2024-05-31 09:12:23] INFO root fetch - processPackages [jyhelper]: Remove: archive file [/home/abi/fetcher/tmp/jyhelper-1.2.7.tar.gz]
+[2024-05-31 09:12:23] INFO root fetch - main [MainThread]: End processing [jyhelper]: success
+[2024-05-31 09:12:23] INFO root fetch - processPackages [grid2fp]: Remove: archive file [/home/abi/fetcher/tmp/grid2fp-0.0.8.tar.gz]
+[2024-05-31 09:12:23] INFO root fetch - processPackages [grid2fp]: Remove: archive file [/home/abi/fetcher/tmp/grid2fp-0.0.9.tar.gz]
+[2024-05-31 09:12:23] INFO root fetch - main [MainThread]: End processing [grid2fp]: success
+[2024-05-31 09:12:23] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-2.1.tar.gz]
+[2024-05-31 09:12:23] INFO root fetch - processPackages [trust-plutus-namematch]: Remove: archive file [/home/abi/fetcher/tmp/trust_plutus_namematch-2.2.tar.gz]
+[2024-05-31 09:12:23] INFO root fetch - main [MainThread]: End processing [trust-plutus-namematch]: success
+[2024-05-31 09:12:23] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.3.tar.gz]
+[2024-05-31 09:12:23] INFO root fetch - processPackages [cyclicpeptide]: Remove: archive file [/home/abi/fetcher/tmp/cyclicpeptide-1.0.4.tar.gz]
+[2024-05-31 09:12:23] INFO root fetch - main [MainThread]: End processing [cyclicpeptide]: success
+[2024-05-31 09:12:23] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1712991486.tar.gz]
+[2024-05-31 09:12:23] INFO root fetch - processPackages [pulumi-venafi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_venafi-1.9.0a1713292049.tar.gz]
+[2024-05-31 09:12:23] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2024-05-31 09:12:23] INFO root fetch - main [MainThread]: Store serial: [23461770]
