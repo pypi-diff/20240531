@@ -16583,3 +16583,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:26:04] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
 [2024-05-31 13:26:04] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-05-31 13:26:04] INFO root fetch - main [MainThread]: Store serial: [23464771]
+[2024-05-31 13:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464771]
+[2024-05-31 13:28:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 13:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchx-nightly
+[2024-05-31 13:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-governance
+[2024-05-31 13:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ilum
+[2024-05-31 13:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchtnt-nightly
+[2024-05-31 13:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dve-lumipy-testing
+[2024-05-31 13:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: variable-local
+[2024-05-31 13:28:13] INFO root fetch - processPackages [variable-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-31 13:28:14] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-31 13:28:14] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2024.5.30] Old Version: [2024.5.29]
+[2024-05-31 13:28:14] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-31 13:28:14] INFO root fetch - processPackages [ilum]: New version: [6.1.2rc2] Old Version: [6.1.2rc1]
+[2024-05-31 13:28:14] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/70/d7/8f1cedc8864b64b1a14b0babb14012e1b55d36ce7f7d4131efd3a144ba8d/variable_local-0.0.98.tar.gz
+[2024-05-31 13:28:14] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-31 13:28:14] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-31 13:28:14] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/0e/c2/ed7b7998e5feb3614d7ede29bff474eeecfb5365737af244dd72ac6f0620/torchtnt_nightly-2024.5.29.tar.gz
+[2024-05-31 13:28:14] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4f/2c/1b1fd11c1eb29345cef72d90c551ee6ca39cb1ca91dcb13a62e39d09d3e9/torchx_nightly-2024.5.8-py3-none-any.whl
+[2024-05-31 13:28:14] INFO root fetch - processPackages [ilum]: Downloading https://files.pythonhosted.org/packages/94/69/80236deeb9f08afe99e45b7eb79d9b4a90c1f04de56e1a3620128b2e0b1c/ilum-6.1.2rc1.tar.gz
+[2024-05-31 13:28:14] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/20/8b/ee9947a8caefb731b30941901e0fe4a1c3ea3ec0e2f19a88de6dbd7bc499/variable_local-0.0.99.tar.gz
+[2024-05-31 13:28:14] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/ef/82/e6c03fc0dd925d2055bbcc5fd948a1d0af4e3f8c4439e5910978d3ef8971/dve_lumipy_testing-1.0.98-py3-none-any.whl
+[2024-05-31 13:28:14] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-31 13:28:14] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/77/19/3475ceeec15466054f155b399d006faaf128258c35d771397c04ac9cf1e4/torchx_nightly-2024.5.9-py3-none-any.whl
+[2024-05-31 13:28:14] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/1c/01/abc82a87d726109d0265964d3891558648a4937a6116e76ce823b182beda/torchtnt_nightly-2024.5.30.tar.gz
+[2024-05-31 13:28:14] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-05-31 13:28:14] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.98.tar.gz tmp/variable_local-0.0.99.tar.gz --markdown 20240531/v/variable-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-31 13:28:14] INFO root fetch - processPackages [ilum]: Downloading https://files.pythonhosted.org/packages/12/de/6fbcc6148a314c39eaf15df54ac0aa5a1026dfc3fd227d30c40aebfefe53/ilum-6.1.2rc2.tar.gz
+[2024-05-31 13:28:14] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-31 13:28:14] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240531/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-31 13:28:14] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2024-05-31 13:28:14] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt_nightly-2024.5.29.tar.gz tmp/torchtnt_nightly-2024.5.30.tar.gz --markdown 20240531/t/torchtnt-nightly/2024.5.29-2024.5.30/README.md --exclude *.pyd
+[2024-05-31 13:28:14] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-31 13:28:14] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240531/t/torchx-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-31 13:28:14] INFO root fetch - processPackages [ilum]: executing diffoscope
+[2024-05-31 13:28:14] INFO root fetch - processPackages [ilum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilum-6.1.2rc1.tar.gz tmp/ilum-6.1.2rc2.tar.gz --markdown 20240531/i/ilum/6.1.2rc1-6.1.2rc2/README.md --exclude *.pyd
+[2024-05-31 13:28:14] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/64/41/f4f4028a23777a5e5fb44c86dddc289c4a56e16a91b99e8b55a4326ed143/dve_lumipy_testing-1.0.99-py3-none-any.whl
+[2024-05-31 13:28:15] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-31 13:28:15] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip --markdown 20240531/d/dve-lumipy-testing/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-31 13:28:15] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.98.tar.gz]
+[2024-05-31 13:28:15] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.99.tar.gz]
+[2024-05-31 13:28:15] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-05-31 13:28:15] INFO root fetch - processPackages [ilum]: Remove: archive file [/home/abi/fetcher/tmp/ilum-6.1.2rc1.tar.gz]
+[2024-05-31 13:28:15] INFO root fetch - processPackages [ilum]: Remove: archive file [/home/abi/fetcher/tmp/ilum-6.1.2rc2.tar.gz]
+[2024-05-31 13:28:15] INFO root fetch - main [MainThread]: End processing [ilum]: success
+[2024-05-31 13:28:15] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.29.tar.gz]
+[2024-05-31 13:28:15] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.30.tar.gz]
+[2024-05-31 13:28:15] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2024-05-31 13:28:15] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-31 13:28:15] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-31 13:28:15] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-31 13:28:15] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-31 13:28:15] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-31 13:28:15] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-31 13:28:16] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.98-py3-none-any.whl.zip]
+[2024-05-31 13:28:16] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.99-py3-none-any.whl.zip]
+[2024-05-31 13:28:16] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-31 13:28:16] INFO root fetch - main [MainThread]: Store serial: [23464793]
