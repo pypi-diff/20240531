@@ -8612,3 +8612,36 @@
 [2024-05-31 07:57:18] INFO root fetch - processPackages [stereopy]: Remove: archive file [/home/abi/fetcher/tmp/stereopy-1.3.0b1.tar.gz]
 [2024-05-31 07:57:18] INFO root fetch - main [MainThread]: End processing [stereopy]: success
 [2024-05-31 07:57:18] INFO root fetch - main [MainThread]: Store serial: [23461020]
+[2024-05-31 07:59:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461020]
+[2024-05-31 07:59:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 07:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azure-native
+[2024-05-31 07:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2024-05-31 07:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyasdb
+[2024-05-31 07:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyasdb
+[2024-05-31 07:59:27] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-05-31 07:59:27] INFO root fetch - processPackages [pyasdb]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-31 07:59:27] INFO root fetch - processPackages [pyasdb]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-05-31 07:59:27] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-05-31 07:59:27] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-05-31 07:59:27] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-05-31 07:59:27] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/a1/19/ca2949837345edec6755411bc46f619c279ec79202f691df65d959ae6923/pyasdb-0.0.1-py3-none-any.whl
+[2024-05-31 07:59:27] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/a1/19/ca2949837345edec6755411bc46f619c279ec79202f691df65d959ae6923/pyasdb-0.0.1-py3-none-any.whl
+[2024-05-31 07:59:28] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/ab/42/c54aed5c2486d1b16c54eceba8dc83df2dc8486374bab5f3fcffda5fc18f/pyasdb-0.0.3-py3-none-any.whl
+[2024-05-31 07:59:28] INFO root fetch - processPackages [pyasdb]: Downloading https://files.pythonhosted.org/packages/ab/42/c54aed5c2486d1b16c54eceba8dc83df2dc8486374bab5f3fcffda5fc18f/pyasdb-0.0.3-py3-none-any.whl
+[2024-05-31 07:59:28] INFO root fetch - processPackages [pyasdb]: executing diffoscope
+[2024-05-31 07:59:28] INFO root fetch - processPackages [pyasdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasdb-0.0.1-py3-none-any.whl.zip tmp/pyasdb-0.0.3-py3-none-any.whl.zip --markdown 20240531/p/pyasdb/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-31 07:59:28] INFO root fetch - processPackages [pyasdb]: executing diffoscope
+[2024-05-31 07:59:28] INFO root fetch - processPackages [pyasdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyasdb-0.0.1-py3-none-any.whl.zip tmp/pyasdb-0.0.3-py3-none-any.whl.zip --markdown 20240531/p/pyasdb/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-05-31 07:59:28] INFO root fetch - processPackages [kcli]: New version: [99.0.202405310558] Old Version: [99.0.202405292029]
+[2024-05-31 07:59:28] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/35/9f/974d7dd379fdcd0318157395862a7e6de9db79e61504b786cce5120466bf/kcli-99.0.202405292029.tar.gz
+[2024-05-31 07:59:28] INFO root fetch - processPackages [pyasdb]: Remove: archive file [/home/abi/fetcher/tmp/pyasdb-0.0.1-py3-none-any.whl.zip]
+[2024-05-31 07:59:28] INFO root fetch - processPackages [pyasdb]: Remove: archive file [/home/abi/fetcher/tmp/pyasdb-0.0.3-py3-none-any.whl.zip]
+[2024-05-31 07:59:28] INFO root fetch - main [MainThread]: End processing [pyasdb]: success
+[2024-05-31 07:59:29] INFO root fetch - main [MainThread]: End processing [pyasdb]: success
+[2024-05-31 07:59:29] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/61/8b/22c24ca28fdd890aad848ffc0a26eaadbd821367a2b27392538e33bf5c25/kcli-99.0.202405310558-py3-none-any.whl
+[2024-05-31 07:59:29] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-31 07:59:29] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405292029.tar.gz tmp/kcli-99.0.202405310558-py3-none-any.whl.zip --markdown 20240531/k/kcli/99.0.202405292029-99.0.202405310558/README.md --exclude *.pyd
+[2024-05-31 07:59:30] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405292029.tar.gz]
+[2024-05-31 07:59:30] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405310558-py3-none-any.whl.zip]
+[2024-05-31 07:59:30] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-31 07:59:30] INFO root fetch - main [MainThread]: Store serial: [23461038]
