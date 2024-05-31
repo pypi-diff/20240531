@@ -22855,3 +22855,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:06:11] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240530-py3-none-win_amd64.whl.zip]
 [2024-05-31 17:06:11] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-05-31 17:06:11] INFO root fetch - main [MainThread]: Store serial: [23467673]
+[2024-05-31 17:08:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467673]
+[2024-05-31 17:08:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 17:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-json-schema-editor
+[2024-05-31 17:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-picking-report-external-note
+[2024-05-31 17:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socketsecurity
+[2024-05-31 17:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyvckit
+[2024-05-31 17:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-core-dev
+[2024-05-31 17:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socialdataanalysis
+[2024-05-31 17:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Adafruit-PlatformDetect
+[2024-05-31 17:08:20] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-31 17:08:20] INFO root fetch - processPackages [pyvckit]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 17:08:20] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/df/16/11e7b4d1e4605168d2f315baa211ed905b5aeecd3cafd3dfa2d9bd5dc9cc/socialdataanalysis-0.9.4.tar.gz
+[2024-05-31 17:08:20] INFO root fetch - processPackages [django-json-schema-editor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 17:08:20] INFO root fetch - processPackages [pyvckit]: Downloading https://files.pythonhosted.org/packages/3a/a7/1e6fc938dbf6d0610fbfafef772b68ace1136eed7e9ef35d41823c24f8a7/pyvckit-0.0.1.tar.gz
+[2024-05-31 17:08:20] INFO root fetch - processPackages [odoo-addon-stock-picking-report-external-note]: New version: [16.0.1.0.1] Old Version: [15.0.0.1.1.2]
+[2024-05-31 17:08:20] INFO root fetch - processPackages [socketsecurity]: New version: [0.0.71] Old Version: [0.0.70]
+[2024-05-31 17:08:20] INFO root fetch - processPackages [Adafruit-PlatformDetect]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-05-31 17:08:20] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.9.0.dev1] Old Version: [0.8.0.dev98]
+[2024-05-31 17:08:20] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/f1/7a/644b94f8e30f02521c773ac2294d8d33f4bf5be42ec5bce78f2fea7273e6/django_json_schema_editor-0.0.8.tar.gz
+[2024-05-31 17:08:20] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/9e/fa/2d3c210d97c13ac0cfc9d2c6ce7fd4aa36793da02c4beb625b05c0fbd832/socketsecurity-0.0.70.tar.gz
+[2024-05-31 17:08:20] INFO root fetch - processPackages [odoo-addon-stock-picking-report-external-note]: Downloading https://files.pythonhosted.org/packages/48/28/9bb7e3913ea34bdb36dfa19193b56000489f6fb7dcfe429211b8c2adec7f/odoo_addon_stock_picking_report_external_note-15.0.0.1.1.2-py3-none-any.whl
+[2024-05-31 17:08:20] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/2a/80/b28c3d82fc4690aff5b6db02d3582e378b39da4a3f8cc519aea172963cbb/composabl_core_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 17:08:20] INFO root fetch - processPackages [pyvckit]: Downloading https://files.pythonhosted.org/packages/e8/6d/67a7baaea734e1f8230527186e69d3d52e8508c00bc9154f2fb39b7279a2/pyvckit-0.0.2-py3-none-any.whl
+[2024-05-31 17:08:20] INFO root fetch - processPackages [Adafruit-PlatformDetect]: Downloading https://files.pythonhosted.org/packages/f5/ca/8342f0487151623b7a76770af7b38ada4e3d7ace4fc35a67d968e283bdbc/Adafruit-PlatformDetect-3.8.0.tar.gz
+[2024-05-31 17:08:20] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 26461247>=10485760
+[2024-05-31 17:08:20] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-05-31 17:08:20] INFO root fetch - processPackages [pyvckit]: executing diffoscope
+[2024-05-31 17:08:20] INFO root fetch - processPackages [pyvckit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvckit-0.0.1.tar.gz tmp/pyvckit-0.0.2-py3-none-any.whl.zip --markdown 20240531/p/pyvckit/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 17:08:20] INFO root fetch - processPackages [django-json-schema-editor]: Downloading https://files.pythonhosted.org/packages/fe/33/fbc31371354b97194681d08db6bec40cb469672204617fbf4ef66b3bc6f4/django_json_schema_editor-0.0.9.tar.gz
+[2024-05-31 17:08:20] INFO root fetch - processPackages [odoo-addon-stock-picking-report-external-note]: Downloading https://files.pythonhosted.org/packages/8d/4f/27367e4ddeb730c1925129bd87188430e0ca98f4f48b0a4c842b17b82629/odoo_addon_stock_picking_report_external_note-16.0.1.0.1-py3-none-any.whl
+[2024-05-31 17:08:20] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/5e/cc/871993976372f4fd270b67b32d5d430e9a9650178c098a9b36d550e3bd94/socialdataanalysis-0.9.5.tar.gz
+[2024-05-31 17:08:20] INFO root fetch - processPackages [Adafruit-PlatformDetect]: Downloading https://files.pythonhosted.org/packages/96/db/97037250481c2098cb390b79a72ef44039a4428bf3f22f6cffc84b4cd9ea/Adafruit-PlatformDetect-3.9.0.tar.gz
+[2024-05-31 17:08:21] INFO root fetch - processPackages [django-json-schema-editor]: executing diffoscope
+[2024-05-31 17:08:21] INFO root fetch - processPackages [django-json-schema-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_json_schema_editor-0.0.8.tar.gz tmp/django_json_schema_editor-0.0.9.tar.gz --markdown 20240531/d/django-json-schema-editor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 17:08:21] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/ec/ea/f42a48422b602f25b883aafa08aa80ddc6ed2e5fe6190706e14ebac43d97/socketsecurity-0.0.71.tar.gz
+[2024-05-31 17:08:21] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 17:08:21] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.9.4.tar.gz tmp/socialdataanalysis-0.9.5.tar.gz --markdown 20240531/s/socialdataanalysis/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-31 17:08:21] INFO root fetch - processPackages [Adafruit-PlatformDetect]: executing diffoscope
+[2024-05-31 17:08:21] INFO root fetch - processPackages [Adafruit-PlatformDetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Adafruit-PlatformDetect-3.8.0.tar.gz tmp/Adafruit-PlatformDetect-3.9.0.tar.gz --markdown 20240531/A/Adafruit-PlatformDetect/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-05-31 17:08:21] INFO root fetch - processPackages [odoo-addon-stock-picking-report-external-note]: executing diffoscope
+[2024-05-31 17:08:21] INFO root fetch - processPackages [odoo-addon-stock-picking-report-external-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_report_external_note-15.0.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_report_external_note-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-stock-picking-report-external-note/15.0.0.1.1.2-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-31 17:08:21] INFO root fetch - processPackages [pyvckit]: Remove: archive file [/home/abi/fetcher/tmp/pyvckit-0.0.1.tar.gz]
+[2024-05-31 17:08:21] INFO root fetch - processPackages [pyvckit]: Remove: archive file [/home/abi/fetcher/tmp/pyvckit-0.0.2-py3-none-any.whl.zip]
+[2024-05-31 17:08:21] INFO root fetch - main [MainThread]: End processing [pyvckit]: success
+[2024-05-31 17:08:21] INFO root fetch - processPackages [socketsecurity]: executing diffoscope
+[2024-05-31 17:08:21] INFO root fetch - processPackages [socketsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketsecurity-0.0.70.tar.gz tmp/socketsecurity-0.0.71.tar.gz --markdown 20240531/s/socketsecurity/0.0.70-0.0.71/README.md --exclude *.pyd
+[2024-05-31 17:08:21] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.9.4.tar.gz]
+[2024-05-31 17:08:21] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.9.5.tar.gz]
+[2024-05-31 17:08:21] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 17:08:21] INFO root fetch - processPackages [Adafruit-PlatformDetect]: Remove: archive file [/home/abi/fetcher/tmp/Adafruit-PlatformDetect-3.8.0.tar.gz]
+[2024-05-31 17:08:21] INFO root fetch - processPackages [Adafruit-PlatformDetect]: Remove: archive file [/home/abi/fetcher/tmp/Adafruit-PlatformDetect-3.9.0.tar.gz]
+[2024-05-31 17:08:21] INFO root fetch - main [MainThread]: End processing [Adafruit-PlatformDetect]: success
+[2024-05-31 17:08:21] INFO root fetch - processPackages [odoo-addon-stock-picking-report-external-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_external_note-15.0.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-31 17:08:21] INFO root fetch - processPackages [odoo-addon-stock-picking-report-external-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_external_note-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-31 17:08:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-report-external-note]: success
+[2024-05-31 17:08:22] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.70.tar.gz]
+[2024-05-31 17:08:22] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.71.tar.gz]
+[2024-05-31 17:08:22] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
+[2024-05-31 17:08:25] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.8.tar.gz]
+[2024-05-31 17:08:25] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
+[2024-05-31 17:08:25] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
+[2024-05-31 17:08:25] INFO root fetch - main [MainThread]: Store serial: [23467708]
