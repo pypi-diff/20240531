@@ -11200,3 +11200,51 @@
 [2024-05-31 09:50:38] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-31 09:50:38] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-05-31 09:50:38] INFO root fetch - main [MainThread]: Store serial: [23462330]
+[2024-05-31 09:52:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462330]
+[2024-05-31 09:52:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coolbg
+[2024-05-31 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelon-impact-client
+[2024-05-31 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentiment-analysis-package
+[2024-05-31 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmdsky-debug-py
+[2024-05-31 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfra-nightly
+[2024-05-31 09:52:47] INFO root fetch - processPackages [sentiment-analysis-package]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-31 09:52:47] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-31 09:52:47] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-31 09:52:47] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/25/d0/ddae3115d20ad69b72d23f2d45eaa12e916b297283acb18023a649ecf3e8/sentiment_analysis_package-0.5.0.tar.gz
+[2024-05-31 09:52:47] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/33/eb/4fec645489c62e47f76637800291fdb912026058b33adb6b93856fb83b80/pmdsky_debug_py-9.0.8-py3-none-any.whl
+[2024-05-31 09:52:47] INFO root fetch - processPackages [modelon-impact-client]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-05-31 09:52:47] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.1.dev20240530032437] Old Version: [0.6.1.dev20240529030102]
+[2024-05-31 09:52:47] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-31 09:52:47] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/11/93/ac45eb5c0ca68124e160e08c13fa9240bd2a22ca1cce169f4bdf1f219072/modelon_impact_client-4.0.0.tar.gz
+[2024-05-31 09:52:47] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-31 09:52:47] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/e0/49/de673d0f9d3e10fb8b5bf3c3919987f872b25fbc63aed8e116b5acf73758/tfra_nightly-0.6.1.dev20240529030102-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 09:52:47] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/78/90/3ae42c4f8e39ed28cfa302c2db60b1605399688c48f721f7261802bd8a29/pmdsky_debug_py-9.0.9-py3-none-any.whl
+[2024-05-31 09:52:47] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-31 09:52:47] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240531/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-31 09:52:47] INFO root fetch - processPackages [modelon-impact-client]: Downloading https://files.pythonhosted.org/packages/2e/b0/b4ef15f26651c702cc014eeb578238a686183044c6f419cfe3058bfbf7ce/modelon_impact_client-4.1.0.tar.gz
+[2024-05-31 09:52:47] INFO root fetch - processPackages [sentiment-analysis-package]: Downloading https://files.pythonhosted.org/packages/ed/7c/068def2497fa9ae76fc8099e64086a823d7a4db1d2ea691bae9c2744f825/sentiment_analysis_package-0.6.0.tar.gz
+[2024-05-31 09:52:47] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2024-05-31 09:52:47] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip --markdown 20240531/p/pmdsky-debug-py/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-31 09:52:48] INFO root fetch - processPackages [modelon-impact-client]: executing diffoscope
+[2024-05-31 09:52:48] INFO root fetch - processPackages [modelon-impact-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelon_impact_client-4.0.0.tar.gz tmp/modelon_impact_client-4.1.0.tar.gz --markdown 20240531/m/modelon-impact-client/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-05-31 09:52:48] INFO root fetch - processPackages [sentiment-analysis-package]: executing diffoscope
+[2024-05-31 09:52:48] INFO root fetch - processPackages [sentiment-analysis-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentiment_analysis_package-0.5.0.tar.gz tmp/sentiment_analysis_package-0.6.0.tar.gz --markdown 20240531/s/sentiment-analysis-package/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-31 09:52:48] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-31 09:52:48] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-31 09:52:48] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-31 09:52:48] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-4.0.0.tar.gz]
+[2024-05-31 09:52:48] INFO root fetch - processPackages [modelon-impact-client]: Remove: archive file [/home/abi/fetcher/tmp/modelon_impact_client-4.1.0.tar.gz]
+[2024-05-31 09:52:48] INFO root fetch - main [MainThread]: End processing [modelon-impact-client]: success
+[2024-05-31 09:52:49] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/e5/15/2b00d703752dcd1b5b3cfbb63e9885d87fe0dda4365661ab0330773b9ba5/tfra_nightly-0.6.1.dev20240530032437-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 09:52:49] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.5.0.tar.gz]
+[2024-05-31 09:52:49] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.6.0.tar.gz]
+[2024-05-31 09:52:49] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package]: success
+[2024-05-31 09:52:49] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2024-05-31 09:52:49] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.1.dev20240529030102-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tfra_nightly-0.6.1.dev20240530032437-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240531/t/tfra-nightly/0.6.1.dev20240529030102-0.6.1.dev20240530032437/README.md --exclude *.pyd
+[2024-05-31 09:52:50] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip]
+[2024-05-31 09:52:50] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip]
+[2024-05-31 09:52:50] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2024-05-31 09:55:44] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240529030102-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 09:55:44] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240530032437-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 09:55:44] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2024-05-31 09:55:44] INFO root fetch - main [MainThread]: Store serial: [23462370]
