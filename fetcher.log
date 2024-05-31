@@ -20555,3 +20555,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:47:49] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-05-31 15:47:49] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-05-31 15:47:49] INFO root fetch - main [MainThread]: Store serial: [23466478]
+[2024-05-31 15:49:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466478]
+[2024-05-31 15:49:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypesto
+[2024-05-31 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-05-31 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhasura
+[2024-05-31 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Sift
+[2024-05-31 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-tools-path
+[2024-05-31 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plataforma-automaxia-api
+[2024-05-31 15:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-aws-native
+[2024-05-31 15:49:59] INFO root fetch - processPackages [pyhasura]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 15:49:59] INFO root fetch - processPackages [plataforma-automaxia-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-31 15:49:59] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-31 15:49:59] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-31 15:49:59] INFO root fetch - processPackages [Sift]: New version: [5.6.0] Old Version: [5.5.1]
+[2024-05-31 15:49:59] INFO root fetch - processPackages [ansys-tools-path]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-31 15:49:59] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/95/74/b4ed4bf242f56b3aed70cb52554c8acf938206faa9687d37ee0841c221a5/pyhasura-1.0.8.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [plataforma-automaxia-api]: Downloading https://files.pythonhosted.org/packages/30/7d/18e52f4ab5cd484d684da11f6f17ff57932c182a16c831b5c1051cba6afe/plataforma-automaxia-api-0.0.6.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [Sift]: Downloading https://files.pythonhosted.org/packages/af/64/5dcdebb8e2c73dadd016a3b4241b569e237a6fd753dfe3aa4871daa4f788/Sift-5.5.1.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [ansys-tools-path]: Downloading https://files.pythonhosted.org/packages/99/75/b652e03f5950ac4edaea74eaade226069722856a4b1ab118c61c4f2a7a73/ansys_tools_path-0.5.2.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [pypesto]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-31 15:49:59] INFO root fetch - processPackages [pyhasura]: Downloading https://files.pythonhosted.org/packages/eb/3e/ee576591a7c4ea777ff94996eb0197f5034bade0047be6fcac2596d26e84/pyhasura-1.0.9.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [pypesto]: Downloading https://files.pythonhosted.org/packages/e0/6e/df7d5602d834425e54f0a682223596451c5ad9f1ef9e96335548e32593ec/pypesto-0.5.1.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [pyhasura]: executing diffoscope
+[2024-05-31 15:49:59] INFO root fetch - processPackages [pyhasura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhasura-1.0.8.tar.gz tmp/pyhasura-1.0.9.tar.gz --markdown 20240531/p/pyhasura/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 15:49:59] INFO root fetch - processPackages [plataforma-automaxia-api]: Downloading https://files.pythonhosted.org/packages/2e/5d/cb11b085ffd802f9c56f457dbcd53530af828cced513905ecb71739c547c/plataforma-automaxia-api-0.0.7.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [Sift]: Downloading https://files.pythonhosted.org/packages/cf/51/118d67a186d831f2bd048aae2aa594f6526ed08f526182d0fdce1c163a51/Sift-5.6.0.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-05-31 15:49:59] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240531/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-31 15:49:59] INFO root fetch - processPackages [plataforma-automaxia-api]: executing diffoscope
+[2024-05-31 15:49:59] INFO root fetch - processPackages [ansys-tools-path]: Downloading https://files.pythonhosted.org/packages/14/7d/0a8c06292400b83a99aa16201284638d714f269c7206312c40a0a37aaacb/ansys_tools_path-0.6.0.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [plataforma-automaxia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plataforma-automaxia-api-0.0.6.tar.gz tmp/plataforma-automaxia-api-0.0.7.tar.gz --markdown 20240531/p/plataforma-automaxia-api/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-31 15:49:59] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-31 15:49:59] INFO root fetch - processPackages [Sift]: executing diffoscope
+[2024-05-31 15:49:59] INFO root fetch - processPackages [Sift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sift-5.5.1.tar.gz tmp/Sift-5.6.0.tar.gz --markdown 20240531/S/Sift/5.5.1-5.6.0/README.md --exclude *.pyd
+[2024-05-31 15:49:59] INFO root fetch - processPackages [ansys-tools-path]: executing diffoscope
+[2024-05-31 15:49:59] INFO root fetch - processPackages [ansys-tools-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_tools_path-0.5.2.tar.gz tmp/ansys_tools_path-0.6.0.tar.gz --markdown 20240531/a/ansys-tools-path/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-31 15:49:59] INFO root fetch - processPackages [pypesto]: Downloading https://files.pythonhosted.org/packages/1a/ee/fa6139411a83e32b2f8470ac342780c14c18b225a659ed716f23b52fb4d7/pypesto-0.5.2.tar.gz
+[2024-05-31 15:50:00] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-31 15:50:00] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240531/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-31 15:50:00] INFO root fetch - processPackages [pypesto]: executing diffoscope
+[2024-05-31 15:50:00] INFO root fetch - processPackages [pypesto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypesto-0.5.1.tar.gz tmp/pypesto-0.5.2.tar.gz --markdown 20240531/p/pypesto/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-31 15:50:00] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.8.tar.gz]
+[2024-05-31 15:50:00] INFO root fetch - processPackages [pyhasura]: Remove: archive file [/home/abi/fetcher/tmp/pyhasura-1.0.9.tar.gz]
+[2024-05-31 15:50:00] INFO root fetch - main [MainThread]: End processing [pyhasura]: success
+[2024-05-31 15:50:00] INFO root fetch - processPackages [plataforma-automaxia-api]: Remove: archive file [/home/abi/fetcher/tmp/plataforma-automaxia-api-0.0.6.tar.gz]
+[2024-05-31 15:50:00] INFO root fetch - processPackages [plataforma-automaxia-api]: Remove: archive file [/home/abi/fetcher/tmp/plataforma-automaxia-api-0.0.7.tar.gz]
+[2024-05-31 15:50:00] INFO root fetch - main [MainThread]: End processing [plataforma-automaxia-api]: success
+[2024-05-31 15:50:00] INFO root fetch - processPackages [Sift]: Remove: archive file [/home/abi/fetcher/tmp/Sift-5.5.1.tar.gz]
+[2024-05-31 15:50:00] INFO root fetch - processPackages [Sift]: Remove: archive file [/home/abi/fetcher/tmp/Sift-5.6.0.tar.gz]
+[2024-05-31 15:50:00] INFO root fetch - main [MainThread]: End processing [Sift]: success
+[2024-05-31 15:50:00] INFO root fetch - processPackages [ansys-tools-path]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_path-0.5.2.tar.gz]
+[2024-05-31 15:50:00] INFO root fetch - processPackages [ansys-tools-path]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_path-0.6.0.tar.gz]
+[2024-05-31 15:50:00] INFO root fetch - main [MainThread]: End processing [ansys-tools-path]: success
+[2024-05-31 15:50:00] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-05-31 15:50:00] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-05-31 15:50:00] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-05-31 15:50:01] INFO root fetch - processPackages [pypesto]: Remove: archive file [/home/abi/fetcher/tmp/pypesto-0.5.1.tar.gz]
+[2024-05-31 15:50:01] INFO root fetch - processPackages [pypesto]: Remove: archive file [/home/abi/fetcher/tmp/pypesto-0.5.2.tar.gz]
+[2024-05-31 15:50:01] INFO root fetch - main [MainThread]: End processing [pypesto]: success
+[2024-05-31 15:50:14] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-31 15:50:14] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-31 15:50:14] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-31 15:50:14] INFO root fetch - main [MainThread]: Store serial: [23466501]
