@@ -12940,3 +12940,48 @@
 [2024-05-31 11:00:05] INFO root fetch - main [MainThread]: End processing [flask-tabler-icons]: success
 [2024-05-31 11:00:05] INFO root fetch - main [MainThread]: End processing [flask-tabler-icons]: success
 [2024-05-31 11:00:05] INFO root fetch - main [MainThread]: Store serial: [23463118]
+[2024-05-31 11:02:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463118]
+[2024-05-31 11:02:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-digitalocean
+[2024-05-31 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protovalidate-python-gen
+[2024-05-31 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nmicheck
+[2024-05-31 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-confluentcloud
+[2024-05-31 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terrajinja-deploy
+[2024-05-31 11:02:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AAIT
+[2024-05-31 11:02:16] INFO root fetch - processPackages [terrajinja-deploy]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-31 11:02:16] WARNING root fetch - processPackages [nmicheck]: Skipping, unable to determine old version
+[2024-05-31 11:02:16] INFO root fetch - main [MainThread]: End processing [nmicheck] error
+[2024-05-31 11:02:16] INFO root fetch - processPackages [AAIT]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2024-05-31 11:02:16] ERROR root fetch - processPackages [protovalidate-python-gen]: Unable to get metadata: No such project 'protovalidate-python-gen'
+[2024-05-31 11:02:16] INFO root fetch - main [MainThread]: End processing [protovalidate-python-gen] error
+[2024-05-31 11:02:16] INFO root fetch - processPackages [pulumi-digitalocean]: New version: [4.9.0a1637244514] Old Version: [4.9.0]
+[2024-05-31 11:02:16] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-05-31 11:02:17] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/4b/ec/a3e05f449cce0171eccc1aaf2042c86118c169df00af32df839b4226b8b2/AAIT-0.0.2.8.tar.gz
+[2024-05-31 11:02:17] INFO root fetch - processPackages [terrajinja-deploy]: Downloading https://files.pythonhosted.org/packages/95/6f/a3fbc7c52e50431edf1cb770e10824a6f557f5579ec6b88b55b1948b25a9/terrajinja-deploy-0.2.2.tar.gz
+[2024-05-31 11:02:17] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/27/fe/88f79d9daf961f609409c5330a59d5bf5ff3effa841b5317256e773c92dd/pulumi_digitalocean-4.9.0.tar.gz
+[2024-05-31 11:02:17] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-05-31 11:02:17] INFO root fetch - processPackages [terrajinja-deploy]: Downloading https://files.pythonhosted.org/packages/58/d6/6cf65b2e3e1bb60904815c869e7940cce042690d56bad3f6cc2668a9f07f/terrajinja-deploy-0.3.0.tar.gz
+[2024-05-31 11:02:17] INFO root fetch - processPackages [AAIT]: Downloading https://files.pythonhosted.org/packages/a0/ed/929afa211bad78b2612459dbcacb9dca8231b0e919d21a6da65137005c11/AAIT-0.0.2.9.tar.gz
+[2024-05-31 11:02:17] INFO root fetch - processPackages [pulumi-digitalocean]: Downloading https://files.pythonhosted.org/packages/aa/e4/0dfa539667fb3462b4c16072050ebf8e1a80d862ac88c8b00ae29b019195/pulumi_digitalocean-4.9.0a1637244514.tar.gz
+[2024-05-31 11:02:17] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-05-31 11:02:17] INFO root fetch - processPackages [terrajinja-deploy]: executing diffoscope
+[2024-05-31 11:02:17] INFO root fetch - processPackages [terrajinja-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrajinja-deploy-0.2.2.tar.gz tmp/terrajinja-deploy-0.3.0.tar.gz --markdown 20240531/t/terrajinja-deploy/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-31 11:02:17] INFO root fetch - processPackages [pulumi-digitalocean]: executing diffoscope
+[2024-05-31 11:02:17] INFO root fetch - processPackages [pulumi-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_digitalocean-4.9.0.tar.gz tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz --markdown 20240531/p/pulumi-digitalocean/4.9.0-4.9.0a1637244514/README.md --exclude *.pyd
+[2024-05-31 11:02:17] INFO root fetch - processPackages [AAIT]: executing diffoscope
+[2024-05-31 11:02:17] INFO root fetch - processPackages [AAIT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAIT-0.0.2.8.tar.gz tmp/AAIT-0.0.2.9.tar.gz --markdown 20240531/A/AAIT/0.0.2.8-0.0.2.9/README.md --exclude *.pyd
+[2024-05-31 11:02:18] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-05-31 11:02:18] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240531/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-05-31 11:02:18] INFO root fetch - processPackages [terrajinja-deploy]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-deploy-0.2.2.tar.gz]
+[2024-05-31 11:02:18] INFO root fetch - processPackages [terrajinja-deploy]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-deploy-0.3.0.tar.gz]
+[2024-05-31 11:02:18] INFO root fetch - main [MainThread]: End processing [terrajinja-deploy]: success
+[2024-05-31 11:02:18] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.8.tar.gz]
+[2024-05-31 11:02:18] INFO root fetch - processPackages [AAIT]: Remove: archive file [/home/abi/fetcher/tmp/AAIT-0.0.2.9.tar.gz]
+[2024-05-31 11:02:18] INFO root fetch - main [MainThread]: End processing [AAIT]: success
+[2024-05-31 11:02:18] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0.tar.gz]
+[2024-05-31 11:02:18] INFO root fetch - processPackages [pulumi-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_digitalocean-4.9.0a1637244514.tar.gz]
+[2024-05-31 11:02:18] INFO root fetch - main [MainThread]: End processing [pulumi-digitalocean]: success
+[2024-05-31 11:02:18] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-05-31 11:02:18] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-05-31 11:02:18] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-05-31 11:02:18] INFO root fetch - main [MainThread]: Store serial: [23463145]
