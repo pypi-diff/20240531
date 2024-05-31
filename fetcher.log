@@ -24328,3 +24328,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:51:01] INFO root fetch - processPackages [ragstack-ai-langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai_langflow_base-0.0.7.tar.gz]
 [2024-05-31 17:51:01] INFO root fetch - main [MainThread]: End processing [ragstack-ai-langflow-base]: success
 [2024-05-31 17:51:01] INFO root fetch - main [MainThread]: Store serial: [23468318]
+[2024-05-31 17:53:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23468318]
+[2024-05-31 17:53:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 17:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mnists
+[2024-05-31 17:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinybird-cli
+[2024-05-31 17:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myfunctions-AdnanGrifat
+[2024-05-31 17:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botasaurus2
+[2024-05-31 17:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: schemathesis
+[2024-05-31 17:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xerenity
+[2024-05-31 17:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anomalib
+[2024-05-31 17:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: contact-phone-local
+[2024-05-31 17:53:10] INFO root fetch - processPackages [mnists]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-31 17:53:10] INFO root fetch - processPackages [contact-phone-local]: New version: [0.0.9] Old Version: [0.0.23]
+[2024-05-31 17:53:10] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-31 17:53:10] INFO root fetch - processPackages [tinybird-cli]: New version: [4.0.3.dev0] Old Version: [4.0.2.dev0]
+[2024-05-31 17:53:10] INFO root fetch - processPackages [botasaurus2]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-31 17:53:11] INFO root fetch - processPackages [mnists]: Downloading https://files.pythonhosted.org/packages/a0/d4/c73831f5580ef3214d6cbe46f0c5ad2937e8882e5744c188099c47bbcaae/mnists-0.2.1.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [xerenity]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-31 17:53:11] INFO root fetch - processPackages [schemathesis]: New version: [3.9.7] Old Version: [3.9.6]
+[2024-05-31 17:53:11] INFO root fetch - processPackages [anomalib]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-31 17:53:11] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Downloading https://files.pythonhosted.org/packages/b4/bb/e8dff88b850c8f9ed7babcbfcf1c52c7963a117be3ac6eb6b2d9166f13ec/myfunctions_AdnanGrifat-0.0.6.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/82/59/a26d5e9a0979f5232468a02401f7f0af0dd0d177afb071d0e2c383c76946/tinybird-cli-4.0.2.dev0.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/8b/2c/b5513600be1d57416d670bc2e866570129177a6cdab2a87ab970203606c6/botasaurus2-1.4.8.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [contact-phone-local]: Downloading https://files.pythonhosted.org/packages/6b/e6/382d4ce9a84ab64775ddc1ffd1d8bd8a43b4f2449e6e7200e3f956843780/contact_phone_local-0.0.23.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [schemathesis]: Downloading https://files.pythonhosted.org/packages/8b/ae/800bafd763c2c4b5c0f366a9bf84f7f1eb955e0b2fc7de12e30acfad31cd/schemathesis-3.9.6.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [xerenity]: Downloading https://files.pythonhosted.org/packages/1f/91/9d893d80be32cebd19066e7bbd2b7f4d53b021c6d224ff2355b9ee721fbb/xerenity-0.0.3.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [mnists]: Downloading https://files.pythonhosted.org/packages/c1/fa/aec13a833be78e99a84ef50a3ec1d0755d43ce95cc1132d0a3baefb8355d/mnists-0.3.0.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [anomalib]: Downloading https://files.pythonhosted.org/packages/41/79/5b3e69b8209a58936e0b42e1dee6310b64aeac40a8d22fda5f2b6fba7267/anomalib-1.0.1.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Downloading https://files.pythonhosted.org/packages/07/8f/11e6780a99caa77d1abaa9727fe0266f3156c3be0c918473b61dae9d07ea/myfunctions_AdnanGrifat-0.0.7.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/d5/fc/97b23595a28896363c9fdfae1656b41fa2727ffa27281d78d3c574776bb4/tinybird-cli-4.0.3.dev0.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/46/c4/b5a64bcce59c23973096de75347254b57018a294e0a4c96c51e04728fbbe/botasaurus2-1.4.9.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [mnists]: executing diffoscope
+[2024-05-31 17:53:11] INFO root fetch - processPackages [mnists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnists-0.2.1.tar.gz tmp/mnists-0.3.0.tar.gz --markdown 20240531/m/mnists/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-31 17:53:11] INFO root fetch - processPackages [contact-phone-local]: Downloading https://files.pythonhosted.org/packages/88/b5/c3cd7b2322b674e5115abe0cf1665d7405051dc6307ded8f38e07f5d95e7/contact_phone_local-0.0.9.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: executing diffoscope
+[2024-05-31 17:53:11] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunctions_AdnanGrifat-0.0.6.tar.gz tmp/myfunctions_AdnanGrifat-0.0.7.tar.gz --markdown 20240531/m/myfunctions-AdnanGrifat/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-31 17:53:11] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-05-31 17:53:11] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-4.0.2.dev0.tar.gz tmp/tinybird-cli-4.0.3.dev0.tar.gz --markdown 20240531/t/tinybird-cli/4.0.2.dev0-4.0.3.dev0/README.md --exclude *.pyd
+[2024-05-31 17:53:11] INFO root fetch - processPackages [botasaurus2]: executing diffoscope
+[2024-05-31 17:53:11] INFO root fetch - processPackages [botasaurus2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus2-1.4.8.tar.gz tmp/botasaurus2-1.4.9.tar.gz --markdown 20240531/b/botasaurus2/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-31 17:53:11] INFO root fetch - processPackages [xerenity]: Downloading https://files.pythonhosted.org/packages/8f/a5/9cc75d593e8436b2006d4ee255def9d85911c5614e98188236d1adec1fd1/xerenity-0.0.4.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [contact-phone-local]: executing diffoscope
+[2024-05-31 17:53:11] INFO root fetch - processPackages [contact-phone-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_phone_local-0.0.23.tar.gz tmp/contact_phone_local-0.0.9.tar.gz --markdown 20240531/c/contact-phone-local/0.0.23-0.0.9/README.md --exclude *.pyd
+[2024-05-31 17:53:11] INFO root fetch - processPackages [schemathesis]: Downloading https://files.pythonhosted.org/packages/71/a0/2eac6b3aecc24c5d8a119a30b2adff05f2453ae9dacec1aa5f8cdbbf0668/schemathesis-3.9.7.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [xerenity]: executing diffoscope
+[2024-05-31 17:53:11] INFO root fetch - processPackages [xerenity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xerenity-0.0.3.tar.gz tmp/xerenity-0.0.4.tar.gz --markdown 20240531/x/xerenity/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-31 17:53:11] INFO root fetch - processPackages [schemathesis]: executing diffoscope
+[2024-05-31 17:53:11] INFO root fetch - processPackages [anomalib]: Downloading https://files.pythonhosted.org/packages/59/fd/15acfca9a57d3533ee54fefd43140c00ca238f1acf57e25ebcc710f31eb1/anomalib-1.1.0.tar.gz
+[2024-05-31 17:53:11] INFO root fetch - processPackages [schemathesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemathesis-3.9.6.tar.gz tmp/schemathesis-3.9.7.tar.gz --markdown 20240531/s/schemathesis/3.9.6-3.9.7/README.md --exclude *.pyd
+[2024-05-31 17:53:12] INFO root fetch - processPackages [anomalib]: executing diffoscope
+[2024-05-31 17:53:12] INFO root fetch - processPackages [anomalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anomalib-1.0.1.tar.gz tmp/anomalib-1.1.0.tar.gz --markdown 20240531/a/anomalib/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-31 17:53:12] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_AdnanGrifat-0.0.6.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - processPackages [myfunctions-AdnanGrifat]: Remove: archive file [/home/abi/fetcher/tmp/myfunctions_AdnanGrifat-0.0.7.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - main [MainThread]: End processing [myfunctions-AdnanGrifat]: success
+[2024-05-31 17:53:12] INFO root fetch - processPackages [mnists]: Remove: archive file [/home/abi/fetcher/tmp/mnists-0.2.1.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - processPackages [mnists]: Remove: archive file [/home/abi/fetcher/tmp/mnists-0.3.0.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - main [MainThread]: End processing [mnists]: success
+[2024-05-31 17:53:12] INFO root fetch - processPackages [contact-phone-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_phone_local-0.0.23.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - processPackages [contact-phone-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_phone_local-0.0.9.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - main [MainThread]: End processing [contact-phone-local]: success
+[2024-05-31 17:53:12] INFO root fetch - processPackages [xerenity]: Remove: archive file [/home/abi/fetcher/tmp/xerenity-0.0.3.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - processPackages [xerenity]: Remove: archive file [/home/abi/fetcher/tmp/xerenity-0.0.4.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - main [MainThread]: End processing [xerenity]: success
+[2024-05-31 17:53:12] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.4.8.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.4.9.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - main [MainThread]: End processing [botasaurus2]: success
+[2024-05-31 17:53:12] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-4.0.2.dev0.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-4.0.3.dev0.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-05-31 17:53:12] INFO root fetch - processPackages [schemathesis]: Remove: archive file [/home/abi/fetcher/tmp/schemathesis-3.9.6.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - processPackages [schemathesis]: Remove: archive file [/home/abi/fetcher/tmp/schemathesis-3.9.7.tar.gz]
+[2024-05-31 17:53:12] INFO root fetch - main [MainThread]: End processing [schemathesis]: success
+[2024-05-31 17:53:13] INFO root fetch - processPackages [anomalib]: Remove: archive file [/home/abi/fetcher/tmp/anomalib-1.0.1.tar.gz]
+[2024-05-31 17:53:13] INFO root fetch - processPackages [anomalib]: Remove: archive file [/home/abi/fetcher/tmp/anomalib-1.1.0.tar.gz]
+[2024-05-31 17:53:13] INFO root fetch - main [MainThread]: End processing [anomalib]: success
+[2024-05-31 17:53:13] INFO root fetch - main [MainThread]: Store serial: [23468342]
