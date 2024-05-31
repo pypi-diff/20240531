@@ -23367,3 +23367,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:21:40] INFO root fetch - processPackages [django-json-schema-editor]: Remove: archive file [/home/abi/fetcher/tmp/django_json_schema_editor-0.0.9.tar.gz]
 [2024-05-31 17:21:40] INFO root fetch - main [MainThread]: End processing [django-json-schema-editor]: success
 [2024-05-31 17:21:40] INFO root fetch - main [MainThread]: Store serial: [23467890]
+[2024-05-31 17:23:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467890]
+[2024-05-31 17:23:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-31 17:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composio-claude
+[2024-05-31 17:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EnclaveSDK
+[2024-05-31 17:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pandas-ods-reader
+[2024-05-31 17:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chatGPT-automator
+[2024-05-31 17:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-crewai
+[2024-05-31 17:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paule
+[2024-05-31 17:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-griptape
+[2024-05-31 17:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-nvidia-ai-endpoints
+[2024-05-31 17:23:49] INFO root fetch - processPackages [pandas-ods-reader]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-31 17:23:49] INFO root fetch - processPackages [composio-claude]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 17:23:49] INFO root fetch - processPackages [EnclaveSDK]: New version: [1.5.6] Old Version: [1.5.5]
+[2024-05-31 17:23:49] INFO root fetch - processPackages [paule]: New version: [0.4.4] Old Version: [0.3.6]
+[2024-05-31 17:23:49] INFO root fetch - processPackages [composio-griptape]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 17:23:49] INFO root fetch - processPackages [composio-crewai]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-31 17:23:49] INFO root fetch - processPackages [chatGPT-automator]: New version: [0.1.17] Old Version: [0.1.16]
+[2024-05-31 17:23:49] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/e4/0d/03b19826159e54774234e89338cde001104bf69f1aeb2f8492973146b3ca/composio_claude-0.3.1.tar.gz
+[2024-05-31 17:23:49] INFO root fetch - processPackages [EnclaveSDK]: Downloading https://files.pythonhosted.org/packages/86/36/a23d11b82f3a629b0bfc9f03025b91ef3766357bda6aa2675d0f39747581/EnclaveSDK-1.5.5-py3-none-any.whl
+[2024-05-31 17:23:49] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/d4/43/976bca418c5f32b3eb7491ad28a7923c56bfb7c7db8ebace458bd47c4529/composio_crewai-0.3.1.tar.gz
+[2024-05-31 17:23:49] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/88/ab/a43c94ea2c0608322246aaa1826b3b9a98e72be031c4928a301be8afd148/composio_griptape-0.3.1.tar.gz
+[2024-05-31 17:23:49] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-31 17:23:49] INFO root fetch - processPackages [pandas-ods-reader]: Downloading https://files.pythonhosted.org/packages/29/26/f733cc8a20d8f7e5e88537ac9500281e209191c107ac3a6ce14ddba34068/pandas-ods-reader-0.1.2.tar.gz
+[2024-05-31 17:23:49] INFO root fetch - processPackages [chatGPT-automator]: Downloading https://files.pythonhosted.org/packages/3d/9f/5912dc17c70947284a46e70c4507988933f91c862f0e9c1ba713e67d7021/chatGPT_automator-0.1.16.tar.gz
+[2024-05-31 17:23:49] INFO root fetch - processPackages [paule]: Downloading https://files.pythonhosted.org/packages/d6/ac/f8e4d9417f6569fe9251da48d6013577bcc7212a8e540f61d3bdce650889/paule-0.3.6.tar.gz
+[2024-05-31 17:23:49] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/f8/84/8eca949092811eb49edb86ee185a639df385e4fbaf8208cc238103b9d307/composio_claude-0.3.2.tar.gz
+[2024-05-31 17:23:49] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Downloading https://files.pythonhosted.org/packages/b6/03/8df6b61933dfcf3ab80a5b663e4508f722d1375339b9919bfe00796f5676/langchain_nvidia_ai_endpoints-0.0.9.tar.gz
+[2024-05-31 17:23:49] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/40/39/b3d326300592303138ce42659555dafd85fc760cd0888b1a3c7e682deef3/composio_crewai-0.3.2.tar.gz
+[2024-05-31 17:23:50] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/3b/3b/ed2f534ec2da6bef1f151753a241d451c306c0dfa09edb3bf64f5250767d/composio_griptape-0.3.2.tar.gz
+[2024-05-31 17:23:50] INFO root fetch - processPackages [EnclaveSDK]: Downloading https://files.pythonhosted.org/packages/52/94/b34bde9f75b1f77c9629bc5744dfb90226e91cf5edd083c02937aa594f43/EnclaveSDK-1.5.6-py3-none-any.whl
+[2024-05-31 17:23:50] INFO root fetch - processPackages [pandas-ods-reader]: Downloading https://files.pythonhosted.org/packages/bc/c7/a9ee48f918520938ec8ebeb719af9308c3cd79bfa559b21b0d45e3a5dbc9/pandas-ods-reader-0.1.4.tar.gz
+[2024-05-31 17:23:50] INFO root fetch - processPackages [composio-claude]: executing diffoscope
+[2024-05-31 17:23:50] INFO root fetch - processPackages [composio-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_claude-0.3.1.tar.gz tmp/composio_claude-0.3.2.tar.gz --markdown 20240531/c/composio-claude/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 17:23:50] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-31 17:23:50] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.3.1.tar.gz tmp/composio_crewai-0.3.2.tar.gz --markdown 20240531/c/composio-crewai/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 17:23:50] INFO root fetch - processPackages [composio-griptape]: executing diffoscope
+[2024-05-31 17:23:50] INFO root fetch - processPackages [composio-griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_griptape-0.3.1.tar.gz tmp/composio_griptape-0.3.2.tar.gz --markdown 20240531/c/composio-griptape/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-31 17:23:50] INFO root fetch - processPackages [EnclaveSDK]: executing diffoscope
+[2024-05-31 17:23:50] INFO root fetch - processPackages [EnclaveSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnclaveSDK-1.5.5-py3-none-any.whl.zip tmp/EnclaveSDK-1.5.6-py3-none-any.whl.zip --markdown 20240531/E/EnclaveSDK/1.5.5-1.5.6/README.md --exclude *.pyd
+[2024-05-31 17:23:50] INFO root fetch - processPackages [chatGPT-automator]: Downloading https://files.pythonhosted.org/packages/be/34/98a833d379a9577a3d2062f2ca3aa1a0afce2ac1d96ca62d8603522b2c52/chatGPT_automator-0.1.17.tar.gz
+[2024-05-31 17:23:50] INFO root fetch - processPackages [pandas-ods-reader]: executing diffoscope
+[2024-05-31 17:23:50] INFO root fetch - processPackages [pandas-ods-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-ods-reader-0.1.2.tar.gz tmp/pandas-ods-reader-0.1.4.tar.gz --markdown 20240531/p/pandas-ods-reader/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-31 17:23:50] INFO root fetch - processPackages [paule]: Downloading https://files.pythonhosted.org/packages/54/a0/55935ba638ddd04b1198dbd99a23041cb0422d897e5a83bc94842c212223/paule-0.4.4.tar.gz
+[2024-05-31 17:23:50] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Downloading https://files.pythonhosted.org/packages/07/61/02db2bfd748a4496168ffc3902758d99ddd2a7e31ffa96567b7417e2b727/langchain_nvidia_ai_endpoints-0.1.0.tar.gz
+[2024-05-31 17:23:50] INFO root fetch - processPackages [chatGPT-automator]: executing diffoscope
+[2024-05-31 17:23:50] INFO root fetch - processPackages [chatGPT-automator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatGPT_automator-0.1.16.tar.gz tmp/chatGPT_automator-0.1.17.tar.gz --markdown 20240531/c/chatGPT-automator/0.1.16-0.1.17/README.md --exclude *.pyd
+[2024-05-31 17:23:50] INFO root fetch - processPackages [paule]: executing diffoscope
+[2024-05-31 17:23:50] INFO root fetch - processPackages [paule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paule-0.3.6.tar.gz tmp/paule-0.4.4.tar.gz --markdown 20240531/p/paule/0.3.6-0.4.4/README.md --exclude *.pyd
+[2024-05-31 17:23:50] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: executing diffoscope
+[2024-05-31 17:23:50] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_nvidia_ai_endpoints-0.0.9.tar.gz tmp/langchain_nvidia_ai_endpoints-0.1.0.tar.gz --markdown 20240531/l/langchain-nvidia-ai-endpoints/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-31 17:23:50] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.3.1.tar.gz]
+[2024-05-31 17:23:50] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.3.2.tar.gz]
+[2024-05-31 17:23:50] INFO root fetch - main [MainThread]: End processing [composio-claude]: success
+[2024-05-31 17:23:50] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.3.1.tar.gz]
+[2024-05-31 17:23:50] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.3.2.tar.gz]
+[2024-05-31 17:23:50] INFO root fetch - main [MainThread]: End processing [composio-griptape]: success
+[2024-05-31 17:23:50] INFO root fetch - processPackages [pandas-ods-reader]: Remove: archive file [/home/abi/fetcher/tmp/pandas-ods-reader-0.1.2.tar.gz]
+[2024-05-31 17:23:50] INFO root fetch - processPackages [pandas-ods-reader]: Remove: archive file [/home/abi/fetcher/tmp/pandas-ods-reader-0.1.4.tar.gz]
+[2024-05-31 17:23:51] INFO root fetch - main [MainThread]: End processing [pandas-ods-reader]: success
+[2024-05-31 17:23:51] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.3.1.tar.gz]
+[2024-05-31 17:23:51] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.3.2.tar.gz]
+[2024-05-31 17:23:51] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-31 17:23:51] INFO root fetch - processPackages [chatGPT-automator]: Remove: archive file [/home/abi/fetcher/tmp/chatGPT_automator-0.1.16.tar.gz]
+[2024-05-31 17:23:51] INFO root fetch - processPackages [chatGPT-automator]: Remove: archive file [/home/abi/fetcher/tmp/chatGPT_automator-0.1.17.tar.gz]
+[2024-05-31 17:23:51] INFO root fetch - main [MainThread]: End processing [chatGPT-automator]: success
+[2024-05-31 17:23:51] INFO root fetch - processPackages [EnclaveSDK]: Remove: archive file [/home/abi/fetcher/tmp/EnclaveSDK-1.5.5-py3-none-any.whl.zip]
+[2024-05-31 17:23:51] INFO root fetch - processPackages [EnclaveSDK]: Remove: archive file [/home/abi/fetcher/tmp/EnclaveSDK-1.5.6-py3-none-any.whl.zip]
+[2024-05-31 17:23:51] INFO root fetch - main [MainThread]: End processing [EnclaveSDK]: success
+[2024-05-31 17:23:51] INFO root fetch - processPackages [paule]: Remove: archive file [/home/abi/fetcher/tmp/paule-0.3.6.tar.gz]
+[2024-05-31 17:23:51] INFO root fetch - processPackages [paule]: Remove: archive file [/home/abi/fetcher/tmp/paule-0.4.4.tar.gz]
+[2024-05-31 17:23:51] INFO root fetch - main [MainThread]: End processing [paule]: success
+[2024-05-31 17:23:51] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/langchain_nvidia_ai_endpoints-0.0.9.tar.gz]
+[2024-05-31 17:23:51] INFO root fetch - processPackages [langchain-nvidia-ai-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/langchain_nvidia_ai_endpoints-0.1.0.tar.gz]
+[2024-05-31 17:23:51] INFO root fetch - main [MainThread]: End processing [langchain-nvidia-ai-endpoints]: success
+[2024-05-31 17:23:51] INFO root fetch - main [MainThread]: Store serial: [23467912]
