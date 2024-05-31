@@ -12420,3 +12420,59 @@
 [2024-05-31 10:42:25] INFO root fetch - processPackages [physicsml]: Remove: archive file [/home/abi/fetcher/tmp/physicsml-0.3.0.tar.gz]
 [2024-05-31 10:42:25] INFO root fetch - main [MainThread]: End processing [physicsml]: success
 [2024-05-31 10:42:25] INFO root fetch - main [MainThread]: Store serial: [23462903]
+[2024-05-31 10:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462903]
+[2024-05-31 10:44:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xl-word
+[2024-05-31 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dycw-utilities
+[2024-05-31 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adbui
+[2024-05-31 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emotion-model
+[2024-05-31 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neurom
+[2024-05-31 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evomip
+[2024-05-31 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-eigen-ingenuity
+[2024-05-31 10:44:34] INFO root fetch - processPackages [emotion-model]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-31 10:44:34] WARNING root fetch - processPackages [evomip]: Skipping, unable to determine old version
+[2024-05-31 10:44:34] INFO root fetch - main [MainThread]: End processing [evomip] error
+[2024-05-31 10:44:34] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-31 10:44:34] INFO root fetch - processPackages [emotion-model]: Downloading https://files.pythonhosted.org/packages/22/23/a8ec3c9ed8b98470352697522625943cac99c6b7ac33532b5ed09d32c4bf/emotion_model-0.0.4.tar.gz
+[2024-05-31 10:44:34] INFO root fetch - processPackages [neurom]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-05-31 10:44:34] INFO root fetch - processPackages [xl-word]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-31 10:44:34] INFO root fetch - processPackages [adbui]: New version: [4.5.9] Old Version: [4.5.8]
+[2024-05-31 10:44:34] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-31 10:44:34] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-31 10:44:34] WARNING root fetch - processPackages [emotion-model]: Skipping package: exceeds size limit 79192689>=10485760
+[2024-05-31 10:44:34] INFO root fetch - main [MainThread]: End processing [emotion-model] error
+[2024-05-31 10:44:34] INFO root fetch - processPackages [adbui]: Downloading https://files.pythonhosted.org/packages/d3/88/18545ea4467380fd5a6958785288405be2d109dea71b8c1d5570e6d9b980/adbui-4.5.8.tar.gz
+[2024-05-31 10:44:34] INFO root fetch - processPackages [xl-word]: Downloading https://files.pythonhosted.org/packages/f7/cc/134563f639743b685d4d4cea648a0137d6a80295047d4df0359785b2c723/xl_word-0.4.8.tar.gz
+[2024-05-31 10:44:34] INFO root fetch - processPackages [neurom]: Downloading https://files.pythonhosted.org/packages/75/e9/10d852749c702194f6e1d7b8a2015698ed594cd34f3e01ec2eeae94cede8/neurom-4.0.0.tar.gz
+[2024-05-31 10:44:34] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-31 10:44:34] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2024-05-31 10:44:34] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-31 10:44:34] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240531/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-31 10:44:34] INFO root fetch - processPackages [adbui]: Downloading https://files.pythonhosted.org/packages/c8/40/eeeb03fca8b1df6b10db6261fe24ff9a86f86eddcc86e2d460600d6eb7cb/adbui-4.5.9.tar.gz
+[2024-05-31 10:44:34] INFO root fetch - processPackages [xl-word]: Downloading https://files.pythonhosted.org/packages/83/f0/3f0e7cbce1f9e13b2a0fe8302c1b0bd7922e18bec48f779be2eaa193825f/xl_word-0.4.9.tar.gz
+[2024-05-31 10:44:34] INFO root fetch - processPackages [neurom]: Downloading https://files.pythonhosted.org/packages/bd/fb/b5cb8463d30d2c3c407e1f54a8b10c564acbd5a00ebc9e5581857ffd54b9/neurom-4.0.1.tar.gz
+[2024-05-31 10:44:35] INFO root fetch - processPackages [xl-word]: executing diffoscope
+[2024-05-31 10:44:35] INFO root fetch - processPackages [xl-word]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xl_word-0.4.8.tar.gz tmp/xl_word-0.4.9.tar.gz --markdown 20240531/x/xl-word/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-31 10:44:35] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/d5/46/2554bcc92a089d39a46cc8a215282b82286d0694e45c99808348a0478326/python-eigen-ingenuity-0.4.9.tar.gz
+[2024-05-31 10:44:35] INFO root fetch - processPackages [adbui]: executing diffoscope
+[2024-05-31 10:44:35] INFO root fetch - processPackages [adbui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbui-4.5.8.tar.gz tmp/adbui-4.5.9.tar.gz --markdown 20240531/a/adbui/4.5.8-4.5.9/README.md --exclude *.pyd
+[2024-05-31 10:44:35] INFO root fetch - processPackages [neurom]: executing diffoscope
+[2024-05-31 10:44:35] INFO root fetch - processPackages [neurom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurom-4.0.0.tar.gz tmp/neurom-4.0.1.tar.gz --markdown 20240531/n/neurom/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-05-31 10:44:35] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2024-05-31 10:44:35] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.9.tar.gz --markdown 20240531/p/python-eigen-ingenuity/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-31 10:44:35] INFO root fetch - processPackages [xl-word]: Remove: archive file [/home/abi/fetcher/tmp/xl_word-0.4.8.tar.gz]
+[2024-05-31 10:44:35] INFO root fetch - processPackages [xl-word]: Remove: archive file [/home/abi/fetcher/tmp/xl_word-0.4.9.tar.gz]
+[2024-05-31 10:44:35] INFO root fetch - main [MainThread]: End processing [xl-word]: success
+[2024-05-31 10:44:35] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-31 10:44:35] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-31 10:44:35] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-31 10:44:35] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.tar.gz]
+[2024-05-31 10:44:35] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.9.tar.gz]
+[2024-05-31 10:44:35] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2024-05-31 10:44:36] INFO root fetch - processPackages [adbui]: Remove: archive file [/home/abi/fetcher/tmp/adbui-4.5.8.tar.gz]
+[2024-05-31 10:44:36] INFO root fetch - processPackages [adbui]: Remove: archive file [/home/abi/fetcher/tmp/adbui-4.5.9.tar.gz]
+[2024-05-31 10:44:36] INFO root fetch - main [MainThread]: End processing [adbui]: success
+[2024-05-31 10:44:36] INFO root fetch - processPackages [neurom]: Remove: archive file [/home/abi/fetcher/tmp/neurom-4.0.0.tar.gz]
+[2024-05-31 10:44:36] INFO root fetch - processPackages [neurom]: Remove: archive file [/home/abi/fetcher/tmp/neurom-4.0.1.tar.gz]
+[2024-05-31 10:44:36] INFO root fetch - main [MainThread]: End processing [neurom]: success
+[2024-05-31 10:44:36] INFO root fetch - main [MainThread]: Store serial: [23462923]
