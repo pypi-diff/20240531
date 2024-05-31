@@ -12018,3 +12018,30 @@
 [2024-05-31 10:24:54] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2024-05-31 10:24:54] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2024-05-31 10:24:54] INFO root fetch - main [MainThread]: Store serial: [23462722]
+[2024-05-31 10:26:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462722]
+[2024-05-31 10:27:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 10:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keelson
+[2024-05-31 10:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dingosdk
+[2024-05-31 10:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-firebase-realtime-database
+[2024-05-31 10:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-osubot
+[2024-05-31 10:27:03] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.4.3] Old Version: [6.4.2]
+[2024-05-31 10:27:03] INFO root fetch - processPackages [airbyte-source-firebase-realtime-database]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 10:27:03] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc9] Old Version: [0.1rc8.post1]
+[2024-05-31 10:27:03] INFO root fetch - processPackages [keelson]: New version: [0.3.6rc9] Old Version: [0.3.6rc8]
+[2024-05-31 10:27:03] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/b6/ec/c72c91d2230096f98ed6949de7a17fb02db994048b4801536b545cba535d/keelson-0.3.6rc8-py3-none-any.whl
+[2024-05-31 10:27:03] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/0c/33/824f13affef8b2843e5db87cfc74b342bfbded63ebb7b185c6b1870f2208/nonebot-plugin-osubot-6.4.2.tar.gz
+[2024-05-31 10:27:03] INFO root fetch - processPackages [airbyte-source-firebase-realtime-database]: Downloading https://files.pythonhosted.org/packages/bf/ad/14b19569fe65594e9915f1fd43068647a96a939804180c56bfc5ccd58b76/airbyte-source-firebase-realtime-database-0.1.0.tar.gz
+[2024-05-31 10:27:03] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29721619>=10485760
+[2024-05-31 10:27:03] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-31 10:27:03] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/7b/10/2c6bb88645e870b167392150b76711fb4823aa921ee4bc314ba468f0d5dd/dingosdk-0.1rc8.post1.tar.gz
+[2024-05-31 10:27:03] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 63305453>=10485760
+[2024-05-31 10:27:03] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-31 10:27:04] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/61/69/854e0dcac27bd896778b7445ce78dc29f800271f23c2a098cab59e0dd3fe/keelson-0.3.6rc9-py3-none-any.whl
+[2024-05-31 10:27:04] ERROR root fetch - processPackages [airbyte-source-firebase-realtime-database]: Unable to fetch info: No such project/version 'airbyte-source-firebase-realtime-database' 0.1.1
+[2024-05-31 10:27:04] INFO root fetch - main [MainThread]: End processing [airbyte-source-firebase-realtime-database] error
+[2024-05-31 10:27:04] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-05-31 10:27:04] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.6rc8-py3-none-any.whl.zip tmp/keelson-0.3.6rc9-py3-none-any.whl.zip --markdown 20240531/k/keelson/0.3.6rc8-0.3.6rc9/README.md --exclude *.pyd
+[2024-05-31 10:27:04] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.6rc8-py3-none-any.whl.zip]
+[2024-05-31 10:27:04] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.6rc9-py3-none-any.whl.zip]
+[2024-05-31 10:27:04] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-05-31 10:27:04] INFO root fetch - main [MainThread]: Store serial: [23462733]
