@@ -4921,3 +4921,27 @@
 [2024-05-31 04:05:36] INFO root fetch - processPackages [sosap]: Remove: archive file [/home/abi/fetcher/tmp/sosap-0.2.1-cp310-cp310-macosx_10_9_x86_64.whl.zip]
 [2024-05-31 04:05:36] INFO root fetch - main [MainThread]: End processing [sosap]: success
 [2024-05-31 04:05:36] INFO root fetch - main [MainThread]: Store serial: [23459456]
+[2024-05-31 04:07:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459456]
+[2024-05-31 04:07:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 04:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geocif
+[2024-05-31 04:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gnssanalysis
+[2024-05-31 04:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lb-database
+[2024-05-31 04:07:45] WARNING root fetch - processPackages [lb-database]: Skipping, unable to determine old version
+[2024-05-31 04:07:45] INFO root fetch - main [MainThread]: End processing [lb-database] error
+[2024-05-31 04:07:45] INFO root fetch - processPackages [geocif]: New version: [0.1.33] Old Version: [0.1.32]
+[2024-05-31 04:07:45] INFO root fetch - processPackages [gnssanalysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 04:07:45] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/f0/eb/ff4f483bcc1cd416751302412866cfa06e6570a7f9194de7f0d330d7b7bd/geocif-0.1.32.tar.gz
+[2024-05-31 04:07:45] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e0/2d/6e9b2e6b7338eb4ade3a80238c53fe3d7046af99576c4229b166e23c1a3a/gnssanalysis-0.0.8.tar.gz
+[2024-05-31 04:07:45] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/f6/fb/5062bc112f23c9cacaea5ec95724faec1a86cfa1a54599e9604d6bbfd6ae/geocif-0.1.33.tar.gz
+[2024-05-31 04:07:45] INFO root fetch - processPackages [geocif]: executing diffoscope
+[2024-05-31 04:07:45] INFO root fetch - processPackages [geocif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocif-0.1.32.tar.gz tmp/geocif-0.1.33.tar.gz --markdown 20240531/g/geocif/0.1.32-0.1.33/README.md --exclude *.pyd
+[2024-05-31 04:07:46] INFO root fetch - processPackages [gnssanalysis]: Downloading https://files.pythonhosted.org/packages/e1/ac/da507121836c683adba00ccb9f5f955063e24f97656ce240e4354a9cbe10/gnssanalysis-0.0.9.tar.gz
+[2024-05-31 04:07:46] INFO root fetch - processPackages [gnssanalysis]: executing diffoscope
+[2024-05-31 04:07:46] INFO root fetch - processPackages [gnssanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnssanalysis-0.0.8.tar.gz tmp/gnssanalysis-0.0.9.tar.gz --markdown 20240531/g/gnssanalysis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 04:07:46] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.32.tar.gz]
+[2024-05-31 04:07:46] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.33.tar.gz]
+[2024-05-31 04:07:46] INFO root fetch - main [MainThread]: End processing [geocif]: success
+[2024-05-31 04:07:46] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.8.tar.gz]
+[2024-05-31 04:07:46] INFO root fetch - processPackages [gnssanalysis]: Remove: archive file [/home/abi/fetcher/tmp/gnssanalysis-0.0.9.tar.gz]
+[2024-05-31 04:07:46] INFO root fetch - main [MainThread]: End processing [gnssanalysis]: success
+[2024-05-31 04:07:46] INFO root fetch - main [MainThread]: Store serial: [23459484]
