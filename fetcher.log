@@ -20235,3 +20235,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:39:02] INFO root fetch - processPackages [ramanchada2]: Remove: archive file [/home/abi/fetcher/tmp/ramanchada2-0.1.1.tar.gz]
 [2024-05-31 15:39:02] INFO root fetch - main [MainThread]: End processing [ramanchada2]: success
 [2024-05-31 15:39:02] INFO root fetch - main [MainThread]: Store serial: [23466376]
+[2024-05-31 15:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466376]
+[2024-05-31 15:41:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 15:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lit-ecology-classifier
+[2024-05-31 15:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlite-core
+[2024-05-31 15:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fabric_fim
+[2024-05-31 15:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: schubmult
+[2024-05-31 15:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: consensusGen
+[2024-05-31 15:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iSponsorBlockTV
+[2024-05-31 15:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-frank-energie
+[2024-05-31 15:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: camera-ui-python-types
+[2024-05-31 15:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hippo-db
+[2024-05-31 15:41:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fabric-orchestrator-client
+[2024-05-31 15:41:11] INFO root fetch - processPackages [consensusGen]: New version: [1.6] Old Version: [1.5]
+[2024-05-31 15:41:11] INFO root fetch - processPackages [lit-ecology-classifier]: New version: [0.3] Old Version: [0.2.9]
+[2024-05-31 15:41:11] INFO root fetch - processPackages [hippo-db]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 15:41:11] INFO root fetch - processPackages [schubmult]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-05-31 15:41:11] INFO root fetch - processPackages [iSponsorBlockTV]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-05-31 15:41:11] INFO root fetch - processPackages [python-frank-energie]: New version: [6.1.0b1] Old Version: [6.0.0]
+[2024-05-31 15:41:11] INFO root fetch - processPackages [jupyterlite-core]: New version: [0.4.0a2] Old Version: [0.4.0a1]
+[2024-05-31 15:41:11] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/28/35/e39836e3513b662987adebfc4d6b878af82737361376ff49d3205271a29f/lit_ecology_classifier-0.2.9-py3-none-any.whl
+[2024-05-31 15:41:11] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/c2/c7/db02d2f06a616c1b51d85279b9beeb0065e3d78841a2d5d6c3b4b522f8f2/consensusgen-1.5.tar.gz
+[2024-05-31 15:41:11] INFO root fetch - processPackages [camera-ui-python-types]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 15:41:11] INFO root fetch - processPackages [hippo-db]: Downloading https://files.pythonhosted.org/packages/81/91/9f00e180052831aa02fe664c66a38a5e8c1b379b2a03897b179ad98c3c9d/hippo_db-0.3.8.tar.gz
+[2024-05-31 15:41:11] INFO root fetch - processPackages [fabric_fim]: New version: [1.7.0b4] Old Version: [1.7.0b3]
+[2024-05-31 15:41:11] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.7.0b7] Old Version: [1.7.0b6]
+[2024-05-31 15:41:11] INFO root fetch - processPackages [schubmult]: Downloading https://files.pythonhosted.org/packages/b0/a9/0fd2e65c9afc2eb9347bf60f9b3566e89bc00d5c3e92d200fcbc83e66795/schubmult-1.3.9.tar.gz
+[2024-05-31 15:41:11] INFO root fetch - processPackages [jupyterlite-core]: Downloading https://files.pythonhosted.org/packages/ff/14/1c55c96bd08366862b5c167f9d7c723ea3372ce0a14ea13371ed73818384/jupyterlite_core-0.4.0a1.tar.gz
+[2024-05-31 15:41:11] INFO root fetch - processPackages [iSponsorBlockTV]: Downloading https://files.pythonhosted.org/packages/42/fa/48e1ea0f0c6c991ae7cc5f087bc506a3eb29f139c36e93c3d36ad2bcf625/isponsorblocktv-2.0.7.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/4d/91/8f66920b92ee71f302a89040cd5bda06874eb3068a8e2783d2727e21e145/camera-ui-python-types-0.1.8.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [python-frank-energie]: Downloading https://files.pythonhosted.org/packages/b5/89/797e07f22e44d557fab7b44f1aadaa9cd90cb4a7ecc5a85794a1041dfb72/python_frank_energie-6.0.0.tar.gz
+[2024-05-31 15:41:12] WARNING root fetch - processPackages [jupyterlite-core]: Skipping package: exceeds size limit 20245163>=10485760
+[2024-05-31 15:41:12] INFO root fetch - main [MainThread]: End processing [jupyterlite-core] error
+[2024-05-31 15:41:12] INFO root fetch - processPackages [fabric_fim]: Downloading https://files.pythonhosted.org/packages/37/fe/f067f8321dc9a51215dab935733953d7404bdd6e385a40de792cb83877c2/fabric_fim-1.7.0b3.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [hippo-db]: Downloading https://files.pythonhosted.org/packages/b3/e5/dad6e60b241064353923c0c5c497ef3919fef4e15a267cb7c4d59bea2687/hippo_db-0.3.9.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [lit-ecology-classifier]: Downloading https://files.pythonhosted.org/packages/80/7d/f40de8a1ba2599ffea82588c7b7fc57efb4d85818a66df616404383524e9/lit_ecology_classifier-0.3-py3-none-any.whl
+[2024-05-31 15:41:12] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/65/94/cf340faf7edddceeed8e75d321d1b5730de0b389c2385d47e973ab138d78/fabric-orchestrator-client-1.7.0b6.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/fc/ec/04bfc41d5002e8b544d92368f124175bd15b599239d917e0e95b8c574677/consensusgen-1.6.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [schubmult]: Downloading https://files.pythonhosted.org/packages/f2/f4/64eb53a5949abded65216db73b22c3c51fcaa4bb757e848a54cea339d40c/schubmult-1.4.0.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [hippo-db]: executing diffoscope
+[2024-05-31 15:41:12] INFO root fetch - processPackages [hippo-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hippo_db-0.3.8.tar.gz tmp/hippo_db-0.3.9.tar.gz --markdown 20240531/h/hippo-db/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 15:41:12] INFO root fetch - processPackages [lit-ecology-classifier]: executing diffoscope
+[2024-05-31 15:41:12] INFO root fetch - processPackages [lit-ecology-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lit_ecology_classifier-0.2.9-py3-none-any.whl.zip tmp/lit_ecology_classifier-0.3-py3-none-any.whl.zip --markdown 20240531/l/lit-ecology-classifier/0.2.9-0.3/README.md --exclude *.pyd
+[2024-05-31 15:41:12] INFO root fetch - processPackages [consensusGen]: executing diffoscope
+[2024-05-31 15:41:12] INFO root fetch - processPackages [consensusGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consensusgen-1.5.tar.gz tmp/consensusgen-1.6.tar.gz --markdown 20240531/c/consensusGen/1.5-1.6/README.md --exclude *.pyd
+[2024-05-31 15:41:12] INFO root fetch - processPackages [iSponsorBlockTV]: Downloading https://files.pythonhosted.org/packages/82/09/6e9de3151edfb120783b1ac0ba5300b6105d1188fa43064aa7800a0cbb8c/isponsorblocktv-2.0.8.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [python-frank-energie]: Downloading https://files.pythonhosted.org/packages/9a/10/eaaadc42609c4370d43655931b3750aada3a3049bbcf84095450158ecc12/python_frank_energie-6.1.0b1.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/aa/10/16d19e4d819a9d548f5b24a065fd209324b510898722599b0caf5da342e7/camera-ui-python-types-0.1.9.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [schubmult]: executing diffoscope
+[2024-05-31 15:41:12] INFO root fetch - processPackages [schubmult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schubmult-1.3.9.tar.gz tmp/schubmult-1.4.0.tar.gz --markdown 20240531/s/schubmult/1.3.9-1.4.0/README.md --exclude *.pyd
+[2024-05-31 15:41:12] INFO root fetch - processPackages [fabric_fim]: Downloading https://files.pythonhosted.org/packages/d0/13/f26eed5257cee15f3b946862e7c3a272907426d3980ce9db6e31831d6720/fabric_fim-1.7.0b4.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/6a/ff/631ce3c4dfb286e20eccc685520e52f8076bad65bdeb27a92d4d88d966ae/fabric-orchestrator-client-1.7.0b7.tar.gz
+[2024-05-31 15:41:12] INFO root fetch - processPackages [camera-ui-python-types]: executing diffoscope
+[2024-05-31 15:41:12] INFO root fetch - processPackages [camera-ui-python-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-ui-python-types-0.1.8.tar.gz tmp/camera-ui-python-types-0.1.9.tar.gz --markdown 20240531/c/camera-ui-python-types/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 15:41:12] INFO root fetch - processPackages [iSponsorBlockTV]: executing diffoscope
+[2024-05-31 15:41:12] INFO root fetch - processPackages [iSponsorBlockTV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isponsorblocktv-2.0.7.tar.gz tmp/isponsorblocktv-2.0.8.tar.gz --markdown 20240531/i/iSponsorBlockTV/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-05-31 15:41:12] INFO root fetch - processPackages [python-frank-energie]: executing diffoscope
+[2024-05-31 15:41:12] INFO root fetch - processPackages [python-frank-energie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_frank_energie-6.0.0.tar.gz tmp/python_frank_energie-6.1.0b1.tar.gz --markdown 20240531/p/python-frank-energie/6.0.0-6.1.0b1/README.md --exclude *.pyd
+[2024-05-31 15:41:12] INFO root fetch - processPackages [fabric_fim]: executing diffoscope
+[2024-05-31 15:41:12] INFO root fetch - processPackages [fabric_fim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric_fim-1.7.0b3.tar.gz tmp/fabric_fim-1.7.0b4.tar.gz --markdown 20240531/f/fabric_fim/1.7.0b3-1.7.0b4/README.md --exclude *.pyd
+[2024-05-31 15:41:13] INFO root fetch - processPackages [hippo-db]: Remove: archive file [/home/abi/fetcher/tmp/hippo_db-0.3.8.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - processPackages [hippo-db]: Remove: archive file [/home/abi/fetcher/tmp/hippo_db-0.3.9.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - main [MainThread]: End processing [hippo-db]: success
+[2024-05-31 15:41:13] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-1.5.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-1.6.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - main [MainThread]: End processing [consensusGen]: success
+[2024-05-31 15:41:13] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2024-05-31 15:41:13] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.7.0b6.tar.gz tmp/fabric-orchestrator-client-1.7.0b7.tar.gz --markdown 20240531/f/fabric-orchestrator-client/1.7.0b6-1.7.0b7/README.md --exclude *.pyd
+[2024-05-31 15:41:13] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.8.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
+[2024-05-31 15:41:13] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.2.9-py3-none-any.whl.zip]
+[2024-05-31 15:41:13] INFO root fetch - processPackages [lit-ecology-classifier]: Remove: archive file [/home/abi/fetcher/tmp/lit_ecology_classifier-0.3-py3-none-any.whl.zip]
+[2024-05-31 15:41:13] INFO root fetch - main [MainThread]: End processing [lit-ecology-classifier]: success
+[2024-05-31 15:41:13] INFO root fetch - processPackages [schubmult]: Remove: archive file [/home/abi/fetcher/tmp/schubmult-1.3.9.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - processPackages [schubmult]: Remove: archive file [/home/abi/fetcher/tmp/schubmult-1.4.0.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - main [MainThread]: End processing [schubmult]: success
+[2024-05-31 15:41:13] INFO root fetch - processPackages [iSponsorBlockTV]: Remove: archive file [/home/abi/fetcher/tmp/isponsorblocktv-2.0.7.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - processPackages [iSponsorBlockTV]: Remove: archive file [/home/abi/fetcher/tmp/isponsorblocktv-2.0.8.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - main [MainThread]: End processing [iSponsorBlockTV]: success
+[2024-05-31 15:41:13] INFO root fetch - processPackages [python-frank-energie]: Remove: archive file [/home/abi/fetcher/tmp/python_frank_energie-6.0.0.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - processPackages [python-frank-energie]: Remove: archive file [/home/abi/fetcher/tmp/python_frank_energie-6.1.0b1.tar.gz]
+[2024-05-31 15:41:13] INFO root fetch - main [MainThread]: End processing [python-frank-energie]: success
+[2024-05-31 15:41:14] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.7.0b6.tar.gz]
+[2024-05-31 15:41:14] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.7.0b7.tar.gz]
+[2024-05-31 15:41:14] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2024-05-31 15:41:14] INFO root fetch - processPackages [fabric_fim]: Remove: archive file [/home/abi/fetcher/tmp/fabric_fim-1.7.0b3.tar.gz]
+[2024-05-31 15:41:14] INFO root fetch - processPackages [fabric_fim]: Remove: archive file [/home/abi/fetcher/tmp/fabric_fim-1.7.0b4.tar.gz]
+[2024-05-31 15:41:14] INFO root fetch - main [MainThread]: End processing [fabric_fim]: success
+[2024-05-31 15:41:14] INFO root fetch - main [MainThread]: Store serial: [23466402]
