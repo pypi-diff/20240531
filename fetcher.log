@@ -16733,3 +16733,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:32:38] INFO root fetch - processPackages [fastdfe]: Remove: archive file [/home/abi/fetcher/tmp/fastdfe-1.1.7.tar.gz]
 [2024-05-31 13:32:38] INFO root fetch - main [MainThread]: End processing [fastdfe]: success
 [2024-05-31 13:32:38] INFO root fetch - main [MainThread]: Store serial: [23464832]
+[2024-05-31 13:34:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464832]
+[2024-05-31 13:34:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 13:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cciutils
+[2024-05-31 13:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: faunanet-record
+[2024-05-31 13:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windmill-api
+[2024-05-31 13:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: web-prink
+[2024-05-31 13:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nopecha
+[2024-05-31 13:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: groqchat
+[2024-05-31 13:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tdimport-client
+[2024-05-31 13:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xmextras
+[2024-05-31 13:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dead-simple-singleton
+[2024-05-31 13:34:47] WARNING root fetch - processPackages [groqchat]: Skipping, unable to determine old version
+[2024-05-31 13:34:47] INFO root fetch - main [MainThread]: End processing [groqchat] error
+[2024-05-31 13:34:47] WARNING root fetch - processPackages [web-prink]: Skipping, unable to determine old version
+[2024-05-31 13:34:47] INFO root fetch - main [MainThread]: End processing [web-prink] error
+[2024-05-31 13:34:47] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-31 13:34:47] WARNING root fetch - processPackages [faunanet-record]: Skipping, unable to determine old version
+[2024-05-31 13:34:47] INFO root fetch - main [MainThread]: End processing [faunanet-record] error
+[2024-05-31 13:34:47] INFO root fetch - processPackages [tdimport-client]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-31 13:34:47] INFO root fetch - processPackages [nopecha]: New version: [2.0.0] Old Version: [1.0.9]
+[2024-05-31 13:34:47] WARNING root fetch - processPackages [xmextras]: Skipping, unable to determine old version
+[2024-05-31 13:34:47] INFO root fetch - main [MainThread]: End processing [xmextras] error
+[2024-05-31 13:34:47] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-31 13:34:47] WARNING root fetch - processPackages [dead-simple-singleton]: Skipping, unable to determine old version
+[2024-05-31 13:34:47] INFO root fetch - main [MainThread]: End processing [dead-simple-singleton] error
+[2024-05-31 13:34:47] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-05-31 13:34:47] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-05-31 13:34:47] INFO root fetch - processPackages [nopecha]: Downloading https://files.pythonhosted.org/packages/4c/cc/0d6c53e14ef6909b4aa674bf7c91ec04fa6eca53e1c32944e9db0c76f4c9/nopecha-1.0.9.tar.gz
+[2024-05-31 13:34:47] INFO root fetch - processPackages [tdimport-client]: Downloading https://files.pythonhosted.org/packages/9b/7a/454c561a49e62bc6f47b75b252bd9ca75860ebebdc681d0b0d7f59e1f48a/tdimport_client-0.2.2-py3-none-any.whl
+[2024-05-31 13:34:47] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-31 13:34:47] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-31 13:34:47] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240531/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-31 13:34:48] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-05-31 13:34:48] INFO root fetch - processPackages [nopecha]: Downloading https://files.pythonhosted.org/packages/95/11/67a96cc384f415a8a280f2051ce3e4e7df5ab5bf4a434cc808feffb4398f/nopecha-2.0.0.tar.gz
+[2024-05-31 13:34:48] INFO root fetch - processPackages [tdimport-client]: Downloading https://files.pythonhosted.org/packages/41/d6/dcb973d49c12ecb15ee420c59f411e9a87d7a2f0ddc9d2466a9d2376c2fd/tdimport_client-0.2.3-py3-none-any.whl
+[2024-05-31 13:34:48] INFO root fetch - processPackages [tdimport-client]: executing diffoscope
+[2024-05-31 13:34:48] INFO root fetch - processPackages [tdimport-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdimport_client-0.2.2-py3-none-any.whl.zip tmp/tdimport_client-0.2.3-py3-none-any.whl.zip --markdown 20240531/t/tdimport-client/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-31 13:34:48] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-05-31 13:34:48] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240531/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-05-31 13:34:48] INFO root fetch - processPackages [nopecha]: executing diffoscope
+[2024-05-31 13:34:48] INFO root fetch - processPackages [nopecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopecha-1.0.9.tar.gz tmp/nopecha-2.0.0.tar.gz --markdown 20240531/n/nopecha/1.0.9-2.0.0/README.md --exclude *.pyd
+[2024-05-31 13:34:48] INFO root fetch - processPackages [tdimport-client]: Remove: archive file [/home/abi/fetcher/tmp/tdimport_client-0.2.2-py3-none-any.whl.zip]
+[2024-05-31 13:34:48] INFO root fetch - processPackages [tdimport-client]: Remove: archive file [/home/abi/fetcher/tmp/tdimport_client-0.2.3-py3-none-any.whl.zip]
+[2024-05-31 13:34:48] INFO root fetch - main [MainThread]: End processing [tdimport-client]: success
+[2024-05-31 13:34:48] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-05-31 13:34:48] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-05-31 13:34:48] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-05-31 13:34:48] INFO root fetch - processPackages [nopecha]: Remove: archive file [/home/abi/fetcher/tmp/nopecha-1.0.9.tar.gz]
+[2024-05-31 13:34:48] INFO root fetch - processPackages [nopecha]: Remove: archive file [/home/abi/fetcher/tmp/nopecha-2.0.0.tar.gz]
+[2024-05-31 13:34:48] INFO root fetch - main [MainThread]: End processing [nopecha]: success
+[2024-05-31 13:34:51] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-31 13:34:51] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-31 13:34:51] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-31 13:34:51] INFO root fetch - main [MainThread]: Store serial: [23464873]
