@@ -11248,3 +11248,84 @@
 [2024-05-31 09:55:44] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240530032437-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-31 09:55:44] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
 [2024-05-31 09:55:44] INFO root fetch - main [MainThread]: Store serial: [23462370]
+[2024-05-31 09:58:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462370]
+[2024-05-31 09:58:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 09:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hj-proj-module
+[2024-05-31 09:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vicodepy
+[2024-05-31 09:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libschrodinger
+[2024-05-31 09:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reqwestss
+[2024-05-31 09:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-base
+[2024-05-31 09:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-cli
+[2024-05-31 09:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-dso
+[2024-05-31 09:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: splat64
+[2024-05-31 09:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: IPMerge
+[2024-05-31 09:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly
+[2024-05-31 09:58:19] WARNING root fetch - processPackages [vicodepy]: Skipping, unable to determine old version
+[2024-05-31 09:58:19] INFO root fetch - main [MainThread]: End processing [vicodepy] error
+[2024-05-31 09:58:19] INFO root fetch - processPackages [libschrodinger]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-31 09:58:19] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2406.0] Old Version: [1.2405.0]
+[2024-05-31 09:58:19] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2406.0] Old Version: [1.2405.0]
+[2024-05-31 09:58:19] WARNING root fetch - processPackages [reqwestss]: Skipping, unable to determine old version
+[2024-05-31 09:58:19] INFO root fetch - main [MainThread]: End processing [reqwestss] error
+[2024-05-31 09:58:19] INFO root fetch - processPackages [libschrodinger]: Downloading https://files.pythonhosted.org/packages/25/89/b9fa9cff5b00eb39f7a3eb6bd29ab3cb78393a2d8876d6c12469e586b0da/libschrodinger-1.1.0.tar.gz
+[2024-05-31 09:58:19] INFO root fetch - processPackages [hj-proj-module]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-31 09:58:19] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2407.0] Old Version: [1.2406.0]
+[2024-05-31 09:58:19] INFO root fetch - processPackages [splat64]: New version: [0.24.3] Old Version: [0.24.2]
+[2024-05-31 09:58:19] INFO root fetch - processPackages [IPMerge]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 09:58:19] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/51/4b/cb0ba0af625f4b17b18b449088843bfa43e5a0675e40d00bf7450dc954e0/gardener_cicd_base-1.2405.0.tar.gz
+[2024-05-31 09:58:19] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240531] Old Version: [2.17.0.dev20240530]
+[2024-05-31 09:58:20] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/c6/50/89c90376d7f75e556be733b354ce756e02e67bb4e70653f7c221c8887662/gardener_cicd_cli-1.2405.0.tar.gz
+[2024-05-31 09:58:20] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/db/12/7bb0e640457f3bbbbc0b77439e6b03839642728f5b9676f3a6cdbf41672e/hj_proj_module-0.1.7.tar.gz
+[2024-05-31 09:58:20] INFO root fetch - processPackages [splat64]: Downloading https://files.pythonhosted.org/packages/1e/24/dc38ce219f9a78bbd188734c28d2926fb23bacde208356cd9019d883ba47/splat64-0.24.2.tar.gz
+[2024-05-31 09:58:20] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/e4/e3/dcd8bd9cb682383f3706c4a4a2c19c4169d71c6fc343894e061f50e13c29/gardener_cicd_dso-1.2406.0-py3-none-any.whl
+[2024-05-31 09:58:20] INFO root fetch - processPackages [IPMerge]: Downloading https://files.pythonhosted.org/packages/43/3e/eff015ca873313a7e98ca2a9a21987983cbe467a0fe725668d3aeb159a80/ipmerge-0.1.0.tar.gz
+[2024-05-31 09:58:20] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/8b/c9/ee019d7f68e106cdd0a914cb0f9c6c1f39f288b162a09aca31108775a24b/tf_nightly-2.17.0.dev20240530-cp39-cp39-win_amd64.whl
+[2024-05-31 09:58:20] INFO root fetch - processPackages [libschrodinger]: Downloading https://files.pythonhosted.org/packages/79/63/860a46756c1418e24a386a096606fe4169b6a672317f3dfd91214ffac961/libschrodinger-1.2.0.tar.gz
+[2024-05-31 09:58:20] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/28/8c/1e76419bec46d30ff1c6774d21f64da1cffc08bbabf90280fedb1c11f24e/gardener_cicd_base-1.2406.0-py3-none-any.whl
+[2024-05-31 09:58:20] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/87/a2/14bea05a12ee3379024ecf91737c2d9f3a067502586c26061af3db61784c/gardener_cicd_cli-1.2406.0-py3-none-any.whl
+[2024-05-31 09:58:20] INFO root fetch - processPackages [libschrodinger]: executing diffoscope
+[2024-05-31 09:58:20] INFO root fetch - processPackages [libschrodinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libschrodinger-1.1.0.tar.gz tmp/libschrodinger-1.2.0.tar.gz --markdown 20240531/l/libschrodinger/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-31 09:58:20] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-31 09:58:20] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2405.0.tar.gz tmp/gardener_cicd_base-1.2406.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-base/1.2405.0-1.2406.0/README.md --exclude *.pyd
+[2024-05-31 09:58:20] INFO root fetch - processPackages [hj-proj-module]: Downloading https://files.pythonhosted.org/packages/94/49/69693d7a64f73d84255649b427048581401581af1b2733dd7b132cd4a620/hj_proj_module-0.1.9.tar.gz
+[2024-05-31 09:58:20] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-31 09:58:20] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2405.0.tar.gz tmp/gardener_cicd_cli-1.2406.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-cli/1.2405.0-1.2406.0/README.md --exclude *.pyd
+[2024-05-31 09:58:20] INFO root fetch - processPackages [IPMerge]: Downloading https://files.pythonhosted.org/packages/94/8c/039d6ec9f39711b0d67a0efb717a0dbc4c0338034a25d7346ed456617212/ipmerge-0.1.1.tar.gz
+[2024-05-31 09:58:20] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/0c/9f/cf588b4a16dfa01794f04d90280c896b272a5e795c0547b00eb88467a1c4/tf_nightly-2.17.0.dev20240531-cp39-cp39-win_amd64.whl
+[2024-05-31 09:58:20] INFO root fetch - processPackages [splat64]: Downloading https://files.pythonhosted.org/packages/8f/8f/289d4982f99e3eba5a18d28f6d7ef90f10bae22b225aca14908853bdf6d7/splat64-0.24.3.tar.gz
+[2024-05-31 09:58:20] INFO root fetch - processPackages [hj-proj-module]: executing diffoscope
+[2024-05-31 09:58:20] INFO root fetch - processPackages [hj-proj-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hj_proj_module-0.1.7.tar.gz tmp/hj_proj_module-0.1.9.tar.gz --markdown 20240531/h/hj-proj-module/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-31 09:58:20] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/4f/45/b15d8ad0f920ddd259dc618f7aa2276f663dc02f61bde25a00292864a501/gardener_cicd_dso-1.2407.0-py3-none-any.whl
+[2024-05-31 09:58:20] INFO root fetch - processPackages [IPMerge]: executing diffoscope
+[2024-05-31 09:58:20] INFO root fetch - processPackages [IPMerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipmerge-0.1.0.tar.gz tmp/ipmerge-0.1.1.tar.gz --markdown 20240531/I/IPMerge/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 09:58:20] INFO root fetch - processPackages [splat64]: executing diffoscope
+[2024-05-31 09:58:20] INFO root fetch - processPackages [splat64]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splat64-0.24.2.tar.gz tmp/splat64-0.24.3.tar.gz --markdown 20240531/s/splat64/0.24.2-0.24.3/README.md --exclude *.pyd
+[2024-05-31 09:58:20] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-31 09:58:20] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240530-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240531-cp39-cp39-win_amd64.whl.zip --markdown 20240531/t/tf-nightly/2.17.0.dev20240530-2.17.0.dev20240531/README.md --exclude *.pyd
+[2024-05-31 09:58:20] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-31 09:58:20] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2406.0-py3-none-any.whl.zip tmp/gardener_cicd_dso-1.2407.0-py3-none-any.whl.zip --markdown 20240531/g/gardener-cicd-dso/1.2406.0-1.2407.0/README.md --exclude *.pyd
+[2024-05-31 09:58:21] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2405.0.tar.gz]
+[2024-05-31 09:58:21] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2406.0-py3-none-any.whl.zip]
+[2024-05-31 09:58:21] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-31 09:58:21] INFO root fetch - processPackages [libschrodinger]: Remove: archive file [/home/abi/fetcher/tmp/libschrodinger-1.1.0.tar.gz]
+[2024-05-31 09:58:21] INFO root fetch - processPackages [libschrodinger]: Remove: archive file [/home/abi/fetcher/tmp/libschrodinger-1.2.0.tar.gz]
+[2024-05-31 09:58:21] INFO root fetch - main [MainThread]: End processing [libschrodinger]: success
+[2024-05-31 09:58:21] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.7.tar.gz]
+[2024-05-31 09:58:21] INFO root fetch - processPackages [hj-proj-module]: Remove: archive file [/home/abi/fetcher/tmp/hj_proj_module-0.1.9.tar.gz]
+[2024-05-31 09:58:21] INFO root fetch - main [MainThread]: End processing [hj-proj-module]: success
+[2024-05-31 09:58:21] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240530-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 09:58:21] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240531-cp39-cp39-win_amd64.whl.zip]
+[2024-05-31 09:58:21] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-31 09:58:21] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2405.0.tar.gz]
+[2024-05-31 09:58:21] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2406.0-py3-none-any.whl.zip]
+[2024-05-31 09:58:21] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-31 09:58:21] INFO root fetch - processPackages [IPMerge]: Remove: archive file [/home/abi/fetcher/tmp/ipmerge-0.1.0.tar.gz]
+[2024-05-31 09:58:21] INFO root fetch - processPackages [IPMerge]: Remove: archive file [/home/abi/fetcher/tmp/ipmerge-0.1.1.tar.gz]
+[2024-05-31 09:58:21] INFO root fetch - main [MainThread]: End processing [IPMerge]: success
+[2024-05-31 09:58:21] INFO root fetch - processPackages [splat64]: Remove: archive file [/home/abi/fetcher/tmp/splat64-0.24.2.tar.gz]
+[2024-05-31 09:58:21] INFO root fetch - processPackages [splat64]: Remove: archive file [/home/abi/fetcher/tmp/splat64-0.24.3.tar.gz]
+[2024-05-31 09:58:21] INFO root fetch - main [MainThread]: End processing [splat64]: success
+[2024-05-31 09:58:22] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2406.0-py3-none-any.whl.zip]
+[2024-05-31 09:58:22] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2407.0-py3-none-any.whl.zip]
+[2024-05-31 09:58:22] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-31 09:58:22] INFO root fetch - main [MainThread]: Store serial: [23462423]
