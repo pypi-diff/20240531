@@ -8283,3 +8283,57 @@
 [2024-05-31 07:44:08] INFO root fetch - processPackages [gidapptools]: Remove: archive file [/home/abi/fetcher/tmp/gidapptools-0.5.2.tar.gz]
 [2024-05-31 07:44:08] INFO root fetch - main [MainThread]: End processing [gidapptools]: success
 [2024-05-31 07:44:08] INFO root fetch - main [MainThread]: Store serial: [23460842]
+[2024-05-31 07:46:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460842]
+[2024-05-31 07:46:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 07:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-consul
+[2024-05-31 07:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: k8ctl
+[2024-05-31 07:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py4web
+[2024-05-31 07:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dlqhandler
+[2024-05-31 07:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phanta
+[2024-05-31 07:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: federated-learning-framework
+[2024-05-31 07:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: docker-ready
+[2024-05-31 07:46:17] INFO root fetch - processPackages [dlqhandler]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-31 07:46:17] INFO root fetch - processPackages [k8ctl]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-31 07:46:17] INFO root fetch - processPackages [py4web]: New version: [1.20240530.1] Old Version: [1.20240529.2]
+[2024-05-31 07:46:17] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/f2/44/d832e5228f491c3d1c8b9e968789831986d4cb0bad6bc4f417c97be393a3/dlqhandler-0.2.4.tar.gz
+[2024-05-31 07:46:17] INFO root fetch - processPackages [federated-learning-framework]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-31 07:46:17] WARNING root fetch - processPackages [docker-ready]: Skipping, unable to determine old version
+[2024-05-31 07:46:17] INFO root fetch - main [MainThread]: End processing [docker-ready] error
+[2024-05-31 07:46:17] INFO root fetch - processPackages [k8ctl]: Downloading https://files.pythonhosted.org/packages/b9/0a/4f729b9ffc6999f5edafe632b1afe01efa6beb540eacc209ab790e9a88d2/k8ctl-0.0.6-py3-none-any.whl
+[2024-05-31 07:46:17] WARNING root fetch - processPackages [phanta]: Skipping, unable to determine old version
+[2024-05-31 07:46:17] INFO root fetch - main [MainThread]: End processing [phanta] error
+[2024-05-31 07:46:17] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/57/2e/35474a05fcfa11055d81b06338e95e4d1cedd0b83c1566c1769a4ee53d61/py4web-1.20240529.2.tar.gz
+[2024-05-31 07:46:17] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1687670569] Old Version: [3.9.0a1687054376]
+[2024-05-31 07:46:17] INFO root fetch - processPackages [federated-learning-framework]: Downloading https://files.pythonhosted.org/packages/86/4c/ac3885d16cb4f270a62e084979e368784280e425d2c1948595dee7c66a3d/federated_learning_framework-0.0.2.tar.gz
+[2024-05-31 07:46:17] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/b2/0b/a9aea9bd557425d918ea238feabf49fb698d827f1dfeaf4613d70eae31a2/pulumi_consul-3.9.0a1687054376.tar.gz
+[2024-05-31 07:46:17] INFO root fetch - processPackages [dlqhandler]: Downloading https://files.pythonhosted.org/packages/3e/4f/fd0ea47b71721e449fe802066d7e7e6d0e4a82da5f540194434662aa8a0c/dlqhandler-0.2.5.tar.gz
+[2024-05-31 07:46:17] INFO root fetch - processPackages [k8ctl]: Downloading https://files.pythonhosted.org/packages/c5/4c/53f60a707a565257fc517556f7d13f4825096237a0699122af0e5cbae8ae/k8ctl-0.0.7-py3-none-any.whl
+[2024-05-31 07:46:18] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/7d/e3/d1772fff9139f8836fe2ac982ed2393eb73af27e0742e26a02bc385df291/py4web-1.20240530.1.tar.gz
+[2024-05-31 07:46:18] INFO root fetch - processPackages [dlqhandler]: executing diffoscope
+[2024-05-31 07:46:18] INFO root fetch - processPackages [dlqhandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlqhandler-0.2.4.tar.gz tmp/dlqhandler-0.2.5.tar.gz --markdown 20240531/d/dlqhandler/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-31 07:46:18] INFO root fetch - processPackages [k8ctl]: executing diffoscope
+[2024-05-31 07:46:18] INFO root fetch - processPackages [k8ctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8ctl-0.0.6-py3-none-any.whl.zip tmp/k8ctl-0.0.7-py3-none-any.whl.zip --markdown 20240531/k/k8ctl/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-31 07:46:18] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/aa/10/eaf50f0d8ecb4103cac140429d33cf0fbed0a84ade857f6a5d9e9dda5e71/pulumi_consul-3.9.0a1687670569.tar.gz
+[2024-05-31 07:46:18] INFO root fetch - processPackages [federated-learning-framework]: Downloading https://files.pythonhosted.org/packages/42/55/5684ad8b0c056b18012b81997049260ee807d4854910e34263be66936846/federated_learning_framework-0.0.3.tar.gz
+[2024-05-31 07:46:18] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2024-05-31 07:46:18] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1687054376.tar.gz tmp/pulumi_consul-3.9.0a1687670569.tar.gz --markdown 20240531/p/pulumi-consul/3.9.0a1687054376-3.9.0a1687670569/README.md --exclude *.pyd
+[2024-05-31 07:46:18] INFO root fetch - processPackages [federated-learning-framework]: executing diffoscope
+[2024-05-31 07:46:18] INFO root fetch - processPackages [federated-learning-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/federated_learning_framework-0.0.2.tar.gz tmp/federated_learning_framework-0.0.3.tar.gz --markdown 20240531/f/federated-learning-framework/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-31 07:46:18] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2024-05-31 07:46:18] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20240529.2.tar.gz tmp/py4web-1.20240530.1.tar.gz --markdown 20240531/p/py4web/1.20240529.2-1.20240530.1/README.md --exclude *.pyd
+[2024-05-31 07:46:18] INFO root fetch - processPackages [k8ctl]: Remove: archive file [/home/abi/fetcher/tmp/k8ctl-0.0.6-py3-none-any.whl.zip]
+[2024-05-31 07:46:18] INFO root fetch - processPackages [k8ctl]: Remove: archive file [/home/abi/fetcher/tmp/k8ctl-0.0.7-py3-none-any.whl.zip]
+[2024-05-31 07:46:18] INFO root fetch - main [MainThread]: End processing [k8ctl]: success
+[2024-05-31 07:46:18] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.4.tar.gz]
+[2024-05-31 07:46:18] INFO root fetch - processPackages [dlqhandler]: Remove: archive file [/home/abi/fetcher/tmp/dlqhandler-0.2.5.tar.gz]
+[2024-05-31 07:46:18] INFO root fetch - main [MainThread]: End processing [dlqhandler]: success
+[2024-05-31 07:46:19] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687054376.tar.gz]
+[2024-05-31 07:46:19] INFO root fetch - processPackages [pulumi-consul]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_consul-3.9.0a1687670569.tar.gz]
+[2024-05-31 07:46:19] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2024-05-31 07:46:19] INFO root fetch - processPackages [federated-learning-framework]: Remove: archive file [/home/abi/fetcher/tmp/federated_learning_framework-0.0.2.tar.gz]
+[2024-05-31 07:46:19] INFO root fetch - processPackages [federated-learning-framework]: Remove: archive file [/home/abi/fetcher/tmp/federated_learning_framework-0.0.3.tar.gz]
+[2024-05-31 07:46:19] INFO root fetch - main [MainThread]: End processing [federated-learning-framework]: success
+[2024-05-31 07:46:19] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240529.2.tar.gz]
+[2024-05-31 07:46:19] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20240530.1.tar.gz]
+[2024-05-31 07:46:19] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2024-05-31 07:46:19] INFO root fetch - main [MainThread]: Store serial: [23460899]
