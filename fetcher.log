@@ -19534,3 +19534,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:18:08] INFO root fetch - processPackages [lenlp]: Remove: archive file [/home/abi/fetcher/tmp/lenlp-1.0.4.tar.gz]
 [2024-05-31 15:18:08] INFO root fetch - main [MainThread]: End processing [lenlp]: success
 [2024-05-31 15:18:08] INFO root fetch - main [MainThread]: Store serial: [23466102]
+[2024-05-31 15:20:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466102]
+[2024-05-31 15:20:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 15:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bloqade
+[2024-05-31 15:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-project-base
+[2024-05-31 15:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VRE-Repository-Connector
+[2024-05-31 15:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: socialdataanalysis
+[2024-05-31 15:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaaql-middleware-python
+[2024-05-31 15:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rich-structlog
+[2024-05-31 15:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymodaq-plugins-mockexamples
+[2024-05-31 15:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rai-workflow-manager
+[2024-05-31 15:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: consensusGen
+[2024-05-31 15:20:17] INFO root fetch - processPackages [rich-structlog]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 15:20:17] INFO root fetch - processPackages [django-project-base]: New version: [0.75.33] Old Version: [0.75.32]
+[2024-05-31 15:20:17] INFO root fetch - processPackages [consensusGen]: New version: [1.4] Old Version: [1.3]
+[2024-05-31 15:20:17] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.5] Old Version: [0.4]
+[2024-05-31 15:20:17] INFO root fetch - processPackages [bloqade]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 15:20:17] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/c2/b2/3ee1eb127c44e6b90860bdbe04431a4147aedb16b4253553c33c7a160e9b/django-project-base-0.75.32.tar.gz
+[2024-05-31 15:20:17] WARNING root fetch - processPackages [VRE-Repository-Connector]: Skipping, unable to determine old version
+[2024-05-31 15:20:17] INFO root fetch - main [MainThread]: End processing [VRE-Repository-Connector] error
+[2024-05-31 15:20:17] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/8f/e2/d406d66e5d6ae3a20cae273950f508b2da46cca878bd5f072118ce63b2b1/consensusgen-1.3.tar.gz
+[2024-05-31 15:20:17] INFO root fetch - processPackages [pymodaq-plugins-mockexamples]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-31 15:20:17] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/b4/1f/b777e19133d20041ded32791c739abcfd8458bdbb9a2b92d1133b256345d/socialdataanalysis-0.4.tar.gz
+[2024-05-31 15:20:17] INFO root fetch - processPackages [rai-workflow-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 15:20:17] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-05-31 15:20:17] INFO root fetch - processPackages [rich-structlog]: Downloading https://files.pythonhosted.org/packages/b0/f0/bd80e1e678f74aadbf02c179cff2f3a42a289ed340ae776a7fa46c2cbf6f/rich_structlog-0.1.0.tar.gz
+[2024-05-31 15:20:17] INFO root fetch - processPackages [bloqade]: Downloading https://files.pythonhosted.org/packages/af/b4/a0d13bd1e2f8038441dfdbe7be8b9b9133e0690c493a3ec5a6bed9a71f31/bloqade-0.8.0.tar.gz
+[2024-05-31 15:20:17] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/d5/fd/a4717f843a91dfd39359ba7f25c29d645fdc6ebe17575c8e41c46e4bd2be/socialdataanalysis-0.5.tar.gz
+[2024-05-31 15:20:17] INFO root fetch - processPackages [rai-workflow-manager]: Downloading https://files.pythonhosted.org/packages/0c/bb/030064522814b167a9f5737868df36174333368de88af6e623a0c2fb7b13/rai-workflow-manager-0.0.8.tar.gz
+[2024-05-31 15:20:17] INFO root fetch - processPackages [pymodaq-plugins-mockexamples]: Downloading https://files.pythonhosted.org/packages/99/af/0999c8d35dd86a2121b1f25c3bfe64052bb921f804ccff00c24d6c85c648/pymodaq_plugins_mockexamples-0.2.1.tar.gz
+[2024-05-31 15:20:17] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/a9/1f/9e013d0e0d21830f0c687a092f53133af86a8f4ee8745bcfaa9d7d8f0094/django-project-base-0.75.33.tar.gz
+[2024-05-31 15:20:17] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2024-05-31 15:20:17] WARNING root fetch - processPackages [pymodaq-plugins-mockexamples]: Skipping package: exceeds size limit 16899936>=10485760
+[2024-05-31 15:20:17] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-mockexamples] error
+[2024-05-31 15:20:17] INFO root fetch - processPackages [consensusGen]: Downloading https://files.pythonhosted.org/packages/ee/16/645f51a78617c674429c62b244e5c2b923ffccfecb19eaaca80cade024f0/consensusgen-1.4.tar.gz
+[2024-05-31 15:20:18] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 15:20:18] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.4.tar.gz tmp/socialdataanalysis-0.5.tar.gz --markdown 20240531/s/socialdataanalysis/0.4-0.5/README.md --exclude *.pyd
+[2024-05-31 15:20:18] INFO root fetch - processPackages [django-project-base]: executing diffoscope
+[2024-05-31 15:20:18] INFO root fetch - processPackages [django-project-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-base-0.75.32.tar.gz tmp/django-project-base-0.75.33.tar.gz --markdown 20240531/d/django-project-base/0.75.32-0.75.33/README.md --exclude *.pyd
+[2024-05-31 15:20:18] INFO root fetch - processPackages [rich-structlog]: Downloading https://files.pythonhosted.org/packages/18/9a/683ac167ae12afd5c9053ceebcd92ef1bec37c228cbda0a6dfda595a701a/rich_structlog-0.1.1.tar.gz
+[2024-05-31 15:20:18] INFO root fetch - processPackages [consensusGen]: executing diffoscope
+[2024-05-31 15:20:18] INFO root fetch - processPackages [consensusGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consensusgen-1.3.tar.gz tmp/consensusgen-1.4.tar.gz --markdown 20240531/c/consensusGen/1.3-1.4/README.md --exclude *.pyd
+[2024-05-31 15:20:18] INFO root fetch - processPackages [bloqade]: Downloading https://files.pythonhosted.org/packages/29/98/44f6b60eda27fd11d2a570439b7f2c12f2694884047e15eb6965757187d0/bloqade-0.9.0.tar.gz
+[2024-05-31 15:20:18] INFO root fetch - processPackages [rich-structlog]: executing diffoscope
+[2024-05-31 15:20:18] INFO root fetch - processPackages [rich-structlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rich_structlog-0.1.0.tar.gz tmp/rich_structlog-0.1.1.tar.gz --markdown 20240531/r/rich-structlog/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 15:20:18] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2024-05-31 15:20:18] INFO root fetch - processPackages [rai-workflow-manager]: Downloading https://files.pythonhosted.org/packages/d5/cd/f35f41e37b57954c261632464bf35355e47f902658c2da3d25aff288e044/rai-workflow-manager-0.0.9.tar.gz
+[2024-05-31 15:20:18] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2024-05-31 15:20:18] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20240531/j/jaaql-middleware-python/4.9.0-4.9.1/README.md --exclude *.pyd
+[2024-05-31 15:20:18] INFO root fetch - processPackages [bloqade]: executing diffoscope
+[2024-05-31 15:20:18] INFO root fetch - processPackages [bloqade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloqade-0.8.0.tar.gz tmp/bloqade-0.9.0.tar.gz --markdown 20240531/b/bloqade/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 15:20:18] INFO root fetch - processPackages [rai-workflow-manager]: executing diffoscope
+[2024-05-31 15:20:18] INFO root fetch - processPackages [rai-workflow-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai-workflow-manager-0.0.8.tar.gz tmp/rai-workflow-manager-0.0.9.tar.gz --markdown 20240531/r/rai-workflow-manager/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 15:20:18] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-1.3.tar.gz]
+[2024-05-31 15:20:18] INFO root fetch - processPackages [consensusGen]: Remove: archive file [/home/abi/fetcher/tmp/consensusgen-1.4.tar.gz]
+[2024-05-31 15:20:18] INFO root fetch - main [MainThread]: End processing [consensusGen]: success
+[2024-05-31 15:20:18] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.4.tar.gz]
+[2024-05-31 15:20:18] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.5.tar.gz]
+[2024-05-31 15:20:18] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 15:20:18] INFO root fetch - processPackages [rich-structlog]: Remove: archive file [/home/abi/fetcher/tmp/rich_structlog-0.1.0.tar.gz]
+[2024-05-31 15:20:18] INFO root fetch - processPackages [rich-structlog]: Remove: archive file [/home/abi/fetcher/tmp/rich_structlog-0.1.1.tar.gz]
+[2024-05-31 15:20:18] INFO root fetch - main [MainThread]: End processing [rich-structlog]: success
+[2024-05-31 15:20:19] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.75.32.tar.gz]
+[2024-05-31 15:20:19] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.75.33.tar.gz]
+[2024-05-31 15:20:19] INFO root fetch - main [MainThread]: End processing [django-project-base]: success
+[2024-05-31 15:20:19] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2024-05-31 15:20:19] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2024-05-31 15:20:19] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2024-05-31 15:20:19] INFO root fetch - processPackages [rai-workflow-manager]: Remove: archive file [/home/abi/fetcher/tmp/rai-workflow-manager-0.0.8.tar.gz]
+[2024-05-31 15:20:19] INFO root fetch - processPackages [rai-workflow-manager]: Remove: archive file [/home/abi/fetcher/tmp/rai-workflow-manager-0.0.9.tar.gz]
+[2024-05-31 15:20:19] INFO root fetch - main [MainThread]: End processing [rai-workflow-manager]: success
+[2024-05-31 15:20:19] INFO root fetch - processPackages [bloqade]: Remove: archive file [/home/abi/fetcher/tmp/bloqade-0.8.0.tar.gz]
+[2024-05-31 15:20:19] INFO root fetch - processPackages [bloqade]: Remove: archive file [/home/abi/fetcher/tmp/bloqade-0.9.0.tar.gz]
+[2024-05-31 15:20:19] INFO root fetch - main [MainThread]: End processing [bloqade]: success
+[2024-05-31 15:20:19] INFO root fetch - main [MainThread]: Store serial: [23466135]
