@@ -13579,3 +13579,36 @@
 [2024-05-31 11:29:00] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-9.0.0rc1.tar.gz]
 [2024-05-31 11:29:00] INFO root fetch - main [MainThread]: End processing [pikepdf]: success
 [2024-05-31 11:29:00] INFO root fetch - main [MainThread]: Store serial: [23463437]
+[2024-05-31 11:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463437]
+[2024-05-31 11:31:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-05-31 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aibridge-test
+[2024-05-31 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wolfsoftware.prereqs
+[2024-05-31 11:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resage
+[2024-05-31 11:31:21] INFO root fetch - processPackages [aibridge-test]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-31 11:31:21] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/06/e6/d148ed01d9144224901437774503cd2598b05fdb79a8aba4ecb29a8b9bdd/aibridge_test-0.3.9.tar.gz
+[2024-05-31 11:31:21] WARNING root fetch - processPackages [resage]: Skipping, unable to determine old version
+[2024-05-31 11:31:21] INFO root fetch - main [MainThread]: End processing [resage] error
+[2024-05-31 11:31:21] INFO root fetch - processPackages [wolfsoftware.prereqs]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-31 11:31:21] INFO root fetch - processPackages [kcli]: New version: [99.0.202405310929] Old Version: [99.0.202405310558]
+[2024-05-31 11:31:21] INFO root fetch - processPackages [wolfsoftware.prereqs]: Downloading https://files.pythonhosted.org/packages/f1/7a/2863b6610267fcd37b757b3c49e12cc7863dc4103ee0c096d0e5d76fae43/wolfsoftware_prereqs-0.1.2.tar.gz
+[2024-05-31 11:31:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e2/cc/8d2ac88c7472842fbb0c2e01b25cb0842ed2f540b7fa5161cf6796b6cee2/kcli-99.0.202405310558.tar.gz
+[2024-05-31 11:31:21] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/ad/a6/519c5609513d0c6f9f80eadc7a478adada0537f541ad17b7ed78d1ef5037/aibridge_test-0.4.0.tar.gz
+[2024-05-31 11:31:21] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-05-31 11:31:21] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.3.9.tar.gz tmp/aibridge_test-0.4.0.tar.gz --markdown 20240531/a/aibridge-test/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-31 11:31:21] INFO root fetch - processPackages [wolfsoftware.prereqs]: Downloading https://files.pythonhosted.org/packages/c0/a4/cdf047ed2378e57676e93674b2ccfce42bb26f0d467f13b519ff2b80be5b/wolfsoftware_prereqs-0.1.3.tar.gz
+[2024-05-31 11:31:22] INFO root fetch - processPackages [wolfsoftware.prereqs]: executing diffoscope
+[2024-05-31 11:31:22] INFO root fetch - processPackages [wolfsoftware.prereqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolfsoftware_prereqs-0.1.2.tar.gz tmp/wolfsoftware_prereqs-0.1.3.tar.gz --markdown 20240531/w/wolfsoftware.prereqs/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-31 11:31:22] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/83/e4/3b1a400831a24da7e222ae85a5a2975818113d6050f44351a5449b0b0192/kcli-99.0.202405310929.tar.gz
+[2024-05-31 11:31:22] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-31 11:31:22] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405310558.tar.gz tmp/kcli-99.0.202405310929.tar.gz --markdown 20240531/k/kcli/99.0.202405310558-99.0.202405310929/README.md --exclude *.pyd
+[2024-05-31 11:31:22] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.9.tar.gz]
+[2024-05-31 11:31:22] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.4.0.tar.gz]
+[2024-05-31 11:31:22] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-05-31 11:31:22] INFO root fetch - processPackages [wolfsoftware.prereqs]: Remove: archive file [/home/abi/fetcher/tmp/wolfsoftware_prereqs-0.1.2.tar.gz]
+[2024-05-31 11:31:22] INFO root fetch - processPackages [wolfsoftware.prereqs]: Remove: archive file [/home/abi/fetcher/tmp/wolfsoftware_prereqs-0.1.3.tar.gz]
+[2024-05-31 11:31:22] INFO root fetch - main [MainThread]: End processing [wolfsoftware.prereqs]: success
+[2024-05-31 11:31:24] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405310558.tar.gz]
+[2024-05-31 11:31:24] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405310929.tar.gz]
+[2024-05-31 11:31:24] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-31 11:31:24] INFO root fetch - main [MainThread]: Store serial: [23463453]
