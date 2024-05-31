@@ -15345,3 +15345,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 12:33:24] INFO root fetch - processPackages [autotuning_methodology]: Remove: archive file [/home/abi/fetcher/tmp/autotuning_methodology-1.0.0b5.tar.gz]
 [2024-05-31 12:33:24] INFO root fetch - main [MainThread]: End processing [autotuning_methodology]: success
 [2024-05-31 12:33:24] INFO root fetch - main [MainThread]: Store serial: [23464246]
+[2024-05-31 12:35:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464246]
+[2024-05-31 12:35:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaflow-dbt
+[2024-05-31 12:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datamaestro
+[2024-05-31 12:35:33] INFO root fetch - processPackages [datamaestro]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-31 12:35:33] INFO root fetch - processPackages [datamaestro]: Downloading https://files.pythonhosted.org/packages/5f/f8/fe1e70bd27a4c2e4375283200c113ab048d30f59aa7499a1f598f3418af3/datamaestro-1.1.0.tar.gz
+[2024-05-31 12:35:33] INFO root fetch - processPackages [metaflow-dbt]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-31 12:35:33] INFO root fetch - processPackages [metaflow-dbt]: Downloading https://files.pythonhosted.org/packages/24/8c/ee6178b5d9688bf8454f2a34538f7b23cd1e933d297daffbf8e72f7434f6/metaflow_dbt-1.0.2.tar.gz
+[2024-05-31 12:35:33] INFO root fetch - processPackages [datamaestro]: Downloading https://files.pythonhosted.org/packages/7c/eb/3ce3acd5b7f8dc07e9601cd5b1439c393417e154d115ea72526e654801de/datamaestro-1.2.0.tar.gz
+[2024-05-31 12:35:33] INFO root fetch - processPackages [datamaestro]: executing diffoscope
+[2024-05-31 12:35:33] INFO root fetch - processPackages [datamaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamaestro-1.1.0.tar.gz tmp/datamaestro-1.2.0.tar.gz --markdown 20240531/d/datamaestro/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-31 12:35:33] INFO root fetch - processPackages [metaflow-dbt]: Downloading https://files.pythonhosted.org/packages/94/15/b6037a053d3422b54f8401073376590c2281c6a83a8ae2931238cb803504/metaflow_dbt-1.0.3.tar.gz
+[2024-05-31 12:35:33] INFO root fetch - processPackages [metaflow-dbt]: executing diffoscope
+[2024-05-31 12:35:33] INFO root fetch - processPackages [metaflow-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow_dbt-1.0.2.tar.gz tmp/metaflow_dbt-1.0.3.tar.gz --markdown 20240531/m/metaflow-dbt/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-31 12:35:34] INFO root fetch - processPackages [datamaestro]: Remove: archive file [/home/abi/fetcher/tmp/datamaestro-1.1.0.tar.gz]
+[2024-05-31 12:35:34] INFO root fetch - processPackages [datamaestro]: Remove: archive file [/home/abi/fetcher/tmp/datamaestro-1.2.0.tar.gz]
+[2024-05-31 12:35:34] INFO root fetch - main [MainThread]: End processing [datamaestro]: success
+[2024-05-31 12:35:34] INFO root fetch - processPackages [metaflow-dbt]: Remove: archive file [/home/abi/fetcher/tmp/metaflow_dbt-1.0.2.tar.gz]
+[2024-05-31 12:35:34] INFO root fetch - processPackages [metaflow-dbt]: Remove: archive file [/home/abi/fetcher/tmp/metaflow_dbt-1.0.3.tar.gz]
+[2024-05-31 12:35:34] INFO root fetch - main [MainThread]: End processing [metaflow-dbt]: success
+[2024-05-31 12:35:34] INFO root fetch - main [MainThread]: Store serial: [23464252]
