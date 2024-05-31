@@ -13027,3 +13027,45 @@
 [2024-05-31 11:04:29] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
 [2024-05-31 11:04:29] INFO root fetch - main [MainThread]: End processing [modelbase]: success
 [2024-05-31 11:04:29] INFO root fetch - main [MainThread]: Store serial: [23463165]
+[2024-05-31 11:06:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463165]
+[2024-05-31 11:06:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 11:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protovalidate-python-gen
+[2024-05-31 11:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profile-local
+[2024-05-31 11:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clinvar-this
+[2024-05-31 11:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.cloud
+[2024-05-31 11:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codejudge-common-utils
+[2024-05-31 11:06:38] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.4.0b20240530] Old Version: [0.4.0b20240529]
+[2024-05-31 11:06:38] INFO root fetch - processPackages [codejudge-common-utils]: New version: [0.1] Old Version: [0.0.1]
+[2024-05-31 11:06:38] INFO root fetch - processPackages [profile-local]: New version: [0.0.9] Old Version: [0.0.80]
+[2024-05-31 11:06:38] INFO root fetch - processPackages [clinvar-this]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-31 11:06:38] WARNING root fetch - processPackages [protovalidate-python-gen]: Skipping, unable to determine old version
+[2024-05-31 11:06:38] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/8c/f3/eb24c54d26e252e2eb375022f8f51169ae3ddfc736beb52f91ea8308f949/autogluon.cloud-0.4.0b20240529.tar.gz
+[2024-05-31 11:06:38] INFO root fetch - main [MainThread]: End processing [protovalidate-python-gen] error
+[2024-05-31 11:06:38] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/40/b4/e2bd2d6c6c48fd1f32c8a5df857d738615b48d33896a1e5ca25c20fb8af6/profile_local-0.0.80.tar.gz
+[2024-05-31 11:06:38] INFO root fetch - processPackages [clinvar-this]: Downloading https://files.pythonhosted.org/packages/92/dd/adb9732c07e53d7480023492ef32db0b94046095bc789a51e02ee77a502a/clinvar-this-0.8.0.tar.gz
+[2024-05-31 11:06:38] INFO root fetch - processPackages [codejudge-common-utils]: Downloading https://files.pythonhosted.org/packages/f3/4b/96de4b567da8a3681018002a8530cb9afcc4346e7a35391486cfa4b99fd4/codejudge-common-utils-0.0.1.tar.gz
+[2024-05-31 11:06:38] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/11/c8/78a5542368a933b16f8bbad15da31d255c65e05155a5467307b70f03c6b2/autogluon.cloud-0.4.0b20240530.tar.gz
+[2024-05-31 11:06:38] INFO root fetch - processPackages [clinvar-this]: Downloading https://files.pythonhosted.org/packages/96/12/05c118fa1e44d1d7496dbdfbfe8d91f7ddf24d30b25205020eb29ecf4ad2/clinvar-this-0.9.0.tar.gz
+[2024-05-31 11:06:38] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2024-05-31 11:06:38] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.4.0b20240529.tar.gz tmp/autogluon.cloud-0.4.0b20240530.tar.gz --markdown 20240531/a/autogluon.cloud/0.4.0b20240529-0.4.0b20240530/README.md --exclude *.pyd
+[2024-05-31 11:06:38] INFO root fetch - processPackages [profile-local]: Downloading https://files.pythonhosted.org/packages/a8/54/e07308090c523485559291c7a02f014be5ed9511f87a7701fb7328a58149/profile-local-0.0.9.tar.gz
+[2024-05-31 11:06:38] INFO root fetch - processPackages [codejudge-common-utils]: Downloading https://files.pythonhosted.org/packages/05/f3/19a68edfc9a433e4468dbd13e5952d881e950f4b2c6749cc9437b5dec9c2/codejudge_common_utils-0.1-py3-none-any.whl
+[2024-05-31 11:06:39] INFO root fetch - processPackages [profile-local]: executing diffoscope
+[2024-05-31 11:06:39] INFO root fetch - processPackages [profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profile_local-0.0.80.tar.gz tmp/profile-local-0.0.9.tar.gz --markdown 20240531/p/profile-local/0.0.80-0.0.9/README.md --exclude *.pyd
+[2024-05-31 11:06:39] INFO root fetch - processPackages [codejudge-common-utils]: executing diffoscope
+[2024-05-31 11:06:39] INFO root fetch - processPackages [codejudge-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codejudge-common-utils-0.0.1.tar.gz tmp/codejudge_common_utils-0.1-py3-none-any.whl.zip --markdown 20240531/c/codejudge-common-utils/0.0.1-0.1/README.md --exclude *.pyd
+[2024-05-31 11:06:39] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile_local-0.0.80.tar.gz]
+[2024-05-31 11:06:39] INFO root fetch - processPackages [profile-local]: Remove: archive file [/home/abi/fetcher/tmp/profile-local-0.0.9.tar.gz]
+[2024-05-31 11:06:39] INFO root fetch - main [MainThread]: End processing [profile-local]: success
+[2024-05-31 11:06:39] INFO root fetch - processPackages [codejudge-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/codejudge-common-utils-0.0.1.tar.gz]
+[2024-05-31 11:06:39] INFO root fetch - processPackages [codejudge-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/codejudge_common_utils-0.1-py3-none-any.whl.zip]
+[2024-05-31 11:06:39] INFO root fetch - main [MainThread]: End processing [codejudge-common-utils]: success
+[2024-05-31 11:06:39] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240529.tar.gz]
+[2024-05-31 11:06:39] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240530.tar.gz]
+[2024-05-31 11:06:39] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2024-05-31 11:06:40] INFO root fetch - processPackages [clinvar-this]: executing diffoscope
+[2024-05-31 11:06:40] INFO root fetch - processPackages [clinvar-this]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinvar-this-0.8.0.tar.gz tmp/clinvar-this-0.9.0.tar.gz --markdown 20240531/c/clinvar-this/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-31 11:06:41] INFO root fetch - processPackages [clinvar-this]: Remove: archive file [/home/abi/fetcher/tmp/clinvar-this-0.8.0.tar.gz]
+[2024-05-31 11:06:41] INFO root fetch - processPackages [clinvar-this]: Remove: archive file [/home/abi/fetcher/tmp/clinvar-this-0.9.0.tar.gz]
+[2024-05-31 11:06:41] INFO root fetch - main [MainThread]: End processing [clinvar-this]: success
+[2024-05-31 11:06:41] INFO root fetch - main [MainThread]: Store serial: [23463185]
