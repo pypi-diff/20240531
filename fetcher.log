@@ -15282,3 +15282,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-31 12:29:01] INFO root fetch - processPackages [ammico]: Remove: archive file [/home/abi/fetcher/tmp/ammico-0.2.1.tar.gz]
 [2024-05-31 12:29:01] INFO root fetch - main [MainThread]: End processing [ammico]: success
 [2024-05-31 12:29:01] INFO root fetch - main [MainThread]: Store serial: [23464170]
+[2024-05-31 12:31:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464170]
+[2024-05-31 12:31:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctrip-helper
+[2024-05-31 12:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiledb-cloud
+[2024-05-31 12:31:09] INFO root fetch - processPackages [ctrip-helper]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-31 12:31:09] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/ac/be/840c6423513d0d6a2618b03df93caa2240a7de4440f45c5632a5e62d952a/ctrip-helper-0.3.7.tar.gz
+[2024-05-31 12:31:09] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-31 12:31:10] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2024-05-31 12:31:10] INFO root fetch - processPackages [ctrip-helper]: Downloading https://files.pythonhosted.org/packages/0f/30/4c41a939a55a0f3cdb9e83878012ea04165d383b4ee66891df9c8c07e6c1/ctrip-helper-0.3.8.tar.gz
+[2024-05-31 12:31:10] INFO root fetch - processPackages [ctrip-helper]: executing diffoscope
+[2024-05-31 12:31:10] INFO root fetch - processPackages [ctrip-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-helper-0.3.7.tar.gz tmp/ctrip-helper-0.3.8.tar.gz --markdown 20240531/c/ctrip-helper/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-31 12:31:10] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2024-05-31 12:31:10] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.7.tar.gz]
+[2024-05-31 12:31:10] INFO root fetch - processPackages [ctrip-helper]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-helper-0.3.8.tar.gz]
+[2024-05-31 12:31:10] INFO root fetch - main [MainThread]: End processing [ctrip-helper]: success
+[2024-05-31 12:31:10] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2024-05-31 12:31:10] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20240531/t/tiledb-cloud/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-31 12:31:12] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip]
+[2024-05-31 12:31:12] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
+[2024-05-31 12:31:12] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2024-05-31 12:31:12] INFO root fetch - main [MainThread]: Store serial: [23464211]
