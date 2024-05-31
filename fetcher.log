@@ -21564,3 +21564,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:23:31] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.4.0rc1.tar.gz]
 [2024-05-31 16:23:31] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
 [2024-05-31 16:23:31] INFO root fetch - main [MainThread]: Store serial: [23466904]
+[2024-05-31 16:25:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466904]
+[2024-05-31 16:25:40] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-31 16:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xchainpy2-bitcoincash
+[2024-05-31 16:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xchainpy2-dogecoin
+[2024-05-31 16:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xchainpy2-mayachain
+[2024-05-31 16:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evo-framework
+[2024-05-31 16:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-helpdesk-motive
+[2024-05-31 16:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dt-extension-migrator
+[2024-05-31 16:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xchainpy2-thorchain
+[2024-05-31 16:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sage-lib
+[2024-05-31 16:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FinaleToolkit
+[2024-05-31 16:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xchainpy2-utils
+[2024-05-31 16:25:40] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-31 16:25:40] INFO root fetch - processPackages [FinaleToolkit]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-31 16:25:40] INFO root fetch - processPackages [evo-framework]: New version: [2024.5.36] Old Version: [2024.5.35]
+[2024-05-31 16:25:40] WARNING root fetch - processPackages [xchainpy2-bitcoincash]: Skipping, unable to determine old version
+[2024-05-31 16:25:40] INFO root fetch - processPackages [xchainpy2-bitcoincash]: Start processing: lusid-sdk
+[2024-05-31 16:25:40] INFO root fetch - main [MainThread]: End processing [xchainpy2-bitcoincash] error
+[2024-05-31 16:25:40] INFO root fetch - processPackages [xchainpy2-utils]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-31 16:25:40] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: Downloading https://files.pythonhosted.org/packages/ec/db/1b9a05cbed9389c22325f69c182ef6b9d443ebaac2a61e2cef3ef58406b7/odoo_addon_helpdesk_motive-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-31 16:25:40] INFO root fetch - processPackages [xchainpy2-thorchain]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-31 16:25:40] INFO root fetch - processPackages [dt-extension-migrator]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-31 16:25:40] INFO root fetch - processPackages [xchainpy2-mayachain]: New version: [0.0.6] Old Version: [0.0.14]
+[2024-05-31 16:25:40] WARNING root fetch - processPackages [xchainpy2-dogecoin]: Skipping, unable to determine old version
+[2024-05-31 16:25:40] INFO root fetch - processPackages [xchainpy2-dogecoin]: Start processing: xchainpy2-cosmos
+[2024-05-31 16:25:40] INFO root fetch - main [MainThread]: End processing [xchainpy2-dogecoin] error
+[2024-05-31 16:25:40] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/93/44/1cf4d78c5acb6593546ac06574ec6363ec5604d48c7e2886ab36c1195a73/evo_framework-2024.5.35.tar.gz
+[2024-05-31 16:25:40] INFO root fetch - processPackages [FinaleToolkit]: Downloading https://files.pythonhosted.org/packages/96/8d/425a20632531260498777f8b6668654c287a6d115b2275b1d7e902dd5a0d/finaletoolkit-0.6.1.tar.gz
+[2024-05-31 16:25:40] INFO root fetch - processPackages [sage-lib]: New version: [0.1.5.5] Old Version: [0.1.5.4]
+[2024-05-31 16:25:40] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-31 16:25:40] INFO root fetch - processPackages [xchainpy2-utils]: Downloading https://files.pythonhosted.org/packages/bb/dc/ff649b4319362c46b7527bb2b31f61f74d0f18f1548cb08f8412026f47dd/xchainpy2_utils-0.0.4.tar.gz
+[2024-05-31 16:25:40] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-31 16:25:40] INFO root fetch - processPackages [xchainpy2-cosmos]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-thorchain]: Downloading https://files.pythonhosted.org/packages/31/39/b04bda1c1eaaa27a70b972881508db0db865110007bbcd81308cb8092a90/xchainpy2_thorchain-0.0.6.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-mayachain]: Downloading https://files.pythonhosted.org/packages/36/27/8fcd11a8efff1f473e2d0bfd9386f2d34250e2546a7362836825d82ce303/xchainpy2_mayachain-0.0.14.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [dt-extension-migrator]: Downloading https://files.pythonhosted.org/packages/7a/aa/cf33c7200a3e988bff637a02d8d0cb7370cc68eb6a61c68b9c35e4e8f1f2/dt_extension_migrator-0.1.2.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/3c/c6/559e9dedd0b30a2e49650418e03026953ec98a2eb00ea176733a412f8621/sage_lib-0.1.5.4.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [FinaleToolkit]: Downloading https://files.pythonhosted.org/packages/81/ba/618ccef4a19d472ef81088a106c583388bba043efe4371099d5f2d042a22/finaletoolkit-0.6.2.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: Downloading https://files.pythonhosted.org/packages/98/fe/333e2a0383eacf1210e65297986ee8c96332561d9c77aa09db47e9bcd49e/odoo_addon_helpdesk_motive-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-cosmos]: Downloading https://files.pythonhosted.org/packages/d6/9c/7fbe1cdf01bc8c90775d741494150a1b8bff150ae3f9638648912a0ac75c/xchainpy2_cosmos-0.0.5.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [evo-framework]: Downloading https://files.pythonhosted.org/packages/b8/05/f31315fe84827afd68f8356e365262e4a39de1cec88ac7cb307003702f62/evo_framework-2024.5.36.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: executing diffoscope
+[2024-05-31 16:25:41] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_motive-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_motive-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-helpdesk-motive/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-31 16:25:41] INFO root fetch - processPackages [FinaleToolkit]: executing diffoscope
+[2024-05-31 16:25:41] INFO root fetch - processPackages [FinaleToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finaletoolkit-0.6.1.tar.gz tmp/finaletoolkit-0.6.2.tar.gz --markdown 20240531/F/FinaleToolkit/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-31 16:25:41] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [evo-framework]: executing diffoscope
+[2024-05-31 16:25:41] INFO root fetch - processPackages [evo-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_framework-2024.5.35.tar.gz tmp/evo_framework-2024.5.36.tar.gz --markdown 20240531/e/evo-framework/2024.5.35-2024.5.36/README.md --exclude *.pyd
+[2024-05-31 16:25:41] INFO root fetch - processPackages [dt-extension-migrator]: Downloading https://files.pythonhosted.org/packages/1a/c9/cec734730dc239e040b6e06f21f4bacedc4e74504c2c09f5eb0f7b1b7c04/dt_extension_migrator-0.1.3.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/ea/0c/8b019e4a3ab9d83f611d40e26331dfe2fa2c2bba8db2edbb3b8fd567c8a5/sage_lib-0.1.5.5.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-thorchain]: Downloading https://files.pythonhosted.org/packages/91/6d/76c22e00bf275cc8f9a8f06845e4fac85c0f93fc79bdedd2a7e9722f7cde/xchainpy2_thorchain-0.0.7.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-mayachain]: Downloading https://files.pythonhosted.org/packages/cf/42/335034974fa9b25631633890f961cb8e32cd0bb8443ebf71095a7d63470f/xchainpy2_mayachain-0.0.6.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-utils]: Downloading https://files.pythonhosted.org/packages/bc/60/e7d31fa127b79bdae1d9c281d41b72c8765c46dfb62bc12eb1584f4add4d/xchainpy2_utils-0.0.6.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-31 16:25:41] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240531/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-cosmos]: Downloading https://files.pythonhosted.org/packages/c6/a5/b114f2f9a06cf45f684dd1284c9777fe9af9c537fa7cba877a2c3cdc1969/xchainpy2_cosmos-0.0.6.tar.gz
+[2024-05-31 16:25:41] INFO root fetch - processPackages [dt-extension-migrator]: executing diffoscope
+[2024-05-31 16:25:41] INFO root fetch - processPackages [dt-extension-migrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt_extension_migrator-0.1.2.tar.gz tmp/dt_extension_migrator-0.1.3.tar.gz --markdown 20240531/d/dt-extension-migrator/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-31 16:25:41] INFO root fetch - processPackages [sage-lib]: executing diffoscope
+[2024-05-31 16:25:41] INFO root fetch - processPackages [sage-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_lib-0.1.5.4.tar.gz tmp/sage_lib-0.1.5.5.tar.gz --markdown 20240531/s/sage-lib/0.1.5.4-0.1.5.5/README.md --exclude *.pyd
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-mayachain]: executing diffoscope
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-mayachain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchainpy2_mayachain-0.0.14.tar.gz tmp/xchainpy2_mayachain-0.0.6.tar.gz --markdown 20240531/x/xchainpy2-mayachain/0.0.14-0.0.6/README.md --exclude *.pyd
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-thorchain]: executing diffoscope
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-thorchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchainpy2_thorchain-0.0.6.tar.gz tmp/xchainpy2_thorchain-0.0.7.tar.gz --markdown 20240531/x/xchainpy2-thorchain/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-cosmos]: executing diffoscope
+[2024-05-31 16:25:41] INFO root fetch - processPackages [xchainpy2-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchainpy2_cosmos-0.0.5.tar.gz tmp/xchainpy2_cosmos-0.0.6.tar.gz --markdown 20240531/x/xchainpy2-cosmos/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-31 16:25:42] INFO root fetch - processPackages [xchainpy2-utils]: executing diffoscope
+[2024-05-31 16:25:42] INFO root fetch - processPackages [xchainpy2-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchainpy2_utils-0.0.4.tar.gz tmp/xchainpy2_utils-0.0.6.tar.gz --markdown 20240531/x/xchainpy2-utils/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-31 16:25:42] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_motive-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-31 16:25:42] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_motive-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-31 16:25:42] INFO root fetch - processPackages [odoo-addon-helpdesk-motive]: Start processing: hashcommit
+[2024-05-31 16:25:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-motive]: success
+[2024-05-31 16:25:42] INFO root fetch - processPackages [hashcommit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 16:25:42] INFO root fetch - processPackages [FinaleToolkit]: Remove: archive file [/home/abi/fetcher/tmp/finaletoolkit-0.6.1.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - processPackages [FinaleToolkit]: Remove: archive file [/home/abi/fetcher/tmp/finaletoolkit-0.6.2.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - processPackages [FinaleToolkit]: Start processing: xchainpy2-thorchain-amm
+[2024-05-31 16:25:42] INFO root fetch - main [MainThread]: End processing [FinaleToolkit]: success
+[2024-05-31 16:25:42] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.35.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - processPackages [evo-framework]: Remove: archive file [/home/abi/fetcher/tmp/evo_framework-2024.5.36.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - main [MainThread]: End processing [evo-framework]: success
+[2024-05-31 16:25:42] INFO root fetch - processPackages [hashcommit]: Downloading https://files.pythonhosted.org/packages/57/b2/97f72275b090afc4a7bda7a1b42dbc2e2ed7180147af555624bf7d883b00/hashcommit-0.1.1.tar.gz
+[2024-05-31 16:25:42] WARNING root fetch - processPackages [xchainpy2-thorchain-amm]: Skipping, unable to determine old version
+[2024-05-31 16:25:42] INFO root fetch - main [MainThread]: End processing [xchainpy2-thorchain-amm] error
+[2024-05-31 16:25:42] INFO root fetch - processPackages [dt-extension-migrator]: Remove: archive file [/home/abi/fetcher/tmp/dt_extension_migrator-0.1.2.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - processPackages [dt-extension-migrator]: Remove: archive file [/home/abi/fetcher/tmp/dt_extension_migrator-0.1.3.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - main [MainThread]: End processing [dt-extension-migrator]: success
+[2024-05-31 16:25:42] INFO root fetch - processPackages [xchainpy2-mayachain]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_mayachain-0.0.14.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - processPackages [xchainpy2-mayachain]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_mayachain-0.0.6.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - main [MainThread]: End processing [xchainpy2-mayachain]: success
+[2024-05-31 16:25:42] INFO root fetch - processPackages [hashcommit]: Downloading https://files.pythonhosted.org/packages/ec/76/d8a028b7639609a384e257f2f1eee2ebd80d170c46c5bd52ad762ece142c/hashcommit-0.1.2.tar.gz
+[2024-05-31 16:25:42] INFO root fetch - processPackages [xchainpy2-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_cosmos-0.0.5.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - processPackages [xchainpy2-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_cosmos-0.0.6.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - main [MainThread]: End processing [xchainpy2-cosmos]: success
+[2024-05-31 16:25:42] INFO root fetch - processPackages [xchainpy2-thorchain]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_thorchain-0.0.6.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - processPackages [xchainpy2-thorchain]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_thorchain-0.0.7.tar.gz]
+[2024-05-31 16:25:42] INFO root fetch - main [MainThread]: End processing [xchainpy2-thorchain]: success
+[2024-05-31 16:25:42] INFO root fetch - processPackages [hashcommit]: executing diffoscope
+[2024-05-31 16:25:42] INFO root fetch - processPackages [hashcommit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hashcommit-0.1.1.tar.gz tmp/hashcommit-0.1.2.tar.gz --markdown 20240531/h/hashcommit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 16:25:43] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.5.4.tar.gz]
+[2024-05-31 16:25:43] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.5.5.tar.gz]
+[2024-05-31 16:25:43] INFO root fetch - main [MainThread]: End processing [sage-lib]: success
+[2024-05-31 16:25:43] INFO root fetch - processPackages [xchainpy2-utils]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_utils-0.0.4.tar.gz]
+[2024-05-31 16:25:43] INFO root fetch - processPackages [xchainpy2-utils]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_utils-0.0.6.tar.gz]
+[2024-05-31 16:25:43] INFO root fetch - main [MainThread]: End processing [xchainpy2-utils]: success
+[2024-05-31 16:25:43] INFO root fetch - processPackages [hashcommit]: Remove: archive file [/home/abi/fetcher/tmp/hashcommit-0.1.1.tar.gz]
+[2024-05-31 16:25:43] INFO root fetch - processPackages [hashcommit]: Remove: archive file [/home/abi/fetcher/tmp/hashcommit-0.1.2.tar.gz]
+[2024-05-31 16:25:43] INFO root fetch - main [MainThread]: End processing [hashcommit]: success
+[2024-05-31 16:25:46] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-31 16:25:46] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-31 16:25:46] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-31 16:25:46] INFO root fetch - main [MainThread]: Store serial: [23466954]
