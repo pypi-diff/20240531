@@ -19310,3 +19310,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:07:02] INFO root fetch - processPackages [chalc]: Remove: archive file [/home/abi/fetcher/tmp/chalc-1.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-31 15:07:02] INFO root fetch - main [MainThread]: End processing [chalc]: success
 [2024-05-31 15:07:02] INFO root fetch - main [MainThread]: Store serial: [23466010]
+[2024-05-31 15:09:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466010]
+[2024-05-31 15:09:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 15:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: svn2git
+[2024-05-31 15:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socialdataanalysis
+[2024-05-31 15:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aimodelshare
+[2024-05-31 15:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grafana-foundation-sdk
+[2024-05-31 15:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typegraph3
+[2024-05-31 15:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grafana-foundation-sdk
+[2024-05-31 15:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: socialdataanalysis
+[2024-05-31 15:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ascat
+[2024-05-31 15:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ansys-api-geometry
+[2024-05-31 15:09:12] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.5] Old Version: [0.4]
+[2024-05-31 15:09:12] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.5] Old Version: [0.4]
+[2024-05-31 15:09:12] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1717160602!10.2.0] Old Version: [1717160592!10.1.0]
+[2024-05-31 15:09:12] INFO root fetch - processPackages [svn2git]: New version: [0.9.0] Old Version: [0.8.5rc2]
+[2024-05-31 15:09:12] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1717160602!10.2.0] Old Version: [1717160592!10.1.0]
+[2024-05-31 15:09:12] INFO root fetch - processPackages [aimodelshare]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 15:09:12] INFO root fetch - processPackages [typegraph3]: New version: [0.1.2rc2] Old Version: [0.1.2rc1]
+[2024-05-31 15:09:12] INFO root fetch - processPackages [ascat]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-31 15:09:12] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/99/ab/91ed60c8571c5c2a816d4b188bd8cf45027596c7de30d1533d4188f9e766/grafana_foundation_sdk-1717160592!10.1.0.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [ansys-api-geometry]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-31 15:09:12] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/b4/1f/b777e19133d20041ded32791c739abcfd8458bdbb9a2b92d1133b256345d/socialdataanalysis-0.4.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/b4/1f/b777e19133d20041ded32791c739abcfd8458bdbb9a2b92d1133b256345d/socialdataanalysis-0.4.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [svn2git]: Downloading https://files.pythonhosted.org/packages/10/cf/51c309ce95416699aaa4384d291a9c86e47d11fe7b0e7baffcb043eafffb/svn2git-0.8.5rc2.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/99/ab/91ed60c8571c5c2a816d4b188bd8cf45027596c7de30d1533d4188f9e766/grafana_foundation_sdk-1717160592!10.1.0.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/c0/89/8d5c1ec1f29fb33b0fe43c98e3f08f65c921359d526635068eef7a186e2c/aimodelshare-0.1.8.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [ascat]: Downloading https://files.pythonhosted.org/packages/ba/a4/9cc25bb0932c84a6211dec7733bc2d412e4c593627b989611533020b086e/ascat-2.4.1.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [typegraph3]: Downloading https://files.pythonhosted.org/packages/01/37/0a66fb3dba679dd6d14df799fc37daedaffe2bc1710f7dc2d17f5235660b/typegraph3-0.1.2rc1.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [ansys-api-geometry]: Downloading https://files.pythonhosted.org/packages/e6/67/84ceb6efe02bebf6db97ed8535a81567bd81b41f31d3b4b1594b3660716d/ansys_api_geometry-0.4.2.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/d5/fd/a4717f843a91dfd39359ba7f25c29d645fdc6ebe17575c8e41c46e4bd2be/socialdataanalysis-0.5.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/d5/fd/a4717f843a91dfd39359ba7f25c29d645fdc6ebe17575c8e41c46e4bd2be/socialdataanalysis-0.5.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/10/ef/1ec3ce2f2e4d5fa51c32c595f02b73f00bba0e6949309a6782297de35e03/grafana_foundation_sdk-1717160602!10.2.0.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/10/ef/1ec3ce2f2e4d5fa51c32c595f02b73f00bba0e6949309a6782297de35e03/grafana_foundation_sdk-1717160602!10.2.0.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [svn2git]: Downloading https://files.pythonhosted.org/packages/4e/93/c264ebe1a503507c91115ea3e9b85329ae4cebccf1aeebae4bd11371c511/svn2git-0.9.0.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [aimodelshare]: Downloading https://files.pythonhosted.org/packages/92/1b/5990f7c62044a2ad0776737091765068646eecee14dd251c5ea3732caeb0/aimodelshare-0.1.9.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 15:09:12] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.4.tar.gz tmp/socialdataanalysis-0.5.tar.gz --markdown 20240531/s/socialdataanalysis/0.4-0.5/README.md --exclude *.pyd
+[2024-05-31 15:09:12] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 15:09:12] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.4.tar.gz tmp/socialdataanalysis-0.5.tar.gz --markdown 20240531/s/socialdataanalysis/0.4-0.5/README.md --exclude *.pyd
+[2024-05-31 15:09:12] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-31 15:09:12] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1717160592!10.1.0.tar.gz tmp/grafana_foundation_sdk-1717160602!10.2.0.tar.gz --markdown 20240531/g/grafana-foundation-sdk/1717160592!10.1.0-1717160602!10.2.0/README.md --exclude *.pyd
+[2024-05-31 15:09:12] INFO root fetch - processPackages [svn2git]: executing diffoscope
+[2024-05-31 15:09:12] INFO root fetch - processPackages [svn2git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svn2git-0.8.5rc2.tar.gz tmp/svn2git-0.9.0.tar.gz --markdown 20240531/s/svn2git/0.8.5rc2-0.9.0/README.md --exclude *.pyd
+[2024-05-31 15:09:12] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-05-31 15:09:12] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1717160592!10.1.0.tar.gz tmp/grafana_foundation_sdk-1717160602!10.2.0.tar.gz --markdown 20240531/g/grafana-foundation-sdk/1717160592!10.1.0-1717160602!10.2.0/README.md --exclude *.pyd
+[2024-05-31 15:09:12] INFO root fetch - processPackages [typegraph3]: Downloading https://files.pythonhosted.org/packages/3b/61/9df99b85fc9236ca9258faf591e6257e1b6ea848861a8b36769098c81f0e/typegraph3-0.1.2rc2.tar.gz
+[2024-05-31 15:09:12] INFO root fetch - processPackages [aimodelshare]: executing diffoscope
+[2024-05-31 15:09:12] INFO root fetch - processPackages [aimodelshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimodelshare-0.1.8.tar.gz tmp/aimodelshare-0.1.9.tar.gz --markdown 20240531/a/aimodelshare/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 15:09:12] INFO root fetch - processPackages [ansys-api-geometry]: Downloading https://files.pythonhosted.org/packages/77/53/647ea89c68bf17a5d3e9f926216cd24df3ed7ef2d1145968c7a2a53ece46/ansys_api_geometry-0.4.3.tar.gz
+[2024-05-31 15:09:13] INFO root fetch - processPackages [typegraph3]: executing diffoscope
+[2024-05-31 15:09:13] INFO root fetch - processPackages [typegraph3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typegraph3-0.1.2rc1.tar.gz tmp/typegraph3-0.1.2rc2.tar.gz --markdown 20240531/t/typegraph3/0.1.2rc1-0.1.2rc2/README.md --exclude *.pyd
+[2024-05-31 15:09:13] INFO root fetch - processPackages [ascat]: Downloading https://files.pythonhosted.org/packages/8b/86/0e69171054d173f593dd1e10836f8f7064a59828d73c9a677344fce4f343/ascat-2.4.2.tar.gz
+[2024-05-31 15:09:13] INFO root fetch - processPackages [ansys-api-geometry]: executing diffoscope
+[2024-05-31 15:09:13] INFO root fetch - processPackages [ansys-api-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_api_geometry-0.4.2.tar.gz tmp/ansys_api_geometry-0.4.3.tar.gz --markdown 20240531/a/ansys-api-geometry/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-31 15:09:13] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.4.tar.gz]
+[2024-05-31 15:09:13] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.5.tar.gz]
+[2024-05-31 15:09:13] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 15:09:13] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 15:09:13] INFO root fetch - processPackages [svn2git]: Remove: archive file [/home/abi/fetcher/tmp/svn2git-0.8.5rc2.tar.gz]
+[2024-05-31 15:09:13] INFO root fetch - processPackages [svn2git]: Remove: archive file [/home/abi/fetcher/tmp/svn2git-0.9.0.tar.gz]
+[2024-05-31 15:09:13] INFO root fetch - main [MainThread]: End processing [svn2git]: success
+[2024-05-31 15:09:13] INFO root fetch - processPackages [typegraph3]: Remove: archive file [/home/abi/fetcher/tmp/typegraph3-0.1.2rc1.tar.gz]
+[2024-05-31 15:09:13] INFO root fetch - processPackages [typegraph3]: Remove: archive file [/home/abi/fetcher/tmp/typegraph3-0.1.2rc2.tar.gz]
+[2024-05-31 15:09:13] INFO root fetch - main [MainThread]: End processing [typegraph3]: success
+[2024-05-31 15:09:13] INFO root fetch - processPackages [ascat]: executing diffoscope
+[2024-05-31 15:09:13] INFO root fetch - processPackages [ascat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascat-2.4.1.tar.gz tmp/ascat-2.4.2.tar.gz --markdown 20240531/a/ascat/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-31 15:09:13] INFO root fetch - processPackages [ansys-api-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_geometry-0.4.2.tar.gz]
+[2024-05-31 15:09:13] INFO root fetch - processPackages [ansys-api-geometry]: Remove: archive file [/home/abi/fetcher/tmp/ansys_api_geometry-0.4.3.tar.gz]
+[2024-05-31 15:09:13] INFO root fetch - main [MainThread]: End processing [ansys-api-geometry]: success
+[2024-05-31 15:09:14] INFO root fetch - processPackages [aimodelshare]: Remove: archive file [/home/abi/fetcher/tmp/aimodelshare-0.1.8.tar.gz]
+[2024-05-31 15:09:14] INFO root fetch - processPackages [aimodelshare]: Remove: archive file [/home/abi/fetcher/tmp/aimodelshare-0.1.9.tar.gz]
+[2024-05-31 15:09:14] INFO root fetch - main [MainThread]: End processing [aimodelshare]: success
+[2024-05-31 15:09:14] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1717160592!10.1.0.tar.gz]
+[2024-05-31 15:09:14] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1717160602!10.2.0.tar.gz]
+[2024-05-31 15:09:14] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-31 15:09:14] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-05-31 15:09:15] INFO root fetch - processPackages [ascat]: Remove: archive file [/home/abi/fetcher/tmp/ascat-2.4.1.tar.gz]
+[2024-05-31 15:09:15] INFO root fetch - processPackages [ascat]: Remove: archive file [/home/abi/fetcher/tmp/ascat-2.4.2.tar.gz]
+[2024-05-31 15:09:15] INFO root fetch - main [MainThread]: End processing [ascat]: success
+[2024-05-31 15:09:15] INFO root fetch - main [MainThread]: Store serial: [23466037]
