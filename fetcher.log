@@ -6119,3 +6119,61 @@
 [2024-05-31 05:26:31] INFO root fetch - processPackages [pyphonic]: Remove: archive file [/home/abi/fetcher/tmp/pyphonic-1.1.0.tar.gz]
 [2024-05-31 05:26:31] INFO root fetch - main [MainThread]: End processing [pyphonic]: success
 [2024-05-31 05:26:31] INFO root fetch - main [MainThread]: Store serial: [23460057]
+[2024-05-31 05:28:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460057]
+[2024-05-31 05:28:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 05:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: todoist-auto
+[2024-05-31 05:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentiment-analysis-package
+[2024-05-31 05:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-contract
+[2024-05-31 05:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qctrl-commons
+[2024-05-31 05:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-contract
+[2024-05-31 05:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-databricks
+[2024-05-31 05:28:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NREL-reVX
+[2024-05-31 05:28:40] INFO root fetch - processPackages [NREL-reVX]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 05:28:40] INFO root fetch - processPackages [todoist-auto]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-31 05:28:40] WARNING root fetch - processPackages [sentiment-analysis-package]: Skipping, unable to determine old version
+[2024-05-31 05:28:40] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package] error
+[2024-05-31 05:28:40] INFO root fetch - processPackages [NREL-reVX]: Downloading https://files.pythonhosted.org/packages/4e/91/c437159d7dbb8dd9f3825ae0ac69e98172d4bf66a7fb4f53739e021df0ed/NREL-reVX-0.3.8.tar.gz
+[2024-05-31 05:28:40] INFO root fetch - processPackages [odoo-addon-contract]: New version: [17.0.1.0.1.3] Old Version: [17.0.1.0.1.2]
+[2024-05-31 05:28:40] INFO root fetch - processPackages [odoo-addon-contract]: New version: [17.0.1.0.1.3] Old Version: [17.0.1.0.1.2]
+[2024-05-31 05:28:40] INFO root fetch - processPackages [qctrl-commons]: New version: [9.0.0] Old Version: [8.1.0]
+[2024-05-31 05:28:40] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-31 05:28:40] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/43/48/98e39360a5f22bf76ab3e94cb13134d2a74eb256dd94a61864a2e11c471e/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-31 05:28:40] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/43/48/98e39360a5f22bf76ab3e94cb13134d2a74eb256dd94a61864a2e11c471e/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl
+[2024-05-31 05:28:40] INFO root fetch - processPackages [todoist-auto]: Downloading https://files.pythonhosted.org/packages/b1/78/baea81138dfb8700e7a2b795b192569b97f1b353b15e6374ef7c32ec9bd9/todoist_auto-8.0.0.tar.gz
+[2024-05-31 05:28:40] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/46/db/d0de42840a30f78ba5260811263005b4cdbad033c1657ac8496e03ef08e2/qctrl-commons-8.1.0.tar.gz
+[2024-05-31 05:28:40] INFO root fetch - processPackages [NREL-reVX]: Downloading https://files.pythonhosted.org/packages/f1/4d/406ebd6af5cc79375a13dc0589e96ce2cbbf171873a6bb7aef762ec55401/NREL-reVX-0.3.9.tar.gz
+[2024-05-31 05:28:40] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/22/e6/a37602f6c892854f281c7bb4adc106276e2457550f978d3876eae5aff44f/cdktf-cdktf-provider-databricks-9.0.2.tar.gz
+[2024-05-31 05:28:40] INFO root fetch - processPackages [NREL-reVX]: executing diffoscope
+[2024-05-31 05:28:40] INFO root fetch - processPackages [NREL-reVX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NREL-reVX-0.3.8.tar.gz tmp/NREL-reVX-0.3.9.tar.gz --markdown 20240531/N/NREL-reVX/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 05:28:41] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/dd/bf/e4bb71c2eb8657e8c3fb0225d7bae1fc3adbfa718ffa17100900aeddf3e0/odoo_addon_contract-17.0.1.0.1.3-py3-none-any.whl
+[2024-05-31 05:28:41] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/dd/bf/e4bb71c2eb8657e8c3fb0225d7bae1fc3adbfa718ffa17100900aeddf3e0/odoo_addon_contract-17.0.1.0.1.3-py3-none-any.whl
+[2024-05-31 05:28:41] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2024-05-31 05:28:41] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_contract-17.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-contract/17.0.1.0.1.2-17.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-31 05:28:41] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2024-05-31 05:28:41] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_contract-17.0.1.0.1.3-py3-none-any.whl.zip --markdown 20240531/o/odoo-addon-contract/17.0.1.0.1.2-17.0.1.0.1.3/README.md --exclude *.pyd
+[2024-05-31 05:28:41] INFO root fetch - processPackages [todoist-auto]: Downloading https://files.pythonhosted.org/packages/ad/42/49bc0ab11074d45b08e24c5a91b302992d6e5855e521f2a779d82a91eed5/todoist_auto-9.0.0.tar.gz
+[2024-05-31 05:28:41] INFO root fetch - processPackages [todoist-auto]: executing diffoscope
+[2024-05-31 05:28:41] INFO root fetch - processPackages [todoist-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todoist_auto-8.0.0.tar.gz tmp/todoist_auto-9.0.0.tar.gz --markdown 20240531/t/todoist-auto/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-31 05:28:41] INFO root fetch - processPackages [NREL-reVX]: Remove: archive file [/home/abi/fetcher/tmp/NREL-reVX-0.3.8.tar.gz]
+[2024-05-31 05:28:41] INFO root fetch - processPackages [NREL-reVX]: Remove: archive file [/home/abi/fetcher/tmp/NREL-reVX-0.3.9.tar.gz]
+[2024-05-31 05:28:41] INFO root fetch - main [MainThread]: End processing [NREL-reVX]: success
+[2024-05-31 05:28:41] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/cc/3a/8e28dd4a45c0a00150d822d03862c508cb6c485bb959ef5ce80e1adb4448/cdktf-cdktf-provider-databricks-9.0.3.tar.gz
+[2024-05-31 05:28:42] INFO root fetch - processPackages [todoist-auto]: Remove: archive file [/home/abi/fetcher/tmp/todoist_auto-8.0.0.tar.gz]
+[2024-05-31 05:28:42] INFO root fetch - processPackages [todoist-auto]: Remove: archive file [/home/abi/fetcher/tmp/todoist_auto-9.0.0.tar.gz]
+[2024-05-31 05:28:42] INFO root fetch - main [MainThread]: End processing [todoist-auto]: success
+[2024-05-31 05:28:42] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-31 05:28:42] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-17.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-31 05:28:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2024-05-31 05:28:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2024-05-31 05:28:42] INFO root fetch - processPackages [qctrl-commons]: Downloading https://files.pythonhosted.org/packages/52/e6/108f3806637d0e22c3ca08e15d9dd71a4b256080e9616b42a0fdf859a5c6/qctrl-commons-9.0.0.tar.gz
+[2024-05-31 05:28:42] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: executing diffoscope
+[2024-05-31 05:28:42] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz --markdown 20240531/c/cdktf-cdktf-provider-databricks/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-31 05:28:42] INFO root fetch - processPackages [qctrl-commons]: executing diffoscope
+[2024-05-31 05:28:42] INFO root fetch - processPackages [qctrl-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl-commons-8.1.0.tar.gz tmp/qctrl-commons-9.0.0.tar.gz --markdown 20240531/q/qctrl-commons/8.1.0-9.0.0/README.md --exclude *.pyd
+[2024-05-31 05:28:43] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-8.1.0.tar.gz]
+[2024-05-31 05:28:43] INFO root fetch - processPackages [qctrl-commons]: Remove: archive file [/home/abi/fetcher/tmp/qctrl-commons-9.0.0.tar.gz]
+[2024-05-31 05:28:43] INFO root fetch - main [MainThread]: End processing [qctrl-commons]: success
+[2024-05-31 05:28:46] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz]
+[2024-05-31 05:28:46] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz]
+[2024-05-31 05:28:46] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
+[2024-05-31 05:28:46] INFO root fetch - main [MainThread]: Store serial: [23460077]
