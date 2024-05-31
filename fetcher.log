@@ -17296,3 +17296,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:50:17] INFO root fetch - processPackages [Geode-Numerics]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Numerics-4.4.0rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-31 13:50:17] INFO root fetch - main [MainThread]: End processing [Geode-Numerics]: success
 [2024-05-31 13:50:17] INFO root fetch - main [MainThread]: Store serial: [23465065]
+[2024-05-31 13:52:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465065]
+[2024-05-31 13:52:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-31 13:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyGuardPoint
+[2024-05-31 13:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: haskellian
+[2024-05-31 13:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-inventory
+[2024-05-31 13:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roboto-ingestion-utils
+[2024-05-31 13:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lcprogramtools
+[2024-05-31 13:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ragstack-ai
+[2024-05-31 13:52:26] INFO root fetch - processPackages [haskellian]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-31 13:52:26] INFO root fetch - processPackages [pyGuardPoint]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-05-31 13:52:26] INFO root fetch - processPackages [roboto-ingestion-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 13:52:26] INFO root fetch - processPackages [lcprogramtools]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 13:52:26] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/db/6c/0cdc593830d9100fe25525ec6686c93e0284c0c2dec1bd9a6f2756850f4c/haskellian-0.3.8.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/58/98/b95f0968ed03268db8c8e70cbf4963cb4dd009a5936ff020e2171d93bcdf/pyguardpoint-1.3.9.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [roboto-ingestion-utils]: Downloading https://files.pythonhosted.org/packages/d2/c3/a80300609c6c2f463fde8ba9898b779475564f0466bb683963e1b9bc941e/roboto_ingestion_utils-0.0.8.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-31 13:52:26] INFO root fetch - processPackages [ragstack-ai]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-31 13:52:26] INFO root fetch - processPackages [lcprogramtools]: Downloading https://files.pythonhosted.org/packages/2a/14/b4ed616be2e64a85a862d8af4ef19f0991a166f8081e72b73f486e013a36/lcprogramtools-0.0.1.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/03/2b/ba04bf61c6d93413248fa1d1286dad3fe5fa7835df534f02230b764ad6e3/haskellian-0.3.9.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [pyGuardPoint]: Downloading https://files.pythonhosted.org/packages/b6/90/663ed18c02bdde1707207b33bb89b22feb401d6e3528f0d281ab50b22d41/pyguardpoint-1.4.0.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [roboto-ingestion-utils]: Downloading https://files.pythonhosted.org/packages/ee/df/fa04c2857761d93336c6d780c80867d0973c82e584c7eede506d3de23f10/roboto_ingestion_utils-0.0.9.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [ragstack-ai]: Downloading https://files.pythonhosted.org/packages/e4/ce/a84486ab8136c60869bc8802f1f1301bb92d08898015a2a63ccf9e4a4cb4/ragstack_ai-1.0.6.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [haskellian]: executing diffoscope
+[2024-05-31 13:52:26] INFO root fetch - processPackages [haskellian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-0.3.8.tar.gz tmp/haskellian-0.3.9.tar.gz --markdown 20240531/h/haskellian/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-31 13:52:26] INFO root fetch - processPackages [roboto-ingestion-utils]: executing diffoscope
+[2024-05-31 13:52:26] INFO root fetch - processPackages [roboto-ingestion-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboto_ingestion_utils-0.0.8.tar.gz tmp/roboto_ingestion_utils-0.0.9.tar.gz --markdown 20240531/r/roboto-ingestion-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 13:52:26] INFO root fetch - processPackages [pyGuardPoint]: executing diffoscope
+[2024-05-31 13:52:26] INFO root fetch - processPackages [pyGuardPoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguardpoint-1.3.9.tar.gz tmp/pyguardpoint-1.4.0.tar.gz --markdown 20240531/p/pyGuardPoint/1.3.9-1.4.0/README.md --exclude *.pyd
+[2024-05-31 13:52:26] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [lcprogramtools]: Downloading https://files.pythonhosted.org/packages/a4/97/7f126d0666b8570b55669c65212695bc8428e3cc0b01e461442c894cc732/lcprogramtools-0.0.2.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [ragstack-ai]: Downloading https://files.pythonhosted.org/packages/7c/5e/f757f24c0387da8721ee8fe66d91fb49f3e42821081efe25fe86881c6003/ragstack_ai-1.0.7.tar.gz
+[2024-05-31 13:52:26] INFO root fetch - processPackages [lcprogramtools]: executing diffoscope
+[2024-05-31 13:52:26] INFO root fetch - processPackages [lcprogramtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcprogramtools-0.0.1.tar.gz tmp/lcprogramtools-0.0.2.tar.gz --markdown 20240531/l/lcprogramtools/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-31 13:52:26] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-31 13:52:26] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240531/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-31 13:52:27] INFO root fetch - processPackages [ragstack-ai]: executing diffoscope
+[2024-05-31 13:52:27] INFO root fetch - processPackages [ragstack-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragstack_ai-1.0.6.tar.gz tmp/ragstack_ai-1.0.7.tar.gz --markdown 20240531/r/ragstack-ai/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-31 13:52:27] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.8.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.9.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - main [MainThread]: End processing [haskellian]: success
+[2024-05-31 13:52:27] INFO root fetch - processPackages [roboto-ingestion-utils]: Remove: archive file [/home/abi/fetcher/tmp/roboto_ingestion_utils-0.0.8.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - processPackages [roboto-ingestion-utils]: Remove: archive file [/home/abi/fetcher/tmp/roboto_ingestion_utils-0.0.9.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - main [MainThread]: End processing [roboto-ingestion-utils]: success
+[2024-05-31 13:52:27] INFO root fetch - processPackages [ragstack-ai]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai-1.0.6.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - processPackages [ragstack-ai]: Remove: archive file [/home/abi/fetcher/tmp/ragstack_ai-1.0.7.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - main [MainThread]: End processing [ragstack-ai]: success
+[2024-05-31 13:52:27] INFO root fetch - processPackages [lcprogramtools]: Remove: archive file [/home/abi/fetcher/tmp/lcprogramtools-0.0.1.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - processPackages [lcprogramtools]: Remove: archive file [/home/abi/fetcher/tmp/lcprogramtools-0.0.2.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - main [MainThread]: End processing [lcprogramtools]: success
+[2024-05-31 13:52:27] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyguardpoint-1.3.9.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - processPackages [pyGuardPoint]: Remove: archive file [/home/abi/fetcher/tmp/pyguardpoint-1.4.0.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - main [MainThread]: End processing [pyGuardPoint]: success
+[2024-05-31 13:52:27] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-31 13:52:27] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-31 13:52:27] INFO root fetch - main [MainThread]: Store serial: [23465082]
