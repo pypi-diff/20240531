@@ -5147,3 +5147,33 @@
 [2024-05-31 04:23:04] INFO root fetch - processPackages [st-span-annotation]: Remove: archive file [/home/abi/fetcher/tmp/st_span_annotation-0.0.2.tar.gz]
 [2024-05-31 04:23:04] INFO root fetch - main [MainThread]: End processing [st-span-annotation]: success
 [2024-05-31 04:23:04] INFO root fetch - main [MainThread]: Store serial: [23459656]
+[2024-05-31 04:25:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459656]
+[2024-05-31 04:25:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 04:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SerialDBPy
+[2024-05-31 04:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-networkx
+[2024-05-31 04:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-05-31 04:25:12] INFO root fetch - processPackages [SerialDBPy]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-31 04:25:12] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240530195100] Old Version: [3.4.1.dev20240530022701]
+[2024-05-31 04:25:13] INFO root fetch - processPackages [types-networkx]: New version: [3.2.1.20240531] Old Version: [3.2.1.20240518]
+[2024-05-31 04:25:13] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9b/21/195ab281d12c0b5e8d659f64eff1fe6d540cac4e428c7b5f81635394e246/localstack_core-3.4.1.dev20240530022701.tar.gz
+[2024-05-31 04:25:13] INFO root fetch - processPackages [SerialDBPy]: Downloading https://files.pythonhosted.org/packages/26/3d/cad5caa7fe2f7a22219ca5eac5a5adbf800c35ca3ea353873c4fa79ccb4d/SerialDBPy-0.1.tar.gz
+[2024-05-31 04:25:13] INFO root fetch - processPackages [types-networkx]: Downloading https://files.pythonhosted.org/packages/7e/ec/58ef194fa62cced8212b25926deff4ad1ab74760eaa2e923110bd9e054bf/types-networkx-3.2.1.20240518.tar.gz
+[2024-05-31 04:25:13] INFO root fetch - processPackages [SerialDBPy]: Downloading https://files.pythonhosted.org/packages/9a/34/eac609f46ad92e2875fc14a09c6b03d54415b65de46412145e34291aec52/SerialDBPy-0.1.1.tar.gz
+[2024-05-31 04:25:13] INFO root fetch - processPackages [SerialDBPy]: executing diffoscope
+[2024-05-31 04:25:13] INFO root fetch - processPackages [SerialDBPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SerialDBPy-0.1.tar.gz tmp/SerialDBPy-0.1.1.tar.gz --markdown 20240531/S/SerialDBPy/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-31 04:25:13] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/2f/ea/a9aeb8e05d6dde8dc265b992ca11b8eab81d549ea54586da175cec837288/localstack_core-3.4.1.dev20240530195100.tar.gz
+[2024-05-31 04:25:13] INFO root fetch - processPackages [types-networkx]: Downloading https://files.pythonhosted.org/packages/8c/a0/527ece081b8423338f978b25abc3731881469e6a4f462e3fbbcc8984e213/types-networkx-3.2.1.20240531.tar.gz
+[2024-05-31 04:25:13] INFO root fetch - processPackages [types-networkx]: executing diffoscope
+[2024-05-31 04:25:13] INFO root fetch - processPackages [types-networkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-networkx-3.2.1.20240518.tar.gz tmp/types-networkx-3.2.1.20240531.tar.gz --markdown 20240531/t/types-networkx/3.2.1.20240518-3.2.1.20240531/README.md --exclude *.pyd
+[2024-05-31 04:25:13] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-31 04:25:13] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240530022701.tar.gz tmp/localstack_core-3.4.1.dev20240530195100.tar.gz --markdown 20240531/l/localstack-core/3.4.1.dev20240530022701-3.4.1.dev20240530195100/README.md --exclude *.pyd
+[2024-05-31 04:25:14] INFO root fetch - processPackages [SerialDBPy]: Remove: archive file [/home/abi/fetcher/tmp/SerialDBPy-0.1.tar.gz]
+[2024-05-31 04:25:14] INFO root fetch - processPackages [SerialDBPy]: Remove: archive file [/home/abi/fetcher/tmp/SerialDBPy-0.1.1.tar.gz]
+[2024-05-31 04:25:14] INFO root fetch - main [MainThread]: End processing [SerialDBPy]: success
+[2024-05-31 04:25:14] INFO root fetch - processPackages [types-networkx]: Remove: archive file [/home/abi/fetcher/tmp/types-networkx-3.2.1.20240518.tar.gz]
+[2024-05-31 04:25:14] INFO root fetch - processPackages [types-networkx]: Remove: archive file [/home/abi/fetcher/tmp/types-networkx-3.2.1.20240531.tar.gz]
+[2024-05-31 04:25:14] INFO root fetch - main [MainThread]: End processing [types-networkx]: success
+[2024-05-31 04:25:17] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240530022701.tar.gz]
+[2024-05-31 04:25:17] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240530195100.tar.gz]
+[2024-05-31 04:25:17] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-31 04:25:17] INFO root fetch - main [MainThread]: Store serial: [23459664]
