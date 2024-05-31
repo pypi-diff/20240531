@@ -19162,3 +19162,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 15:00:19] INFO root fetch - processPackages [yoctools]: Remove: archive file [/home/abi/fetcher/tmp/yoctools-2.0.9.tar.gz]
 [2024-05-31 15:00:19] INFO root fetch - main [MainThread]: End processing [yoctools]: success
 [2024-05-31 15:00:19] INFO root fetch - main [MainThread]: Store serial: [23465923]
+[2024-05-31 15:02:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465923]
+[2024-05-31 15:02:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 15:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: umep-reqs
+[2024-05-31 15:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx2tf
+[2024-05-31 15:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QLine
+[2024-05-31 15:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezkl
+[2024-05-31 15:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: formularity-rfs
+[2024-05-31 15:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: signalstickers-client-fork-laggykiller
+[2024-05-31 15:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libreflow-launcher
+[2024-05-31 15:02:37] WARNING root fetch - processPackages [formularity-rfs]: Skipping, unable to determine old version
+[2024-05-31 15:02:37] INFO root fetch - main [MainThread]: End processing [formularity-rfs] error
+[2024-05-31 15:02:37] INFO root fetch - processPackages [ezkl]: New version: [9.5.0] Old Version: [9.4.4]
+[2024-05-31 15:02:37] INFO root fetch - processPackages [libreflow-launcher]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-31 15:02:37] WARNING root fetch - processPackages [QLine]: Skipping, unable to determine old version
+[2024-05-31 15:02:37] INFO root fetch - main [MainThread]: End processing [QLine] error
+[2024-05-31 15:02:37] INFO root fetch - processPackages [umep-reqs]: New version: [2.2] Old Version: [2.1.1]
+[2024-05-31 15:02:37] INFO root fetch - processPackages [signalstickers-client-fork-laggykiller]: New version: [3.3.0.post2] Old Version: [3.3.0.post1]
+[2024-05-31 15:02:37] INFO root fetch - processPackages [ezkl]: Downloading https://files.pythonhosted.org/packages/35/b8/d2d25eb97d594e315f615746fd047807d162f5560508a985fc2559f4d427/ezkl-9.4.4-cp37-abi3-win_amd64.whl
+[2024-05-31 15:02:37] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-31 15:02:37] INFO root fetch - processPackages [libreflow-launcher]: Downloading https://files.pythonhosted.org/packages/32/15/1ac7628703dd4b33dcb9377e61e95a778e82710df9e5fbec59f2444b2842/libreflow_launcher-1.0.8.tar.gz
+[2024-05-31 15:02:38] INFO root fetch - processPackages [umep-reqs]: Downloading https://files.pythonhosted.org/packages/2d/60/447d646ec24d14771901e1bd6316349e76dbbcd9067b81607eb57572fe4d/umep-reqs-2.1.1.tar.gz
+[2024-05-31 15:02:38] INFO root fetch - processPackages [signalstickers-client-fork-laggykiller]: Downloading https://files.pythonhosted.org/packages/f7/94/5d3b4fabde46b8e6eca10a07bfad9ba73c4feadef3030ac43b0d14a8e3d4/signalstickers_client_fork_laggykiller-3.3.post1.tar.gz
+[2024-05-31 15:02:38] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-05-31 15:02:38] INFO root fetch - processPackages [ezkl]: Downloading https://files.pythonhosted.org/packages/ff/15/fdc96339d42c46abf9fef377bacf8cbe08374b76c349b05b84974cb1ea29/ezkl-9.5.0-cp37-abi3-win_amd64.whl
+[2024-05-31 15:02:38] INFO root fetch - processPackages [signalstickers-client-fork-laggykiller]: Downloading https://files.pythonhosted.org/packages/16/31/2a0b43a99713bb3290cc8d898262c2e4a8fa64ec229c9987734710de00ab/signalstickers_client_fork_laggykiller-3.3.0.post2.tar.gz
+[2024-05-31 15:02:38] INFO root fetch - processPackages [umep-reqs]: Downloading https://files.pythonhosted.org/packages/20/10/9db48375dbf66ae2cc6abb18ed481368c69ac000995df443c89332ea4f3e/umep_reqs-2.2.tar.gz
+[2024-05-31 15:02:38] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-05-31 15:02:38] INFO root fetch - processPackages [libreflow-launcher]: Downloading https://files.pythonhosted.org/packages/ce/ef/488d88332712550b70c2c5e2890e36f4bdedda002001686b12934c99cd7c/libreflow_launcher-1.0.9.tar.gz
+[2024-05-31 15:02:38] INFO root fetch - processPackages [umep-reqs]: executing diffoscope
+[2024-05-31 15:02:38] INFO root fetch - processPackages [umep-reqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umep-reqs-2.1.1.tar.gz tmp/umep_reqs-2.2.tar.gz --markdown 20240531/u/umep-reqs/2.1.1-2.2/README.md --exclude *.pyd
+[2024-05-31 15:02:38] INFO root fetch - processPackages [signalstickers-client-fork-laggykiller]: executing diffoscope
+[2024-05-31 15:02:38] INFO root fetch - processPackages [signalstickers-client-fork-laggykiller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signalstickers_client_fork_laggykiller-3.3.post1.tar.gz tmp/signalstickers_client_fork_laggykiller-3.3.0.post2.tar.gz --markdown 20240531/s/signalstickers-client-fork-laggykiller/3.3.0.post1-3.3.0.post2/README.md --exclude *.pyd
+[2024-05-31 15:02:38] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-05-31 15:02:38] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240531/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-31 15:02:38] INFO root fetch - processPackages [ezkl]: executing diffoscope
+[2024-05-31 15:02:38] INFO root fetch - processPackages [ezkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezkl-9.4.4-cp37-abi3-win_amd64.whl.zip tmp/ezkl-9.5.0-cp37-abi3-win_amd64.whl.zip --markdown 20240531/e/ezkl/9.4.4-9.5.0/README.md --exclude *.pyd
+[2024-05-31 15:02:38] INFO root fetch - processPackages [libreflow-launcher]: executing diffoscope
+[2024-05-31 15:02:38] INFO root fetch - processPackages [libreflow-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreflow_launcher-1.0.8.tar.gz tmp/libreflow_launcher-1.0.9.tar.gz --markdown 20240531/l/libreflow-launcher/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-31 15:02:39] INFO root fetch - processPackages [umep-reqs]: Remove: archive file [/home/abi/fetcher/tmp/umep-reqs-2.1.1.tar.gz]
+[2024-05-31 15:02:39] INFO root fetch - processPackages [umep-reqs]: Remove: archive file [/home/abi/fetcher/tmp/umep_reqs-2.2.tar.gz]
+[2024-05-31 15:02:39] INFO root fetch - main [MainThread]: End processing [umep-reqs]: success
+[2024-05-31 15:02:39] INFO root fetch - processPackages [signalstickers-client-fork-laggykiller]: Remove: archive file [/home/abi/fetcher/tmp/signalstickers_client_fork_laggykiller-3.3.post1.tar.gz]
+[2024-05-31 15:02:39] INFO root fetch - processPackages [signalstickers-client-fork-laggykiller]: Remove: archive file [/home/abi/fetcher/tmp/signalstickers_client_fork_laggykiller-3.3.0.post2.tar.gz]
+[2024-05-31 15:02:39] INFO root fetch - main [MainThread]: End processing [signalstickers-client-fork-laggykiller]: success
+[2024-05-31 15:02:39] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-9.4.4-cp37-abi3-win_amd64.whl.zip]
+[2024-05-31 15:02:39] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-9.5.0-cp37-abi3-win_amd64.whl.zip]
+[2024-05-31 15:02:39] INFO root fetch - main [MainThread]: End processing [ezkl]: success
+[2024-05-31 15:02:39] INFO root fetch - processPackages [libreflow-launcher]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_launcher-1.0.8.tar.gz]
+[2024-05-31 15:02:39] INFO root fetch - processPackages [libreflow-launcher]: Remove: archive file [/home/abi/fetcher/tmp/libreflow_launcher-1.0.9.tar.gz]
+[2024-05-31 15:02:39] INFO root fetch - main [MainThread]: End processing [libreflow-launcher]: success
+[2024-05-31 15:02:40] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-05-31 15:02:40] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-05-31 15:02:40] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-05-31 15:02:40] INFO root fetch - main [MainThread]: Store serial: [23465955]
