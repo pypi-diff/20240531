@@ -4832,3 +4832,41 @@
 [2024-05-31 04:01:16] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.8.tar.gz]
 [2024-05-31 04:01:16] INFO root fetch - main [MainThread]: End processing [internal-rdbms]: success
 [2024-05-31 04:01:16] INFO root fetch - main [MainThread]: Store serial: [23459419]
+[2024-05-31 04:03:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459419]
+[2024-05-31 04:03:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 04:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baml-py
+[2024-05-31 04:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mbodied-agents
+[2024-05-31 04:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xgne
+[2024-05-31 04:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-llms-mlx
+[2024-05-31 04:03:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatchet-sdk
+[2024-05-31 04:03:25] INFO root fetch - processPackages [hatchet-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-31 04:03:25] INFO root fetch - processPackages [mbodied-agents]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-31 04:03:25] INFO root fetch - processPackages [baml-py]: New version: [0.30.4] Old Version: [0.30.3]
+[2024-05-31 04:03:25] INFO root fetch - processPackages [xgne]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 04:03:25] INFO root fetch - processPackages [hatchet-sdk]: Downloading https://files.pythonhosted.org/packages/b7/8b/68973381c93504e7bb9a11fe80f87dcd98513e32ad380a834f18ebfd2e7a/hatchet_sdk-0.9.3.tar.gz
+[2024-05-31 04:03:25] WARNING root fetch - processPackages [llama-index-llms-mlx]: Skipping, unable to determine old version
+[2024-05-31 04:03:25] INFO root fetch - main [MainThread]: End processing [llama-index-llms-mlx] error
+[2024-05-31 04:03:25] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/5e/3d/6ceb042b7d6ac7be44ced1fc1301187c1c6b62ec57790df5c45b2728c39a/baml_py-0.30.3-cp38-abi3-win_amd64.whl
+[2024-05-31 04:03:25] INFO root fetch - processPackages [mbodied-agents]: Downloading https://files.pythonhosted.org/packages/c8/c7/e51f4b27aa329fb50d940dc40082be914deb4cf46087a766f36db6bd3b09/mbodied_agents-0.0.2.tar.gz
+[2024-05-31 04:03:25] WARNING root fetch - processPackages [mbodied-agents]: Skipping package: exceeds size limit 26165860>=10485760
+[2024-05-31 04:03:25] INFO root fetch - main [MainThread]: End processing [mbodied-agents] error
+[2024-05-31 04:03:25] INFO root fetch - processPackages [hatchet-sdk]: Downloading https://files.pythonhosted.org/packages/19/f2/b637c52e9d3495664654bf550e30f893558eb0a752bb7a6718c55674e5cd/hatchet_sdk-0.9.4.tar.gz
+[2024-05-31 04:03:25] INFO root fetch - processPackages [xgne]: Downloading https://files.pythonhosted.org/packages/9b/ca/02d1e58b1ee221f5b2cfab15708d59ec95832526f0ba02d01f5567bbe2fb/xgne-0.0.8.tar.gz
+[2024-05-31 04:03:25] INFO root fetch - processPackages [hatchet-sdk]: executing diffoscope
+[2024-05-31 04:03:25] INFO root fetch - processPackages [hatchet-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatchet_sdk-0.9.3.tar.gz tmp/hatchet_sdk-0.9.4.tar.gz --markdown 20240531/h/hatchet-sdk/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-31 04:03:25] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/c5/5b/b4bd1f567ae0ef322ecad2f208b82d2ada4d84774595b15814aa126fe2ff/baml_py-0.30.4-cp38-abi3-win_amd64.whl
+[2024-05-31 04:03:25] INFO root fetch - processPackages [xgne]: Downloading https://files.pythonhosted.org/packages/ba/13/74935d7062685b77e55295d5043669045835a460054dd0e83acd5c4ac971/xgne-0.0.9.tar.gz
+[2024-05-31 04:03:26] INFO root fetch - processPackages [xgne]: executing diffoscope
+[2024-05-31 04:03:26] INFO root fetch - processPackages [xgne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgne-0.0.8.tar.gz tmp/xgne-0.0.9.tar.gz --markdown 20240531/x/xgne/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 04:03:26] INFO root fetch - processPackages [baml-py]: executing diffoscope
+[2024-05-31 04:03:26] INFO root fetch - processPackages [baml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml_py-0.30.3-cp38-abi3-win_amd64.whl.zip tmp/baml_py-0.30.4-cp38-abi3-win_amd64.whl.zip --markdown 20240531/b/baml-py/0.30.3-0.30.4/README.md --exclude *.pyd
+[2024-05-31 04:03:26] INFO root fetch - processPackages [hatchet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hatchet_sdk-0.9.3.tar.gz]
+[2024-05-31 04:03:26] INFO root fetch - processPackages [hatchet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hatchet_sdk-0.9.4.tar.gz]
+[2024-05-31 04:03:26] INFO root fetch - main [MainThread]: End processing [hatchet-sdk]: success
+[2024-05-31 04:03:26] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.30.3-cp38-abi3-win_amd64.whl.zip]
+[2024-05-31 04:03:26] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.30.4-cp38-abi3-win_amd64.whl.zip]
+[2024-05-31 04:03:26] INFO root fetch - main [MainThread]: End processing [baml-py]: success
+[2024-05-31 04:03:26] INFO root fetch - processPackages [xgne]: Remove: archive file [/home/abi/fetcher/tmp/xgne-0.0.8.tar.gz]
+[2024-05-31 04:03:26] INFO root fetch - processPackages [xgne]: Remove: archive file [/home/abi/fetcher/tmp/xgne-0.0.9.tar.gz]
+[2024-05-31 04:03:26] INFO root fetch - main [MainThread]: End processing [xgne]: success
+[2024-05-31 04:03:26] INFO root fetch - main [MainThread]: Store serial: [23459436]
