@@ -14113,3 +14113,80 @@
 [2024-05-31 11:51:19] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.9.0.tar.gz]
 [2024-05-31 11:51:19] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package]: success
 [2024-05-31 11:51:19] INFO root fetch - main [MainThread]: Store serial: [23463636]
+[2024-05-31 11:53:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463636]
+[2024-05-31 11:53:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 11:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: harlequin-databend
+[2024-05-31 11:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boutpp-nightly
+[2024-05-31 11:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: javascript-fixes
+[2024-05-31 11:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djehuty
+[2024-05-31 11:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hagworm
+[2024-05-31 11:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yaz-pyutils
+[2024-05-31 11:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exploitfarm
+[2024-05-31 11:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: miksiai
+[2024-05-31 11:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botasaurus-server
+[2024-05-31 11:53:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: resages
+[2024-05-31 11:53:28] INFO root fetch - processPackages [harlequin-databend]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-31 11:53:28] INFO root fetch - processPackages [exploitfarm]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 11:53:28] INFO root fetch - processPackages [botasaurus-server]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 11:53:28] INFO root fetch - processPackages [djehuty]: New version: [24.5] Old Version: [24.4]
+[2024-05-31 11:53:28] WARNING root fetch - processPackages [yaz-pyutils]: Skipping, unable to determine old version
+[2024-05-31 11:53:28] INFO root fetch - main [MainThread]: End processing [yaz-pyutils] error
+[2024-05-31 11:53:28] WARNING root fetch - processPackages [resages]: Skipping, unable to determine old version
+[2024-05-31 11:53:28] INFO root fetch - main [MainThread]: End processing [resages] error
+[2024-05-31 11:53:28] INFO root fetch - processPackages [boutpp-nightly]: New version: [5.2.0.dev7] Old Version: [5.2.0.dev69]
+[2024-05-31 11:53:28] INFO root fetch - processPackages [javascript-fixes]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-31 11:53:28] INFO root fetch - processPackages [miksiai]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-31 11:53:28] INFO root fetch - processPackages [exploitfarm]: Downloading https://files.pythonhosted.org/packages/e3/1a/6f3b7ad18ebc6fc06c47776dbf1ef92c0111cb3780efef61f103ef38d86a/exploitfarm-0.1.1.tar.gz
+[2024-05-31 11:53:28] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/f0/29/6236cf00c97e9e74fa0c4e7fb1f7ef957e52111b705e85e89defe4ec7de6/botasaurus_server-4.0.8.tar.gz
+[2024-05-31 11:53:28] INFO root fetch - processPackages [hagworm]: New version: [5.9.9] Old Version: [5.9.8]
+[2024-05-31 11:53:28] INFO root fetch - processPackages [harlequin-databend]: Downloading https://files.pythonhosted.org/packages/46/30/004d48b53376eda6bf7ace6e23aa69cade9b0c2a6b4edd34d94a10612d06/harlequin_databend-0.1.0.tar.gz
+[2024-05-31 11:53:28] INFO root fetch - processPackages [djehuty]: Downloading https://files.pythonhosted.org/packages/81/05/cee8c4761f46b3a8eb3afa0d499d4056d8355b72bc3e7637a5172d37748d/djehuty-24.4.tar.gz
+[2024-05-31 11:53:28] INFO root fetch - processPackages [boutpp-nightly]: Downloading https://files.pythonhosted.org/packages/b6/ea/2a162abd76e6ed4b274a9ee1770ffc189035f95b7523a3da63c33a57d157/boutpp-nightly-v5.2.0.dev69.tar.gz
+[2024-05-31 11:53:28] INFO root fetch - processPackages [javascript-fixes]: Downloading https://files.pythonhosted.org/packages/e0/a1/6334f957703a41a048df57d46196e7c8042a9823d0e6836c849da57f44c4/javascript_fixes-1.1.8.tar.gz
+[2024-05-31 11:53:28] WARNING root fetch - processPackages [boutpp-nightly]: Skipping package: exceeds size limit 17920509>=10485760
+[2024-05-31 11:53:28] INFO root fetch - main [MainThread]: End processing [boutpp-nightly] error
+[2024-05-31 11:53:28] INFO root fetch - processPackages [miksiai]: Downloading https://files.pythonhosted.org/packages/89/0f/92743cd6b912cb1fed01761e1fd46557cb7ec80db4ee6e0cd9f97644193e/miksiai-1.0.6-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-31 11:53:28] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/e0/1c/5dac91f7c38d49ccecfdc58d536db8299a6047d9ff58930a0d6013757ea4/hagworm-5.9.8.tar.gz
+[2024-05-31 11:53:28] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/03/11/ef707a7fce8129a4d151622283f54a8d7ab9c844defd6f5f294b0bac1632/botasaurus_server-4.0.9.tar.gz
+[2024-05-31 11:53:28] INFO root fetch - processPackages [exploitfarm]: Downloading https://files.pythonhosted.org/packages/e1/2c/e29a95562ae0a8f869dad4ddfad5222a1031207719d7e20c265ff7ed72ff/exploitfarm-0.1.2-py3-none-any.whl
+[2024-05-31 11:53:28] INFO root fetch - processPackages [harlequin-databend]: Downloading https://files.pythonhosted.org/packages/50/80/eff72de27ba8401cde7f7fe9a27f342c7ccc53d681ff221337ea304b34b3/harlequin_databend-0.1.2.tar.gz
+[2024-05-31 11:53:28] INFO root fetch - processPackages [botasaurus-server]: executing diffoscope
+[2024-05-31 11:53:28] INFO root fetch - processPackages [botasaurus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_server-4.0.8.tar.gz tmp/botasaurus_server-4.0.9.tar.gz --markdown 20240531/b/botasaurus-server/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 11:53:28] INFO root fetch - processPackages [exploitfarm]: executing diffoscope
+[2024-05-31 11:53:28] INFO root fetch - processPackages [exploitfarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exploitfarm-0.1.1.tar.gz tmp/exploitfarm-0.1.2-py3-none-any.whl.zip --markdown 20240531/e/exploitfarm/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 11:53:28] INFO root fetch - processPackages [javascript-fixes]: Downloading https://files.pythonhosted.org/packages/14/b2/5bdaa724b8091d93de2b0c5758984791a23e65b561703e97973c83245384/javascript_fixes-1.1.9.tar.gz
+[2024-05-31 11:53:28] INFO root fetch - processPackages [harlequin-databend]: executing diffoscope
+[2024-05-31 11:53:28] INFO root fetch - processPackages [harlequin-databend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harlequin_databend-0.1.0.tar.gz tmp/harlequin_databend-0.1.2.tar.gz --markdown 20240531/h/harlequin-databend/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-31 11:53:29] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/2f/0d/16fd32d0754a2e5208aede68d6b772bc36ed5dcefe41035760e37a84fbbc/hagworm-5.9.9.tar.gz
+[2024-05-31 11:53:29] INFO root fetch - processPackages [javascript-fixes]: executing diffoscope
+[2024-05-31 11:53:29] INFO root fetch - processPackages [javascript-fixes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/javascript_fixes-1.1.8.tar.gz tmp/javascript_fixes-1.1.9.tar.gz --markdown 20240531/j/javascript-fixes/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-31 11:53:29] INFO root fetch - processPackages [djehuty]: Downloading https://files.pythonhosted.org/packages/12/c8/1fb2227cc7151a8a81866ec6980d30025dd57939d278ee963dc55476dcc1/djehuty-24.5.tar.gz
+[2024-05-31 11:53:29] INFO root fetch - processPackages [miksiai]: Downloading https://files.pythonhosted.org/packages/89/96/3599247589399e53e2c99a12f02084eac2f04d06c4c2681ae0038ef1d62e/miksiai-1.0.7-cp311-cp311-win32.whl
+[2024-05-31 11:53:29] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2024-05-31 11:53:29] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.9.8.tar.gz tmp/hagworm-5.9.9.tar.gz --markdown 20240531/h/hagworm/5.9.8-5.9.9/README.md --exclude *.pyd
+[2024-05-31 11:53:29] INFO root fetch - processPackages [exploitfarm]: Remove: archive file [/home/abi/fetcher/tmp/exploitfarm-0.1.1.tar.gz]
+[2024-05-31 11:53:29] INFO root fetch - processPackages [exploitfarm]: Remove: archive file [/home/abi/fetcher/tmp/exploitfarm-0.1.2-py3-none-any.whl.zip]
+[2024-05-31 11:53:29] INFO root fetch - main [MainThread]: End processing [exploitfarm]: success
+[2024-05-31 11:53:29] INFO root fetch - processPackages [harlequin-databend]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_databend-0.1.0.tar.gz]
+[2024-05-31 11:53:29] INFO root fetch - processPackages [harlequin-databend]: Remove: archive file [/home/abi/fetcher/tmp/harlequin_databend-0.1.2.tar.gz]
+[2024-05-31 11:53:29] INFO root fetch - main [MainThread]: End processing [harlequin-databend]: success
+[2024-05-31 11:53:29] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.8.tar.gz]
+[2024-05-31 11:53:29] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.9.tar.gz]
+[2024-05-31 11:53:29] INFO root fetch - main [MainThread]: End processing [botasaurus-server]: success
+[2024-05-31 11:53:29] INFO root fetch - processPackages [javascript-fixes]: Remove: archive file [/home/abi/fetcher/tmp/javascript_fixes-1.1.8.tar.gz]
+[2024-05-31 11:53:29] INFO root fetch - processPackages [javascript-fixes]: Remove: archive file [/home/abi/fetcher/tmp/javascript_fixes-1.1.9.tar.gz]
+[2024-05-31 11:53:29] INFO root fetch - main [MainThread]: End processing [javascript-fixes]: success
+[2024-05-31 11:53:29] INFO root fetch - processPackages [djehuty]: executing diffoscope
+[2024-05-31 11:53:29] INFO root fetch - processPackages [djehuty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djehuty-24.4.tar.gz tmp/djehuty-24.5.tar.gz --markdown 20240531/d/djehuty/24.4-24.5/README.md --exclude *.pyd
+[2024-05-31 11:53:29] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.8.tar.gz]
+[2024-05-31 11:53:29] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.9.tar.gz]
+[2024-05-31 11:53:29] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2024-05-31 11:53:30] INFO root fetch - processPackages [miksiai]: executing diffoscope
+[2024-05-31 11:53:30] INFO root fetch - processPackages [miksiai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miksiai-1.0.6-pp39-pypy39_pp73-win_amd64.whl.zip tmp/miksiai-1.0.7-cp311-cp311-win32.whl.zip --markdown 20240531/m/miksiai/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-31 11:53:30] INFO root fetch - processPackages [miksiai]: Remove: archive file [/home/abi/fetcher/tmp/miksiai-1.0.6-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-31 11:53:30] INFO root fetch - processPackages [miksiai]: Remove: archive file [/home/abi/fetcher/tmp/miksiai-1.0.7-cp311-cp311-win32.whl.zip]
+[2024-05-31 11:53:30] INFO root fetch - main [MainThread]: End processing [miksiai]: success
+[2024-05-31 11:53:33] INFO root fetch - processPackages [djehuty]: Remove: archive file [/home/abi/fetcher/tmp/djehuty-24.4.tar.gz]
+[2024-05-31 11:53:33] INFO root fetch - processPackages [djehuty]: Remove: archive file [/home/abi/fetcher/tmp/djehuty-24.5.tar.gz]
+[2024-05-31 11:53:33] INFO root fetch - main [MainThread]: End processing [djehuty]: success
+[2024-05-31 11:53:33] INFO root fetch - main [MainThread]: Store serial: [23463682]
