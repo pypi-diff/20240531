@@ -12174,3 +12174,33 @@
 [2024-05-31 10:33:35] INFO root fetch - processPackages [systemathics.apis]: Remove: archive file [/home/abi/fetcher/tmp/systemathics_apis-2.39.2.tar.gz]
 [2024-05-31 10:33:35] INFO root fetch - main [MainThread]: End processing [systemathics.apis]: success
 [2024-05-31 10:33:35] INFO root fetch - main [MainThread]: Store serial: [23462783]
+[2024-05-31 10:35:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462783]
+[2024-05-31 10:35:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 10:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keelson
+[2024-05-31 10:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-insights-sdk-preview
+[2024-05-31 10:35:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bpkio-python-sdk
+[2024-05-31 10:35:44] INFO root fetch - processPackages [keelson]: New version: [0.3.6rc9] Old Version: [0.3.6rc8]
+[2024-05-31 10:35:44] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.779] Old Version: [0.0.778]
+[2024-05-31 10:35:44] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/bf/90/b439636a73952635db68aa87f0463fab3597624b94824ac49d87d0147ea0/finbourne-insights-sdk-preview-0.0.778.tar.gz
+[2024-05-31 10:35:44] INFO root fetch - processPackages [bpkio-python-sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-31 10:35:44] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/b6/ec/c72c91d2230096f98ed6949de7a17fb02db994048b4801536b545cba535d/keelson-0.3.6rc8-py3-none-any.whl
+[2024-05-31 10:35:44] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/77/fb/c5a5f71909b3b366c4ef2b816234d869eef3402b8c30b252df46c11085c4/finbourne-insights-sdk-preview-0.0.779.tar.gz
+[2024-05-31 10:35:44] INFO root fetch - processPackages [bpkio-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/ee/c84fb639d4cac54c71c1595941f7335e7c764576fcf3328b95c75c515775/bpkio_python_sdk-1.8.0.tar.gz
+[2024-05-31 10:35:44] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/61/69/854e0dcac27bd896778b7445ce78dc29f800271f23c2a098cab59e0dd3fe/keelson-0.3.6rc9-py3-none-any.whl
+[2024-05-31 10:35:44] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2024-05-31 10:35:44] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.778.tar.gz tmp/finbourne-insights-sdk-preview-0.0.779.tar.gz --markdown 20240531/f/finbourne-insights-sdk-preview/0.0.778-0.0.779/README.md --exclude *.pyd
+[2024-05-31 10:35:44] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-05-31 10:35:44] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.6rc8-py3-none-any.whl.zip tmp/keelson-0.3.6rc9-py3-none-any.whl.zip --markdown 20240531/k/keelson/0.3.6rc8-0.3.6rc9/README.md --exclude *.pyd
+[2024-05-31 10:35:44] INFO root fetch - processPackages [bpkio-python-sdk]: Downloading https://files.pythonhosted.org/packages/a5/2c/8f8bdb0146700b07e5188162ba4c1eb295aa63ef3ee082505bffa55899d2/bpkio_python_sdk-1.9.0.tar.gz
+[2024-05-31 10:35:45] INFO root fetch - processPackages [bpkio-python-sdk]: executing diffoscope
+[2024-05-31 10:35:45] INFO root fetch - processPackages [bpkio-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_python_sdk-1.8.0.tar.gz tmp/bpkio_python_sdk-1.9.0.tar.gz --markdown 20240531/b/bpkio-python-sdk/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-31 10:35:45] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.6rc8-py3-none-any.whl.zip]
+[2024-05-31 10:35:45] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.6rc9-py3-none-any.whl.zip]
+[2024-05-31 10:35:45] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-05-31 10:35:45] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.778.tar.gz]
+[2024-05-31 10:35:45] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.779.tar.gz]
+[2024-05-31 10:35:45] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2024-05-31 10:35:45] INFO root fetch - processPackages [bpkio-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_python_sdk-1.8.0.tar.gz]
+[2024-05-31 10:35:45] INFO root fetch - processPackages [bpkio-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_python_sdk-1.9.0.tar.gz]
+[2024-05-31 10:35:45] INFO root fetch - main [MainThread]: End processing [bpkio-python-sdk]: success
+[2024-05-31 10:35:45] INFO root fetch - main [MainThread]: Store serial: [23462791]
