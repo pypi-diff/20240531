@@ -16493,3 +16493,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:21:40] INFO root fetch - processPackages [BinhoSupernova]: Remove: archive file [/home/abi/fetcher/tmp/BinhoSupernova-2.2.0.tar.gz]
 [2024-05-31 13:21:40] INFO root fetch - main [MainThread]: End processing [BinhoSupernova]: success
 [2024-05-31 13:21:40] INFO root fetch - main [MainThread]: Store serial: [23464732]
+[2024-05-31 13:23:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23464732]
+[2024-05-31 13:23:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 13:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysecuritytxt
+[2024-05-31 13:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metalarchivist
+[2024-05-31 13:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datacontract-cli
+[2024-05-31 13:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: power-grid-model
+[2024-05-31 13:23:49] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-31 13:23:49] INFO root fetch - processPackages [pysecuritytxt]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-31 13:23:49] INFO root fetch - processPackages [datacontract-cli]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-31 13:23:49] INFO root fetch - processPackages [metalarchivist]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-31 13:23:49] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-31 13:23:49] INFO root fetch - processPackages [pysecuritytxt]: Downloading https://files.pythonhosted.org/packages/c8/0f/a265421f2b2fd2f09e0eace134c8d5e4f9aec8f57548648aee647777f6cb/pysecuritytxt-1.3.0.tar.gz
+[2024-05-31 13:23:49] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/07/fb/bf083613e26c9c72fed7452977ba754fc6731123fced3723db14ffeb14ca/metalarchivist-0.5.0.tar.gz
+[2024-05-31 13:23:49] INFO root fetch - processPackages [datacontract-cli]: Downloading https://files.pythonhosted.org/packages/ab/f5/43447d660c794b33f3272f06c646a80b61a35f5c371f573f0960b18b3dc3/datacontract-cli-0.9.8.tar.gz
+[2024-05-31 13:23:49] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-31 13:23:49] INFO root fetch - processPackages [pysecuritytxt]: Downloading https://files.pythonhosted.org/packages/62/43/29684e17b07b03c3836c365b881733b5e485fb29c0b650037c83454a5a24/pysecuritytxt-1.3.1.tar.gz
+[2024-05-31 13:23:50] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/af/48/fd36daadf042a36660a1653c2a51c7bf0305caaed7221f9287b508d5bdb8/metalarchivist-0.5.1.tar.gz
+[2024-05-31 13:23:50] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-31 13:23:50] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240531/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-31 13:23:50] INFO root fetch - processPackages [pysecuritytxt]: executing diffoscope
+[2024-05-31 13:23:50] INFO root fetch - processPackages [pysecuritytxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysecuritytxt-1.3.0.tar.gz tmp/pysecuritytxt-1.3.1.tar.gz --markdown 20240531/p/pysecuritytxt/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-31 13:23:50] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-05-31 13:23:50] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.5.0.tar.gz tmp/metalarchivist-0.5.1.tar.gz --markdown 20240531/m/metalarchivist/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-31 13:23:50] INFO root fetch - processPackages [datacontract-cli]: Downloading https://files.pythonhosted.org/packages/43/c7/55b0ed1dc5bdf4323cff429130d8fc45d0234b45ac011c170ea716245961/datacontract_cli-0.9.9.tar.gz
+[2024-05-31 13:23:50] INFO root fetch - processPackages [datacontract-cli]: executing diffoscope
+[2024-05-31 13:23:50] INFO root fetch - processPackages [datacontract-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacontract-cli-0.9.8.tar.gz tmp/datacontract_cli-0.9.9.tar.gz --markdown 20240531/d/datacontract-cli/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-31 13:23:50] INFO root fetch - processPackages [pysecuritytxt]: Remove: archive file [/home/abi/fetcher/tmp/pysecuritytxt-1.3.0.tar.gz]
+[2024-05-31 13:23:50] INFO root fetch - processPackages [pysecuritytxt]: Remove: archive file [/home/abi/fetcher/tmp/pysecuritytxt-1.3.1.tar.gz]
+[2024-05-31 13:23:50] INFO root fetch - main [MainThread]: End processing [pysecuritytxt]: success
+[2024-05-31 13:23:50] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.5.0.tar.gz]
+[2024-05-31 13:23:50] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.5.1.tar.gz]
+[2024-05-31 13:23:50] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-05-31 13:23:51] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract-cli-0.9.8.tar.gz]
+[2024-05-31 13:23:51] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract_cli-0.9.9.tar.gz]
+[2024-05-31 13:23:51] INFO root fetch - main [MainThread]: End processing [datacontract-cli]: success
+[2024-05-31 13:23:52] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-31 13:23:52] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-31 13:23:52] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-31 13:23:52] INFO root fetch - main [MainThread]: Store serial: [23464750]
