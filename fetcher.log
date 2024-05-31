@@ -7846,3 +7846,51 @@
 [2024-05-31 07:17:56] INFO root fetch - processPackages [PyDNARepeatFinder]: Remove: archive file [/home/abi/fetcher/tmp/pydnarepeatfinder-0.2.3.tar.gz]
 [2024-05-31 07:17:56] INFO root fetch - main [MainThread]: End processing [PyDNARepeatFinder]: success
 [2024-05-31 07:17:56] INFO root fetch - main [MainThread]: Store serial: [23460626]
+[2024-05-31 07:20:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23460626]
+[2024-05-31 07:20:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 07:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hahomematic
+[2024-05-31 07:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phidata
+[2024-05-31 07:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-governance
+[2024-05-31 07:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: entegywrapper
+[2024-05-31 07:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whotfis-py
+[2024-05-31 07:20:05] INFO root fetch - processPackages [whotfis-py]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-31 07:20:05] INFO root fetch - processPackages [phidata]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-05-31 07:20:05] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-31 07:20:05] INFO root fetch - processPackages [entegywrapper]: New version: [8.0.0] Old Version: [7.3.0]
+[2024-05-31 07:20:05] INFO root fetch - processPackages [hahomematic]: New version: [2024.5.6] Old Version: [2024.5.5]
+[2024-05-31 07:20:05] INFO root fetch - processPackages [whotfis-py]: Downloading https://files.pythonhosted.org/packages/a8/d0/869f285515c7589993a6cdde32aea7708f3013ae2924d919158b6bc04472/whotfis_py-0.0.3.tar.gz
+[2024-05-31 07:20:05] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-31 07:20:05] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/aa/0d/aa8c04e9be152bbe8c3b585e508dab23ce7796abb950ae3060303bef3d6e/phidata-2.4.8.tar.gz
+[2024-05-31 07:20:05] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/cd/a1/df820d097acd4c2d9ae80d9abe4aede03c5245bc8197e7a45beb91dad9f2/hahomematic-2024.5.5.tar.gz
+[2024-05-31 07:20:05] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/ef/17/db5e85434ebb2d17624297dfe04c44b7bb59e89e7db9f07f5343f820b231/entegywrapper-7.3.0.tar.gz
+[2024-05-31 07:20:05] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-31 07:20:05] INFO root fetch - processPackages [whotfis-py]: Downloading https://files.pythonhosted.org/packages/c0/40/f3545ec5c68f11f9685ecb5a436efa50dbfab0c2489ec110ea457ef93de6/whotfis_py-0.0.4.tar.gz
+[2024-05-31 07:20:05] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-31 07:20:05] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240531/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-31 07:20:05] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/af/f2/078560b1bbc6db30e04c13e02a195a38a6552601be938d1ed5895276476e/phidata-2.4.9.tar.gz
+[2024-05-31 07:20:05] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/12/68/4e89bc9b6058be17745fb55f8947c78221eaffee9fe1fec59938d49dc559/hahomematic-2024.5.6.tar.gz
+[2024-05-31 07:20:05] INFO root fetch - processPackages [whotfis-py]: executing diffoscope
+[2024-05-31 07:20:05] INFO root fetch - processPackages [whotfis-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whotfis_py-0.0.3.tar.gz tmp/whotfis_py-0.0.4.tar.gz --markdown 20240531/w/whotfis-py/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-31 07:20:05] INFO root fetch - processPackages [entegywrapper]: Downloading https://files.pythonhosted.org/packages/f8/a5/56f84129540e7bc4574120d314056468bb347dd05945ce59bc4e2a701f8e/entegywrapper-8.0.0.tar.gz
+[2024-05-31 07:20:05] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2024-05-31 07:20:05] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2024.5.5.tar.gz tmp/hahomematic-2024.5.6.tar.gz --markdown 20240531/h/hahomematic/2024.5.5-2024.5.6/README.md --exclude *.pyd
+[2024-05-31 07:20:05] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-05-31 07:20:05] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.4.8.tar.gz tmp/phidata-2.4.9.tar.gz --markdown 20240531/p/phidata/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-05-31 07:20:06] INFO root fetch - processPackages [entegywrapper]: executing diffoscope
+[2024-05-31 07:20:06] INFO root fetch - processPackages [entegywrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entegywrapper-7.3.0.tar.gz tmp/entegywrapper-8.0.0.tar.gz --markdown 20240531/e/entegywrapper/7.3.0-8.0.0/README.md --exclude *.pyd
+[2024-05-31 07:20:06] INFO root fetch - processPackages [whotfis-py]: Remove: archive file [/home/abi/fetcher/tmp/whotfis_py-0.0.3.tar.gz]
+[2024-05-31 07:20:06] INFO root fetch - processPackages [whotfis-py]: Remove: archive file [/home/abi/fetcher/tmp/whotfis_py-0.0.4.tar.gz]
+[2024-05-31 07:20:06] INFO root fetch - main [MainThread]: End processing [whotfis-py]: success
+[2024-05-31 07:20:06] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-31 07:20:06] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-31 07:20:06] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-31 07:20:06] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.5.5.tar.gz]
+[2024-05-31 07:20:06] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.5.6.tar.gz]
+[2024-05-31 07:20:06] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2024-05-31 07:20:06] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-7.3.0.tar.gz]
+[2024-05-31 07:20:06] INFO root fetch - processPackages [entegywrapper]: Remove: archive file [/home/abi/fetcher/tmp/entegywrapper-8.0.0.tar.gz]
+[2024-05-31 07:20:06] INFO root fetch - main [MainThread]: End processing [entegywrapper]: success
+[2024-05-31 07:20:07] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.8.tar.gz]
+[2024-05-31 07:20:07] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.9.tar.gz]
+[2024-05-31 07:20:07] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-05-31 07:20:07] INFO root fetch - main [MainThread]: Store serial: [23460642]
