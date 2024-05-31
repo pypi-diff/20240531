@@ -4665,3 +4665,21 @@
 [2024-05-31 03:41:46] INFO root fetch - processPackages [opentelemetry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry-sdk-1.9.1.tar.gz]
 [2024-05-31 03:41:46] INFO root fetch - main [MainThread]: End processing [opentelemetry-sdk]: success
 [2024-05-31 03:41:46] INFO root fetch - main [MainThread]: Store serial: [23459350]
+[2024-05-31 03:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459350]
+[2024-05-31 03:43:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-31 03:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vital-ai-vitalsigns
+[2024-05-31 03:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lb-database
+[2024-05-31 03:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: miracle-helper
+[2024-05-31 03:43:54] INFO root fetch - processPackages [vital-ai-vitalsigns]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 03:43:55] INFO root fetch - processPackages [vital-ai-vitalsigns]: Downloading https://files.pythonhosted.org/packages/1b/05/a348c770dfa33dae22c9a0899f5440ba9a0668597ea1f04fca2715e082f2/vital-ai-vitalsigns-0.1.8.tar.gz
+[2024-05-31 03:43:55] WARNING root fetch - processPackages [lb-database]: Skipping, unable to determine old version
+[2024-05-31 03:43:55] INFO root fetch - main [MainThread]: End processing [lb-database] error
+[2024-05-31 03:43:55] INFO root fetch - processPackages [vital-ai-vitalsigns]: Downloading https://files.pythonhosted.org/packages/c1/2a/83697e835fcca252a1e641e70739005ce2d7b821e3ed28ac64d9a51040ad/vital-ai-vitalsigns-0.1.9.tar.gz
+[2024-05-31 03:43:55] WARNING root fetch - processPackages [miracle-helper]: Skipping, unable to determine old version
+[2024-05-31 03:43:55] INFO root fetch - main [MainThread]: End processing [miracle-helper] error
+[2024-05-31 03:43:55] INFO root fetch - processPackages [vital-ai-vitalsigns]: executing diffoscope
+[2024-05-31 03:43:55] INFO root fetch - processPackages [vital-ai-vitalsigns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-ai-vitalsigns-0.1.8.tar.gz tmp/vital-ai-vitalsigns-0.1.9.tar.gz --markdown 20240531/v/vital-ai-vitalsigns/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 03:43:56] INFO root fetch - processPackages [vital-ai-vitalsigns]: Remove: archive file [/home/abi/fetcher/tmp/vital-ai-vitalsigns-0.1.8.tar.gz]
+[2024-05-31 03:43:56] INFO root fetch - processPackages [vital-ai-vitalsigns]: Remove: archive file [/home/abi/fetcher/tmp/vital-ai-vitalsigns-0.1.9.tar.gz]
+[2024-05-31 03:43:56] INFO root fetch - main [MainThread]: End processing [vital-ai-vitalsigns]: success
+[2024-05-31 03:43:56] INFO root fetch - main [MainThread]: Store serial: [23459370]
