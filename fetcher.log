@@ -23114,3 +23114,134 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 17:17:12] INFO root fetch - processPackages [django-trench-reboot]: Remove: archive file [/home/abi/fetcher/tmp/django_trench_reboot-0.3.3.tar.gz]
 [2024-05-31 17:17:12] INFO root fetch - main [MainThread]: End processing [django-trench-reboot]: success
 [2024-05-31 17:17:12] INFO root fetch - main [MainThread]: Store serial: [23467792]
+[2024-05-31 17:19:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23467792]
+[2024-05-31 17:19:21] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-31 17:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-id-python
+[2024-05-31 17:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bec-ipython-client
+[2024-05-31 17:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-lib
+[2024-05-31 17:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-server
+[2024-05-31 17:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-bec-e2e
+[2024-05-31 17:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cocoon-data
+[2024-05-31 17:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-organization-python
+[2024-05-31 17:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edwh
+[2024-05-31 17:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opea-comps
+[2024-05-31 17:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keelson
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cocoon-data]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-31 17:19:22] INFO root fetch - processPackages [pytest-bec-e2e]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-31 17:19:22] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 17:19:22] INFO root fetch - processPackages [bec-server]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-31 17:19:22] WARNING root fetch - processPackages [opea-comps]: Skipping, unable to determine old version
+[2024-05-31 17:19:22] INFO root fetch - processPackages [opea-comps]: Start processing: space-exploration-common-lib
+[2024-05-31 17:19:22] INFO root fetch - main [MainThread]: End processing [opea-comps] error
+[2024-05-31 17:19:22] INFO root fetch - processPackages [keelson]: New version: [0.3.6rc9] Old Version: [0.3.6rc8]
+[2024-05-31 17:19:22] INFO root fetch - processPackages [bec-lib]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/ac/3c/a1a6c95be4d731fc0db8d40b132730891186370f3cd304837773aa0dcce9/cocoon_data-0.1.8.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [space-exploration-common-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-31 17:19:22] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/32/25/26221a302c5d813470abbed9e469573445b2d6223cb10d5e831a1c2edcbc/pytest_bec_e2e-2.9.5.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/1c/28/ac66835e54a2a219bb2fcab250ebe5175556448adfd9731171c446d39b8a/bec_lib-2.9.5.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [space-exploration-common-lib]: Downloading https://files.pythonhosted.org/packages/7c/27/9c3e17168cee54b0afa84911cee2c4c4923b5b1ddf48dd67a3045005f072/space_exploration_common_lib-0.0.8.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/5c/a6/47395050d9ef43b8ac69afbd19752c840a326d130902d672b143eb1b2011/bec_server-2.9.5.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/b6/ec/c72c91d2230096f98ed6949de7a17fb02db994048b4801536b545cba535d/keelson-0.3.6rc8-py3-none-any.whl
+[2024-05-31 17:19:22] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/42/2a/dcf7efb78da250ad0ac30ed1bb83ea66d2277294db43860c65b3d4015fd9/bec_ipython_client-2.9.5.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cocoon-data]: Downloading https://files.pythonhosted.org/packages/0b/b9/048ffb4abe066854ebc4d24ca277250c5668844b84d602ff0be9adf8b231/cocoon_data-0.1.9.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [space-exploration-common-lib]: Downloading https://files.pythonhosted.org/packages/68/b3/be8588ce6908619fa879f1dedcee4fa0a35f5ae086c7e2ca7239ea6fecf0/space_exploration_common_lib-0.0.9.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cocoon-data]: executing diffoscope
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cocoon-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoon_data-0.1.8.tar.gz tmp/cocoon_data-0.1.9.tar.gz --markdown 20240531/c/cocoon-data/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240531/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-05-31 17:19:22] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240531/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-31 17:19:22] INFO root fetch - processPackages [pytest-bec-e2e]: Downloading https://files.pythonhosted.org/packages/52/58/6a01c0215232031def0ac36fe0432d3a9980bab8829664847cd95bfcd44e/pytest_bec_e2e-2.9.6.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/4d/a2/f0700429367390986fd99050f855b29188048689afabf13076cd77bb4598/bec_lib-2.9.6.tar.gz
+[2024-05-31 17:19:22] INFO root fetch - processPackages [space-exploration-common-lib]: executing diffoscope
+[2024-05-31 17:19:22] INFO root fetch - processPackages [space-exploration-common-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_exploration_common_lib-0.0.8.tar.gz tmp/space_exploration_common_lib-0.0.9.tar.gz --markdown 20240531/s/space-exploration-common-lib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 17:19:22] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2024-05-31 17:19:22] INFO root fetch - processPackages [edwh]: Start processing: django-pony-express
+[2024-05-31 17:19:22] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2024-05-31 17:19:23] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/61/69/854e0dcac27bd896778b7445ce78dc29f800271f23c2a098cab59e0dd3fe/keelson-0.3.6rc9-py3-none-any.whl
+[2024-05-31 17:19:23] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/33/b7/3b469dec2efe5a33d7abfab6b9c31025e32485e7a9d400424e12cd0fd084/bec_server-2.9.6.tar.gz
+[2024-05-31 17:19:23] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/13/80/aec73bca57d40003e967ae6f6ee26ab8daed9452221ca1f19dc73ff620dd/bec_ipython_client-2.9.6.tar.gz
+[2024-05-31 17:19:23] INFO root fetch - processPackages [pytest-bec-e2e]: executing diffoscope
+[2024-05-31 17:19:23] INFO root fetch - processPackages [pytest-bec-e2e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_bec_e2e-2.9.5.tar.gz tmp/pytest_bec_e2e-2.9.6.tar.gz --markdown 20240531/p/pytest-bec-e2e/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-31 17:19:23] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-05-31 17:19:23] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.9.5.tar.gz tmp/bec_lib-2.9.6.tar.gz --markdown 20240531/b/bec-lib/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-31 17:19:23] INFO root fetch - processPackages [django-pony-express]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-31 17:19:23] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-05-31 17:19:23] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.6rc8-py3-none-any.whl.zip tmp/keelson-0.3.6rc9-py3-none-any.whl.zip --markdown 20240531/k/keelson/0.3.6rc8-0.3.6rc9/README.md --exclude *.pyd
+[2024-05-31 17:19:23] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-05-31 17:19:23] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_server-2.9.5.tar.gz tmp/bec_server-2.9.6.tar.gz --markdown 20240531/b/bec-server/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-31 17:19:23] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-05-31 17:19:23] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.9.5.tar.gz tmp/bec_ipython_client-2.9.6.tar.gz --markdown 20240531/b/bec-ipython-client/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-31 17:19:23] INFO root fetch - processPackages [django-pony-express]: Downloading https://files.pythonhosted.org/packages/dc/d2/d146212c00770cffed8f4df92761318cb675d3c59d14f531079bf21c4f11/django_pony_express-2.1.0.tar.gz
+[2024-05-31 17:19:23] INFO root fetch - processPackages [space-exploration-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/space_exploration_common_lib-0.0.8.tar.gz]
+[2024-05-31 17:19:23] INFO root fetch - processPackages [space-exploration-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/space_exploration_common_lib-0.0.9.tar.gz]
+[2024-05-31 17:19:23] INFO root fetch - processPackages [space-exploration-common-lib]: Start processing: txtai.py
+[2024-05-31 17:19:23] INFO root fetch - main [MainThread]: End processing [space-exploration-common-lib]: success
+[2024-05-31 17:19:23] INFO root fetch - processPackages [django-pony-express]: Downloading https://files.pythonhosted.org/packages/d3/c9/c1515aa8d5a8da27718ab838bdcc83a368d52212a41c03c416273e8e614e/django_pony_express-2.1.1.tar.gz
+[2024-05-31 17:19:23] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.5.tar.gz]
+[2024-05-31 17:19:23] INFO root fetch - processPackages [pytest-bec-e2e]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bec_e2e-2.9.6.tar.gz]
+[2024-05-31 17:19:23] INFO root fetch - processPackages [pytest-bec-e2e]: Start processing: socialdataanalysis
+[2024-05-31 17:19:23] INFO root fetch - main [MainThread]: End processing [pytest-bec-e2e]: success
+[2024-05-31 17:19:23] INFO root fetch - processPackages [txtai.py]: New version: [7.2.0] Old Version: [7.1.0]
+[2024-05-31 17:19:23] INFO root fetch - processPackages [django-pony-express]: executing diffoscope
+[2024-05-31 17:19:23] INFO root fetch - processPackages [django-pony-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pony_express-2.1.0.tar.gz tmp/django_pony_express-2.1.1.tar.gz --markdown 20240531/d/django-pony-express/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-31 17:19:23] INFO root fetch - processPackages [socialdataanalysis]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-31 17:19:23] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.8.tar.gz]
+[2024-05-31 17:19:23] INFO root fetch - processPackages [cocoon-data]: Remove: archive file [/home/abi/fetcher/tmp/cocoon_data-0.1.9.tar.gz]
+[2024-05-31 17:19:23] INFO root fetch - processPackages [cocoon-data]: Start processing: myfunctions-namazsari
+[2024-05-31 17:19:23] INFO root fetch - main [MainThread]: End processing [cocoon-data]: success
+[2024-05-31 17:19:24] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/5e/cc/871993976372f4fd270b67b32d5d430e9a9650178c098a9b36d550e3bd94/socialdataanalysis-0.9.5.tar.gz
+[2024-05-31 17:19:24] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.5.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.9.6.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - processPackages [bec-ipython-client]: Start processing: vana
+[2024-05-31 17:19:24] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-05-31 17:19:24] WARNING root fetch - processPackages [myfunctions-namazsari]: Skipping, unable to determine old version
+[2024-05-31 17:19:24] INFO root fetch - main [MainThread]: End processing [myfunctions-namazsari] error
+[2024-05-31 17:19:24] INFO root fetch - processPackages [vana]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-31 17:19:24] INFO root fetch - processPackages [txtai.py]: Downloading https://files.pythonhosted.org/packages/af/a5/8abc706b5ca28a2c29bce8bffd2dd5a8818bad53b62048743b24cce2f2ad/txtai.py-7.1.0.tar.gz
+[2024-05-31 17:19:24] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-05-31 17:19:24] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.6rc8-py3-none-any.whl.zip]
+[2024-05-31 17:19:24] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.6rc9-py3-none-any.whl.zip]
+[2024-05-31 17:19:24] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-05-31 17:19:24] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-31 17:19:24] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.5.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.9.6.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-05-31 17:19:24] INFO root fetch - processPackages [vana]: Downloading https://files.pythonhosted.org/packages/0f/04/49fa68191b081eb522baed91dc0d67eff6f140c27ad4c92fe2d27d3ae626/vana-0.1.0.tar.gz
+[2024-05-31 17:19:24] INFO root fetch - processPackages [socialdataanalysis]: Downloading https://files.pythonhosted.org/packages/32/68/2bddbeb8815e11229969bd1d36fee395513a5fb6df1c152f6a557a9db871/socialdataanalysis-0.9.6.tar.gz
+[2024-05-31 17:19:24] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.5.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.9.6.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-05-31 17:19:24] INFO root fetch - processPackages [txtai.py]: Downloading https://files.pythonhosted.org/packages/51/23/eec40e96810dee0b9d4628568fa72c14bd60bc43952439d1cbbeb75b852b/txtai.py-7.2.0.tar.gz
+[2024-05-31 17:19:24] INFO root fetch - processPackages [socialdataanalysis]: executing diffoscope
+[2024-05-31 17:19:24] INFO root fetch - processPackages [socialdataanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socialdataanalysis-0.9.5.tar.gz tmp/socialdataanalysis-0.9.6.tar.gz --markdown 20240531/s/socialdataanalysis/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-31 17:19:24] INFO root fetch - processPackages [django-pony-express]: Remove: archive file [/home/abi/fetcher/tmp/django_pony_express-2.1.0.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - processPackages [django-pony-express]: Remove: archive file [/home/abi/fetcher/tmp/django_pony_express-2.1.1.tar.gz]
+[2024-05-31 17:19:24] INFO root fetch - processPackages [vana]: Downloading https://files.pythonhosted.org/packages/5b/94/64ae0331e29756a529ceeb9622039da1a7780b413ee0da39418e27a881c7/vana-0.1.1.tar.gz
+[2024-05-31 17:19:24] INFO root fetch - main [MainThread]: End processing [django-pony-express]: success
+[2024-05-31 17:19:24] INFO root fetch - processPackages [txtai.py]: executing diffoscope
+[2024-05-31 17:19:24] INFO root fetch - processPackages [txtai.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txtai.py-7.1.0.tar.gz tmp/txtai.py-7.2.0.tar.gz --markdown 20240531/t/txtai.py/7.1.0-7.2.0/README.md --exclude *.pyd
+[2024-05-31 17:19:24] INFO root fetch - processPackages [vana]: executing diffoscope
+[2024-05-31 17:19:24] INFO root fetch - processPackages [vana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vana-0.1.0.tar.gz tmp/vana-0.1.1.tar.gz --markdown 20240531/v/vana/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-31 17:19:25] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.9.5.tar.gz]
+[2024-05-31 17:19:25] INFO root fetch - processPackages [socialdataanalysis]: Remove: archive file [/home/abi/fetcher/tmp/socialdataanalysis-0.9.6.tar.gz]
+[2024-05-31 17:19:25] INFO root fetch - main [MainThread]: End processing [socialdataanalysis]: success
+[2024-05-31 17:19:25] INFO root fetch - processPackages [txtai.py]: Remove: archive file [/home/abi/fetcher/tmp/txtai.py-7.1.0.tar.gz]
+[2024-05-31 17:19:25] INFO root fetch - processPackages [txtai.py]: Remove: archive file [/home/abi/fetcher/tmp/txtai.py-7.2.0.tar.gz]
+[2024-05-31 17:19:25] INFO root fetch - main [MainThread]: End processing [txtai.py]: success
+[2024-05-31 17:19:25] INFO root fetch - processPackages [vana]: Remove: archive file [/home/abi/fetcher/tmp/vana-0.1.0.tar.gz]
+[2024-05-31 17:19:25] INFO root fetch - processPackages [vana]: Remove: archive file [/home/abi/fetcher/tmp/vana-0.1.1.tar.gz]
+[2024-05-31 17:19:25] INFO root fetch - main [MainThread]: End processing [vana]: success
+[2024-05-31 17:19:25] INFO root fetch - main [MainThread]: Store serial: [23467841]
