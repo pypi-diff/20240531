@@ -19102,3 +19102,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 14:57:07] INFO root fetch - processPackages [xchainpy2-thornode]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_thornode-1.132.0.tar.gz]
 [2024-05-31 14:57:07] INFO root fetch - main [MainThread]: End processing [xchainpy2-thornode]: success
 [2024-05-31 14:57:07] INFO root fetch - main [MainThread]: Store serial: [23465887]
+[2024-05-31 14:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465887]
+[2024-05-31 14:59:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-31 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: physt
+[2024-05-31 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rand-api-frag
+[2024-05-31 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelbest-sdk
+[2024-05-31 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yoctools
+[2024-05-31 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resmda
+[2024-05-31 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anospp-analysis
+[2024-05-31 14:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyelq-sdk
+[2024-05-31 14:59:16] INFO root fetch - processPackages [physt]: New version: [0.6.0a4] Old Version: [0.6.0a2]
+[2024-05-31 14:59:16] ERROR root fetch - processPackages [rand-api-frag]: Unable to get metadata: No such project 'rand-api-frag'
+[2024-05-31 14:59:16] INFO root fetch - main [MainThread]: End processing [rand-api-frag] error
+[2024-05-31 14:59:16] INFO root fetch - processPackages [resmda]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-31 14:59:16] INFO root fetch - processPackages [modelbest-sdk]: New version: [0.1.8.4] Old Version: [0.1.6]
+[2024-05-31 14:59:16] INFO root fetch - processPackages [anospp-analysis]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-31 14:59:16] INFO root fetch - processPackages [pyelq-sdk]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-31 14:59:16] INFO root fetch - processPackages [yoctools]: New version: [2.0.9] Old Version: [2.0.78]
+[2024-05-31 14:59:16] INFO root fetch - processPackages [physt]: Downloading https://files.pythonhosted.org/packages/ca/5c/46714efbcb92f11c733ed0bf5810c0002b8c4ecc96c1677af8414d742daa/physt-0.6.0a2.tar.gz
+[2024-05-31 14:59:16] INFO root fetch - processPackages [anospp-analysis]: Downloading https://files.pythonhosted.org/packages/1c/54/a886695122edf0f96e9e3c95225e8b43afde5c70cba5e160a06db76444a1/anospp_analysis-0.2.1.tar.gz
+[2024-05-31 14:59:16] INFO root fetch - processPackages [resmda]: Downloading https://files.pythonhosted.org/packages/b5/a2/c176b1652ea961ea75ec83e69ab047403f4443cba89381edae1443a6feaf/resmda-0.1.1.tar.gz
+[2024-05-31 14:59:16] INFO root fetch - processPackages [modelbest-sdk]: Downloading https://files.pythonhosted.org/packages/8e/0d/a63351a28a1185b5cc2c78cadc4707360fa266fc1654290823fafc153bbe/modelbest_sdk-0.1.6.tar.gz
+[2024-05-31 14:59:16] INFO root fetch - processPackages [yoctools]: Downloading https://files.pythonhosted.org/packages/e4/be/a174a4cd1428ef9ef69273882b0100668a5002a337b7ed23a503747a5c54/yoctools-2.0.78.tar.gz
+[2024-05-31 14:59:16] INFO root fetch - processPackages [pyelq-sdk]: Downloading https://files.pythonhosted.org/packages/46/eb/2981eadbcee1272dc6235d4835ae6742a074483160c38c45084802cf44e1/pyelq_sdk-1.0.5.tar.gz
+[2024-05-31 14:59:17] INFO root fetch - processPackages [anospp-analysis]: Downloading https://files.pythonhosted.org/packages/48/aa/b3bf5112897cf3b1050dc68388652b53c22e805b3f9b7d29ebc7485de5c0/anospp_analysis-0.3.0.tar.gz
+[2024-05-31 14:59:17] INFO root fetch - processPackages [physt]: Downloading https://files.pythonhosted.org/packages/1b/02/f641f47091a6960cd8e5a2ce04d4d59cc98962ac2e434cd6c2192823a5ab/physt-0.6.0a4.tar.gz
+[2024-05-31 14:59:17] INFO root fetch - processPackages [resmda]: Downloading https://files.pythonhosted.org/packages/d0/b9/bfdd2ac7b403403086a4b83b46d0b6d693a809e7a56c5cd8a0dc83556d13/resmda-0.1.2.tar.gz
+[2024-05-31 14:59:17] INFO root fetch - processPackages [pyelq-sdk]: Downloading https://files.pythonhosted.org/packages/f9/c6/cec0255269a33981af41d8ff73a119a8aa6dca3e67afa8749c714f96bc05/pyelq_sdk-1.0.6.tar.gz
+[2024-05-31 14:59:17] INFO root fetch - processPackages [resmda]: executing diffoscope
+[2024-05-31 14:59:17] INFO root fetch - processPackages [resmda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resmda-0.1.1.tar.gz tmp/resmda-0.1.2.tar.gz --markdown 20240531/r/resmda/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-31 14:59:17] INFO root fetch - processPackages [physt]: executing diffoscope
+[2024-05-31 14:59:17] INFO root fetch - processPackages [physt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physt-0.6.0a2.tar.gz tmp/physt-0.6.0a4.tar.gz --markdown 20240531/p/physt/0.6.0a2-0.6.0a4/README.md --exclude *.pyd
+[2024-05-31 14:59:17] INFO root fetch - processPackages [anospp-analysis]: executing diffoscope
+[2024-05-31 14:59:17] INFO root fetch - processPackages [anospp-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anospp_analysis-0.2.1.tar.gz tmp/anospp_analysis-0.3.0.tar.gz --markdown 20240531/a/anospp-analysis/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-31 14:59:17] INFO root fetch - processPackages [modelbest-sdk]: Downloading https://files.pythonhosted.org/packages/83/59/1eade12591ae9d4909c021e9df3d734d90ac3aff44a0c7f7734c4090c10f/modelbest_sdk-0.1.8.4.tar.gz
+[2024-05-31 14:59:17] INFO root fetch - processPackages [pyelq-sdk]: executing diffoscope
+[2024-05-31 14:59:17] INFO root fetch - processPackages [pyelq-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyelq_sdk-1.0.5.tar.gz tmp/pyelq_sdk-1.0.6.tar.gz --markdown 20240531/p/pyelq-sdk/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-31 14:59:17] INFO root fetch - processPackages [yoctools]: Downloading https://files.pythonhosted.org/packages/72/8f/1faa61e65723d613fb6313f889b8da66ca965420bbbc147155105d89936d/yoctools-2.0.9.tar.gz
+[2024-05-31 14:59:17] INFO root fetch - processPackages [modelbest-sdk]: executing diffoscope
+[2024-05-31 14:59:17] INFO root fetch - processPackages [modelbest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbest_sdk-0.1.6.tar.gz tmp/modelbest_sdk-0.1.8.4.tar.gz --markdown 20240531/m/modelbest-sdk/0.1.6-0.1.8.4/README.md --exclude *.pyd
+[2024-05-31 14:59:17] INFO root fetch - processPackages [anospp-analysis]: Remove: archive file [/home/abi/fetcher/tmp/anospp_analysis-0.2.1.tar.gz]
+[2024-05-31 14:59:17] INFO root fetch - processPackages [anospp-analysis]: Remove: archive file [/home/abi/fetcher/tmp/anospp_analysis-0.3.0.tar.gz]
+[2024-05-31 14:59:17] INFO root fetch - main [MainThread]: End processing [anospp-analysis]: success
+[2024-05-31 14:59:18] INFO root fetch - processPackages [resmda]: Remove: archive file [/home/abi/fetcher/tmp/resmda-0.1.1.tar.gz]
+[2024-05-31 14:59:18] INFO root fetch - processPackages [resmda]: Remove: archive file [/home/abi/fetcher/tmp/resmda-0.1.2.tar.gz]
+[2024-05-31 14:59:18] INFO root fetch - main [MainThread]: End processing [resmda]: success
+[2024-05-31 14:59:18] INFO root fetch - processPackages [physt]: Remove: archive file [/home/abi/fetcher/tmp/physt-0.6.0a2.tar.gz]
+[2024-05-31 14:59:18] INFO root fetch - processPackages [physt]: Remove: archive file [/home/abi/fetcher/tmp/physt-0.6.0a4.tar.gz]
+[2024-05-31 14:59:18] INFO root fetch - main [MainThread]: End processing [physt]: success
+[2024-05-31 14:59:18] INFO root fetch - processPackages [pyelq-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyelq_sdk-1.0.5.tar.gz]
+[2024-05-31 14:59:18] INFO root fetch - processPackages [pyelq-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyelq_sdk-1.0.6.tar.gz]
+[2024-05-31 14:59:18] INFO root fetch - main [MainThread]: End processing [pyelq-sdk]: success
+[2024-05-31 14:59:18] INFO root fetch - processPackages [modelbest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modelbest_sdk-0.1.6.tar.gz]
+[2024-05-31 14:59:18] INFO root fetch - processPackages [modelbest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modelbest_sdk-0.1.8.4.tar.gz]
+[2024-05-31 14:59:18] INFO root fetch - main [MainThread]: End processing [modelbest-sdk]: success
+[2024-05-31 14:59:20] INFO root fetch - processPackages [yoctools]: executing diffoscope
+[2024-05-31 14:59:20] INFO root fetch - processPackages [yoctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoctools-2.0.78.tar.gz tmp/yoctools-2.0.9.tar.gz --markdown 20240531/y/yoctools/2.0.78-2.0.9/README.md --exclude *.pyd
+[2024-05-31 15:00:19] INFO root fetch - processPackages [yoctools]: Remove: archive file [/home/abi/fetcher/tmp/yoctools-2.0.78.tar.gz]
+[2024-05-31 15:00:19] INFO root fetch - processPackages [yoctools]: Remove: archive file [/home/abi/fetcher/tmp/yoctools-2.0.9.tar.gz]
+[2024-05-31 15:00:19] INFO root fetch - main [MainThread]: End processing [yoctools]: success
+[2024-05-31 15:00:19] INFO root fetch - main [MainThread]: Store serial: [23465923]
