@@ -5112,3 +5112,14 @@
 [2024-05-31 04:18:45] INFO root fetch - processPackages [qiskit-aer]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-aer-0.9.1.tar.gz]
 [2024-05-31 04:18:45] INFO root fetch - main [MainThread]: End processing [qiskit-aer]: success
 [2024-05-31 04:18:45] INFO root fetch - main [MainThread]: Store serial: [23459615]
+[2024-05-31 04:20:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459615]
+[2024-05-31 04:20:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 04:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipyweb
+[2024-05-31 04:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qiskit-aer-gpu
+[2024-05-31 04:20:53] WARNING root fetch - processPackages [ipyweb]: Skipping, unable to determine old version
+[2024-05-31 04:20:53] INFO root fetch - main [MainThread]: End processing [ipyweb] error
+[2024-05-31 04:20:54] INFO root fetch - processPackages [qiskit-aer-gpu]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-31 04:20:54] INFO root fetch - processPackages [qiskit-aer-gpu]: Downloading https://files.pythonhosted.org/packages/86/19/c14dc01f108f3e98f0e8c4a21860c710f21fbee640037018501628dd19bb/qiskit_aer_gpu-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2024-05-31 04:20:54] WARNING root fetch - processPackages [qiskit-aer-gpu]: Skipping package: exceeds size limit 26714235>=10485760
+[2024-05-31 04:20:54] INFO root fetch - main [MainThread]: End processing [qiskit-aer-gpu] error
+[2024-05-31 04:20:54] INFO root fetch - main [MainThread]: Store serial: [23459645]
