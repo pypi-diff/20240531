@@ -4803,3 +4803,20 @@
 [2024-05-31 03:56:55] INFO root fetch - processPackages [shipyard-census]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_census-0.2.0a0.tar.gz]
 [2024-05-31 03:56:55] INFO root fetch - main [MainThread]: End processing [shipyard-census]: success
 [2024-05-31 03:56:55] INFO root fetch - main [MainThread]: Store serial: [23459407]
+[2024-05-31 03:58:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23459407]
+[2024-05-31 03:59:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 03:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databend-driver
+[2024-05-31 03:59:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bd_to_avp
+[2024-05-31 03:59:03] INFO root fetch - processPackages [databend-driver]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-31 03:59:03] INFO root fetch - processPackages [bd_to_avp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 03:59:04] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/9e/d2/0bd5410dd972dbb678b40872c610f4f48032a9640df408af5feea4cb50b1/databend_driver-0.9.4-cp37-abi3-win_amd64.whl
+[2024-05-31 03:59:04] INFO root fetch - processPackages [bd_to_avp]: Downloading https://files.pythonhosted.org/packages/00/db/7e18af63153f16cb6b9d0cd019ae969bcff7057bcdaa43a5b82e8224ed2d/bd_to_avp-0.1.8.tar.gz
+[2024-05-31 03:59:04] WARNING root fetch - processPackages [bd_to_avp]: Skipping package: exceeds size limit 16498870>=10485760
+[2024-05-31 03:59:04] INFO root fetch - main [MainThread]: End processing [bd_to_avp] error
+[2024-05-31 03:59:04] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/b7/e3/195c2e775c9ea50822c2431f0a00f48ae03a7a10be4d3e583cce489052ee/databend_driver-0.9.5-cp37-abi3-win_amd64.whl
+[2024-05-31 03:59:06] INFO root fetch - processPackages [databend-driver]: executing diffoscope
+[2024-05-31 03:59:06] INFO root fetch - processPackages [databend-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip --markdown 20240531/d/databend-driver/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-31 03:59:06] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip]
+[2024-05-31 03:59:06] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
+[2024-05-31 03:59:06] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
+[2024-05-31 03:59:06] INFO root fetch - main [MainThread]: Store serial: [23459416]
