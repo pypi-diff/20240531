@@ -11179,3 +11179,24 @@
 [2024-05-31 09:48:22] INFO root fetch - processPackages [sentiment-analysis-package]: Remove: archive file [/home/abi/fetcher/tmp/sentiment_analysis_package-0.5.0.tar.gz]
 [2024-05-31 09:48:22] INFO root fetch - main [MainThread]: End processing [sentiment-analysis-package]: success
 [2024-05-31 09:48:22] INFO root fetch - main [MainThread]: Store serial: [23462317]
+[2024-05-31 09:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23462317]
+[2024-05-31 09:50:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ert
+[2024-05-31 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coolbg
+[2024-05-31 09:50:32] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-31 09:50:32] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-31 09:50:33] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 09:50:33] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-31 09:50:33] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 09:50:33] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-31 09:50:33] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-05-31 09:50:33] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240531/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-31 09:50:33] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-31 09:50:33] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240531/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-31 09:50:34] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-31 09:50:34] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-31 09:50:34] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-31 09:50:38] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 09:50:38] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-31 09:50:38] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-05-31 09:50:38] INFO root fetch - main [MainThread]: Store serial: [23462330]
