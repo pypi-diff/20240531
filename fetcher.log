@@ -9601,3 +9601,24 @@
 [2024-05-31 08:50:31] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
 [2024-05-31 08:50:31] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
 [2024-05-31 08:50:31] INFO root fetch - main [MainThread]: Store serial: [23461557]
+[2024-05-31 08:52:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23461557]
+[2024-05-31 08:52:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-31 08:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grid2fp
+[2024-05-31 08:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2024-05-31 08:52:40] INFO root fetch - processPackages [grid2fp]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 08:52:40] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20240530.0] Old Version: [16.0.20240529.1]
+[2024-05-31 08:52:40] INFO root fetch - processPackages [grid2fp]: Downloading https://files.pythonhosted.org/packages/71/e7/9ea06db143680fa4660bc55bf1178cd21e6117023934b665f4bf29e08957/grid2fp-0.0.8.tar.gz
+[2024-05-31 08:52:40] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/53/86/49ad0af94953b63b4f9ce209fde537b320ac6d694565640e3b00c6419434/odoo_addons_oca_stock_logistics_workflow-16.0.20240529.1-py3-none-any.whl
+[2024-05-31 08:52:41] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/45/2f/f2df8481b633fc38a634df6ed03174dd48b43ac9edd27c1459fcd4f92530/odoo_addons_oca_stock_logistics_workflow-16.0.20240530.0-py3-none-any.whl
+[2024-05-31 08:52:41] INFO root fetch - processPackages [grid2fp]: Downloading https://files.pythonhosted.org/packages/cc/ee/a52857521e3b118cae7903ccc2686266af9621492a19b8cb9ab9f829e946/grid2fp-0.0.9.tar.gz
+[2024-05-31 08:52:41] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2024-05-31 08:52:41] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240529.1-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240530.0-py3-none-any.whl.zip --markdown 20240531/o/odoo-addons-oca-stock-logistics-workflow/16.0.20240529.1-16.0.20240530.0/README.md --exclude *.pyd
+[2024-05-31 08:52:41] INFO root fetch - processPackages [grid2fp]: executing diffoscope
+[2024-05-31 08:52:41] INFO root fetch - processPackages [grid2fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grid2fp-0.0.8.tar.gz tmp/grid2fp-0.0.9.tar.gz --markdown 20240531/g/grid2fp/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 08:52:41] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240529.1-py3-none-any.whl.zip]
+[2024-05-31 08:52:41] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240530.0-py3-none-any.whl.zip]
+[2024-05-31 08:52:41] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2024-05-31 08:52:41] INFO root fetch - processPackages [grid2fp]: Remove: archive file [/home/abi/fetcher/tmp/grid2fp-0.0.8.tar.gz]
+[2024-05-31 08:52:41] INFO root fetch - processPackages [grid2fp]: Remove: archive file [/home/abi/fetcher/tmp/grid2fp-0.0.9.tar.gz]
+[2024-05-31 08:52:41] INFO root fetch - main [MainThread]: End processing [grid2fp]: success
+[2024-05-31 08:52:41] INFO root fetch - main [MainThread]: Store serial: [23461568]
