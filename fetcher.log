@@ -17194,3 +17194,28 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 13:45:55] INFO root fetch - processPackages [glean-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glean_sdk-60.2.0.tar.gz]
 [2024-05-31 13:45:55] INFO root fetch - main [MainThread]: End processing [glean-sdk]: success
 [2024-05-31 13:45:55] INFO root fetch - main [MainThread]: Store serial: [23465013]
+[2024-05-31 13:47:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23465013]
+[2024-05-31 13:48:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-31 13:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-image-generation-metrics
+[2024-05-31 13:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phasegen
+[2024-05-31 13:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plantdrppred
+[2024-05-31 13:48:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: molgrid
+[2024-05-31 13:48:04] INFO root fetch - processPackages [phasegen]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2024-05-31 13:48:04] WARNING root fetch - processPackages [pytorch-image-generation-metrics]: Skipping, unable to determine old version
+[2024-05-31 13:48:04] INFO root fetch - main [MainThread]: End processing [pytorch-image-generation-metrics] error
+[2024-05-31 13:48:04] INFO root fetch - processPackages [plantdrppred]: New version: [1.3] Old Version: [1.2]
+[2024-05-31 13:48:04] INFO root fetch - processPackages [molgrid]: New version: [0.5.4] Old Version: [0.5.3.dev2]
+[2024-05-31 13:48:04] INFO root fetch - processPackages [phasegen]: Downloading https://files.pythonhosted.org/packages/f6/0e/995c47e0f7c3525e4198491bfe3665056daf5d6a3b6f227106255ebd46ef/phasegen-0.0.8b0.tar.gz
+[2024-05-31 13:48:04] INFO root fetch - processPackages [plantdrppred]: Downloading https://files.pythonhosted.org/packages/9e/c4/d92b360c62f7c79473bb631900b8ecc4bd6a46b5edf8579e396489c0fe17/plantdrppred-1.2.tar.gz
+[2024-05-31 13:48:04] WARNING root fetch - processPackages [plantdrppred]: Skipping package: exceeds size limit 61316554>=10485760
+[2024-05-31 13:48:04] INFO root fetch - main [MainThread]: End processing [plantdrppred] error
+[2024-05-31 13:48:04] INFO root fetch - processPackages [molgrid]: Downloading https://files.pythonhosted.org/packages/75/a2/0f911791927f563d8a741a9fae60d6bb2d208eb95787d4ddd28f3018b27d/molgrid-0.5.3.dev2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-31 13:48:04] WARNING root fetch - processPackages [molgrid]: Skipping package: exceeds size limit 27037079>=10485760
+[2024-05-31 13:48:04] INFO root fetch - main [MainThread]: End processing [molgrid] error
+[2024-05-31 13:48:04] INFO root fetch - processPackages [phasegen]: Downloading https://files.pythonhosted.org/packages/77/80/72d40e4e9d74af7b23ec52f54905c5845afdc96c5ebd66eb83e5fe2579e5/phasegen-0.0.9b0.tar.gz
+[2024-05-31 13:48:05] INFO root fetch - processPackages [phasegen]: executing diffoscope
+[2024-05-31 13:48:05] INFO root fetch - processPackages [phasegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phasegen-0.0.8b0.tar.gz tmp/phasegen-0.0.9b0.tar.gz --markdown 20240531/p/phasegen/0.0.8b0-0.0.9b0/README.md --exclude *.pyd
+[2024-05-31 13:48:05] INFO root fetch - processPackages [phasegen]: Remove: archive file [/home/abi/fetcher/tmp/phasegen-0.0.8b0.tar.gz]
+[2024-05-31 13:48:05] INFO root fetch - processPackages [phasegen]: Remove: archive file [/home/abi/fetcher/tmp/phasegen-0.0.9b0.tar.gz]
+[2024-05-31 13:48:05] INFO root fetch - main [MainThread]: End processing [phasegen]: success
+[2024-05-31 13:48:05] INFO root fetch - main [MainThread]: Store serial: [23465033]
