@@ -14277,3 +14277,51 @@
 [2024-05-31 11:55:45] INFO root fetch - processPackages [pulumi-scm]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_scm-0.2.0a1717147110.tar.gz]
 [2024-05-31 11:55:45] INFO root fetch - main [MainThread]: End processing [pulumi-scm]: success
 [2024-05-31 11:55:45] INFO root fetch - main [MainThread]: Store serial: [23463743]
+[2024-05-31 11:57:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463743]
+[2024-05-31 11:57:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-31 11:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lkj
+[2024-05-31 11:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chroma-haystack
+[2024-05-31 11:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docmesh-core
+[2024-05-31 11:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docmesh-agent
+[2024-05-31 11:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rpmfluff
+[2024-05-31 11:57:54] INFO root fetch - processPackages [lkj]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 11:57:54] INFO root fetch - processPackages [chroma-haystack]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-31 11:57:54] INFO root fetch - processPackages [docmesh-agent]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 11:57:54] INFO root fetch - processPackages [rpmfluff]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-31 11:57:54] INFO root fetch - processPackages [docmesh-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-31 11:57:54] INFO root fetch - processPackages [lkj]: Downloading https://files.pythonhosted.org/packages/0f/73/3332f9f5b64732db8dfa6e62490362a351d8e46b84efd133c7b5027a4d3b/lkj-0.1.8.tar.gz
+[2024-05-31 11:57:54] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/c3/b0/5fc9c83a2bcc65d8d51dca6ffee6eae36b23585bb31cc0af364af19c914d/docmesh_agent-0.0.8.tar.gz
+[2024-05-31 11:57:54] INFO root fetch - processPackages [chroma-haystack]: Downloading https://files.pythonhosted.org/packages/77/ba/9af06a85bbf93ca071fb250df5785ef270e9eb1700d91020ae88e6e2468e/chroma_haystack-0.8.1.tar.gz
+[2024-05-31 11:57:54] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/a3/79/d9bc004bfc279a44ed20456d2291276a0531edffff8ccdb16e8541ea48ca/docmesh_core-0.0.8.tar.gz
+[2024-05-31 11:57:54] INFO root fetch - processPackages [rpmfluff]: Downloading https://files.pythonhosted.org/packages/a7/17/f105f3935d593aac086e38e412ae40ec8443d9e39efaaa7fcd8c3dc40444/rpmfluff-0.6.3.tar.gz
+[2024-05-31 11:57:54] INFO root fetch - processPackages [lkj]: Downloading https://files.pythonhosted.org/packages/4c/50/4be8c1c918a9ff6ad3d14adddad6a75cfbd080299ee8085e2b7e3d633c78/lkj-0.1.9.tar.gz
+[2024-05-31 11:57:54] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/d6/89/4e5e06acbd9fd64c128954c7f0f43c0b5423e73d15cb7075e3e4d27c55f4/docmesh_core-0.0.9.tar.gz
+[2024-05-31 11:57:54] INFO root fetch - processPackages [rpmfluff]: Downloading https://files.pythonhosted.org/packages/46/2a/ac1e266520809bf6c43f382d89d9c2543cdc29ebf2ec047e890b80586885/rpmfluff-0.6.4.tar.gz
+[2024-05-31 11:57:54] INFO root fetch - processPackages [lkj]: executing diffoscope
+[2024-05-31 11:57:54] INFO root fetch - processPackages [lkj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lkj-0.1.8.tar.gz tmp/lkj-0.1.9.tar.gz --markdown 20240531/l/lkj/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 11:57:54] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/f1/74/15e929e9f72b2a648f760cad7f92f4689c6b6af3deda97d5d136baebe27c/docmesh_agent-0.0.9.tar.gz
+[2024-05-31 11:57:54] INFO root fetch - processPackages [docmesh-core]: executing diffoscope
+[2024-05-31 11:57:54] INFO root fetch - processPackages [docmesh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_core-0.0.8.tar.gz tmp/docmesh_core-0.0.9.tar.gz --markdown 20240531/d/docmesh-core/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 11:57:54] INFO root fetch - processPackages [chroma-haystack]: Downloading https://files.pythonhosted.org/packages/dc/17/6ce5a1e9947dbeabc684ccce0a753a1720972e1997c614591a4b41862fcc/chroma_haystack-0.9.0.tar.gz
+[2024-05-31 11:57:54] INFO root fetch - processPackages [docmesh-agent]: executing diffoscope
+[2024-05-31 11:57:54] INFO root fetch - processPackages [docmesh-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_agent-0.0.8.tar.gz tmp/docmesh_agent-0.0.9.tar.gz --markdown 20240531/d/docmesh-agent/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-31 11:57:54] INFO root fetch - processPackages [rpmfluff]: executing diffoscope
+[2024-05-31 11:57:54] INFO root fetch - processPackages [rpmfluff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpmfluff-0.6.3.tar.gz tmp/rpmfluff-0.6.4.tar.gz --markdown 20240531/r/rpmfluff/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-31 11:57:55] INFO root fetch - processPackages [chroma-haystack]: executing diffoscope
+[2024-05-31 11:57:55] INFO root fetch - processPackages [chroma-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chroma_haystack-0.8.1.tar.gz tmp/chroma_haystack-0.9.0.tar.gz --markdown 20240531/c/chroma-haystack/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-31 11:57:55] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.8.tar.gz]
+[2024-05-31 11:57:55] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.9.tar.gz]
+[2024-05-31 11:57:55] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
+[2024-05-31 11:57:55] INFO root fetch - processPackages [lkj]: Remove: archive file [/home/abi/fetcher/tmp/lkj-0.1.8.tar.gz]
+[2024-05-31 11:57:55] INFO root fetch - processPackages [lkj]: Remove: archive file [/home/abi/fetcher/tmp/lkj-0.1.9.tar.gz]
+[2024-05-31 11:57:55] INFO root fetch - main [MainThread]: End processing [lkj]: success
+[2024-05-31 11:57:55] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.8.tar.gz]
+[2024-05-31 11:57:55] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.9.tar.gz]
+[2024-05-31 11:57:55] INFO root fetch - main [MainThread]: End processing [docmesh-agent]: success
+[2024-05-31 11:57:55] INFO root fetch - processPackages [rpmfluff]: Remove: archive file [/home/abi/fetcher/tmp/rpmfluff-0.6.3.tar.gz]
+[2024-05-31 11:57:55] INFO root fetch - processPackages [rpmfluff]: Remove: archive file [/home/abi/fetcher/tmp/rpmfluff-0.6.4.tar.gz]
+[2024-05-31 11:57:55] INFO root fetch - main [MainThread]: End processing [rpmfluff]: success
+[2024-05-31 11:57:56] INFO root fetch - processPackages [chroma-haystack]: Remove: archive file [/home/abi/fetcher/tmp/chroma_haystack-0.8.1.tar.gz]
+[2024-05-31 11:57:56] INFO root fetch - processPackages [chroma-haystack]: Remove: archive file [/home/abi/fetcher/tmp/chroma_haystack-0.9.0.tar.gz]
+[2024-05-31 11:57:56] INFO root fetch - main [MainThread]: End processing [chroma-haystack]: success
+[2024-05-31 11:57:56] INFO root fetch - main [MainThread]: Store serial: [23463792]
