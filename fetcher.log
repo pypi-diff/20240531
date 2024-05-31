@@ -14190,3 +14190,90 @@
 [2024-05-31 11:53:33] INFO root fetch - processPackages [djehuty]: Remove: archive file [/home/abi/fetcher/tmp/djehuty-24.5.tar.gz]
 [2024-05-31 11:53:33] INFO root fetch - main [MainThread]: End processing [djehuty]: success
 [2024-05-31 11:53:33] INFO root fetch - main [MainThread]: Store serial: [23463682]
+[2024-05-31 11:55:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23463682]
+[2024-05-31 11:55:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-31 11:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: close-dot-io
+[2024-05-31 11:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotrain-advanced
+[2024-05-31 11:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botasaurus-server
+[2024-05-31 11:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audiness
+[2024-05-31 11:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: javascript-fixes
+[2024-05-31 11:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: olas-operate-middleware
+[2024-05-31 11:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-scm
+[2024-05-31 11:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dinamis-sdk
+[2024-05-31 11:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: baml-py
+[2024-05-31 11:55:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: extended-fastapi
+[2024-05-31 11:55:42] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.99] Old Version: [0.7.98]
+[2024-05-31 11:55:42] INFO root fetch - processPackages [botasaurus-server]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-31 11:55:42] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-31 11:55:42] INFO root fetch - processPackages [dinamis-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-31 11:55:42] INFO root fetch - processPackages [javascript-fixes]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-31 11:55:42] INFO root fetch - processPackages [close-dot-io]: New version: [0.0.916] Old Version: [0.0.915]
+[2024-05-31 11:55:42] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/ac/00/d85bb6880871f52143666a7c240275c003f62329ad3ab644121e6accb491/autotrain-advanced-0.7.98.tar.gz
+[2024-05-31 11:55:42] WARNING root fetch - processPackages [extended-fastapi]: Skipping, unable to determine old version
+[2024-05-31 11:55:42] INFO root fetch - main [MainThread]: End processing [extended-fastapi] error
+[2024-05-31 11:55:42] INFO root fetch - processPackages [pulumi-scm]: New version: [0.2.0a1717147110] Old Version: [0.2.0a1716962294]
+[2024-05-31 11:55:42] INFO root fetch - processPackages [audiness]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-31 11:55:42] INFO root fetch - processPackages [baml-py]: New version: [0.32.1] Old Version: [0.32.0]
+[2024-05-31 11:55:42] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/f0/29/6236cf00c97e9e74fa0c4e7fb1f7ef957e52111b705e85e89defe4ec7de6/botasaurus_server-4.0.8.tar.gz
+[2024-05-31 11:55:42] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-31 11:55:42] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/a2/fc/589f71f0fc200a46288f63f37f2d6eb7bfd1c3632f947b8dfc5bf5730c89/dinamis_sdk-0.1.8.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [javascript-fixes]: Downloading https://files.pythonhosted.org/packages/e0/a1/6334f957703a41a048df57d46196e7c8042a9823d0e6836c849da57f44c4/javascript_fixes-1.1.8.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [close-dot-io]: Downloading https://files.pythonhosted.org/packages/19/30/aca8a8dc175178fa4a9f27288832cdb9583c63f725bc23596715f06d7655/close_dot_io-0.0.915.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [pulumi-scm]: Downloading https://files.pythonhosted.org/packages/bc/ae/2fcc240a81e0f352d5d59262312a32d3615b8c21ca57f9c9c141254f9004/pulumi_scm-0.2.0a1716962294.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/46/66/8fd4c20ef4a15d99a5e3458ce36c47973125d65988d9a1dead4a1ee9d335/baml_py-0.32.0-cp38-abi3-win_amd64.whl
+[2024-05-31 11:55:43] INFO root fetch - processPackages [audiness]: Downloading https://files.pythonhosted.org/packages/12/62/ddc482e9a39cc9725d71d5914d76b675810b438e1703592b106a4253b117/audiness-0.4.0.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/60/f5/a6239b61de5eca8ffa20f8f614947908cd1c1e89a03bb1809bf9f229b9b1/dinamis_sdk-0.1.9.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/d8/4c/a57fe5dc80fe1c04db23903261d5d0320d8477c1efc1461f1d2ce5ccc1e4/autotrain-advanced-0.7.99.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [javascript-fixes]: Downloading https://files.pythonhosted.org/packages/14/b2/5bdaa724b8091d93de2b0c5758984791a23e65b561703e97973c83245384/javascript_fixes-1.1.9.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/03/11/ef707a7fce8129a4d151622283f54a8d7ab9c844defd6f5f294b0bac1632/botasaurus_server-4.0.9.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [dinamis-sdk]: executing diffoscope
+[2024-05-31 11:55:43] INFO root fetch - processPackages [dinamis-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinamis_sdk-0.1.8.tar.gz tmp/dinamis_sdk-0.1.9.tar.gz --markdown 20240531/d/dinamis-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-31 11:55:43] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-31 11:55:43] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.98.tar.gz tmp/autotrain-advanced-0.7.99.tar.gz --markdown 20240531/a/autotrain-advanced/0.7.98-0.7.99/README.md --exclude *.pyd
+[2024-05-31 11:55:43] INFO root fetch - processPackages [javascript-fixes]: executing diffoscope
+[2024-05-31 11:55:43] INFO root fetch - processPackages [javascript-fixes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/javascript_fixes-1.1.8.tar.gz tmp/javascript_fixes-1.1.9.tar.gz --markdown 20240531/j/javascript-fixes/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-31 11:55:43] INFO root fetch - processPackages [close-dot-io]: Downloading https://files.pythonhosted.org/packages/a7/43/c7c748ca831e612a1c92ef0d0ddec1c1f5e2a0310f28ffb2caa6fa738c29/close_dot_io-0.0.916.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-31 11:55:43] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240531/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-31 11:55:43] INFO root fetch - processPackages [botasaurus-server]: executing diffoscope
+[2024-05-31 11:55:43] INFO root fetch - processPackages [botasaurus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_server-4.0.8.tar.gz tmp/botasaurus_server-4.0.9.tar.gz --markdown 20240531/b/botasaurus-server/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-31 11:55:43] INFO root fetch - processPackages [audiness]: Downloading https://files.pythonhosted.org/packages/f2/21/4536ed392428d12261dbb2baa55eb734efaf6d158e9ac2810a9d39628128/audiness-0.5.0.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [pulumi-scm]: Downloading https://files.pythonhosted.org/packages/1d/0d/5c1a57357c21fd9bf54f894e2b7b5621a4282884ba44d5e2ed90b458f7e6/pulumi_scm-0.2.0a1717147110.tar.gz
+[2024-05-31 11:55:43] INFO root fetch - processPackages [close-dot-io]: executing diffoscope
+[2024-05-31 11:55:43] INFO root fetch - processPackages [close-dot-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/close_dot_io-0.0.915.tar.gz tmp/close_dot_io-0.0.916.tar.gz --markdown 20240531/c/close-dot-io/0.0.915-0.0.916/README.md --exclude *.pyd
+[2024-05-31 11:55:43] INFO root fetch - processPackages [audiness]: executing diffoscope
+[2024-05-31 11:55:43] INFO root fetch - processPackages [audiness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiness-0.4.0.tar.gz tmp/audiness-0.5.0.tar.gz --markdown 20240531/a/audiness/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-31 11:55:43] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/35/f7/6501c961296a3b74da998d4cd79566667a086e667c8f40a3a885f2669c4c/baml_py-0.32.1-cp38-abi3-win_amd64.whl
+[2024-05-31 11:55:43] INFO root fetch - processPackages [pulumi-scm]: executing diffoscope
+[2024-05-31 11:55:43] INFO root fetch - processPackages [pulumi-scm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_scm-0.2.0a1716962294.tar.gz tmp/pulumi_scm-0.2.0a1717147110.tar.gz --markdown 20240531/p/pulumi-scm/0.2.0a1716962294-0.2.0a1717147110/README.md --exclude *.pyd
+[2024-05-31 11:55:44] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis_sdk-0.1.8.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis_sdk-0.1.9.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - main [MainThread]: End processing [dinamis-sdk]: success
+[2024-05-31 11:55:44] INFO root fetch - processPackages [javascript-fixes]: Remove: archive file [/home/abi/fetcher/tmp/javascript_fixes-1.1.8.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - processPackages [javascript-fixes]: Remove: archive file [/home/abi/fetcher/tmp/javascript_fixes-1.1.9.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - main [MainThread]: End processing [javascript-fixes]: success
+[2024-05-31 11:55:44] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-31 11:55:44] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.8.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.9.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - main [MainThread]: End processing [botasaurus-server]: success
+[2024-05-31 11:55:44] INFO root fetch - processPackages [baml-py]: executing diffoscope
+[2024-05-31 11:55:44] INFO root fetch - processPackages [baml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml_py-0.32.0-cp38-abi3-win_amd64.whl.zip tmp/baml_py-0.32.1-cp38-abi3-win_amd64.whl.zip --markdown 20240531/b/baml-py/0.32.0-0.32.1/README.md --exclude *.pyd
+[2024-05-31 11:55:44] INFO root fetch - processPackages [audiness]: Remove: archive file [/home/abi/fetcher/tmp/audiness-0.4.0.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - processPackages [audiness]: Remove: archive file [/home/abi/fetcher/tmp/audiness-0.5.0.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - main [MainThread]: End processing [audiness]: success
+[2024-05-31 11:55:44] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.98.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.99.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-31 11:55:44] INFO root fetch - processPackages [close-dot-io]: Remove: archive file [/home/abi/fetcher/tmp/close_dot_io-0.0.915.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - processPackages [close-dot-io]: Remove: archive file [/home/abi/fetcher/tmp/close_dot_io-0.0.916.tar.gz]
+[2024-05-31 11:55:44] INFO root fetch - main [MainThread]: End processing [close-dot-io]: success
+[2024-05-31 11:55:45] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.32.0-cp38-abi3-win_amd64.whl.zip]
+[2024-05-31 11:55:45] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.32.1-cp38-abi3-win_amd64.whl.zip]
+[2024-05-31 11:55:45] INFO root fetch - main [MainThread]: End processing [baml-py]: success
+[2024-05-31 11:55:45] INFO root fetch - processPackages [pulumi-scm]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_scm-0.2.0a1716962294.tar.gz]
+[2024-05-31 11:55:45] INFO root fetch - processPackages [pulumi-scm]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_scm-0.2.0a1717147110.tar.gz]
+[2024-05-31 11:55:45] INFO root fetch - main [MainThread]: End processing [pulumi-scm]: success
+[2024-05-31 11:55:45] INFO root fetch - main [MainThread]: Store serial: [23463743]
