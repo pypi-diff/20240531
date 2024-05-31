@@ -21490,3 +21490,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-31 16:21:19] INFO root fetch - processPackages [dataiku-api-client]: Remove: archive file [/home/abi/fetcher/tmp/dataiku-api-client-9.0.1.tar.gz]
 [2024-05-31 16:21:19] INFO root fetch - main [MainThread]: End processing [dataiku-api-client]: success
 [2024-05-31 16:21:19] INFO root fetch - main [MainThread]: Store serial: [23466877]
+[2024-05-31 16:23:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23466877]
+[2024-05-31 16:23:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-31 16:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frida
+[2024-05-31 16:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: df_file_interchange
+[2024-05-31 16:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: halftone-converter
+[2024-05-31 16:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ontosample
+[2024-05-31 16:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snowflake-cli-labs
+[2024-05-31 16:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xchainpy2-client
+[2024-05-31 16:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xchainpy2-crypto
+[2024-05-31 16:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unzipwalk
+[2024-05-31 16:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xchainpy2-bitcoin
+[2024-05-31 16:23:28] INFO root fetch - processPackages [frida]: New version: [9.1.9] Old Version: [9.1.8]
+[2024-05-31 16:23:28] INFO root fetch - processPackages [ontosample]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-31 16:23:28] INFO root fetch - processPackages [xchainpy2-crypto]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-31 16:23:28] INFO root fetch - processPackages [snowflake-cli-labs]: New version: [2.4.0rc1] Old Version: [2.4.0rc0]
+[2024-05-31 16:23:28] INFO root fetch - processPackages [df_file_interchange]: New version: [0.0.16a0] Old Version: [0.0.15a0]
+[2024-05-31 16:23:28] INFO root fetch - processPackages [unzipwalk]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-31 16:23:28] INFO root fetch - processPackages [halftone-converter]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-05-31 16:23:28] WARNING root fetch - processPackages [xchainpy2-bitcoin]: Skipping, unable to determine old version
+[2024-05-31 16:23:28] INFO root fetch - main [MainThread]: End processing [xchainpy2-bitcoin] error
+[2024-05-31 16:23:28] INFO root fetch - processPackages [frida]: Downloading https://files.pythonhosted.org/packages/e1/97/852b702cd6e05f35c59113a5448910759461d10d5cb843b2b8b8fbb6d671/frida-9.1.8.tar.gz
+[2024-05-31 16:23:28] INFO root fetch - processPackages [ontosample]: Downloading https://files.pythonhosted.org/packages/8b/9b/ff93bdbd101de1abbaa7d8ad58bb775f89be9673fd3cf2b696ed284c60cf/ontosample-0.2.3.tar.gz
+[2024-05-31 16:23:28] INFO root fetch - processPackages [xchainpy2-client]: New version: [0.0.5] Old Version: [0.0.15]
+[2024-05-31 16:23:28] INFO root fetch - processPackages [xchainpy2-crypto]: Downloading https://files.pythonhosted.org/packages/04/65/369cab7fc4a5b569036fc57963e87aab816510b24b46b01fdbd5e43dd779/xchainpy2_crypto-0.0.6.tar.gz
+[2024-05-31 16:23:28] INFO root fetch - processPackages [unzipwalk]: Downloading https://files.pythonhosted.org/packages/bc/c8/59c253cf8997f8f4a58cd10f87418c8b0e530eb6f3a1a3cd1a1fc1516ab5/unzipwalk-1.0.0.tar.gz
+[2024-05-31 16:23:28] INFO root fetch - processPackages [df_file_interchange]: Downloading https://files.pythonhosted.org/packages/5c/ed/d103d90db7490da565c9fbbba9a5cefdb5f3abcfdd4b4b96820c646412f0/df_file_interchange-0.0.15a0.tar.gz
+[2024-05-31 16:23:28] INFO root fetch - processPackages [halftone-converter]: Downloading https://files.pythonhosted.org/packages/1a/c5/77018cbfebe76c7e114768fcf59ce7dc828df85e910d89b87cbdab88e924/halftone_converter-2.5.2.tar.gz
+[2024-05-31 16:23:28] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/34/fb/911241fc81c4dea573bc3e838936e1a455ca62862de7aeb115f21cda63f8/snowflake_cli_labs-2.4.0rc0.tar.gz
+[2024-05-31 16:23:28] WARNING root fetch - processPackages [halftone-converter]: Skipping package: exceeds size limit 19404956>=10485760
+[2024-05-31 16:23:28] INFO root fetch - main [MainThread]: End processing [halftone-converter] error
+[2024-05-31 16:23:29] INFO root fetch - processPackages [xchainpy2-client]: Downloading https://files.pythonhosted.org/packages/16/53/43e2d112d7d0255b5488c1431cbfe0227e801ece605be788854d6ade6702/xchainpy2_client-0.0.15.tar.gz
+[2024-05-31 16:23:29] INFO root fetch - processPackages [frida]: Downloading https://files.pythonhosted.org/packages/4e/ca/ee40ef1d5013300a77152ff0687caedc3b5ea1f786bf3e0b778de5fc0b8a/frida-9.1.9.tar.gz
+[2024-05-31 16:23:29] INFO root fetch - processPackages [ontosample]: Downloading https://files.pythonhosted.org/packages/fa/b8/a30fa08f289fdd8c3f1a89bb72d35b4ea314d3783f7b7bdf9184bd412a2a/ontosample-0.2.4.tar.gz
+[2024-05-31 16:23:29] INFO root fetch - processPackages [unzipwalk]: Downloading https://files.pythonhosted.org/packages/ef/4b/631bb41f794cf21336930a98ba3cacc28af0130db1e3d31110784df1897f/unzipwalk-1.1.0.tar.gz
+[2024-05-31 16:23:29] INFO root fetch - processPackages [xchainpy2-crypto]: Downloading https://files.pythonhosted.org/packages/9b/0a/3c69f60f86801ad683586590bb3b500c33c8aec71e249f49848ef00f4a5a/xchainpy2_crypto-0.0.7.tar.gz
+[2024-05-31 16:23:29] INFO root fetch - processPackages [df_file_interchange]: Downloading https://files.pythonhosted.org/packages/82/ed/a4854be4c25fa1d253028c01d46ef67f2cf9a18b45adce7568c7a205b4c9/df_file_interchange-0.0.16a0.tar.gz
+[2024-05-31 16:23:29] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/4b/56/742c35f7e533728dab8dec9510892d84ad2f4d2c719578ebdfaada5132f0/snowflake_cli_labs-2.4.0rc1.tar.gz
+[2024-05-31 16:23:29] INFO root fetch - processPackages [ontosample]: executing diffoscope
+[2024-05-31 16:23:29] INFO root fetch - processPackages [ontosample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontosample-0.2.3.tar.gz tmp/ontosample-0.2.4.tar.gz --markdown 20240531/o/ontosample/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-31 16:23:29] INFO root fetch - processPackages [unzipwalk]: executing diffoscope
+[2024-05-31 16:23:29] INFO root fetch - processPackages [unzipwalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unzipwalk-1.0.0.tar.gz tmp/unzipwalk-1.1.0.tar.gz --markdown 20240531/u/unzipwalk/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-31 16:23:29] INFO root fetch - processPackages [df_file_interchange]: executing diffoscope
+[2024-05-31 16:23:29] INFO root fetch - processPackages [df_file_interchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/df_file_interchange-0.0.15a0.tar.gz tmp/df_file_interchange-0.0.16a0.tar.gz --markdown 20240531/d/df_file_interchange/0.0.15a0-0.0.16a0/README.md --exclude *.pyd
+[2024-05-31 16:23:29] INFO root fetch - processPackages [xchainpy2-client]: Downloading https://files.pythonhosted.org/packages/b1/ab/81de3fc3ff576115904a5144bed7a7e2cd884679aba7c5ff63538d1a875c/xchainpy2_client-0.0.5.tar.gz
+[2024-05-31 16:23:29] INFO root fetch - processPackages [xchainpy2-crypto]: executing diffoscope
+[2024-05-31 16:23:29] INFO root fetch - processPackages [xchainpy2-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchainpy2_crypto-0.0.6.tar.gz tmp/xchainpy2_crypto-0.0.7.tar.gz --markdown 20240531/x/xchainpy2-crypto/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-31 16:23:29] INFO root fetch - processPackages [frida]: executing diffoscope
+[2024-05-31 16:23:29] INFO root fetch - processPackages [frida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frida-9.1.8.tar.gz tmp/frida-9.1.9.tar.gz --markdown 20240531/f/frida/9.1.8-9.1.9/README.md --exclude *.pyd
+[2024-05-31 16:23:29] INFO root fetch - processPackages [snowflake-cli-labs]: executing diffoscope
+[2024-05-31 16:23:29] INFO root fetch - processPackages [snowflake-cli-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_cli_labs-2.4.0rc0.tar.gz tmp/snowflake_cli_labs-2.4.0rc1.tar.gz --markdown 20240531/s/snowflake-cli-labs/2.4.0rc0-2.4.0rc1/README.md --exclude *.pyd
+[2024-05-31 16:23:29] INFO root fetch - processPackages [xchainpy2-client]: executing diffoscope
+[2024-05-31 16:23:29] INFO root fetch - processPackages [xchainpy2-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240531:/home/abi/fetcher/20240531:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchainpy2_client-0.0.15.tar.gz tmp/xchainpy2_client-0.0.5.tar.gz --markdown 20240531/x/xchainpy2-client/0.0.15-0.0.5/README.md --exclude *.pyd
+[2024-05-31 16:23:30] INFO root fetch - processPackages [xchainpy2-crypto]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_crypto-0.0.6.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - processPackages [xchainpy2-crypto]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_crypto-0.0.7.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - main [MainThread]: End processing [xchainpy2-crypto]: success
+[2024-05-31 16:23:30] INFO root fetch - processPackages [df_file_interchange]: Remove: archive file [/home/abi/fetcher/tmp/df_file_interchange-0.0.15a0.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - processPackages [df_file_interchange]: Remove: archive file [/home/abi/fetcher/tmp/df_file_interchange-0.0.16a0.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - main [MainThread]: End processing [df_file_interchange]: success
+[2024-05-31 16:23:30] INFO root fetch - processPackages [ontosample]: Remove: archive file [/home/abi/fetcher/tmp/ontosample-0.2.3.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - processPackages [ontosample]: Remove: archive file [/home/abi/fetcher/tmp/ontosample-0.2.4.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - main [MainThread]: End processing [ontosample]: success
+[2024-05-31 16:23:30] INFO root fetch - processPackages [frida]: Remove: archive file [/home/abi/fetcher/tmp/frida-9.1.8.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - processPackages [frida]: Remove: archive file [/home/abi/fetcher/tmp/frida-9.1.9.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - main [MainThread]: End processing [frida]: success
+[2024-05-31 16:23:30] INFO root fetch - processPackages [unzipwalk]: Remove: archive file [/home/abi/fetcher/tmp/unzipwalk-1.0.0.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - processPackages [unzipwalk]: Remove: archive file [/home/abi/fetcher/tmp/unzipwalk-1.1.0.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - main [MainThread]: End processing [unzipwalk]: success
+[2024-05-31 16:23:30] INFO root fetch - processPackages [xchainpy2-client]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_client-0.0.15.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - processPackages [xchainpy2-client]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2_client-0.0.5.tar.gz]
+[2024-05-31 16:23:30] INFO root fetch - main [MainThread]: End processing [xchainpy2-client]: success
+[2024-05-31 16:23:31] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.4.0rc0.tar.gz]
+[2024-05-31 16:23:31] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.4.0rc1.tar.gz]
+[2024-05-31 16:23:31] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
+[2024-05-31 16:23:31] INFO root fetch - main [MainThread]: Store serial: [23466904]
